@@ -1,0 +1,86 @@
+# Site settings
+title: Human Interaction and Robotics Laboratory
+email: alessandro.roncone@colorado.edu
+url: https://HIRO-lab.github.io
+phone: +1 (303) 735-6233
+# google-analytics-id: UA-80094809-1
+description: "Website for the Human Interaction and RObotics [HIRO] laboratory."
+owner: Human Interaction and Robotics Laboratory
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github-alt
+    url: http://github.com/HIRO-lab
+
+logo: /img/logo.svg
+logo2: /img/logo2.svg
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 1111 Engineering Dr,
+  - line: Computer Science Dept, University of Colorado,
+  - line: Boulder, 80309, CO, U.S.A.
+
+# Build settings
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  highlighter: rouge
+  toc_levels: "1,2,3"
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+  - rouge
+  - jekyll-seo-tag
+  - jemoji
+  #- jekyll-mentions
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "_posts"
+    values:
+      type: "article"
+  -
+    scope:
+      path: "_posts/wiki"
+    values:
+      category: "wiki"
+
+# Some more default colors (hex-codes without the leading hash-tag),
+# with a number of combinations to play with
+color:
+# ORIGINAL - B&W
+  banner: 66a329                            # This is a green banner color (for red, use bf4040)
+  articletext: 292929                       # This is the text color
+  primary:  f9fafb                          # This is the background of the logo, light gray
+  secondary: 3c3c3c                         # This is dark gray
+  secondary-dark: 323232                    # This is darker gray
+  secondary-alpha: rgba(40,40,40,.7)        # This is the same as the secondary color but with an alpha value
+  # accent: 4982a7
+  accent: 3d6c8b                            # This is a light blue accent
+# ALTERNATIVE 0
+  # articletext: 292929                     # This is the text color
+  # primary: f9fafb                         # This is the gray color with a blue tint
+  # secondary: 0892d0                       # This is the blue color
+  # secondary-dark: 055c83                  # This is the blue color
+  # secondary-alpha: rgba(84,99,116,.7)     # This is the same as the secondary color but with an alpha value
+  # accent: e20e59                          # These are the pink accents
+# ALTERNATIVE 1
+  # primary: f9fafb                         # This is gray
+  # secondary: ca6558                       # This is reddish
+  # secondary-dark: b9493b                  # This is reddish
+  # accent: 8ca08d                          # This is greenish
+# ALTERNATIVE 2
+  # secondary: 589ee4                       # This is blueish
+  # secondary-dark: 368ade                  # This is blueish
+  # accent: ed6152                          # This is reddish
+# ALTERNATIVE 3
+  # accent: 53c3cb                          # This is greenish
+  # secondary: f4676d                       # This is reddish
+  # secondary-dark: f24e55                  # This is reddish
