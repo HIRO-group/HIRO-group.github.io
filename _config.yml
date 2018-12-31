@@ -58,9 +58,8 @@ color:
 # ORIGINAL - B&W
   banner: 66a329                            # This is a green banner color (for red, use bf4040)
   articletext: 292929                       # This is the text color
-  primary:  f9fafb                          # This is the background of the logo, light gray
-  secondary: 3c3c3c                         # This is dark gray
-  secondary-dark: 323232                    # This is darker gray
+  primary:  ffffff                          # This is the background of the logo, light gray
+  secondary: 323232                         # This is dark gray
   secondary-alpha: rgba(40,40,40,.7)        # This is the same as the secondary color but with an alpha value
   # accent: 4982a7
   accent: 3d6c8b                            # This is a light blue accent

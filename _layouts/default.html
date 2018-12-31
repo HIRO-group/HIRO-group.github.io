@@ -7,6 +7,14 @@
 
     {% include header.html %}
 
+    {% if page.type == "research" or page.type == "wiki" %}
+      {% include portfolio.html %}
+    {% elsif page.type == "publications" %}
+      {{ content }}
+    {% else %}
+      {% include article.html %}
+    {% endif %}
+
     {% include footer.html %}
 
     </body>

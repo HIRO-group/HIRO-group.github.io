@@ -35,6 +35,9 @@
                     <a class="nav-link" href="/wiki.html">wiki</a>
                 </li>
                 {% endif %}
+                <li class="nav-item page-scroll">
+                    <a class="nav-link" href="/student_opportunities.html">student opportunities</a>
+                </li>
 
             </ul>
         </div>
@@ -42,20 +45,24 @@
     </nav>
 
     <!-- Header -->
+    {% if page.type != "article" %}
     <header>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <img class="img-fluid with-shadow-on-hover logo-img" src="{{ site.logo2 }}" alt="alecive-logo">
                     <div class="intro-text">
-                        <span class="name">{{ page.type }}</span>
-                        <hr class="separating-line">
-                        <span class="owner">{{ site.owner }}</span>
+                        {% if page.type == "research" %}<span class="owner">{{ site.owner }}</span>
+                        {% elsif page.type == "wiki" %}<span class="name">{{ page.type }}</span>
+                        {% endif %}
+
+                        <!-- <hr class="separating-line"> -->
                     </div>
                 </div>
             </div>
         </div>
     </header>
+    {% endif %}
 
     {% if site.banner %}
         {% if site.banner-link %}<a href="{{ site.url }}/{{ site.banner-link }}" target="_blank">{% endif %}

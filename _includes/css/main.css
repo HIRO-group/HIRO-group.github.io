@@ -83,7 +83,7 @@ a:focus,
 a:active,
 a.active,
 #article a:hover,
-#blog a:hover h3,
+#wiki a:hover h3,
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus {
     color: #{{ site.color.accent }};
@@ -129,6 +129,10 @@ header img:hover,
     -webkit-transition: all ease 1s;
     -moz-transition: all ease 1s;
     transition: all ease 1s;
+}
+
+header > div {
+    border-bottom: 1px solid #{{ site.color.articletext }};
 }
 
 h1,
@@ -635,13 +639,13 @@ section.success p {
 }
 
 #article a,
-#blog a h3 {
+#wiki a h3 {
     text-decoration: none;
-    color: #{{ site.color.secondary-dark }};
+    color: #{{ site.color.secondary }};
     font-weight: 700; /* this is bold */
 }
 
-#blog a h3 {
+#wiki a h3 {
     font-size: 1.85em;
     font-weight: 300;
     margin-top: 20px;
@@ -806,14 +810,14 @@ section.success p {
     }
 }
 
-#blog .post-date {
+#wiki .post-date {
     text-align: right;
     margin-bottom: -20px;
     opacity: 0.5;
 }
 
-#blog .post-date,
-#blog .post-description {
+#wiki .post-date,
+#wiki .post-description {
     font-weight: normal;
 }
 
@@ -937,7 +941,7 @@ span:hover,
 span:focus,
 span:active {
     /*color: #fff;*/
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.secondary }};
 }
 
 span.label e.hover {
@@ -1002,7 +1006,7 @@ span.label:hover e.ok {
     padding: 0px 30px 0px 10px;
     line-height: 22px;
     color: #FFF;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.secondary }};
 }
 
 #article .progress > .progress-completed {
@@ -1013,7 +1017,7 @@ span.label:hover e.ok {
     /*font-size: 0.82em;*/
     background:transparent;
     margin: 0px;
-    color: #{{ site.color.secondary-dark }};
+    color: #{{ site.color.secondary }};
 }
 
 #article .cv-item {
@@ -1148,7 +1152,7 @@ span.label:hover e.ok {
 .btn-outline.active {
     border: solid 2px #fff;
     background: #fff;
-    color: #{{ site.color.secondary-dark }};
+    color: #{{ site.color.secondary }};
 }
 
 .btn-social {
@@ -1181,7 +1185,7 @@ span.label:hover e.ok {
 .btn-default:focus,
 .btn-default:active {
     color: #fff;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.secondary }};
 }
 
 #article a .btn-danger,
@@ -1216,7 +1220,7 @@ footer .footer-above {
 footer .footer-below {
     font-size: 0.85em;
     padding: 14px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.secondary }};
 }
 
 .btn:focus,
@@ -1241,12 +1245,12 @@ footer .footer-below {
     font-size: 20px;
     line-height: 28px;
     border: none;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.secondary }};
 }
 
 .scroll-top .btn:focus {
     color: #fff;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.secondary }};
 }
 
 .scroll-top .btn:focus:hover {
