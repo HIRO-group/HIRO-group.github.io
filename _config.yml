@@ -64,7 +64,7 @@ color:
   secondary: 282828                         # This is dark gray
   secondary-alpha: rgba(40,40,40,.7)        # This is the same as the secondary color but with an alpha value
   # accent: 4982a7
-  accent: 3d6c8b                            # This is a light blue accent
+  accent: 00b8b8                            # This is a light blue accent
 # ALTERNATIVE 0
   # articletext: 292929                     # This is the text color
   # primary: f9fafb                         # This is the gray color with a blue tint

@@ -371,8 +371,8 @@ header .intro-text .owner {
 
 @media(max-width:991px) {
     .navbar-brand {
-        width: 60px;
         height: 60px;
+        background-image: url("{{ site.logo2 }}");
     }
 
     .navbar-nav .nav-link {
