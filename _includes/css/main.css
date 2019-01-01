@@ -237,7 +237,7 @@ header img {
 }
 
 .logo-img {
-    padding: 25px;
+    padding: 15px;
     max-width: 196px;
     box-sizing: border-box;
 }
@@ -293,7 +293,7 @@ header .intro-text .owner {
     }
 
     .logo-img {
-        padding: 35px;
+        padding: 25px;
         max-width: 256px;
     }
 
@@ -350,22 +350,29 @@ header .intro-text .owner {
 .navbar-brand {
     padding: 0px;
     height: auto;
-    margin: 0px;
+    margin:  4px;
 }
 
-.navbar-brand img {
-    margin-left: 10px;
-    margin-right: 25px;
-    width: 90px;
-    height: 90px;
+.navbar-brand {
+    min-width: 96px;
+    width: 96px;
+    height: 96px;
     transition: all ease .3s;
+    background: url("{{ site.logo }}") no-repeat;
+    background-size: contain;
+}
+
+.navbar-shrink .navbar-brand {
+    min-width: 90px;
+    width: 90px;
+    height: 60px;
+    background-image: url("{{ site.logo2 }}");
 }
 
 @media(max-width:991px) {
-    .navbar-brand img {
-        width: 70px;
-        height: 70px;
-        margin-right: 10px;
+    .navbar-brand {
+        width: 60px;
+        height: 60px;
     }
 
     .navbar-nav .nav-link {

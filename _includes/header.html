@@ -2,7 +2,6 @@
     <nav id="navbar-scrollspy" class="navbar fixed-top navbar-expand-lg no-print">
         <div class="container">
         <a class="navbar-brand" href="{% if page.type == "research" %}#page-top{% else %}/{% endif %}">
-            <img class="img-fluid" src="{{ site.logo }}">
         </a>
         <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span> </span>
@@ -45,12 +44,12 @@
     </nav>
 
     <!-- Header -->
-    {% if page.type != "article" %}
+    {% if page.type != "article" and page.type != "fourofour" %}
     <header>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-fluid with-shadow-on-hover logo-img" src="{{ site.logo2 }}" alt="alecive-logo">
+                    <img class="img-fluid with-shadow-on-hover logo-img" src="{{ site.logo }}" alt="{{ site.owner-short }}-logo">
                     <div class="intro-text">
                         {% if page.type == "research" %}<span class="owner">{{ site.owner }}</span>
                         {% elsif page.type == "wiki" %}<span class="name">{{ page.type }}</span>
