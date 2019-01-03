@@ -61,7 +61,7 @@
                     <img class="img-fluid with-shadow-on-hover logo-img" src="{{ site.logo }}" alt="{{ site.owner-short }}-logo">
                     <div class="intro-text">
                         {% if page.type == "research" %}<span class="owner">{{ site.owner }}</span>
-                        {% elsif page.type == "wiki" %}<span class="name">{{ page.type }}</span>
+                        {% else %}<span class="name">{{ page.type }}</span>
                         {% endif %}
 
                         <!-- <hr class="separating-line"> -->

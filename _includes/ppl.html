@@ -1,0 +1,28 @@
+
+        <div class="card-columns {% if include.size == "big" %}big{% endif %}">
+        {% for person in site.data.people %}
+
+            {% if include.role == "all" %} {% assign role =  person.role %}
+            {% else %}                     {% assign role = include.role %}
+            {% endif %}
+
+            {% if role == person.role %}
+            <div class="card mb-3">
+              <div class="row no-gutters">
+                {% if include.size == "big" %}<div class="col-md-3 mx-auto">{% else %}<div class="col-md-4">{% endif %}
+                    <img src="{{ site.url }}/img/people/{{ person.pic }}" class="img-fluid" style="width: 100%">
+                </div>
+                {% if include.size == "big" %}<div class="col-md-9">{% else %}<div class="col-md-8">{% endif %}
+                  <div class="card-body">
+                    {% if include.size == "big" %}<h2 class="card-title">{{ person.name }}</h2>{% else %}<h3 class="card-title">{{ person.name }}</h3>{% endif %}
+                    {% if person.office %}<p class="card-text"><i class="fa fa-fw fa-briefcase"></i> {{ person.office }}</p>{% endif %}
+                    {% if person.phone %}<p class="card-text"><i class="fa fa-fw fa-phone"></i>{{ person.phone }}</p>{% endif %}
+                    {% if person.email %}<a href="mailto:{{ person.email }}" class="card-link"><i class="fa fa-fw fa-envelope"></i>{{ person.email }}</a>{% endif %}
+                    {% if person.url %}<a href="{{ person.url }}" target="_blank" class="card-link"><i class="fa fa-fw fa-home"></i>{{ person.url }}</a>{% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+        </div>

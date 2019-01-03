@@ -9,7 +9,7 @@
 
     {% if page.type == "research" or page.type == "wiki" %}
       {% include portfolio.html %}
-    {% elsif page.type == "publications" %}
+    {% elsif page.type == "publications" or page.type == "people" %}
       {{ content }}
     {% else %}
       {% include article.html %}

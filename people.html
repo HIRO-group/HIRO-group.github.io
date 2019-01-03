@@ -1,0 +1,30 @@
+---
+permalink: people.html
+type: people
+description: "List of members of the HIRO laboratory"
+roles:
+ - faculty
+ - grad
+ - undergrad
+---
+
+<section id="post-cv">
+    <div class="container">
+        <div id="article">
+
+        {% include ppl.html role="faculty" size="big" %}
+
+        <h1>Graduate Students</h1>
+
+        {% include ppl.html role="grad" %}
+
+        <h1>Undergraduate Research Assistants</h1>
+
+        {% include ppl.html role="undergrad" %}
+
+        </div>
+    </div>
+</section>
+
+
+

@@ -692,6 +692,34 @@ section.success p {
     border-left-width: 10px;
 }
 
+#article .card {
+    border: none;
+}
+
+#article .card-body h2,
+#article .card-body h3 {
+    border: none;
+    padding-left: 0;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+
+#article .card-body p,
+#article .card-body a {
+    display: block;
+    margin-bottom: 4px;
+    margin-left: 0px;
+}
+
+#article .card-columns {
+    column-count: 2;
+}
+
+
+#article .card-columns.big {
+    column-count: 1;
+}
+
 #markdown-toc {
     margin-bottom: 28px;
 }
@@ -708,6 +736,10 @@ section.success p {
     ul,
     ol {
         padding-left: 30px;
+    }
+
+    #article .card-columns {
+        column-count: 1;
     }
 }
 
