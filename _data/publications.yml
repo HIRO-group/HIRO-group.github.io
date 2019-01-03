@@ -1,95 +1,111 @@
  - title: "Situated Human-Robot Collaboration: predicting intent from grounded natural language"
-   authors: Jake Brawer, Olivier Mangin, <b>Alessandro Roncone</b>, and Brian Scassellati
+   authors: Jake Brawer, Olivier Mangin, Alessandro Roncone, and Brian Scassellati
    year: 2018
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Madrid, Spain, October 1-5
    pdf: "2018_Brawer_IROS_situated_hrc"
+   host: https://alessandro.ronc.one
  - title: "Preference-Based Assistance Prediction for Human-Robot Collaboration Tasks"
-   authors: Elena Corina Grigore, <b>Alessandro Roncone</b>, Olivier Mangin, and Brian Scassellati
+   authors: Elena Corina Grigore, Alessandro Roncone, Olivier Mangin, and Brian Scassellati
    year: 2018
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Madrid, Spain, October 1-5
    pdf: "2018_Grigore_IROS_assistance_prediction"
+   host: https://alessandro.ronc.one
  - title: "The HRC Model set for Human-Robot Collaboration Research"
-   authors: Sofya Zeylikman, Sarah Widder, <b>Alessandro Roncone</b>, Olivier Mangin, and Brian Scassellati
+   authors: Sofya Zeylikman, Sarah Widder, Alessandro Roncone, Olivier Mangin, and Brian Scassellati
    year: 2018
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Madrid, Spain, October 1-5
    pdf: "2018_Zeylikman_IROS_hrc_model_set"
+   host: https://alessandro.ronc.one
  - title: "Predicting Supportive Behaviors for Human-Robot Collaboration"
-   authors: Elena Corina Grigore, Olivier Mangin, <b>Alessandro Roncone</b>, and Brian Scassellati
+   authors: Elena Corina Grigore, Olivier Mangin, Alessandro Roncone, and Brian Scassellati
    year: 2018
    venue: International Conference on Autonomous Agents and Multiagent Systems [AAMAS]
    where: Stockholm, Sweden, July 11-13
    pdf: "2018_Grigore_AAMAS_predicting_supportive_behaviors_hrc"
+   host: https://alessandro.ronc.one
    description: Extended abstract
  - title: "Compact Real-time avoidance on a Humanoid Robot for Human-Robot interaction"
-   authors: Dong Hai Phuong Nguyen, Matej Hoffmann, <b>Alessandro Roncone</b>, Ugo Pattacini, and Giorgio Metta
+   authors: Dong Hai Phuong Nguyen, Matej Hoffmann, Alessandro Roncone, Ugo Pattacini, and Giorgio Metta
    year: 2018
    venue: ACM/IEEE International Conference on Human-Robot Interaction [HRI]
    where: Chicago, IL, U.S.A., March 5-8
    pdf: "2018_Nguyen_HRI_physical_hri_controller"
+   host: https://alessandro.ronc.one
  - title: "How to be Helpful? Implementing Supportive Behaviors for Human-Robot Collaboration"
-   authors: Olivier Mangin, <b>Alessandro Roncone</b>, and Brian Scassellati
+   authors: Olivier Mangin, Alessandro Roncone, and Brian Scassellati
    year: 2017
    venue: ArXiv e-prints
    pdf: "2017_Mangin_supportive_behaviors"
+   host: https://alessandro.ronc.one
  - title: "Transparent Role Assignment and Task Allocation in Human Robot Collaboration"
-   authors: <b>Alessandro Roncone</b>, Olivier Mangin, and Brian Scassellati
+   authors: Alessandro Roncone, Olivier Mangin, and Brian Scassellati
    year: 2017
    venue: IEEE International Conference on Robotics and Automation [ICRA]
    where: Singapore, Singapore May 29-June 3
    pdf: "2017_Roncone_ICRA_role_assignment"
+   host: https://alessandro.ronc.one
  - title: "Learning Peripersonal Space Representation in a Humanoid Robot with Artificial Skin"
-   authors: <b>Alessandro Roncone</b>
+   authors: Alessandro Roncone
    year: 2017
    venue: AAAI Matters
    pdf: "2017_Roncone_AAAI_matters"
+   host: https://alessandro.ronc.one
  - title: "Physiologically Inspired Blinking Behavior for a Humanoid Robot"
-   authors: Hagen Lehmann, <b>Alessandro Roncone</b>, Ugo Pattacini, and Giorgio Metta
+   authors: Hagen Lehmann, Alessandro Roncone, Ugo Pattacini, and Giorgio Metta
    year: 2016
    venue: International Conference on Social Robotics [ICSR]
    where: Kansas City, MO, U.S.A., November 1-3
    pdf: "2016_Lehmann_ICSR_blinking"
+   host: https://alessandro.ronc.one
  - title: "Peripersonal Space and Margin of Safety around the Body: Learning Visuo-tactile Associations in a Humanoid Robot with Artificial Skin"
-   authors: <b>Alessandro Roncone</b>, Matej Hoffmann, Ugo Pattacini, Luciano Fadiga, and Giorgio Metta
+   authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, Luciano Fadiga, and Giorgio Metta
    year: 2016
    venue: PLOS ONE
    pdf: "2016_Roncone_plosONE_peripersonal_space"
+   host: https://alessandro.ronc.one
  - title: "A Cartesian 6-DoF Gaze Controller for Humanoid Robots"
-   authors: <b>Alessandro Roncone</b>, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
+   authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
    year: 2016
    venue: "Robotics: Science and Systems [RSS]"
    where: Ann Arbor, MI, U.S.A., June 18-22
    pdf: "2016_Roncone_RSS_gaze_controller"
+   host: https://alessandro.ronc.one
  - title: "Learning peripersonal space representation through artificial skin for avoidance and reaching with whole body surface"
-   authors: <b>Alessandro Roncone</b>, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta
+   authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta
    year: 2015
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Hamburg, Germany, September 28-October 2
    pdf: "2015_Roncone_IROS_peripersonal_space"
+   host: https://alessandro.ronc.one
  - title: "Expanding Sensorimotor capabilities of Humanoid Robots through Multisensory Integration - a study on the implementation of Peripersonal Space on the iCub"
-   authors: <b>Alessandro Roncone</b>
+   authors: Alessandro Roncone
    year: 2015
    venue: Ph.D. Thesis
    where: University of Genoa and Italian Institute of Technology
    pdf: "2015_Roncone_PhD_thesis"
+   host: https://alessandro.ronc.one
  - title: "Gaze Stabilization for Humanoid Robots: A Comprehensive Framework"
-   authors: <b>Alessandro Roncone</b>, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
+   authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
    year: 2014
    venue: IEEE-RAS International Conference on Humanoid Robots
    where: Madrid, Spain, November 18-20
    pdf: "2014_Roncone_humanoids_gaze_stabilization"
+   host: https://alessandro.ronc.one
  - title: "3D Stereo Estimation and Fully Automated Learning of Eye-Hand Coordination in Humanoid Robots"
-   authors: Sean Ryan Fanello, Ugo Pattacini, Ilaria Gori, Vadim Tikhanoff, Marco Randazzo, <b>Alessandro Roncone</b>, Francesca Odone, and Giorgio Metta
+   authors: Sean Ryan Fanello, Ugo Pattacini, Ilaria Gori, Vadim Tikhanoff, Marco Randazzo, Alessandro Roncone, Francesca Odone, and Giorgio Metta
    year: 2014
    venue: IEEE-RAS International Conference on Humanoid Robots
    where: Madrid, Spain, November 18-20
    pdf: "2014_Fanello_humanoids_eye_hand_coordination"
+   host: https://alessandro.ronc.one
  - title: "Automatic kinematic chain calibration using artificial skin: self-touch in the iCub humanoid robot"
-   authors: <b>Alessandro Roncone</b>, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta
+   authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta
    year: 2014
    venue: IEEE International Conference on Robotics and Automation [ICRA]
    where: Hong Kong, China, May 31-June 7
    description: <a href="http://spectrum.ieee.org/automaton/robotics/robotics-software/video-friday-robot-racecar-kilobot-display-humanoid-skin" target="_blank">It was featured in the IEEE Spectrum Video Friday!</a>
    pdf: "2014_Roncone_ICRA_kinematic_calibration"
+   host: https://alessandro.ronc.one

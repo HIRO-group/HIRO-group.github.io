@@ -1,7 +1,7 @@
 
             {% for item in site.data.publications %}
 
-                {% if include.year == "all" %} {% assign year = item.year %}
+                {% if include.year == "all" %} {% assign year =    item.year %}
                 {% else %}                     {% assign year = include.year %}
                 {% endif %}
 
@@ -13,7 +13,7 @@
                         </div>
 
                         <div class="col-md-9">
-                            <h2>{{item.title}}{% if item.pdf %}<a class="no-print" href="{{ site.url }}/papers/{{ item.pdf }}.pdf" target="_blank"> [PDF]</a><a class="no-print" href="{{ site.url }}/papers/{{ item.pdf }}.bib" target="_blank"> [BIB]</a>{% endif %}</h2>
+                            <h2>{{item.title}}{% if item.pdf %}<a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.pdf" target="_blank"> [PDF]</a><a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.bib" target="_blank"> [BIB]</a>{% endif %}</h2>
                             <p><i>{{item.authors}}</i><br>
                             {% if item.description %}{{item.description}}{% endif %}
                             </p>
