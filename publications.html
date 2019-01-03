@@ -1,0 +1,24 @@
+---
+permalink: publications.html
+type: publications
+description: "List of publications"
+years:
+ - 2018
+ - 2017
+ - 2016
+ - 2015
+ - 2014
+---
+
+<section id="post-cv">
+    <div class="container">
+        <div id="article">
+
+        {% for y in page.years %}
+            <h1>{{ y }}</h1>
+            {% include pubs.html year=y %}
+        {% endfor %}
+
+        </div>
+    </div>
+</section>

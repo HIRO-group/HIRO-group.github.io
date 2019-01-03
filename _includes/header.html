@@ -25,6 +25,15 @@
                     <a class="nav-link" href="/">research</a>
                 </li>
                 {% endif %}
+                {% if page.type == "publications" %}
+                <li class="nav-item page-scroll">
+                    <a class="nav-link" href="#post-cv">publications</a>
+                </li>
+                {% else %}
+                <li class="nav-item page-scroll">
+                    <a class="nav-link" href="/publications.html">publications</a>
+                </li>
+                {% endif %}
                 {% if page.type == "wiki" %}
                 <li class="nav-item page-scroll">
                     <a class="nav-link" href="#wiki">wiki</a>
