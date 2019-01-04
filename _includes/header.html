@@ -25,6 +25,17 @@
                     <a class="nav-link" href="/">research</a>
                 </li>
                 {% endif %}
+
+                {% if page.type == "people" %}
+                <li class="nav-item page-scroll">
+                    <a class="nav-link" href="#post-cv">people</a>
+                </li>
+                {% else %}
+                <li class="nav-item page-scroll">
+                    <a class="nav-link" href="/people.html">people</a>
+                </li>
+                {% endif %}
+
                 {% if page.type == "publications" %}
                 <li class="nav-item page-scroll">
                     <a class="nav-link" href="#post-cv">publications</a>
@@ -34,6 +45,7 @@
                     <a class="nav-link" href="/publications.html">publications</a>
                 </li>
                 {% endif %}
+
                 {% if page.type == "wiki" %}
                 <li class="nav-item page-scroll">
                     <a class="nav-link" href="#wiki">wiki</a>
@@ -43,6 +55,7 @@
                     <a class="nav-link" href="/wiki.html">wiki</a>
                 </li>
                 {% endif %}
+
                 <li class="nav-item page-scroll">
                     <a class="nav-link" href="/student_opportunities.html">student opportunities</a>
                 </li>
