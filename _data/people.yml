@@ -22,6 +22,12 @@
    email:
    pic:
 
+ - name: Joewie J. Koh
+   role: grad
+   url: https://www.linkedin.com/in/joewie/
+   email: joewie@ml.engineering
+   pic: joewie.jpg
+
  - name: Garrett Pierson
    role: undergrad
    url:
