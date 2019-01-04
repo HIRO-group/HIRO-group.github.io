@@ -732,14 +732,17 @@ section.success p {
     margin-top: 4px;
 }
 
+@media(max-width: 992px) {
+    #article .card-columns {
+        column-count: 1;
+    }
+}
+
+
 @media(max-width: 768px) {
     ul,
     ol {
         padding-left: 30px;
-    }
-
-    #article .card-columns {
-        column-count: 1;
     }
 }
 
