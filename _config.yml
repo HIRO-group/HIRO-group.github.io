@@ -11,7 +11,9 @@ owner-short: HIRO-lab
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github-alt
-    url: http://github.com/HIRO-lab
+    url: https://github.com/HIRO-lab
+  - title: slack
+    url: https://arpg.slack.com
 
 logo: /img/logo.svg
 logopng: /img/logo.png
