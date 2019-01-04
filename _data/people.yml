@@ -9,10 +9,15 @@
  - name: Chi-ju Wu
    role: grad
    url: http://sayter99.github.io/
-   office: ECES 116
    phone: +1 (480) 842-9667
    email: chiju.wu@colorado.edu
    pic: sayter.jpg
+
+ - name: Joewie J. Koh
+   role: grad
+   url: https://www.linkedin.com/in/joewie/
+   email: joewie@ml.engineering
+   pic: joewie.jpg
 
  - name: Dongming Chang
    role: grad
@@ -21,12 +26,6 @@
    phone:
    email:
    pic:
-
- - name: Joewie J. Koh
-   role: grad
-   url: https://www.linkedin.com/in/joewie/
-   email: joewie@ml.engineering
-   pic: joewie.jpg
 
  - name: Garrett Pierson
    role: undergrad
