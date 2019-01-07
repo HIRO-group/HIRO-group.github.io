@@ -1,7 +1,7 @@
 ---
 title: We are looking for students!!
 description: In particular, people who think robotics is cool.
-permalink: student_opportunities.html
+permalink: join_us.html
 ---
 
 # Contents
