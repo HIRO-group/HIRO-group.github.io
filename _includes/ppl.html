@@ -10,7 +10,7 @@
             <div class="card mb-3">
               <div class="row no-gutters">
                 <div class="{% if include.size == "big" %}col-sm-4 ml-auto{% else %}col-sm-4{% endif %}">
-                    <img src="{{ site.url }}{% if person.pic %}/img/people/{{ person.pic }}{% else %}{{ site.logopng }}{% endif %}" class="img-fluid" style="width: 100%; max-width: 280px;" align="middle">
+                    <img src="{% if person.pic %}/img/people/{{ person.pic }}{% else %}{{ site.logopng }}{% endif %}" class="img-fluid" style="width: 100%; max-width: 280px;" align="middle">
                 </div>
                 <div class="{% if include.size == "big" %}col-sm-8{% else %}col-sm-8{% endif %}">
                   <div class="card-body">

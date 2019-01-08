@@ -1,18 +1,18 @@
 # Site settings
 title: Human Interaction and Robotics Group
 email: alessandro.roncone@colorado.edu
-url: https://HIRO-lab.github.io
+url: https://HIRO-group.github.io
 phone: +1 (303) 735-6233
 google-analytics-id: UA-80094809-2
 description: "Website for the Human Interaction and RObotics [HIRO] Group."
 owner: Human Interaction and Robotics Group
-owner-short: HIRO-lab
+owner-short: HIRO-group
 owner-url: https://alessandro.ronc.one
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github-alt
-    url: https://github.com/HIRO-lab
+    url: https://github.com/HIRO-group
   - title: slack
     url: https://arpg.slack.com
 

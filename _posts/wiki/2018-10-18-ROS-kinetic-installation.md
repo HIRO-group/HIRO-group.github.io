@@ -17,7 +17,7 @@ This page is about `ros` installation. For a summary about the main `ros` concep
 
 # Installing ROS kinetic from sources
 
-Why `ros kinetic`? Because it is the same version that has been installed on the [Sawyer robot](http://sdk.rethinkrobotics.com/wiki/Main_Page) we are using in our lab.
+Why `ros kinetic`? Because it is the same version that is installed on the [Sawyer robot](http://sdk.rethinkrobotics.com/wiki/Main_Page) we use in our lab.
 
 Why installing from sources? It is the way to go if you want to have access to the source files and get a better idea of the middleware. Below, there is a set of instructions, heavily inspired by [the official ros wiki](http://wiki.ros.org/kinetic/Installation/Source).
 
@@ -222,5 +222,5 @@ To make sure your workspace is properly overlayed by the setup script, make sure
 
 ~~~bash
 [scazlab@baxter]$ echo $ROS_PACKAGE_PATH
-/home/scazlab/code/ros_devel_ws/src:/home/scazlab/code/ros_catkin_ws/install_isolated/share:/home/scazlab/code/ros_catkin_ws/install_isolated/stacks
+/home/hiro/code/ros_devel_ws/src:/home/hiro/code/ros_catkin_ws/install_isolated/share:/home/hiro/code/ros_catkin_ws/install_isolated/stacks
 ~~~

@@ -11,16 +11,16 @@ permalink: new_member.html
 {:toc}
 
 **Want do to robotics?**{:.color-banner}
-The following is a list of things to do if you are new to the lab. Please consider this as a non-exhaustive cheat sheet that is modified over time. As such, feel free to edit it if there is anything you would like to add!
+The following is a list of things to do if you are new to the {{ site.title }}. Please consider this as a non-exhaustive cheat sheet that is modified over time. As such, feel free to edit it if there is anything you would like to add!
 
 ## 1. Preliminaries
 
  1. Create an account on our [Slack](https://arpg.slack.com), and share your username with your supervisor and/or point of contact. Ideally, install slack on your machine as well as on your phone in oder to be always up to date with what happens in the lab. Most of our internal communication happens there.
  2. Create an account on [GitHub](https://github.com) if you haven't already, and share your username with your supervisor and/or point of contact.
- 3. Request to be added to our [GitHub organization](https://github.com/HIRO-lab).
+ 3. Request to be added to our [GitHub organization](https://github.com/HIRO-group).
  4. Make your membership to the GitHub organization public.
  5. Write an email to [Chantel Lehl](mailto:chantel.lehl@colorado.edu) **with Prof. Alessandro Roncone in Cc**{:.color-banner} in order to get lab access with your Buff card number. Please send her the following information: Name, Student ID, Buff Card Number, CU Login name, Email.
- 6. Do a Pull Request [PR] on [this repository](https://github.com/HIRO-lab/HIRO-lab.github.io) to add your data to [this file](https://github.com/HIRO-lab/HIRO-lab.github.io/blob/master/_data/people.yml) and a picture of you to [this folder](https://github.com/HIRO-lab/HIRO-lab.github.io/tree/master/img/people). The picture needs to be square, and preferably not bigger than 400x400 px.
+ 6. Do a Pull Request [PR] on [this repository](https://github.com/HIRO-group/HIRO-group.github.io) to add your data to [this file](https://github.com/HIRO-group/HIRO-group.github.io/blob/master/_data/people.yml) and a picture of you to [this folder](https://github.com/HIRO-group/HIRO-group.github.io/tree/master/img/people). The picture needs to be square, and preferably not bigger than 400x400 px.
 
 # 2. Software
 
