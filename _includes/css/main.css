@@ -238,8 +238,9 @@ header img {
 
 .logo-img {
     padding: 15px;
-    max-width: 196px;
     box-sizing: border-box;
+    width: 66%;
+    display: none;
 }
 
 .cv-img {
@@ -276,7 +277,7 @@ header .intro-text .owner {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 180px;
+        padding-top: 220px;
         padding-bottom: 100px;
     }
 
@@ -290,11 +291,6 @@ header .intro-text .owner {
 
     header hr.separating-line {
         margin: 25px auto 45px;
-    }
-
-    .logo-img {
-        padding: 25px;
-        max-width: 256px;
     }
 
     .cv-img {
@@ -354,11 +350,11 @@ header .intro-text .owner {
 }
 
 .navbar-brand {
-    min-width: 96px;
-    width: 96px;
-    height: 96px;
+    min-width: 488px;
+    width: 488px;
+    height: 128px;
     transition: all ease .3s;
-    background: url("{{ site.logo }}") no-repeat;
+    background: url("{{ site.logo3 }}") no-repeat;
     background-size: contain;
 }
 
@@ -369,11 +365,25 @@ header .intro-text .owner {
     background-image: url("{{ site.logo2 }}");
 }
 
-@media(max-width:991px) {
+@media(max-width: 1350px) {
     .navbar-brand {
+        min-width: 90px;
+        width: 90px;
         height: 60px;
         background-image: url("{{ site.logo2 }}");
     }
+
+    .logo-img {
+        display: block;
+        width: 80%
+    }
+
+    header .intro-text .logo-alt {
+        display: none;
+    }
+}
+
+@media(max-width:991px) {
 
     .navbar-nav .nav-link {
         padding-top: 10px;
@@ -515,7 +525,7 @@ section p {
 }
 
 #post {
-    padding-top: 160px;
+    padding-top: 200px;
 }
 
 section h2 {

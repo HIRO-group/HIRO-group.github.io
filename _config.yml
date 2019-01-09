@@ -19,10 +19,11 @@ social:
 logo: /img/logo.svg
 logopng: /img/logo.png
 logo2: /img/logo2.svg
+logo3: /img/logo3.svg
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 1111 Engineering Dr, ECES 111
+  - line: 1111 Engineering Dr, ECES 116
   - line: Computer Science Department,
   - line: University of Colorado,
   - line: Boulder, 80309, CO, U.S.A.
