@@ -16,6 +16,10 @@ social:
   - title: slack
     url: https://arpg.slack.com
 
+meetings:
+  semester: Spring 2019
+  location: ECES 116 on Wednesdays from 3pm to 4pm
+
 logo: /img/logo.svg
 logopng: /img/logo.png
 logo2: /img/logo2.svg
