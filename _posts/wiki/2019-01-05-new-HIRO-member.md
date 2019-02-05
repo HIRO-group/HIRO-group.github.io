@@ -15,12 +15,13 @@ The following is a list of things to do if you are new to the {{ site.title }}. 
 
 ## 1. Preliminaries
 
- 1. Create an account on our [Slack](https://arpg.slack.com), and share your username with your supervisor and/or point of contact. Ideally, install slack on your machine as well as on your phone in oder to be always up to date with what happens in the lab. Most of our internal communication happens there.
- 2. Create an account on [GitHub](https://github.com) if you haven't already, and share your username with your supervisor and/or point of contact.
- 3. Request to be added to our [GitHub organization](https://github.com/HIRO-group).
- 4. Make your membership to the GitHub organization public.
- 5. Write an email to [Chantel Lehl](mailto:chantel.lehl@colorado.edu) **with Prof. Alessandro Roncone in Cc**{:.color-banner} in order to get lab access with your Buff card number. Ask her to be added to ECST322, ECES 116 and ECES 111. Please send her the following information: Name, Student ID, Buff Card Number, CU Login name, Email.
- 6. Do a Pull Request [PR] on [this repository](https://github.com/HIRO-group/HIRO-group.github.io) to add your data to [this file](https://github.com/HIRO-group/HIRO-group.github.io/blob/master/_data/people.yml) and a picture of you to [this folder](https://github.com/HIRO-group/HIRO-group.github.io/tree/master/img/people). The picture needs to be square, and preferably not bigger than 400x400 px.
+ 1. Create an account on our [Slack](https://arpg.slack.com), and share your username with your supervisor and/or point of contact. Ideally, install slack on your machine as well as on your phone in oder to be always up to date with what happens in the lab. 
+ 2. Join the **#hiro-group** channel on Slack. Most of our internal communication happens there.
+ 3. Create an account on [GitHub](https://github.com) if you haven't already, and share your username with your supervisor and/or point of contact.
+ 4. Request to be added to our [GitHub organization](https://github.com/HIRO-group).
+ 5. Make your membership to the GitHub organization public.
+ 6. Write an email to [Chantel Lehl](mailto:chantel.lehl@colorado.edu) **with Prof. Alessandro Roncone in Cc**{:.color-banner} in order to get lab access with your Buff card number. Ask her to be added to ECST322, ECES 116 and ECES 111. Please send her the following information: Name, Student ID, Buff Card Number, CU Login name, Email.
+ 7. Do a Pull Request [PR] on [this repository](https://github.com/HIRO-group/HIRO-group.github.io) to add your data to [this file](https://github.com/HIRO-group/HIRO-group.github.io/blob/master/_data/people.yml) and a picture of you to [this folder](https://github.com/HIRO-group/HIRO-group.github.io/tree/master/img/people). The picture needs to be square, and preferably not bigger than 400x400 px.
 
 For _{{ site.meetings.semester }}_, we will be holding group meetings in **{{ site.meetings.location }}**{:.color-banner}. Feel free to stop by if you want to have a chat!!
 
