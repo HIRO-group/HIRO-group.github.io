@@ -3,6 +3,7 @@ title: How to install ROS kinetic
 description: and live happily ever after
 tags: [wiki,how to,tutorial,ros,installation,kinetic,ubuntu,16.04,robotics,Sawyer,simulator]
 permalink: ros_kinetic_installation.html
+author: Garrett Pierson
 ---
 
 # Contents
@@ -73,7 +74,7 @@ Now, there are a number of options to choose from. The recommended one is the _D
 
 ~~~bash
 rosinstall_generator desktop_full --rosdistro kinetic --deps --wet-only --tar > kinetic-desktop-full-wet.rosinstall
-wstool init -j8 src kinetic-desktop-full-wet.ros
+wstool init -j8 src kinetic-desktop-full-wet.rosinstall
 ~~~
 
 ### Resolving dependencies
