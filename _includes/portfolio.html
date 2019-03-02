@@ -42,7 +42,7 @@
                             {% elsif page.type == "wiki" %}
                                 <div class="col-md-10 mx-auto portfolio-item">
                                     <a href="{{ post.url }}" class="no-border portfolio-link" style="max-width:100%">
-                                        <p class="post-date">{{ post.date | date: '%B %d, %Y'  }}</p>
+                                        <p class="post-date">{% if post.author %}by {{ post.author }}, on {% endif %}{{ post.date | date: '%B %d, %Y'  }}</p>
                                         <h3>{{ post.title }}</h3>
                                         <p class="post-description">{{ post.description }}</p>
                                     </a>
