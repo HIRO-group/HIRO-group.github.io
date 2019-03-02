@@ -79,10 +79,11 @@ wstool init -j8 src kinetic-desktop-full-wet.rosinstall
 
 ### Resolving dependencies
 
-Before you can build your catkin workspace, you need to make sure that you have all the required dependencies. They use the `rosdep` tool for this. NOTE: some of the packages might be unavailable and may need to be installed seperately.
+Before you can build your catkin workspace, you need to make sure that you have all the required dependencies. They use the `rosdep` tool for this. NOTE: some of the packages might be unavailable and may need to be installed separately. `apt-cache search ros-kinetic` is a useful command for finding needed packages. This command lists available packages for kinetic and can be used to quickly find and install needed packages.
 
 ~~~bash
 rosdep install --from-paths src --ignore-src --rosdistro kinetic -y -r
+apt-cache search ros-kinetic
 ~~~
 
 This will look at all of the packages in the `src` directory and find all of the dependencies they have. Then it will recursively install the dependencies.
