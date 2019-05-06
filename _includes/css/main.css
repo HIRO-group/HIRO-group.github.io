@@ -84,6 +84,7 @@ a:active,
 a.active,
 #article a:hover,
 #wiki a:hover h3,
+#news a:hover h3,
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus {
     color: #{{ site.color.accent }};
@@ -632,13 +633,15 @@ section.success p {
 }
 
 #article a,
-#wiki a h3 {
+#wiki a h3,
+#news a h3 {
     text-decoration: none;
     color: #{{ site.color.secondary }};
     font-weight: 700; /* this is bold */
 }
 
-#wiki a h3 {
+#wiki a h3,
+#news a h3 {
     font-size: 1.85em;
     font-weight: 300;
     margin-top: 20px;
@@ -838,14 +841,17 @@ section.success p {
     }
 }
 
-#wiki .post-date {
+#wiki .post-date,
+#news .post-date {
     text-align: right;
     margin-bottom: -20px;
     opacity: 0.5;
 }
 
 #wiki .post-date,
-#wiki .post-description {
+#wiki .post-description,
+#news .post-date,
+#news .post-description {
     font-weight: normal;
 }
 
