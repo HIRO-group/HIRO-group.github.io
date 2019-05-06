@@ -1,7 +1,7 @@
 ---
 title: First grant awarded
 description: Pretty excited about it!!
-tags: [news,group_picture]
+tags: [news,grants]
 author: Alessandro Roncone
 ---
 
