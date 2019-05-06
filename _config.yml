@@ -62,35 +62,26 @@ defaults:
       path: "_posts/wiki"
     values:
       category: "wiki"
+  -
+    scope:
+      path: "_posts/news"
+    values:
+      category: "research"
+      subcategory: "news"
 
-# Some more default colors (hex-codes without the leading hash-tag),
-# with a number of combinations to play with
+  -
+    scope:
+      path: "_posts/research"
+    values:
+      category: "research"
+      subcategory: "research"
+
+# Default colors (hex-codes without the leading hash-tag):
 color:
-# ORIGINAL - B&W
   banner: 66a329                            # This is a green banner color (for red, use bf4040)
   articletext: 3c3c3c                       # This is the text color
   primary:  ffffff                          # This is the background of the logo, light gray
   secondary: 282828                         # This is dark gray
   secondary-alpha: rgba(40,40,40,.7)        # This is the same as the secondary color but with an alpha value
   # accent: 4982a7
-  accent: 00a0a0                            # This is a light blue accent
-# ALTERNATIVE 0
-  # articletext: 292929                     # This is the text color
-  # primary: f9fafb                         # This is the gray color with a blue tint
-  # secondary: 0892d0                       # This is the blue color
-  # secondary-dark: 055c83                  # This is the blue color
-  # secondary-alpha: rgba(84,99,116,.7)     # This is the same as the secondary color but with an alpha value
-  # accent: e20e59                          # These are the pink accents
-# ALTERNATIVE 1
-  # primary: f9fafb                         # This is gray
-  # secondary: ca6558                       # This is reddish
-  # secondary-dark: b9493b                  # This is reddish
-  # accent: 8ca08d                          # This is greenish
-# ALTERNATIVE 2
-  # secondary: 589ee4                       # This is blueish
-  # secondary-dark: 368ade                  # This is blueish
-  # accent: ed6152                          # This is reddish
-# ALTERNATIVE 3
-  # accent: 53c3cb                          # This is greenish
-  # secondary: f4676d                       # This is reddish
-  # secondary-dark: f24e55                  # This is reddish
+  accent: 00a0a0                            # This is an electric blue accent
