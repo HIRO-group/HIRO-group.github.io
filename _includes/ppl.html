@@ -7,6 +7,9 @@
             {% endif %}
 
             {% if role == person.role %}
+            {% if role == "alumni" %}
+            <li>{% if person.url %}<a href="{{ person.url }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}{% if person.nowat %}, now at {{ person.nowat }}{% endif %}</li>
+            {% else %}
             <div class="card mb-3">
               <div class="row no-gutters">
                 <div class="{% if include.size == "big" %}col-sm-4 ml-auto{% else %}col-sm-4{% endif %}">
@@ -23,6 +26,7 @@
                 </div>
               </div>
             </div>
+            {% endif %}
             {% endif %}
         {% endfor %}
         </div>
