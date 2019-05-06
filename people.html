@@ -3,17 +3,29 @@ title: HIRO people
 permalink: people.html
 type: people
 description: "List of members of the Human Interaction and RObotics group"
+img: group_pics/2019_05.jpg
 roles:
  - faculty
  - grad
  - undergrad
+ - phd
+ - alumni
 ---
 
 <section id="post-cv">
     <div class="container">
         <div id="article">
 
+        {% include image.html url="group_pics/2019_05.jpg" description="Group picture taken at the end of Spring 2019 semester." %}
+
         {% include ppl.html role="faculty" size="big" %}
+
+        {% assign phd = site.data.people | where:"role","phd" %}
+        {% if phd != blank %}
+        <h1>PhD Students</h1>
+
+        {% include ppl.html role="phd" %}
+        {% endif %}
 
         <h1>Graduate Students</h1>
 
@@ -22,6 +34,13 @@ roles:
         <h1>Undergraduate Research Assistants</h1>
 
         {% include ppl.html role="undergrad" %}
+
+        {% assign alumni = site.data.people | where:"role","alumni" %}
+        {% if alumni != blank %}
+        <h1>Alumni</h1>
+
+        {% include ppl.html role="alumni" %}
+        {% endif %}
 
         </div>
     </div>
