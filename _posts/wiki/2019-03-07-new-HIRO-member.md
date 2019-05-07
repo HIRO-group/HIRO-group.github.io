@@ -15,8 +15,8 @@ The following is a list of things to do if you are new to the {{ site.title }}. 
 
 ## 1. Preliminaries
 
- 1. Create an account on our [Slack](https://arpg.slack.com), and share your username with your supervisor and/or point of contact. Ideally, install slack on your machine as well as on your phone in oder to be always up to date with what happens in the lab. 
- 2. Join the **#hiro-group** channel on Slack. Most of our internal communication happens there.
+ 1. Create an account on our [Slack](https://arpg.slack.com), and share your username with your supervisor and/or point of contact. Ideally, install slack on your machine as well as on your phone in oder to be always up to date with what happens in the lab.
+ 2. Join the **#hiro-group** and **#hiro-github** channels on Slack. Most of our internal communication happens there.
  3. Create an account on [GitHub](https://github.com) if you haven't already, and share your username with your supervisor and/or point of contact.
  4. Request to be added to our [GitHub organization](https://github.com/HIRO-group).
  5. Make your membership to the GitHub organization public.
