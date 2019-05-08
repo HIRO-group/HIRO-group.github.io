@@ -8,7 +8,7 @@ permalink: openface_ros.html
 
 Repository that hosts software libraries and ROS packages for gaze and emotion detection, performed at the Human Interaction and Robotics Lab in University of Colorado at Boulder.
 
-![](https://github.com/HIRO-group/openface_ros/blob/master/images/result2.png)
+![](https://raw.githubusercontent.com/HIRO-group/openface_ros/master/images/result2.png)
 
 The software in this repo has been developed for, and tested on, a Sawyer Research Robot and Realsense---a widely used platform for research in HRC. Nonetheless, it is easy to customize to any robotic platform that shares similar hardware features.
 
