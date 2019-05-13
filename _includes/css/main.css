@@ -257,22 +257,17 @@ header .intro-text {
 header .intro-text .name {
     background-color: transparent;
     display: block;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 header .intro-text .owner {
     background-color: transparent;
-    font-size: 1.75em;
+    font-size: 1.5em;
 }
 
 @media(max-width:550px) {
     header .intro-text .name {
-        font-size: 3em;
         word-wrap: break-word;
-    }
-
-    header .intro-text .owner {
-        font-size: 1.5em;
     }
 }
 
@@ -282,12 +277,16 @@ header .intro-text .owner {
         padding-bottom: 60px;
     }
 
+    #post {
+        padding-top: 200px;
+    }
+
     header .intro-text .name {
-        font-size: 4.1em;
+        font-size: 3.8em;
     }
 
     header .intro-text .owner {
-        font-size: 2.25em;
+        font-size: 2em;
     }
 
     header hr.separating-line {
@@ -368,6 +367,27 @@ header .intro-text .owner {
 
 @media(max-width: 1350px) {
     .navbar-brand {
+        min-width: 366px;
+        width: 366px;
+        height: 96px;
+    }
+
+    header .container,
+    #post {
+        padding-top: 160px;
+    }
+}
+
+/*@media(max-width: 768px) {
+    .navbar-brand {
+        min-width: 244px;
+        width: 244px;
+        height: 64px;
+    }
+}*/
+
+@media(max-width: 460px) {
+    .navbar-brand {
         min-width: 90px;
         width: 90px;
         height: 60px;
@@ -376,15 +396,20 @@ header .intro-text .owner {
 
     .logo-img {
         display: block;
-        width: 80%
+        width: 92%
     }
 
     header .intro-text .logo-alt {
         display: none;
     }
+
+    header .container,
+    #post {
+        padding-top: 120px;
+    }
 }
 
-@media(max-width:991px) {
+@media(max-width:1200px) {
 
     .navbar-nav .nav-link {
         padding-top: 10px;
@@ -525,10 +550,6 @@ section p {
     color: #{{ site.color.articletext }};
 }
 
-#post {
-    padding-top: 200px;
-}
-
 section h2 {
     margin: 0;
     font-size: 2.8em;
@@ -560,14 +581,6 @@ section.success p {
     .container {
         width:100%;
         max-width:100%;
-    }
-
-    #post {
-        padding-top: 100px;
-    }
-
-    #post-cv {
-        padding-top: 50px;
     }
 
     section {
