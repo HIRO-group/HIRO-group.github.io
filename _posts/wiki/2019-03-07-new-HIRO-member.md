@@ -52,7 +52,7 @@ ROS is the so-called Robot Operating System. It is the core software we use to i
 
 Also here, you have some specific requirements. Sawyer ~~is stuck to~~ uses [ROS kinetic](http://wiki.ros.org/kinetic). Here are some installation instructions:
 
-  - [Installation according to Alessandro (HIGHLY RECOMMENDED)]({% post_url wiki/2018-10-18-ROS-kinetic-installation %})
+  - [Installation according to Alessandro (highly recommended)]({% post_url wiki/2018-10-18-ROS-kinetic-installation %})
   - [Installation according to ROS](http://wiki.ros.org/kinetic/Installation/Ubuntu)
   - [Installation from sources](http://wiki.ros.org/kinetic/Installation/Source)
 
@@ -61,8 +61,8 @@ Also here, you have some specific requirements. Sawyer ~~is stuck to~~ uses [ROS
 To have some degree of understanding of ROS, please read the following documents:
 
   - [An introduction by Alessandro]({% post_url wiki/2018-04-18-ROS-concepts %})
-  - [The official introduction](http://wiki.ros.org/ROS/Concepts),
-  - [The documentation on nodes](http://wiki.ros.org/Nodes).
+  - [The official introduction](http://wiki.ros.org/ROS/Concepts)
+  - [The documentation on nodes](http://wiki.ros.org/Nodes)
 
 If you still need some practice, you might have a look at [ROS tutorials](http://wiki.ros.org/ROS/Tutorials).
 
@@ -83,12 +83,12 @@ If you still need some practice, you might have a look at [ROS tutorials](http:/
 
 Here are some good things to set up before contributing to our code:
 
- * Use [Sublime text 3](https://www.sublimetext.com/3). Sublime is your friend!!!
+ * If you are on the hunt for a versatile code/text editor, consider using [Sublime text 3](https://www.sublimetext.com/3). Sublime is your friend!!!
  * Rebase by default when doing git pull → `git config --global branch.autosetuprebase always`
  * Use **ALWAYS** tab as spaces → on Sublime text, you should add this in your preferences `"translate_tabs_to_spaces": true`
  * Ensure newline at the end of files → on Sublime text, you should add this in your preferences `"ensure_newline_at_eof_on_save": true`
  * Trim trailing white space on save → on Sublime text, you should add this in your preferences `"trim_trailing_white_space_on_save": true`
- * **DO NOT** create backup files (those that end with `~`), or at least do not commit them
+ * **DO NOT** commit backup files (those that end with `~`)
  * Set up `4` spaces as tab width.
  * Be considerate in using `git`. `git` is a great tool, but it needs to be used carefully in order to maximize its effectiveness. To this end, please:
     * commit frequently, push frequently
@@ -97,4 +97,4 @@ Here are some good things to set up before contributing to our code:
  * Keep your code **ALWAYS** in a compile-able state. We don't want our work on the Sawyer to be slowed down by some partial feature that is broken (which is fine) but then breaks all the compilations on the machine
 
 
-Please be aware that, although the suggestions above are only guidelines, they will be **STRICTLY ENFORCED** throughout our code, as they set the minimum bar to have fruitful and effective collaborations.
+Please be aware that, although the suggestions above are only guidelines, they will are **strictly enforced** in our code, as they set the minimum bar to have fruitful and effective collaborations.
