@@ -1,5 +1,5 @@
 # Site settings
-title: Human Interaction and Robotics Group
+title: Human Interaction and RObotics [HIRO] Group
 email: alessandro.roncone@colorado.edu
 url: https://hiro-group.ronc.one
 phone: +1 (303) 735-6233
@@ -17,8 +17,8 @@ social:
     url: https://arpg.slack.com
 
 meetings:
-  semester: Spring 2019
-  location: ECES 116 on Thursdays from 10am to 11am [last meeting will be on May 16th]
+  semester: Fall 2020
+  location: ECST 322 on  
 
 logo: /img/logo.svg
 logopng: /img/logo.png
