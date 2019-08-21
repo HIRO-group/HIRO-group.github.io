@@ -25,7 +25,7 @@ The following is a list of things to do if you are new to the {{ site.title }}. 
  8. If you are an undergraduate student joining us for the summer, please [subscribe to this list](https://lists.colorado.edu/sympa/subscribe/cs-summer-undergrads) as well.
  9. [optional] Request to be added to our Google Calendar in the **#hiro-group** channel.
  10. [optional] Ask for an invitation to our [Trello](https://trello.com) team and [Mendeley](https://www.mendeley.com) group from **@joewie** on Slack or in the **#hiro-group** channel. Provide your preferred email. We share and keep track of relevant papers on Mendeley, while Trello is where we coordinate work on projects.
- 11. [optional] Request an account with CU Boulder Research Computing on [this page](https://rcamp.rc.colorado.edu/accounts/account-request/create/verify/ucb). After receiving your RC account, await further instructions from RC to set up Duo two-factor authentication.
+ 11. [optional] If you need storage for data, request an account with CU Boulder Research Computing on [this page](https://rcamp.rc.colorado.edu/accounts/account-request/create/verify/ucb). After receiving your RC account, await further instructions from RC to set up Duo two-factor authentication.
 
 For _{{ site.meetings.semester }}_, we will be holding group meetings in **{{ site.meetings.location }}**{:.color-banner}. Feel free to stop by if you want to have a chat!!
 
