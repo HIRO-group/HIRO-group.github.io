@@ -11,9 +11,11 @@ permalink: new_member.html
 {:toc}
 
 **Want do to robotics?**{:.color-banner}
-The following is a list of things to do if you are new to the {{ site.title }}. Please consider this as a non-exhaustive cheat sheet that is modified over time. As such, feel free to edit it if there is anything you would like to add!
+The following is a list of things to do if you are new to the {{ site.title }}. Please consider this as a non-exhaustive cheat sheet that is modified over time. As such, feel free to edit it if there is anything you would like to add.
 
-## 1. Preliminaries
+For _{{ site.meetings.semester }}_, we will be holding group meetings in **{{ site.meetings.location }}**{:.color-banner}. Feel free to stop by if you want to have a chat!!
+
+# 1 Preliminaries
 
  1. Create an account on our [Slack](https://arpg.slack.com), and share your username with your supervisor and/or point of contact. Ideally, install slack on your machine as well as on your phone in oder to be always up to date with what happens in the lab.
  2. Join the **#hiro-group** and **#hiro-github** channels on Slack. Most of our internal communication happens there.
@@ -22,14 +24,16 @@ The following is a list of things to do if you are new to the {{ site.title }}. 
  5. Write an email to [Chantel Lehl](mailto:chantel.lehl@colorado.edu) **with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) and [Joewie Koh](mailto:joewie.koh@colorado.edu) in Cc**{:.color-banner} in order to get lab access with your Buff card number. Ask her to be added to ECST 322, ECES 116 and ECES 111. Please send her the following information: Name, Student ID, Buff Card Number, CU Login name, Email.
  6. Do a Pull Request [PR] on [this repository](https://github.com/HIRO-group/HIRO-group.github.io) to add your data to [this file](https://github.com/HIRO-group/HIRO-group.github.io/blob/master/_data/people.yml) and a picture of you to [this folder](https://github.com/HIRO-group/HIRO-group.github.io/tree/master/img/people). The picture needs to be square, and preferably not bigger than 400x400 px. If you're not familiar with the PR workflow, you can refer to [this guide](https://github.com/HIRO-group/HIRO-group.github.io/blob/master/CONTRIBUTING.md).
  7. [Subscribe to our mailing list!](https://lists.colorado.edu/sympa/subscribe/hiro-group) Remember to click on the verification link sent to your email to complete your subscription.
- 8. If you are an undergraduate student joining us for the summer, please [subscribe to this list](https://lists.colorado.edu/sympa/subscribe/cs-summer-undergrads) as well.
- 9. [optional] Request to be added to our Google Calendar in the **#hiro-group** channel.
- 10. [optional] Ask for an invitation to our [Trello](https://trello.com) team and [Mendeley](https://www.mendeley.com) group from **@joewie** on Slack or in the **#hiro-group** channel. Provide your preferred email. We share and keep track of relevant papers on Mendeley, while Trello is where we coordinate work on projects.
- 11. [optional] If you need storage for data, request an account with CU Boulder Research Computing on [this page](https://rcamp.rc.colorado.edu/accounts/account-request/create/verify/ucb). After receiving your RC account, await further instructions from RC to set up Duo two-factor authentication.
+ 8. Request to be added to our Google Calendar in the **#hiro-group** channel.
 
-For _{{ site.meetings.semester }}_, we will be holding group meetings in **{{ site.meetings.location }}**{:.color-banner}. Feel free to stop by if you want to have a chat!!
+## 1.1 Optional steps
 
-# 2. Software
+ 1. If you plan to perform research with human subjects, please [be aware of the policies for doing so](https://www.colorado.edu/researchinnovation/irb) and [do the CITI training for Social Behavioral Research Investigators and Key Personnel](https://www.colorado.edu/researchinnovation/irb/getting-started/citi-training). [If your project requires IRB review](https://www.colorado.edu/researchinnovation/irb/getting-started/does-my-research-require-irb-review), please be prepared to do so on a timely manner as submitting an IRB Protocol [and having it reviewed] takes time.
+ 2. If you are an undergraduate student joining for the summer, please [subscribe to this list](https://lists.colorado.edu/sympa/subscribe/cs-summer-undergrads) as well.
+ 3. Ask for an invitation to our [Trello](https://trello.com) team and [Mendeley](https://www.mendeley.com) group from **@joewie** on Slack or in the **#hiro-group** channel. Provide your preferred email. We share and keep track of relevant papers on Mendeley, while Trello is where we coordinate work on projects.
+ 4. If you need storage for data, request an account with CU Boulder Research Computing on [this page](https://rcamp.rc.colorado.edu/accounts/account-request/create/verify/ucb). After receiving your RC account, await further instructions from RC to set up Duo two-factor authentication.
+
+# 2 Software
 
 For what concerns the software, your mileage may vary. This is what you need to do if you are developing software in the HIRO group.
 
