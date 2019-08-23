@@ -101,7 +101,7 @@ header img:hover,
 #article .progress:hover .progress-bar,
 .scroll-top .btn:hover,
 .scroll-top .btn:focus,
-.btn-social:hover,
+.btn-other:hover,
 .navbar-toggler:hover  {
     background-color: #{{ site.color.accent }};
     transition: all ease 1s;
@@ -114,7 +114,7 @@ header img:hover,
 }
 
 .cv-img:hover,
-.btn-social:hover {
+.btn-other:hover {
     border-color: #{{ site.color.accent }};
     transition: all ease 1s;
 }
@@ -1200,7 +1200,7 @@ span.label:hover e.ok {
     color: #{{ site.color.secondary }};
 }
 
-.btn-social {
+.btn-other {
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -1211,7 +1211,7 @@ span.label:hover e.ok {
     line-height: 45px;
 }
 
-.btn-social:hover {
+.btn-other:hover {
     color: #fff;
 }
 
