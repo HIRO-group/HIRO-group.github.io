@@ -13,6 +13,9 @@
                 {% endif %}
 
                 {% for subtype in subtypes %}
+                    <!-- If there is a page with multiple subtypes to display, 
+                    defined in its front matter, we will have unique sections 
+                    for each subtype -->
                     {% if page.subtypes %}
                         <div class="col-lg-12" style="margin-top: 40px; margin-bottom: 40px;" id="{{ subtype | replace: " ", "-" | downcase }}">
                             <h2>{{ subtype }}</h2>
@@ -20,6 +23,7 @@
                         </div>
                     {% endif %}
 
+                    <!-- subcategory is used for an article to appear in multiple pages, e.g. news and wiki, or research and wiki -->
                     {% for post in site.posts %}
                         {% if post.categories contains page.type %}
                             {% if subtype == "dummy" or subtype == post.subcategory %}
