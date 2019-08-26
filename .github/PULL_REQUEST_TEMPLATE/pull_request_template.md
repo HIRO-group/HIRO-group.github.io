@@ -1,11 +1,3 @@
----
-name: Add user
-about: Add user to people page
-title: "[people] "
-labels: people-page
-assignees: joewie
----
-
 Please ensure your pull request adheres to the following guidelines:
 
 - [ ] Your branch should be called `add-[user]`, with `[user]` being a placeholder for your user name
