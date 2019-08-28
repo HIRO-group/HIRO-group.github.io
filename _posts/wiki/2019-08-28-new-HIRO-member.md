@@ -23,10 +23,14 @@ For _{{ site.meetings.semester }}_, we will be holding group meetings in **{{ si
  2. Join the **#hiro-group** and **#hiro-github** channels on Slack. Most of our internal communication happens there.
  3. Create an account on [GitHub](https://github.com) if you haven't already, and share your username with your supervisor and/or point of contact.
  4. Request to be added to our [GitHub organization](https://github.com/HIRO-group) by sending an email to [Joewie Koh](mailto:joewie.koh@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) in Cc, AND make your membership to the GitHub organization public.
- 5. Write an email to [Chantel Lehl](mailto:chantel.lehl@colorado.edu) **with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) and [Joewie Koh](mailto:joewie.koh@colorado.edu) in Cc**{:.color-banner} in order to get lab access with your Buff card number. Ask her to be added to ECST 322, ECES 116 and ECES 111. Please send her the following information: Name, Student ID, Buff Card Number, CU Login name, Email.
- 6. Do a Pull Request [PR] on [this repository](https://github.com/HIRO-group/HIRO-group.github.io) to add your data to [this file](https://github.com/HIRO-group/HIRO-group.github.io/blob/master/_data/people.yml) and a picture of you to [this folder](https://github.com/HIRO-group/HIRO-group.github.io/tree/master/img/people). The picture needs to be square, and preferably not bigger than 400x400 px. If you're not familiar with the PR workflow, you can refer to [this guide](https://github.com/HIRO-group/HIRO-group.github.io/blob/master/CONTRIBUTING.md).
- 7. [Subscribe to our mailing list!](https://lists.colorado.edu/sympa/subscribe/hiro-group) Remember to click on the verification link sent to your email to complete your subscription.
- 8. Request to be added to our Google Calendar in the **#hiro-group** channel.
+ 5. Read carefully the lab agreements, print them and be prepared to sign them at the next one-on-one meeting with Prof. Roncone. There are currently three documents available:
+    1. [Lab etiquette](/docs/HIRO-Group-Lab-Etiquette.pdf), shared among all students and people working in the lab, with the rules of working in the lab;
+    2. [Faculty-Graduate student agreement](/docs/HIRO-Group-Grad-Agreement.pdf), slightly biased toward PhD students but to be used for all graduate students;
+    2. [Faculty-Undergraduate student agreement](/docs/HIRO-Group-UGrad-Agreement.pdf), for undergrads
+ 6. Write an email to [Chantel Lehl](mailto:chantel.lehl@colorado.edu) **with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) and [Joewie Koh](mailto:joewie.koh@colorado.edu) in Cc**{:.color-banner} in order to get lab access with your Buff card number. Ask her to be added to ECST 322, ECES 116 and ECES 111. Please send her the following information: Name, Student ID, Buff Card Number, CU Login name, Email.
+ 7. Do a Pull Request [PR] on [this repository](https://github.com/HIRO-group/HIRO-group.github.io) to add your data to [this file](https://github.com/HIRO-group/HIRO-group.github.io/blob/master/_data/people.yml) and a picture of you to [this folder](https://github.com/HIRO-group/HIRO-group.github.io/tree/master/img/people). The picture needs to be square, and preferably not bigger than 400x400 px. If you're not familiar with the PR workflow, you can refer to [this guide](https://github.com/HIRO-group/HIRO-group.github.io/blob/master/CONTRIBUTING.md).
+ 8. [Subscribe to our mailing list!](https://lists.colorado.edu/sympa/subscribe/hiro-group) Remember to click on the verification link sent to your email to complete your subscription.
+ 9. Request to be added to our Google Calendar in the **#hiro-group** channel.
 
 ## 1.1 Optional steps
 
