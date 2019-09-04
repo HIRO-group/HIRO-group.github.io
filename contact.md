@@ -7,7 +7,7 @@ id: contact
 
 ## Open Positions
 
-For 2019 ARPG is seeking between 2-4 PhD students and a post-doctoral researcher. If you are interested, please send your CV and a cover letter to Chris (contact information on the "People" page). The normal advice for sending such an email applies; most importantly, it would help if you could please express why you are interested in this research group in particular.
+For 2019 ARPG is seeking between 2-4 PhD students and a post-doctoral researcher. If you are interested, please send your CV and a cover letter to Chris (contact information on the ["People"](/people) page). The normal advice for sending such an email applies; most importantly, it would help if you could please express why you are interested in this research group in particular.
 
 We look forward to hearing from you!
 

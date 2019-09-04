@@ -1,6 +1,8 @@
+<h1> Current projects </h2>
+<hr class="separating-line">
 
             {% for item in site.data.research %}
-		<h1>{{item.project}}</h1>
+		<h2>{{item.project}}</h2>
 		{% if item.webpage %}
 		<a href="{{item.webpage}}">Project Page</a>
 		{% endif %}
@@ -15,7 +17,7 @@
                          <p>{{item.blurb}}</p>
 			
 			{% if item.publications %}
-			 <h2>Publications</h2>
+			 <h3>Publications</h3>
 			 <ul>
 			    {% for pub in item.publications %}
 			    <li>
@@ -26,7 +28,7 @@
 			{% endif %}
 			
 			{%if item.funding %}
-			<h2>Funded by</h2> 
+			<h3>Funded by</h3> 
 			<ul>
 			    {% for grant in item.funding %}
 			    <li>

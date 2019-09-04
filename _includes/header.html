@@ -16,15 +16,14 @@
                     <a class="nav-link" href="/"></a>
                 </li>
 
-                {% if page.id == "projects" %}
-                <li class="nav-item page-scroll">
-                    <a class="nav-link" href="#post-cv">research</a>
-                </li>
-                {% else %}
-                <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/research.html">research</a>
-                </li>
-                {% endif %}
+		<li class="nav-item page-scroll dropdown">
+        		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Research </a>
+        		<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          			<a class="dropdown-item" href="/research.html">Overview</a>
+          			<a class="dropdown-item" href="/oivio">OIVIO</a>
+          			<a class="dropdown-item" href="/sunspot">SUNSPOT</a>
+       			 </div>
+      		</li>
 
                 {% if page.id == "people" %}
                 <li class="nav-item page-scroll">
