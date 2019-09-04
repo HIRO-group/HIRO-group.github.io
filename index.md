@@ -1,6 +1,6 @@
 ---
 type: research
-subtypes: [news, videos]
+subtypes: [news]
 ---
 
 ![Group Photo](/img/best_group.jpg){:width="100%"}

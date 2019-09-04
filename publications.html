@@ -1,6 +1,8 @@
 ---
 permalink: publications.html
-type: publications
+type: top
+id: publications
+title: Publications
 description: "List of publications"
 years:
  - 2019
@@ -10,15 +12,8 @@ years:
  - 2015
 ---
 
-<section id="post-cv">
-    <div class="container">
-        <div id="article">
+{% for y in page.years %}
+    <h1>{{ y }}</h1>
+    {% include pubs.html year=y %}
+{% endfor %}
 
-        {% for y in page.years %}
-            <h1>{{ y }}</h1>
-            {% include pubs.html year=y %}
-        {% endfor %}
-
-        </div>
-    </div>
-</section>

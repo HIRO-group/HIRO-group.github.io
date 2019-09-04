@@ -7,10 +7,10 @@
 
     {% include header.html %}
 
-    {% if page.type == "research" or page.type == "wiki" %}
+    {% if page.type == "research" %}
       {% include portfolio.html %}
-    {% elsif page.type == "publications" or page.type == "people" %}
-      {{ content }}
+    {% elsif page.type == "top" %}
+	{% include top.html %}
     {% else %}
       {% include article.html %}
     {% endif %}

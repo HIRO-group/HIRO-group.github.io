@@ -16,7 +16,7 @@
                     <a class="nav-link" href="/"></a>
                 </li>
 
-                {% if page.type == "projects" %}
+                {% if page.id == "projects" %}
                 <li class="nav-item page-scroll">
                     <a class="nav-link" href="#post-cv">research</a>
                 </li>
@@ -26,7 +26,7 @@
                 </li>
                 {% endif %}
 
-                {% if page.type == "people" %}
+                {% if page.id == "people" %}
                 <li class="nav-item page-scroll">
                     <a class="nav-link" href="#post-cv">people</a>
                 </li>
@@ -36,7 +36,7 @@
                 </li>
                 {% endif %}
 
-                {% if page.type == "publications" %}
+                {% if page.id == "publications" %}
                 <li class="nav-item page-scroll">
                     <a class="nav-link" href="#post-cv">publications</a>
                 </li>
@@ -46,19 +46,15 @@
                 </li>
                 {% endif %}
 
-                {% if page.type == "wiki" %}
+		{% if page.id == "contact" %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="#wiki">wiki</a>
+                    <a class="nav-link" href="#post-cv">contact</a>
                 </li>
                 {% else %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/wiki.html">wiki</a>
+                    <a class="nav-link" href="/contact">contact</a>
                 </li>
                 {% endif %}
-
-                <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/join_us.html">join us!</a>
-                </li>
 
             </ul>
         </div>
