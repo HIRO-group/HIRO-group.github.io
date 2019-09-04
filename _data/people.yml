@@ -1,3 +1,14 @@
+ # Template for new entry
+ # Most fields are optional
+ #
+ # - name: 
+ #  role: <faculty/postdoc/manager/phd/grad/undergrad>
+ #  url: 
+ #  office: 
+ #  phone: 
+ #  email: 
+ #  pic: <looks in img/people>
+
  - name: Prof. Christoffer Heckman
    role: faculty
    url: http://www.ristoffer.ch/
