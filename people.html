@@ -17,6 +17,13 @@ roles:
 
         {% include ppl.html role="faculty" size="big" %}
 
+	{% assign manager = site.data.people | where:"role","manager" %}
+        {% if manager != blank %}
+        <h1>Lab Manager</h1>
+
+        {% include ppl.html role="manager" %}
+        {% endif %}
+
 	{% assign postdoc = site.data.people | where:"role","postdoc" %}
 	{% if postdoc != blank %}
 	<h1>Post Doctoral Researchers</h1>
