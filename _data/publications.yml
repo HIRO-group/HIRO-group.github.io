@@ -1,111 +1,108 @@
- - title: "Situated Human-Robot Collaboration: predicting intent from grounded natural language"
-   authors: Jake Brawer, Olivier Mangin, Alessandro Roncone, and Brian Scassellati
+ - title: "Everybody needs somebody sometimes: validation of adaptive recovery
+    in robotic space operations"
+   authors: "S.J. McGuire and P.M. Furlong and T. Fong and C. Heckman and D.
+    Szafir and S. Julier and N. Ahmed"
+   year: 2019
+   venue: IEEE Robotics and Automation Letters
+   pdf: "/papers/McGuire-EverybodyNeeds-AsPublished.pdf"
+
+ - title: "Robust low-overlap {3-D} point cloud registration for outlier
+    rejection"
+   authors: "J. Stechschulte, and N. Ahmed, and C. Heckman"
+   year: 2019
+   venue: International Conference on Robotics and Automation (ICRA)
+   pdf: "/papers/hmrf_icp.pdf"
+
+ - title: "Path-Following though Control Funnel Functions"
+   authors: "H. Ravanbakhsh, S. Aghli, C. Heckman, and S. Sankaranarayanan"
    year: 2018
-   venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
-   where: Madrid, Spain, October 1-5
-   pdf: "2018_Brawer_IROS_situated_hrc"
-   host: https://alessandro.ronc.one
- - title: "Preference-Based Assistance Prediction for Human-Robot Collaboration Tasks"
-   authors: Elena Corina Grigore, Alessandro Roncone, Olivier Mangin, and Brian Scassellati
+   venue: International Conference on Intelligent Robots and Systems (IROS)
+   pdf: "http://sinaaghli.com/wp-content/uploads/2018/04/control-funnel.pdf"
+
+ - title: "Autonomous Localization, Navigation and Haustral Fold Detection for Robotic Endoscopy"
+   authors: "Prendergast, Micah and Formosa, Greg and Heckman, Chris and Rentschler, Mark"
    year: 2018
-   venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
-   where: Madrid, Spain, October 1-5
-   pdf: "2018_Grigore_IROS_assistance_prediction"
-   host: https://alessandro.ronc.one
- - title: "The HRC Model set for Human-Robot Collaboration Research"
-   authors: Sofya Zeylikman, Sarah Widder, Alessandro Roncone, Olivier Mangin, and Brian Scassellati
+   venue: International Conference on Intelligent Robots and Systems (IROS)
+   pdf: "/papers/08594106.pdf"
+
+ - title: "Game-Theoretic Cooperative Lane Changing Using Data-Driven Models"
+   authors: "Ding, Guohui and Aghli, Sina and Heckman, Christoffer and Chen, Lijun"
    year: 2018
-   venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
-   where: Madrid, Spain, October 1-5
-   pdf: "2018_Zeylikman_IROS_hrc_model_set"
-   host: https://alessandro.ronc.one
- - title: "Predicting Supportive Behaviors for Human-Robot Collaboration"
-   authors: Elena Corina Grigore, Olivier Mangin, Alessandro Roncone, and Brian Scassellati
+   venue: International Conference on Intelligent Robots and Systems (IROS)
+   pdf: "http://sinaaghli.com/wp-content/uploads/2018/03/game-theoretic-cooperative.pdf"
+
+ - title: "FastCal: Robust Online Self-Calibration for Robotic Systems"
+   authors: "Nobre, Fernando and Heckman, Christoffer"
    year: 2018
-   venue: International Conference on Autonomous Agents and Multiagent Systems [AAMAS]
-   where: Stockholm, Sweden, July 11-13
-   pdf: "2018_Grigore_AAMAS_predicting_supportive_behaviors_hrc"
-   host: https://alessandro.ronc.one
-   description: Extended abstract
- - title: "Compact Real-time avoidance on a Humanoid Robot for Human-Robot interaction"
-   authors: Dong Hai Phuong Nguyen, Matej Hoffmann, Alessandro Roncone, Ugo Pattacini, and Giorgio Metta
+   venue: International Symposium on Experimental Robotics (ISER)
+
+ - title: "Weak in the NEES?: Auto-tuning Kalman Filters with Bayesian Optimization"
+   authors: "Chen, Zhaozhong and Heckman, Christoffer and Julier, Simon and Ahmed, Nisar"
    year: 2018
-   venue: ACM/IEEE International Conference on Human-Robot Interaction [HRI]
-   where: Chicago, IL, U.S.A., March 5-8
-   pdf: "2018_Nguyen_HRI_physical_hri_controller"
-   host: https://alessandro.ronc.one
- - title: "How to be Helpful? Implementing Supportive Behaviors for Human-Robot Collaboration"
-   authors: Olivier Mangin, Alessandro Roncone, and Brian Scassellati
+   venue: 21st International Conference on Information Fusion (FUSION)
+   pdf: "https://arxiv.org/pdf/1807.08855.pdf"
+
+ - title: "Failure is Not an Option: Policy Learning for Adaptive Recovery in Space Operations"
+   authors: "S. McGuire and P. M. Furlong and C. Heckman and S. Julier and D. Szafir and N. Ahmed"
+   year: 2018
+   venue: IEEE Robotics and Automation Letters
+   pdf: "/papers/08279454.pdf"
+
+ - title: "Online System Identification and Calibration of Dynamic Models for Autonomous Ground Vehicles"
+   authors: "Aghli, Sina and Heckman, Christoffer"
+   year: 2018
+   venue: International Conference on Robotics and Automation (ICRA)
+   pdf: "http://sinaaghli.com/wp-content/uploads/2018/03/icra18-online-calibration.pdf"
+
+ - title: "Online Probabilistic Change Detection in Feature-Based Maps"
+   authors: "Nobre, Fernando and Heckman, Christoffer and Ozog, Paul and Wolcott, Ryan and Walls, Jeffrey"
+   year: 2018
+   venue: International Conference on Robotics and Automation (ICRA)
+   pdf: "/papers/08461111.pdf"
+
+ - title: "Reinforcement Learning for Assisted Visual-Inertial Robotic Calibration"
+   authors: "Nobre, Fernando and Heckman, Christoffer"
    year: 2017
-   venue: ArXiv e-prints
-   pdf: "2017_Mangin_supportive_behaviors"
-   host: https://alessandro.ronc.one
- - title: "Transparent Role Assignment and Task Allocation in Human Robot Collaboration"
-   authors: Alessandro Roncone, Olivier Mangin, and Brian Scassellati
+   venue: International Symposium on Robotics Research (ISRR)
+   pdf: "/papers/nobre-isrr-2017.pdf"
+
+ - title: "Materials that Make Robots Smart"
+   authors: "Correll, Nikolaus and Heckman, Christoffer"
    year: 2017
-   venue: IEEE International Conference on Robotics and Automation [ICRA]
-   where: Singapore, Singapore May 29-June 3
-   pdf: "2017_Roncone_ICRA_role_assignment"
-   host: https://alessandro.ronc.one
- - title: "Learning Peripersonal Space Representation in a Humanoid Robot with Artificial Skin"
-   authors: Alessandro Roncone
+   venue: International Symposium on Robotics Research (ISRR)
+   pdf: "https://arxiv.org/pdf/1711.00537.pdf"
+
+ - title: "Terrain Aware Model Predictive Controller for Autonomous Ground Vehicles"
+   authors: "Aghli, Sina and Heckman, Christoffer"
    year: 2017
-   venue: AAAI Matters
-   pdf: "2017_Roncone_AAAI_matters"
-   host: https://alessandro.ronc.one
- - title: "Physiologically Inspired Blinking Behavior for a Humanoid Robot"
-   authors: Hagen Lehmann, Alessandro Roncone, Ugo Pattacini, and Giorgio Metta
+   venue: "Robotics: Science and Systems (RSS) Workshop on Bridging the Gap in Space Robotics"
+   pdf: "/papers/rss17-paper-terrain.pdf"
+
+ - title: "On the Development of an Online Assistant Selection Dataset for Planetary Exploration Systems"
+   authors: "McGuire, Steve and Furlong, P. Michael and Ahmed, Nisar"
+   year: 2017
+   venue: "Robotics: Science and Systems (RSS) Workshop on Bridging the Gap in Space Robotics"
+
+ - title: "Drift-Correcting Self-Calibration for Visual-Inertial SLAM"
+   authors: "Nobre, Fernando and Kasper, Michael and Heckman, Christoffer"
+   year: 2017
+   venue: International Conference on Robotics and Automation (ICRA)
+   pdf: "/papers/07989771.pdf"
+
+ - title: "Light Source Estimation in Synthetic Images"
+   authors: "Kasper, Michael and Keivan, Nima and Sibley, Gabe and Heckman, Christoffer"
    year: 2016
-   venue: International Conference on Social Robotics [ICSR]
-   where: Kansas City, MO, U.S.A., November 1-3
-   pdf: "2016_Lehmann_ICSR_blinking"
-   host: https://alessandro.ronc.one
- - title: "Peripersonal Space and Margin of Safety around the Body: Learning Visuo-tactile Associations in a Humanoid Robot with Artificial Skin"
-   authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, Luciano Fadiga, and Giorgio Metta
+   venue: "European Conference on Computer Vision (ECCV) Workshop on Virtual/Augmented Reality for Visual Artificial Intelligence"
+   pdf: "/papers/Kasper2016_Chapter_LightSourceEstimationInSynthet.pdf"
+
+ - title: "Multi-Sensor {SLAM} with Online Self-Calibration and Change Detection"
+   authors: "Fernando Nobre and Christoffer Heckman and Gabe Sibley"
    year: 2016
-   venue: PLOS ONE
-   pdf: "2016_Roncone_plosONE_peripersonal_space"
-   host: https://alessandro.ronc.one
- - title: "A Cartesian 6-DoF Gaze Controller for Humanoid Robots"
-   authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
-   year: 2016
-   venue: "Robotics: Science and Systems [RSS]"
-   where: Ann Arbor, MI, U.S.A., June 18-22
-   pdf: "2016_Roncone_RSS_gaze_controller"
-   host: https://alessandro.ronc.one
- - title: "Learning peripersonal space representation through artificial skin for avoidance and reaching with whole body surface"
-   authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta
+   venue: International Symposium on Experimental Robotics (ISER)
+   pdf: "/papers/Nobre2017_Chapter_Multi-SensorSLAMWithOnlineSelf.pdf"
+
+ - title: "Simulation-in-the-loop for Planning and Model-Predictive Control"
+   authors: "Christoffer Heckman and Nima Keivan and Gabe Sibley"
    year: 2015
-   venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
-   where: Hamburg, Germany, September 28-October 2
-   pdf: "2015_Roncone_IROS_peripersonal_space"
-   host: https://alessandro.ronc.one
- - title: "Expanding Sensorimotor capabilities of Humanoid Robots through Multisensory Integration - a study on the implementation of Peripersonal Space on the iCub"
-   authors: Alessandro Roncone
-   year: 2015
-   venue: Ph.D. Thesis
-   where: University of Genoa and Italian Institute of Technology
-   pdf: "2015_Roncone_PhD_thesis"
-   host: https://alessandro.ronc.one
- - title: "Gaze Stabilization for Humanoid Robots: A Comprehensive Framework"
-   authors: Alessandro Roncone, Ugo Pattacini, Giorgio Metta, and Lorenzo Natale
-   year: 2014
-   venue: IEEE-RAS International Conference on Humanoid Robots
-   where: Madrid, Spain, November 18-20
-   pdf: "2014_Roncone_humanoids_gaze_stabilization"
-   host: https://alessandro.ronc.one
- - title: "3D Stereo Estimation and Fully Automated Learning of Eye-Hand Coordination in Humanoid Robots"
-   authors: Sean Ryan Fanello, Ugo Pattacini, Ilaria Gori, Vadim Tikhanoff, Marco Randazzo, Alessandro Roncone, Francesca Odone, and Giorgio Metta
-   year: 2014
-   venue: IEEE-RAS International Conference on Humanoid Robots
-   where: Madrid, Spain, November 18-20
-   pdf: "2014_Fanello_humanoids_eye_hand_coordination"
-   host: https://alessandro.ronc.one
- - title: "Automatic kinematic chain calibration using artificial skin: self-touch in the iCub humanoid robot"
-   authors: Alessandro Roncone, Matej Hoffmann, Ugo Pattacini, and Giorgio Metta
-   year: 2014
-   venue: IEEE International Conference on Robotics and Automation [ICRA]
-   where: Hong Kong, China, May 31-June 7
-   description: <a href="http://spectrum.ieee.org/automaton/robotics/robotics-software/video-friday-robot-racecar-kilobot-display-humanoid-skin" target="_blank">It was featured in the IEEE Spectrum Video Friday!</a>
-   pdf: "2014_Roncone_ICRA_kinematic_calibration"
-   host: https://alessandro.ronc.one
+   venue: "Robotics Science and Systems (RSS) Workshop on Realistic, Repeatable and Robust Simulation"
+   pdf: "/papers/heckman_rss2015.pdf"

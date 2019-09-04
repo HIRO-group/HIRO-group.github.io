@@ -134,11 +134,77 @@
    email: 
    pic: Cesar_Galan.jpg
 
- - name: Sina
+ - name: Sina Aghli
+   role: alumni
+   dates: 2012-2018
+   thesis: Model Identification and Control of Autonomous Ground Vehicles
+   advisor: Christoffer Heckman
+   now: Now an instructor at University of Colorado Boulder.
+
+ - name: Fernando Nobre
+   role: alumni
+   dates: 2014-2018
+   thesis: Robust Self-Calibration and Mapping for Long Term Autonomy
+   advisor: Christoffer Heckman
+   now: Now an engineer at robotics startup Canvas Technologies in Boulder, CO.
+
+ - name: Juan Falquez
+   role: alumni
+   dates: 2010-2018
+   thesis: Towards Robust Dense Visual Simultaneous Localization and Mapping (SLAM)
+   advisor: Gabe Sibley
+   now: Now a co-founder at robotics startup¬†Canvas Technologies in Boulder, CO.
+
+ - name: Nima Keivan
+   role: alumni
+   dates: 2012-2017
+   thesis: Monocular Visual-Inertial SLAM and Self Calibration for Long Term Autonomy
+   advisor: Gabe Sibley
+   now: Now a co-founder at robotics startup¬†Canvas Technologies in Boulder, CO.
+
+ - name: Lu Ma
+   role: alumni
+   dates: 2010-2016
+   thesis: Scalable Unsupervised Dense Objects Discovery, Detection, Tracking and Reconstruction
+   advisor: Gabe Sibley
+   now: Now a research scientist at DJI.
+
+ - name: Mahsa Ghafarianzadeh
+   role: alumni
+   dates: 2010-2017
+   thesis: Towards Temporal Semantic Scene Understanding
+   advisor: Christoffer Heckman and Gabe Sibley
+   now: Now at a self-driving car startup in Menlo Park, CA.
+
+ - name: Soham Banerjee
    role: alumni
 
- - name: Fernando
+ - name: Dana Hughes
    role: alumni
 
- - name: Nima
+ - name: Ryan Leonard
    role: alumni
+
+ - name: Nikhil Mahendra
+   role: alumni
+
+ - name: Corin Sandford
+   role: alumni
+
+ - name: Akshay Singh
+   role: alumni
+
+ - name: Gage Froelich
+   role: alumni
+
+ - name: Soroush Khadem
+   role: alumni
+
+ - name: Daniel Kim
+   role: alumni
+
+ - name: Kellen Mcdonald
+   role: alumni
+
+
+  

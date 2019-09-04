@@ -1,0 +1,40 @@
+
+            {% for item in site.data.research %}
+		<h1>{{item.project}}</h1>
+		{% if item.webpage %}
+		<a href="{{item.webpage}}">Project Page</a>
+		{% endif %}
+                <div class="row cv-item pub">
+                     <div class="col-md-3">
+			{% if item.img %}
+                        <img src="{{item.img}}" alt="{{item.img_alt}}" style="width:100%;">
+			{% endif %}
+                     </div>
+
+                     <div class="col-md-9">
+                         <p>{{item.blurb}}</p>
+			
+			{% if item.publications %}
+			 <h2>Publications</h2>
+			 <ul>
+			    {% for pub in item.publications %}
+			    <li>
+			    {{pub.authors}}. <em><a href="{{pub.url}}">{{item.title}}</a></em>. In {{pub.venue}} {{pub.date}}.
+			    </li>
+			    {% endfor %}
+			</ul>
+			{% endif %}
+			
+			{%if item.funding %}
+			<h2>Funded by</h2> 
+			<ul>
+			    {% for grant in item.funding %}
+			    <li>
+			    {{grant}}
+			    </li>
+			    {% endfor %}
+			</ul>
+			{% endif %}                       
+		     </div>
+                </div>
+            {% endfor %}

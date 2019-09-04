@@ -1252,6 +1252,10 @@ footer {
     color: #fff;
 }
 
+footer a {
+    color: #{{ site.color.primary }};
+}
+
 footer h3 {
     margin-bottom: 20px;
 }
