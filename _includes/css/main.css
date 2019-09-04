@@ -58,7 +58,7 @@ p.small {
 }
 
 a {
-    color: #fff;
+    color: #{{ site.color.secondary }};
     outline: none;
     text-decoration: none;
     font-weight: bold;
@@ -338,7 +338,7 @@ header .intro-text .owner {
 }
 
 .navbar {
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.primary }};
     border: 0;
     transition: all ease .3s;
 }
@@ -352,9 +352,9 @@ header .intro-text .owner {
 .navbar-brand {
     min-width: 488px;
     width: 488px;
-    height: 128px;
+    height: 72px;
     transition: all ease .3s;
-    background: url("{{ site.logo3 }}") no-repeat;
+    background: url("{{ site.logo }}") no-repeat;
     background-size: contain;
 }
 
@@ -362,7 +362,7 @@ header .intro-text .owner {
     min-width: 90px;
     width: 90px;
     height: 60px;
-    background-image: url("{{ site.logo2 }}");
+    background-image: url("{{ site.logo }}");
 }
 
 @media(max-width: 1350px) {
@@ -430,7 +430,7 @@ header .intro-text .owner {
         padding-left: 10px;
         margin-right: 10px;
         transition: all ease 1s;
-        background-color: #{{ site.color.secondary }};
+        background-color: #{{ site.color.primary }};
     }
 
     .navbar-toggler:hover {

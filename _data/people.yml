@@ -1,68 +1,107 @@
- - name: Prof. Alessandro Roncone
+ - name: Prof. Christoffer Heckman
    role: faculty
-   url: https://alessandro.ronc.one
-   office: ECES 124
-   phone: +1 (303) 735-6233
-   email: alessandro.roncone@colorado.edu
-   pic: alecive.jpg
+   url: http://www.ristoffer.ch/
+   office: ECES 130
+   phone: +1-303-492-2961
+   email: Christoffer.Heckman@colorado.edu
+   pic: Heckman_Christoffer.jpg
 
- - name: Chi-ju Wu
-   role: grad
-   url: http://sayter99.github.io/
-   phone: +1 (480) 842-9667
-   email: chiju.wu@colorado.edu
-   pic: sayter.jpg
+ - name: Dr. Steve McGuire
+   role: postdoc
+   url: 
+   office: ECES 116
+   phone: 
+   email: 
+   pic: Steve_McGuire.jpg
 
- - name: Joewie J. Koh
+ - name: Mike Kasper
    role: phd
-   url: https://www.linkedin.com/in/joewie/
-   email: joewie.koh@colorado.edu
-   pic: joewie.jpg
+   url: 
+   office: 
+   phone: 
+   email: 
+   pic: Kasper_Mike.jpg
 
- - name: Dongming Chang
-   role: grad
-   phone: +1 (720) 296-5068
-   email: dongming.chang@colorado.edu
-   pic: dongming.jpg
-
- - name: Andrew Chen
-   role: grad
-   phone: +1 (720) 229-7094
-   email: chi.chen@colorado.edu
-   pic: andrew.jpg
-
- - name: Garrett Pierson
-   role: undergrad
-   phone: +1 (970) 596-7403
-   email: garrett.pierson@colorado.edu
-   pic: garrett.jpg
-
- - name: Sean Shaifubahrim
-   role: undergrad
-   url:
-   office:
-   phone: +1 (720) 220-3513
-   email: sesh4314@colorado.edu
-   pic: sean.jpg
-
- - name: Sayali Sonawane
-   role: grad
-   url:
-   office:
-   phone: +1 (206) 334-4724
-   email: saso7344@colorado.edu
-   pic: sayali.jpg
-
- - name: Anuj Pasricha
+ - name: John Stechschulte
    role: phd
-   url: https://www.linkedin.com/in/anujpasricha
-   phone: +1 (217) 693-1665
-   email: anpa5923@colorado.edu
-   pic: anuj.jpg
+   url: 
+   office: ECES 116
+   phone: 
+   email: 
+   pic: John_Stechschulte.jpg
 
- - name: Jacob Fiola
-   role: undergrad
-   url: https://www.linkedin.com/in/jacob-fiola/
-   phone: +1 (913) 653-3758
-   email: jafi8633@colorado.edu
-   pic: jfiola.jpg
+ - name: Cecilia Mauceri
+   role: phd
+   url: 
+   office: ECES 116
+   phone: 
+   email: Cecilia.Mauceri@colorado.edu
+   pic: Cecilia_Mauceri.jpg
+
+ - name: Andrew Kramer
+   role: phd
+   url: 
+   office: ECES 116
+   phone: 
+   email: 
+   pic: Andrew_Kramer.jpg
+
+ - name: Zhaozhong Chen
+   role: phd
+   url: 
+   office: ECES 116
+   phone: 
+   email: 
+   pic: Zhaozhong_Chen.jpg
+
+ - name: Mike Miles
+   role: phd
+   url: 
+   office: ECES 116
+   phone: 
+   email: 
+   pic: Mike_Miles.jpg
+
+ - name: Carl Stahoviak
+   role: phd
+   url: 
+   office: ECES 116
+   phone: 
+   email: 
+   pic: Carl_Stahoviak.png
+
+ - name: Kyle Harlow
+   role: phd
+   url: 
+   office: ECES 116
+   phone: 
+   email: 
+   pic: Harlow_Kyle.jpg
+
+ - name: Mary Martin
+   role: phd
+   url: 
+   office: ECES 116
+   phone: 
+   email: 
+   pic: Martin_Mary.jpg
+
+ - name: Harel Biggie
+   role: phd
+   url: 
+   office: ECES 116
+   phone: 
+   email: 
+   pic: Biggie_Harel.jpg
+
+ - name: Caleb Escobedo
+   role: phd
+   url: 
+   office: ECES 116
+   phone: 
+   email: 
+   pic: Escobedo_Caleb.jpg
+
+
+
+

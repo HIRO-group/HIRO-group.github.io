@@ -1,8 +1,8 @@
 ---
-title: HIRO people
+title: ARPG people
 permalink: people.html
 type: people
-description: "List of members of the Human Interaction and RObotics group"
+description: "List of members of the Autonomous Robotics and Perception Group"
 roles:
  - faculty
  - grad
@@ -15,9 +15,13 @@ roles:
     <div class="container">
         <div id="article">
 
-        {% include image.html url="group_pics/2019_05.jpg" max-width="100%" description="Group picture taken at the end of Spring 2019 semester. From left to right: Sean, Chi-Ju, Dongming, Joewie, Kuri the robot, Andrew, Anuj, Alessandro, Garrett, Kelly, Sayali." %}
-
         {% include ppl.html role="faculty" size="big" %}
+
+	{% assign postdoc = site.data.people | where:"role","postdoc" %}
+	{% if postdoc != blank %}
+	<h1>Post Doctoral Researchers</h1>
+	{% include ppl.html role="postdoc" %}
+	{% endif %}
 
         {% assign phd = site.data.people | where:"role","phd" %}
         {% if phd != blank %}
@@ -26,13 +30,20 @@ roles:
         {% include ppl.html role="phd" %}
         {% endif %}
 
+	{% assign grad = site.data.people | where:"role","grad" %}
+        {% if grad != blank %}
         <h1>Graduate Students</h1>
 
         {% include ppl.html role="grad" %}
+	{% endif %}
 
+	{% assign undergrad = site.data.people | where:"role","undergrad" %}
+        {% if undergrad != blank %}
         <h1>Undergraduate Research Assistants</h1>
 
         {% include ppl.html role="undergrad" %}
+
+	{% endif %}
 
         {% assign alumni = site.data.people | where:"role","alumni" %}
         {% if alumni != blank %}

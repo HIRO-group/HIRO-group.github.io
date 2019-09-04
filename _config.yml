@@ -1,29 +1,27 @@
 # Site settings
-title: Human Interaction and Robotics Group
-email: alessandro.roncone@colorado.edu
-url: https://hiro-group.ronc.one
-phone: +1 (303) 735-6233
-google-analytics-id: UA-80094809-2
-description: "The HIRO Group, led by Alessandro Roncone at CU Boulder, works on robot technologies that enable close, natural, and extended cooperation with humans."
-owner: Human Interaction and Robotics Group
-owner-short: HIRO-group
-owner-url: https://alessandro.ronc.one
+title: Autonomous Robotics and Perception Group
+email: Christoffer.Heckman@colorado.edu
+url: https://arpg.colorado.edu
+phone: +1-303-492-2961
+google-analytics-id: 
+description: "The ARPG Group, led by Christoffer Heckman at CU Boulder, conducts research in robotics, control theory, and perception."
+owner: Autonomous Robotics and Perception Group
+owner-short: ARPG
+owner-url: http://www.ristoffer.ch/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github-alt
-    url: https://github.com/HIRO-group
+    url: https://github.com/ARPG
   - title: slack
     url: https://arpg.slack.com
 
 meetings:
-  semester: Spring 2019
-  location: ECES 116 on Thursdays from 10am to 11am [last meeting will be on May 16th]
+  semester: Fall 2019
+  location: ECES 116 on Wednesdays from 1:30pm to 3pm [last meeting will be on December 16th]
 
-logo: /img/logo.svg
-logopng: /img/logo.png
-logo2: /img/logo2.svg
-logo3: /img/logo3.svg
+logo: /img/logos/arpg-logo.png
+logothumb: /img/logos/cu-logo.png
 
 # Postal address (add as many lines as necessary)
 address:
