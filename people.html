@@ -5,9 +5,10 @@ type: people
 description: "List of members of the Human Interaction and RObotics group"
 roles:
  - faculty
+ - phd
  - grad
  - undergrad
- - phd
+ - collaborator
  - alumni
 ---
 
@@ -33,6 +34,15 @@ roles:
         <h1>Undergraduate Research Assistants</h1>
 
         {% include ppl.html role="undergrad" %}
+
+        {% assign collaborator = site.data.people | where:"role","collaborator" %}
+        {% if collaborator != blank %}
+        <h1>External Collaborators</h1>
+
+        <ul>
+        {% include ppl.html role="collaborator" %}
+        </ul>
+        {% endif %}
 
         {% assign alumni = site.data.people | where:"role","alumni" %}
         {% if alumni != blank %}

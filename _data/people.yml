@@ -61,6 +61,17 @@
    email: bepa0041@colorado.edu
    pic: bpage.jpeg
 
+# Collaborators
+# [in order of first appearance in the lab]
+
+ - name: Kelly Merckaert
+   role: collaborator
+   pic: kelly.jpg
+
+ - name: Guohui Ding
+   role: collaborator
+   pic: guohui.jpg
+
 # Alumni
 # [in order of first appearance in the lab]
 
