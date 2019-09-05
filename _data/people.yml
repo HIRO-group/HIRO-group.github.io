@@ -38,20 +38,6 @@
    email: chiju.wu@colorado.edu
    pic: sayter.jpg
 
- - name: Dongming Chang
-   role: grad
-   phone: +1 (720) 296-5068
-   email: dongming.chang@colorado.edu
-   pic: dongming.jpg
-
- - name: Sayali Sonawane
-   role: grad
-   url:
-   office:
-   phone: +1 (206) 334-4724
-   email: saso7344@colorado.edu
-   pic: sayali.jpg
-
 # Undergraduate Students
 # [in order of first appearance in the lab]
 
@@ -60,14 +46,6 @@
    phone: +1 (970) 596-7403
    email: garrett.pierson@colorado.edu
    pic: garrett.jpg
-
- - name: Sean Shaifubahrim
-   role: undergrad
-   url:
-   office:
-   phone: +1 (720) 220-3513
-   email: sesh4314@colorado.edu
-   pic: sean.jpg
 
  - name: Jacob Fiola
    role: undergrad
@@ -92,3 +70,23 @@
    phone: +1 (720) 229-7094
    email: chi.chen@colorado.edu
    pic: andrew.jpg
+
+ - name: Sean Shaifubahrim
+   role: alumni
+   graduated: Spring 2019 [B.S.]
+   phone: +1 (720) 220-3513
+   email: sesh4314@colorado.edu
+   pic: sean.jpg
+
+ - name: Dongming Chang
+   role: alumni
+   phone: +1 (720) 296-5068
+   email: dongming.chang@colorado.edu
+   pic: dongming.jpg
+
+ - name: Sayali Sonawane
+   role: alumni
+   graduated: Spring 2019 [M.S.]
+   phone: +1 (206) 334-4724
+   email: saso7344@colorado.edu
+   pic: sayali.jpg
