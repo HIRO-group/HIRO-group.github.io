@@ -39,9 +39,7 @@ roles:
         {% if collaborator != blank %}
         <h1>External Collaborators</h1>
 
-        <ul>
         {% include ppl.html role="collaborator" %}
-        </ul>
         {% endif %}
 
         {% assign alumni = site.data.people | where:"role","alumni" %}
