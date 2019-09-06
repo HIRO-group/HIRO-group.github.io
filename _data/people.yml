@@ -24,7 +24,7 @@
 
  - name: Kandai Watanabe
    role: phd
-   url: https://www.linkedin.com/in/kandai/, https://kandaiwatanabe.wordpress.com
+   url: https://kandaiwatanabe.wordpress.com
    email: kawa7978@colorado.edu
    pic: kandai.jpg
 
@@ -66,14 +66,16 @@
 
  - name: Kelly Merckaert
    role: collaborator
+   email: kelly.merckaert@vub.be
    pic: kelly.jpg
 
  - name: Guohui Ding
    role: collaborator
+   email: guohui.ding@colorado.edu
    pic: guohui.jpg
 
 # Alumni
-# [in order of first appearance in the lab]
+# [in order of when they left the lab]
 
  - name: Andrew Chen
    role: alumni
