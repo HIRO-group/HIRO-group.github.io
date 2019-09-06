@@ -1,13 +1,15 @@
 ---
-title: Getting Started as an Undergraduate in the HIRO Group
+title: Getting Started as a new member of the HIRO Group
 description: Answering the questions you didn't know to ask
-permalink: join_us.html
+tags: [wiki,how to,tutorial,ros,installation,kinetic,ubuntu,16.04,robotics,Sawyer,simulator]
+permalink: undergrad_guide.html
+author: Garrett Pierson
 ---
 
 # Contents
-This guide is intended for new undergraduate members with limited exposure to
+This guide is intended for new group members with limited exposure to
 ROS and other tools used in the HIRO Group. This page in conjunction with the
-new member to-do list page will help you through setting up all of the software
+[new member to-do]({%post_url wiki/2019-08-21-new-HIRO-member%}) list page will help you through setting up all of the software
 so that you can get started working on your project with minimal frustration.
 
 # When Should I Ask For Help?
@@ -23,13 +25,12 @@ Take the error messages or type what you are trying to do and search for answers
 using Google. This should always be your first step after trying for a solid
 15-20 minutes on your own. Carefully read through at least the first page for
 answers to your problems and refer to the tutorials. Try this for an hour, then
-if you can not figure it out, ask one of the other undergraduates.
+if you can not figure it out, ask one of the other members.
 
 2. **Ask an Undergraduate Student!**
 You should introduce yourself to everyone in the lab and get to know them
-(everyone is also listed on the website under people). Just like for any other problem,
-before asking for help, try to understand where you are struggling and make a
-hypothesis of why you are having a problem. If the other undergraduates cannot
+(everyone is also listed on the website under [people](https://hiro-group.ronc.one/people.html)) are struggling and make a
+hypothesis of why you are having a problem. If the undergraduates cannot
 quickly solve the issue or if you are specifically working with a graduate student,
 you should do some more searching online and review your code to see if something
 small was overlooked. If this does not work, go ask a graduate student.
@@ -84,7 +85,7 @@ tutorial first to learn some basic command line tools.
 
             ```
 
-    * Take a look at the Cmake tutorials linked in the [preliminaries]({% post_url wiki/2019-08-21-new-HIRO-member %}) section.
+    * Take a look at the Cmake tutorials linked in the [new member to-do list]({% post_url wiki/2019-08-21-new-HIRO-member %}) section.
     * Make sure to pay attention to publishers and subscribers as they are essential to ROS.
 4. Get something moving! (See Section 5 for Example Code)
     * Run some of the example programs like the [wobble program](http://sdk.rethinkrobotics.com/intera/Head_Movement_Example) on the Intera SDK Gazebo site for Sawyer.
