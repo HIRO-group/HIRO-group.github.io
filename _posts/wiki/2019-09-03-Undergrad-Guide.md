@@ -9,7 +9,7 @@ author: Garrett Pierson
 # Contents
 This guide is intended for new group members with limited exposure to
 ROS and other tools used in the HIRO Group. This page in conjunction with the
-[new member to-do]({%post_url wiki/2019-08-21-new-HIRO-member%}) list page will help you through setting up all of the software
+[new member to-do]({% post_url wiki/2019-08-28-new-HIRO-member %}) list page will help you through setting up all of the software
 so that you can get started working on your project with minimal frustration.
 
 # When Should I Ask For Help?
@@ -85,7 +85,7 @@ tutorial first to learn some basic command line tools.
 
             ```
 
-    * Take a look at the Cmake tutorials linked in the [new member to-do list]({% post_url wiki/2019-08-21-new-HIRO-member %}) section.
+    * Take a look at the Cmake tutorials linked in the [new member to-do list]({% post_url wiki/2019-08-28-new-HIRO-member %}) section.
     * Make sure to pay attention to publishers and subscribers as they are essential to ROS.
 4. Get something moving! (See Section 5 for Example Code)
     * Run some of the example programs like the [wobble program](http://sdk.rethinkrobotics.com/intera/Head_Movement_Example) on the Intera SDK Gazebo site for Sawyer.
