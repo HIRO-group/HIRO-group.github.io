@@ -1,0 +1,116 @@
+
+
+<section id="post-cv">
+    <div class="container">
+        <div id="article">
+
+            {{ content }}
+
+            <h1>Education</h1>
+                {% for item in page.education %}
+                    <div class="row cv-item">
+                        <div class="col-md-3">
+                            <h3 class="inlineifprinted">{{item.start}} - {{item.end}}</h3>
+                            {% if item.location-link %}<h4 class="inlineifprinted"><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h4>
+                            {% else %}<h4 class="inlineifprinted">{{item.location}}</h4>
+                            {% endif %}
+                        </div>
+                        <div class="col-md-9">
+                            <h2>{{item.name}}</h2>
+                            <p>{% if item.title %}<i>{{item.title}}</i><br>{% endif %}
+                            {{item.description}}
+                            </p>
+                        </div>
+                    </div>
+                {% endfor %}
+
+            <h1>Professional Experience</h1>
+                {% for item in page.experience %}
+                    <div class="row cv-item">
+                        <div class="col-md-3">
+                            <h3 class="inlineifprinted">{{item.start}} - {{item.end}}</h3>
+                            {% if item.location-link %}<h4 class="inlineifprinted"><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h4>
+                            {% else %}<h4 class="inlineifprinted">{{item.location}}</h4>
+                            {% endif %}
+                        </div>
+                        <div class="col-md-9">
+                            <h2>{{item.name}}</h2>
+                            <p>{% if item.title %}<i>{{item.title}}</i><br>{% endif %}
+                            {{item.description}}
+                            </p>
+                        </div>
+                    </div>
+                {% endfor %}
+
+            <h1>Miscellanea</h1>
+                {% for item in page.misc %}
+                    <div class="row cv-item">
+                        <div class="col-md-3">
+                            <h3 class="inlineifprinted">{{item.start}} - {{item.end}}</h3>
+                            {% if item.location-link %}<h4 class="inlineifprinted"><a href="{{item.location-link}}" target="_blank">{{item.location}}</a></h4>
+                            {% else %}<h4 class="inlineifprinted">{{item.location}}</h4>
+                            {% endif %}
+                        </div>
+                        <div class="col-md-9">
+                            <h2>{{item.name}}</h2>
+                            <p>{% if item.title %}<i>{{item.title}}</i><br>{% endif %}
+                            {{item.description}}
+                            </p>
+                        </div>
+                    </div>
+                {% endfor %}
+
+            <h1>Publications</h1>
+                {% for y in page.years %}
+                    <h2>{{ y }}</h2>
+                    {% for item in page.publications %}
+                        {% if y == item.year %}
+                            <div class="row cv-item pub">
+                                <div class="col-md-3">
+                                    <h4 class="inlineifprinted">{{item.venue}}</h4>
+                                    {% if item.where %}<p  class="no-print d-none d-md-block">{{item.where}}</p>{% endif %}
+                                </div>
+                                <div class="col-md-9">
+                                    <h2>{{item.title}}
+                                        {% if item.pdf %}<a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.pdf" target="_blank"> [PDF]</a><a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.bib" target="_blank"> [BIB]</a>{% endif %}
+                                        {% if item.arxiv %}<a class="no-print" href="https://arxiv.org/abs/{{ item.arxiv }}" target="_blank"> [arXiv]</a>{% endif %}</h2>
+                                    <p><i>{{item.authors}}</i><br>
+                                    {% if item.description %}{{item.description}}{% endif %}
+                                    </p>
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+
+            <h1>Service</h1>
+                {% for item in page.service %}
+                    <div class="row cv-item">
+                        {% if item.year or item.venue or item.where %}
+                        <div class="col-md-4">
+                            <h3 class="inlineifprinted">{{item.year}}</h3>
+                            <h4 class="inlineifprinted">{{item.venue}}</h4>
+                            <p  class="no-print d-none d-md-block">{{item.where}}</p>
+                        </div>
+                        <div class="col-md-8">
+                        {% else %}
+                        <div class="col-md-12">
+                        {% endif %}
+                            <h2 {% if item.inline %}style="display:inline-block;"{% endif %}>{{item.title}}</h2>
+                            {% if item.elems %}
+                                <ul>
+                                {% for elem in item.elems %}
+                                    {% if elem.year %}
+                                    <li><b>{{ elem.year }}</b> - {{ elem.where }} - {{ elem.description }}</li>
+                                    {% else %}<li>{{ elem }}</li>{% endif %}
+                                {% endfor %}
+                                </ul>
+                            {% else %}
+                                <p {% if item.inline %}style="display:inline-block;"{% endif %}>{% if item.authors %}<i class="no-print">{{item.authors}}</i><br class="no-print">{% endif %}
+                                {{ item.description }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+</section>
+
