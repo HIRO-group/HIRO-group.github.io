@@ -237,6 +237,10 @@ header img {
     background-color: #{{ site.color.secondary }};
 }
 
+header img.cv-img {
+    border-radius: 100%;
+}
+
 .logo-img {
     padding: 15px;
     box-sizing: border-box;
