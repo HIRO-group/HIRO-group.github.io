@@ -11,6 +11,7 @@
 
  - name: Joewie J. Koh
    role: phd
+   page: joewie
    url: https://www.linkedin.com/in/joewie/
    email: joewie.koh@colorado.edu
    pic: joewie.jpg
@@ -24,7 +25,7 @@
 
  - name: Kandai Watanabe
    role: phd
-   url: https://kandaiwatanabe.wordpress.com
+   url: https://watakandhi.github.io
    email: kawa7978@colorado.edu
    pic: kandai.jpg
 
@@ -73,6 +74,14 @@
    phone: +1 (480) 363 9816
    email: eleanor.sarder@colorado.edu
    pic: esarder.jpg
+
+ - name: Matthew Strong
+   role: undergrad
+   url: https://www.linkedin.com/in/matthewhstrong/
+   phone: +1 (720) 626 4057
+   email: mast4878@colorado.edu
+   pic: mstrong.jpg
+
 
 # Collaborators
 # [in order of first appearance in the lab]

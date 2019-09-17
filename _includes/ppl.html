@@ -30,7 +30,7 @@
             <div class="card mb-3 mx-1">
               <img class="card-img" src="{% if person.pic %}/img/people/{{ person.pic }}{% else %}{{ site.logopng }}{% endif %}" class="img-fluid" style="width: 100%;" align="middle" alt="{{ person.pic }}">
               <div class="card-img-overlay d-flex flex-column justify-content-end">
-                <h3 class="card-title">{{ person.name }}</h3>
+                {% if person.page %}<a href="/{{ person.page }}.html">{% endif %}<h3 class="card-title">{{ person.name }}</h3>{% if person.page %}</a>{% endif %}
                 {% if person.office %}<p class="card-text"><i class="fa fa-fw fa-briefcase"></i> {{ person.office }}</p>{% endif %}
                 {% if person.phone  %}<p class="card-text"><i class="fa fa-fw fa-phone"    ></i> {{ person.phone  }}</p>{% endif %}
                 {% if person.email  %}<p class="card-text"><a href="mailto:{{ person.email }}"        class="card-link" style="word-break: break-all;"><i class="fa fa-fw fa-envelope"></i> {{ person.email }}</a></p>{% endif %}
