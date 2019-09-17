@@ -11,6 +11,8 @@
       {% include portfolio.html %}
     {% elsif page.type == "publications" or page.type == "people" %}
       {{ content }}
+    {% elsif page.type == "cv" %}
+      {% include cv.html %}
     {% else %}
       {% include article.html %}
     {% endif %}
