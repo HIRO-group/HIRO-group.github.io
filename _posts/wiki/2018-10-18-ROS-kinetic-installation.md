@@ -85,7 +85,11 @@ Before you can build your catkin workspace, you need to make sure that you have 
 rosdep install --from-paths src --ignore-src --rosdistro kinetic -y -r
 apt-cache search ros-kinetic
 ~~~
+A useful command that resolves most dependency issues is as follows.
 
+~~~bash
+sudo apt-get install git-core python-argparse python-wstool python-vcstools python-rosdep ros-kinetic-control-msgs ros-kinetic-joystick-drivers ros-kinetic-xacro ros-kinetic-tf2-ros ros-kinetic-rviz ros-kinetic-cv-bridge ros-kinetic-actionlib ros-kinetic-actionlib-msgs ros-kinetic-dynamic-reconfigure ros-kinetic-trajectory-msgs ros-kinetic-rospy-message-converter
+~~~
 This will look at all of the packages in the `src` directory and find all of the dependencies they have. Then it will recursively install the dependencies.
 
 ### Building the catkin workspace
