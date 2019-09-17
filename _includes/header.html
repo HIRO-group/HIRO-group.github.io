@@ -66,35 +66,28 @@
     </nav>
 
     <!-- Header -->
-    {% if page.type != "article" and page.type != "fourofour" and page.type != "cv"%}
+    {% if page.type != "article" and page.type != "fourofour" %}
     <header>
-        <div class="container">
+        <div class="container {% if page.type != "cv" %}bottom-border{% endif %}">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-fluid logo-img" src="{{ site.logo3 }}" alt="{{ site.owner-short }}-logo">
-                    <div class="intro-text">
-                        {% if page.type == "research" %}<span class="name logo-alt">{{ site.owner }}</span>
-                        {% else %}<span class="name">{% if page.title %}{{ page.title }}{% else %}{{ page.type }}{% endif %}</span>
-                        {% endif %}
+                    {% if page.type == "cv" %}
+                        <img class="img-fluid no-print with-shadow-on-hover cv-img" src="/img/people/{{page.pic}}" alt="{{page.title}}" style="border-radius: 100%; display: block; margin: 0 auto 20px;">
+                        <div class="intro-text">
+                            <span class="name no-print">{{ page.title }}</span>
+                            <hr class="separating-line no-print">
+                            <span class="owner no-print">{{ page.description }}</span>
+                        </div>
+                    {% else %}
+                        <img class="img-fluid logo-img" src="{{ site.logo3 }}" alt="{{ site.owner-short }}-logo">
+                        <div class="intro-text">
+                            {% if page.type == "research" %}<span class="name logo-alt">{{ site.owner }}</span>
+                            {% else %}<span class="name">{% if page.title %}{{ page.title }}{% else %}{{ page.type }}{% endif %}</span>
+                            {% endif %}
 
-                        <!-- <hr class="separating-line"> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    {% endif %}
-    {% if page.type == "cv" %}
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-fluid no-print with-shadow-on-hover cv-img" src="/img/people/{{page.pic}}" alt="{{page.title}}" style="border-radius: 100%; display: block; margin: 0 auto 20px;">
-                    <div class="intro-text">
-                        <span class="name no-print">{{ page.title }}</span>
-                        <!-- <hr class="separating-line no-print"> -->
-                        <span class="owner no-print">{{ page.description }}</span>
-                    </div>
+                            <!-- <hr class="separating-line"> -->
+                        </div>
+                    {% endif %}
                 </div>
             </div>
         </div>

@@ -124,7 +124,7 @@ header img:hover,
     transition: all ease 1s;
 }
 
-header > div {
+header > div.bottom-border {
     border-bottom: 1px solid #{{ site.color.articletext }};
 }
 
