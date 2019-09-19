@@ -57,32 +57,31 @@ the appropriate Ruby version installed.
     ~~~bash
     sudo usermod -a -G rvm <your username here>
     ~~~
-* In your terminal enter `getent group rvm` and you should see: `rvm:x :###:<your username here>`
-* Log out then log in to activate changes.
+ * In your terminal enter `getent group rvm` and you should see: `rvm:x :###:<your username here>`
+ * Log out then log in to activate changes.
 2. Source your terminal to access the newer versions of Ruby:
-    * Add the following to your `.bashrc` file: `source /etc/profile.d/rvm.sh`
+ * Add the following to your `.bashrc` file: `source /etc/profile.d/rvm.sh`
 3. Update Ruby:
-    * See what ruby versions are available: `rvm list known`
-    * Select any version 2.4.0 or above (install a fairly new version)
-    * This command takes care of dependencies:
-    ~~~bash
-    sudo apt install libyaml-devel readline-devel libffi-devel sqlite-devel
-    ~~~
-    * Finally install updated Ruby version
-    ~~~bash
-    rvm install ruby-<version number here ex: 2.6.3>
-    ~~~
-    * Check Ruby version: `ruby -v`
-    * Finished!
+ * See what ruby versions are available: `rvm list known`
+ * Select any version 2.4.0 or above (install a fairly new version)
+ * This command takes care of dependencies:
+  ~~~bash
+  sudo apt install libyaml-devel readline-devel libffi-devel sqlite-devel
+  ~~~
+ * Finally install updated Ruby version
+ ~~~bash
+ rvm install ruby-<version number here ex: 2.6.3 >
+ ~~~
+ * Check Ruby version: `ruby -v`
+ * Finished!
 
 # Next Steps
 
-1. Locally host the website
-* This command compiles the files (only do this the first time you host): `bundle exec jekyll serve`
-* This command starts the local server hosting the website:`jekyll serve`
+1. Locally host the website:
+ * This command compiles the files (only do this the first time you host): `bundle exec jekyll serve`
+ * This command starts the local server hosting the website:`jekyll serve`
 
-2. Learn about markdown:
- Markdown is the markup language used to format the pages you see on the HIRO Group website. Check out some of the markdown files on the repository for some examples.
+2. Learn about markdown: Markdown is the markup language used to format the pages you see on the HIRO Group website. Check out some of the markdown files on the repository for some examples.
 3. Live your life and create new pages.
 
 # Reference Sites
