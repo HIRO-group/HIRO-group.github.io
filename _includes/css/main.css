@@ -124,7 +124,7 @@ header img:hover,
     transition: all ease 1s;
 }
 
-header > div {
+header > div.bottom-border {
     border-bottom: 1px solid #{{ site.color.articletext }};
 }
 
@@ -235,6 +235,10 @@ header img {
     margin: 0 auto 20px;
     border-radius: 0%;
     background-color: #{{ site.color.secondary }};
+}
+
+header img.cv-img {
+    border-radius: 100%;
 }
 
 .logo-img {
