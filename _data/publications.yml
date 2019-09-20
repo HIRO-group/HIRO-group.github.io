@@ -4,6 +4,41 @@
 #   venue: 
 #   pdf: 
 
+ - title: "Learning to Calibrate: Reinforcement Learning for Guided Calibration of Visual-Inertial Rigs"
+   authors: "F. Nobre, C. Heckman"
+   year: 2019
+   venue: "International Journal of Robotics Research"
+
+ - title: "Materials that make robots smart"
+   authors: "D. Hughes, C. Heckman, N. Correll"
+   year: 2019
+   venue: "International Journal of Robotics Research"
+
+ - title: "SUN-Spot: An RGB-D Dataset With Spatial Referring Expressions"
+   authors: "C. Mauceri, M. Palmer, C. Heckman"
+   year: 2019
+   venue: "International Conference on Computer Vision Workshop on Closing the Loop Between Vision and Language"
+
+ - title: "Multiple Point Light Estimation from Low-Quality 3D Reconstructions"
+   authors: "M. Kasper, C. Heckman"
+   year: 2019
+   venue: "International Conference on 3D Vision"
+
+ - title: "A Benchmark for Visual-Inertial Odometry Systems Employing Onboard Illumination"
+   authors: "M. Kasper, S. Mcguire, C. Heckman"
+   year: 2019
+   venue: " IEEE/RSJ International Conference on Intelligent Robots and Systems"
+
+ - title: "VI-SLAM for Subterranean Environments"
+   authors: "A. Kramer, M. Kasper, C. Heckman"
+   year: 2019
+   venue: "Field and Service Robotics"
+
+ - title: "Perception in Subterranean Planetary Environments"
+   authors: "A. Kramer, M. Kasper, C. Heckman"
+   year: 2019
+   venue: "Perception in Subterranean Planetary Environments"
+
  - title: "Everybody needs somebody sometimes: validation of adaptive recovery
     in robotic space operations"
    authors: "S.J. McGuire and P.M. Furlong and T. Fong and C. Heckman and D.

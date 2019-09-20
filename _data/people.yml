@@ -129,14 +129,6 @@
    email: 
    pic: Wyatt_Raich.jpg
 
- - name: Boston Cleek
-   role: undergrad
-   url: 
-   office: ECES 116
-   phone: 
-   email: 
-   pic: Boston_Cleek.jpg
-
  - name: Cesar Galan
    role: manager
    url: 
@@ -187,6 +179,9 @@
    advisor: Christoffer Heckman and Gabe Sibley
    now: Now at a self-driving car startup in Menlo Park, CA.
 
+ - name: Boston Cleek
+   role: alumni
+
  - name: Soham Banerjee
    role: alumni
 
@@ -217,5 +212,5 @@
  - name: Kellen Mcdonald
    role: alumni
 
-
-  
+ - name: Yang Li
+   role: alumni
