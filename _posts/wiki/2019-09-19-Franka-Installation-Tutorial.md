@@ -137,6 +137,6 @@ Add the following to the realtime group in `/etc/security/limits.conf` then logo
 
 # Using the Panda
 
- * Unlock the joints from the control interface before using the Panda.
- * When shutting the Panda down be sure to wait for the robot to completely shut down before exiting the interface window.
- * Create great things!
+ * Unlock the joints from the control interface before using the Panda robot. To unlock the joints press the unlock/lock button which is on the main page of the Franka Desk in the side bar under the status section.
+ * To shut down the Panda press the shut down button on the Franka Desk main page in the side bar. When shutting the Panda robot down be sure to wait for the robot to completely shut down before exiting the interface window.
+ * Go do good stuff!
