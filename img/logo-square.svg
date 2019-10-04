@@ -14,7 +14,7 @@
    viewBox="0 0 42 42"
    version="1.1"
    id="svg8"
-   sodipodi:docname="logo.svg"
+   sodipodi:docname="logo-square.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <defs
      id="defs2" />
@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4.559255"
-     inkscape:cx="162.42939"
+     inkscape:cx="97.725836"
      inkscape:cy="41.783115"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -39,8 +39,8 @@
      inkscape:snap-intersection-paths="true"
      inkscape:object-paths="true"
      inkscape:snap-midpoints="false"
-     inkscape:window-width="3891"
-     inkscape:window-height="2642"
+     inkscape:window-width="3840"
+     inkscape:window-height="2160"
      inkscape:window-x="14096"
      inkscape:window-y="766"
      inkscape:window-maximized="0"
@@ -77,8 +77,8 @@
        id="rect822"
        width="42"
        height="42"
-       x="-56.631699"
-       y="108.53244" />
+       x="7.0875931"
+       y="108.88063" />
     <g
        id="g828"
        transform="translate(-58.826519,-9.5353498)">
