@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    sodipodi:docname="logo3.svg"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.2920484"
-     inkscape:cx="199.18582"
+     inkscape:cx="70.479986"
      inkscape:cy="19.223063"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -39,10 +39,10 @@
      inkscape:snap-intersection-paths="true"
      inkscape:object-paths="true"
      inkscape:snap-midpoints="true"
-     inkscape:window-width="1720"
-     inkscape:window-height="1389"
-     inkscape:window-x="3840"
-     inkscape:window-y="25"
+     inkscape:window-width="4294"
+     inkscape:window-height="3450"
+     inkscape:window-x="9587"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:snap-global="false"
      fit-margin-top="0"
@@ -67,7 +67,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -77,7 +77,7 @@
      id="layer1"
      transform="translate(56.631701,-121.95745)">
     <path
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#282828;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -35.69482,179.95888 2.749792,4e-4 v -15.8754 h -2.75 z"
        id="path193"
        inkscape:connector-curvature="0"
@@ -85,14 +85,14 @@
     <path
        id="path195"
        d="m -29.094974,164.08352 -6.600113,5.3e-4 v 2.7497 h 6.600113 a 2.2499999,2.2499999 0 0 1 2.24999,2.24999 2.2499999,2.2499999 0 0 1 -2.24999,2.25 v -5.3e-4 l -6.600113,5.3e-4 v 2.7497 h 6.600113 a 5,5 0 0 0 4.999694,-4.9997 5,5 0 0 0 -4.999694,-5.00021 z"
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17059942px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#282828;fill-opacity:1;stroke:none;stroke-width:0.17059942px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
        id="path197"
        d="m -26.655706,179.95928 h 3.789148 l -5.820833,-7 h -3.789435 z"
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20624121px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:#282828;fill-opacity:1;stroke:none;stroke-width:0.20624121px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <g
        id="g1330"
        transform="matrix(1.1225627,0,0,1.1225627,6.9409319,-18.449656)">
@@ -119,9 +119,7 @@
          style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.16000991px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          inkscape:connector-curvature="0" />
       <g
-         aria-label="HUMAN
-INTERACTION &amp;
-ROBOTICS GROUP"
+         aria-label="HUMAN INTERACTION &amp; ROBOTICS GROUP"
          style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:6.47110271px;line-height:1.25;font-family:Raleway;-inkscape-font-specification:'Raleway Semi-Bold';letter-spacing:1.96065176px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26962924"
          id="text955-3">
         <path
