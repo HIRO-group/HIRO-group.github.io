@@ -6,6 +6,7 @@
 
             {{ content }}
 
+            {% if page.education %}
             <h1>Education</h1>
                 {% for item in page.education %}
                     <div class="row cv-item">
@@ -23,7 +24,9 @@
                         </div>
                     </div>
                 {% endfor %}
+            {% endif %}
 
+            {% if page.experience %}
             <h1>Professional Experience</h1>
                 {% for item in page.experience %}
                     <div class="row cv-item">
@@ -41,7 +44,9 @@
                         </div>
                     </div>
                 {% endfor %}
+            {% endif %}
 
+            {% if page.misc %}
             <h1>Miscellanea</h1>
                 {% for item in page.misc %}
                     <div class="row cv-item">
@@ -59,7 +64,9 @@
                         </div>
                     </div>
                 {% endfor %}
+            {% endif %}
 
+            {% if page.publications %}
             <h1>Publications</h1>
                 {% for y in page.years %}
                     <h2>{{ y }}</h2>
@@ -82,7 +89,9 @@
                         {% endif %}
                     {% endfor %}
                 {% endfor %}
+            {% endif %}
 
+            {% if page.service %}
             <h1>Service</h1>
                 {% for item in page.service %}
                     <div class="row cv-item">
@@ -112,5 +121,7 @@
                         </div>
                     </div>
                 {% endfor %}
+            {% endif %}
+
 </section>
 
