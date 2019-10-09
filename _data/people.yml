@@ -38,7 +38,7 @@
    url: 
    office: ECES 111
    phone: 
-   email: 
+   email: John.Stechschulte@colorado.edu
    pic: John_Stechschulte.jpg
 
  - name: Cecilia Mauceri
@@ -217,5 +217,5 @@
  - name: Kellen Mcdonald
    role: alumni
 
-
-  
+ - name: Yang Li
+   role: alumni
