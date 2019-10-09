@@ -1,0 +1,54 @@
+- url: /img/sunspot_examples/4322_2.jpg
+  scene: [kitchen]
+  refexps:
+  - ['the item sitting to the left of the sink with the water in it. used to pour
+      water into cups and store water. sitting in front of the window. ']
+  - ['the pitcher is on the counter , to the left of the sink , in front of the mirror. ']
+  - [the pitcher is to the left of the sink in front of the window]
+  object: pitcher
+- url: /img/sunspot_examples/7081_6.jpg
+  scene: [bedroom]
+  refexps: ['the white alarm is on the nightstand and close to the bed. ']
+  object: alarm
+- url: /img/sunspot_examples/7000_12.jpg
+  scene: [living_room]
+  refexps: ['the candlestick is on the left under the mirror. ']
+  object: candle
+- url: /img/sunspot_examples/7342_7.jpg
+  scene: [office]
+  refexps: [cd player is next to the stacked books]
+  object: cdplayer
+- url: /img/sunspot_examples/9293_4.jpg
+  scene: [bedroom]
+  refexps:
+  - [the bag is on a table in front of a mirror and near two paintings]
+  - ['the bag sits at the left end of the table that is below the mirror. ']
+  - ['this bag is on the table farthest to the right. it''s red and white. ']
+  - [the red bag on the table]
+  object: bag
+- url: /img/sunspot_examples/1882_8.jpg
+  scene: [office]
+  refexps: ['the circuit breaker is on a wall to the right of the red window shades. ']
+  object: circuitbreaker
+- url: /img/sunspot_examples/8293_4.jpg
+  scene: [classroom]
+  refexps:
+  - ['plate on the table , under and to the right of the clock on the wall']
+  - ['the plate is on a table centered between two maroon chairs with another white
+      plate to the right. ']
+  object: plate
+- url: /img/sunspot_examples/9180_2.jpg
+  scene: [bathroom]
+  refexps: ['the tissue is sitting on top of the toilet. ']
+  object: tissue
+- url: /img/sunspot_examples/3075_2.jpg
+  scene: [office]
+  refexps:
+  - ['the yellow folders are underneath the white papers on top of the counter. ']
+  - [the folders in the tray on the right side next to the other tray]
+  object: folders
+- url: /img/sunspot_examples/5454_10.jpg
+  scene: [office]
+  refexps: ['the lunch box is front of the black box and to the right of the cylinder
+      on the right hand corner of the desktop. ']
+  object: lunch_box

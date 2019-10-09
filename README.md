@@ -122,7 +122,7 @@ type: article
 title: <Your Page Title>
 ```
 
-The article flag will format your page nicely, without the flag, there will be no navigation bar, css, etc.
+The article flag will format your page nicely. Without the flag, there will be no navigation bar, css, etc.
 
 To add your page to the navigation bar, you'll need to edit `./_includes/header.html`   
 
