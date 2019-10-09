@@ -129,14 +129,6 @@
    email: 
    pic: Wyatt_Raich.jpg
 
- - name: Boston Cleek
-   role: undergrad
-   url: 
-   office: ECES 111
-   phone: 
-   email: 
-   pic: Boston_Cleek.jpg
-
  - name: Cesar Galan
    role: manager
    url: 
@@ -186,6 +178,9 @@
    thesis: Towards Temporal Semantic Scene Understanding
    advisor: Christoffer Heckman and Gabe Sibley
    now: Now at a self-driving car startup in Menlo Park, CA.
+
+ - name: Boston Cleek
+   role: alumni
 
  - name: Soham Banerjee
    role: alumni
