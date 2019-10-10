@@ -16,7 +16,7 @@ years:
 
         {% for y in page.years %}
             <h1>{{ y }}</h1>
-            {% include pubs.html year=y %}
+            {% include pubs.html year=y publications=site.data.publications %}
         {% endfor %}
 
         </div>

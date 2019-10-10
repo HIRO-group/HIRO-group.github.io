@@ -1,5 +1,5 @@
 
-            {% for item in site.data.publications %}
+            {% for item in include.publications %}
 
                 {% if include.year == "all" %} {% assign year =    item.year %}
                 {% else %}                     {% assign year = include.year %}
