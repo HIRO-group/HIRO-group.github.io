@@ -34,8 +34,8 @@
                 {% if person.office %}<p class="card-text"><i class="fa fa-fw fa-briefcase"></i> {{ person.office }}</p>{% endif %}
                 {% if person.phone  %}<p class="card-text"><i class="fa fa-fw fa-phone"    ></i> {{ person.phone  }}</p>{% endif %}
                 {% if person.email  %}<p class="card-text"><a href="mailto:{{ person.email }}"        class="card-link" style="word-break: break-all;"><i class="fa fa-fw fa-envelope"></i> {{ person.email }}</a></p>{% endif %}
-                {% if person.page %}<a href="/{{ person.page }}.html" target="_blank" class="stretched-link"><i class="fa fa-fw fa-home"     ></i> Personal homepage</a>
-                {% elsif person.url    %}<a href="{{ person.url }}" target="_blank" class="stretched-link"><i class="fa fa-fw fa-home"     ></i> Personal homepage</a>
+                {% if person.page or person.url %}
+                <a href="{% if person.page %}/{{ person.page }}.html{% elsif person.url    %}{{ person.url }}{% endif %}" target="_blank" class="stretched-link"><i class="fa fa-fw fa-home"     ></i> {% if person.url %}{{ person.url }}{% elsif person.page%}/{{ person.page }}.html{% endif %}</a>
                 {% endif %}
               </div>
             </div>
