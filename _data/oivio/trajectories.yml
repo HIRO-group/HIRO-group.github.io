@@ -1,0 +1,378 @@
+ - name: Mine Handheld 1
+   id: mn-hh-01
+   env: Mine
+   pic: mn-hh-01.jpg
+   duration: 132
+   length: 264.35
+   instances:
+     - light: 15
+       size: 2.35
+       file: MN_015_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - light: 50
+       size: 3.51
+       file: MN_050_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - light: 100
+       size: 2.73
+       file: MN_100_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+
+ - name: Mine Ground-Vehicle 1
+   id: mn-gv-01
+   env: Mine
+   pic: picture.jpg
+   duration: 132
+   length: 86.05
+   instances:
+     - id: MN-050-HH-02
+       light: 1300
+       duration: 132
+       length: 150
+       frames: 100
+       file: MN_050_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       size: 2.35
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - id: MN-075-HH-02
+       light: 4500
+       duration: 10
+       length: 15
+       frames: 100
+       download: download.tar.gz
+       size: 100
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - id: MN-100-HH-02
+       light: 9000
+       duration: 10
+       length: 15
+       frames: 100
+       download: download.tar.gz
+       size: 100
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+
+ - name: Mine Ground-Vehicle 2
+   id: mn-gv-02
+   env: Mine
+   pic: picture.jpg
+   duration: 132
+   length: 82.72
+   instances:
+     - id: MN-050-HH-03
+       light: 1300
+       duration: 132
+       length: 150
+       frames: 100
+       file: MN_050_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       size: 2.35
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - id: MN-075-HH-03
+       light: 4500
+       duration: 10
+       length: 15
+       frames: 100
+       download: download.tar.gz
+       size: 100
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - id: MN-100-HH-03
+       light: 9000
+       duration: 10
+       length: 15
+       frames: 100
+       download: download.tar.gz
+       size: 100
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+
+ - name: Tunnel Handheld 1
+   id: tn-hh-01
+   env: Tunnel
+   pic: tn-hh-01.jpg
+   duration: 132
+   length: 166.51
+   instances:
+     - light: 15
+       size: 2.35
+       file: MN_015_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - light: 50
+       size: 3.51
+       file: MN_050_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - light: 100
+       size: 2.73
+       file: MN_100_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+
+ - name: Tunnel Handheld 2
+   id: tn-hh-02
+   env: Tunnel
+   pic: tn-hh-02.jpg
+   duration: 132
+   length: 256.80
+   instances:
+     - id: MN-050-HH-02
+       light: 1300
+       duration: 132
+       length: 150
+       frames: 100
+       file: MN_050_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       size: 2.35
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - id: MN-075-HH-02
+       light: 4500
+       duration: 10
+       length: 15
+       frames: 100
+       download: download.tar.gz
+       size: 100
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - id: MN-100-HH-02
+       light: 9000
+       duration: 10
+       length: 15
+       frames: 100
+       download: download.tar.gz
+       size: 100
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+
+ - name: Tunnel Handheld 3
+   id: tn-hh-03
+   env: Tunnel
+   pic: tn-hh-03.jpg
+   duration: 132
+   length: 103.00
+   instances:
+     - id: MN-050-HH-03
+       light: 1300
+       duration: 132
+       length: 150
+       frames: 100
+       file: MN_050_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       size: 2.35
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - id: MN-075-HH-03
+       light: 4500
+       duration: 10
+       length: 15
+       frames: 100
+       download: download.tar.gz
+       size: 100
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - id: MN-100-HH-03
+       light: 9000
+       duration: 10
+       length: 15
+       frames: 100
+       download: download.tar.gz
+       size: 100
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+
+ - name: Tunnel Ground-Vehicle 1
+   id: tn-gv-01
+   env: Tunnel
+   pic: tn-gv-01.jpg
+   duration: 132
+   length: 150
+   instances:
+     - light: 15
+       size: 2.35
+       file: MN_015_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - light: 50
+       size: 3.51
+       file: MN_050_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - light: 100
+       size: 2.73
+       file: MN_100_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+
+ - name: Outdoors Handheld 1
+   id: mn-hh-01
+   env: Outdoors
+   pic: od-hh-01.jpg
+   duration: 132
+   length: 214.36
+   instances:
+     - light: 15
+       size: 2.35
+       file: MN_015_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - light: 50
+       size: 3.51
+       file: MN_050_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - light: 100
+       size: 2.73
+       file: MN_100_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+
+ - name: Outdoors Handheld 2
+   id: mn-hh-02
+   env: Outdoors
+   pic: od-hh-02.jpg
+   duration: 132
+   length: 124.58
+   instances:
+     - id: MN-050-HH-02
+       light: 1300
+       duration: 132
+       length: 150
+       frames: 100
+       file: MN_050_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       size: 2.35
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - id: MN-075-HH-02
+       light: 4500
+       duration: 10
+       length: 15
+       frames: 100
+       download: download.tar.gz
+       size: 100
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - id: MN-100-HH-02
+       light: 9000
+       duration: 10
+       length: 15
+       frames: 100
+       download: download.tar.gz
+       size: 100
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+
+ - name: Outdoors Handheld 3
+   id: mn-hh-03
+   env: Outdoors
+   pic: od-hh-03.jpg
+   duration: 132
+   length: 86.58
+   instances:
+     - id: MN-050-HH-03
+       light: 1300
+       duration: 132
+       length: 150
+       frames: 100
+       file: MN_050_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       size: 2.35
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - id: MN-075-HH-03
+       light: 4500
+       duration: 10
+       length: 15
+       frames: 100
+       download: download.tar.gz
+       size: 100
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - id: MN-100-HH-03
+       light: 9000
+       duration: 10
+       length: 15
+       frames: 100
+       download: download.tar.gz
+       size: 100
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+
+ - name: Lab Handheld 1
+   id: mn-hh-01
+   env: Lab
+   pic: lb-hh-01.jpg
+   duration: 132
+   length: 57.22
+   instances:
+     - light: 15
+       size: 2.35
+       file: MN_015_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - light: 50
+       size: 3.51
+       file: MN_050_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - light: 100
+       size: 2.73
+       file: MN_100_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+
+ - name: Lab Handheld 2
+   id: mn-hh-02
+   env: Lab
+   pic: lb-hh-02.jpg
+   duration: 132
+   length: 86.05
+   instances:
+     - id: MN-050-HH-02
+       light: 1300
+       duration: 132
+       length: 150
+       frames: 100
+       file: MN_050_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       size: 2.35
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - id: MN-075-HH-02
+       light: 4500
+       duration: 10
+       length: 15
+       frames: 100
+       download: download.tar.gz
+       size: 100
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - id: MN-100-HH-02
+       light: 9000
+       duration: 10
+       length: 15
+       frames: 100
+       download: download.tar.gz
+       size: 100
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+
+ - name: Lab Handheld 3
+   id: mn-hh-03
+   env: Lab
+   pic: lb-hh-03.jpg
+   duration: 132
+   length: 82.72
+   instances:
+     - id: MN-050-HH-03
+       light: 1300
+       duration: 132
+       length: 150
+       frames: 100
+       file: MN_050_HH_01.tar.gz
+       url: 1uohbQ5lhA30iDDA741EwCFLG05RwzX_W
+       size: 2.35
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - id: MN-075-HH-03
+       light: 4500
+       duration: 10
+       length: 15
+       frames: 100
+       download: download.tar.gz
+       size: 100
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213
+     - id: MN-100-HH-03
+       light: 9000
+       duration: 10
+       length: 15
+       frames: 100
+       download: download.tar.gz
+       size: 100
+       md5: F8FCBE29D77FA50EE95D137D6AEDE213

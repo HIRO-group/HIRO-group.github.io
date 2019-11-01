@@ -1,0 +1,34 @@
+{% for environment in site.data.oivio.environments %}
+
+<div class="card" style="width:800px">
+<div class="row no-gutters">
+
+<div class="col-sm-7">
+		<img src="/img/oivio/{{ environment.pic }}"
+    style="width: 465px; height: 155px;" align="middle">
+</div>
+
+<div class="col-sm-5">
+
+	<div class="card-body">
+		<h3 class="card-title">{{ environment.name }}</h3>
+    <p class="cart-text">
+      <i class="fa fa-fw fa-map-marker"></i> {{ environment.location }}
+    </p>
+		<p class="cart-text">{{ environment.desc }}</p>
+		<p class="cart-text">Trajectories: {{ environment.count }}</p>
+	</div>
+
+</div>
+</div>
+
+<a href="{{ environment.id }}"
+style="position: absolute; top: 0; left: 0; height: 100%; width: 100%;"></a>
+
+</div>
+
+<div>
+  <p/>
+</div>
+
+{% endfor %}

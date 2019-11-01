@@ -1,0 +1,40 @@
+# Trajectory set template
+#
+# - name: (string)
+#   id: (string)
+#   duration: (in seconds)
+#   length: (in meters)
+#   size: (in gigabytes)
+#
+#    {% if trajectory.tags %}
+#      <p class="card-text">
+#        {% for tag in trajectory.tags %}
+#          <i class="fa fa-fw fa-tag"></i> {{ tag }}
+#        {% endfor %}
+#      </p>
+#    {% endif %}
+
+ - name: Mine
+   id: mine
+   location: Hidee Gold Mine<br/>
+     Idaho Springs, Colorado.
+   count: 2
+   pic: mine.gif
+
+ - name: Tunnel
+   id: mine-gv-01
+   location: This is just a test
+   count: 10
+   pic: tunnel.gif
+
+ - name: Outdoors
+   id: tunnel-hh-01
+   location: This is just a test
+   count: 10
+   pic: outdoor.gif
+
+ - name: Lab
+   id: tunnel-hh-02
+   location: This is just a test
+   count: 10
+   pic: lab.gif
