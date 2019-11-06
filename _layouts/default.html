@@ -5,17 +5,18 @@
 
     <body id="page-top" class="index">
 
-    {% include header.html %}
+      {% include header.html %}
 
-    {% if page.type == "research" %}
-      {% include portfolio.html %}
-    {% elsif page.type == "top" %}
-	{% include top.html %}
-    {% else %}
-      {% include article.html %}
-    {% endif %}
+      {% if page.type == "research" %}
+        {% include portfolio.html %}
+      {% elsif page.type == "top" %}
+        {% include top.html %}
+      {% else %}
+        {% include article.html %}
+      {% endif %}
 
-    {% include footer.html %}
-    {% include js.html %}
+      {% include footer.html %}
+      {% include js.html %}
+
     </body>
 </html>

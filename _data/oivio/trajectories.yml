@@ -1,0 +1,312 @@
+ - name: Mine Handheld 1
+   id: mn_hh_01
+   env: Mine
+   pic: mn-hh-01.jpg
+   duration: "246.86"
+   length:   "264.35"
+   speed:    "1.30"
+   instances:
+     - light: 15
+       size:  "5.01"
+       file:  "MN_015_HH_01.tar.gz"
+       url:   "1YIzzV1HoIdz2n8LNZEw3YfoiIYA3kWLF"
+       md5:   "7C62A915DD25E6F5E07D21D1F2CD6876"
+     - light: 50
+       size:  "5.56"
+       file:  "MN_050_HH_01.tar.gz"
+       url:   "1eI5ZAiNrtJmwLanFrGBPfR_XdXni6W0T"
+       md5:   "12E6CF59375729C28AC5E850BA292640"
+     - light: 100
+       size:  "5.51"
+       file:  "MN_100_HH_01.tar.gz"
+       url:   "1sq4ZtlaXf0hzOsuYP--2-D3qx-2kp3tw"
+       md5:   "BFE4A609CBBD9BDD82E04F4797D38CF3"
+
+ - name: Mine Ground-Vehicle 1
+   id: mn_gv_01
+   env: Mine
+   pic: picture.jpg
+   duration: "218.63"
+   length:   "86.05"
+   speed: 
+   instances:
+     - light: 15
+       file:  "MN_015_GV_01.tar.gz"
+       url:   "1kL4i3jFfT9DTnYwiJEc4tkDaObx-ULy9"
+       size:  "5.86"
+       md5:   "1623DD996844870B96AFF4BD0CA5AB95"
+     - light: 50
+       file:  "MN_050_GV_01.tar.gz"
+       url:   "19q3-Q7uMNKBzI-PMo90jTY85KkwYj9Li"
+       size:  "4.89"
+       md5:   "9B19568CA89559B78C41F6E92F8DE299"
+     - light: 100
+       file:  "MN_100_GV_01.tar.gz"
+       url:   "1vDYibkrYeA1WuQH1o5UuaIoMwPl1HAgb"
+       size:  "4.94"
+       md5:   "1C16E180823ED325E0A70BEEB22A1197"
+
+ - name: Mine Ground-Vehicle 2
+   id: mn_gv_02
+   env: Mine
+   pic: picture.jpg
+   duration: "149.73"
+   length:   "82.72"
+   speed: 
+   instances:
+     - light: 15
+       file:  "MN_015_GV_02.tar.gz"
+       url:   "1JnSWv2zPNBtbvoSpScarkaC8zoVHUhM2"
+       size:  "3.71"
+       md5:   "55480C8A17182FD288C254E3AC8B0E30"
+     - light: 50
+       file:  "MN_050_GV_02.tar.gz"
+       url:   "1xR3_yD5M_n16WEPG8ciSNMXdzKRdqYtw"
+       size:  "4.04"
+       md5:   "7B68F675E1279A1E6D97C4A86B616AD5"
+     - light: 100
+       file:  "MN_100_GV_02.tar.gz"
+       url:   "1Ho4tPPIvvbTpL4hNZ_R4ovhFLMWzX7q8"
+       size:  "3.71"
+       md5:   "EC6E13BF8447D54043E14B25294D6027"
+
+ - name: Tunnel Handheld 1
+   id: tn_hh_01
+   env: Tunnel
+   pic: tn-hh-01.jpg
+   duration: "315.02"
+   length:   "166.51"
+   speed:    "0.67"
+   instances:
+     - light: 15
+       size:  "7.01"
+       file:  "TN_015_HH_01.tar.gz"
+       url:   "1G-LWK3-NgQrhaEM86fEB8w8qU83y615G"
+       md5:   "DBBAF5F8B75FE50AE55DF359FDD6CCB4"
+     - light: 50
+       size:  "6.55"
+       file:  "TN_050_HH_01.tar.gz"
+       url:   "1BHKgQwOIOuzsS9VX08GHPKwRBiNRISE2"
+       md5:   "F05403320DB08FAC0E35C931EA98744D"
+     - light: 100
+       size:  "6.42"
+       file:  "TN_100_HH_01.tar.gz"
+       url:   "106ZNXKT_H1EDYkooujx_u-l4T00KpXd-"
+       md5:   "BACACA9AAAAA1A67362AD767E2C6A2E7"
+
+ - name: Tunnel Handheld 2
+   id: tn_hh_02
+   env: Tunnel
+   pic: tn-hh-02.jpg
+   duration: "452.65"
+   length:   "256.80"
+   speed:    "0.67"
+   instances:
+     - light: 15
+       file:  "TN_015_HH_02.tar.gz"
+       url:   "163OHAYdpNU3ED7EWkzaxdCYEFaYsBaVU"
+       size:  "9.04"
+       md5:   "D83F236622E34A59009C5ADD5EA727C5"
+     - light: 50
+       file:  "TN_050_HH_02.tar.gz"
+       url:   "1MKgGp5FMBB0E80xM7OIfnnb4zl4I6B-j"
+       size:  "9.01"
+       md5:   "789FDF1C136C35D9AAB5FA9B883677CE"
+     - light: 100
+       file:  "TN_100_HH_02.tar.gz"
+       url:   "1JPKVm13ibCLn8jh2cjCYJOoQ_FbM3GdA"
+       size:  "9.96"
+       md5:   "BA56F71FB9392A6E9638560A286D3B45"
+
+ - name: Tunnel Handheld 3
+   id: tn_hh_03
+   env: Tunnel
+   pic: tn-hh-03.jpg
+   duration: "217.37"
+   length:   "103.00"
+   speed:    "0.65"
+   instances:
+     - light: 15
+       file:  "TN_015_HH_03.tar.gz"
+       url:   "1IGGu-t73FtPD00txs6mCL6hGc_ahcLTB"
+       size:  "4.59"
+       md5:   "F8CC5C2218DCF3602E8A5C383F1711E7"
+     - light: 50
+       file:  "TN_050_HH_03.tar.gz"
+       url:   "11nPKuMw9vqJHR3iLQqXM97Gr9Yl18KI0"
+       size:  "4.27"
+       md5:   "3D884BCB1F9E87162139A9A01DFAA7B9"
+     - light: 100
+       file:  "TN_100_HH_03.tar.gz"
+       url:   "14WkKwr9hh9Pz0lXtR5CIevcujjR2-wNr"
+       size:  "4.32"
+       md5:   "9FF03BE7F0FB5CE4CF36A3A3B8A5F2C6"
+
+ - name: Tunnel Ground-Vehicle 1
+   id: tn_gv_01
+   env: Tunnel
+   pic: tn-gv-01.jpg
+   duration: "178.38"
+   length:   "150"
+   speed: 
+   instances:
+     - light: 15
+       size:  "3.77"
+       file:  "TN_015_GV_01.tar.gz"
+       url:   "1ufSYzh85SNmv_Tsm_MaLzyTdKMSMUnm3"
+       md5:   "C4C3DD85F5F13C012D02F578343BC189"
+     - light: 50
+       size:  "3.63"
+       file:  "TN_050_GV_01.tar.gz"
+       url:   "1-H0N5ANRbacbztlFPSwBisrGSLDvk2t_"
+       md5:   "2305E20A6758C982F47D1DBA9EC1397F"
+     - light: 100
+       size:  "3.28"
+       file:  "TN_100_GV_01.tar.gz"
+       url:   "1RMA4SbgcHYEciq8gnqmnYHthcYS_sTrS"
+       md5:   "9AA4C41EF3EF67EDA8DE3AF75CCCD695"
+
+ - name: Outdoors Handheld 1
+   id: mn_hh_01
+   env: Outdoors
+   pic: od-hh-01.jpg
+   duration: "376.26"
+   length:   "214.36"
+   speed:    "0.72"
+   instances:
+     - light: 15
+       size:  "7.62"
+       file:  "OD_015_HH_01.tar.gz"
+       url:   "1VLiyCGNv9V8mMIXp5jSqkeJGshcn6ImW"
+       md5:   "338EF0F7870B2B78FB7B7A6FAF56100B"
+     - light: 50
+       size:  "8.03"
+       file:  "OD_050_HH_01.tar.gz"
+       url:   "1uohbQ5lhA30iDDA741EwCFLG05RwzX_W"
+       md5:   "12C9F6FBA7BEEF945C1A314161A74E5F"
+     - light: 100
+       size:  "6.94"
+       file:  "OD_100_HH_01.tar.gz"
+       url:   "1--zDM8dzKM5JYljLwzDT04vPkhX6ABKB"
+       md5:   "B9FFCA875EED6FABB681189F856ACDCE"
+
+ - name: Outdoors Handheld 2
+   id: mn_hh_02
+   env: Outdoors
+   pic: od-hh-02.jpg
+   duration: "273.73"
+   length:   "124.58"
+   speed:    "0.61"
+   instances:
+     - light: 15
+       file:  "OD_015_HH_02.tar.gz"
+       url:   "1KhbKiqMnIfffDTQaMxP3E378BG1KESlr"
+       size:  "4.39"
+       md5:   "E2D4CE8D6BEC97B318EEE9355835C359"
+     - light: 50
+       file:  "OD_050_HH_02.tar.gz"
+       url:   "1zrj1kpernL6Nr5WXc4IsRQDfuYSWX-k5"
+       size:  "5.65"
+       md5:   "DA6EECBDB15ADDC9D1F7BD5A1A2654E4"
+     - light: 100
+       file:  "OD_100_HH_02.tar.gz"
+       url:   "1aCMAGozJZZRxpmVkGdcKL2Vat1T8R_vf"
+       size:  "5.91"
+       md5:   "C2C43BE1A8753A45EA181A13B4D8A2E5"
+
+ - name: Outdoors Handheld 3
+   id: mn_hh_03
+   env: Outdoors
+   pic: od-hh-03.jpg
+   duration: "156.57"
+   length:   "86.58"
+   speed:    "1.26"
+   instances:
+     - light: 15
+       file:  "OD_015_HH_03.tar.gz"
+       url:   "1jAEX3X4836h_7avQl0xFKGl-8Wy1zocO"
+       size:  "2.86"
+       md5:   "DAC5CF28BB9E5F1EDB7B873142DE0597"
+     - light: 50
+       file:  "OD_050_HH_03.tar.gz"
+       url:   "1ACbT5v0r85yiN3b8j-Gz-b8oPWGjlCg3"
+       size:  "4.30"
+       md5:   "7B26CD6D6362EC6E8D991006E19EF38F"
+     - light: 100
+       file:  "OD_100_HH_03.tar.gz"
+       url:   "19IDj1TbM_kwiWQL4lePO7Sf8riZbXWIo"
+       size:  "2.93"
+       md5:   "6FBA4DCAF5633F2CAECDC8DC519825CA"
+
+ - name: Lab Handheld 1
+   id: mn_hh_01
+   env: Lab
+   pic: lb-hh-01.jpg
+   duration: "216.71"
+   length:   "57.22"
+   speed:    "0.51"
+   instances:
+     - light: 15
+       size:  "3.57"
+       file:  "LB_015_HH_01.tar.gz"
+       url:   "1aYqoW96LuAEJg9F5N0mu7-UMFx1M_I64"
+       md5:   "480E4A7F83DED642E0F2384F75D7DC00"
+     - light: 50
+       size:  "3.92"
+       file:  "LB_050_HH_01.tar.gz"
+       url:   "1igmfv3IL1nsuSKfG6ms6E-DDVdBh8LKd"
+       md5:   "948E649EA38826F32A6D579004E450F9"
+     - light: 100
+       size:  "3.66"
+       file:  "LB_100_HH_01.tar.gz"
+       url:   "1mPwa7oq5Ggo_YBEugJw6dpcMZthA51vT"
+       md5:   "EAF5D59EC0628BF3233EF015971780F9"
+
+ - name: Lab Handheld 2
+   id: mn_hh_02
+   env: Lab
+   pic: lb-hh-02.jpg
+   duration: "260.20"
+   length:   "86.05"
+   speed:    "0.50"
+   instances:
+     - light: 15
+       file:  "LB_015_HH_02.tar.gz"
+       url:   "1WDVjcE2yAE_qz-r9Zhb2g2SE9Zq3iN3s"
+       size:  "4.64"
+       md5:   "0D651DC82AEE37A787B046F90F1B9343"
+     - light: 50
+       file:  "LB_050_HH_02.tar.gz"
+       url:   "1GuFChUIAfMdvwj7L_KTnhiiVt4BMD7O0"
+       size:  "4.32"
+       md5:   "CA5AB617A498E4D361DFD98074AE8F6B"
+     - light: 100
+       file:  "LB_100_HH_02.tar.gz"
+       url:   "1kHGeJb4wy2wudRyXNUH7eI4ykxbmAGxt"
+       size:  "4.20"
+       md5:   "48C886641EF738479F4BE7D5573D12E4"
+
+ - name: Lab Handheld 3
+   id: mn_hh_03
+   env: Lab
+   pic: lb-hh-03.jpg
+   duration: "156.57"
+   length:   "82.72"
+   speed:    "1.13"
+   instances:
+     - light: 15
+       file:  "LB_015_HH_03.tar.gz"
+       url:   "1uGysKEE-nTCQQvKlBcCoYXRj-ybS5O36"
+       size:  "2.86"
+       md5:   "2305E5915A4D32EEBCB3D0028A7FE483"
+     - light: 50
+       file:  "LB_050_HH_03.tar.gz"
+       url:   "1HTEhjBWDFfecEAxtyi_3JjoJ-O78L4In"
+       size:  "2.38"
+       md5:   "8EE5F2085930B9D1F3F35B097E6532AF"
+     - light: 100
+       file:  "LB_100_HH_03.tar.gz"
+       url:   "1heaC9Mxt0Fu3IrA2CQcGVyG2ehxkdXkc"
+       size:  "2.33"
+       md5:   "542037CF315BF03C5F598759E4BD2949"
+

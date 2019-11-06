@@ -15,8 +15,12 @@
    img: /img/light_source_estimation.gif
    blurb: "This effort addresses the problem of determining the location, direction, intensity, and color of the illuminants in a given scene. The problem has a broad range of applications in augmented reality, robust robot perception, and general scene understanding. In our research, we model complex light interactions with a custom path-tracer, capturing the effects of both direct and indirect illumination. Using a physically-based light model not only improves our estimation of the light sources, but will play a critical role in future research in surface property estimation and geometry refinement, ultimately leading to more accurate and complete scene reconstruction systems." 
    publications:
+     - title: Multiple Point Light Estimation from Low-Quality 3D Reconstructions
+       authors: Mike Kasper, Christoffer Heckman
+       date: 2019
+       venue: "International Conference on 3D Vision (3DV)"
      - title: Light Source Estimation in Synthetic Images
-       authors: Mike Kasper, Nima Keivan, Gabe Sibley, Christoffer Heckman.
+       authors: Mike Kasper, Nima Keivan, Gabe Sibley, Christoffer Heckman
        date: 2016
        venue: "European Conference on Computer Vision, Virtual/Augmented Reality for Visual Artificial Intelligence Workshop"
        url: "https://link.springer.com/chapter/10.1007/978-3-319-49409-8_72?no-access=true"
