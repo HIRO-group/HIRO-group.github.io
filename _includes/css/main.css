@@ -1202,10 +1202,21 @@ span.label:hover e.ok {
     color: #{{ site.color.primary }};
 }
 
+#article .card     .card-img,
+#article .card .big-card-img {
+    -webkit-filter: brightness(88%) grayscale(44%); /* blur(1px); /* Safari 6.0 - 9.0 */ */
+            filter: brightness(88%) grayscale(44%); /* blur(1px); */
+}
+
 #portfolio .portfolio-item .portfolio-link:hover .img-fluid,
 #article .card:hover .card-img {
-    -webkit-filter: brightness(56%) grayscale(84%); /* blur(1px); /* Safari 6.0 - 9.0 */ */
-            filter: brightness(56%) grayscale(84%); /* blur(1px); */
+    -webkit-filter: brightness(48%) grayscale(80%); /* blur(1px); /* Safari 6.0 - 9.0 */ */
+            filter: brightness(48%) grayscale(80%); /* blur(1px); */
+}
+
+#article .card:hover .big-card-img {
+    -webkit-filter: brightness(100%) grayscale(0%); /* blur(1px); /* Safari 6.0 - 9.0 */ */
+            filter: brightness(100%) grayscale(0%); /* blur(1px); */
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
