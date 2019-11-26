@@ -763,6 +763,21 @@ section.success p {
     opacity: 0;
 }
 
+#article .card-img-overlay .card-name {
+    opacity: 1;
+}
+
+#article .card-img-overlay .card-title {
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+#article .card-img-overlay .card-text,
+#article .card-img-overlay .stretched-link {
+    margin-bottom: 0px;
+    margin-top: 12px;
+}
+
 #markdown-toc {
     margin-bottom: 28px;
 }

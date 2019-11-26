@@ -30,13 +30,15 @@
             <div class="card mb-3 mx-1">
               <img class="card-img" src="{% if person.pic %}/img/people/{{ person.pic }}{% else %}{{ site.logopng }}{% endif %}" class="img-fluid" style="width: 100%;" align="middle" alt="{{ person.pic }}">
               <div class="card-img-overlay d-flex flex-column justify-content-end">
-                {% if person.page %}<a href="/{{ person.page }}.html">{% endif %}<h3 class="card-title">{{ person.name }}</h3>{% if person.page %}</a>{% endif %}
                 {% if person.office %}<p class="card-text"><i class="fa fa-fw fa-briefcase"></i> {{ person.office }}</p>{% endif %}
                 {% if person.phone  %}<p class="card-text"><i class="fa fa-fw fa-phone"    ></i> {{ person.phone  }}</p>{% endif %}
                 {% if person.email  %}<p class="card-text"><a href="mailto:{{ person.email }}"        class="card-link" style="word-break: break-all;"><i class="fa fa-fw fa-envelope"></i> {{ person.email }}</a></p>{% endif %}
                 {% if person.page or person.url %}
                 <a href="{% if person.page %}/{{ person.page }}.html{% elsif person.url    %}{{ person.url }}{% endif %}" target="_blank" class="stretched-link"><i class="fa fa-fw fa-home"     ></i> {% if person.url %}{{ person.url }}{% elsif person.page%}/{{ person.page }}.html{% endif %}</a>
+                {% elsif person.linkedin %}
+                <a href="https://www.linkedin.com/in/{{ person.linkedin }}" target="_blank" class="stretched-link"><i class="fa fa-fw fa-linkedin"     ></i> {{ person.linkedin }}</a>
                 {% endif %}
+                {% if person.page %}<a href="/{{ person.page }}.html" class="card-name">{% endif %}<h3 class="card-title card-name">{{ person.name }}</h3>{% if person.page %}</a>{% endif %}
               </div>
             </div>
             {% endif %}
