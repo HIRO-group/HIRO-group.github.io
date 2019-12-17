@@ -146,6 +146,7 @@
    email: 
    url: http://amitrege.github.io
    project: I am a part of Team MARBLE competing in the DARPA Subterranean Challenge. I am involved in the design and implementation of the object detection pipeline which allows robots to localize certain objects in environments such as tunnels, mines and caves.
+   pic: Amit_Rege.jpg
    
  - name: Wyatt Raich
    role: grad
