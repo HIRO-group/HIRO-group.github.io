@@ -33,14 +33,6 @@
    email: 
    pic: Kasper_Mike.jpg
 
- - name: John Stechschulte
-   role: phd
-   url: 
-   office: ECES 111
-   phone: 
-   email: John.Stechschulte@colorado.edu
-   pic: John_Stechschulte.jpg
-
  - name: Cecilia Mauceri
    role: phd
    url: 
@@ -72,14 +64,6 @@
    phone: 
    email: 
    pic: Mike_Miles.jpg
-
- - name: Carl Stahoviak
-   role: phd
-   url: 
-   office: ECES 111
-   phone: 
-   email: 
-   pic: Carl_Stahoviak.png
 
  - name: Kyle Harlow
    role: phd
@@ -120,14 +104,69 @@
    phone: 
    email: 
    pic: Torres_Daniel.jpg
+   
+ - name: Alecio Madrid
+   role: phd
+   url: 
+   office: ECES 111
+   phone: 
+   email: 
+   pic: 
 
- - name: Wyatt Raich
+ - name: Dorothea French
    role: undergrad
    url: 
    office: ECES 111
    phone: 
    email: 
+   pic: Dorothea_French.jpg
+   project: I am working on building a radio beacon deployment mechanism for the Sub-T challenge robots. I have worked on initial modeling and prototyping, and am currently in charge of the software side. The project uses arduino and ROS to control stepper motors, allowing for the gentle lowering of the beacons onto the ground.
+   
+ - name: Silas Viskovich
+   role: undergrad
+   office: ECES 111
+   phone: 
+   email: 
+   pic: Silas_Viskovich.jpg
+   project: As an Engineer of ARPG beginning in the Fall of 2019, I have worked on the design and manufacturing of mechanical systems to provide support to team MARBLE in preparation for the DARPA challenge. My team's first project involved the design and fabrication of a system to package, place and extend a set of transmitter beacons from a group of autonomous vehicles. It has been a pleasure to work alongside some of the Post Doctoral Researchers such as Dr. McGuire and I look forward to future challenges!
+
+ - name: Greg Lund
+   role: undergrad
+   office: ECES 111
+   phone: 
+   email: 
+   url: https://greg-lund.github.io
+   pic: Greg_Lund.jpg
+   project: Since joining ARPG in Fall 2019, I have been helping support the DARPA challenge team MARBLE through building mechanical systems. I have mostly been working alongside the other Research Assistants, and Dr. McGuire. The first project that I have been helping with is to design and build a system to stow, deploy and extend a set of radio beacons from some of the ground vehicles. It has been awesome to work with ARPG so far and I'm looking forward to see what comes in the future!
+
+ - name: Amit Rege
+   role: grad
+   office: ECES 111
+   phone: 
+   email: 
+   url: http://amitrege.github.io
+   project: I am a part of Team MARBLE competing in the DARPA Subterranean Challenge. I am involved in the design and implementation of the object detection pipeline which allows robots to localize certain objects in environments such as tunnels, mines and caves.
+   
+ - name: Wyatt Raich
+   role: grad
+   url: 
+   office: ECES 111
+   phone: 
+   email: 
    pic: Wyatt_Raich.jpg
+   
+ - name: Sam Bateman
+   role: undergrad
+   office: ECES 111
+   url: https://bateman.io/
+   project: I am leveraging my studies in computer science, robotics and applied mathematics to incorporate semantic information into probabilistic dynamic SLAM to improve both performance and robustness in long term, real world deployments.
+   pic: Sam_Bateman.jpg
+   
+ - name: Nikolaas Bender
+   role: undergrad
+   office: ECES 111
+   url: https://nikolaasbender.github.io/
+   pic: Nikolaas_Bender.jpg
 
  - name: Cesar Galan
    role: manager
@@ -136,6 +175,12 @@
    phone: 
    email: 
    pic: Cesar_Galan.jpg
+   
+ - name: John Stechschulte
+   role: alumni
+   dates: 2014-2019
+   thesis: Information Theory and Probabilistic Modeling for Robot Localization
+   advisor: Christoffer Heckman
 
  - name: Sina Aghli
    role: alumni
@@ -178,6 +223,12 @@
    thesis: Towards Temporal Semantic Scene Understanding
    advisor: Christoffer Heckman and Gabe Sibley
    now: Now at a self-driving car startup in Menlo Park, CA.
+   
+ - name: Carl Stahoviak
+   role: alumni
+   dates: 2017-2019
+   thesis: An Instantaneous 3D Ego-Velocity Measurement Algorithm for Frequency Modulated Continuous Wave (FMCW) Doppler Radar Data
+   advisor: Christoffer Heckman
 
  - name: Boston Cleek
    role: alumni
