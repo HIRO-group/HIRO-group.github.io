@@ -41,7 +41,7 @@ Once you are done with these preliminary steps, follow the instructions in the n
  2. Share your username with your supervisor and/or point of contact.
  3. Send an email to **[Joewie Koh](mailto:joewie.koh@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) in Cc**{:.color-banner}. Include your:
     - GitHub username
-    - preferred email address for Google Calendar
+    - Preferred email address for Google Calendar
  4. Joewie will add you to our [GitHub organization](https://github.com/HIRO-group) and Google Calendar.
  5. Make your membership to the GitHub organization public.
 
