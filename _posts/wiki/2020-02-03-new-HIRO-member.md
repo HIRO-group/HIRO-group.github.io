@@ -19,31 +19,74 @@ For _{{ site.meetings.semester }}_, we will be holding group meetings in **{{ si
 
 # 1 Preliminaries
 
- 1. Create an account on our [Slack](https://arpg.slack.com), and share your username with your supervisor and/or point of contact. Ideally, install slack on your machine as well as on your phone in oder to be always up to date with what happens in the lab.
- 2. Join the **#hiro-group** and **#hiro-github** channels on Slack. Most of our internal communication happens there.
- 3. Create an account on [GitHub](https://github.com) if you haven't already, and share your username with your supervisor and/or point of contact.
- 4. Request to be added to our [GitHub organization](https://github.com/HIRO-group) by sending an email containing your GitHub username to [Joewie Koh](mailto:joewie.koh@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) in Cc, AND make your membership to the GitHub organization public. Joewie will also add you to our Google Calendar, so specify in your email if you would like to use a different email address for the calendar.
- 5. Read carefully the lab agreements, print them and be prepared to sign them at the next one-on-one meeting with Prof. Roncone. There are currently three documents available:
-    1. [Lab etiquette](/docs/HIRO-Group-Lab-Etiquette.pdf), shared among all students and people working in the lab, with the rules of working in the lab;
-    2. [Faculty-Graduate student agreement](/docs/HIRO-Group-Grad-Agreement.pdf), slightly biased toward PhD students but to be used for all graduate students;
-    2. [Faculty-Undergraduate student agreement](/docs/HIRO-Group-UGrad-Agreement.pdf), for undergrads
- 6. Write an email to [Chantel Lehl](mailto:chantel.lehl@colorado.edu) **with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) and [Joewie Koh](mailto:joewie.koh@colorado.edu) in Cc**{:.color-banner} in order to get lab access with your Buff card number. Ask her to be added to ECST 322, ECES 116 and ECES 111. Please send her the following information: Name, Student ID, Buff Card Number, CU Login name, Email.
- 7. Do a Pull Request [PR] on [this repository](https://github.com/HIRO-group/HIRO-group.github.io) to add your data to [this file](https://github.com/HIRO-group/HIRO-group.github.io/blob/master/_data/people.yml) and a picture of you to [this folder](https://github.com/HIRO-group/HIRO-group.github.io/tree/master/img/people). The picture needs to be square, and preferably not bigger than 400x400 px. If you're not familiar with the PR workflow, you can refer to [this guide](https://github.com/HIRO-group/HIRO-group.github.io/blob/master/CONTRIBUTING.md).
- 8. [Subscribe to our mailing list!](https://lists.colorado.edu/sympa/subscribe/hiro-group) Remember to click on the verification link sent to your email to complete your subscription.
+Prospective new members should do the following:
+ 1. Find a supervisor.
+ 2. Find a project.
+ 3. Communicate with [Prof. Alessandro Roncone]((mailto:alessandro.roncone@colorado.edu)) regarding your project.
 
-## 1.1 Optional steps
+Once you are done with these preliminary steps, follow the instructions in the next section to finalize your membership. **You are expected to complete these tasks within 2 days of joining the group.**{:.color-banner}
 
- 1. If you plan to perform research with human subjects, please [be aware of the policies for doing so](https://www.colorado.edu/researchinnovation/irb) and [do the CITI training for Social Behavioral Research Investigators and Key Personnel](https://www.colorado.edu/researchinnovation/irb/getting-started/citi-training). [If your project requires IRB review](https://www.colorado.edu/researchinnovation/irb/getting-started/does-my-research-require-irb-review), please be prepared to do so on a timely manner as submitting an IRB Protocol [and having it reviewed] takes time.
- 2. If you need storage for data, request an account with CU Boulder Research Computing on [this page](https://rcamp.rc.colorado.edu/accounts/account-request/create/verify/ucb). After receiving your RC account, await further instructions from RC to set up Duo two-factor authentication.
- 3. Ask for an invitation to our [Trello](https://trello.com) team and [Mendeley](https://www.mendeley.com) group from **@joewie** on Slack or in the **#hiro-group** channel. Provide your preferred email. We share and keep track of relevant papers on Mendeley, while Trello is where we coordinate work on projects.
- 4. To access research papers off-campus, set up the [CU Boulder VPN client](https://oit.colorado.edu/services/network-internet-services/vpn) on your machine. Alternatively, drag the following link to your bookmarks toolbar: [CU Proxy](javascript:void(location.href='https://colorado.idm.oclc.org/login?url='+location.href)). Whenever you come across a paywall, simply click on the bookmark to access the resource through the University Libraries proxy.
+# 2 New members
+
+## 2.1 Slack
+
+ 1. Create an account on our [Slack](https://arpg.slack.com/signup).
+ 2. Share your username with your supervisor and/or point of contact.
+ 3. Ideally, [install Slack on your machine](https://slack.com/download) as well as on your phone in order to be always up to date with what happens in the group.
+ 4. Join the **#hiro-group** and **#hiro-github** channels on Slack. Most of our internal communication happens there.
+
+## 2.2 GitHub & Google Calendar
+
+ 1. If you don't already have a [GitHub](https://github.com) account, create one.
+ 2. Share your username with your supervisor and/or point of contact.
+ 3. Send an email to **[Joewie Koh](mailto:joewie.koh@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) in Cc**{:.color-banner}. Include your:
+    - GitHub username
+    - Preferred email address for Google Calendar
+ 4. Joewie will add you to our [GitHub organization](https://github.com/HIRO-group) and Google Calendar.
+ 5. Make your membership to the GitHub organization public.
+
+## 2.3 Lab agreements
+
+ 1. Read carefully the lab agreements. There are currently three documents available:
+    - [Lab etiquette](/docs/HIRO-Group-Lab-Etiquette.pdf), shared among all students and people working in the lab, with the rules of working in the lab
+    - [Graduate student agreement](/docs/HIRO-Group-Grad-Agreement.pdf), slightly biased toward PhD students but to be used for all graduate students
+    - [Undergraduate student agreement](/docs/HIRO-Group-UGrad-Agreement.pdf), for undergraduates
+
+ 2. Print them and be prepared to sign them at your next one-on-one meeting with Prof. Roncone. (This does not need to be done within 2 days.)
+
+## 2.4 Lab access
+
+ 1. Write an email to **[Chantel Lehl](mailto:chantel.lehl@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) and [Joewie Koh](mailto:joewie.koh@colorado.edu) in Cc**{:.color-banner}.
+ 2. Ask to be granted access to ECST 322, ECES 116 and ECES 111. Please include the following information: 
+    - Name
+    - Student ID
+    - Buff OneCard number
+    - CU login name
+    - Email
+
+## 2.5 Group website
+
+ 1. Do a Pull Request [PR] on [this repository](https://github.com/HIRO-group/HIRO-group.github.io) to add your data to [this file](https://github.com/HIRO-group/HIRO-group.github.io/blob/master/_data/people.yml) and a picture of you to [this folder](https://github.com/HIRO-group/HIRO-group.github.io/tree/master/img/people). **The picture needs to be square, and not bigger than 400x400 px.**{:.color-banner}
+ 2. If you're not familiar with the PR workflow, you can refer to [this guide](https://github.com/HIRO-group/HIRO-group.github.io/blob/master/CONTRIBUTING.md).
+
+## 2.6 Mailing list
+
+ 1. [Subscribe to our mailing list!](https://lists.colorado.edu/sympa/subscribe/hiro-group)
+ 2. Click on the verification link sent to your email to complete your subscription.
+
+# 3 Optional steps
+
+ 1. Ask for an invitation to our [Trello](https://trello.com) team and [Mendeley](https://www.mendeley.com) group from **@joewie** on Slack or in the **#hiro-group** channel. Provide your preferred email. We share and keep track of relevant papers on Mendeley, while Trello is where we coordinate work on projects.
+ 2. To access research papers off-campus, set up the [CU Boulder VPN client](https://oit.colorado.edu/services/network-internet-services/vpn) on your machine. Alternatively, drag the following link to your bookmarks toolbar: [CU Proxy](javascript:void(location.href='https://colorado.idm.oclc.org/login?url='+location.href)). Whenever you come across a paywall, simply click on the bookmark to access the resource through the University Libraries proxy.
+ 3. If you plan to perform research with human subjects, please [be aware of the policies for doing so](https://www.colorado.edu/researchinnovation/irb) and [do the CITI training for Social Behavioral Research Investigators and Key Personnel](https://www.colorado.edu/researchinnovation/irb/getting-started/citi-training). [If your project requires IRB review](https://www.colorado.edu/researchinnovation/irb/getting-started/does-my-research-require-irb-review), please be prepared to do so on a timely manner as submitting an IRB Protocol [and having it reviewed] takes time.
+ 4. If you need storage for data, request an account with CU Boulder Research Computing on [this page](https://rcamp.rc.colorado.edu/accounts/account-request/create/verify/ucb). After receiving your RC account, await further instructions from RC to set up Duo two-factor authentication.
  5. If you are an undergraduate student joining for the summer, please [subscribe to this list](https://lists.colorado.edu/sympa/subscribe/cs-summer-undergrads).
 
-# 2 Software
+# 4 Software
 
 For what concerns the software, your mileage may vary. This is what you need to do if you are developing software in the HIRO group.
 
-## 2.1 Install Ubuntu [16.04]
+## 4.1 Install Ubuntu [16.04]
 
 Linux (and Ubuntu) is our operating system of choice. It is not important to be a Linux expert, but you need at least to have it installed in order to be able to develop on an environment as similar as possible to the one you will use when using the Sawyer Robot (or similar ROS-based robots).
 
@@ -58,7 +101,7 @@ You have the following options:
 
 **NOTE:** the Sawyer Robot ~~is stuck to~~ uses Ubuntu 16.04, so it is highly recommended to use that.
 
-## 2.2 Install ROS [kinetic]
+## 4.2 Install ROS [kinetic]
 
 ROS is the so-called Robot Operating System. It is the core software we use to interface with the robot.
 
@@ -68,7 +111,7 @@ Also here, you have some specific requirements. Sawyer ~~is stuck to~~ uses [ROS
   - [Installation according to ROS](http://wiki.ros.org/kinetic/Installation/Ubuntu)
   - [Installation from sources](http://wiki.ros.org/kinetic/Installation/Source)
 
-## 2.3 Learn about ROS
+## 4.3 Learn about ROS
 
 To have some degree of understanding of ROS, please read the following documents:
 
@@ -78,9 +121,9 @@ To have some degree of understanding of ROS, please read the following documents
 
 If you still need some practice, you might have a look at [ROS tutorials](http://wiki.ros.org/ROS/Tutorials).
 
-## 2.4 Other tools
+## 4.4 Other tools
 
-### 2.4.1 CMake
+### 4.4.1 CMake
 
 `CMake` is core to `ROS` development and any advanced, multi-platform, `C++` based development. It is relatively easy to learn, but very difficult to master. Here are some resources that might be useful:
 
@@ -91,7 +134,7 @@ If you still need some practice, you might have a look at [ROS tutorials](http:/
  - [This](https://codingnest.com/basic-cmake/) instead is a series of tutorials oriented towards students that I saw recently and may be useful
  - [This](https://samthursfield.wordpress.com/2015/11/21/cmake-dependencies-between-targets-and-files-and-custom-commands/) is a nice article about what mess `CMake` is---and also a good way to start learning it
 
-# 3 Guidelines / options / editor preferences
+# 5 Guidelines / options / editor preferences
 
 Here are some good things to set up before contributing to our code:
 
