@@ -22,7 +22,7 @@ For _{{ site.meetings.semester }}_, we will be holding group meetings in **{{ si
 Prospective new members should do the following:
  1. Find a supervisor.
  2. Find a project.
- 3. Communicate with [Prof. Alessandro Roncone]((mailto:alessandro.roncone@colorado.edu)) regarding your project.
+ 3. Communicate with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) regarding your project.
 
 Once you are done with these preliminary steps, follow the instructions in the next section to finalize your membership. **You are expected to complete these tasks within 2 days of joining the group.**{:.color-banner}
 
