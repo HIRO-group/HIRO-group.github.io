@@ -20,9 +20,9 @@ For _{{ site.meetings.semester }}_, we will be holding group meetings in **{{ si
 # 1 Preliminaries
 
 Prospective new members should do the following:
- 1. find a supervisor,
- 2. find a project, and
- 3. communicate with [Prof. Alessandro Roncone]((mailto:alessandro.roncone@colorado.edu)) regarding your project.
+ 1. Find a supervisor.
+ 2. Find a project.
+ 3. Communicate with [Prof. Alessandro Roncone]((mailto:alessandro.roncone@colorado.edu)) regarding your project.
 
 Once you are done with these preliminary steps, follow the instructions in the next section to finalize your membership. **You are expected to complete these tasks within 2 days of joining the group.**{:.color-banner}
 
@@ -40,17 +40,17 @@ Once you are done with these preliminary steps, follow the instructions in the n
  1. If you don't already have a [GitHub](https://github.com) account, create one.
  2. Share your username with your supervisor and/or point of contact.
  3. Send an email to **[Joewie Koh](mailto:joewie.koh@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) in Cc**{:.color-banner}. Include your:
-    - GitHub username, and
-    - preferred email address for Google Calendar.
+    - GitHub username
+    - preferred email address for Google Calendar
  4. Joewie will add you to our [GitHub organization](https://github.com/HIRO-group) and Google Calendar.
  5. Make your membership to the GitHub organization public.
 
 ## 2.3 Lab agreements
 
  1. Read carefully the lab agreements. There are currently three documents available:
-    - [Lab etiquette](/docs/HIRO-Group-Lab-Etiquette.pdf), shared among all students and people working in the lab, with the rules of working in the lab;
-    - [Graduate student agreement](/docs/HIRO-Group-Grad-Agreement.pdf), slightly biased toward PhD students but to be used for all graduate students;
-    - [Undergraduate student agreement](/docs/HIRO-Group-UGrad-Agreement.pdf), for undergraduates.
+    - [Lab etiquette](/docs/HIRO-Group-Lab-Etiquette.pdf), shared among all students and people working in the lab, with the rules of working in the lab
+    - [Graduate student agreement](/docs/HIRO-Group-Grad-Agreement.pdf), slightly biased toward PhD students but to be used for all graduate students
+    - [Undergraduate student agreement](/docs/HIRO-Group-UGrad-Agreement.pdf), for undergraduates
 
  2. Print them and be prepared to sign them at your next one-on-one meeting with Prof. Roncone. (This does not need to be done within 2 days.)
 
@@ -58,11 +58,11 @@ Once you are done with these preliminary steps, follow the instructions in the n
 
  1. Write an email to **[Chantel Lehl](mailto:chantel.lehl@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) and [Joewie Koh](mailto:joewie.koh@colorado.edu) in Cc**{:.color-banner}.
  2. Ask to be granted access to ECST 322, ECES 116 and ECES 111. Please include the following information: 
-    - name,
-    - student ID,
-    - Buff OneCard number,
-    - CU login name,
-    - email.
+    - Name
+    - Student ID
+    - Buff OneCard number
+    - CU login name
+    - Email
 
 ## 2.5 Group website
 
