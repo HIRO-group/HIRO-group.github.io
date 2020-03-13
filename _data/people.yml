@@ -133,11 +133,6 @@
    role: undergrad
    email: rebecca.coryell@colorado.edu
    pic: rebeccac.jpg
-
- - name: Liyang Ru
-   role: undergrad
-   email: liru4968@colorado.edu
-   pic: liyang.jpg
    
  - name: Byungjin (BJ) Kim
    role: undergrad
@@ -152,6 +147,10 @@
    email: kyle.pfromer@colorado.edu
    pic: kylepfromer.jpg
    
+ - name: Liyang Ru
+   role: undergrad
+   email: liru4968@colorado.edu
+   pic: liyang.jpg
 
 # Collaborators
 # [in order of first appearance in the lab]
