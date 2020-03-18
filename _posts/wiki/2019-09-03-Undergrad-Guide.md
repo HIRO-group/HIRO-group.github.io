@@ -14,7 +14,7 @@ author: Garrett Pierson
 
 This guide is intended for new group members with limited exposure to
 ROS and other tools used in the HIRO Group. This page in conjunction with the
-[new member to-do list]({% post_url wiki/2020-02-03-new-HIRO-member %}) page will help you through setting up all of the software
+[new member to-do list]({% post_url wiki/2020-03-13-setup %}) page will help you through setting up all of the software
 so that you can get started working on your project with minimal frustration.
 
 # When Should I Ask For Help?
@@ -68,104 +68,3 @@ tutorial first to learn some basic command line tools.
       Then add the command `source $HOME/<yourwsname_ws>/devel/setup.bash` to the
       end of the `.bashrc` file.
 
-## 3. Work through the ROS Tutorials Beginner Level (1-20)
-
-  * Focus on package creation and how to execute your programs
-  * Understand how to set up targets for the programs you want to run
-  * This is done by going to your Cmake file in your workspace/package and going
-   to the build section. From there you need to follow the instructions in the
-   comments and:
-    * Specify additional locations of header files.
-      ~~~cmake
-      Include_Directories (
-          ${catkin_INCLUDE_DIRS}
-          ~/src/ros_devel_ws/devel/include
-          ~/src/ros_devel_ws/devel/include/intera_core_msgs
-          ~/src/ros_devel_ws/src/your_package/include/your_package
-      )
-      ~~~
-    * Declare a C++ Executable.
-      ~~~cmake
-      add_executable(target_name src/target_name.cpp)
-      ~~~
-    * Add Cmake Target Dependencies of the Executable.
-      ~~~cmake
-      add_dependencies(target_name ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-      ~~~
-    * Specify Libraries to Link a Library or Executable Target Against.
-      ~~~cmake
-      target_link_libraries(target_name ${catkin_LIBRARIES})
-      ~~~
-
-    * Take a look at the Cmake tutorials linked in the [new member to-do list]({% post_url wiki/2020-02-03-new-HIRO-member %}) section.
-    * Make sure to pay attention to publishers and subscribers as they are essential to ROS.
-
-## 4. Get something moving! (See Section 5 for Example Code)
-
-  * Run some of the example programs like the [wobble program](http://sdk.rethinkrobotics.com/intera/Head_Movement_Example) on the Intera SDK Gazebo site for Sawyer.
-  * Write a program that can move the Sawyer arm around in Gazebo. As an extension, create a basic menu system so that the user can send poses to the Sawyer.
-  * Write a program that records the joint angles when the cuff button on the Sawyer arm is pressed--please get training from a graduate student before using the robot.
-  With the recorded poses, after the user is done moving the arm, have the Sawyer arm reenact these poses in the order they occurred. You will need to limit the maximum speed of the arm as this can be dangerous.
-  * Send an image to the Sawyer display.
-
-## 5. Example Code
-
-  * Pan Sawyer's head.
-
-      ~~~c
-      #include "ros/ros.h"
-      #include <iostream>
-      #include <sstream>
-      #include "HeadPanCommand.h"
-
-      int main(int argc, char **argv)
-      {
-          ros::init(argc, argv, "pub");
-          ros::NodeHandle n;
-
-          ros::Publisher joint_pub = n.advertise<intera_core_msgs::HeadPanCommand>("/robot/head/command_head_pan", 100);
-
-          ros::Rate loop_rate(1);
-          float target = 1.0;
-
-          while(ros::ok())
-          {
-              intera_core_msgs::HeadPanCommand msg;
-              msg.target = 1.0 - target;
-              target = msg.target;
-              msg.speed_ratio = 0.5;
-              msg.pan_mode = 0;
-              joint_pub.publish(msg);
-              ros::spinOnce();
-              loop_rate.sleep();
-          }
-          return 0;
-      }
-      ~~~
-  * Send a pose to Sawyer.
-      ~~~c
-      #include "ros/ros.h"
-      #include <iostream>
-      #include <sstream>
-      #include "JointCommand.h"
-
-      int main(int argc, char **argv) {
-        ros::init(argc, argv, "pub");
-        ros::NodeHandle n;
-
-        ros::Publisher joint_pub = n.advertise<intera_core_msgs::JointCommand>("/robot/right_joint_position_controller/joints/right_j0_controller/command",100);
-        ros::Rate loop_rate(1);
-
-        float position = 2.0;
-        intera_core_msgs::JointCommand msg;
-
-        msg.mode = 1;
-        msg.names[0] = "j0";
-        msg.position[0] = position;
-
-        joint_pub.publish(msg);
-        ros::spinOnce();
-        loop_rate.sleep();
-        return 0;
-       }
-      ~~~
