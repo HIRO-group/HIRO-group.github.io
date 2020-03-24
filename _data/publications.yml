@@ -1,3 +1,10 @@
+ - title: "Distributed Reinforcement Learning for Cooperative Multi-Robot Object Manipulation"
+   authors: Guohui Ding*, Joewie J. Koh*, Kelly Merckaert, Bram Vanderborght, Marco M. Nicotra, Christoffer Heckman, Alessandro Roncone, Lijun Chen
+   year: 2020
+   venue: International Conference on Autonomous Agents and Multiagent Systems [AAMAS]
+   where: Auckland, New Zealand, May 9-13
+   pdf: "2020_Ding_AAMAS_cooperative_object_manipulation"
+   description: Extended abstract
  - title: "Situated Human-Robot Collaboration: predicting intent from grounded natural language"
    authors: Jake Brawer, Olivier Mangin, Alessandro Roncone, and Brian Scassellati
    year: 2018
