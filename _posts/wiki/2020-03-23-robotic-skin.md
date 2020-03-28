@@ -42,3 +42,21 @@ With this information, we apply a repulsive force perpendicular to the skin unit
 
 {% include image.html url="research/control.png" max-width="75%" description=" A mounted skin unit exerting a repulsive force β on a robot's trajectory 
 <strong>T</strong> when an object is near the skin unit. The distance d is measured in millimeters. As an object approaches, β increases exponentially." %}
+
+
+# Future Work
+
+### 1. Dynamic Obstical Avoidance
+
+We plan to use proximity sensors embedded within each skin unit to avoid obstacles in two separate control schemes. 
+
+* End-effector movement
+* Control point movement
+
+As demonstrated in the paper “A Depth Space Approach to Human-Robot Collision Avoidance” by Flacco et al. a robot arm can avoid collision by exerting a repulsive vector to its end effector or control points along the robot arm. Both schemes can be used to increase safety when robots and humans work in close proximity. 
+
+
+### 2. Dense Coverage of a Robot Arm with Skin Units
+In order to consistently avoid obstacles around the robot dense skin unit coverage is required. To achieve this goal we must efficiently distribute wiring and computational resources about the surface of the robot. This has been accomplished by Mittendorfer et al. by using rigid printed circuit boards equipped with onboard microcontrollers and redundant connections in their paper “Realizing whole-body tactile interactions with a self-organizing, multi-modal artificial skin on a humanoid robot”. Additional challenges arise due to the flexible and stretchable nature of our robotic skin that must conform to the surface it is placed on. 
+
+
