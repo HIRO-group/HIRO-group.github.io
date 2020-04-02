@@ -9,7 +9,7 @@
                 {% endif %}
 
                 {% if page.subtypes %}{% assign subtypes = page.subtypes %}
-                {% else %}            {% assign subtypes = "dummy" %}
+                {% else %}            {% assign subtypes = page.type %}
                 {% endif %}
 
                 {% for subtype in subtypes %}
@@ -23,12 +23,10 @@
                         </div>
                     {% endif %}
 
-                    <!-- subcategory is used for an article to appear in multiple pages, e.g. news and wiki, or research and wiki -->
-                    {% for post in site.posts %}
-                        {% if post.categories contains page.type %}
-                            {% if subtype == "dummy" or subtype == post.subcategory %}
-                            {% if page.type == "wiki" or post.subcategory == "news" or post.subcategory == "research" %}
-                                <div class="col-md-10 mx-auto portfolio-item" {% if post.subcategory == "news" %}id="news"{% endif %}{% if post.subcategory == "research" %}id="research"{% endif %}>
+                    {% for category in site.categories %}
+                        {% if subtype == category[0] %}
+                            {% for post in category[1] %}
+                                <div class="col-md-10 mx-auto portfolio-item" {% if subtype == "news" %}id="news"{% endif %}{% if subtype == "research" %}id="research"{% endif %}>
                                     <a href="{{ post.url }}" class="no-border portfolio-link" style="max-width:100%">
                                         <p class="post-date">{% if post.author %}by {{ post.author }}, on {% endif %}{{ post.date | date: '%B %d, %Y' }}</p>
                                         <h3>{{ post.title }}</h3>
@@ -39,8 +37,7 @@
                                         {% endif %}
                                     </a>
                                 </div>
-                            {% endif %}
-                            {% endif %}
+                            {% endfor %}
                         {% endif %}
                     {% endfor %}
                 {% endfor %}
