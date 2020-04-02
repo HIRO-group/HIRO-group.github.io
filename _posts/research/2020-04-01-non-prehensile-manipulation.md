@@ -3,15 +3,18 @@ title: Dexterous Robotic Manipulation and Skill Acquisition
 description: Non-prehensile manipulation modeling and planning
 author: Anuj Pasricha
 permalink: research/non_prehensile_manipulation.html
+image:
+    feature: research/npm/npm_capability.png
+excerpt_separator: <!-- More -->
 ---
-
-{% include image.html url="misc/npm_capability.png" max-width="100%" description="An object (green) is located between obstacles (red), i.e. in an ungraspable pose that is out of reach for the robot's end-effector. The robot pokes the object into a more easily graspable configuration, then performs a pick-and-place operation to get the object to its goal state. Work into skill modeling and multimodal planning can enable such behavior." %}
-
-# Vision
 
 Humans are highly dexterous in their interactions with real-world objects, engaging naturally in multiple forms of manipulation that involve grasping, pushing, poking, rolling, and tossing objects. Robots, on the other hand, tend to primarily rely on prehensile (grasping) manipulation, which is limiting the breadth of applicability of robot technologies in the real world. In order for robotic manipulation to approach human levels of dexterity, robots can benefit from engaging in non-prehensile manipulation (NPM).
 
+<!-- More -->
+
 NPM offers a complementary solution to prehensile manipulation by significantly expanding the size (intended as the set of reachable configurations) and dimensionality (intended as the number of degrees of freedom) of the operational space of even the simplest robot manipulator. NPM primitives such as pushing, flipping, and tossing can serve different purposes, from re-arranging objects in the workspace (e.g. poking an object out of clutter) to reducing uncertainty (i.e. engaging in forceful interactions with objects to improve perception through physical contact). In other words, NPM can be used to manipulate objects when conventional grasping-based manipulation is infeasible or unnecessary, removing or diminishing a source of planning complexity.
+
+{% include image.html url="research/npm/npm_capability.png" max-width="100%" description="An object (green) is located between obstacles (red), i.e. in an ungraspable pose that is out of reach for the robot's end-effector. The robot pokes the object into a more easily graspable configuration, then performs a pick-and-place operation to get the object to its goal state. Work into skill modeling and multimodal planning can enable such behavior." %}
 
 The vision at HIRO for achieving human-like dexterity in robotic manipulation is a three-stage process:
 
@@ -45,7 +48,7 @@ Our current work models poking manipulation as a skill and as a failure recovery
 
 ## Multimodal Motion Planning
 
-{% include image.html url="misc/pokerrt_block_diagram.png" max-width="100%" description="<em>PokeRRT</em> planner pipeline---skill thresholding is performed on augmented object configuration space to extract regions of grasping (blue) and poking (green). These skill regions are then used by PokeRRT to plan an object path from a start state to a goal state through augmented object configuration space. In this example, robot pokes object out from between the obstacles and into a more graspable configuration. Then the robot performs a pick-and-place operation to the object's goal configuration." %}
+{% include image.html url="research/npm/pokerrt_block_diagram.png" max-width="100%" description="<em>PokeRRT</em> planner pipeline---skill thresholding is performed on augmented object configuration space to extract regions of grasping (blue) and poking (green). These skill regions are then used by PokeRRT to plan an object path from a start state to a goal state through augmented object configuration space. In this example, robot pokes object out from between the obstacles and into a more graspable configuration. Then the robot performs a pick-and-place operation to the object's goal configuration." %}
 
 Leveraging traditional sampling-based motion planning can allow us to build a synergistic multimodal planning framework that further enhances robot dexterity. This vision **enables the decoupling of skill modeling and motion planning**, allowing for platform-independent and application-driven robot dexterity without learning from scratch with the introduction of each new skill as current reinforcement learning approaches in this area require. Our most recent contribution in this domain is **the development of the *PokeRRT* algorithm to plan in scenarios that combine poking and grasping manipulation.**
 
@@ -53,7 +56,7 @@ Leveraging traditional sampling-based motion planning can allow us to build a sy
 
 # Future Work
 
-{% include image.html url="misc/flip.jpg" max-width="100%" description="This combination of primitives is useful in cases where taking advantage of object geometry can yield low-effort manipulation strategies. For instance, if a cylindrical can is too heavy for a vertical lift, it can be flipped on its side and rolled over to goal state. Specifically, a cylindrical object will start off resting on its base. The robot will flip the object onto its side and then apply a normal force to the object to initiate a rolling motion. Finally, the robot will catch the object at its goal pose." %}
+{% include image.html url="research/npm/flip.jpg" max-width="100%" description="This combination of primitives is useful in cases where taking advantage of object geometry can yield low-effort manipulation strategies. For instance, if a cylindrical can is too heavy for a vertical lift, it can be flipped on its side and rolled over to goal state. Specifically, a cylindrical object will start off resting on its base. The robot will flip the object onto its side and then apply a normal force to the object to initiate a rolling motion. Finally, the robot will catch the object at its goal pose." %}
 
 Several streams of work stem from our preliminary work into poke modeling and planning:
 * A dynamic approach to skill thresholding in the current *PokeRRT* framework that leverages skill error models.
