@@ -2,6 +2,7 @@
 title: Dexterous Robotic Manipulation and Skill Acquisition
 description: Non-prehensile manipulation modeling and planning
 author: Anuj Pasricha
+permalink: research/non_prehensile_manipulation.html
 ---
 
 {% include image.html url="misc/npm_capability.png" max-width="100%" description="An object (green) is located between obstacles (red), i.e. in an ungraspable pose that is out of reach for the robot's end-effector. The robot pokes the object into a more easily graspable configuration, then performs a pick-and-place operation to get the object to its goal state. Work into skill modeling and multimodal planning can enable such behavior." %}
@@ -13,11 +14,17 @@ Humans are highly dexterous in their interactions with real-world objects, engag
 NPM offers a complementary solution to prehensile manipulation by significantly expanding the size (intended as the set of reachable configurations) and dimensionality (intended as the number of degrees of freedom) of the operational space of even the simplest robot manipulator. NPM primitives such as pushing, flipping, and tossing can serve different purposes, from re-arranging objects in the workspace (e.g. poking an object out of clutter) to reducing uncertainty (i.e. engaging in forceful interactions with objects to improve perception through physical contact). In other words, NPM can be used to manipulate objects when conventional grasping-based manipulation is infeasible or unnecessary, removing or diminishing a source of planning complexity.
 
 The vision at HIRO for achieving human-like dexterity in robotic manipulation is a three-stage process:
+
 ### Stage 1 --- Skill Modeling
+
 Learning-based approaches are neither scalable nor generalizable and deep learning tools are much too opaque to operate in real-world scenarios on their own. Whereas physics-based approaches, while not requiring any training, make simplifying assumptions that do not represent real-world physics in full detail. Therefore, building **hybrid models for NPM primitives in which physics-based and learning-based approaches complement each other** is crucial.
+
 ### Stage 2 --- Multimodal Planning
+
 Given models that accurately and precisely represent object and skill dynamics in the real world, the next logical step is to build **a multimodal motion planning framework that incorporates both non-prehensile and prehensile manipulation primitives** to accomplish a variety of tasks.
+
 ### Stage 3 --- Higher-Order Skill Acquisition
+
 Humans are capable of [learning rich representations](https://arxiv.org/pdf/1604.00289.pdf) of complex concepts from very few examples. This allows them to classify new examples, generate new instances of a particular class, parse concepts into parts and relations, and generate new concepts through composition. Equipped with a fundamental set of skills, a robot must learn how to acquire higher-order skills (eg: tool-use) that increase the probability of task success in the real-world. These skills typically require knowledge of object affordances, which can be learned from videos and simulation. **Having a repository of these affordance-to-motor program mappings can allow robots to combine them in interesting ways to achieve tasks they haven’t been explicitly trained for** (eg: turning a door knob and using a screwdriver are very similar actions conceptually). Learning a conceptual hierarchy will also allow **transferring skills from humans to robots or robots to robots where both parties don’t share the same embodiment**.
 
 # Current Work
@@ -26,7 +33,7 @@ Our preliminary work focuses on modeling **poking manipulation as a fundamental 
 
 ## Skill Modeling
 
-Realistic robot applications might expect the robot to operate in dense clutter, in presence of occlusions, or in ungraspable configurations---for example, if the target object is too large or too heavy, or if it is in a pose that is not directly reachable by the end-effector. In such situations, it is beneficial to complement the robot's skillset with NPM primitives. 
+Realistic robot applications might expect the robot to operate in dense clutter, in presence of occlusions, or in ungraspable configurations---for example, if the target object is too large or too heavy, or if it is in a pose that is not directly reachable by the end-effector. In such situations, it is beneficial to complement the robot's skillset with NPM primitives.
 
 Poking is a fundamental NPM primitive wherein ---
 1. a robot end-effector applies an instantaneous force to an object of interest to set the object in translational and rotational motion (*impact* phase), and

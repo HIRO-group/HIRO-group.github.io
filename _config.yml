@@ -68,7 +68,6 @@ defaults:
     values:
       category: "research"
       subcategory: "news"
-
   -
     scope:
       path: "_posts/research"
