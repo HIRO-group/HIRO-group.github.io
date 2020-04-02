@@ -66,14 +66,14 @@ defaults:
     scope:
       path: "_posts/news"
     values:
-      category: "research"
+      category: "home"
       subcategory: "news"
 
   -
     scope:
       path: "_posts/research"
     values:
-      category: "research"
+      category: "home"
       subcategory: "research"
 
 # Default colors (hex-codes without the leading hash-tag):
