@@ -2,19 +2,19 @@
     <section id="{{ page.type }}">
         <div class="container" id="portfolio">
             <div class="row">
-                {% if page.type == "research" or  page.type == "design" %}
+                {% if page.type == "home" %}
                 <div class="col-lg-12" id="article" style="margin-top: 0px; {% if page.subtypes %}{% else %}margin-bottom: 40px;{% endif %}">
                     {{ content | markdownify }}
                 </div>
                 {% endif %}
 
                 {% if page.subtypes %}{% assign subtypes = page.subtypes %}
-                {% else %}            {% assign subtypes = "dummy" %}
+                {% else %}            {% assign subtypes = page.type %}
                 {% endif %}
 
                 {% for subtype in subtypes %}
-                    <!-- If there is a page with multiple subtypes to display, 
-                    defined in its front matter, we will have unique sections 
+                    <!-- If there is a page with multiple subtypes to display,
+                    defined in its front matter, we will have unique sections
                     for each subtype -->
                     {% if page.subtypes %}
                         <div class="col-lg-12" style="margin-top: 40px; margin-bottom: 40px;" id="{{ subtype | replace: " ", "-" | downcase }}">
@@ -23,36 +23,26 @@
                         </div>
                     {% endif %}
 
-                    <!-- subcategory is used for an article to appear in multiple pages, e.g. news and wiki, or research and wiki -->
-                    {% for post in site.posts %}
-                        {% if post.categories contains page.type %}
-                            {% if subtype == "dummy" or subtype == post.subcategory %}
-                            {% if page.type == "research" and post.subcategory != "news" %}
-                                {% if post.double %}
-                                <div class="col-md-3 portfolio-item"></div>
-                                {% endif %}
-                                <div class="col-md-6 portfolio-item">
-                                    <a href="{{ post.url }}" class="portfolio-link">
-                                        <div class="caption">
-                                            <div class="caption-content">
-                                                <!-- <i class="fa fa-plus fa-3x"></i> -->
-                                                <p>+</p>
-                                                <h3>{{ post.title }}</h3>
-                                            </div>
-                                        </div>
-                                        <img src="img/portfolio/{% if post.img-thumb %}{{ post.img-thumb }}{% else %}{{ post.img }}{% endif %}" class="img-fluid" alt="{{ post.alt }}">
-                                    </a>
-                                </div>
-                            {% elsif page.type == "wiki" or post.subcategory == "news" %}
-                                <div class="col-md-10 mx-auto portfolio-item" {% if post.subcategory == "news" %}id="news"{% endif %}>
+                    {% for category in site.categories %}
+                        {% if subtype == category[0] %}
+                            {% for post in category[1] %}
+                                <div class="col-md-10 mx-auto portfolio-item" {% if subtype == "news" %}id="news"{% endif %}{% if subtype == "research" %}id="research"{% endif %}>
                                     <a href="{{ post.url }}" class="no-border portfolio-link" style="max-width:100%">
                                         <p class="post-date">{% if post.author %}by {{ post.author }}, on {% endif %}{{ post.date | date: '%B %d, %Y' }}</p>
                                         <h3>{{ post.title }}</h3>
-                                        <p class="post-description">{{ post.description }}</p>
+                                        {% if page.type == "research" %}
+                                            {% if post.image.feature %}
+                                                <div class="img-container" style="margin-bottom: 12px; max-width:{% if post.image.size %} {{ post.image.size }}{% else %} 100%{% endif %};">
+                                                    <img classs="img-fluid img-centered" src="{{ site.url }}/img/{{ post.image.feature }}" alt="{{ post.title }}">
+                                                </div>
+                                            {% endif %}
+                                        {{ post.excerpt }}
+                                        {% else %}
+                                        <p>{{ post.description }}</p>
+                                        {% endif %}
                                     </a>
                                 </div>
-                            {% endif %}
-                            {% endif %}
+                            {% endfor %}
                         {% endif %}
                     {% endfor %}
                 {% endfor %}

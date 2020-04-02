@@ -84,6 +84,7 @@ a:active,
 a.active,
 #article a:hover,
 #wiki a:hover h3,
+#research a:hover h3,
 #news a:hover h3,
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus {
@@ -195,7 +196,7 @@ header hr.separating-line {
 }
 
 @media(min-width:768px) {
-    hr.separating-line.design,
+    hr.separating-line.home,
     hr.separating-line.research {
         margin-bottom: 20px;
     }
@@ -369,7 +370,7 @@ header .intro-text .owner {
     background-image: url("{{ site.logo2 }}");
 }
 
-@media(max-width: 1350px) {
+@media(max-width: 1430px) {
     .navbar-brand {
         min-width: 366px;
         width: 366px;
@@ -614,12 +615,12 @@ section.success p {
 
 @media (min-width:992px) {
     .container {
-        width:90%;
-        max-width:90%;
+        width:92%;
+        max-width:92%;
     }
 }
 
-@media (min-width:1200px) {
+@media (min-width:1320px) {
     .container {
         width:85%;
         max-width:85%;
@@ -628,8 +629,8 @@ section.success p {
 
 @media (min-width:1500px) {
     .container {
-        width:1200px;
-        max-width:1200px;
+        width:1275px;
+        max-width:1275px;
     }
 }
 
@@ -651,6 +652,7 @@ section.success p {
 
 #article a,
 #wiki a h3,
+#research a h3,
 #news a h3 {
     text-decoration: none;
     color: #{{ site.color.secondary }};
@@ -658,6 +660,7 @@ section.success p {
 }
 
 #wiki a h3,
+#research a h3,
 #news a h3 {
     font-size: 1.85em;
     font-weight: 300;
@@ -898,6 +901,7 @@ section.success p {
 }
 
 #wiki .post-date,
+#research .post-date,
 #news .post-date {
     text-align: right;
     margin-bottom: -20px;
@@ -905,9 +909,11 @@ section.success p {
 }
 
 #wiki .post-date,
-#wiki .post-description,
+#wiki p,
+#research .post-date,
+#research p,
 #news .post-date,
-#news .post-description {
+#news p {
     font-weight: normal;
 }
 
