@@ -31,6 +31,11 @@
                                         <p class="post-date">{% if post.author %}by {{ post.author }}, on {% endif %}{{ post.date | date: '%B %d, %Y' }}</p>
                                         <h3>{{ post.title }}</h3>
                                         {% if page.type == "research" %}
+                                            {% if post.image.feature %}
+                                                <div class="img-container" style="margin-bottom: 0px;  max-width: 100%; ">
+                                                    <img classs="img-fluid img-centered" src="{{ site.url }}/img/{{ post.image.feature }}" alt="{{ post.title }}">
+                                                </div>
+                                            {% endif %}
                                         {{ post.excerpt }}
                                         {% else %}
                                         <p>{{ post.description }}</p>
