@@ -18,17 +18,14 @@ NPM offers a complementary solution to prehensile manipulation by significantly 
 
 The vision at HIRO for achieving human-like dexterity in robotic manipulation is a three-stage process:
 
-### Stage 1 --- Skill Modeling
+ * _Stage 1 --- Skill Modeling._
+   Learning-based approaches are neither scalable nor generalizable and deep learning tools are much too opaque to operate in real-world scenarios on their own. Whereas physics-based approaches, while not requiring any training, make simplifying assumptions that do not represent real-world physics in full detail. Therefore, building **hybrid models for NPM primitives in which physics-based and learning-based approaches complement each other** is an interesting avenue of future work.
 
-Learning-based approaches are neither scalable nor generalizable and deep learning tools are much too opaque to operate in real-world scenarios on their own. Whereas physics-based approaches, while not requiring any training, make simplifying assumptions that do not represent real-world physics in full detail. Therefore, building **hybrid models for NPM primitives in which physics-based and learning-based approaches complement each other** is crucial.
+ * _Stage 2 --- Multimodal Planning._
+   Given models that accurately and precisely represent object and skill dynamics in the real world, the next logical step is to build **a multimodal motion planning framework that incorporates both non-prehensile and prehensile manipulation primitives** to accomplish a variety of tasks.
 
-### Stage 2 --- Multimodal Planning
-
-Given models that accurately and precisely represent object and skill dynamics in the real world, the next logical step is to build **a multimodal motion planning framework that incorporates both non-prehensile and prehensile manipulation primitives** to accomplish a variety of tasks.
-
-### Stage 3 --- Higher-Order Skill Acquisition
-
-Humans are capable of [learning rich representations](https://arxiv.org/pdf/1604.00289.pdf) of complex concepts from very few examples. This allows them to classify new examples, generate new instances of a particular class, parse concepts into parts and relations, and generate new concepts through composition. Equipped with a fundamental set of skills, a robot must learn how to acquire higher-order skills (eg: tool-use) that increase the probability of task success in the real-world. These skills typically require knowledge of object affordances, which can be learned from videos and simulation. **Having a repository of these affordance-to-motor program mappings can allow robots to combine them in interesting ways to achieve tasks they haven’t been explicitly trained for** (eg: turning a door knob and using a screwdriver are very similar actions conceptually). Learning a conceptual hierarchy will also allow **transferring skills from humans to robots or robots to robots where both parties don’t share the same embodiment**.
+ * _Stage 3 --- Higher-Order Skill Acquisition._
+   Humans are capable of [learning rich representations](https://arxiv.org/pdf/1604.00289.pdf) of complex concepts from very few examples. This allows them to classify new examples, generate new instances of a particular class, parse concepts into parts and relations, and generate new concepts through composition. Equipped with a fundamental set of skills, a robot must learn how to acquire higher-order skills (eg: tool-use) that increase the probability of task success in the real-world. These skills typically require knowledge of object affordances, which can be learned from human demonstration or in simulation. **Having a repository of these affordance-to-motor program mappings can allow robots to combine them in interesting ways to achieve tasks they haven’t been explicitly trained for** (eg: turning a door knob and using a screwdriver are very similar actions conceptually). Learning a conceptual hierarchy will also allow **transferring skills from humans to robots or robots to robots where both parties don’t share the same embodiment**.
 
 # Current Work
 
@@ -36,15 +33,14 @@ Our preliminary work focuses on modeling **poking manipulation as a fundamental 
 
 ## Skill Modeling
 
-Realistic robot applications might expect the robot to operate in dense clutter, in presence of occlusions, or in ungraspable configurations---for example, if the target object is too large or too heavy, or if it is in a pose that is not directly reachable by the end-effector. In such situations, it is beneficial to complement the robot's skillset with NPM primitives.
+For robots to operate efficiently in the real world, it is expected from them to be capable to operate in dense clutter, in presence of occlusions, or in hard to grasp configurations. Additionally, at times grasping might not be possible at all---for example, if the target object is too large or too heavy, or if it is in a pose that is not directly reachable by the end-effector. In such situations, it is beneficial to complement the robot's skillset with non-prehensive manipulation primitives.
 
-Poking is a fundamental NPM primitive wherein ---
-1. a robot end-effector applies an instantaneous force to an object of interest to set the object in translational and rotational motion (*impact* phase), and
-2. the object eventually slows down and comes to rest due to Coulomb friction (*free-sliding* phase).
+Poking is a fundamental NPM primitive wherein: i) a robot end-effector applies an instantaneous force to an object of interest to set the object in translational and rotational motion (*impact* phase), and
+ii) the object eventually slows down and comes to rest due to Coulomb friction (*free-sliding* phase).
 
 These two phases of poking can be modeled individually and solved in reverse to build an analytical physics model for poking manipulation. Given an object's current and desired poses, we can determine the object's initial translational and angular velocities at impact, which then (through a heuristic-based approach) determines the end-effector velocity necessary to achieve the desired object velocities.
 
-Our current work models poking manipulation as a skill and as a failure recovery mechanism. Specifically, we focus on developing a simple yet effective analytical model for poking that **captures essential characteristics of the dynamics of an object through elementary physics principles**. The **proposed model is independent of object geometry and mass distribution**, and it is **readily available for use with unfamiliar objects** in that it does not require training data.
+Our current work models poking manipulation as a skill and as a failure recovery mechanism. Specifically, we focus on developing a simple yet effective analytical model for poking that captures essential characteristics of the dynamics of an object **through elementary physics principles**. The **proposed model is independent of object geometry and mass distribution**, and it is **readily available for use with unfamiliar objects** in that it does not require training data.
 
 ## Multimodal Motion Planning
 
