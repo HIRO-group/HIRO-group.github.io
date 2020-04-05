@@ -11,7 +11,7 @@ permalink: ros_concepts.html
 * This line will be replaced by the ToC, excluding the "Contents" header
 {:toc}
 
-This page is a summary about the main ROS concepts and some useful command-line tools. It is a summary of what is available [here](http://wiki.ros.org/ROS/Concepts). For a tutorial on how to install ROS `indigo` and the Baxter SDK from sources, go [here]({% post_url wiki/2018-06-14-ROS-indigo-installation %}); if you want to install ROS `kinetic` and the Sawyer SDK instead, please go [here]({% post_url wiki/2018-10-18-ROS-kinetic-installation %}).
+This page is a summary about the main ROS concepts and some useful command-line tools. It is a summary of what is available [here](http://wiki.ros.org/ROS/Concepts). For a tutorial on how to install ROS `kinetic` and the Sawyer SDK from sources, please go [here]({% post_url wiki/2018-10-18-ROS-kinetic-installation %}).
 
 # Master
 

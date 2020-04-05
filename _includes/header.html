@@ -1,7 +1,7 @@
    <!-- Navigation -->
     <nav id="navbar-scrollspy" class="navbar fixed-top navbar-expand-xl no-print">
         <div class="container">
-        <a class="navbar-brand" href="{% if page.type == "research" %}#page-top{% else %}/{% endif %}">
+        <a class="navbar-brand" href="{% if page.type == "home" %}#page-top{% else %}/{% endif %}">
         </a>
         <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span> </span>
@@ -16,13 +16,13 @@
                     <a class="nav-link" href="#page-top"></a>
                 </li>
 
-                {% if page.type == "research" %}
+                {% if page.type == "home" %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="#research">news</a>
+                    <a class="nav-link" href="#home">news</a>
                 </li>
                 {% else %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/">news</a>
+                    <a class="nav-link" href="/#home">news</a>
                 </li>
                 {% endif %}
 
@@ -33,6 +33,16 @@
                 {% else %}
                 <li class="nav-item page-scroll">
                     <a class="nav-link" href="/people.html">people</a>
+                </li>
+                {% endif %}
+
+                {% if page.type == "research" %}
+                <li class="nav-item page-scroll">
+                    <a class="nav-link" href="#post-cv">research</a>
+                </li>
+                {% else %}
+                <li class="nav-item page-scroll">
+                    <a class="nav-link" href="/research.html">research</a>
                 </li>
                 {% endif %}
 
@@ -81,7 +91,7 @@
                     {% else %}
                         <img class="img-fluid logo-img" src="{{ site.logo3 }}" alt="{{ site.owner-short }}-logo">
                         <div class="intro-text">
-                            {% if page.type == "research" %}<span class="name logo-alt">{{ site.owner }}</span>
+                            {% if page.type == "home" %}<span class="name logo-alt">{{ site.owner }}</span>
                             {% else %}<span class="name">{% if page.title %}{{ page.title }}{% else %}{{ page.type }}{% endif %}</span>
                             {% endif %}
 

@@ -2,7 +2,7 @@
 title: New member to-do list
 description: Things to do when you join the HIRO group
 permalink: new_member.html
-category: [research, wiki]
+category: [news, wiki]
 subcategory: news
 ---
 
@@ -57,7 +57,7 @@ Once you are done with these preliminary steps, follow the instructions in the n
 ## 2.4 Lab access
 
  1. Write an email to **[Chantel Lehl](mailto:chantel.lehl@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) and [Joewie Koh](mailto:joewie.koh@colorado.edu) in Cc**{:.color-banner}.
- 2. Ask to be granted access to ECST 322, ECES 116 and ECES 111. Please include the following information: 
+ 2. Ask to be granted access to ECST 322, ECES 116 and ECES 111. Please include the following information:
     - Name
     - Student ID
     - Buff OneCard number
