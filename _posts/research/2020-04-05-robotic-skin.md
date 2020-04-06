@@ -56,7 +56,7 @@ To automatically locate skin units along the surface of a robot, we utilize an I
 
 ## Control Example
 
-Calibrated skin units can be used to locate obstacles with respect to the robot’s links and avoid undesired collisions by exerting a repulsive force on the robotic arm. To avoid object we require the following information:
+Calibrated skin units can be used to locate obstacles with respect to the robot’s links and avoid undesired collisions by exerting a repulsive force on the robotic arm. To avoid objects, we require the following information:
 
 * Calibrated pose of the Skin Unit (x, y, z, φ, θ, ψ)
 * Distance d normal to the skin sensor
@@ -64,7 +64,17 @@ Calibrated skin units can be used to locate obstacles with respect to the robot�
 With this information, we apply a repulsive force perpendicular to the skin unit as seen in the figure below.
 
 {% include image.html url="research/roboskin/control.png" max-width="75%" description=" A mounted skin unit exerting a repulsive force β on a robot's trajectory
-**T** when an object is near the skin unit. The distance d is measured in millimeters. As an object approaches, β increases exponentially." %}
+T when an object is near the skin unit. The distance d is measured in millimeters. As an object approaches, β increases exponentially." %}
+
+The amount of force exerted on the robot is determined by the exponential function: 
+
+{% include image.html url="research/roboskin/control_equation.png" max-width="40%" description=""%}
+
+
+This vector is multiplied by the max end-effector velocity and then added to the end-effect velocity by calculating the Jacobian of the robotic arm. In addition to altering end-effector velocity, control points along the robot can be specified and then used as a reference point to calculate a partial Jacobian that allows us to avoid collisions with objects that would impact the robot body.
+
+
+
 
 
 # Future Work
@@ -72,9 +82,9 @@ With this information, we apply a repulsive force perpendicular to the skin unit
 
 ## Dense Coverage of a Robot Arm with Skin Units
 
-In order to consistently avoid obstacles around the robot dense skin unit coverage is required. To achieve this goal we must efficiently distribute wiring and computational resources about the surface of the robot.
-This has been accomplished by Mittendorfer et al. by using rigid printed circuit boards equipped with onboard microcontrollers and redundant connections in their paper “Realizing whole-body tactile interactions with a self-organizing, multi-modal artificial skin on a humanoid robot”.
-Additional challenges arise due to the flexible and stretchable nature of our robotic skin that must conform to the surface it is placed on.
+In order to consistently avoid obstacles around the robot, dense skin unit coverage is required. To achieve this goal we must efficiently distribute wiring and computational resources about the surface of the robot. This has been accomplished by Mittendorfer et al. by using rigid printed circuit boards equipped with onboard microcontrollers and redundant connections in their paper “Realizing whole-body tactile interactions with a self-organizing, multi-modal artificial skin on a humanoid robot”. Additional challenges arise due to the flexible and stretchable nature of our robotic skin that must conform to the surface it is placed on. 
+
+Our next milestone is to densely cover a portion of a robotic arm with sensor units and with those units, consistently avoid collision from any direction. This step will require advancements in hardware to ensure measurement fidelity, reduce the amount of wiring, and allow a multitude of sensors to be placed on a robot easily. With a high density of measurements, we must have a robust control scheme that uses sensor measurements to avoid obstacles and alter the robots behavior.
 
 
 ## Dynamic Obstacle Avoidance
@@ -85,5 +95,13 @@ We plan to use proximity sensors embedded within each skin unit to avoid obstacl
 * Control point movement
 
 As demonstrated in the paper “A Depth Space Approach to Human-Robot Collision Avoidance” by Flacco et al. a robot arm can avoid collision by exerting a repulsive vector to its end effector or control points along the robot arm. Both schemes can be used to increase safety when robots and humans work in close proximity.
+
+For this milestone, we designate control points along the robot body as seen in the simulation below: 
+
+{% include image.html url="research/roboskin/control_points.png" max-width="75%" description=""%}
+
+
+The control points are then used as a reference to calculate a partial Jacobian that is used to alter joint velocities to avoid collision. Future work on this project will entail creating a robust control mechanism that quickly avoids obstacles and accounts for the robot detecting itself in certain configurations. 
+
 
 
