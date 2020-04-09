@@ -33,7 +33,7 @@
                                         {% if page.type == "research" %}
                                             {% if post.image.feature %}
                                                 <div class="img-container" style="margin-bottom: 12px; max-width:{% if post.image.size %} {{ post.image.size }}{% else %} 100%{% endif %};">
-                                                    <img classs="img-fluid img-centered" src="{{ site.url }}/img/{{ post.image.feature }}" alt="{{ post.title }}">
+                                                    <img classs="img-fluid img-centered" src="/img/{{ post.image.feature }}" alt="{{ post.title }}">
                                                 </div>
                                             {% endif %}
                                         {{ post.excerpt }}
