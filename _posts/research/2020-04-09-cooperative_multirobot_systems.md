@@ -37,7 +37,7 @@ Furthermore, we also show in our work that following this scheme for distributed
 
 It is also possible to model the cooperation problem from a game-theoretic perspective: using the Nash equilibrium as the solution concept for the desired outcome from the multi-agent interaction. The key insight here is that no agent has incentive to change its policy at the Nash equilibrium if the other agent follows the equilibrium policy.
 
-Specifically, we approach the task with a general-sum Markov game formalism, and decompose the game into a sequence of stages. Notably, the Nash equilibrium of the bimatrix game at each stage is also part of the Nash equilibrium of the Markov game. Through taking equilibrium-guided actions at each stage, the agents update their policies with a deep RL framework. We note that _game-theoretic RL_ (GT-RL) accounts for the non-stationary nature of multi-agent systems because convergence to the Nash equilibrium guarantees stability of the learned policies.
+Specifically, we approach the task with a general-sum Markov game formalism, and decompose the game into a sequence of stages. Notably, the Nash equilibrium of the bimatrix game at each stage is also part of the Nash equilibrium of the Markov game. Through taking equilibrium-guided actions at each stage, the agents update their policies with a deep RL framework. We claim that _game-theoretic RL_ (GT-RL) accounts for the non-stationary nature of multi-agent systems because convergence to the Nash equilibrium guarantees stability of the learned policies.
 
 ## Stackelberg Learning in Cooperative Control
 
