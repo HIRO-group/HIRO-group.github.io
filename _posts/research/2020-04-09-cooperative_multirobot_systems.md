@@ -1,5 +1,5 @@
 ---
-title: Cooperative Multi-Robot Systems
+title: Autonomous Coordination of Cooperative Multi-Robot Systems
 description: Reinforcement Learning for Distributed Control of multiple agents
 author: Joewie J. Koh
 permalink: research/cooperative_multirobot_systems.html
