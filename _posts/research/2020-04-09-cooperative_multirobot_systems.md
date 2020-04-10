@@ -1,6 +1,6 @@
 ---
 title: Cooperative Multi-Robot Systems
-description: Reinforcement Learning for Cooperative Control
+description: Reinforcement Learning for Distributed Control of multiple agents
 author: Joewie J. Koh
 permalink: research/cooperative_multirobot_systems.html
 image:
@@ -15,7 +15,10 @@ Multi-robot systems offer vastly increased competencies for robotic applications
 
 {% include image.html url="research/multirobot/cooperative_manipulation.png" max-width="70%" description="Two robotic arms cooperatively manipulating the same object." %}
 
-Robot control has traditionally been accomplished with model-based methods, which require domain knowledge of system kinematics and dynamics and are therefore difficult to employ in unstructured environment. Being less reliant on system knowledge, model-free deep reinforcement learning (RL) has seen recent interest and success, but most applications have been in single-agent settings. For multi-robot systems, these methods are inadequate: the increased number of degrees of freedom and coupling of multiple kinematic and dynamic constraints pose challenges for both model-based control and RL. One approach taken to mitigate these issues in RL involves deviating from the centralized learning paradigm and training multiple agents in parallel, but ignoring agent interactions leads to instability in the policy learning process.
+Robot control has traditionally been accomplished with model-based methods, which require domain knowledge of system kinematics and dynamics and are therefore difficult to employ in unstructured environment.
+Consequently, model-free deep Reinforcement Learning (RL) has seen recent interest and success, but the majority of prior work has focused primarily on single-agent scenarios.
+Furthermore, for what concerns multi-robot systems, both model-based control and model-free RL are inadequate due to the high number of degrees of freedom and the coupling of multiple kinematic and dynamic constraints.
+One approach taken to mitigate these issues in RL involves deviating from the centralized learning paradigm and training multiple agents in parallel, but ignoring agent interactions leads to instability in the policy learning process.
 
 {% include image.html url="research/multirobot/cooperative_transport.jpg" max-width="40%" description="Two mobile robots cooperatively transporting an object." %}
 
@@ -23,9 +26,9 @@ We thus approach the prolem of cooperative multi-robot control with distributed 
 
 # Methods
 
-## Value-Decomposition Reinforcement Learning
+In this work, we propose several competing approaches to the problem of distributed multi-agent RL-based systems.
 
-We propose that there are several main steps when formulating distributed multi-agent RL-based systems.
+## Value-Decomposition Reinforcement Learning
 
 First, one should have a well-defined global system objective that can be expressed as a system-wide reward function. It is useful to think of this as the reward function appropriate for centralized RL to succeed at the task (ignoring issues of scalability). Moreover, this reward function should capture both the final objective (e.g., target position to which an object should be transported) and task considerations (e.g., not dropping the object during transportation). In the context of cooperative tasks, the task considerations often encode the agent-agent interactions in the system (e.g., the two robots need to always be a fixed distance apart).
 
