@@ -1,6 +1,6 @@
 ---
-title: Flexible Whole-Body Artificial Skin for Collaborative Robotics
-description: Flexible PCB design, automatic kinematic calibration, and collision avoidance
+title: Self-Contained Kinematic Calibration of Flexible Whole-Body Artificial Skin for Collaborative Robotics
+description: Skin unit design, automatic kinematic calibration, and collision avoidance
 author: Caleb Escobedo
 permalink: research/robotic_skin.html
 image:
@@ -9,38 +9,19 @@ image:
 excerpt_separator: <!-- More -->
 ---
 
-Robots have been transitioning into human-populated environments and replacing physical boundaries with complex perception and control software. However, current solutions are computationally expensive, prone to occlusion, and require a significant setup overhead. Robots are in need of compact, self-contained sensing of nearby space to provide inherently safe interactions.
+Robots have been transitioning into human-populated environments and replacing physical separation from humans with complex perception and control software. However, current solutions are computationally expensive, prone to occlusion, and require a significant setup overhead. Robots are in need of compact, self-contained sensing of nearby space to provide inherently safe interactions.
 In this work, we present the first prototype of a flexible circuit for collaborative robotics embedded with an inertial measurement unit for kinematic calibration and a proximity sensor for obstacle detection and avoidance.
-When a circuit is first placed on the surface of a robot, the exact location on the surface is unknown to the sensor unit. To address this, we present a novel kinematic calibration algorithm to reduce manual setup time.
+When a circuit is first placed on the surface of a robot, the exact location on the surface is unknown to the robot. To address this, we present a novel kinematic calibration algorithm to reduce manual setup time.
 
 <!-- More -->
 
-# Primary Objective
-$$
-\begin{align*}
-  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
-      \vdots & \ddots & \vdots \\
-      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{align*}
-$$
 # Contents
 {:.no_toc}
 
 * This line will be replaced by the ToC, excluding the "Contents" header
 {:toc}
 
-
 {% include image.html url="research/roboskin/skin_unit.png" max-width="80%" description="Fig. 1. Flexible circuit created by etching the circuit diagram into a copper sheet and then encasing it in a flexible ecoflex polymer. The circuit contains an inertial measurement unit (IMU) used in our kinematic calibration algorithm to locate the circuit on the surface of a robot. We include a proximity sensor in each flexible circuit in order to observe and avoid objects near the robot surface after calibration." %}
-
 
 # Contribution
 
@@ -50,11 +31,9 @@ $$
 
 1. **Control Example:** we demonstrate an example control scenario where a robot arm utilizes proximity sensors embedded within a skin unit to **avoid collision** when an object is nearby. We impose a repulsive force on the point the skin sensor is mounted on the robotic arm to ensure it will not collide with an object, but will still continue on a specified trajectory.
 
-
 ## Skin Units
 
 Skin units are embedded with an IMU for kinematic calibration and a proximity sensor to sense nearby objects. We chose to embed our circuit in a flexible polymer called ecoflex in order to have each skin unit conform to the shape of the surface it is placed on. The figure below shows the flexible capabilities of the skin sensor and an image of one unit mounted on a robotic arm.
-
 
 <div class="row">
   <div class="col-md-6 col-print-6">
@@ -65,7 +44,6 @@ Skin units are embedded with an IMU for kinematic calibration and a proximity se
   </div>
 </div>
 
-
 ## Kinematic Calibration
 
 To automatically locate skin units along the surface of a robot, we utilize an IMU that provides measurements of angular velocity and linear acceleration. Our optimization algorithm estimates the position and orientation of skin units using Denavit-Hartenberg as demonstrated in the figure below.
@@ -74,54 +52,60 @@ To automatically locate skin units along the surface of a robot, we utilize an I
 
 
 
-## Control Example
+## Controller for flexible and safety oriented interaction between robots and their environment
 
-Calibrated skin units can be used to locate obstacles with respect to the robot’s links and avoid undesired collisions by exerting a repulsive force on the robotic arm. To avoid objects, we require the following information:
+Calibrated skin units can be used to locate obstacles in the robots environment. Then, this information will be used to modify the robot's behaviour in real time.
 
-* Calibrated pose of the Skin Unit (x, y, z, φ, θ, ψ)
-* Distance d normal to the skin sensor
+When dealing with an obstacle, the manipulator should continue to pursue its task as long as that won't compromise safety. On the other hand, it should stop if there is no way in which it can execute the task without avoiding solution.
 
-With this information, we apply a repulsive force perpendicular to the skin unit as seen in the figure below.
+For this purpose, there are two separate approaches we take into account to create a controller that avoids obstacles, depending of it's the end-effector we are dealing with or the rest of the body.
 
-{% include image.html url="research/roboskin/control.png" max-width="75%" description=" A mounted skin unit exerting a repulsive force β on a robot's trajectory
-T when an object is near the skin unit. The distance d is measured in millimeters. As an object approaches, β increases exponentially." %}
+Firstly, the end effector's velocity will be modified with a potential field method. This means that a variable magnitude vector will be substracted from the end-effector velocity to obtain a new velocity that avoids collisions. This repulsive vector's direction will depend on the closest obstacle point from the end effector and its magnitude will depend on the distance. If the obstacles do not hinder the robot's task, the original task-level velocity will be preserved. However, if the obstacles are too close, the repulsive vectors magnitude will be increased and it will change the original velocity.
 
-The amount of force exerted on the robot is determined by the exponential function: 
+This behaviour is encoded in the following equations. With the first one the repulsive vector's magnitude is obtained:
 
-{% include image.html url="research/roboskin/control_equation.png" max-width="40%" description=""%}
+$$
+v(\boldsymbol{P}, \mathbf{O})=\frac{V_{\max }}{1+e^{(\|\boldsymbol{D}(\boldsymbol{P}, \mathbf{O})\|(2 / \rho)-1) \alpha}}
+$$
 
+The the the final repulsive vector is obtained with the direction of the vector that goes from the end effector to the obstacle:
 
-This vector is multiplied by the max end-effector velocity and then added to the end-effect velocity by calculating the Jacobian of the robotic arm. In addition to altering end-effector velocity, control points along the robot can be specified and then used as a reference point to calculate a partial Jacobian that allows us to avoid collisions with objects that would impact the robot body.
+$$
+\boldsymbol{V}(\boldsymbol{P}, \mathbf{O})=v(\boldsymbol{P}, \mathbf{O}) \frac{\boldsymbol{D}(\boldsymbol{P}, \mathbf{O})}{\|\boldsymbol{D}(\boldsymbol{P}, \mathbf{O})\|}
+$$
 
+The following video demonstrates the approach when the end effector is commanded to move in a straight trajectory, but an obstacle appears in its way.
 
+{% include image.html url="research/roboskin/flacco_end_effector.gif" max-width="75%" %}
 
+The rest of the robot's body also has to avoid obstacles. The approach with this points will be completely different. Instead of modifying their velocity directly, the repulsive vectors will be used to apply some kinematic constraints to the joint velocities.
 
+The constraints are computed as in the following equations,
+
+$$
+f\left(D(\boldsymbol{C})\right)=\frac{1}{1+e^{\left(D(\boldsymbol{C})(2 / \rho)-1\right) \alpha}}
+$$
+
+Starting from the actual joint velocity limits and depending on what direction of rotation of each joint leads to a collision, either the maximum limit or the minimum limit will be modified.
+
+$$
+\dot{q}_{\max , i}=V_{\max , i}\left(\left(1-f\left(D_{\min }(\boldsymbol{C})\right)\right)\right.
+$$
+
+$$
+\dot{q}_{\min , i}=-V_{\max , i}\left(\left(1-f\left(D_{\min }(C)\right)\right)\right.
+$$
+
+{% include image.html url="research/roboskin/flacco_body_before.gif" max-width="75%" description= "Robot's movement without taking into account its body can hit obstacles. " %}
+{% include image.html url="research/roboskin/flacco_body_after.gif" max-width="75%" description= "Robot's movement when taking into account that it's body can hit the obstacle and modifying the motion without stopping to pursue the task. "%}
+
+<!-- {% include image.html url="research/roboskin/control.png" max-width="75%" description=" A mounted skin unit exerting a repulsive force β on a robot's trajectory
+T when an object is near the skin unit. The distance d is measured in millimeters. As an object approaches, β increases exponentially." %} -->
 
 # Future Work
 
-
 ## Dense Coverage of a Robot Arm with Skin Units
 
-In order to consistently avoid obstacles around the robot, dense skin unit coverage is required. To achieve this goal we must efficiently distribute wiring and computational resources about the surface of the robot. This has been accomplished by Mittendorfer et al. by using rigid printed circuit boards equipped with onboard microcontrollers and redundant connections in their paper “Realizing whole-body tactile interactions with a self-organizing, multi-modal artificial skin on a humanoid robot”. Additional challenges arise due to the flexible and stretchable nature of our robotic skin that must conform to the surface it is placed on. 
+In order to consistently avoid obstacles around the robot, dense skin unit coverage is required. To achieve this goal we must efficiently distribute wiring and computational resources about the surface of the robot. This has been accomplished by Mittendorfer et al. by using rigid printed circuit boards equipped with onboard microcontrollers and redundant connections in their paper “Realizing whole-body tactile interactions with a self-organizing, multi-modal artificial skin on a humanoid robot”. Additional challenges arise due to the flexible and stretchable nature of our robotic skin that must conform to the surface it is placed on.
 
 Our next milestone is to densely cover a portion of a robotic arm with sensor units and with those units, consistently avoid collision from any direction. This step will require advancements in hardware to ensure measurement fidelity, reduce the amount of wiring, and allow a multitude of sensors to be placed on a robot easily. With a high density of measurements, we must have a robust control scheme that uses sensor measurements to avoid obstacles and alter the robots behavior.
-
-
-## Dynamic Obstacle Avoidance
-
-We plan to use proximity sensors embedded within each skin unit to avoid obstacles in two separate control schemes.
-
-* End-effector movement
-* Control point movement
-
-As demonstrated in the paper “A Depth Space Approach to Human-Robot Collision Avoidance” by Flacco et al. a robot arm can avoid collision by exerting a repulsive vector to its end effector or control points along the robot arm. Both schemes can be used to increase safety when robots and humans work in close proximity.
-
-For this milestone, we designate control points along the robot body as seen in the simulation below: 
-
-{% include image.html url="research/roboskin/control_points.png" max-width="75%" description=""%}
-
-
-The control points are then used as a reference to calculate a partial Jacobian that is used to alter joint velocities to avoid collision. Future work on this project will entail creating a robust control mechanism that quickly avoids obstacles and accounts for the robot detecting itself in certain configurations. 
-
-
-
