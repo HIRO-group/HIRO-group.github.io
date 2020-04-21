@@ -1,6 +1,6 @@
 ---
-title: Self-Contained Kinematic Calibration of Flexible Whole-Body Artificial Skin for Collaborative Robotics
-description: Skin unit design, automatic kinematic calibration, and collision avoidance
+title: Flexible Whole-Body Artificial Skin for Collaborative Robotics
+description: Flexible PCB design, automatic kinematic calibration, and collision avoidance
 author: Caleb Escobedo
 permalink: research/robotic_skin.html
 image:
@@ -9,12 +9,29 @@ image:
 excerpt_separator: <!-- More -->
 ---
 
-Robots have been transitioning into human-populated environments and replacing physical separation from humans with complex perception and control software. However, current solutions are computationally expensive, prone to occlusion, and require a significant setup overhead. Robots are in need of compact, self-contained sensing of nearby space to provide inherently safe interactions.
+Robots have been transitioning into human-populated environments and replacing physical boundaries with complex perception and control software. However, current solutions are computationally expensive, prone to occlusion, and require a significant setup overhead. Robots are in need of compact, self-contained sensing of nearby space to provide inherently safe interactions.
 In this work, we present the first prototype of a flexible circuit for collaborative robotics embedded with an inertial measurement unit for kinematic calibration and a proximity sensor for obstacle detection and avoidance.
-When a circuit is first placed on the surface of a robot, the exact location on the surface is unknown to the robot. To address this, we present a novel kinematic calibration algorithm to reduce manual setup time.
+When a circuit is first placed on the surface of a robot, the exact location on the surface is unknown to the sensor unit. To address this, we present a novel kinematic calibration algorithm to reduce manual setup time.
 
 <!-- More -->
 
+# Primary Objective
+$$
+\begin{align*}
+  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*}
+$$
 # Contents
 {:.no_toc}
 
