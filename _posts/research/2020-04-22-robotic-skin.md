@@ -1,6 +1,5 @@
 ---
 title: Flexible Whole-Body Artificial Skin for Collaborative Robotics
-description: Flexible PCB, automatic kinematic calibration, and collision avoidance
 author: Caleb Escobedo, Ander Aranburu
 permalink: research/robotic_skin.html
 image:
@@ -9,18 +8,12 @@ image:
 excerpt_separator: <!-- More -->
 ---
 
-Robots have been transitioning into human-populated environments and replacing physical separation from humans with complex perception and control software. However, current solutions are computationally expensive, prone to occlusion, and require a significant setup overhead. Robots are in need of compact, self-contained sensing of nearby space to provide inherently safe interactions.
+Robots have been transitioning into human-populated environments and replacing physical separation from humans with complex perception and control software.
+However, current solutions are computationally expensive, prone to occlusion, and require a significant setup overhead.
+_Robots are in need of compact, self-contained sensing of nearby space to guarantee safety at all times, improve perception, and afford rich interactions with their environment and people._{:.color-banner}
 In this work, we present the first prototype of a flexible circuit for collaborative robotics embedded with an inertial measurement unit for kinematic calibration and a proximity sensor for obstacle detection and avoidance.
-When a circuit is first placed on the surface of a robot, the exact location on the surface is unknown to the robot. To address this, we present a novel kinematic calibration algorithm to reduce manual setup time.
-
 <!-- More -->
-# Primary Objective
-{:.no_toc}
-Our longterm goal is to enable robots to sense their surroundings by adding distributed, heterogeneous sensors along the robot’s surface with a variety of sensing modalities. In order to efficiently utilize sensor information, we must develop a robotic controller that generates robust and safe robotic movement. We plan to achieve our goal in three ways:
-1. Create a flexible printed circuit board (PCB) that can be attached to any robotic arm and relay information about nearby objects to a robotic controller in a plug-and-play fashion.
-1. Develope a kinematic calibration algorithm to automatically, accurately locate each flexible PCB along a robot arm. This information is critical to ensure the robot knows where a sensor's information relates to on its surface.
-1. Formulate a robust controller that utilizes sensor information to plan trajectories that avoid collision and enable robots to work in close proximity with human collaborators.
-
+When a circuit is first placed on the surface of a robot, the exact location on the surface is unknown to the robot. To address this, we present a novel kinematic calibration algorithm to reduce manual setup time.
 
 # Contents
 {:.no_toc}
@@ -28,17 +21,31 @@ Our longterm goal is to enable robots to sense their surroundings by adding dist
 * This line will be replaced by the ToC, excluding the "Contents" header
 {:toc}
 
-{% include image.html url="research/roboskin/skin_unit.png" max-width="80%" description="Fig. 1. Flexible circuit created by etching the circuit diagram into a copper sheet and then encasing it in a flexible ecoflex polymer. The circuit contains an inertial measurement unit (IMU) used in our kinematic calibration algorithm to locate the circuit on the surface of a robot. We include a proximity sensor in each flexible circuit in order to observe and avoid objects near the robot surface after calibration." %}
+{% include image.html url="research/roboskin/skin_unit.png" max-width="80%" description="<b>Figure 1.</b> Flexible circuit created by etching the circuit diagram into a copper sheet and then encasing it in an ecoflex polymer. The circuit contains an inertial measurement unit (IMU) used in our kinematic calibration algorithm to locate the circuit on the surface of a robot. We include a proximity sensor in each flexible circuit in order to detect objects near the robot surface." %}
+
+# Primary Objective
+
+Our long-term goal is to enable robots to sense their surroundings through distributed, heterogeneous sensors along the robot’s surface.
+In order to efficiently utilize sensor information, we must develop a robotic controller that generates robust and safe robotic movement.
+We plan to achieve our goal in three ways:
+
+1. Create a flexible printed circuit board (PCB) that can be attached to any robotic arm and relay information about nearby objects to a robotic controller in a plug-and-play fashion.
+
+2. Develope a kinematic calibration algorithm to automatically, accurately locate each flexible PCB along a robot arm. This information is critical to ensure the robot knows where a sensor's information relates to on its surface.
+
+2. Formulate a robust controller that utilizes sensor information to plan trajectories that avoid collision and enable robots to work in close proximity with human collaborators.
 
 # Contribution
 
+The contributions of this work are threefold:
+
 1. **Skin Unit:** we present a new **flexible artificial skin** that can conform to multiple surfaces. The skin utilizes an Inertial Measurement Unit (IMU) and a proximity sensor to sense obstacles at a distance. Future prototypes will embed additional capabilities (e.g. pressure sensing, temperature sensing, tactile sensing...).
 
-1. **Kinematic Calibration:** we present a framework for automatic kinematic calibration that leverages an IMU to automatically locate and orient skin units, of arbitrary number, along the surface of a robot.
+2. **Kinematic Calibration:** we present a framework for automatic kinematic calibration that leverages an IMU to automatically locate and orient skin units, of arbitrary number, along the surface of a robot.
 
-1. **Controller:** we demonstrate a control scenario where a robot arm utilizes proximity sensors embedded within a skin unit to **avoid collision** when an object is nearby. We impose a repulsive force on the point the skin sensor is mounted on the robotic arm to ensure it will not collide with an object, but will still continue on a specified trajectory.
+3. **Controller:** we demonstrate a control scenario where a robot arm utilizes proximity sensors embedded within a skin unit to **avoid collision** when an object is nearby. We impose a repulsive force on the point the skin sensor is mounted on the robotic arm to ensure it will not collide with an object, but will still continue on a specified trajectory.
 
-## Skin Units
+## Skin Unit
 
 Skin units are embedded with an IMU for kinematic calibration and a proximity sensor to sense nearby objects. We chose to embed our circuit in a flexible polymer called ecoflex in order to have each skin unit conform to the shape of the surface it is placed on. The figure below shows the flexible capabilities of the skin sensor.
 
@@ -71,7 +78,7 @@ Where $$V$$ is the max repulsive velocity, $$\boldsymbol{d}$$ is the vector that
 
 In the following interactive graph the x-axis represents the distance from object to end-effector $$\|\boldsymbol{d}\|$$ and the y-axis represents the force exerted on the end-effector. It is necessary to adjust the variables $$D$$ and $$\alpha$$ to achieve a smooth reaction from the end-effector collision avoidance algorithm.
 
-<iframe src="https://www.desmos.com/calculator/dcf80ot3pm" width="1000px" height="500px" style="border: 1px solid #ccc" frameborder="0"></iframe>
+<iframe src="https://www.desmos.com/calculator/dcf80ot3pm" width="100%" height="300px" style="border: none" frameborder="0"></iframe>
 
 <br />
 
@@ -126,8 +133,8 @@ Our next milestone is to densely cover a portion of a robotic arm with sensor un
 
 ## Robotic control using simulated Skin Units
 
-Expand our current controller to avoid dynamic and static obstacles using only proximity sensor information in simulation. In order to iterate through possible control mechanisms without physical skin units we must cover a robot with skin units in simulation. Simulated robotic skin will allow us to rapidly iterate through control prototypes and easily share our work with collaborators that don’t have access to proper hardware. 
+Expand our current controller to avoid dynamic and static obstacles using only proximity sensor information in simulation. In order to iterate through possible control mechanisms without physical skin units we must cover a robot with skin units in simulation. Simulated robotic skin will allow us to rapidly iterate through control prototypes and easily share our work with collaborators that don’t have access to proper hardware.
 
 Simulated skin units will be represented by a uniform distribution of single point laser scans emanating from the surface of the robot. Ideally, skin unit coverage will be automated to easily change coverage density.
 
-*Please email [Kandai](mailto:kandai.watanabe@colorado.edu) or [Caleb](mailto:caleb.escobedo@colorado.edu) if you would like to learn more about the current project, or would like to collaborate with us!*
+_Please email [Kandai](mailto:kandai.watanabe@colorado.edu) or [Caleb](mailto:caleb.escobedo@colorado.edu) if you would like to learn more about the current project, or would like to collaborate with us!_{:.color-banner}
