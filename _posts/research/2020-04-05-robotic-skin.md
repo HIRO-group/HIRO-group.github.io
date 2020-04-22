@@ -69,7 +69,7 @@ $$
 
 Where $$V$$ is the max repulsive velocity, $$\boldsymbol{d}$$ is the vector that goes from the end effector to the closest object and $$\|\boldsymbol{d}\|$$ is that distance's magnitude. The variables $$D$$ and $$\alpha$$ are adjustable constants that change how distance affects the repulsive vector.
 
-In the following interactive graph the x-axis represents the distance from object to end-effector and the y-axis represents the force exerted on the end-effector. It is necessary to adjust the variables $$D$$ and $$\alpha$$ to achieve a smooth reaction from the end-effector collision avoidance algorithm.
+In the following interactive graph the x-axis represents the distance from object to end-effector $$\|\boldsymbol{d}\|$$ and the y-axis represents the force exerted on the end-effector. It is necessary to adjust the variables $$D$$ and $$\alpha$$ to achieve a smooth reaction from the end-effector collision avoidance algorithm.
 
 <iframe src="https://www.desmos.com/calculator/dcf80ot3pm" width="1000px" height="500px" style="border: 1px solid #ccc" frameborder="0"></iframe>
 
@@ -93,21 +93,19 @@ To ensure safe human-robot collaboration, the robot must avoid collisions along 
 The constraints are computed as in the following equations:
 
 $$
-f\left(D(\boldsymbol{C})\right)=\frac{1}{1+e^{\left(D(\boldsymbol{C})(2 / \rho)-1\right) \alpha}}
+f\left(\|\boldsymbol{d}\|)\right)=\frac{1}{1+e^{\alpha \left(\|\boldsymbol{d}\|(2 / D)-1\right) }}
 $$
 
-Where $$D(\boldsymbol{C})$$ represents the distance form an arbitrary control point along the robot's body to an obstacle as in seen in the figures below. The rest of the equation is identical to the repulsive vector equation presented in the previous section.
-
-Starting from the actual joint velocity limits and depending on what direction of rotation of each joint leads to a collision, either the maximum limit or the minimum limit will be modified.
+Where $$\|\boldsymbol{d}\|$$ represents the distance form an arbitrary control point along the robot's body to an obstacle as in seen in the figures below. The rest of the equation is identical to the repulsive vector equation presented in the previous section, but $$f$$ is now bounded between $$0$$ and $$1$$. This value $$f$$ is is used to limit the joint velocities in the next equations. Depending on the closest object's location either the maximum or minimum joint velocity $$\dot{q}_{i}$$ will be updated.
 
 $$
-\dot{q}_{\max , i}=V_{\max , i}\left(\left(1-f\left(D_{\min }(\boldsymbol{C})\right)\right)\right.
+\dot{q}_{\max , i}=V_{\max , i}\left(\left(1-f\left(\|\boldsymbol{d}\|)\right)\right)\right.
 $$
 
 <br />
 
 $$
-\dot{q}_{\min , i}=-V_{\max , i}\left(\left(1-f\left(D_{\min }(C)\right)\right)\right.
+\dot{q}_{\min , i}=-V_{\max , i}\left(\left(1-f\left(\|\boldsymbol{d}\|)\right)\right)\right.
 $$
 
 <br />
