@@ -129,3 +129,5 @@ Our next milestone is to densely cover a portion of a robotic arm with sensor un
 Expand our current controller to avoid dynamic and static obstacles using only proximity sensor information in simulation. In order to iterate through possible control mechanisms without physical skin units we must cover a robot with skin units in simulation. Simulated robotic skin will allow us to rapidly iterate through control prototypes and easily share our work with collaborators that don’t have access to proper hardware. 
 
 Simulated skin units will be represented by a uniform distribution of single point laser scans emanating from the surface of the robot. Ideally, skin unit coverage will be automated to easily change coverage density.
+
+*Please email [Kandai](mailto:kandai.watanabe@colorado.edu) or [Caleb](mailto:caleb.escobedo@colorado.edu) if you would like to learn more about the current project, or would like to collaborate with us!*
