@@ -16,9 +16,9 @@ When a circuit is first placed on the surface of a robot, the exact location on 
 <!-- More -->
 # Primary Objective
 {:.no_toc}
-Our longterm goal is to enable robots to sense their surroundings by adding distributed, heterogeneous sensors along the robot’s surface with a variety of sensing modalities. In order to efficiently utilize sensor information, we must develop a robotic controller that generates robust and safe robotic movement. We plan to achieve our goal in three ways: 
+Our longterm goal is to enable robots to sense their surroundings by adding distributed, heterogeneous sensors along the robot’s surface with a variety of sensing modalities. In order to efficiently utilize sensor information, we must develop a robotic controller that generates robust and safe robotic movement. We plan to achieve our goal in three ways:
 1. Create a flexible printed circuit board (PCB) that can be attached to any robotic arm and relay information about nearby objects to a robotic controller in a plug-and-play fashion.
-1. Develope a kinematic calibration algorithm to automatically, accurately locate each flexible PCB along a robot arm. This information is critical to ensure the robot knows where a sensor's information relates to on its surface. 
+1. Develope a kinematic calibration algorithm to automatically, accurately locate each flexible PCB along a robot arm. This information is critical to ensure the robot knows where a sensor's information relates to on its surface.
 1. Formulate a robust controller that utilizes sensor information to plan trajectories that avoid collision and enable robots to work in close proximity with human collaborators.
 
 
@@ -63,32 +63,31 @@ The end effector’s velocity is modified with a potential field method to avoid
 
 The robot's movement is altered by the following equations. The repulsive vector’s magnitude is obtained through the equation:
 
-
 $$
-v(\boldsymbol{P}, \mathbf{O})=\frac{V_{\max }}{1+e^{(\|\boldsymbol{D}(\boldsymbol{P}, \mathbf{O})\|(2 / \rho)-1) \alpha}}
+v=\frac{V}{1+e^{\alpha(\|\boldsymbol{d}\|\frac{2}{D}-1)}}
 $$
 
-Where $$V_{\max }$$ is the max repulsive velocity and $$(\|\boldsymbol{D}(\boldsymbol{P}, \mathbf{O})\|)$$ is the distance from the object to end-effector. The variables $$\rho$$ and $$\alpha$$ are adjustable constants that change how distance affects the repulsive vector. 
+Where $$V$$ is the max repulsive velocity, $$\boldsymbol{d}$$ is the vector that goes from the end effector to the closest object and $$\|\boldsymbol{d}\|$$ is that distance's magnitude. The variables $$D$$ and $$\alpha$$ are adjustable constants that change how distance affects the repulsive vector.
 
-In the following interactive graph the x-axis represents the distance from object to end-effector and the y-axis represents the force exerted on the end-effector. It is necessary to adjust the variables $$\rho$$ and $$\alpha$$ to achieve a smooth reaction from the end-effector collision avoidance algorithm.
+In the following interactive graph the x-axis represents the distance from object to end-effector and the y-axis represents the force exerted on the end-effector. It is necessary to adjust the variables $$D$$ and $$\alpha$$ to achieve a smooth reaction from the end-effector collision avoidance algorithm.
 
-<iframe src="https://www.desmos.com/calculator/j2wzrcn713" width="1000px" height="500px" style="border: 1px solid #ccc" frameborder="0"></iframe>
+<iframe src="https://www.desmos.com/calculator/dcf80ot3pm" width="1000px" height="500px" style="border: 1px solid #ccc" frameborder="0"></iframe>
 
 <br />
 
-The final repulsive vector points towards the object that is closest to the robots end-effector and is calculated by the equation:
+The final repulsive vector $$\boldsymbol{V}(\boldsymbol{P}, \mathbf{O})$$, that as we have seen depends on the end effectors and the closest object's locations $$\boldsymbol{P}$$ and $$\boldsymbol{O}$$, points towards the object that is closest to the robots end-effector and is calculated by the equation:
 
 $$
-\boldsymbol{V}(\boldsymbol{P}, \mathbf{O})=v(\boldsymbol{P}, \mathbf{O}) \frac{\boldsymbol{D}(\boldsymbol{P}, \mathbf{O})}{\|\boldsymbol{D}(\boldsymbol{P}, \mathbf{O})\|}
+\boldsymbol{V}(\boldsymbol{P}, \mathbf{O})=v \frac{\boldsymbol{d}}{\|\boldsymbol{d}\|}
 $$
 
-The following video demonstrates end-effector collision avoidance where the end-effector is commanded to first move towards the robot body, then to a location near the yellow dot. The yellow dot serves as an obstacle that is in the direct path of the robot’s trajectory, causing the robot to slow down to a complete stop at close proximity.
+The following video demonstrates end effector collision avoidance where the end-effector is commanded to first move towards the robot body, then to a location near the yellow dot. The yellow dot serves as an obstacle that is in the direct path of the robot’s trajectory, causing the robot to slow down to a complete stop at close proximity.
 
 {% include image.html url="research/roboskin/flacco_end_effector.gif" max-width="75%" %}
 
 ### Whole body collision avoidance
 
-To ensure safe human-robot collaboration, the robot must avoid collisions along its entire body. Instead of modifying the end-effector velocity directly, as in the previous method, repulsive vectors will be used to apply kinematic constraints to joint velocities along the body of the robot. 
+To ensure safe human-robot collaboration, the robot must avoid collisions along its entire body. Instead of modifying the end-effector velocity directly, as in the previous method, repulsive vectors will be used to apply kinematic constraints to joint velocities along the body of the robot.
 
 The constraints are computed as in the following equations:
 
