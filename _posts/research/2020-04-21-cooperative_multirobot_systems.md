@@ -1,7 +1,7 @@
 ---
 title: Autonomous Coordination of Cooperative Multi-Robot Systems
-description: Reinforcement Learning for Distributed Control of Multiple Agents
-author: Joewie J. Koh
+description: Multi-Agent Reinforcement Learning for Robot Control
+author: Joewie J. Koh and Guohui Ding
 permalink: research/cooperative_multirobot_systems.html
 image:
     feature: research/multirobot/cooperative_manipulation.png
@@ -9,10 +9,10 @@ image:
 excerpt_separator: <!-- More -->
 ---
 
-Robotic systems with heterogeneous teams of cooperating robots have the potential to fundamentally change the paradigm of robotization. 
-These multi-robot systems hold the promise of drastically expanding industrial robotic applications: by coordinating multiple agents to cooperatively accomplish common goals, a system can be imbued with capabilities that are more than the sum of its parts.
-For example, while a team of robots might typically work independently, the occasional object that is too unwieldy or heavy for a single robot to manage could be cooperatively transported by a pair of robots.
-The emphasis on modularity allows for improved efficiency, robustness, and flexibility, reducing the capital requirement for state-of-the-art robotic systems and enabling more accessible automation across all segments of industry.
+Robotic systems with heterogeneous teams of cooperating robots have the potential to be successful even in uncertain environments.
+With a reasonable distribution of roles among agents, a multi-robot system can be imbued with capabilities that are more than the sum of its parts by coordinating multiple agents to cooperatively accomplish common goals; using search and rescue as an example, cooperation between unmanned aerial and ground vehicles could increase the odds of success with larger search areas and better mobility.
+However, autonomous coordination of robots cannot rely on predefined rules or simple control schemes.
+Robots are both creators and users of data, and appropriate decision-making models that map observed data to actions can endow a multi-robot system with intelligent behaviors that improve cooperation.
 
 <!-- More -->
 
@@ -20,12 +20,23 @@ The emphasis on modularity allows for improved efficiency, robustness, and flexi
 
 # Challenges
 
-Despite the additional capabilities that multi-robot systems could offer, research in multi-robot control is still in its infancy.
-The high number of degrees of freedom and the coupling of multiple kinematic and dynamic constraints pose challenges for both traditional model-based control and model-free learning, the two classes of methods typically used for robot control.
+One of the main challenges in intelligent robotics is interaction with the environment to achieve a goal, which motivates the question of "how a robot should learn to manipulate the world around it" [1].
+As a decision-making model, reinforcement learning (RL) has been widely studied in the multi-agent context because of its performance in a broad range of applications.
+Compared to classical optimal control methods for robot manipulation, RL requires less system knowledge for modeling and circumvents analytical intractability using approximations and a data-driven approach [2].
+However, research in multi-agent RL for multi-robot control is still in its infancy because of the following challenges:
+ 1. **Stability of the learning process.**
+ This issue arises because an agent's observed transition function is unstable when its counterparts' policies are not stationary.
+ Instead of parallelizing the single-agent RL model, we should consider how to coordinate the robot-robot interaction as it determines the success or failure of policy learning.
+ 2. **Alignment of individual objectives to the system-wide objective.**
+ Autonomy in multi-robot systems has to entail not just the agents' amenability to coordinate actions with one another, but also the capability to make decisions based on the agents' personal requirements.
+ The proposed methods should accommodate these private concerns without losing sight of the system-wide objective.
+ 3. **Finding a reasonable learning objective and training framework.**
+ The global state-value function can be optimized with centralized learning, but that results in poor scalability.
+ Parallelized independent RL is sufficiently scalable, but has no performance guarantees; ignoring the equilibrium among agents might result in higher state-value functions in aggregate, but at the expense of certain agents' performance.
+ Considering these tradeoffs, how should we design a multi-agent RL framework?
 
-Additionally, model-based methods require knowledge of system kinematics and dynamics, and are therefore difficult to employ in unstructured environments regardless of the number of robots.
-Model-free deep reinforcement learning (RL), conversely, does not have this limitation and has thus seen significant recent interest from the robotics community.
-However, much of this work have been in the single-robot setting—successfully applying RL in multi-robot systems requires addressing the issues mentioned in the previous paragraph. One approach involves deviating from the centralized learning paradigm and training multiple agents in parallel. Unfortunately, naive distributed RL ignores agent interactions and can lead to instability in the policy learning process.
+[1] Oliver Kroemer, Scott Niekum, and George Konidaris, "A review of robot learning for manipulation: Challenges, representations, and algorithms," Jul. 2019, arXiv:1907.03146.  
+[2] Jens Kober, J. Andrew Bagnell, and Jan Peters, "Reinforcement learning in robotics: A survey," _The International Journal of Robotics Research_, vol. 32, no. 11, pp. 1238--1274, Sep. 2013, doi:10.1177/0278364913495721.
 
 # Methods
 
