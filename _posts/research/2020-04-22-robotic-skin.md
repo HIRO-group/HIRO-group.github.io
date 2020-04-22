@@ -90,13 +90,13 @@ The following video demonstrates end-effector collision avoidance where the end-
 
 To ensure safe human-robot collaboration, the robot must avoid collisions along its entire body. Instead of modifying the end-effector velocity directly, as in the previous method, repulsive vectors will be used to apply kinematic constraints to joint velocities along the body of the robot.
 
-The constraints are computed as in the following equations:
+The constraints are computed using the following equations:
 
 $$
 f\left(\|\boldsymbol{d}\|)\right)=\frac{1}{1+e^{\alpha \left(\|\boldsymbol{d}\|(2 / D)-1\right) }}
 $$
 
-Where $$\|\boldsymbol{d}\|$$ represents the distance form an arbitrary control point along the robot's body to an obstacle as in seen in the figures below. The rest of the equation is identical to the repulsive vector equation presented in the previous section, but $$f$$ is now bounded between $$0$$ and $$1$$. This value $$f$$ is is used to limit the joint velocities in the next equations. Depending on the closest object's location either the maximum or minimum joint velocity $$\dot{q}_{i}$$ will be updated.
+Where $$\|\boldsymbol{d}\|$$ represents the distance form an arbitrary control point along the robot's body to an obstacle as seen in the figures below. The rest of the equation is identical to the repulsive vector equation presented in the previous section, but $$f$$ is now bounded between $$0$$ and $$1$$. This value $$f$$ is used to limit the joint velocities in the two following equations. Depending on the closest object's location either the maximum or minimum joint velocity $$\dot{q}_{i}$$ will be altered.
 
 $$
 \dot{q}_{\max , i}=V_{\max , i}\left(\left(1-f\left(\|\boldsymbol{d}\|)\right)\right)\right.
