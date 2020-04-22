@@ -81,7 +81,8 @@ $$
 \boldsymbol{V}(\boldsymbol{P}, \mathbf{O})=v \frac{\boldsymbol{d}}{\|\boldsymbol{d}\|}
 $$
 
-The following video demonstrates end effector collision avoidance where the end-effector is commanded to first move towards the robot body, then to a location near the yellow dot. The yellow dot serves as an obstacle that is in the direct path of the robot’s trajectory, causing the robot to slow down to a complete stop at close proximity.
+The following video demonstrates end-effector collision avoidance where the end-effector is commanded to first move towards the robot body, avoiding the yellow obstacle point. The robot then moves towards the yellow obstacle, causing the robot to slow down to a complete stop at close proximity to avoid collision.
+
 
 {% include image.html url="research/roboskin/flacco_end_effector.gif" max-width="75%" %}
 
@@ -123,3 +124,10 @@ $$
 In order to consistently avoid obstacles around the robot, dense skin unit coverage is required. To achieve this goal we must efficiently distribute wiring and computational resources about the surface of the robot. This has been accomplished by Mittendorfer et al. by using rigid printed circuit boards equipped with onboard microcontrollers and redundant connections in their paper “Realizing whole-body tactile interactions with a self-organizing, multi-modal artificial skin on a humanoid robot”. Additional challenges arise due to the flexible and stretchable nature of our robotic skin that must conform to the surface it is placed on.
 
 Our next milestone is to densely cover a portion of a robotic arm with sensor units and with those units, consistently avoid collision from any direction. This step will require advancements in hardware to ensure measurement fidelity, reduce the amount of wiring, and allow a multitude of sensors to be placed on a robot easily. With a high density of measurements, we must have a robust control scheme that uses sensor measurements to avoid obstacles and alter the robots behavior.
+
+
+## Robotic control using simulated Skin Units
+
+Expand our current controller to avoid dynamic and static obstacles using only proximity sensor information in simulation. In order to iterate through possible control mechanisms without physical skin units we must cover a robot with skin units in simulation. Simulated robotic skin will allow us to rapidly iterate through control prototypes and easily share our work with collaborators that don’t have access to proper hardware. 
+
+Simulated skin units will be represented by a uniform distribution of single point laser scans emanating from the surface of the robot. Ideally, skin unit coverage will be automated to easily change coverage density.
