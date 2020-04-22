@@ -13,6 +13,7 @@ Robotic systems with heterogeneous teams of cooperating robots have the potentia
 With a reasonable distribution of roles among agents, a multi-robot system can be imbued with capabilities that are more than the sum of its parts by coordinating multiple agents to cooperatively accomplish common goals; using search and rescue as an example, cooperation between unmanned aerial and ground vehicles could increase the odds of success with larger search areas and better mobility.
 However, autonomous coordination of robots cannot rely on predefined rules or simple control schemes.
 Robots are both creators and users of data, and appropriate decision-making models that map observed data to actions can endow a multi-robot system with intelligent behaviors that improve cooperation.
+Our work proposes several approaches to fully study how to make multi-agent RL work for autonomous robot coordination.
 
 <!-- More -->
 
