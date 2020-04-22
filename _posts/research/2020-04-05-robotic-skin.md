@@ -1,6 +1,6 @@
 ---
-title: Self-Contained Kinematic Calibration of Flexible Whole-Body Artificial Skin for Collaborative Robotics
-description: Skin unit design, automatic kinematic calibration, and collision avoidance
+title: Flexible Whole-Body Artificial Skin for Collaborative Robotics
+description: Flexible PCB, automatic kinematic calibration, and collision avoidance
 author: Caleb Escobedo
 permalink: research/robotic_skin.html
 image:
@@ -14,6 +14,13 @@ In this work, we present the first prototype of a flexible circuit for collabora
 When a circuit is first placed on the surface of a robot, the exact location on the surface is unknown to the robot. To address this, we present a novel kinematic calibration algorithm to reduce manual setup time.
 
 <!-- More -->
+# Primary Objective
+{:.no_toc}
+Our longterm goal is to enable robots to sense their surroundings by adding distributed, heterogeneous sensors along the robot’s surface with a variety of sensing modalities. In order to efficiently utilize sensor information, we must develop a robotic controller that generates robust and safe robotic movement. We plan to achieve our goal in three ways: 
+1. Create a flexible printed circuit board (PCB) that can be attached to any robotic arm and relay information about nearby objects to a robotic controller in a plug-and-play fashion.
+1. Develope a kinematic calibration algorithm to automatically, accurately locate each flexible PCB along a robot arm. This information is critical to ensure the robot knows where a sensor's information relates to on its surface. 
+1. Formulate a robust controller that utilizes sensor information to plan trajectories that avoid collision and enable robots to work in close proximity with human collaborators.
+
 
 # Contents
 {:.no_toc}
@@ -29,20 +36,14 @@ When a circuit is first placed on the surface of a robot, the exact location on 
 
 1. **Kinematic Calibration:** we present a framework for automatic kinematic calibration that leverages an IMU to automatically locate and orient skin units, of arbitrary number, along the surface of a robot.
 
-1. **Control Example:** we demonstrate an example control scenario where a robot arm utilizes proximity sensors embedded within a skin unit to **avoid collision** when an object is nearby. We impose a repulsive force on the point the skin sensor is mounted on the robotic arm to ensure it will not collide with an object, but will still continue on a specified trajectory.
+1. **Controller:** we demonstrate a control scenario where a robot arm utilizes proximity sensors embedded within a skin unit to **avoid collision** when an object is nearby. We impose a repulsive force on the point the skin sensor is mounted on the robotic arm to ensure it will not collide with an object, but will still continue on a specified trajectory.
 
 ## Skin Units
 
-Skin units are embedded with an IMU for kinematic calibration and a proximity sensor to sense nearby objects. We chose to embed our circuit in a flexible polymer called ecoflex in order to have each skin unit conform to the shape of the surface it is placed on. The figure below shows the flexible capabilities of the skin sensor and an image of one unit mounted on a robotic arm.
+Skin units are embedded with an IMU for kinematic calibration and a proximity sensor to sense nearby objects. We chose to embed our circuit in a flexible polymer called ecoflex in order to have each skin unit conform to the shape of the surface it is placed on. The figure below shows the flexible capabilities of the skin sensor.
 
-<div class="row">
-  <div class="col-md-6 col-print-6">
-    {% include image.html url="research/roboskin/skin_unit.jpg" max-width="75%" description="Flexible skin unit mounted on a robotic arm." %}
-  </div>
-  <div class="col-md-6 col-print-6">
-    {% include image.html url="research/roboskin/bent_skin_unit.jpg" max-width="75%" description="Demonstration of the skin’s flexible capabilities." %}
-  </div>
-</div>
+{% include image.html url="research/roboskin/bent_skin_unit.jpg" max-width="75%" description="" %}
+
 
 ## Kinematic Calibration
 
@@ -52,39 +53,50 @@ To automatically locate skin units along the surface of a robot, we utilize an I
 
 
 
-## Controller for flexible and safety oriented interaction between robots and their environment
+## Controller for safety oriented robot interaction
 
-Calibrated skin units can be used to locate obstacles in the robots environment. Then, this information will be used to modify the robot's behaviour in real time.
+Calibrated skin units are used to locate obstacles in a robot’s environment, this information is used to modify the robot’s behaviour in real time. When a robot detects an obstacle, it should continue along a trajectory as long as the proximity to the obstacle does not compromise safety. The robot should avoid the object if close, or stop if there is no way to reach the goal location without a collision. For this purpose, we present two separate controllers that avoid obstacles, the first focus on **end-effector** and the second on **whole body** collision avoidance.
 
-When dealing with an obstacle, the manipulator should continue to pursue its task as long as that won't compromise safety. On the other hand, it should stop if there is no way in which it can execute the task without avoiding solution.
+### End-effector collision avoidance
 
-For this purpose, there are two separate approaches we take into account to create a controller that avoids obstacles, depending of it's the end-effector we are dealing with or the rest of the body.
+The end effector’s velocity is modified with a potential field method to avoid objects. This means that a variable magnitude vector will be subtracted from the end-effector velocity to obtain a new velocity that avoids collisions. The repulsive vector’s direction depends on the closest obstacle to the end effector and its magnitude is determined by the distance. If an obstacle does not hinder the robot’s task, the original task-level velocity will be preserved. However, if the obstacles are too close the end-effector will stop completely.
 
-Firstly, the end effector's velocity will be modified with a potential field method. This means that a variable magnitude vector will be substracted from the end-effector velocity to obtain a new velocity that avoids collisions. This repulsive vector's direction will depend on the closest obstacle point from the end effector and its magnitude will depend on the distance. If the obstacles do not hinder the robot's task, the original task-level velocity will be preserved. However, if the obstacles are too close, the repulsive vectors magnitude will be increased and it will change the original velocity.
+The robot's movement is altered by the following equations. The repulsive vector’s magnitude is obtained through the equation:
 
-This behaviour is encoded in the following equations. With the first one the repulsive vector's magnitude is obtained:
 
 $$
 v(\boldsymbol{P}, \mathbf{O})=\frac{V_{\max }}{1+e^{(\|\boldsymbol{D}(\boldsymbol{P}, \mathbf{O})\|(2 / \rho)-1) \alpha}}
 $$
 
-The the the final repulsive vector is obtained with the direction of the vector that goes from the end effector to the obstacle:
+Where $$V_{\max }$$ is the max repulsive velocity and $$(\|\boldsymbol{D}(\boldsymbol{P}, \mathbf{O})\|)$$ is the distance from the object to end-effector. The variables $$\rho$$ and $$\alpha$$ are adjustable constants that change how distance affects the repulsive vector. 
+
+In the following interactive graph the x-axis represents the distance from object to end-effector and the y-axis represents the force exerted on the end-effector. It is necessary to adjust the variables $$\rho$$ and $$\alpha$$ to achieve a smooth reaction from the end-effector collision avoidance algorithm.
+
+<iframe src="https://www.desmos.com/calculator/j2wzrcn713" width="1000px" height="500px" style="border: 1px solid #ccc" frameborder="0"></iframe>
+
+<br />
+
+The final repulsive vector points towards the object that is closest to the robots end-effector and is calculated by the equation:
 
 $$
 \boldsymbol{V}(\boldsymbol{P}, \mathbf{O})=v(\boldsymbol{P}, \mathbf{O}) \frac{\boldsymbol{D}(\boldsymbol{P}, \mathbf{O})}{\|\boldsymbol{D}(\boldsymbol{P}, \mathbf{O})\|}
 $$
 
-The following video demonstrates the approach when the end effector is commanded to move in a straight trajectory, but an obstacle appears in its way.
+The following video demonstrates end-effector collision avoidance where the end-effector is commanded to first move towards the robot body, then to a location near the yellow dot. The yellow dot serves as an obstacle that is in the direct path of the robot’s trajectory, causing the robot to slow down to a complete stop at close proximity.
 
 {% include image.html url="research/roboskin/flacco_end_effector.gif" max-width="75%" %}
 
-The rest of the robot's body also has to avoid obstacles. The approach with this points will be completely different. Instead of modifying their velocity directly, the repulsive vectors will be used to apply some kinematic constraints to the joint velocities.
+### Whole body collision avoidance
 
-The constraints are computed as in the following equations,
+To ensure safe human-robot collaboration, the robot must avoid collisions along its entire body. Instead of modifying the end-effector velocity directly, as in the previous method, repulsive vectors will be used to apply kinematic constraints to joint velocities along the body of the robot. 
+
+The constraints are computed as in the following equations:
 
 $$
 f\left(D(\boldsymbol{C})\right)=\frac{1}{1+e^{\left(D(\boldsymbol{C})(2 / \rho)-1\right) \alpha}}
 $$
+
+Where $$D(\boldsymbol{C})$$ represents the distance form an arbitrary control point along the robot's body to an obstacle as in seen in the figures below. The rest of the equation is identical to the repulsive vector equation presented in the previous section.
 
 Starting from the actual joint velocity limits and depending on what direction of rotation of each joint leads to a collision, either the maximum limit or the minimum limit will be modified.
 
@@ -92,15 +104,18 @@ $$
 \dot{q}_{\max , i}=V_{\max , i}\left(\left(1-f\left(D_{\min }(\boldsymbol{C})\right)\right)\right.
 $$
 
+<br />
+
 $$
 \dot{q}_{\min , i}=-V_{\max , i}\left(\left(1-f\left(D_{\min }(C)\right)\right)\right.
 $$
 
-{% include image.html url="research/roboskin/flacco_body_before.gif" max-width="75%" description= "Robot's movement without taking into account its body can hit obstacles. " %}
-{% include image.html url="research/roboskin/flacco_body_after.gif" max-width="75%" description= "Robot's movement when taking into account that it's body can hit the obstacle and modifying the motion without stopping to pursue the task. "%}
+<br />
 
-<!-- {% include image.html url="research/roboskin/control.png" max-width="75%" description=" A mounted skin unit exerting a repulsive force β on a robot's trajectory
-T when an object is near the skin unit. The distance d is measured in millimeters. As an object approaches, β increases exponentially." %} -->
+{% include image.html url="research/roboskin/flacco_body_before.gif" max-width="75%" description= "No collision avoidance: the robot's body collides with the yellow obstacle point" %}
+
+{% include image.html url="research/roboskin/flacco_body_after.gif" max-width="75%" description= "Collision avoidance: The robot reacts to an obstacle near a body control point and alters its joint velocities without hindering the end-effectors task"%}
+
 
 # Future Work
 
