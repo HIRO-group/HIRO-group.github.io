@@ -9,11 +9,11 @@ image:
 excerpt_separator: <!-- More -->
 ---
 
-Robotic systems with heterogeneous teams of cooperating robots have the potential to be successful even in uncertain environments.
-With a reasonable distribution of roles among agents, a multi-robot system can be imbued with capabilities that are more than the sum of its parts by coordinating multiple agents to cooperatively accomplish common goals; using search and rescue as an example, cooperation between unmanned aerial and ground vehicles could increase the odds of success with larger search areas and better mobility.
+Heterogeneous teams of cooperative multi-robot systems have the potential to propel robotics at large toward a safer, more accessible, and lower cost future.
+Through distribution of roles among the various agents, a multi-robot system can be imbued with capabilities that are more than the sum of its parts by coordinating multiple agents to cooperatively accomplish common goals; using search and rescue as an example, cooperation between unmanned aerial and ground vehicles could increase the odds of success with larger areas covered, better mobility.
 However, autonomous coordination of robots cannot rely on predefined rules or simple control schemes.
-Robots are both creators and users of data, and appropriate decision-making models that map observed data to actions can endow a multi-robot system with intelligent behaviors that improve cooperation.
-Our work proposes several approaches to fully study how to make multi-agent RL work for autonomous robot coordination.
+Robots are both generators and consumers of data, and appropriate decision-making models that map observed data to actions can endow a multi-robot system with intelligent behaviors that improve cooperation.
+Our work proposes several approaches to fully leverage multi-agent RL for autonomous robot coordination.
 
 <!-- More -->
 
@@ -36,7 +36,7 @@ However, research in multi-agent RL for multi-robot control is still in its infa
  Parallelized independent RL is sufficiently scalable, but has no performance guarantees; ignoring the equilibrium among agents might result in higher state-value functions in aggregate, but at the expense of certain agents' performance.
  Considering these tradeoffs, how should we design a multi-agent RL framework?
 
-[1] Oliver Kroemer, Scott Niekum, and George Konidaris, "A review of robot learning for manipulation: Challenges, representations, and algorithms," Jul. 2019, arXiv:1907.03146.  
+[1] Oliver Kroemer, Scott Niekum, and George Konidaris, "A review of robot learning for manipulation: Challenges, representations, and algorithms," Jul. 2019, arXiv:1907.03146.
 [2] Jens Kober, J. Andrew Bagnell, and Jan Peters, "Reinforcement learning in robotics: A survey," _The International Journal of Robotics Research_, vol. 32, no. 11, pp. 1238--1274, Sep. 2013, doi:10.1177/0278364913495721.
 
 # Methods
@@ -61,7 +61,7 @@ Accordingly, we term this method _value-decomposition RL_ (VD-RL).
 
 ## Game-Theoretic Reinforcement Learning
 
-It is also possible to model the cooperation problem from a game-theoretic perspective: using the Nash equilibrium as the solution concept for the desired outcome from the multi-agent interaction. 
+It is also possible to model the cooperation problem from a game-theoretic perspective: using the Nash equilibrium as the solution concept for the desired outcome from the multi-agent interaction.
 The key insight here is that no agent has incentive to change its policy at the Nash equilibrium if the other agent follows the equilibrium policy.
 
 Specifically, we approach the task with a general-sum Markov game formalism, and decompose the game into a sequence of stages.
@@ -71,7 +71,7 @@ We claim that _game-theoretic RL_ (GT-RL) accounts for the non-stationary nature
 
 ## Stackelberg Learning in Cooperative Control
 
-With the above methods, we considered a setting where the agents share the common observed state. 
+With the above methods, we considered a setting where the agents share the common observed state.
 This is not always feasible or realistic: agents might have asymmetric capabilities and be differentially limited by various constraints, whether perceptual, communicative, locomotive, or computational.
 Besides introducing different observation scopes between agents, this asymmetry might also manifest as agent-wise private preferences.
 
