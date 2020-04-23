@@ -17,27 +17,27 @@ Our work proposes several approaches to fully leverage multi-agent RL for autono
 
 <!-- More -->
 
-{% include image.html url="research/multirobot/cooperative_manipulation.png" max-width="75%" description="An object too heavy or unwieldy for a single robotic arm could be manageable for two cooperating robots. Robots cooperating as needed could increase the efficiency of robotic systems, as the robots can work on independent tasks at other times." %}
+{% include image.html url="research/multirobot/cooperative_manipulation.png" max-width="75%" description="An object too heavy or unwieldy for a single robotic arm could be manageable for two cooperating robots. Heterogeneous robots that work independently and cooperate if and when needed is a better utilization of resources and has the promise to improve efficiency." %}
 
 # Challenges
 
 One of the main challenges in intelligent robotics is interaction with the environment to achieve a goal, which motivates the question of "how a robot should learn to manipulate the world around it" [1].
-As a decision-making model, reinforcement learning (RL) has been widely studied in the multi-agent context because of its performance in a broad range of applications.
-Compared to classical optimal control methods for robot manipulation, RL requires less system knowledge for modeling and circumvents analytical intractability using approximations and a data-driven approach [2].
-However, research in multi-agent RL for multi-robot control is still in its infancy because of the following challenges:
+As a decision-making model, reinforcement learning (RL) has been widely studied in the multi-agent domain because of its performance in a broad range of applications.
+Compared to classical control methods for robot manipulation, RL requires less system knowledge for modeling and circumvents analytical intractability using approximations and a data-driven approach [2].
+However, research in reinforcement learning for multi-robot control is still in its infancy and plagued by the following challenges:
+
  1. **Stability of the learning process.**
  This issue arises because an agent's observed transition function is unstable when its counterparts' policies are not stationary.
  Instead of parallelizing the single-agent RL model, we should consider how to coordinate the robot-robot interaction as it determines the success or failure of policy learning.
+
  2. **Alignment of individual objectives to the system-wide objective.**
- Autonomy in multi-robot systems has to entail not just the agents' amenability to coordinate actions with one another, but also the capability to make decisions based on the agents' personal requirements.
- The proposed methods should accommodate these private concerns without losing sight of the system-wide objective.
+ Autonomy in multi-robot systems entails not just the agents' amenability to coordinate actions with one another, but also the capability to make decisions based on the agents' personal requirements.
+ The proposed methods should accommodate these individual concerns without losing sight of the system-wide objective.
+
  3. **Finding a reasonable learning objective and training framework.**
  The global state-value function can be optimized with centralized learning, but that results in poor scalability.
  Parallelized independent RL is sufficiently scalable, but has no performance guarantees; ignoring the equilibrium among agents might result in higher state-value functions in aggregate, but at the expense of certain agents' performance.
- Considering these tradeoffs, how should we design a multi-agent RL framework?
-
-[1] Oliver Kroemer, Scott Niekum, and George Konidaris, "A review of robot learning for manipulation: Challenges, representations, and algorithms," Jul. 2019, arXiv:1907.03146.
-[2] Jens Kober, J. Andrew Bagnell, and Jan Peters, "Reinforcement learning in robotics: A survey," _The International Journal of Robotics Research_, vol. 32, no. 11, pp. 1238--1274, Sep. 2013, doi:10.1177/0278364913495721.
+ Considering these trade-offs, how should we design a multi-agent RL framework?
 
 # Methods
 
@@ -93,3 +93,8 @@ There are a number of promising directions for future work:
  - human-aware adaptation in multi-agent systems,
  - cooperative control in continuous action spaces,
  - packet loss or latency during agent-agent communication.
+
+# References
+
+[1] Oliver Kroemer, Scott Niekum, and George Konidaris, "A review of robot learning for manipulation: Challenges, representations, and algorithms," Jul. 2019, arXiv:1907.03146.
+[2] Jens Kober, J. Andrew Bagnell, and Jan Peters, "Reinforcement learning in robotics: A survey," _The International Journal of Robotics Research_, vol. 32, no. 11, pp. 1238--1274, Sep. 2013, doi:10.1177/0278364913495721.
