@@ -54,9 +54,64 @@ Skin units are embedded with an IMU for kinematic calibration and a proximity se
 
 ## Kinematic Calibration
 
-To automatically locate skin units along the surface of a robot, we utilize an IMU that provides measurements of angular velocity and linear acceleration. Our optimization algorithm estimates the position and orientation of skin units using Denavit-Hartenberg as demonstrated in the figure below.
+To automatically locate skin units along the surface of a robot, we utilize an IMU that provides measurements of angular velocity and linear acceleration. Our optimization algorithm estimates the position and orientation of skin units using *modified* Denavit-Hartenberg (DH) parameters as demonstrated in the figure below. DH parameters define how joints are connected. It allows to represent the relationship (position and orientation) between 2 coordinates with just 4 parameters. Each skin unit coordinate is also represented by 6 DH parameters relative to its previous joint: 4 parameters from joint to a virtual joint, 2 parameters from virtual joint to the skin unit.
 
 {% include image.html url="research/roboskin/calibration.png" max-width="75%" description="Illustrated setup of skin units (S) placed along the robots links (L) that are separated by joints (J). We estimate the  Denavit-Hartenberg parameters of each joint in order to calculate the pose of each skin unit along the surface of the robot. " %}
+
+Our optimization algorithm is described as follows.
+
+### 1. Formulate a Kinematic Chain with random values.
+
+We first represent each skin unit coodinate using a transformation matrix ${}^0T_{SU_i}$.
+
+$$
+{}^0T_{SU_i} = {}^0T_1 \cdot {}^1T_2 \dots {}^{i-1}T_i \cdot {}^i T_{SU_i} \quad \forall i
+$$
+<br/>
+
+$$
+{}^{i}T_{i+1} =
+    \left[ \begin{array}{c|c}
+        {}^{i}R_{i+1} & {}^{i}P_{i+1} \\
+        \hline
+        \mathbf{0} & \mathbf{1} \\
+    \end{array}\right]
+$$
+
+where ${}^iR_{i+1}$ is a rotation matrix from $i+1$ to $i$ or in other word, it rotates a vector defined in $i+1$th coordinate to $i$th coordinate, and ${}^iP_{i+1}$ is a position of coodinate $i+1$ defined in $i$th coordinate frame. Therefore, the position of $i$th skin unit in the world ($0$th) coodinate is represented as ${}^0P_{SU_i}$.
+
+### 2. Collect Data
+For  each  joint  in  the  system  iterate  through  all  $n_{pose}$  joint positions in a constant rotation pattern. First we take a measurementof  the  static  forces  that  are  being  applied  to  the  IMU,  this is  the  constant  gravitational  acceleration  that  is  exerted  onthe sensor. We take a static measurement in order to remove those forces when calculating the amount of acceleration the sensor  feels. Then  we  move  the  reference  joint  in  a  constant rotation pattern for each positing and measure the acceleration throughout.  We  save  all  this  information  for  the  calibration step.
+
+### 3. Define an error function
+Using kinematic chains and the angular velocities of each joint measured during data collection, acceleration exerted on each skin unit can be computed by a simple physics law. Accelerations applied on a rotating object include local acceleration, tangential acceleration and centripetal acceleration. Angular Velocity $\omega$ and angular acceleration $\alpha$ are measured during data collection, whereas rotation matrix $R$ and position vector $r$ can be computed using current estimated DH parameters. As a result, acceleration exerted on the skin unit ${}^{SU_i}a_{u,d}$are expressed a summation of all these computed accelerations.
+
+$$
+^{RS}\vec{a}_{t a n_{u, d}} = ^{R S} \overrightarrow{\alpha_{d}} \times^{R S} \vec{r}_{u, d}
+$$
+<br/>
+
+$$
+^{RS}\vec{a}_{cp_{u, d}} = ^{R S} \vec{\omega}_{d} \times\left(^{R S} \vec{\omega}_{d} \times^{R S} \vec{r}_{u, d}\right)
+$$
+<br/>
+
+$$
+^{SU_{i}}\vec{a}_{u, d} = ^{SU_{i}}\underline{R}_{R S} \cdot\left(^{R S} \vec{g}+^{R S} \vec{a}_{t a n_{u}, d}+^{R S} \vec{a}_{c p_{u, d}}\right)
+$$
+
+One example of the error functions is described as follows. It is the acceleration error between the measured accelerations from the IMUs and the estimated accelerations using the kinematic chain model for $n_{pose}$ poses.
+
+$$
+E = \sum_{i=1}^{n_{pose}} \sum_{j=1}^{n_{joint}} ||a^{model}_{i,j} - a^{IMU}_{i,j}||^2
+$$
+
+
+### 4. Optimize the error using a global optimizer because function is non-convex.
+A global optimizer optimizes the DH parameters by minimizing an error function. We combine several diffferent error functions to estimate both rotational and translational parameters.
+
+
+{% include image.html url="research/roboskin/panda_example.png" max-width="75%" description="Calibrated IMU positions on Panda Arm" %}
 
 
 
