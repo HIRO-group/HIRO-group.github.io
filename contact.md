@@ -7,9 +7,9 @@ id: contact
 
 ## Open Positions
 
-ARPG is always seeking highly qualified postdoctoral researchers with interest in robotic perception. Interested researchers *should already have experience in at least two areas* among control theory, machine learning, field robotics, computer vision, or robotic planning. If you are interested, please send your CV and a cover letter to Chris (contact information on the ["People"](/people) page).
+<!-- ARPG is always seeking highly qualified postdoctoral researchers with interest in robotic perception. Interested researchers *should already have experience in at least two areas* among control theory, machine learning, field robotics, computer vision, or robotic planning. If you are interested, please send your CV and a cover letter to Chris (contact information on the ["People"](/people) page).-->
 
-We are also always seeking highly qualified PhD students. Part of this process is considering funding sources likely to be available _at the time the potential student would start_, which is uncertain in the fall when future students are considering applications. This causes a bit of a paradox. Admissions decisions will only really be made around February. Please note that even if you send an email, you still need to apply and we still will go through your application and recommendation letters in detail. See the note below about emails.
+ARPG is always seeking highly qualified PhD students. Part of this process is considering funding sources likely to be available _at the time the potential student would start_, which is uncertain in the fall when future students are considering applications. This causes a bit of a paradox. Admissions decisions will only really be made around February. Please note that even if you send an email, you still need to apply and we still will go through your application and recommendation letters in detail. See the note below about emails.
 
 ## Location in Engineering Center
 
