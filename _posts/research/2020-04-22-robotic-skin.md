@@ -62,7 +62,7 @@ To automatically locate skin units along the surface of a robot, we utilize an I
 
 ## Controller for safety oriented robot interaction
 
-Calibrated skin units are used to locate obstacles in a robot’s environment, this information is used to modify the robot’s behaviour in real time. When a robot detects an obstacle, it should continue along a trajectory as long as the proximity to the obstacle does not compromise safety. The robot should avoid the object if close, or stop if there is no way to reach the goal location without a collision. For this purpose, we present two separate controllers that avoid obstacles, the first focus on **end-effector** and the second on **whole body** collision avoidance.
+Calibrated skin units are used to locate obstacles in a robot’s environment, this information is used to modify the robot’s behaviour in real time. When a robot detects an obstacle, it should continue along a trajectory as long as the proximity to the obstacle does not compromise safety. The robot should avoid the object if close, or stop if there is no way to reach the goal location without a collision. For this purpose, we present two separate controllers that avoid obstacles, the first focus on **end-effector** and the second on **whole body** collision avoidance, based on the paper *“A Depth Space Approach to Human-Robot Collision Avoidance”* by Flacco et al.
 
 ### End-effector collision avoidance
 
@@ -78,7 +78,10 @@ Where $$V$$ is the max repulsive velocity, $$\boldsymbol{d}$$ is the vector that
 
 In the following interactive graph the x-axis represents the distance from object to end-effector $$\|\boldsymbol{d}\|$$ and the y-axis represents the force exerted on the end-effector. It is necessary to adjust the variables $$D$$ and $$\alpha$$ to achieve a smooth reaction from the end-effector collision avoidance algorithm.
 
-<iframe src="https://www.desmos.com/calculator/dcf80ot3pm" width="100%" height="300px" style="border: none" frameborder="0"></iframe>
+<div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
+    <iframe src="https://www.desmos.com/calculator/dcf80ot3pm" style="border: 1px solid #ccc" frameborder="0">
+    </iframe>
+</div>
 
 <br />
 
