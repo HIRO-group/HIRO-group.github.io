@@ -1,6 +1,6 @@
 ---
 title: Flexible Whole-Body Artificial Skin for Collaborative Robotics
-author: Caleb Escobedo, Ander Aranburu
+author: Caleb Escobedo, Kandai Watanabe, and Ander Aranburu
 permalink: research/robotic_skin.html
 image:
     feature: research/roboskin/skin_unit.png
@@ -78,11 +78,17 @@ Our optimization algorithm is composed of the following four steps.
  3. _Define an error function._
     Acceleration exerted on each SU $${}^{SU_i}a_{u,d}$$ can be estimated as a composition of local acceleration, tangential acceleration and centripetal acceleration:
     <br/>
+
     $$^{RS}\vec{a}_{t a n_{u, d}} = ^{R S} \overrightarrow{\alpha_{d}} \times^{R S} \vec{r}_{u, d}$$
+
     <br/>
+
     $$^{RS}\vec{a}_{cp_{u, d}} = ^{R S} \vec{\omega}_{d} \times\left(^{R S} \vec{\omega}_{d} \times^{R S} \vec{r}_{u, d}\right)$$
+
     <br/>
+
     $$^{SU_{i}}\vec{a}_{u, d} = ^{SU_{i}}\underline{R}_{R S} \cdot\left(^{R S} \vec{g}+^{R S} \vec{a}_{t a n_{u}, d}+^{R S} \vec{a}_{c p_{u, d}}\right)$$
+
     <br/>
     angular velocity $$\omega$$ and angular acceleration $$\alpha$$ are measured during data collection, whereas rotation matrix $$R$$ and position vector $$r$$ can be computed using the current estimated DH parameters.
     One example error function could be seen as the error between the measured accelerations from the IMUs and the estimated accelerations using the kinematic chain model for $$n_{pose}$$ poses:
@@ -106,9 +112,7 @@ $$
 v=\frac{V}{1+e^{\alpha(\|\boldsymbol{d}\|\frac{2}{D}-1)}},
 $$
 
-where $$V$$ is the max repulsive velocity, $$\boldsymbol{d}$$ is the vector that goes from the end effector to the closest object and $$\|\boldsymbol{d}\|$$ is that distance's magnitude. The variables $$D$$ and $$\alpha$$ are user-defined and task-dependent--cf. Figure 4. It is important to adjust the variables $$D$$ and $$\alpha$$ to achieve a smooth reaction from the end-effector collision avoidance algorithm.
-
-{% include image.html url="research/roboskin/avoidance_vector.png" max-width="75%" description="<b>Figure 4.</b> the x-axis represents the distance from object to end-effector $$\|\boldsymbol{d}\|$$ and the y-axis represents the force exerted on the end-effector.  **[AR: I don't think this adds much to the story, please replace the interactive graph with just a figure]**{:.color-banner}" %}
+where $$V$$ is the max repulsive velocity, $$\boldsymbol{d}$$ is the vector that goes from the end effector to the closest object and $$\|\boldsymbol{d}\|$$ is that distance's magnitude. The variables $$D$$ and $$\alpha$$ are user-defined and task-dependent--cf.
 
 The final repulsive vector $$\boldsymbol{V}(\boldsymbol{P}, \mathbf{O})$$ points towards the object that is closest to the robots end-effector and is calculated by the equation:
 
@@ -167,14 +171,12 @@ _Please email [Kandai](mailto:kandai.watanabe@colorado.edu) or [Caleb](mailto:ca
 
 # References
 
-**[AR: please add the citations below]**{:.color-banner}
+[1] Siciliano, Bruno, and Oussama Khatib, eds. Springer handbook of robotics. Springer, 2016.
 
-[1] please add citation of modified DH parameters
+[2] Mittendorfer, Philipp, and Gordon Cheng. "Open-loop self-calibration of articulated robots with artificial skins." 2012 IEEE International Conference on Robotics and Automation. IEEE, 2012.
 
-[2] please add citation of Mittendorfer's paper
+[3] Flacco, Fabrizio, et al. "A depth space approach to human-robot collision avoidance." 2012 IEEE International Conference on Robotics and Automation. IEEE, 2012.
 
-[3] please add citation of Flacco's paper
+[4] Khatib, Oussama. "Real-time obstacle avoidance for manipulators and mobile robots." Autonomous robot vehicles. Springer, New York, NY, 1986. 396-404.
 
-[4] please add citation of the potential fields paper from Khatib
-
-[5] pleasse add citation of the paper “Realizing whole-body tactile interactions with a self-organizing, multi-modal artificial skin on a humanoid robot”
+[5] Mittendorfer, Philipp, Eiichi Yoshida, and Gordon Cheng. "Realizing whole-body tactile interactions with a self-organizing, multi-modal artificial skin on a humanoid robot." Advanced Robotics 29.1 (2015): 51-67.
