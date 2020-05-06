@@ -62,18 +62,6 @@ Our optimization algorithm is composed of the following four steps.
  1. _Initialize a Kinematic Chain with randomized values._
     We represent each skin unit coordinate using a transformation matrix
 
-    $${}^0T_{SU_i} = {}^0T_1 \cdot {}^1T_2 \dots {}^{i-1}T_i \cdot {}^i T_{SU_i}, \quad \forall i$$, where
-    $$
-    {}^{i}T_{i+1} =
-        \left[ \begin{array}{c|c}
-            {}^{i}R_{i+1} & {}^{i}P_{i+1} \\
-            \hline
-            \mathbf{0} & \mathbf{1} \\
-        \end{array}\right].
-    $$
-
-    **[AR: I don't think the rotation part of this is correct---I know we've been through this already but it needs revision. I just removed it for the sake of compactness]**{:.color-banner}
-
  2. _Collect Data._
     First, static forces applied to the IMU (that is, the constant acceleration due to gravity) are measured and compensated for. Then, each reference joint is moved through its operational range in a constant rotation pattern and the resulting acceleration as measured by the IMU is stored.
 
@@ -84,11 +72,7 @@ Our optimization algorithm is composed of the following four steps.
 
     $$^{RS}\vec{a}_{t a n_{u, d}} = ^{R S} \overrightarrow{\alpha_{d}} \times^{R S} \vec{r}_{u, d}$$
 
-    <br/>
-
     $$^{RS}\vec{a}_{cp_{u, d}} = ^{R S} \vec{\omega}_{d} \times\left(^{R S} \vec{\omega}_{d} \times^{R S} \vec{r}_{u, d}\right)$$
-
-    <br/>
 
     $$^{SU_{i}}\vec{a}_{u, d} = ^{SU_{i}}\underline{R}_{R S} \cdot\left(^{R S} \vec{g}+^{R S} \vec{a}_{t a n_{u}, d}+^{R S} \vec{a}_{c p_{u, d}}\right)$$
 
