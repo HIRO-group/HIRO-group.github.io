@@ -53,7 +53,7 @@ Skin units are equipped with an IMU for kinematic calibration and a proximity se
 
 ## Kinematic Calibration
 
-To automatically locate skin units along the surface of a robot, we utilize the angular velocity and linear acceleration measurements from the IMUs. Our optimization algorithm estimates the pose (position and orientation) of a SU using *modified* Denavit-Hartenberg (DH) [1] parameters as illustrated in Figure 2. The pose of each SU is estimated by six DH parameters with respect to the previous joint in the kinematic chain: four parameters from the joint to a virtual joint, and two additional parameters from the virtual joint to the SU (other two parameters are set to 0). A virtual joint is required in between the joint coordinate and the SU coordinate to follow the DH parameter notation, so that each teransformation can be expressed with no more than 4 parameters.
+To automatically locate skin units along the surface of a robot, we utilize the angular velocity and linear acceleration measurements from the IMUs. Our optimization algorithm estimates the pose (position and orientation) of a SU using *modified* Denavit-Hartenberg (DH) [1] parameters as illustrated in Figure 2. The pose of each SU is estimated by six DH parameters with respect to the previous joint in the kinematic chain: four parameters from the joint to a virtual joint, and two additional parameters from the virtual joint to the SU (other two parameters are set to 0). A virtual joint is located within the link that is orthogonal to the joint's $z$ axis and the SU's $z$ axis. It is required in order to follow the DH parameter notation, so that each transformation can be expressed with no more than four parameters.
 
 {% include image.html url="research/roboskin/calibration.png" max-width="75%" description="<b>Figure 2.</b> Depiction of multiple skin units (S) placed along the robots links (L) that are separated by joints (J). We estimate the  Denavit-Hartenberg parameters of each joint in order to calculate the pose of each skin unit along the surface of the robot. " %}
 
@@ -61,6 +61,7 @@ Our optimization algorithm is composed of the following four steps.
 
  1. _Initialize a Kinematic Chain with randomized values._
     We represent each skin unit coordinate using a transformation matrix
+
     $${}^0T_{SU_i} = {}^0T_1 \cdot {}^1T_2 \dots {}^{i-1}T_i \cdot {}^i T_{SU_i}, \quad \forall i$$, where
     $$
     {}^{i}T_{i+1} =
@@ -70,6 +71,7 @@ Our optimization algorithm is composed of the following four steps.
             \mathbf{0} & \mathbf{1} \\
         \end{array}\right].
     $$
+
     **[AR: I don't think the rotation part of this is correct---I know we've been through this already but it needs revision. I just removed it for the sake of compactness]**{:.color-banner}
 
  2. _Collect Data._
@@ -77,6 +79,7 @@ Our optimization algorithm is composed of the following four steps.
 
  3. _Define an error function._
     Acceleration exerted on each SU $${}^{SU_i}a_{u,d}$$ can be estimated as a composition of local acceleration, tangential acceleration and centripetal acceleration:
+
     <br/>
 
     $$^{RS}\vec{a}_{t a n_{u, d}} = ^{R S} \overrightarrow{\alpha_{d}} \times^{R S} \vec{r}_{u, d}$$
@@ -90,6 +93,7 @@ Our optimization algorithm is composed of the following four steps.
     $$^{SU_{i}}\vec{a}_{u, d} = ^{SU_{i}}\underline{R}_{R S} \cdot\left(^{R S} \vec{g}+^{R S} \vec{a}_{t a n_{u}, d}+^{R S} \vec{a}_{c p_{u, d}}\right)$$
 
     <br/>
+
     angular velocity $$\omega$$ and angular acceleration $$\alpha$$ are measured during data collection, whereas rotation matrix $$R$$ and position vector $$r$$ can be computed using the current estimated DH parameters.
     One example error function could be seen as the error between the measured accelerations from the IMUs and the estimated accelerations using the kinematic chain model for $$n_{pose}$$ poses:
     $$E = \sum_{i=1}^{n_{pose}} \sum_{j=1}^{n_{joint}} ||a^{model}_{i,j} - a^{IMU}_{i,j}||^2$$ (from [2]).
