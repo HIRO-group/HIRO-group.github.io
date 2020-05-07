@@ -10,31 +10,43 @@ excerpt_separator: <!-- More -->
 ---
 
 Heterogeneous teams of cooperative multi-robot systems have the potential to propel robotics at large toward a safer, more accessible, and lower cost future.
-Through distribution of roles among the various agents, a multi-robot system can be imbued with capabilities that are more than the sum of its parts by coordinating multiple agents to cooperatively accomplish common goals; using search and rescue as an example, cooperation between unmanned aerial and ground vehicles could increase the odds of success with larger areas covered, better mobility.
-However, autonomous coordination of robots cannot rely on predefined rules or simple control schemes.
-Robots are both generators and consumers of data, and appropriate decision-making models that map observed data to actions can endow a multi-robot system with intelligent behaviors that improve cooperation.
-Our work proposes several approaches to fully leverage multi-agent RL for autonomous robot coordination.
-
+Through distribution of roles among the various agents, a multi-robot system can be imbued with capabilities that are more than the sum of its parts by coordinating multiple agents to cooperatively accomplish common goals.
 <!-- More -->
+Using search and rescue as an example, cooperation between unmanned aerial and ground vehicles could increase the probability of success with higher probabilities of containment (larger search areas) and detection (better match of capabilities with the environment).
 
 {% include image.html url="research/multirobot/cooperative_manipulation.png" max-width="75%" description="An object too heavy or unwieldy for a single robotic arm could be manageable for two cooperating robots. Heterogeneous robots that work independently and cooperate if and when needed is a better utilization of resources and has the promise to improve efficiency." %}
 
+We envision a future where dozens of nimble, expendable, and low-cost robots can be simultaneously deployed in a variety of application scenarios.
+Our contributions will allow for robots that:
+ - require minimal supervision from the human operator,
+ - learn to cooperate autonomously to perform a variety of tasks, and
+ - collectively adapt their behavior to unforeseen circumstances.
+
+# Background
+
+A key promise of robotics is the capability to autonomously interact with the physical environment following perception and comprehension.
+To this end, there are two main research thrusts: traditional control-based approaches and the more recent model-free approaches.
+However, in multi-robot systems, the high number of degrees of freedom and the coupling of multiple kinematic and dynamic constraints pose challenges for both methodologies.
+
+Control-based methods require knowledge of system kinematics and dynamics, and are therefore difficult to employ in unstructured environments regardless of the number of robots.
+Model-free reinforcement learning (RL), conversely, takes a data-driven approach to reduce the reliance on system knowledge and has seen significant recent interest from the robotics community [1].
+However, much of this work have been in the single-robot setting—there are issues that need to be addressed before RL can be successfully applied in multi-robot systems.
+
 # Challenges
 
-One of the main challenges in intelligent robotics is interaction with the environment to achieve a goal, which motivates the question of "how a robot should learn to manipulate the world around it" [1].
 As a decision-making model, reinforcement learning (RL) has been widely studied in the multi-agent domain because of its performance in a broad range of applications.
-Compared to classical control methods for robot manipulation, RL requires less system knowledge for modeling and circumvents analytical intractability using approximations and a data-driven approach [2].
-However, research in reinforcement learning for multi-robot control is still in its infancy and plagued by the following challenges:
+Yet, research in reinforcement learning for multi-robot control is still in its infancy and plagued by the following challenges:
 
- 1. **Stability of the learning process.**
- This issue arises because an agent's observed transition function is unstable when its counterparts' policies are not stationary.
+ 1. **Stability of the learning process.**  
+ Convergence to a stationary policy is a basic requirement for a learning process.
+ However, because an agent's observed transition function is erratic when its counterparts' policies are being actively updated, this stability is not assured in a multi-agent setting.
  Instead of parallelizing the single-agent RL model, we should consider how to coordinate the robot-robot interaction as it determines the success or failure of policy learning.
 
- 2. **Alignment of individual objectives to the system-wide objective.**
- Autonomy in multi-robot systems entails not just the agents' amenability to coordinate actions with one another, but also the capability to make decisions based on the agents' personal requirements.
+ 2. **Alignment of individual objectives to the system-wide objective.**  
+ Autonomy in multi-robot systems is more than simple coordination between multiple agents; it also entails the capability to make decisions based on the agents' personal requirements.
  The proposed methods should accommodate these individual concerns without losing sight of the system-wide objective.
 
- 3. **Finding a reasonable learning objective and training framework.**
+ 3. **Finding a reasonable learning objective and training framework.**  
  The global state-value function can be optimized with centralized learning, but that results in poor scalability.
  Parallelized independent RL is sufficiently scalable, but has no performance guarantees; ignoring the equilibrium among agents might result in higher state-value functions in aggregate, but at the expense of certain agents' performance.
  Considering these trade-offs, how should we design a multi-agent RL framework?
@@ -96,5 +108,4 @@ There are a number of promising directions for future work:
 
 # References
 
-[1] Oliver Kroemer, Scott Niekum, and George Konidaris, "A review of robot learning for manipulation: Challenges, representations, and algorithms," Jul. 2019, arXiv:1907.03146.
-[2] Jens Kober, J. Andrew Bagnell, and Jan Peters, "Reinforcement learning in robotics: A survey," _The International Journal of Robotics Research_, vol. 32, no. 11, pp. 1238--1274, Sep. 2013, doi:10.1177/0278364913495721.
+[1] Jens Kober, J. Andrew Bagnell, and Jan Peters, "Reinforcement learning in robotics: A survey," _The International Journal of Robotics Research_, vol. 32, no. 11, pp. 1238--1274, Sep. 2013, doi:10.1177/0278364913495721.
