@@ -87,11 +87,11 @@ Our optimization algorithm is composed of the following four steps.
 
 {% include image.html url="research/roboskin/panda_example.png" max-width="75%" description="<b>Figure 3.</b> Calibrated IMU positions on a simulated Franka Emika Panda robot." %}
 
-## Controller for safety-oriented human-robot interaction
+## Controller for Safety-Oriented Human-Robot Interaction
 
 Calibrated SUs can be used to locate obstacles in a robot’s environment; this information can then be utilized to modify the robot’s behavior in real time. When a robot detects an obstacle, it should continue along a trajectory as long as the proximity to the obstacle does not compromise safety. The robot should avoid the object if close, or stop if there is no way to complete the task while avoiding a collision. For this purpose, we present two separate obstacle-avoidance controllers, that focus on *end-effector* and *whole body* collision avoidance respectively [3].
 
-### End-effector collision avoidance
+### End Effector Collision Avoidance
 
 The end effector’s operational-space velocity is modified with a potential field method [4] to avoid objects. A repulsive velocity vector (whose direction depends on the closest obstacle and whose magnitude is proportional to its distance) is applied at the end-effector to push it away from obstacles and avoid collisions. If an obstacle does not hinder the robot’s task, the original task-level velocity will be preserved. However, if the obstacle is too close the end-effector, its motion will stop completely.
 The repulsive vector’s magnitude is calculated by the following:
@@ -112,7 +112,7 @@ The following animation demonstrates end-effector collision avoidance where the 
 
 {% include image.html url="research/roboskin/flacco_end_effector.gif" max-width="75%" %}
 
-### Whole-body collision avoidance
+### Whole-Body Collision Avoidance
 
 To ensure safe human-robot collaboration, the robot must avoid collisions along the entirety of its body. Instead of modifying the end-effector velocity directly, as in the previous method, repulsive vectors will be used to apply kinematic constraints to joint velocities along the body of the robot.
 The constraints are computed using the following equations:
@@ -142,14 +142,14 @@ $$
 
 # Future Work
 
-## Dense Coverage of a Robot Arm with SUs
+## Dense Coverage of a Robot Arm with Skin Units
 
 In order to consistently avoid obstacles around the robot, dense skin coverage is necessary. To achieve this goal, we must efficiently distribute wiring and computational resources along the surface of the robot. This has been accomplished by related work by using rigid printed circuit boards equipped with onboard microcontrollers and redundant connections  (e.g. [2]).
 In this work, additional challenges arise due to the flexible and stretchable nature of our robotic skin that must conform to the surface it is placed on.
 
 Our next near-term milestone is to densely cover a portion of a robotic arm with SUs and consistently avoid collision from any direction. This step will require a concerted system-level effort from hardware and electronics design (i.e. ensure measurement fidelity, reduce the amount of wiring, and allow a multitude of sensors to be placed on the robot with ease) to control and algorithm development.
 
-## Robotic control using simulated SUs
+## Robotic Control Using Simulated Skin Units
 
 In parallel to the aforementioned work, we aim at expanding our current controller to avoid dynamic and static obstacles using proximity sensor information in simulation.
 Simulated robotic skin will allow us to rapidly prototype different algorithms and easily share our work with collaborators that don’t have access to the physical hardware.
