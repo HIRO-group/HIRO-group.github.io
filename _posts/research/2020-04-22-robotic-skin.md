@@ -97,7 +97,7 @@ Our optimization algorithm is composed of the following four steps:
 
 Calibrated SUs can be used to locate obstacles in a robot’s environment; this information can then be utilized to modify the robot’s behavior in real time. When a robot detects an obstacle, it should continue along a trajectory as long as the proximity to the obstacle does not compromise safety. The robot should avoid the object if close, or stop if there is no way to complete the task while avoiding a collision. For this purpose, we present two separate obstacle-avoidance controllers, that focus on *end-effector* and *whole body* collision avoidance respectively (based on [3]).
 
-### End Effector Collision Avoidance
+### End-Effector Collision Avoidance
 
 The end effector’s operational-space velocity is modified with a potential field method [4] to avoid objects. A repulsive velocity vector (whose direction depends on the closest obstacle and whose magnitude is proportional to its distance) is applied at the end-effector to push it away from obstacles and avoid collisions. If an obstacle does not hinder the robot’s task, the original task-level velocity will be preserved. However, if the obstacle is too close the end-effector, its motion will stop completely.
 The repulsive vector’s magnitude is calculated by the following:
