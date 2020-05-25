@@ -47,7 +47,12 @@
                     {% for elem in cvitem.elems %}
                         <div class="row cv-item">
                             <div class="col-md-3">
+                                {% if elem.start %}
                                 <h3 class="inlineifprinted">{{elem.start}} - {{elem.end}}</h3>
+                                {% endif %}
+                                {% if elem.when %}
+                                <h3 class="inlineifprinted">{{elem.when}}</h3>
+                                {% endif %}
                                 {% if elem.location-link %}<h4 class="inlineifprinted"><a href="{{elem.location-link}}" target="_blank">{{elem.location}}</a></h4>
                                 {% else %}<h4 class="inlineifprinted">{{elem.location}}</h4>
                                 {% endif %}
