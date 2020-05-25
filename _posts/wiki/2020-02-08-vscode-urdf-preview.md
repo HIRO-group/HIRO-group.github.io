@@ -39,7 +39,7 @@ code .
 
 # 2 Installing the Extension
 
-Once VS Code is up and running, type `Ctrl+Shift+X` to go to the Marketplace, where we can get some awesome extensions. Here's what the Marketplace looks like (it's the section on he left):
+Once VS Code is up and running, type `Ctrl+Shift+X` to go to the Marketplace, where we can get some awesome extensions. Here's what the Marketplace looks like (it's the section on the left):
 
 {% include image.html url="misc/vscode_extensions.jpg" max-width="100%" description="VS Code's Marketplace" %}
 
