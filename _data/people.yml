@@ -140,6 +140,7 @@
    phone: +1 (217) 778 5159
    email: byungjin.kim@colorado.edu
    pic: bj.jpg
+
  - name: Kyle Pfromer
    role: undergrad
    linkedin: kyle-pfromer
@@ -152,6 +153,14 @@
    email: liru4968@colorado.edu
    pic: liyang.jpg
 
+
+ - name: Dhruv Patel 
+   role: undergrad
+   linkedin: dhruvpatelaj
+   phone: +1 (720) 526 9264
+   email: dhruv.patel@colorado.edu
+   pic: dhruvpatel.jpg
+   
 # Collaborators
 # [in order of first appearance in the lab]
 
