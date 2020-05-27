@@ -77,13 +77,6 @@
    email: garrett.pierson@colorado.edu
    pic: garrett.jpg
 
- - name: Benjamin Page
-   role: undergrad
-   linkedin: benjamin-page-5678aa158
-   phone: +1 (248) 224 5310
-   email: bepa0041@colorado.edu
-   pic: bpage.jpg
-
  - name: Eleanor Sarder
    role: undergrad
    linkedin: ellasarder
@@ -189,6 +182,13 @@
 
  - name: Sousheel Vunnam
    role: alumni
+   graduated: Spring 2020 [B.S.]
    phone: +1 (720) 236 2779
    email: sousheel.vunnam@colorado.edu
    pic: sousheel.jpg
+
+ - name: Benjamin Page
+   role: undergrad
+   phone: +1 (248) 224 5310
+   email: bepa0041@colorado.edu
+   pic: bpage.jpg
