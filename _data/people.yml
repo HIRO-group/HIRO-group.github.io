@@ -37,12 +37,7 @@
 # Graduate Students
 # [in order of first appearance in the lab]
 
- - name: Chi-ju Wu
-   role: grad
-   url: http://sayter99.github.io/
-   phone: +1 (480) 842-9667
-   email: chiju.wu@colorado.edu
-   pic: sayter.jpg
+
 
  - name: Krishna Chaitanya Kodur
    role: grad
@@ -82,13 +77,6 @@
    email: garrett.pierson@colorado.edu
    pic: garrett.jpg
 
- - name: Jacob Fiola
-   role: undergrad
-   linkedin: jacob-fiola
-   phone: +1 (913) 653-3758
-   email: jafi8633@colorado.edu
-   pic: jfiola.jpg
-
  - name: Benjamin Page
    role: undergrad
    linkedin: benjamin-page-5678aa158
@@ -117,22 +105,10 @@
    email: william.wang@colorado.edu
    pic: wwang.jpg
 
- - name: Sousheel Vunnam
-   role: undergrad
-   linkedin: sousheel-vunnam
-   phone: +1 (720) 236 2779
-   email: sousheel.vunnam@colorado.edu
-   pic: sousheel.jpg
-
  - name: Kyle Yamek
    role: undergrad
    email: kyle.yamek@colorado.edu
    pic: kyle.jpg
-
- - name: Rebecca Coryell
-   role: undergrad
-   email: rebecca.coryell@colorado.edu
-   pic: rebeccac.jpg
    
  - name: Byungjin (BJ) Kim
    role: undergrad
@@ -140,19 +116,6 @@
    phone: +1 (217) 778 5159
    email: byungjin.kim@colorado.edu
    pic: bj.jpg
-
- - name: Kyle Pfromer
-   role: undergrad
-   linkedin: kyle-pfromer
-   phone: +1 (720) 402 0069
-   email: kyle.pfromer@colorado.edu
-   pic: kylepfromer.jpg
-   
- - name: Liyang Ru
-   role: undergrad
-   email: liru4968@colorado.edu
-   pic: liyang.jpg
-
 
  - name: Dhruv Patel 
    role: undergrad
@@ -209,3 +172,23 @@
    phone: +1 (206) 334-4724
    email: saso7344@colorado.edu
    pic: sayali.jpg
+
+ - name: Chi-ju Wu
+   role: alumni
+   graduated: Spring 2020 [M.S.]
+   phone: +1 (480) 842-9667
+   email: chiju.wu@colorado.edu
+   pic: sayter.jpg
+
+ - name: Jacob Fiola
+   role: alumni
+   graduated: Spring 2020 [B.S.]
+   phone: +1 (913) 653-3758
+   email: jafi8633@colorado.edu
+   pic: jfiola.jpg
+
+ - name: Sousheel Vunnam
+   role: alumni
+   phone: +1 (720) 236 2779
+   email: sousheel.vunnam@colorado.edu
+   pic: sousheel.jpg
