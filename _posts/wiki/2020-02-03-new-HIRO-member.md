@@ -15,7 +15,7 @@ subcategory: news
 **Want do to robotics?**{:.color-banner}
 The following is a list of things to do if you are new to the {{ site.title }}. Please consider this as a non-exhaustive cheat sheet that is modified over time. As such, feel free to edit it if there is anything you would like to add.
 
-For _{{ site.meetings.semester }}_, we will be holding group meetings **{{ site.meetings.location }}**{:.color-banner}. {{ site.meetings.note }} Feel free to stop by if you want to have a chat!!
+For _{{ site.meetings.semester }}_, we will be holding group meetings **{{ site.meetings.location }}**{:.color-banner}{{ site.meetings.note }}. Feel free to stop by if you want to have a chat!!
 
 # 1 Preliminaries
 
