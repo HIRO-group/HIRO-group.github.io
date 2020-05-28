@@ -37,8 +37,6 @@
 # Graduate Students
 # [in order of first appearance in the lab]
 
-
-
  - name: Krishna Chaitanya Kodur
    role: grad
    linkedin: kodur-krishna-chaitanya
@@ -102,7 +100,7 @@
    role: undergrad
    email: kyle.yamek@colorado.edu
    pic: kyle.jpg
-   
+
  - name: Byungjin (BJ) Kim
    role: undergrad
    linkedin: bjkim00
@@ -110,13 +108,13 @@
    email: byungjin.kim@colorado.edu
    pic: bj.jpg
 
- - name: Dhruv Patel 
+ - name: Dhruv Patel
    role: undergrad
    linkedin: dhruvpatelaj
    phone: +1 (720) 526 9264
    email: dhruv.patel@colorado.edu
    pic: dhruvpatel.jpg
-   
+
 # Collaborators
 # [in order of first appearance in the lab]
 
@@ -171,6 +169,7 @@
    graduated: Spring 2020 [M.S.]
    phone: +1 (480) 842-9667
    email: chiju.wu@colorado.edu
+   nowat: Zoox
    pic: sayter.jpg
 
  - name: Jacob Fiola
@@ -185,6 +184,7 @@
    graduated: Spring 2020 [B.S.]
    phone: +1 (720) 236 2779
    email: sousheel.vunnam@colorado.edu
+   nowat: Amazon
    pic: sousheel.jpg
 
  - name: Benjamin Page
@@ -192,4 +192,3 @@
    phone: +1 (248) 224 5310
    email: bepa0041@colorado.edu
    pic: bpage.jpg
-   
