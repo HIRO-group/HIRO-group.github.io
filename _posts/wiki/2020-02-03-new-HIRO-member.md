@@ -19,12 +19,17 @@ For _{{ site.meetings.semester }}_, we will be holding group meetings **{{ site.
 
 # 1 Preliminaries
 
-Prospective new members should do the following:
- 1. Find a supervisor.
- 2. Find a project.
- 3. Communicate with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) regarding your project.
+Prospective new members of the lab (e.g. undergraduate students or master students looking to work on an Independent Study) should take the following steps before moving to the next section:
 
-Once you are done with these preliminary steps, follow the instructions in the next section to finalize your membership. **You are expected to complete these tasks within 2 days of joining the group.**{:.color-banner}
+ 1. Find a project. There are multiple ways to find a project to work on, including the following (in chronological order):
+   * Read about our main research threads [here](). The page is still under development, but it could be a good start to quickly gain high-level knowledge.
+   * Take a look at our previous published work available [here](), identify some papers that you are interested in, read them and try to come up with ways to potentially improve them.
+   * Reach out to the senior PhD students and ask them what they are up to--see [here](). Feel free to do so via email or by joining our lab meetings. This is also a great way to find a mentor!
+ 2. Find a supervisor. Every junior student primarily works under the supervision of a senior student; this allows the lab to gracefully scale in size, but most importantly it allows you to gain necessary exposure to research with close supervision from somebody who is already experienced with it. It is a fundamental step on the path to research independence!!
+ 3. Communicate with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) regarding your project.
+ 4. Lastly, you should consider attending one of the robotics classes that we regularly offer in the academic year. This will dramatically accelerate the process of picking up the necessary robotics/AI skills needed to perform research in the HIRO Group!
+
+Once you are done with these preliminary steps, follow the instructions in the next section to finalize your membership. **You are expected to complete these tasks within 2 days of joining the group**{:.color-banner}--as in, the following section should not take you more than half an hour of work!
 
 # 2 New members
 
