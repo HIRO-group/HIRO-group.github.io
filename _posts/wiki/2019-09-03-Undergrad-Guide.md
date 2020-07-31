@@ -14,8 +14,7 @@ author: Garrett Pierson
 
 This guide is intended for new group members with limited exposure to
 ROS and other tools used in the HIRO Group. This page in conjunction with the
-[new member to-do list]({% post_url wiki/2020-02-03-new-HIRO-member %}) page will help you through setting up all of the software
-so that you can get started working on your project with minimal frustration.
+[new member to-do list]({% post_url wiki/2020-07-31-new-hiro-member %}) page will help you through setting up all of the software so that you can get started working on your project with minimal frustration.
 
 # When Should I Ask For Help?
 
@@ -97,7 +96,7 @@ tutorial first to learn some basic command line tools.
       target_link_libraries(target_name ${catkin_LIBRARIES})
       ~~~
 
-    * Take a look at the Cmake tutorials linked in the [new member to-do list]({% post_url wiki/2020-02-03-new-HIRO-member %}) section.
+    * Take a look at the Cmake tutorials linked in the [new member to-do list]({% post_url wiki/2020-07-31-new-hiro-member %}) section.
     * Make sure to pay attention to publishers and subscribers as they are essential to ROS.
 
 ## 4. Get something moving! (See Section 5 for Example Code)
