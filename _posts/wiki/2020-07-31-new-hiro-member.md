@@ -29,7 +29,7 @@ Prospective new members of the lab (e.g. undergraduate students or master studen
  3. Communicate with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) regarding your project.
  4. Lastly, you should consider attending one of the robotics classes that we regularly offer in the academic year. This will dramatically accelerate the process of picking up the necessary robotics/AI skills needed to perform research in the HIRO Group!
 
-Once you are done with these preliminary steps, follow the instructions in the next section to finalize your membership. **You are expected to complete these tasks within 2 days of joining the group**{:.color-banner}--as in, the following section should not take you more than half an hour of work!
+Once you are done with these preliminary steps, follow the instructions in the next section to finalize your membership. You are expected to complete these tasks within 2 days of joining the group--as in, the following section should not take you more than half an hour of work!
 
 # 2 New members
 
