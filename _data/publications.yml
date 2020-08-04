@@ -1,3 +1,9 @@
+ - title: "Cooperative Control of Mobile Robots with Stackelberg Learning"
+   authors: Joewie J. Koh*, Guohui Ding*, Christoffer Heckman, Lijun Chen, Alessandro Roncone
+   year: 2020
+   venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
+   where: Las Vegas, NV, U.S.A. October 25-29
+   pdf: "2020_Koh_IROS_SLiCC"
  - title: "Distributed Reinforcement Learning for Cooperative Multi-Robot Object Manipulation"
    authors: Guohui Ding*, Joewie J. Koh*, Kelly Merckaert, Bram Vanderborght, Marco M. Nicotra, Christoffer Heckman, Alessandro Roncone, Lijun Chen
    year: 2020
