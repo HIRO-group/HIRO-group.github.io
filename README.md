@@ -1,4 +1,3 @@
-
 <br>
 <p align="center">
   <img alt="HIRO Group" src="https://hiro-group.ronc.one/img/logo-long-white-text.svg" width="200"/>
