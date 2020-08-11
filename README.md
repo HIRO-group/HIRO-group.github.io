@@ -1,6 +1,6 @@
 <br>
 <p align="center">
-  <img alt="HIRO Group" src="https://hiro-group.ronc.one/img/logo-long-white-text.svg" width="70%"/>
+  <img alt="HIRO Group" src="https://github.com/HIRO-group/HIRO-group.github.io/raw/dev/matt/add-readme/img/logo-square.png" width="30%"/>
 </p>
 <br>
 
