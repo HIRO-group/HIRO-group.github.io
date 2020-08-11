@@ -6,7 +6,7 @@
 
 # HIRO Group Official Website
 
-Check out the deployed site [here](hiro-group.ronc.one/).
+Check out the deployed site [here](https://hiro-group.ronc.one/).
 
 # Installation
 
