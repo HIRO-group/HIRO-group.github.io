@@ -1,9 +1,3 @@
-<br>
-<p align="center">
-  <img alt="HIRO Group" src="https://github.com/HIRO-group/HIRO-group.github.io/raw/dev/matt/add-readme/img/logo-square.png" width="25%"/>
-</p>
-<br>
-
 # HIRO Group Official Website
 
 Check out the deployed site [here](https://hiro-group.ronc.one/).
