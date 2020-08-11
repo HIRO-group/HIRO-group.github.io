@@ -1,3 +1,9 @@
+<br>
+<p align="center">
+  <img alt="HIRO Group" src="img/long-logo-white-text-non-transparent.svg" width="50%"/>
+</p>
+<br>
+
 # HIRO Group Official Website
 
 Check out the deployed site [here](https://hiro-group.ronc.one/).
