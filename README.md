@@ -10,8 +10,7 @@ Check out the deployed site [here](https://hiro-group.ronc.one/).
 
 # Installation
 
-Follow the steps (based on your OS) at https://jekyllrb.com/docs/
-to install Jekyll.
+Follow the steps (based on your OS) [here](https://jekyllrb.com/docs/) to install Jekyll.
 
 ## Local
 
