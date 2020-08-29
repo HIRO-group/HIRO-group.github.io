@@ -36,7 +36,7 @@ For _{{ site.meetings.semester }}_, we will be holding group meetings **{{ site.
     - CSCI 7000: Deep Reinforcement Learning and Robotics
 
 
-# 2 New members
+# 2 New Members
 
 Once you are **done with the preliminary steps** above, follow the instructions here to finalize your membership. You are expected to complete these tasks **within 2 days** of joining the group---these should not take you more than half an hour of work!
 
@@ -56,7 +56,7 @@ Once you are **done with the preliminary steps** above, follow the instructions 
  3. Joewie will add you to our [GitHub organization](https://github.com/HIRO-group), Google Calendar, Google Drive, and [mailing list](https://lists.colorado.edu/sympa/info/hiro-group).
  4. Make your membership to the GitHub organization public.
 
-## 2.3 Lab agreements
+## 2.3 Lab Agreements
 
  1. Carefully read the lab agreements. There are currently three documents available:
     - [Lab etiquette](/docs/HIRO-Group-Lab-Etiquette.pdf), shared among all students and people working in the lab, with the rules of working in the lab
@@ -65,7 +65,7 @@ Once you are **done with the preliminary steps** above, follow the instructions 
  2. Following your previous email, Joewie will also send you a DocuSign link.
  3. Follow the link to sign the agreements. Prof. Roncone will be automatically notified to sign it after you have signed.
 
-## 2.4 Lab access
+## 2.4 Lab Access
 
  1. Write an email to **[Chantel Lehl](mailto:chantel.lehl@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) and [Joewie Koh](mailto:joewie.koh@colorado.edu) in Cc**{:.color-banner}.
  2. Ask to be granted access to ECST 322, ECES 116 and ECES 111. Please include the following information:
@@ -75,13 +75,13 @@ Once you are **done with the preliminary steps** above, follow the instructions 
     - CU login name
     - Email
 
-## 2.5 Group website
+## 2.5 Group Website
 
  1. Do a Pull Request [PR] on [this repository](https://github.com/HIRO-group/HIRO-group.github.io) to add your data to [this file](https://github.com/HIRO-group/HIRO-group.github.io/blob/master/_data/people.yml) and a picture of you to [this folder](https://github.com/HIRO-group/HIRO-group.github.io/tree/master/img/people). **The picture needs to be square, and not bigger than 400x400 px.**{:.color-banner}
  2. If you're not familiar with the PR workflow, you can refer to [this guide](https://github.com/HIRO-group/HIRO-group.github.io/blob/master/CONTRIBUTING.md).
 
 
-# 3 Optional steps
+# 3 Optional Steps
 
  1. To access research papers off-campus, set up the [CU Boulder VPN client](https://oit.colorado.edu/services/network-internet-services/vpn) on your machine. Alternatively, drag the following link to your bookmarks toolbar: [CU Proxy](javascript:void(location.href='https://colorado.idm.oclc.org/login?url='+location.href)). Whenever you come across a paywall, simply click on the bookmark to access the resource through the University Libraries proxy.
  2. If you're serious about a career in robotics, you are highly encouraged to subscribe to the [robotics-worldwide](http://duerer.usc.edu/mailman/listinfo.cgi/robotics-worldwide) and [euRobotics](https://www.eu-robotics.net/eurobotics/newsroom/mailing-list/index.html) mailing lists.
