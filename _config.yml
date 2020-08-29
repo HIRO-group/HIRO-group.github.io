@@ -14,12 +14,12 @@ social:
   - title: github-alt
     url: https://github.com/HIRO-group
   - title: slack
-    url: https://arpg.slack.com
+    url: https://cu-hiro.slack.com
 
 meetings:
-  semester: Summer 2020
-  location: via Zoom on Thursdays at 2:30 pm
-  note: " — please contact us for the meeting ID"
+  semester: Fall 2020
+  location: via [Zoom](https://cuboulder.zoom.us/j/92868293743) on Tuesdays at 3:45 pm
+  note: "---please contact us for the meeting password"
 
 logo: /img/logo-square.svg
 logopng: /img/logo-square.png
