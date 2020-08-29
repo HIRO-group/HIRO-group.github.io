@@ -19,7 +19,7 @@ For _{{ site.meetings.semester }}_, we will be holding group meetings **{{ site.
 
 # 1 Preliminaries
 
-**Prospective new members of the lab (e.g., undergraduate students or master's students looking to work on an Independent Study) should take the following steps before moving to the next section:**
+**Prospective new members of the lab (e.g., undergraduate students or master's students looking to work on an Independent Study) should take the following steps before moving to the next section:**{:.color-banner}
 
  1. Find a project. There are multiple ways to find a project to work on, including the following (in chronological order):
    * Read about our main research threads [here]({{ site.url }}/research). The page is still under development, but it could be a good start to quickly gain high-level knowledge.
@@ -38,12 +38,12 @@ For _{{ site.meetings.semester }}_, we will be holding group meetings **{{ site.
 
 # 2 New Members
 
-Once you are **done with the preliminary steps** above, follow the instructions here to finalize your membership. You are expected to complete these tasks **within 2 days** of joining the group---these should not take you more than half an hour of work!
+Once you are **done with the preliminary steps**{:.color-banner} above, follow the instructions here to finalize your membership. You are expected to complete these tasks **within 2 days**{:.color-banner} of joining the group---these should not take you more than half an hour of work!
 
 ## 2.1 Slack
 
- 1. Your supervisor will send you an invitation to our [Slack](https://cu-hiro.slack.com).
- 2. Accept it, and say hi in **#general**! Do mention who you're working with, and a brief description of what you'll be working on.
+ 1. Your supervisor will send you an invitation to our [Slack workspace](https://cu-hiro.slack.com).
+ 2. Accept it, and say hi in `#general`! Do mention who you're working with, and a brief description of what you'll be working on.
  3. Ideally, [install Slack on your machine](https://slack.com/download) as well as on your phone. This helps you to easily keep up with what happens in the group, and you'll also be less likely to miss important messages!
 
 ## 2.2 GitHub, Google Calendar, Google Drive, and Mailing List
@@ -52,7 +52,7 @@ Once you are **done with the preliminary steps** above, follow the instructions 
  2. Send an email to **[Joewie Koh](mailto:joewie.koh@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) in Cc**{:.color-banner}. Include your:
     - GitHub username
     - Preferred email address for Google Calendar
-    - Your **firstname.lastname@colorado.edu** email alias for Google Drive and our mailing list
+    - Your **firstname.lastname@colorado.edu**{:.color-banner} email alias for Google Drive and our mailing list
  3. Joewie will add you to our [GitHub organization](https://github.com/HIRO-group), Google Calendar, Google Drive, and [mailing list](https://lists.colorado.edu/sympa/info/hiro-group).
  4. Make your membership to the GitHub organization public.
 
