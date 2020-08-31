@@ -43,33 +43,12 @@
 # Graduate Students
 # [in order of first appearance in the lab]
 
- - name: Krishna Chaitanya Kodur
-   role: grad
-   linkedin: kodur-krishna-chaitanya
-   phone: +1 (682) 246-0733
-   email: kodur.chaitanya@colorado.edu
-   pic: krishna.jpg
-
- - name: Mayank Joshi
-   role: grad
-   linkedin: mayank-joshi-768650b1
-   phone: +1 (720) 757-2879
-   email: mayank.joshi@colorado.edu
-   pic: mayank.jpg
-
  - name: Mohana Krishna Sanagavarapu
    role: grad
    url: https://mohankrishna15.github.io/
    phone: +1 (720) 401-5972
    email: mohana.sanagavarapu@colorado.edu
    pic: mohan.jpg
-
- - name: Ander Aramburu Fernandez
-   role: grad
-   url: https://github.com/aran159
-   phone: +34 695 769 135
-   email: ander.aranfdz@gmail.com
-   pic: ander.jpg
 
  - name: Manjunath Rao
    role: grad
@@ -144,6 +123,13 @@
    email: abhidip.bhattacharyya@colorado.edu
    pic: abhidip.jpg
 
+ - name: Ander Aramburu Fernandez
+   role: collaborator
+   url: https://github.com/aran159
+   phone: +34 695 769 135
+   email: ander.aranfdz@gmail.com
+   pic: ander.jpg
+
 # Alumni
 # [in order of when they left the lab]
 
@@ -175,7 +161,7 @@
    email: saso7344@colorado.edu
    pic: sayali.jpg
 
- - name: Chi-ju Wu
+ - name: Chi-Ju Wu
    role: alumni
    graduated: Spring 2020 [M.S.]
    phone: +1 (480) 842-9667
@@ -203,3 +189,18 @@
    phone: +1 (248) 224 5310
    email: bepa0041@colorado.edu
    pic: bpage.jpg
+
+ - name: Mayank Joshi
+   role: alumni
+   linkedin: mayank-joshi-768650b1
+   phone: +1 (720) 757-2879
+   email: mayank.joshi@colorado.edu
+   pic: mayank.jpg
+
+ - name: Krishna Chaitanya Kodur
+   role: alumni
+   graduated: Summer 2020 [M.S.]
+   linkedin: kodur-krishna-chaitanya
+   phone: +1 (682) 246-0733
+   email: kodur.chaitanya@colorado.edu
+   pic: krishna.jpg
