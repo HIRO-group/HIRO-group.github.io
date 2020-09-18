@@ -51,10 +51,10 @@
 
  - name: Mike Miles
    role: phd
-   url: 
+   url: http://www.mjmiles.com
    office: ECES 111
    phone: 
-   email: 
+   email: mike.miles@colorado.edu
    pic: Mike_Miles.jpg
 
  - name: Kyle Harlow
@@ -203,9 +203,6 @@
    role: alumni
 
  - name: Soham Banerjee
-   role: alumni
-
- - name: Dana Hughes
    role: alumni
 
  - name: Ryan Leonard
