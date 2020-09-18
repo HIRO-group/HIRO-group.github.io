@@ -8,7 +8,7 @@
 
             {% if role == person.role %}
               {% if role == "alumni" %}
-              <li>{% if person.url %}<a href="{{ person.url }}" target="_blank">{% if person.doctor %}{{ Dr. }}{% endif %}{{ person.name }}</a>{% else %}{% if person.doctor %}{{ Dr. }}{% endif %}{{ person.name }}{% endif %}{% if person.dates %}{{(person.dates)}}{% endif %},{% if person.nowat %}, now {{ person.now }}{% endif %}.</li>
+              <li>{% if person.url %}<a href="{{ person.url }}" target="_blank">{% if person.doctor == "true" %}{{ Dr. }}{% endif %}{{ person.name }}</a>{% else %}{% if person.doctor == "true" %}{{ Dr. }}{% endif %}{{ person.name }}{% endif %}{% if person.dates %}{{ (person.dates)}}{% endif %}{% if person.now %}, now {{ person.now }}{% endif %}</li>
             {% else %}
             <div class="card mb-3">
               <div class="row no-gutters">
