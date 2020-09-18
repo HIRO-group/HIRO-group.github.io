@@ -136,6 +136,7 @@
    dates: 2014-2019
    thesis: Information Theory and Probabilistic Modeling for Robot Localization
    advisor: Christoffer Heckman
+   now: with PickNik.
 
  - name: Sina Aghli
    doctor: true
@@ -161,6 +162,14 @@
    advisor: Gabe Sibley
    now: with Amazon Robotics.
 
+ - name: Mike Kasper
+   doctor: true
+   role: alumni
+   dates: 2015-2020
+   thesis: Visual Perception in Challenging Illumination Conditions
+   advisor: Christoffer Heckman
+   now: with Amazon Robotics.
+
    #- name: Nima Keivan
    #role: alumni
    #dates: 2012-2017
@@ -173,7 +182,7 @@
    #dates: 2010-2016
    #thesis: Scalable Unsupervised Dense Objects Discovery, Detection, Tracking and Reconstruction
    #advisor: Gabe Sibley
-   #now: a research scientist at DJI.
+   #now: at DJI.
 
    #- name: Mahsa Ghafarianzadeh
    #doctor: true
@@ -181,7 +190,7 @@
    #dates: 2010-2017
    #thesis: Towards Temporal Semantic Scene Understanding
    #advisor: Christoffer Heckman and Gabe Sibley
-   #now: with Zoox, Inc.
+   #now: with Zoox.
 
  - name: Carl Stahoviak
    role: alumni
