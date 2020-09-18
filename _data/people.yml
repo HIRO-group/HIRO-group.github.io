@@ -25,14 +25,6 @@
    email: 
    pic: Steve_McGuire.jpg
 
- - name: Mike Kasper
-   role: phd
-   url: 
-   office: 
-   phone: 
-   email: 
-   pic: Kasper_Mike.jpg
-
  - name: Cecilia Mauceri
    role: phd
    url: 
@@ -89,46 +81,21 @@
    email: 
    pic: Biggie_Harel.jpg
 
- - name: Caleb Escobedo
-   role: phd
-   url: 
-   office: ECES 111
-   phone: 
-   email: 
-   pic: Escobedo_Caleb.jpg
-
  - name: Daniel Torres
-   role: undergrad
+   role: grad
    url: 
    office: ECES 111
    phone: 
    email: 
    pic: Torres_Daniel.jpg
-   
- - name: Alecio Madrid
+
+ - name: Kristen Such
    role: phd
    url: 
    office: ECES 111
    phone: 
    email: 
    pic: 
-
- - name: Dorothea French
-   role: undergrad
-   url: 
-   office: ECES 111
-   phone: 
-   email: 
-   pic: Dorothea_French.jpg
-   project: I am working on building a radio beacon deployment mechanism for the Sub-T challenge robots. I have worked on initial modeling and prototyping, and am currently in charge of the software side. The project uses arduino and ROS to control stepper motors, allowing for the gentle lowering of the beacons onto the ground.
-   
- - name: Silas Viskovich
-   role: undergrad
-   office: ECES 111
-   phone: 
-   email: 
-   pic: Silas_Viskovich.jpg
-   project: As an Engineer of ARPG beginning in the Fall of 2019, I have worked on the design and manufacturing of mechanical systems to provide support to team MARBLE in preparation for the DARPA challenge. My team's first project involved the design and fabrication of a system to package, place and extend a set of transmitter beacons from a group of autonomous vehicles. It has been a pleasure to work alongside some of the Post Doctoral Researchers such as Dr. McGuire and I look forward to future challenges!
 
  - name: Greg Lund
    role: undergrad
@@ -139,30 +106,16 @@
    pic: Greg_Lund.jpg
    project: Since joining ARPG in Fall 2019, I have been helping support the DARPA challenge team MARBLE through building mechanical systems. I have mostly been working alongside the other Research Assistants, and Dr. McGuire. The first project that I have been helping with is to design and build a system to stow, deploy and extend a set of radio beacons from some of the ground vehicles. It has been awesome to work with ARPG so far and I'm looking forward to see what comes in the future!
 
- - name: Amit Rege
-   role: grad
-   office: ECES 111
-   phone: 
-   email: 
-   url: http://amitrege.github.io
-   project: I am a part of Team MARBLE competing in the DARPA Subterranean Challenge. I am involved in the design and implementation of the object detection pipeline which allows robots to localize certain objects in environments such as tunnels, mines and caves.
-   pic: Amit_Rege.jpg
-   
  - name: Wyatt Raich
-   role: grad
-   url: 
-   office: ECES 111
-   phone: 
-   email: 
-   pic: Wyatt_Raich.jpg
-   
+   role: alumni
+
  - name: Sam Bateman
-   role: undergrad
-   office: ECES 111
+   role: alumni
    url: https://bateman.io/
    project: I am leveraging my studies in computer science, robotics and applied mathematics to incorporate semantic information into probabilistic dynamic SLAM to improve both performance and robustness in long term, real world deployments.
    pic: Sam_Bateman.jpg
-   
+   now: at Nuro.
+
  - name: Nikolaas Bender
    role: undergrad
    office: ECES 111
@@ -176,60 +129,75 @@
    phone: 
    email: 
    pic: Cesar_Galan.jpg
-   
+
  - name: John Stechschulte
+   doctor: true
    role: alumni
    dates: 2014-2019
    thesis: Information Theory and Probabilistic Modeling for Robot Localization
    advisor: Christoffer Heckman
+   now: with PickNik.
 
  - name: Sina Aghli
+   doctor: true
    role: alumni
    dates: 2012-2018
    thesis: Model Identification and Control of Autonomous Ground Vehicles
    advisor: Christoffer Heckman
-   now: Now an instructor at University of Colorado Boulder.
+   now: an instructor at the University of Colorado Boulder.
 
  - name: Fernando Nobre
+   doctor: true
    role: alumni
    dates: 2014-2018
    thesis: Robust Self-Calibration and Mapping for Long Term Autonomy
    advisor: Christoffer Heckman
-   now: Now an engineer at robotics startup Canvas Technologies in Boulder, CO.
+   now: with Amazon Robotics.
 
  - name: Juan Falquez
+   doctor: true
    role: alumni
    dates: 2010-2018
    thesis: Towards Robust Dense Visual Simultaneous Localization and Mapping (SLAM)
    advisor: Gabe Sibley
-   now: Now a co-founder at robotics startup¬†Canvas Technologies in Boulder, CO.
+   now: with Amazon Robotics.
 
- - name: Nima Keivan
+ - name: Mike Kasper
+   doctor: true
    role: alumni
-   dates: 2012-2017
-   thesis: Monocular Visual-Inertial SLAM and Self Calibration for Long Term Autonomy
-   advisor: Gabe Sibley
-   now: Now a co-founder at robotics startup¬†Canvas Technologies in Boulder, CO.
+   dates: 2015-2020
+   thesis: Visual Perception in Challenging Illumination Conditions
+   advisor: Christoffer Heckman
+   now: with Amazon Robotics.
 
- - name: Lu Ma
-   role: alumni
-   dates: 2010-2016
-   thesis: Scalable Unsupervised Dense Objects Discovery, Detection, Tracking and Reconstruction
-   advisor: Gabe Sibley
-   now: Now a research scientist at DJI.
+   #- name: Nima Keivan
+   #role: alumni
+   #dates: 2012-2017
+   #thesis: Monocular Visual-Inertial SLAM and Self Calibration for Long Term Autonomy
+   #advisor: Gabe Sibley
+   #now: with Amazon Robotics.
 
- - name: Mahsa Ghafarianzadeh
-   role: alumni
-   dates: 2010-2017
-   thesis: Towards Temporal Semantic Scene Understanding
-   advisor: Christoffer Heckman and Gabe Sibley
-   now: Now at a self-driving car startup in Menlo Park, CA.
-   
+   # - name: Lu Ma
+   #role: alumni
+   #dates: 2010-2016
+   #thesis: Scalable Unsupervised Dense Objects Discovery, Detection, Tracking and Reconstruction
+   #advisor: Gabe Sibley
+   #now: at DJI.
+
+   #- name: Mahsa Ghafarianzadeh
+   #doctor: true
+   #role: alumni
+   #dates: 2010-2017
+   #thesis: Towards Temporal Semantic Scene Understanding
+   #advisor: Christoffer Heckman and Gabe Sibley
+   #now: with Zoox.
+
  - name: Carl Stahoviak
    role: alumni
    dates: 2017-2019
    thesis: An Instantaneous 3D Ego-Velocity Measurement Algorithm for Frequency Modulated Continuous Wave (FMCW) Doppler Radar Data
    advisor: Christoffer Heckman
+   now: with Ball Aerospace.
 
  - name: Boston Cleek
    role: alumni
@@ -265,4 +233,7 @@
    role: alumni
 
  - name: Yang Li
+   dates: 2016-2018
    role: alumni
+   doctor: true
+   now: at Waymo.
