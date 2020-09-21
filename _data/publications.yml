@@ -4,13 +4,13 @@
 #   venue: 
 #   pdf: 
 
-- title: "Better Together: Online Probabilistic Clique Change Detection in 3D Landmark-Based Maps"
+ - title: "Better Together: Online Probabilistic Clique Change Detection in 3D Landmark-Based Maps"
    authors: "S. Bateman, K. Harlow, C. Heckman"
    year: 2020
    venue: "International Conference on Intelligent Robots and Systems"
    pdf: "/papers/2008.00372.pdf"
 
-- title: "Learning to Calibrate: Reinforcement Learning for Guided Calibration of Visual-Inertial Rigs"
+ - title: "Learning to Calibrate: Reinforcement Learning for Guided Calibration of Visual-Inertial Rigs"
    authors: "F. Nobre, C. Heckman"
    year: 2019
    venue: "International Journal of Robotics Research"
