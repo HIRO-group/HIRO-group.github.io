@@ -50,7 +50,7 @@
    authors: "S.J. McGuire and P.M. Furlong and T. Fong and C. Heckman and D.
     Szafir and S. Julier and N. Ahmed"
    year: 2019
-   venue: IEEE Robotics and Automation Letters
+   venue: "IEEE Robotics and Automation Letters"
    pdf: "/papers/McGuire-EverybodyNeeds-AsPublished.pdf"
 
  - title: "Robust low-overlap {3-D} point cloud registration for outlier

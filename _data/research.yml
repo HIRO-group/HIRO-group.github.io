@@ -77,5 +77,5 @@
    blurb: "ARPG is a component of team MARBLE, a funded participant in the DARPA Subterranean Challenge. We are providing expertise in autonomy, perception, and navigation. The project kicked off in September 2018 and is ongoing, with competition events in August 2019 onward."
    webpage: http://subtchallenge.com
    funding:
-     - DARPA TTO Subterranean Challenge
+     - "DARPA TTO Subterranean Challenge"
 
