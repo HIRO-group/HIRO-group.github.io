@@ -55,6 +55,11 @@
    email: clare.lohrmann@colorado.edu
    pic: clare.jpg
 
+ - name: Guohui Ding
+   role: phd
+   email: guohui.ding@colorado.edu
+   pic: guohui.jpg
+
 # Graduate Students
 # [in order of first appearance in the lab]
 
@@ -152,11 +157,6 @@
    role: collaborator
    email: kelly.merckaert@vub.be
    pic: kelly.jpg
-
- - name: Guohui Ding
-   role: collaborator
-   email: guohui.ding@colorado.edu
-   pic: guohui.jpg
 
  - name: Abhidip Bhattacharyya
    role: collaborator
