@@ -1,12 +1,12 @@
  # Template for new entry
  # Most fields are optional
  #
- # - name: 
+ # - name:
  #  role: <faculty/postdoc/manager/phd/grad/undergrad>
- #  url: 
- #  office: 
- #  phone: 
- #  email: 
+ #  url:
+ #  office:
+ #  phone:
+ #  email:
  #  pic: <looks in img/people>
 
  - name: Prof. Christoffer Heckman
@@ -19,41 +19,41 @@
 
  - name: Dr. Steve McGuire
    role: postdoc
-   url: 
+   url:
    office: ECES 111
-   phone: 
-   email: 
+   phone:
+   email:
    pic: Steve_McGuire.jpg
 
  - name: Cecilia Mauceri
    role: phd
-   url: 
+   url:
    office: ECES 111
-   phone: 
+   phone:
    email: Cecilia.Mauceri@colorado.edu
    pic: Cecilia_Mauceri.jpg
 
  - name: Andrew Kramer
    role: phd
-   url: 
+   url:
    office: ECES 111
-   phone: 
-   email: 
+   phone:
+   email:
    pic: Andrew_Kramer.jpg
 
  - name: Zhaozhong Chen
    role: phd
-   url: 
+   url:
    office: ECES 111
-   phone: 
-   email: 
+   phone:
+   email:
    pic: Zhaozhong_Chen.jpg
 
  - name: Mike Miles
    role: phd
    url: http://www.mjmiles.com
    office: ECES 111
-   phone: 
+   phone:
    email: mike.miles@colorado.edu
    pic: Mike_Miles.jpg
 
@@ -61,47 +61,47 @@
    role: phd
    url: https://alphakyl.github.io/
    office: ECES 111
-   phone: 
+   phone:
    email: kyle.harlow@colorado.edu
    pic: Harlow_Kyle.jpg
 
  - name: Mary Martin
    role: phd
-   url: 
+   url:
    office: ECES 111
-   phone: 
-   email: 
+   phone:
+   email:
    pic: Martin_Mary.jpg
 
  - name: Harel Biggie
    role: phd
-   url: 
+   url:
    office: ECES 111
-   phone: 
-   email: 
+   phone:
+   email:
    pic: Biggie_Harel.jpg
 
  - name: Daniel Torres
    role: grad
-   url: 
+   url:
    office: ECES 111
-   phone: 
-   email: 
+   phone:
+   email:
    pic: Torres_Daniel.jpg
 
  - name: Kristen Such
    role: phd
-   url: 
+   url:
    office: ECES 111
-   phone: 
-   email: 
-   pic: 
+   phone:
+   email:
+   pic:
 
  - name: Greg Lund
    role: undergrad
    office: ECES 111
-   phone: 
-   email: 
+   phone:
+   email:
    url: https://greg-lund.github.io
    pic: Greg_Lund.jpg
    project: Since joining ARPG in Fall 2019, I have been helping support the DARPA challenge team MARBLE through building mechanical systems. I have mostly been working alongside the other Research Assistants, and Dr. McGuire. The first project that I have been helping with is to design and build a system to stow, deploy and extend a set of radio beacons from some of the ground vehicles. It has been awesome to work with ARPG so far and I'm looking forward to see what comes in the future!
@@ -124,18 +124,18 @@
 
  - name: Cesar Galan
    role: manager
-   url: 
+   url:
    office: ECES 111B
-   phone: 
-   email: 
+   phone:
+   email:
    pic: Cesar_Galan.jpg
 
  - name: Rio McMahon
    role: grad
    url: https://riomcmahon.me/
    office: ECES 111
-   phone: 
-   email: 
+   phone:
+   email:
    pic: McMahon_Rio.jpg
 
  - name: John Stechschulte
@@ -177,6 +177,12 @@
    thesis: Visual Perception in Challenging Illumination Conditions
    advisor: Christoffer Heckman
    now: with Amazon Robotics.
+
+  - name: Ryan Slocum
+  role: undergrad
+  office: ECES 111
+  url: https://www.ryanslocum.com
+  pic: Ryan_Slocum.jpg
 
    #- name: Nima Keivan
    #role: alumni
