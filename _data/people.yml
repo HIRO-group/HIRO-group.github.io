@@ -17,205 +17,205 @@
     email: Christoffer.Heckman@colorado.edu
     pic: Heckman_Christoffer.jpg
 
- - name: Dr. Steve McGuire
-   role: postdoc
-   url:
-   office: ECES 111
-   phone:
-   email:
-   pic: Steve_McGuire.jpg
+  - name: Dr. Steve McGuire
+    role: postdoc
+    url:
+    office: ECES 111
+    phone:
+    email:
+    pic: Steve_McGuire.jpg
 
- - name: Cecilia Mauceri
-   role: phd
-   url:
-   office: ECES 111
-   phone:
-   email: Cecilia.Mauceri@colorado.edu
-   pic: Cecilia_Mauceri.jpg
+  - name: Cecilia Mauceri
+    role: phd
+    url:
+    office: ECES 111
+    phone:
+    email: Cecilia.Mauceri@colorado.edu
+    pic: Cecilia_Mauceri.jpg
 
- - name: Andrew Kramer
-   role: phd
-   url:
-   office: ECES 111
-   phone:
-   email:
-   pic: Andrew_Kramer.jpg
+  - name: Andrew Kramer
+    role: phd
+    url:
+    office: ECES 111
+    phone:
+    email:
+    pic: Andrew_Kramer.jpg
 
- - name: Zhaozhong Chen
-   role: phd
-   url:
-   office: ECES 111
-   phone:
-   email:
-   pic: Zhaozhong_Chen.jpg
+  - name: Zhaozhong Chen
+    role: phd
+    url:
+    office: ECES 111
+    phone:
+    email:
+    pic: Zhaozhong_Chen.jpg
 
- - name: Mike Miles
-   role: phd
-   url: http://www.mjmiles.com
-   office: ECES 111
-   phone:
-   email: mike.miles@colorado.edu
-   pic: Mike_Miles.jpg
+  - name: Mike Miles
+    role: phd
+    url: http://www.mjmiles.com
+    office: ECES 111
+    phone:
+    email: mike.miles@colorado.edu
+    pic: Mike_Miles.jpg
 
- - name: Kyle Harlow
-   role: phd
-   url: https://alphakyl.github.io/
-   office: ECES 111
-   phone:
-   email: kyle.harlow@colorado.edu
-   pic: Harlow_Kyle.jpg
+  - name: Kyle Harlow
+    role: phd
+    url: https://alphakyl.github.io/
+    office: ECES 111
+    phone:
+    email: kyle.harlow@colorado.edu
+    pic: Harlow_Kyle.jpg
 
- - name: Mary Martin
-   role: phd
-   url:
-   office: ECES 111
-   phone:
-   email:
-   pic: Martin_Mary.jpg
+  - name: Mary Martin
+    role: phd
+    url:
+    office: ECES 111
+    phone:
+    email:
+    pic: Martin_Mary.jpg
 
- - name: Harel Biggie
-   role: phd
-   url:
-   office: ECES 111
-   phone:
-   email:
-   pic: Biggie_Harel.jpg
+  - name: Harel Biggie
+    role: phd
+    url:
+    office: ECES 111
+    phone:
+    email:
+    pic: Biggie_Harel.jpg
 
- - name: Daniel Torres
-   role: grad
-   url:
-   office: ECES 111
-   phone:
-   email:
-   pic: Torres_Daniel.jpg
+  - name: Daniel Torres
+    role: grad
+    url:
+    office: ECES 111
+    phone:
+    email:
+    pic: Torres_Daniel.jpg
 
- - name: Kristen Such
-   role: phd
-   url:
-   office: ECES 111
-   phone:
-   email:
-   pic:
+  - name: Kristen Such
+    role: phd
+    url:
+    office: ECES 111
+    phone:
+    email:
+    pic:
 
- - name: Ayush Bansal
-   role: grad
-   url: https://aboutayush.wordpress.com
-   office: ECES 111
-   phone: 
-   email: Ayush.Bansal@colorado.edu
-   pic: Bansal_Ayush.jpg
+  - name: Ayush Bansal
+    role: grad
+    url: https://aboutayush.wordpress.com
+    office: ECES 111
+    phone: 
+    email: Ayush.Bansal@colorado.edu
+    pic: Bansal_Ayush.jpg
 
- - name: Greg Lund
-   role: undergrad
-   office: ECES 111
-   phone:
-   email:
-   url: https://greg-lund.github.io
-   pic: Greg_Lund.jpg
-   project: Since joining ARPG in Fall 2019, I have been helping support the DARPA challenge team MARBLE through building mechanical systems. I have mostly been working alongside the other Research Assistants, and Dr. McGuire. The first project that I have been helping with is to design and build a system to stow, deploy and extend a set of radio beacons from some of the ground vehicles. It has been awesome to work with ARPG so far and I'm looking forward to see what comes in the future!
+  - name: Greg Lund
+    role: undergrad
+    office: ECES 111
+    phone:
+    email:
+    url: https://greg-lund.github.io
+    pic: Greg_Lund.jpg
+    project: Since joining ARPG in Fall 2019, I have been helping support the DARPA challenge team MARBLE through building mechanical systems. I have mostly been working alongside the other Research Assistants, and Dr. McGuire. The first project that I have been helping with is to design and build a system to stow, deploy and extend a set of radio beacons from some of the ground vehicles. It has been awesome to work with ARPG so far and I'm looking forward to see what comes in the future!
 
- - name: Earl Potters
-   role: undergrad
-   office: N/A
-   phone: 
-   email: 
-   url: https://frosty-galileo-a16340.netlify.app/
-   pic: Earl_Potters.jpg
-   project: My independent study 2020 Fall is to test a reinforcement learning approach to controls for the Wave Adaptive Modular-Vessel(WAM-V) surface vehicle (USV). The WAM-V is in a simulated environment with realistic weather disturbances e.g. wind and waves to best simulate real performance. 
+  - name: Earl Potters
+    role: undergrad
+    office: N/A
+    phone: 
+    email: 
+    url: https://frosty-galileo-a16340.netlify.app/
+    pic: Earl_Potters.jpg
+    project: My independent study 2020 Fall is to test a reinforcement learning approach to controls for the Wave Adaptive Modular-Vessel(WAM-V) surface vehicle (USV). The WAM-V is in a simulated environment with realistic weather disturbances e.g. wind and waves to best simulate real performance. 
 
   - name: Davis Landry
-   role: undergrad
-   url: davislandry.com
-   office: ECES 111
-   phone: 
-   email: davis.landry@colorado.edu
-   pic: Davis_Landry.jpg
+    role: undergrad
+    url: davislandry.com
+    office: ECES 111
+    phone: 
+    email: davis.landry@colorado.edu
+    pic: Davis_Landry.jpg
 
- - name: Xuefei Sun
-   role: undergrad
-   office: ECES 111
-   phone: 
-   email: Xuefei.Sun@colorado.edu
-   url: 
-   pic: Xuefei_Sun.jpg
+  - name: Xuefei Sun
+    role: undergrad
+    office: ECES 111
+    phone: 
+    email: Xuefei.Sun@colorado.edu
+    url: 
+    pic: Xuefei_Sun.jpg
 
- - name: Wyatt Raich
-   role: alumni
+  - name: Wyatt Raich
+    role: alumni
 
- - name: Sam Bateman
-   role: alumni
-   url: https://bateman.io/
-   project: I am leveraging my studies in computer science, robotics and applied mathematics to incorporate semantic information into probabilistic dynamic SLAM to improve both performance and robustness in long term, real world deployments.
-   pic: Sam_Bateman.jpg
-   now: at Nuro.
+  - name: Sam Bateman
+    role: alumni
+    url: https://bateman.io/
+    project: I am leveraging my studies in computer science, robotics and applied mathematics to incorporate semantic information into probabilistic dynamic SLAM to improve both performance and robustness in long term, real world deployments.
+    pic: Sam_Bateman.jpg
+    now: at Nuro.
 
- - name: Nikolaas Bender
-   role: undergrad
-   office: ECES 111
-   url: https://nikolaasbender.github.io/
-   pic: Nikolaas_Bender.jpg
+  - name: Nikolaas Bender
+    role: undergrad
+    office: ECES 111
+    url: https://nikolaasbender.github.io/
+    pic: Nikolaas_Bender.jpg
 
- - name: Cesar Galan
-   role: manager
-   url:
-   office: ECES 111B
-   phone:
-   email:
-   pic: Cesar_Galan.jpg
+  - name: Cesar Galan
+    role: manager
+    url:
+    office: ECES 111B
+    phone:
+    email:
+    pic: Cesar_Galan.jpg
 
- - name: Rio McMahon
-   role: grad
-   url: https://riomcmahon.me/
-   office: ECES 111
-   phone:
-   email:
-   pic: McMahon_Rio.jpg
+  - name: Rio McMahon
+    role: grad
+    url: https://riomcmahon.me/
+    office: ECES 111
+    phone:
+    email:
+    pic: McMahon_Rio.jpg
 
- - name: John Stechschulte
-   doctor: true
-   role: alumni
-   dates: 2014-2019
-   thesis: Information Theory and Probabilistic Modeling for Robot Localization
-   advisor: Christoffer Heckman
-   now: with PickNik.
+  - name: John Stechschulte
+    doctor: true
+    role: alumni
+    dates: 2014-2019
+    thesis: Information Theory and Probabilistic Modeling for Robot Localization
+    advisor: Christoffer Heckman
+    now: with PickNik.
 
- - name: Sina Aghli
-   doctor: true
-   role: alumni
-   dates: 2012-2018
-   thesis: Model Identification and Control of Autonomous Ground Vehicles
-   advisor: Christoffer Heckman
-   now: an instructor at the University of Colorado Boulder.
+  - name: Sina Aghli
+    doctor: true
+    role: alumni
+    dates: 2012-2018
+    thesis: Model Identification and Control of Autonomous Ground Vehicles
+    advisor: Christoffer Heckman
+    now: an instructor at the University of Colorado Boulder.
 
- - name: Fernando Nobre
-   doctor: true
-   role: alumni
-   dates: 2014-2018
-   thesis: Robust Self-Calibration and Mapping for Long Term Autonomy
-   advisor: Christoffer Heckman
-   now: with Amazon Robotics.
+  - name: Fernando Nobre
+    doctor: true
+    role: alumni
+    dates: 2014-2018
+    thesis: Robust Self-Calibration and Mapping for Long Term Autonomy
+    advisor: Christoffer Heckman
+    now: with Amazon Robotics.
 
- - name: Juan Falquez
-   doctor: true
-   role: alumni
-   dates: 2010-2018
-   thesis: Towards Robust Dense Visual Simultaneous Localization and Mapping (SLAM)
-   advisor: Gabe Sibley
-   now: with Amazon Robotics.
+  - name: Juan Falquez
+    doctor: true
+    role: alumni
+    dates: 2010-2018
+    thesis: Towards Robust Dense Visual Simultaneous Localization and Mapping (SLAM)
+    advisor: Gabe Sibley
+    now: with Amazon Robotics.
 
- - name: Mike Kasper
-   doctor: true
-   role: alumni
-   dates: 2015-2020
-   thesis: Visual Perception in Challenging Illumination Conditions
-   advisor: Christoffer Heckman
-   now: with Amazon Robotics.
+  - name: Mike Kasper
+    doctor: true
+    role: alumni
+    dates: 2015-2020
+    thesis: Visual Perception in Challenging Illumination Conditions
+    advisor: Christoffer Heckman
+    now: with Amazon Robotics.
 
   - name: Ryan Slocum
-  role: undergrad
-  office: ECES 111
-  url: https://www.ryanslocum.com
-  pic: Ryan_Slocum.jpg
+    role: undergrad
+    office: ECES 111
+    url: https://www.ryanslocum.com
+    pic: Ryan_Slocum.jpg
 
    #- name: Nima Keivan
    #role: alumni
@@ -239,45 +239,45 @@
    #advisor: Christoffer Heckman and Gabe Sibley
    #now: with Zoox.
 
- - name: Carl Stahoviak
-   role: alumni
-   dates: 2017-2019
-   thesis: An Instantaneous 3D Ego-Velocity Measurement Algorithm for Frequency Modulated Continuous Wave (FMCW) Doppler Radar Data
-   advisor: Christoffer Heckman
-   now: with Ball Aerospace.
+  - name: Carl Stahoviak
+    role: alumni
+    dates: 2017-2019
+    thesis: An Instantaneous 3D Ego-Velocity Measurement Algorithm for Frequency Modulated Continuous Wave (FMCW) Doppler Radar Data
+    advisor: Christoffer Heckman
+    now: with Ball Aerospace.
 
- - name: Boston Cleek
-   role: alumni
+  - name: Boston Cleek
+    role: alumni
 
- - name: Soham Banerjee
-   role: alumni
+  - name: Soham Banerjee
+    role: alumni
 
- - name: Ryan Leonard
-   role: alumni
+  - name: Ryan Leonard
+    role: alumni
 
- - name: Nikhil Mahendra
-   role: alumni
+  - name: Nikhil Mahendra
+    role: alumni
 
- - name: Corin Sandford
-   role: alumni
+  - name: Corin Sandford
+    role: alumni
 
- - name: Akshay Singh
-   role: alumni
+  - name: Akshay Singh
+    role: alumni
 
- - name: Gage Froelich
-   role: alumni
+  - name: Gage Froelich
+    role: alumni
 
- - name: Soroush Khadem
-   role: alumni
+  - name: Soroush Khadem
+    role: alumni
 
- - name: Daniel Kim
-   role: alumni
+  - name: Daniel Kim
+    role: alumni
 
- - name: Kellen Mcdonald
-   role: alumni
+  - name: Kellen Mcdonald
+    role: alumni
 
- - name: Yang Li
-   dates: 2016-2018
-   role: alumni
-   doctor: true
-   now: at Waymo.
+  - name: Yang Li
+    dates: 2016-2018
+    role: alumni
+    doctor: true
+    now: at Waymo.
