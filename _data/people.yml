@@ -75,10 +75,10 @@
 
   - name: Harel Biggie
     role: phd
-    url:
+    url: https://harelbiggie.com
     office: ECES 111
     phone:
-    email:
+    email: harel.biggie@colorado.edu
     pic: Biggie_Harel.jpg
 
   - name: Daniel Torres
