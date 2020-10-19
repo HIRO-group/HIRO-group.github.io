@@ -9,13 +9,13 @@
  #  email:
  #  pic: <looks in img/people>
 
- - name: Prof. Christoffer Heckman
-   role: faculty
-   url: http://www.ristoffer.ch/
-   office: ECES 130
-   phone: +1-303-492-2961
-   email: Christoffer.Heckman@colorado.edu
-   pic: Heckman_Christoffer.jpg
+  - name: Prof. Christoffer Heckman
+    role: faculty
+    url: http://www.ristoffer.ch/
+    office: ECES 130
+    phone: +1-303-492-2961
+    email: Christoffer.Heckman@colorado.edu
+    pic: Heckman_Christoffer.jpg
 
  - name: Dr. Steve McGuire
    role: postdoc
