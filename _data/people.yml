@@ -114,6 +114,15 @@
    pic: Greg_Lund.jpg
    project: Since joining ARPG in Fall 2019, I have been helping support the DARPA challenge team MARBLE through building mechanical systems. I have mostly been working alongside the other Research Assistants, and Dr. McGuire. The first project that I have been helping with is to design and build a system to stow, deploy and extend a set of radio beacons from some of the ground vehicles. It has been awesome to work with ARPG so far and I'm looking forward to see what comes in the future!
 
+ - name: Earl Potters
+   role: undergrad
+   office: N/A
+   phone: 
+   email: 
+   url: https://frosty-galileo-a16340.netlify.app/
+   pic: Earl_Potters.jpg
+   project: My independent study 2020 Fall is to test a reinforcement learning approach to controls for the Wave Adaptive Modular-Vessel(WAM-V) surface vehicle (USV). The WAM-V is in a simulated environment with realistic weather disturbances e.g. wind and waves to best simulate real performance. 
+
   - name: Davis Landry
    role: undergrad
    url: davislandry.com
