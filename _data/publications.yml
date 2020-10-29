@@ -4,6 +4,17 @@
 #   venue: 
 #   pdf: 
 
+ - title: "Radar-Inertial State Estimation and Mapping for Micro-Aerial Vehicles In Dense Fog"
+   authors: "A. Kramer, S. Ahmad, C. Heckman"
+   year: 2020
+   venue: "International Symposium on Experimental Robotics"
+
+ - title: "Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments"
+   authors: "A. Kramer, A. Santamaria-Navarro, A. Aghamohammadi, C. Heckman"
+   year: 2020
+   venue: "International Conference on Robotics and Automation"
+   pdf: "/papers/kramer_icra_2020.pdf"
+
  - title: "Better Together: Online Probabilistic Clique Change Detection in 3D Landmark-Based Maps"
    authors: "S. Bateman, K. Harlow, C. Heckman"
    year: 2020
