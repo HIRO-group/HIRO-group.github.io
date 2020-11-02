@@ -113,7 +113,7 @@
    email: 
    url: https://frosty-galileo-a16340.netlify.app/
    pic: Earl_Potters.jpg
-   project: My independent study 2020 Fall is to test a reinforcement learning approach to controls for the Wave Adaptive Modular-Vessel(WAM-V) surface vehicle (USV). The WAM-V is in a simulated environment with realistic weather disturbances e.g. wind and waves to best simulate real performance. 
+   project: Since joining ARPG and doing my independent study in 2020 Fall, I have been testing reinforcement learning approachs to controls for the Wave Adaptive Modular-Vessel(WAM-V) surface vehicle (USV). The project involves simulating water environments with realistic weather disturbances e.g. wind and waves to recreate similar conditions that a surface vehicle would experience on rough seas, while testing reinforcemnet learning controls for station-keeping. 
 
  - name: Wyatt Raich
    role: alumni
