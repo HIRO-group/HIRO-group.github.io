@@ -49,6 +49,9 @@
  - project: Referring Expressions for Object Localization
    blurb: "Understanding references to objects based on attributes, spatial relationships, and other descriptive language expands the capability of robots to locate unknown objects (zero-shot learning), find objects in cluttered scenes, and communicate uncertainty with human collaborators. We are collecting a new set of annotations, SUNspot, for the SUNRGB-d scene understanding dataset. Unlike other referring expression datasets, SUNspot will focus on graspable objects in interior scenes accompanied by the depth sensor data and full semantic segmentation from the SUNRGB-d dataset. Using SUNspot, we hope to develop a novel referring expressions system that will improve object localization for use in human-robot interaction."
 
+- project: Multi-Agent Force Based Motion Planning
+  blurb: "This project is investigating how multi-agent teams can accomplish tasks using a force based motion planning algorithm. Under this formulation, groups of agents with limited computational resources navigate using a distributed motion planning paradigm and attempt to complete tasks with limited information sharing between agents." 
+
  - project: "RAMFIS: Representations of Abstract Meaning for Information Synthesis"
    img: /img/RAMFIS_example.png
    blurb: "Humans can readily extract complex information from many different modalities, including spoken and written expressions and information from images and videos, and synthesize it into a coherent whole. This project aims to support automated synthesis of diverse multi-media information sources. // We are proposing a rich, multi-graph Common Semantic Representation (CSR) based on Abstract Meaning Representations (AMRs) embellished with vision and language vector representations and temporal and causal relations between events, and supported by a rich ontology of event and entity types."
@@ -77,5 +80,19 @@
    blurb: "ARPG is a component of team MARBLE, a funded participant in the DARPA Subterranean Challenge. We are providing expertise in autonomy, perception, and navigation. The project kicked off in September 2018 and is ongoing, with competition events in August 2019 onward."
    webpage: http://subtchallenge.com
    funding:
-     - DARPA TTO Subterranean Challenge
+     - "DARPA TTO Subterranean Challenge"
+
+ - project: "Robotic Perception With Millimeter Wave RADAR"
+   blurb: "Investigating methods for millimeter wave RADAR based state estimation, mapping, and more."
+   publications:
+     - title: Radar-Inertial State Estimation and Mapping for Micro-Aerial Vehicles In Dense Fog
+       authors: Andrew Kramer, Shakeeb Ahmad, and Christoffer Heckman
+       date: 2020
+       venue: International Symposium on Experimental Robotics
+     - title: Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments
+       authors: Andrew Kramer, Angel Santamaria-Navarro, Aliakbar Aghamohammadi, and Christoffer Heckman
+       date: 2020
+       venue: International Conference on Robotics and Automation
+   funding:
+     - "NASA NSTRF 80NSSC18K1195"
 
