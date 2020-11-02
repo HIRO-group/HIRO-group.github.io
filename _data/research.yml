@@ -79,3 +79,7 @@
    funding:
      - "DARPA TTO Subterranean Challenge"
 
+  - project: Multi Robot Communication Schemes
+   img: /img/dep_mech_1.jpg
+   blurb: "This project aims to develop a dynamic mesh network for difficult communication environments. Multi-agent exploration in such environments requires a software stack that is resilient to sudden mesh topology changes while carrying a wide range of data products. This requires a full stack implementation, including adapting single-robot communications solutions such as TCPROS to facilitate mesh-based multi-robot coordination and visualization of current network topology. Our approach allows prioritization of message transfer in a ROS environment, allowing large but not time-critical messages to be paused in order to transmit high-priority data."
+ 
