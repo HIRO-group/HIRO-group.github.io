@@ -79,3 +79,7 @@
    funding:
      - "DARPA TTO Subterranean Challenge"
 
+ - project: "USV Station-Keeping Control Based On Deep Reinforcement Learning"
+   img: /img/USV-project.png
+   blurb: "Illustrating a controls scheme using Deep Determintic Policy Gradient algorithm for an unmanned surface vehicle."
+   
