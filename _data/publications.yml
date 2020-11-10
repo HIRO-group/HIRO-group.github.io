@@ -4,13 +4,24 @@
 #   venue: 
 #   pdf: 
 
-- title: "Better Together: Online Probabilistic Clique Change Detection in 3D Landmark-Based Maps"
+ - title: "Radar-Inertial State Estimation and Mapping for Micro-Aerial Vehicles In Dense Fog"
+   authors: "A. Kramer, S. Ahmad, C. Heckman"
+   year: 2020
+   venue: "International Symposium on Experimental Robotics"
+
+ - title: "Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments"
+   authors: "A. Kramer, A. Santamaria-Navarro, A. Aghamohammadi, C. Heckman"
+   year: 2020
+   venue: "International Conference on Robotics and Automation"
+   pdf: "/papers/Kramer_ICRA_2020.pdf"
+
+ - title: "Better Together: Online Probabilistic Clique Change Detection in 3D Landmark-Based Maps"
    authors: "S. Bateman, K. Harlow, C. Heckman"
    year: 2020
    venue: "International Conference on Intelligent Robots and Systems"
    pdf: "/papers/2008.00372.pdf"
 
-- title: "Learning to Calibrate: Reinforcement Learning for Guided Calibration of Visual-Inertial Rigs"
+ - title: "Learning to Calibrate: Reinforcement Learning for Guided Calibration of Visual-Inertial Rigs"
    authors: "F. Nobre, C. Heckman"
    year: 2019
    venue: "International Journal of Robotics Research"
@@ -50,7 +61,7 @@
    authors: "S.J. McGuire and P.M. Furlong and T. Fong and C. Heckman and D.
     Szafir and S. Julier and N. Ahmed"
    year: 2019
-   venue: IEEE Robotics and Automation Letters
+   venue: "IEEE Robotics and Automation Letters"
    pdf: "/papers/McGuire-EverybodyNeeds-AsPublished.pdf"
 
  - title: "Robust low-overlap {3-D} point cloud registration for outlier

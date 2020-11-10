@@ -77,5 +77,19 @@
    blurb: "ARPG is a component of team MARBLE, a funded participant in the DARPA Subterranean Challenge. We are providing expertise in autonomy, perception, and navigation. The project kicked off in September 2018 and is ongoing, with competition events in August 2019 onward."
    webpage: http://subtchallenge.com
    funding:
-     - DARPA TTO Subterranean Challenge
+     - "DARPA TTO Subterranean Challenge"
+
+ - project: "Robotic Perception With Millimeter Wave RADAR"
+   blurb: "Investigating methods for millimeter wave RADAR based state estimation, mapping, and more."
+   publications:
+     - title: Radar-Inertial State Estimation and Mapping for Micro-Aerial Vehicles In Dense Fog
+       authors: Andrew Kramer, Shakeeb Ahmad, and Christoffer Heckman
+       date: 2020
+       venue: International Symposium on Experimental Robotics
+     - title: Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments
+       authors: Andrew Kramer, Angel Santamaria-Navarro, Aliakbar Aghamohammadi, and Christoffer Heckman
+       date: 2020
+       venue: International Conference on Robotics and Automation
+   funding:
+     - "NASA NSTRF 80NSSC18K1195"
 
