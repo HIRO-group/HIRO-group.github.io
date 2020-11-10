@@ -78,6 +78,20 @@
    webpage: http://subtchallenge.com
    funding:
      - "DARPA TTO Subterranean Challenge"
+- project: "MARBLE - Radar Perception"
+  blurb: "This project addresses creating accurate odometry and maps in visually degraded environments using radar and ineratial sensors. The DARPA SubT competition sections off portions of the environment with artificial fog."
+  publications:
+    - title: Radar-Inertial State Estimation and Mapping for Micro-Aerial Vehicles In Dense Fog
+       authors: Andrew Kramer, Shakeeb Ahmad, and Christoffer Heckman
+       date: 2020
+       venue: International Symposium on Experimental Robotics
+     - title: Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments
+       authors: Andrew Kramer, Angel Santamaria-Navarro, Aliakbar Aghamohammadi, and Christoffer Heckman
+       date: 2020
+       venue: International Conference on Robotics and Automation
+  funding:
+     - "DARPA TTO Subterranean Challenge"
+
 
  - project: "Robotic Perception With Millimeter Wave RADAR"
    blurb: "Investigating methods for millimeter wave RADAR based state estimation, mapping, and more."
