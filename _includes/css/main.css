@@ -430,7 +430,7 @@ header .intro-text .owner {
         padding-left: 10px;
         margin-right: 10px;
         transition: all ease 1s;
-        background-color: #{{ site.color.primary }};
+        background-color: #{{ site.color.secondary }};
     }
 
     .navbar-toggler:hover {
