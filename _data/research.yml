@@ -108,6 +108,12 @@
    funding:
      - "NASA NSTRF 80NSSC18K1195"
 
+ - project: Multi Robot Communication Schemes
+   img: /img/dep_mech_1.jpg
+   blurb: "This project aims to develop a dynamic mesh network for difficult communication environments. Multi-agent exploration in such environments requires a software stack that is resilient to sudden mesh topology changes while carrying a wide range of data products. This requires a full stack implementation, including adapting single-robot communications solutions such as TCPROS to facilitate mesh-based multi-robot coordination and visualization of current network topology. Our approach allows prioritization of message transfer in a ROS environment, allowing large but not time-critical messages to be paused in order to transmit high-priority data."
+   funding:
+     - "DARPA TTO Subterranean Challenge"
+ 
   - project: "Mixed Reality With Fielf Robots for Emergency Response"
     blurb: "Collaborative human-robot field operations rely on timely decision-making and coordination, which can be challenging for heterogeneous teams operating in large-scale deployments. In this work, we present the design of an immersive, mixed reality (MR) interface to support sense-making and situational awareness based on the data collection capabilities of both human and robotic team members. We use a field robot to collect environment data and generate 3D reconstruction then display it in the head-mounted displays (HMD) along with the very large scale terrain. People can click a part of the terrain in an immersive environment and visualize the 3D reconstruction of some parts of the terrain. The figure shows the terrain of Boulder County and the point cloud above shows the 3D reconstruction of the blue trajectory on the terrain."
     img: /img/mix_reality.png
