@@ -78,6 +78,7 @@
    webpage: http://subtchallenge.com
    funding:
      - "DARPA TTO Subterranean Challenge"
+     
 - project: "MARBLE - Radar Perception"
   blurb: "This project addresses creating accurate odometry and maps in visually degraded environments using radar and ineratial sensors. The DARPA SubT competition sections off portions of the environment with artificial fog."
   publications:
