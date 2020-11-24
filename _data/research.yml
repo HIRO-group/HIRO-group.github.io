@@ -11,6 +11,53 @@
 #   funding:
 #     - 
 
+- project: "MARBLE: Multi-agent Autonomy with RADAR-Based Localization for Exploration"
+  img: /img/SubT-overview.jpg
+  blurb: "ARPG is a component of team MARBLE, a funded participant in the DARPA Subterranean Challenge. We are providing expertise in autonomy, perception, and navigation. The project kicked off in September 2018 and is ongoing, with competition events in August 2019 onward."
+  webpage: http://subtchallenge.com
+  funding:
+     - "DARPA TTO Subterranean Challenge"
+     
+- project: "MARBLE - Radar Perception"
+  blurb: "This project addresses creating accurate odometry and maps in visually degraded environments using radar and ineratial sensors. The DARPA SubT competition sections off portions of the environment with artificial fog."
+  publications:
+    - title: Radar-Inertial State Estimation and Mapping for Micro-Aerial Vehicles In Dense Fog
+       authors: Andrew Kramer, Shakeeb Ahmad, and Christoffer Heckman
+       date: 2020
+       venue: International Symposium on Experimental Robotics
+     - title: Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments
+       authors: Andrew Kramer, Angel Santamaria-Navarro, Aliakbar Aghamohammadi, and Christoffer Heckman
+       date: 2020
+       venue: International Conference on Robotics and Automation
+  funding:
+     - "DARPA TTO Subterranean Challenge"
+
+ - project: "Robotic Perception With Millimeter Wave RADAR"
+   blurb: "Investigating methods for millimeter wave RADAR based state estimation, mapping, and more."
+   publications:
+     - title: Radar-Inertial State Estimation and Mapping for Micro-Aerial Vehicles In Dense Fog
+       authors: Andrew Kramer, Shakeeb Ahmad, and Christoffer Heckman
+       date: 2020
+       venue: International Symposium on Experimental Robotics
+     - title: Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments
+       authors: Andrew Kramer, Angel Santamaria-Navarro, Aliakbar Aghamohammadi, and Christoffer Heckman
+       date: 2020
+       venue: International Conference on Robotics and Automation
+   funding:
+      - "NASA NSTRF 80NSSC18K1195"
+
+ - project: Multi Robot Communication Schemes
+   img: /img/dep_mech_1.jpg
+   blurb: "This project aims to develop a dynamic mesh network for difficult communication environments. Multi-agent exploration in such environments requires a software stack that is resilient to sudden mesh topology changes while carrying a wide range of data products. This requires a full stack implementation, including adapting single-robot communications solutions such as TCPROS to facilitate mesh-based multi-robot coordination and visualization of current network topology. Our approach allows prioritization of message transfer in a ROS environment, allowing large but not time-critical messages to be paused in order to transmit high-priority data."
+   funding:
+      - "DARPA TTO Subterranean Challenge"
+     
+ - project: "Mixed Reality With Fielf Robots for Emergency Response"
+   blurb: "Collaborative human-robot field operations rely on timely decision-making and coordination, which can be challenging for heterogeneous teams operating in large-scale deployments. In this work, we present the design of an immersive, mixed reality (MR) interface to support sense-making and situational awareness based on the data collection capabilities of both human and robotic team members. We use a field robot to collect environment data and generate 3D reconstruction then display it in the head-mounted displays (HMD) along with the very large scale terrain. People can click a part of the terrain in an immersive environment and visualize the 3D reconstruction of some parts of the terrain. The figure shows the terrain of Boulder County and the point cloud above shows the 3D reconstruction of the blue trajectory on the terrain."
+   img: /img/mix_reality.png
+   funding:
+      - "NSF #1764092 Medium: Data-Mediated Communication with Proximal Robots for Emergency Response"
+
  - project: Light source estimation
    img: /img/light_source_estimation.gif
    blurb: "This effort addresses the problem of determining the location, direction, intensity, and color of the illuminants in a given scene. The problem has a broad range of applications in augmented reality, robust robot perception, and general scene understanding. In our research, we model complex light interactions with a custom path-tracer, capturing the effects of both direct and indirect illumination. Using a physically-based light model not only improves our estimation of the light sources, but will play a critical role in future research in surface property estimation and geometry refinement, ultimately leading to more accurate and complete scene reconstruction systems." 
@@ -25,7 +72,7 @@
        venue: "European Conference on Computer Vision, Virtual/Augmented Reality for Visual Artificial Intelligence Workshop"
        url: "https://link.springer.com/chapter/10.1007/978-3-319-49409-8_72?no-access=true"
    funding:
-     - "Toyota grant 33643/1/ECNS20952N: Robust Perception"
+      - "Toyota grant 33643/1/ECNS20952N: Robust Perception"
 
  - project: Parkour Cars 
    img: /img/ninja_car/NinjaCarJump1.gif
@@ -42,20 +89,20 @@
        venue: "Robotics: Science and Systems, Realistic, Rapid, and Repeatable Robot Simulation Workshop"
        url: /papers/
    funding:
-     - "NSF #1646556. CPS: Synergy: Verified Control of Cooperative Autonomous Vehicles"
-     - "DARPA #N65236-16-1-1000. DSO Seedling: Ninja Cars"
-     - "Toyota grant 33643/1/ECNS20952N: Robust Perception"
+      - "NSF #1646556. CPS: Synergy: Verified Control of Cooperative Autonomous Vehicles"
+      - "DARPA #N65236-16-1-1000. DSO Seedling: Ninja Cars"
+      - "Toyota grant 33643/1/ECNS20952N: Robust Perception"
 
- - project: Referring Expressions for Object Localization
-   blurb: "Understanding references to objects based on attributes, spatial relationships, and other descriptive language expands the capability of robots to locate unknown objects (zero-shot learning), find objects in cluttered scenes, and communicate uncertainty with human collaborators. We are collecting a new set of annotations, SUNspot, for the SUNRGB-d scene understanding dataset. Unlike other referring expression datasets, SUNspot will focus on graspable objects in interior scenes accompanied by the depth sensor data and full semantic segmentation from the SUNRGB-d dataset. Using SUNspot, we hope to develop a novel referring expressions system that will improve object localization for use in human-robot interaction."
+- project: Referring Expressions for Object Localization
+  blurb: "Understanding references to objects based on attributes, spatial relationships, and other descriptive language expands the capability of robots to locate unknown objects (zero-shot learning), find objects in cluttered scenes, and communicate uncertainty with human collaborators. We are collecting a new set of annotations, SUNspot, for the SUNRGB-d scene understanding dataset. Unlike other referring expression datasets, SUNspot will focus on graspable objects in interior scenes accompanied by the depth sensor data and full semantic segmentation from the SUNRGB-d dataset. Using SUNspot, we hope to develop a novel referring expressions system that will improve object localization for use in human-robot interaction."
 
 - project: Multi-Agent Force Based Motion Planning
   blurb: "This project is investigating how multi-agent teams can accomplish tasks using a force based motion planning algorithm. Under this formulation, groups of agents with limited computational resources navigate using a distributed motion planning paradigm and attempt to complete tasks with limited information sharing between agents." 
 
- - project: "RAMFIS: Representations of Abstract Meaning for Information Synthesis"
-   img: /img/RAMFIS_example.png
-   blurb: "Humans can readily extract complex information from many different modalities, including spoken and written expressions and information from images and videos, and synthesize it into a coherent whole. This project aims to support automated synthesis of diverse multi-media information sources. // We are proposing a rich, multi-graph Common Semantic Representation (CSR) based on Abstract Meaning Representations (AMRs) embellished with vision and language vector representations and temporal and causal relations between events, and supported by a rich ontology of event and entity types."
-   funding:
+- project: "RAMFIS: Representations of Abstract Meaning for Information Synthesis"
+  img: /img/RAMFIS_example.png
+  blurb: "Humans can readily extract complex information from many different modalities, including spoken and written expressions and information from images and videos, and synthesize it into a coherent whole. This project aims to support automated synthesis of diverse multi-media information sources. // We are proposing a rich, multi-graph Common Semantic Representation (CSR) based on Abstract Meaning Representations (AMRs) embellished with vision and language vector representations and temporal and causal relations between events, and supported by a rich ontology of event and entity types."
+  funding:
      - "DARPA Award: FA8750-18-2-0016. AIDA"
 
  - project: Compass
@@ -72,27 +119,5 @@
        venue: International Symposium on Experimental Robotics
        url:
    funding:
-     - "DARPA #N65236-16-1-1000. DSO Seedling: Ninja Cars"
-     - "Toyota grant 33643/1/ECNS20952N: Robust Perception"
-
- - project: "MARBLE: Multi-agent Autonomy with RADAR-Based Localization for Exploration"
-   img: /img/SubT-overview.jpg
-   blurb: "ARPG is a component of team MARBLE, a funded participant in the DARPA Subterranean Challenge. We are providing expertise in autonomy, perception, and navigation. The project kicked off in September 2018 and is ongoing, with competition events in August 2019 onward."
-   webpage: http://subtchallenge.com
-   funding:
-     - "DARPA TTO Subterranean Challenge"
-
- - project: "Robotic Perception With Millimeter Wave RADAR"
-   blurb: "Investigating methods for millimeter wave RADAR based state estimation, mapping, and more."
-   publications:
-     - title: Radar-Inertial State Estimation and Mapping for Micro-Aerial Vehicles In Dense Fog
-       authors: Andrew Kramer, Shakeeb Ahmad, and Christoffer Heckman
-       date: 2020
-       venue: International Symposium on Experimental Robotics
-     - title: Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments
-       authors: Andrew Kramer, Angel Santamaria-Navarro, Aliakbar Aghamohammadi, and Christoffer Heckman
-       date: 2020
-       venue: International Conference on Robotics and Automation
-   funding:
-     - "NASA NSTRF 80NSSC18K1195"
-
+      - "DARPA #N65236-16-1-1000. DSO Seedling: Ninja Cars"
+      - "Toyota grant 33643/1/ECNS20952N: Robust Perception"
