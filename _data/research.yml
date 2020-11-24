@@ -25,10 +25,10 @@
          authors: Andrew Kramer, Shakeeb Ahmad, and Christoffer Heckman
          date: 2020
          venue: International Symposium on Experimental Robotics
-       - title: Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments
-         authors: Andrew Kramer, Angel Santamaria-Navarro, Aliakbar Aghamohammadi, and Christoffer Heckman
-         date: 2020
-         venue: International Conference on Robotics and Automation
+      - title: Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments
+        authors: Andrew Kramer, Angel Santamaria-Navarro, Aliakbar Aghamohammadi, and Christoffer Heckman
+        date: 2020
+        venue: International Conference on Robotics and Automation
     funding:
       - "DARPA TTO Subterranean Challenge"
 
