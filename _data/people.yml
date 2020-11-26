@@ -22,12 +22,6 @@
    email: anuj.pasricha@colorado.edu
    pic: anuj.jpg
 
- - name: Kandai Watanabe
-   role: phd
-   url: https://watakandai.github.io
-   email: kawa7978@colorado.edu
-   pic: kandai.jpg
-
  - name: Caleb Escobedo
    role: phd
    page: caleb
@@ -49,7 +43,7 @@
    role: phd
    email: star7023g@colorado.edu
    pic: stephane.png
-   
+
  - name: Clare Lohrmann
    role: phd
    email: clare.lohrmann@colorado.edu
