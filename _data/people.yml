@@ -57,13 +57,6 @@
 # Graduate Students
 # [in order of first appearance in the lab]
 
- - name: Mohana Krishna Sanagavarapu
-   role: grad
-   url: https://mohankrishna15.github.io/
-   phone: +1 (720) 401-5972
-   email: mohana.sanagavarapu@colorado.edu
-   pic: mohan.jpg
-
  - name: Manjunath Rao
    role: grad
    email: manjunath.rao@colorado.edu
@@ -258,3 +251,6 @@
  - name: Kandai Watanabe
    role: alumni
    nowat: ARIA Systems Group
+
+ - name: Mohana Krishna Sanagavarapu
+   role: alumni
