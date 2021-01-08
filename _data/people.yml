@@ -17,13 +17,13 @@
     email: Christoffer.Heckman@colorado.edu
     pic: Heckman_Christoffer.jpg
 
-  - name: Dr. Steve McGuire
-    role: postdoc
+  - name: Steve McGuire
+    doctor: true
+    role: alumni
     url:
-    office: ECES 111
     phone:
     email:
-    pic: Steve_McGuire.jpg
+    now: an Assistant Professor at the University of California Santa Cruz.
 
   - name: Cecilia Mauceri
     role: phd
