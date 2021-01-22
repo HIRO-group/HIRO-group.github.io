@@ -57,12 +57,6 @@
 # Graduate Students
 # [in order of first appearance in the lab]
 
- - name: Manjunath Rao
-   role: grad
-   email: manjunath.rao@colorado.edu
-   linkedin: manjunath-rao-n
-   pic: manj.jpg
-
  - name: Abhilash Jahagirdar
    role: grad
    email: abhilash.jahagirdar@colorado.edu
@@ -78,37 +72,12 @@
 # Undergraduate Students
 # [in order of first appearance in the lab]
 
- - name: Garrett Pierson
-   role: undergrad
-   phone: +1 (970) 596-7403
-   email: garrett.pierson@colorado.edu
-   pic: garrett.jpg
-
- - name: Eleanor Sarder
-   role: undergrad
-   linkedin: ellasarder
-   phone: +1 (480) 363 9816
-   email: eleanor.sarder@colorado.edu
-   pic: esarder.jpg
-
  - name: Matthew Strong
    role: undergrad
    linkedin: matthewhstrong
    phone: +1 (720) 626 4057
    email: mast4878@colorado.edu
    pic: mstrong.jpg
-
- - name: William Wang
-   role: undergrad
-   linkedin: william-wang-a445b4193
-   phone: +1 (720) 280 8441
-   email: william.wang@colorado.edu
-   pic: wwang.jpg
-
- - name: Kyle Yamek
-   role: undergrad
-   email: kyle.yamek@colorado.edu
-   pic: kyle.jpg
 
  - name: Byungjin (BJ) Kim
    role: undergrad
@@ -117,18 +86,11 @@
    email: byungjin.kim@colorado.edu
    pic: bj.jpg
 
- - name: Dhruv Patel
-   role: undergrad
-   linkedin: dhruvpatelaj
-   phone: +1 (720) 526 9264
-   email: dhruv.patel@colorado.edu
-   pic: dhruvpatel.jpg
-
  - name: Shreyas Kadekodi
    role: undergrad
    linkedin: shreyas-kadekodi
    phone: +1 (949) 396 9909
-   email: Shreyas.Kadekodi@colorado.edu
+   email: shreyas.kadekodi@colorado.edu
    pic: shreyas.jpg
 
  - name: Mitchell D Scott
@@ -136,12 +98,6 @@
    linkedin: mitchelldysescott
    email: misc4432@colorado.edu
    pic: mitchellscott.jpg
-
- - name: Brian Mayers
-   role: undergrad
-   linkedin: brian-mayers-0979541b4
-   email: brma8888@colorado.edu
-   pic: brian.jpg
 
 # Collaborators
 # [in order of first appearance in the lab]
@@ -159,13 +115,12 @@
  - name: Ander Aramburu Fernandez
    role: collaborator
    url: https://github.com/aran159
-   phone: +34 695 769 135
    email: ander.aranfdz@gmail.com
    pic: ander.jpg
 
  - name: Mary West
    role: collaborator
-   email: Mary.West@colorado.edu
+   email: mary.west@colorado.edu
    pic: mary.png
 
  - name: Nataliya Nechyporenko
@@ -179,78 +134,80 @@
  - name: Andrew Chen
    role: alumni
    graduated: Spring 2019 [M.S.]
-   phone: +1 (720) 229-7094
-   email: chi.chen@colorado.edu
+   nowat: Amazon
    pic: andrew.jpg
 
  - name: Sean Shaifubahrim
    role: alumni
    graduated: Spring 2019 [B.S.]
-   phone: +1 (720) 220-3513
-   email: sesh4314@colorado.edu
    pic: sean.jpg
 
  - name: Dongming Chang
    role: alumni
-   graduated: Fall 2019 [AeroEng]
-   phone: +1 (720) 296-5068
-   email: dongming.chang@colorado.edu
    pic: dongming.jpg
 
  - name: Sayali Sonawane
    role: alumni
    graduated: Spring 2019 [M.S.]
-   phone: +1 (206) 334-4724
-   email: saso7344@colorado.edu
+   nowat: Lumen
    pic: sayali.jpg
 
  - name: Chi-Ju Wu
    role: alumni
    graduated: Spring 2020 [M.S.]
-   phone: +1 (480) 842-9667
-   email: chiju.wu@colorado.edu
    nowat: Zoox
    pic: sayter.jpg
 
  - name: Jacob Fiola
    role: alumni
    graduated: Spring 2020 [B.S.]
-   phone: +1 (913) 653-3758
-   email: jafi8633@colorado.edu
+   nowat: American Century
    pic: jfiola.jpg
 
  - name: Sousheel Vunnam
    role: alumni
    graduated: Spring 2020 [B.S.]
-   phone: +1 (720) 236 2779
-   email: sousheel.vunnam@colorado.edu
    nowat: Amazon
    pic: sousheel.jpg
 
  - name: Benjamin Page
    role: alumni
-   phone: +1 (248) 224 5310
-   email: bepa0041@colorado.edu
    pic: bpage.jpg
+
+ - name: Garrett Pierson
+   role: alumni
+   pic: garrett.jpg
 
  - name: Mayank Joshi
    role: alumni
    linkedin: mayank-joshi-768650b1
-   phone: +1 (720) 757-2879
-   email: mayank.joshi@colorado.edu
    pic: mayank.jpg
 
  - name: Krishna Chaitanya Kodur
    role: alumni
    graduated: Summer 2020 [M.S.]
+   nowat: UT Arlington
    linkedin: kodur-krishna-chaitanya
-   phone: +1 (682) 246-0733
-   email: kodur.chaitanya@colorado.edu
    pic: krishna.jpg
+
+ - name: Mohana Krishna Sanagavarapu
+   role: alumni
+
+ - name: Eleanor Sarder
+   role: alumni
+   linkedin: ellasarder
+   pic: esarder.jpg
 
  - name: Kandai Watanabe
    role: alumni
    nowat: ARIA Systems Group
 
- - name: Mohana Krishna Sanagavarapu
+ - name: Kyle Yamek
    role: alumni
+   graduated: Fall 2020 [B.S.]
+   pic: kyle.jpg
+
+ - name: William Wang
+   role: alumni
+   linkedin: william-wang-a445b4193
+   pic: wwang.jpg
