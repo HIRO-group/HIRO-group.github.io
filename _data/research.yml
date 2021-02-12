@@ -52,7 +52,7 @@
     funding:
       - "DARPA TTO Subterranean Challenge"
      
-  - project: "Mixed Reality With Fielf Robots for Emergency Response"
+  - project: "Mixed Reality With Field Robots for Emergency Response"
     blurb: "Collaborative human-robot field operations rely on timely decision-making and coordination, which can be challenging for heterogeneous teams operating in large-scale deployments. In this work, we present the design of an immersive, mixed reality (MR) interface to support sense-making and situational awareness based on the data collection capabilities of both human and robotic team members. We use a field robot to collect environment data and generate 3D reconstruction then display it in the head-mounted displays (HMD) along with the very large scale terrain. People can click a part of the terrain in an immersive environment and visualize the 3D reconstruction of some parts of the terrain. The figure shows the terrain of Boulder County and the point cloud above shows the 3D reconstruction of the blue trajectory on the terrain."
     img: /img/mix_reality.png
     funding:
