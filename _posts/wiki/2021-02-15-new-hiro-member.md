@@ -67,7 +67,7 @@ Once you are **done with the preliminary steps**{:.color-banner} above, follow t
 
 ## 2.4 Lab Access
 
- 1. Write an email to **[Chantel Lehl](mailto:chantel.lehl@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) and [Joewie Koh](mailto:joewie.koh@colorado.edu) in Cc**{:.color-banner}.
+ 1. Write an email to the **[CS Front Office](mailto:csfrontoffice@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) and [Joewie Koh](mailto:joewie.koh@colorado.edu) in Cc**{:.color-banner}.
  2. Ask to be granted access to ECST 322, ECES 116 and ECES 111. Please include the following information:
     - Name
     - Student ID
