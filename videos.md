@@ -1,5 +1,7 @@
+---
 type: article
 title: ARPG Videos
+---
 
 This school year (2020-2021), the Saint Vrain Valley School District remotely hosted ARPG for a presentation series about robotics and machine learning for a middle school audience. The following videos are recordings of the live presentations.
 
