@@ -25,7 +25,7 @@
 
                     {% for category in site.categories %}
                         {% if subtype == category[0] %}
-                            {% for post in category[1] %}
+                            {% for post in category[1] limit:5 %}
                                 <div class="col-md-11 mx-auto portfolio-item" {% if subtype == "news" %}id="news"{% endif %}{% if subtype == "research" %}id="research"{% endif %}>
                                     <a href="{{ post.url }}" class="no-border portfolio-link" style="max-width:100%">
                                         <p class="post-date">{% if post.author %}by {{ post.author }}, on {% endif %}{{ post.date | date: '%B %d, %Y' }}</p>
