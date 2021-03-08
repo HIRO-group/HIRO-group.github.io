@@ -75,7 +75,7 @@ full-resolution and separated into its own tarball.
 
 ### Sensor Rig
 
-![Image of Sensor Rig](https://github.com/arpg/arpg.github.io/blob/master/img/cascade_rig_annotated.png | width=250)
+<img src="https://github.com/arpg/arpg.github.io/blob/master/img/cascade_rig_annotated.png" width=250>
 
 The sensor rig contains the following components:
 
