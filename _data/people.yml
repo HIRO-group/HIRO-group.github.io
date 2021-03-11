@@ -6,6 +6,12 @@
    email: alessandro.roncone@colorado.edu
    pic: alecive.jpg
 
+# Lab Manager
+ - name: Cesar Galan
+   role: labmanager
+   email: cesar.galan@colorado.edu
+   pic: cesar.jpg
+
 # PhD Students
 # [in order of first appearance in the lab]
 
@@ -62,7 +68,7 @@
    email: abhilash.jahagirdar@colorado.edu
    linkedin: abhilashjahagirdar
    pic: abhilash.jpg
-  
+
 # Undergraduate Students
 # [in order of first appearance in the lab]
 
