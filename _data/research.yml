@@ -74,6 +74,23 @@
     funding:
       - "Toyota grant 33643/1/ECNS20952N: Robust Perception"
 
+ - project: Compass
+   blurb: "Compass is a simultaneous localization and mapping (SLAM) pipeline with extensible frontend capability and an optimization backend based on Ceres solver."
+   publications:
+     - title: 
+       authors: Fernando Nobre, Mike Kasper, Christoffer Heckman.
+       date: 2017
+       venue: IEEE International Conference on Robotics and Automation
+       url:
+     - title: 
+       authors: Fernando Nobre, Christoffer Heckman.
+       date: 2016
+       venue: International Symposium on Experimental Robotics
+       url:
+   funding:
+     - "DARPA #N65236-16-1-1000. DSO Seedling: Ninja Cars"
+     - "Toyota grant 33643/1/ECNS20952N: Robust Perception"
+
   - project: Parkour Cars 
     img: /img/ninja_car/NinjaCarJump1.gif
     blurb: "This project aims to develop high fidelity real-time systems for perception, planning and control of agile vehicles in challenging terrain including jumps and loop-the-loops. The current research is focused on the local planning and control problem. Due to the difficulty of the maneuvers, the planning and control systems must consider the underlying physical model of the vehicle and terrain. This style of simulation-in-the-loop planning enables very accurate prediction and correction of the vehicle state, as well as the ability to learn precise attributes of the underlying physical model."
@@ -95,6 +112,19 @@
 
   - project: Referring Expressions for Object Localization
     blurb: "Understanding references to objects based on attributes, spatial relationships, and other descriptive language expands the capability of robots to locate unknown objects (zero-shot learning), find objects in cluttered scenes, and communicate uncertainty with human collaborators. We are collecting a new set of annotations, SUNspot, for the SUNRGB-d scene understanding dataset. Unlike other referring expression datasets, SUNspot will focus on graspable objects in interior scenes accompanied by the depth sensor data and full semantic segmentation from the SUNRGB-d dataset. Using SUNspot, we hope to develop a novel referring expressions system that will improve object localization for use in human-robot interaction."
+
+  - project: "RestoreBot: Autonomous Restoration and Revegetation of Degraded Ecosystems"
+    img: /img/Husky-in-desert-Sep2021.jpg
+    blurb: "In collaboration with the Correll Lab and the Aridlands Research Lab at CU Boulder, we aim to develop robotic multi-agent motion planning, join visual-tactile perception, and multimodal 3D map construction techniques to support targeted seed planting in degraded rangelands.//Dryland ecosystems make up 40 percent of the global land surface and support nearly one-sixth of the world's population. About 20 percent of the world's pastures have been degraded to some extent, leading to declines in a broad range of ecosystem services, ultimately threatening vulnerable communities. The RestoreBot project is applying developments in robotics and automation to reverse some of this degredation in the spirit of the UN's Decade of Restoration (https://www.decadeonrestoration.org). Our field work primarily takes place at the Canyonlands Research Center in southeastern Utah."
+#   webpage:
+#   publications:
+#     - title: 
+#       authors:
+#       date: 
+#       venue: 
+#       url:
+    funding:
+      - "USDA/NIFA #2021-67021-33450"
 
   - project: Multi-Agent Force Based Motion Planning
     blurb: "This project is investigating how multi-agent teams can accomplish tasks using a force based motion planning algorithm. Under this formulation, groups of agents with limited computational resources navigate using a distributed motion planning paradigm and attempt to complete tasks with limited information sharing between agents." 
