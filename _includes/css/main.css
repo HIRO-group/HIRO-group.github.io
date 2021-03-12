@@ -404,6 +404,15 @@ header .intro-text .owner {
         background-image: url("{{ site.logo2 }}");
     }
 
+    header {
+        background: #{{ site.color.secondary }};
+        border-bottom: none;
+    }
+
+    header .intro-text .name {
+        color: #fff;
+    }
+
     .logo-img {
         display: block;
         width: 92%
