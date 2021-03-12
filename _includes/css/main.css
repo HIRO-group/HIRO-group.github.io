@@ -409,7 +409,8 @@ header .intro-text .owner {
         border-bottom: none;
     }
 
-    header .intro-text .name {
+    header .intro-text .name,
+    header .intro-text .owner {
         color: #fff;
     }
 
@@ -425,6 +426,10 @@ header .intro-text .owner {
     header .container,
     #post {
         padding-top: 80px;
+    }
+
+    header hr.separating-line {
+        display: none;
     }
 }
 

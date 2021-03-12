@@ -89,7 +89,7 @@
                             <span class="owner no-print">{{ page.description }}</span>
                         </div>
                     {% else %}
-                        <img class="img-fluid logo-img" src="{{ site.logo3 }}" alt="{{ site.owner-short }}-logo">
+                        {% if page.type == "home" %}<img class="img-fluid logo-img" src="{{ site.logo3 }}" alt="{{ site.owner-short }}-logo">{% endif %}
                         <div class="intro-text">
                             {% if page.type == "home" %}<span class="name logo-alt">{{ site.owner }}</span>
                             {% else %}<span class="name">{% if page.title %}{{ page.title }}{% else %}{{ page.type }}{% endif %}</span>
