@@ -7,7 +7,7 @@
 
     {% include header.html %}
 
-    {% if page.type == "home" or page.type == "research" or page.type == "wiki" %}
+    {% if page.type == "home" or page.type == "research" or page.type == "wiki" or page.type == "news" %}
       {% include portfolio.html %}
     {% elsif page.type == "publications" or page.type == "people" %}
       {{ content }}

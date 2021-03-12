@@ -16,13 +16,13 @@
                     <a class="nav-link" href="#page-top"></a>
                 </li>
 
-                {% if page.type == "home" %}
+                {% if page.type == "home" or page.type == "news" %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="#home">news</a>
+                    <a class="nav-link" href="#news">news</a>
                 </li>
                 {% else %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/#home">news</a>
+                    <a class="nav-link" href="/news.html">news</a>
                 </li>
                 {% endif %}
 
@@ -38,7 +38,7 @@
 
                 {% if page.type == "research" %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="#post-cv">research</a>
+                    <a class="nav-link" href="#research">research</a>
                 </li>
                 {% else %}
                 <li class="nav-item page-scroll">
