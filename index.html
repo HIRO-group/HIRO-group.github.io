@@ -1,6 +1,7 @@
 ---
 type: home
-subtypes: [research, news]
+subtypes: [news]
+pagelimit: 5
 ---
 
 {% include video.html url="//www.youtube.com/embed/I5gXYuJj62k" margin-bottom="60px" padding-bottom="52%" max-width="100%" %}
@@ -15,3 +16,20 @@ Our goal is to design the next generation of robot workers, collaborators, and c
 
 Our group is within the [Department of Computer Science](https://cs.colorado.edu) in the [College of Engineering and Applied Science](https://www.colorado.edu/engineering) at [CU Boulder](https://www.colorado.edu).
 If you want to learn more about our research and you would like involved with the lab, feel free to stop by during our weekly meetings!! For _{{ site.meetings.semester }}_, we will be holding group meetings **{{ site.meetings.location }}**{:.color-banner}{{ site.meetings.note }}.
+
+## Research
+---
+
+At the HIRO Group, we perform research at the intersection _human-robot interaction_, _artificial intelligence_, and _robot control & planning_ with the goal of **developing robot technologies that enable close, natural, and extended cooperation with humans**.
+Our research effort is divided in three, partially overlapping, tightly coupled subteams. For more details on some of the research efforts going on in our lab, please [visit our research page]({{ site.baseurl }}{% link research.html %}).
+
+<div class="row">
+{% include post-sorter.html subtypes="research" %}
+</div>
+
+## Latest News
+---
+
+<div class="row">
+{% include post-sorter.html subtype="news" %}
+</div>

@@ -8,13 +8,29 @@
     {% include header.html %}
 
     {% if page.type == "home" or page.type == "research" or page.type == "wiki" or page.type == "news" %}
-      {% include portfolio.html %}
+    {% comment %} These pages sort through the article posts and are a little bit more complicated {% endcomment %}
+    <section id="{{ page.type }}">
+        <div class="container" id="portfolio">
+            <div class="row">
+                <div class="col-lg-12" style="margin-top: 0px; {% if page.subtypes %}{% else %}margin-bottom: 40px;{% endif %}">
+                    {% if page.type == "wiki" or page.type == "news" %}
+                      {% comment %} Also these pages sort through articles, but they don't have sub-topics to select from {% endcomment %}
+                        <div class="row">
+                          {% include post-sorter.html %}
+                        </div>
+                    {% else %}
+                      {{ content | markdownify }}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </section>
     {% elsif page.type == "publications" or page.type == "people" %}
-      {{ content }}
+      {{ content }}                 {% comment %} These pages sort through some data structures {% endcomment %}
     {% elsif page.type == "cv" %}
-      {% include cv.html %}
+      {% include cv.html %}         {% comment %} This is reserved to personal pages, e.g. /joewie.html{% endcomment %}
     {% else %}
-      {% include article.html %}
+      {% include article.html %}    {% comment %} This is reserved to articles {% endcomment %}
     {% endif %}
 
     {% include footer.html %}

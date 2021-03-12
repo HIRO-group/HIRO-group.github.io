@@ -58,10 +58,15 @@ p.small {
 }
 
 a {
-    color: #fff;
+    color: #{{ site.color.articletext }};
     outline: none;
     text-decoration: none;
     font-weight: bold;
+}
+
+.navbar-nav .nav-link,
+footer a {
+    color: #fff;
 }
 
 *::selection {
@@ -558,6 +563,7 @@ section p {
 section h2 {
     margin: 0;
     font-size: 2.8em;
+    margin-top: 40px;
 }
 
 section h2,
@@ -634,13 +640,13 @@ section.success p {
     }
 }
 
-#about {
+#about,
+section {
     text-align: justify;
 }
 
 #article {
     margin: 0px;
-    text-align: justify;
     color: #{{ site.color.articletext }};
 }
 

@@ -2,6 +2,7 @@
 title: Flexible Whole-Body Artificial Skin for Collaborative Robotics
 author: Caleb Escobedo, Kandai Watanabe, and Ander Aranburu
 permalink: research/robotic_skin.html
+category: [research, control and artificial skin]
 image:
     feature: research/roboskin/skin_unit.png
     size: 80%

@@ -3,6 +3,7 @@ title: Dexterous Robotic Manipulation and Skill Acquisition
 description: Non-prehensile manipulation modeling and planning
 author: Anuj Pasricha
 permalink: research/non_prehensile_manipulation.html
+category: [research, learning and modeling]
 image:
     feature: research/npm/npm_capability.png
 excerpt_separator: <!-- More -->
