@@ -9,6 +9,10 @@ totaling more than 145 minutes of 3D FMCW radar, 3D lidar, and IMU
 data. The full dataset, including sensor data, calibration sequences,
 and evaluation scripts can be downloaded here.
 
+For an explanation video of this dataset, please click the linked image below:
+
+[![ColoRadar dataset](http://img.youtube.com/vi/kF2urbqBJPw/0.jpg)](https://youtu.be/kF2urbqBJPw "ColoRadar dataset")
+
 ### Downloads
 
 We have organized our dataset using the Automous Systems Lab (ASL) dataset
