@@ -1,8 +1,8 @@
 ---
 title: Control and Artificial Skin
 author:
-permalink: research/control-artificial-skin.html
-category: [research]
+permalink: subteam/control-artificial-skin.html
+category: [subteams]
 excerpt_separator: <!-- More -->
 ---
 

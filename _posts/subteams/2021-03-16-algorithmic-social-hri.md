@@ -1,8 +1,8 @@
 ---
 title: Algorithmic and Social HRI
 author:
-permalink: research/algorithmic-social-hri.html
-category: [research]
+permalink: subteam/algorithmic-social-hri.html
+category: [subteams]
 excerpt_separator: <!-- More -->
 ---
 

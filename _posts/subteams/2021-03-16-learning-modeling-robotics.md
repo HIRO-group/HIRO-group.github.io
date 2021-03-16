@@ -1,8 +1,8 @@
 ---
 title: Learning, Modeling, and Robotics
 author:
-permalink: research/learning-modeling-robotics.html
-category: [research]
+permalink: subteam/learning-modeling-robotics.html
+category: [subteams]
 excerpt_separator: <!-- More -->
 ---
 
