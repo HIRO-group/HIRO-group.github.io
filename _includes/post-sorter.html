@@ -19,7 +19,7 @@
                             {% for post in category[1] limit: pagelimit %}
                                 <div class="col-md-11 mx-auto portfolio-item" {% if subtype == "news" %}id="news"{% elsif subtype == "research" or subtype == "subteams" or page.type == "subteams" %}id="research"{% endif %}>
                                     <a href="{{ post.url }}" class="no-border portfolio-link" style="max-width:100%">
-                                        <p class="post-date">{% if post.author %}by {{ post.author }}, on {% endif %}{{ post.date | date: '%B %d, %Y' }}</p>
+                                        {% if subtype != "subteams" %}<p class="post-date">{% if post.author %}by {{ post.author }}, on {% endif %}{{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
                                         <h3>{{ post.title }}</h3>
                                         {% if page.type == "research" or subtype == "subteams" or page.type == "subteams" %}
                                             {% if post.description %}
