@@ -1,8 +1,7 @@
 ---
 title: Control and Artificial Skin
-author:
+subtype: control and artificial skin
 permalink: subteam/control-artificial-skin.html
-category: [subteams]
 excerpt_separator: <!-- More -->
 ---
 
@@ -17,7 +16,15 @@ These additional data streams and others to be included in future sensor units w
 
 <!-- More -->
 
-### Plug and Play Sensor Units for Environmental Robotic Perception
+# Contents
+{:.no_toc}
+
+* This line will be replaced by the ToC, excluding the "Contents" header
+{:toc}
+
+# 1. Projects
+
+## 1.1 Plug-and-Play Sensor Units for Environmental Robotic Perception
 
 The HIRO Group has begun the development of small, self-contained sensor units that can be placed on the surface of a robot manipulator to gather information about the robot’s environment.
 One of the initial projects in the HIRO Group focused on improving accuracy and reducing the time required to automatically locate sensors on the robot's surface.
@@ -31,7 +38,7 @@ The next generation of sensors will include capacitive and force sensing to allo
 **_Publications_**
  - K. Watanabe, M. Strong, M. West, C. Escobedo, A. Aramburu, K. Chaitanya and A. Roncone, "Self-contained kinematic calibration of a novel whole-body artificial skin for human-robot collaboration", 2021. In review.
 
-### Control Framework for Force Reduction and Anticipation During Human-Robot Interaction
+## 1.2 Control Framework for Force Reduction and Anticipation During Human-Robot Interaction
 
 In order to facilitate ubiquitous human-robot interaction, human safety must be ensured while still allowing for meaningful contact between humans and robots.
 Humans can make contact with each other to share information about the environment or request attention for a particular interaction.
@@ -47,3 +54,9 @@ Future work in this area will focus on gentle continuous contact interactions, l
 
 **_Publications_**
  - C. Escobedo, M. Strong, M. West, A. Aramburu, and A. Roncone, "Contact anticipation for physical human–robot interaction with robotic manipulators using onboard proximity sensors", 2021. In review.
+
+# 2. Some of our recent work
+
+<div class="row">
+    {% include post-sorter.html subtype=page.subtype %}
+</div>

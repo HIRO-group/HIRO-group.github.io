@@ -937,6 +937,12 @@ section {
     font-weight: normal;
 }
 
+#research h3 {
+    margin-bottom: inherit;
+    padding-left: 0;
+    border-left: inherit;
+}
+
 code,
 pre,
 .img-caption {

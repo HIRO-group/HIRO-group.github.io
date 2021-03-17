@@ -1,8 +1,7 @@
 ---
 title: Algorithmic and Social HRI
-author:
+subtype: algorithmic and social hri
 permalink: subteam/algorithmic-social-hri.html
-category: [subteams]
 excerpt_separator: <!-- More -->
 ---
 
@@ -15,7 +14,15 @@ We use an interdisciplinary approach, leveraging work from cognitive learning th
 
 <!-- More -->
 
-### Reference Dependent Risk Attitudes in HRI
+# Contents
+{:.no_toc}
+
+* This line will be replaced by the ToC, excluding the "Contents" header
+{:toc}
+
+# 1. Projects
+
+## 1.1 Reference Dependent Risk Attitudes in HRI
 
 Prior research has shown that humans struggle to accurately judge the ability of robots.
 This gap in expectations creates misplaced trust, which can result in disappointment and erosion of trust.
@@ -25,13 +32,13 @@ Further work in experimental economics has indicated that “a prior expectation
 In this project, we are testing the applicability of these experimental economics concepts in the context of human-robot interaction, in an effort to limit the expectations gap and promote more positive outcomes.
 With knowledge of how applicable these concepts are to HRI, along with information about the effects of risk awareness on human behavior with robots, we hope to be able to create new models of robot behavior that guide humans to more accurate perceptions of robot ability, without eroding trust.
 
-### Student-Robot Teaming and Robots in the Classroom
+## 1.2 Student-Robot Teaming and Robots in the Classroom
 
 Recent work in cognitive learning theory and social psychology present new opportunities to improve and rethink the application of robots in the classroom.
 Why are robots such powerful agents of tutoring, and how can we use their unique social roles to develop student skills in reading, STEM, and beyond, and address educational inequality across lines of race, gender, and ability?
 Current projects, conducted in conjunction with the Institute for Student-AI Teaming (iSAT) and the Engineering Education and AI-Augmented Learning IRT, include study into HRI design considerations for students of color and developing a robot tutoring system to address grounded reading skills.
 
-### Task and Role Assignment for Human Robot Collaboration
+## 1.3 Task and Role Assignment for Human Robot Collaboration
 
 To incorporate robots into human teams, robots need explainable task representations and better understanding of the social dynamics of the human team to be an effective member.
 Our goal is to equip the robot with the ability to insert itself into an existing human team to promote collaboration and improve efficiency.
@@ -39,7 +46,7 @@ How can the robot decompose complex tasks and find the optimal role assignments 
 How does the robot balance the preferences of the human and the optimality of the task assignment?
 How does the robot know what roles to take?
 
-### Robotic Intent Signaling System
+## 1.4 Robotic Intent Signaling System
 
 The creation of information channels between robots and humans is complicated and fraught with potential pitfalls; the goal being a simplistic system that effectively carries information from one party to another consistently and clearly.
 While much work has gone into creating robot signals and modes of communication, most research seeks to answer the question “Does this system communicate what it was intended to?”, be it the robot's path, intent, or status.
