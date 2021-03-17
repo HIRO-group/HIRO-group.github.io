@@ -17,21 +17,28 @@
                             {% endif %}
 
                             {% for post in category[1] limit: pagelimit %}
-                                <div class="col-md-11 mx-auto portfolio-item" {% if subtype == "news" %}id="news"{% elsif subtype == "research" or page.type == "subteams" %}id="research"{% endif %}>
+                                <div class="col-md-11 mx-auto portfolio-item" {% if subtype == "news" %}id="news"{% elsif subtype == "research" or subtype == "subteams" or page.type == "subteams" %}id="research"{% endif %}>
                                     <a href="{{ post.url }}" class="no-border portfolio-link" style="max-width:100%">
                                         <p class="post-date">{% if post.author %}by {{ post.author }}, on {% endif %}{{ post.date | date: '%B %d, %Y' }}</p>
                                         <h3>{{ post.title }}</h3>
-                                        {% if page.type == "research" or page.type == "subteams" %}
+                                        {% if page.type == "research" or subtype == "subteams" or page.type == "subteams" %}
+                                            {% if post.description %}
+                                                <p>{{ post.description }}</p>
+                                            {% endif %}
                                             {% if post.image.feature %}
                                                 <div class="img-container" style="margin-bottom: 12px; max-width:{% if post.image.size %} {{ post.image.size }}{% else %} 100%{% endif %};">
                                                     <img classs="img-fluid img-centered" src="/img/{{ post.image.feature }}" alt="{{ post.title }}">
                                                 </div>
                                             {% endif %}
-                                        {{ post.excerpt }}
+                                            {% if subtype != "subteams" %}
+                                                <p>{{ post.excerpt }}</p>
+                                            {% endif %}
                                         {% else %}
-                                        <p>{{ post.description }}</p>
+                                            {% if post.description %}
+                                                <p>{{ post.description }}</p>
+                                            {% endif %}
                                         {% endif %}
-                                        <strong>[Read More]</strong>
+                                        <!-- <strong>[Read More]</strong> -->
                                     </a>
                                 </div>
                             {% endfor %}

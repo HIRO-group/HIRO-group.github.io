@@ -79,6 +79,7 @@ defaults:
       path: "_posts/research/subteams"
     values:
       type: "subteams"
+      category: [research, subteams]
 
 # Default colors (hex-codes without the leading hash-tag):
 color:
