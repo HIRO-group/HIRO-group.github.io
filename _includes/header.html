@@ -36,7 +36,7 @@
                 </li>
                 {% endif %}
 
-                {% if page.type == "research" %}
+                <!-- {% if page.type == "research" %}
                 <li class="nav-item page-scroll">
                     <a class="nav-link" href="#research">research</a>
                 </li>
@@ -44,7 +44,18 @@
                 <li class="nav-item page-scroll">
                     <a class="nav-link" href="/research.html">research</a>
                 </li>
-                {% endif %}
+                {% endif %} -->
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">research</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/research.html">research</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/subteam/algorithmic-social-hri.html">algorithmic and social hri</a>
+                        <a class="dropdown-item" href="/subteam/control-artificial-skin.html">control and artificial skin</a>
+                        <a class="dropdown-item" href="/subteam/learning-modeling-robotics">learning, modeling, and robotics</a>
+                    </div>
+                </li>
 
                 {% if page.type == "publications" %}
                 <li class="nav-item page-scroll">

@@ -65,7 +65,8 @@ a {
 }
 
 .navbar-nav .nav-link,
-footer a {
+footer a,
+.dropdown-item {
     color: #fff;
 }
 
@@ -92,10 +93,17 @@ a.active,
 #research a:hover h3,
 #news a:hover h3,
 .navbar-nav .nav-link:hover,
-.navbar-nav .nav-link:focus {
+.navbar-nav .nav-link:focus,
+.dropdown-item:hover,
+.dropdown-item:focus {
     color: #{{ site.color.accent }};
     text-decoration: none;
     transition: all ease .7s;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: transparent;
 }
 
 header img:hover,
@@ -347,7 +355,8 @@ header .intro-text .owner {
     outline: 0;
 }
 
-.navbar {
+.navbar,
+.dropdown-menu {
     background-color: #{{ site.color.secondary }};
     border: 0;
     transition: all ease .3s;
@@ -360,8 +369,8 @@ header .intro-text .owner {
 }
 
 .navbar-brand {
-    min-width: 488px;
-    width: 488px;
+    min-width: 476px;
+    width: 476px;
     height: 128px;
     transition: all ease .3s;
     background: url("{{ site.logo3 }}") no-repeat;
@@ -375,10 +384,23 @@ header .intro-text .owner {
     background-image: url("{{ site.logo2 }}");
 }
 
+.dropdown-menu {
+    border-radius: 0px;
+    font-size: 16px;
+}
+
+.dropdown-item {
+    border-image-width: 0px;
+}
+
+.dropdown-divider {
+    margin: .5rem 1rem;
+}
+
 @media(max-width: 1430px) {
     .navbar-brand {
-        min-width: 366px;
-        width: 366px;
+        min-width: 364px;
+        width: 364px;
         height: 96px;
     }
 
