@@ -74,6 +74,12 @@ defaults:
     values:
       category: "research"
 
+  -
+    scope:
+      path: "_posts/research/subteams"
+    values:
+      type: "subteams"
+
 # Default colors (hex-codes without the leading hash-tag):
 color:
   banner: 66a329                            # This is a green banner color (for red, use bf4040)
