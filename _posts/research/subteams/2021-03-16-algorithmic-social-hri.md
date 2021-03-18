@@ -44,7 +44,7 @@ With knowledge of how applicable these concepts are to HRI, along with informati
 
 Recent work in cognitive learning theory and social psychology present new opportunities to improve and rethink the application of robots in the classroom.
 Why are robots such powerful agents of tutoring, and how can we use their unique social roles to develop student skills in reading, STEM, and beyond, and address educational inequality across lines of race, gender, and ability?
-Current projects, conducted in conjunction with the Institute for Student-AI Teaming (iSAT) and the Engineering Education and AI-Augmented Learning IRT, include study into HRI design considerations for students of color and developing a robot tutoring system to address grounded reading skills.
+Current projects, conducted in conjunction with the [NSF AI Institute for Student-AI Teaming (iSAT)](https://www.colorado.edu/research/ai-institute/) and the [Engineering Education and AI-Augmented Learning IRT](https://www.colorado.edu/irt/engineering-education-ai/), include study into HRI design considerations for students of color and developing a robot tutoring system to address grounded reading skills.
 
 {% include image.html url="research/isat.jpg" description="iSAT's vision for student-AI teaming and classroom orchestration." %}
 
