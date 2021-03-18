@@ -1,7 +1,11 @@
 ---
 title: Learning, Modeling, and Robotics
+description: Improving robot capabilities with research at the confluence of learning, modeling, and robotics
 subtype: learning and modeling
 permalink: subteam/learning-modeling-robotics.html
+image:
+    feature: research/npm/poking.jpg
+    size: 40%
 excerpt_separator: <!-- More -->
 ---
 
@@ -30,6 +34,8 @@ We posit that robots need to leverage non-prehensile manipulation as part of the
 Our past work introduced a novel planner that uses poking as a skill _and_ failure recovery tactic synergistically with grasping.
 Moving forward, we are building hybrid models for manipulation in which physics-based and learning-based approaches complement each other, toward generating a repository of skills that robots can then use to engage in more complex, affordance-informed task planning and manipulation.
 
+{% include image.html url="research/npm/poking.jpg" max-width="40%" description="Expanding operational space by leveraging non-prehensile manipulation." %}
+
 **Students:** [Anuj Pasricha]({{ site.url }}/anuj), Yi-Shiuan Tung
 
 **_Publications_**
@@ -52,6 +58,8 @@ However, much of the work applying RL to robotics has been in the single-agent p
 We are most interested in developing algorithms for controlling heterogeneous teams that cooperate to accomplish common goals, with the aim of enabling multi-robot systems to be imbued with capabilities that are more than the sum of their parts.
 Moreover, we envision multi-agent systems serving as the setting for the next wave of progress in RL research, and are further driven by the belief that multi-agent RL can provide a theoretical basis for understanding the application of RL in human–robot contexts.
 
+{% include image.html url="research/marl/SLiCC.png" max-width="40%" description="Learning to cooperate with asymmetric perceptual capabilities." %}
+
 **Students:** Guohui Ding, [Joewie J. Koh]({{ site.url }}/joewie)
 
 **_Publications_**
@@ -63,6 +71,8 @@ Moreover, we envision multi-agent systems serving as the setting for the next wa
 The [NSF National AI Institute for Student-AI Teaming (iSAT)](https://www.colorado.edu/research/ai-institute/) is a multi-site interdisciplinary institute with the vision of developing artificial intelligence as a social, collaborative partner that helps both students and teachers make learning more effective, engaging, and equitable.
 As a part of this institute, we conduct foundational research on dialog management for AI-based conversation participation and facilitation.
 Specifically, we are studying how reinforcement learning might be applied to autonomously generate and fine-tune discourse policies.
+
+{% include image.html url="research/isat.jpg" description="iSAT's vision for student-AI teaming and classroom orchestration." %}
 
 **Students:** [Joewie J. Koh]({{ site.url }}/joewie), [Kaleb Bishop](https://kalebishop.github.io/)
 

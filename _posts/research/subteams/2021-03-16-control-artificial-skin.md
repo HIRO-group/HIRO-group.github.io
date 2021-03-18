@@ -1,7 +1,11 @@
 ---
 title: Control and Artificial Skin
+description: Novel sensing hardware and motion control frameworks for safe human–robot interaction
 subtype: control and artificial skin
 permalink: subteam/control-artificial-skin.html
+image:
+    feature: research/roboskin/sensor_units.jpg
+    size: 40%
 excerpt_separator: <!-- More -->
 ---
 
@@ -49,6 +53,8 @@ After a gentle collision occurs, a reactive behavior causes the robot to move aw
 After the human has left the scene, the robot is able to continue with its previous requested or new trajectory without entering an error state.
 The control framework is constantly being improved to include information from multiple sensor sources in order to act on a detailed representation of the robot’s environment.
 Future work in this area will focus on gentle continuous contact interactions, low-level control measures that guarantee human safety, and integration with complex human-robot collaboration.
+
+{% include image.html url="research/roboskin/sensor_units.jpg" max-width="40%" description="Anticipating contact with whole-body sensing." %}
 
 **Students:** [Caleb Escobedo]({{ site.url }}/caleb), Matt Strong, Mary West, Nataliya Nechyporenko
 

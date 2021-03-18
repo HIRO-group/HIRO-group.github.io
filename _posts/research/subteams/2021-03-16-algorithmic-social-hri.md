@@ -1,7 +1,11 @@
 ---
 title: Algorithmic and Social HRI
+description: Creating robot behaviors that promote safer, more reliable, and more effective interactions with humans
 subtype: algorithmic and social hri
 permalink: subteam/algorithmic-social-hri.html
+image:
+    feature: research/isat.jpg
+    size: 80%
 excerpt_separator: <!-- More -->
 ---
 
@@ -32,11 +36,19 @@ Further work in experimental economics has indicated that “a prior expectation
 In this project, we are testing the applicability of these experimental economics concepts in the context of human-robot interaction, in an effort to limit the expectations gap and promote more positive outcomes.
 With knowledge of how applicable these concepts are to HRI, along with information about the effects of risk awareness on human behavior with robots, we hope to be able to create new models of robot behavior that guide humans to more accurate perceptions of robot ability, without eroding trust.
 
+{% include image.html url="research/algo-social-hri/prospect-theory.png" max-width="50%" description="Humans have a tendency to underestimate the value of outcomes." %}
+
+**Students:** Clare Lohrmann
+
 ## 1.2 Student-Robot Teaming and Robots in the Classroom
 
 Recent work in cognitive learning theory and social psychology present new opportunities to improve and rethink the application of robots in the classroom.
 Why are robots such powerful agents of tutoring, and how can we use their unique social roles to develop student skills in reading, STEM, and beyond, and address educational inequality across lines of race, gender, and ability?
 Current projects, conducted in conjunction with the Institute for Student-AI Teaming (iSAT) and the Engineering Education and AI-Augmented Learning IRT, include study into HRI design considerations for students of color and developing a robot tutoring system to address grounded reading skills.
+
+{% include image.html url="research/isat.jpg" description="iSAT's vision for student-AI teaming and classroom orchestration." %}
+
+**Students:** Kaleb Bishop
 
 ## 1.3 Task and Role Assignment for Human Robot Collaboration
 
@@ -46,6 +58,8 @@ How can the robot decompose complex tasks and find the optimal role assignments 
 How does the robot balance the preferences of the human and the optimality of the task assignment?
 How does the robot know what roles to take?
 
+**Students:** Yi-Shiuan Tung
+
 ## 1.4 Robotic Intent Signaling System
 
 The creation of information channels between robots and humans is complicated and fraught with potential pitfalls; the goal being a simplistic system that effectively carries information from one party to another consistently and clearly.
@@ -53,3 +67,5 @@ While much work has gone into creating robot signals and modes of communication,
 Research is conducted in a controlled environment, so the applicability of these systems to environments constrained by space or time is unknown.
 We are currently examining the effectiveness of a projection-based trajectory system in a cluttered and fast paced environment.
 Through this work we hope to determine when this method of communication is most effective, and if/when the environment becomes too crowded or too fast moving for the communication to be effective.
+
+**Students:** Mitchell Scott, Shreyas Kadekodi, [Caleb Escobedo]({{ site.url }}/caleb), Clare Lohrmann
