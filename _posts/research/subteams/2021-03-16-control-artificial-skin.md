@@ -5,7 +5,7 @@ subtype: control and artificial skin
 permalink: subteam/control-artificial-skin.html
 image:
     feature: research/roboskin/sensor_units.jpg
-    size: 40%
+    size: 60%
 excerpt_separator: <!-- More -->
 ---
 
@@ -37,9 +37,9 @@ With precise knowledge of the sensor unit’s position and orientation, we can l
 The sensor units are currently embedded with IMU and proximity sensors for calibration and collision anticipation algorithms.
 The next generation of sensors will include capacitive and force sensing to allow high-resolution tactile feedback from touch events. In particular, we can use this data for tactile-visual sensor fusion and tactile feature extraction when interacting with physical objects.
 
-**Students:** Mary West, Matt Strong
+**Students:** Mary West, Matt Strong, [Caleb Escobedo]({{ site.url }}/caleb)
 
-**_Publications_**
+**_Publications:_**
  - K. Watanabe, M. Strong, M. West, C. Escobedo, A. Aramburu, K. Chaitanya and A. Roncone, "Self-contained kinematic calibration of a novel whole-body artificial skin for human-robot collaboration", 2021. In review.
 
 ## 1.2 Control Framework for Force Reduction and Anticipation During Human-Robot Interaction
@@ -58,7 +58,7 @@ Future work in this area will focus on gentle continuous contact interactions, l
 
 **Students:** [Caleb Escobedo]({{ site.url }}/caleb), Matt Strong, Mary West, Nataliya Nechyporenko
 
-**_Publications_**
+**_Publications:_**
  - C. Escobedo, M. Strong, M. West, A. Aramburu, and A. Roncone, "Contact anticipation for physical human–robot interaction with robotic manipulators using onboard proximity sensors", 2021. In review.
 
 # 2. Some of our recent work

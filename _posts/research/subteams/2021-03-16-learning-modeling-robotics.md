@@ -1,11 +1,11 @@
 ---
 title: Learning, Modeling, and Robotics
-description: Improving robot capabilities with research at the confluence of learning, modeling, and robotics
+description: Bridging the gap between robotics and artificial intelligence
 subtype: learning and modeling
 permalink: subteam/learning-modeling-robotics.html
 image:
     feature: research/npm/poking.jpg
-    size: 40%
+    size: 60%
 excerpt_separator: <!-- More -->
 ---
 
@@ -38,10 +38,10 @@ Moving forward, we are building hybrid models for manipulation in which physics-
 
 **Students:** [Anuj Pasricha]({{ site.url }}/anuj), Yi-Shiuan Tung
 
-**_Publications_**
+**_Publications:_**
  - A. Pasricha, Y. Tung, B. Hayes, and A. Roncone, "PokeRRT: Poking as a skill and failure recovery tactic for planar non-prehensile manipulation," 2021. In review.
 
-## 1.2. Natural Language Grounding Skill Transfer
+## 1.2. Natural Language Grounding and Skill Transfer
 
 Natural language is the easiest and most generalizable way for humans to specify a task, provide new information, and convey intentions.
 Achieving this communication with robots requires grounding language to the world that they exist in.
@@ -62,7 +62,7 @@ Moreover, we envision multi-agent systems serving as the setting for the next wa
 
 **Students:** Guohui Ding, [Joewie J. Koh]({{ site.url }}/joewie)
 
-**_Publications_**
+**_Publications:_**
  - J. J. Koh*, G. Ding*, C. Heckman, L. Chen, A. Roncone, "Cooperative control of mobile robots with Stackelberg learning," in _2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, 2020. [[PDF]]({{ site.url }}/papers/2020_Koh_IROS_SLiCC.pdf) [[BIB]]({{ site.url }}/papers/2020_Koh_IROS_SLiCC.bib)
  - G. Ding*, J. J. Koh*, K. Merckaert, B. Vanderborght, M. M. Nicotra, C. Heckman, A. Roncone, L. Chen, "Distributed reinforcement learning for cooperative multi-robot object manipulation," in _19th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)_, 2020. [[PDF]]({{ site.url }}/papers/2020_Ding_AAMAS_cooperative_object_manipulation.pdf) [[BIB]]({{ site.url }}/papers/2020_Ding_AAMAS_cooperative_object_manipulation.bib)
 
