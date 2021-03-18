@@ -48,7 +48,7 @@ Current projects, conducted in conjunction with the Institute for Student-AI Tea
 
 {% include image.html url="research/isat.jpg" description="iSAT's vision for student-AI teaming and classroom orchestration." %}
 
-**Students:** Kaleb Bishop
+**Students:** [Kaleb Bishop](https://kalebishop.github.io/)
 
 ## 1.3 Task and Role Assignment for Human Robot Collaboration
 
