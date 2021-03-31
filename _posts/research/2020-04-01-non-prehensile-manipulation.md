@@ -46,6 +46,7 @@ Our current work models poking manipulation as a skill and as a failure recovery
 ## Multimodal Motion Planning
 
 {% include image.html url="research/npm/pokerrt_block_diagram.png" max-width="100%" description="<em>PokeRRT</em> planner pipeline---skill thresholding is performed on augmented object configuration space to extract regions of grasping (blue) and poking (green). These skill regions are then used by PokeRRT to plan an object path from a start state to a goal state through augmented object configuration space. In this example, robot pokes object out from between the obstacles and into a more graspable configuration. Then the robot performs a pick-and-place operation to the object's goal configuration." %}
+{% include video.html url="//www.youtube.com/embed/3JmIS9vd-ww" %}
 
 Leveraging traditional sampling-based motion planning can allow us to build a synergistic multimodal planning framework that further enhances robot dexterity. This vision **enables the decoupling of skill modeling and motion planning**, allowing for platform-independent and application-driven robot dexterity without learning from scratch with the introduction of each new skill as current reinforcement learning approaches in this area require. Our most recent contribution in this domain is **the development of the *PokeRRT* algorithm to plan in scenarios that combine poking and grasping manipulation.**
 
