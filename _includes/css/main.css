@@ -682,7 +682,7 @@ section {
 #wiki a h3,
 #research a h3,
 #news a h3 {
-    font-size: 1.85em;
+    font-size: 1.60em;
     font-weight: 300;
     margin-top: 20px;
 }
@@ -1195,7 +1195,7 @@ span.label:hover e.ok {
 
 #portfolio .portfolio-item {
     right: 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #portfolio .portfolio-item *,
@@ -1604,7 +1604,7 @@ pre code span:hover {
 
 #portfolio .portfolio-item .no-border
 {
-    padding: 14px;
+    padding: 8px;
 }
 
 #portfolio .portfolio-item .no-border:hover

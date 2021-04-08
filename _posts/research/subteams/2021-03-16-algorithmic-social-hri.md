@@ -28,6 +28,8 @@ We use an interdisciplinary approach, leveraging work from cognitive learning th
 
 ## 1.1 Reference Dependent Risk Attitudes in HRI
 
+**Students:** Clare Lohrmann
+
 Prior research has shown that humans struggle to accurately judge the ability of robots.
 This gap in expectations creates misplaced trust, which can result in disappointment and erosion of trust.
 We hypothesize that this decrease in trust is caused by the human tendency towards loss aversion.
@@ -38,17 +40,15 @@ With knowledge of how applicable these concepts are to HRI, along with informati
 
 {% include image.html url="research/algo-social-hri/prospect-theory.png" max-width="50%" description="Humans have a tendency to underestimate the value of outcomes." %}
 
-**Students:** Clare Lohrmann
-
 ## 1.2 Student-Robot Teaming and Robots in the Classroom
+
+**Students:** [Kaleb Bishop](https://kalebishop.github.io/)
 
 Recent work in cognitive learning theory and social psychology present new opportunities to improve and rethink the application of robots in the classroom.
 Why are robots such powerful agents of tutoring, and how can we use their unique social roles to develop student skills in reading, STEM, and beyond, and address educational inequality across lines of race, gender, and ability?
 Current projects, conducted in conjunction with the [NSF AI Institute for Student-AI Teaming (iSAT)](https://www.colorado.edu/research/ai-institute/) and the [Engineering Education and AI-Augmented Learning IRT](https://www.colorado.edu/irt/engineering-education-ai/), include study into HRI design considerations for students of color and developing a robot tutoring system to address grounded reading skills.
 
 {% include image.html url="research/isat.jpg" description="iSAT's vision for student-AI teaming and classroom orchestration." %}
-
-**Students:** [Kaleb Bishop](https://kalebishop.github.io/)
 
 ## 1.3 Task and Role Assignment for Human Robot Collaboration
 
@@ -62,10 +62,10 @@ How does the robot know what roles to take?
 
 ## 1.4 Robotic Intent Signaling System
 
+**Students:** Mitchell Scott, Shreyas Kadekodi, [Caleb Escobedo]({% post_url people/2019-10-10-caleb %}), Clare Lohrmann
+
 The creation of information channels between robots and humans is complicated and fraught with potential pitfalls; the goal being a simplistic system that effectively carries information from one party to another consistently and clearly.
 While much work has gone into creating robot signals and modes of communication, most research seeks to answer the question “Does this system communicate what it was intended to?”, be it the robot's path, intent, or status.
 Research is conducted in a controlled environment, so the applicability of these systems to environments constrained by space or time is unknown.
 We are currently examining the effectiveness of a projection-based trajectory system in a cluttered and fast paced environment.
 Through this work we hope to determine when this method of communication is most effective, and if/when the environment becomes too crowded or too fast moving for the communication to be effective.
-
-**Students:** Mitchell Scott, Shreyas Kadekodi, [Caleb Escobedo]({{ site.url }}/caleb), Clare Lohrmann

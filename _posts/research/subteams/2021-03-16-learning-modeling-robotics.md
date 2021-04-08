@@ -29,19 +29,25 @@ We accomplish this from two perspectives:
 
 ## 1.1. Non-Prehensile Manipulation
 
+**Students:** [Anuj Pasricha]({% post_url people/2019-10-13-anuj %}), Yi-Shiuan Tung
+
+**_Publications:_**
+ - A. Pasricha, Y. Tung, B. Hayes, and A. Roncone, _"PokeRRT: Poking as a skill and failure recovery tactic for planar non-prehensile manipulation"_, 2021. Under review.
+
 Non-prehensile manipulation (i.e., manipulation that does not involve grasping) can significantly expand the operational space of a robot.
 We posit that robots need to leverage non-prehensile manipulation as part of their skill set if they are to achieve human-level dexterity.
 Our past work introduced a novel planner that uses poking as a skill _and_ failure recovery tactic synergistically with grasping.
 Moving forward, we are building hybrid models for manipulation in which physics-based and learning-based approaches complement each other, toward generating a repository of skills that robots can then use to engage in more complex, affordance-informed task planning and manipulation.
 
-{% include image.html url="research/npm/poking.jpg" max-width="40%" description="Expanding operational space by leveraging non-prehensile manipulation." %}
+<!-- {% include image.html url="research/npm/poking.jpg" max-width="40%" description="Expanding operational space by leveraging non-prehensile manipulation." %} -->
 
-**Students:** [Anuj Pasricha]({{ site.url }}/anuj), Yi-Shiuan Tung
-
-**_Publications:_**
- - A. Pasricha, Y. Tung, B. Hayes, and A. Roncone, "PokeRRT: Poking as a skill and failure recovery tactic for planar non-prehensile manipulation," 2021. In review.
+<div class="row">
+    {% include post-sorter.html subtype="non-prehensile manipulation" %}
+</div>
 
 ## 1.2. Natural Language Grounding and Skill Transfer
+
+**Students:** Stéphane Aroca-Ouellette
 
 Natural language is the easiest and most generalizable way for humans to specify a task, provide new information, and convey intentions.
 Achieving this communication with robots requires grounding language to the world that they exist in.
@@ -49,9 +55,13 @@ More concretely, this requires enabling robots to map words and phrases to objec
 To this end, we are investigating how to condition robotic motion on natural language with the aim of developing a more flexible and generalizable task specification framework.
 Further, we are interested in how real-world experience changes a model’s interpretation of language.
 
-**Students:** Stéphane Aroca-Ouellette
-
 ## 1.3. Multi-Agent Reinforcement Learning
+
+**Students:** Guohui Ding, [Joewie J. Koh]({% post_url people/2020-07-15-joewie %})
+
+**_Publications:_**
+ - J. J. Koh*, G. Ding*, C. Heckman, L. Chen, A. Roncone, "Cooperative control of mobile robots with Stackelberg learning," in _2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, 2020. [[PDF]]({{ site.url }}/papers/2020_Koh_IROS_SLiCC.pdf) [[BIB]]({{ site.url }}/papers/2020_Koh_IROS_SLiCC.bib)
+ - G. Ding*, J. J. Koh*, K. Merckaert, B. Vanderborght, M. M. Nicotra, C. Heckman, A. Roncone, L. Chen, "Distributed reinforcement learning for cooperative multi-robot object manipulation," in _19th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)_, 2020. [[PDF]]({{ site.url }}/papers/2020_Ding_AAMAS_cooperative_object_manipulation.pdf) [[BIB]]({{ site.url }}/papers/2020_Ding_AAMAS_cooperative_object_manipulation.bib)
 
 Reinforcement learning (RL), which allows an agent to learn from interactions with its environment, presents an increasingly promising alternative to traditional model-based control.
 However, much of the work applying RL to robotics has been in the single-agent paradigm—despite the pervasiveness of multi-agent robotic systems in the real world.
@@ -60,24 +70,12 @@ Moreover, we envision multi-agent systems serving as the setting for the next wa
 
 {% include image.html url="research/marl/SLiCC.png" max-width="40%" description="Learning to cooperate with asymmetric perceptual capabilities." %}
 
-**Students:** Guohui Ding, [Joewie J. Koh]({{ site.url }}/joewie)
-
-**_Publications:_**
- - J. J. Koh*, G. Ding*, C. Heckman, L. Chen, A. Roncone, "Cooperative control of mobile robots with Stackelberg learning," in _2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, 2020. [[PDF]]({{ site.url }}/papers/2020_Koh_IROS_SLiCC.pdf) [[BIB]]({{ site.url }}/papers/2020_Koh_IROS_SLiCC.bib)
- - G. Ding*, J. J. Koh*, K. Merckaert, B. Vanderborght, M. M. Nicotra, C. Heckman, A. Roncone, L. Chen, "Distributed reinforcement learning for cooperative multi-robot object manipulation," in _19th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)_, 2020. [[PDF]]({{ site.url }}/papers/2020_Ding_AAMAS_cooperative_object_manipulation.pdf) [[BIB]]({{ site.url }}/papers/2020_Ding_AAMAS_cooperative_object_manipulation.bib)
-
 ## 1.4. Learning Discourse Policies for Dialog Management
+
+**Students:** [Joewie J. Koh]({% post_url people/2020-07-15-joewie %}), [Kaleb Bishop](https://kalebishop.github.io/)
 
 The [NSF National AI Institute for Student-AI Teaming (iSAT)](https://www.colorado.edu/research/ai-institute/) is a multi-site interdisciplinary institute with the vision of developing artificial intelligence as a social, collaborative partner that helps both students and teachers make learning more effective, engaging, and equitable.
 As a part of this institute, we conduct foundational research on dialog management for AI-based conversation participation and facilitation.
 Specifically, we are studying how reinforcement learning might be applied to autonomously generate and fine-tune discourse policies.
 
 {% include image.html url="research/isat.jpg" description="iSAT's vision for student-AI teaming and classroom orchestration." %}
-
-**Students:** [Joewie J. Koh]({{ site.url }}/joewie), [Kaleb Bishop](https://kalebishop.github.io/)
-
-# 2. Some of our recent work
-
-<div class="row">
-    {% include post-sorter.html subtype=page.subtype %}
-</div>

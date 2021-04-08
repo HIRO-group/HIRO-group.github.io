@@ -30,6 +30,11 @@ These additional data streams and others to be included in future sensor units w
 
 ## 1.1 Plug-and-Play Sensor Units for Environmental Robotic Perception
 
+**Students:** Mary West, Matt Strong, [Caleb Escobedo]({% post_url people/2019-10-10-caleb %})
+
+**_Publications:_**
+ - K. Watanabe, M. Strong, M. West, C. Escobedo, A. Aramburu, K. Chaitanya and A. Roncone, _"Self-contained kinematic calibration of a novel whole-body artificial skin for human-robot collaboration"_, 2021. Under review.
+
 The HIRO Group has begun the development of small, self-contained sensor units that can be placed on the surface of a robot manipulator to gather information about the robot’s environment.
 One of the initial projects in the HIRO Group focused on improving accuracy and reducing the time required to automatically locate sensors on the robot's surface.
 In this work, a system was developed that calibrated each sensor unit with accuracies multiple times greater than that of previously developed state-of-the-art methods.
@@ -37,12 +42,16 @@ With precise knowledge of the sensor unit’s position and orientation, we can l
 The sensor units are currently embedded with IMU and proximity sensors for calibration and collision anticipation algorithms.
 The next generation of sensors will include capacitive and force sensing to allow high-resolution tactile feedback from touch events. In particular, we can use this data for tactile-visual sensor fusion and tactile feature extraction when interacting with physical objects.
 
-**Students:** Mary West, Matt Strong, [Caleb Escobedo]({{ site.url }}/caleb)
+<div class="row">
+    {% include post-sorter.html subtype="roboskin" %}
+</div>
+
+## 1.2 Control Framework for Force Reduction and Human Anticipation
+
+**Students:** [Caleb Escobedo]({% post_url people/2019-10-10-caleb %}), Matt Strong, Mary West, Nataliya Nechyporenko
 
 **_Publications:_**
- - K. Watanabe, M. Strong, M. West, C. Escobedo, A. Aramburu, K. Chaitanya and A. Roncone, "Self-contained kinematic calibration of a novel whole-body artificial skin for human-robot collaboration", 2021. In review.
-
-## 1.2 Control Framework for Force Reduction and Anticipation During Human-Robot Interaction
+ - C. Escobedo, M. Strong, M. West, A. Aramburu, and A. Roncone, _"Contact anticipation for physical human–robot interaction with robotic manipulators using onboard proximity sensors"_, 2021. Under review.
 
 In order to facilitate ubiquitous human-robot interaction, human safety must be ensured while still allowing for meaningful contact between humans and robots.
 Humans can make contact with each other to share information about the environment or request attention for a particular interaction.
@@ -55,14 +64,3 @@ The control framework is constantly being improved to include information from m
 Future work in this area will focus on gentle continuous contact interactions, low-level control measures that guarantee human safety, and integration with complex human-robot collaboration.
 
 {% include image.html url="research/roboskin/sensor_units.jpg" max-width="40%" description="Anticipating contact with whole-body sensing." %}
-
-**Students:** [Caleb Escobedo]({{ site.url }}/caleb), Matt Strong, Mary West, Nataliya Nechyporenko
-
-**_Publications:_**
- - C. Escobedo, M. Strong, M. West, A. Aramburu, and A. Roncone, "Contact anticipation for physical human–robot interaction with robotic manipulators using onboard proximity sensors", 2021. In review.
-
-# 2. Some of our recent work
-
-<div class="row">
-    {% include post-sorter.html subtype=page.subtype %}
-</div>
