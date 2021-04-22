@@ -1,15 +1,21 @@
+ - title: "Multi-agent Reinforcement Learning as Applied to Autonomous Systems"
+   authors: Guohui Ding
+   year: 2021
+   venue: University of Colorado Boulder
+   where: Boulder, CO, U.S.A.
+   description: PhD dissertation
  - title: "Teaching Grounded Reading Skills via an Interactive Robot Tutor"
    authors: Kayleigh "Kaleb" Bishop, Bradley Hayes, Alessandro Roncone
    year: 2021
    venue: ACM International Conference on Human-Robot Interaction [HRI], Workshop on Robots for Learning
-   where: Boulder, CO, U.S.A. March 12
+   where: Boulder, CO, U.S.A., March 12
    pdf: "2021_Bishop_HRI_R4L"
    description: Proposed case study
  - title: "Cooperative Control of Mobile Robots with Stackelberg Learning"
    authors: Joewie J. Koh*, Guohui Ding*, Christoffer Heckman, Lijun Chen, Alessandro Roncone
    year: 2020
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
-   where: Las Vegas, NV, U.S.A. October 25-29
+   where: Las Vegas, NV, U.S.A., October 25-29
    pdf: "2020_Koh_IROS_SLiCC"
  - title: "Distributed Reinforcement Learning for Cooperative Multi-Robot Object Manipulation"
    authors: Guohui Ding*, Joewie J. Koh*, Kelly Merckaert, Bram Vanderborght, Marco M. Nicotra, Christoffer Heckman, Alessandro Roncone, Lijun Chen
