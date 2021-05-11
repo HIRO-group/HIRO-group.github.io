@@ -57,7 +57,7 @@ Further, we are interested in how real-world experience changes a model’s inte
 
 ## 1.3. Multi-Agent Reinforcement Learning
 
-**Students:** Guohui Ding, [Joewie J. Koh]({% post_url people/2020-07-15-joewie %})
+**Students:** Guohui Ding, [Joewie J. Koh](https://joewiekoh.com)
 
 **_Publications:_**
  - J. J. Koh*, G. Ding*, C. Heckman, L. Chen, A. Roncone, "Cooperative control of mobile robots with Stackelberg learning," in _2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, 2020. [[PDF]]({{ site.url }}/papers/2020_Koh_IROS_SLiCC.pdf) [[BIB]]({{ site.url }}/papers/2020_Koh_IROS_SLiCC.bib)
@@ -72,7 +72,7 @@ Moreover, we envision multi-agent systems serving as the setting for the next wa
 
 ## 1.4. Learning Discourse Policies for Dialog Management
 
-**Students:** [Joewie J. Koh]({% post_url people/2020-07-15-joewie %}), [Kaleb Bishop](https://kalebishop.github.io/)
+**Students:** [Joewie J. Koh](https://joewiekoh.com), [Kaleb Bishop](https://kalebishop.github.io/)
 
 The [NSF National AI Institute for Student-AI Teaming (iSAT)](https://www.colorado.edu/research/ai-institute/) is a multi-site interdisciplinary institute with the vision of developing artificial intelligence as a social, collaborative partner that helps both students and teachers make learning more effective, engaging, and equitable.
 As a part of this institute, we conduct foundational research on dialog management for AI-based conversation participation and facilitation.
