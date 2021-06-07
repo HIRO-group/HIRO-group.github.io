@@ -74,23 +74,6 @@
     funding:
       - "Toyota grant 33643/1/ECNS20952N: Robust Perception"
 
- - project: Compass
-   blurb: "Compass is a simultaneous localization and mapping (SLAM) pipeline with extensible frontend capability and an optimization backend based on Ceres solver."
-   publications:
-     - title: 
-       authors: Fernando Nobre, Mike Kasper, Christoffer Heckman.
-       date: 2017
-       venue: IEEE International Conference on Robotics and Automation
-       url:
-     - title: 
-       authors: Fernando Nobre, Christoffer Heckman.
-       date: 2016
-       venue: International Symposium on Experimental Robotics
-       url:
-   funding:
-     - "DARPA #N65236-16-1-1000. DSO Seedling: Ninja Cars"
-     - "Toyota grant 33643/1/ECNS20952N: Robust Perception"
-
   - project: Parkour Cars 
     img: /img/ninja_car/NinjaCarJump1.gif
     blurb: "This project aims to develop high fidelity real-time systems for perception, planning and control of agile vehicles in challenging terrain including jumps and loop-the-loops. The current research is focused on the local planning and control problem. Due to the difficulty of the maneuvers, the planning and control systems must consider the underlying physical model of the vehicle and terrain. This style of simulation-in-the-loop planning enables very accurate prediction and correction of the vehicle state, as well as the ability to learn precise attributes of the underlying physical model."
