@@ -23,7 +23,7 @@
     url:
     phone:
     email:
-    now: an Assistant Professor at the University of California Santa Cruz.
+    now: an Asst. Professor at UC Santa Cruz.
 
   - name: Cecilia Mauceri
     role: phd
@@ -85,8 +85,6 @@
     role: grad
     url:
     office: ECES 111
-    phone:
-    email:
     pic: Torres_Daniel.jpg
 
   - name: Kristen Such
@@ -100,8 +98,6 @@
   - name: Ayush Bansal
     role: grad
     url: https://aboutayush.wordpress.com
-    office: ECES 111
-    phone: 
     email: Ayush.Bansal@colorado.edu
     pic: Bansal_Ayush.jpg
 
@@ -193,14 +189,6 @@
     advisor: Christoffer Heckman
     now: with Amazon Robotics.
 
-  - name: Juan Falquez
-    doctor: true
-    role: alumni
-    dates: 2010-2018
-    thesis: Towards Robust Dense Visual Simultaneous Localization and Mapping (SLAM)
-    advisor: Gabe Sibley
-    now: with Amazon Robotics.
-
   - name: Mike Kasper
     doctor: true
     role: alumni
@@ -234,10 +222,18 @@
    #thesis: Towards Temporal Semantic Scene Understanding
    #advisor: Christoffer Heckman and Gabe Sibley
    #now: with Zoox.
+   
+   
+#  - name: Juan Falquez
+#    doctor: true
+#    role: alumni
+#    dates: 2010-2018
+#    thesis: Towards Robust Dense Visual Simultaneous Localization and Mapping (SLAM)
+#    advisor: Gabe Sibley
+#    now: with Amazon Robotics.
 
   - name: Carl Stahoviak
     role: alumni
-    dates: 2017-2019
     thesis: An Instantaneous 3D Ego-Velocity Measurement Algorithm for Frequency Modulated Continuous Wave (FMCW) Doppler Radar Data
     advisor: Christoffer Heckman
     now: at Ball Aerospace.
