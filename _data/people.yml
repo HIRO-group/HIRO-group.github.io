@@ -164,6 +164,7 @@
     role: alumni
     url: https://riomcmahon.me/
     office: ECES 111
+    now: at the University Corporation for Atmospheric Research (UCAR).
 
   - name: John Stechschulte
     doctor: true
@@ -187,7 +188,7 @@
     dates: 2014-2018
     thesis: Robust Self-Calibration and Mapping for Long Term Autonomy
     advisor: Christoffer Heckman
-    now: with Amazon Robotics.
+    now: with Amazon's Canvas Unit.
 
   - name: Mike Kasper
     doctor: true
@@ -195,7 +196,7 @@
     dates: 2015-2020
     thesis: Visual Perception in Challenging Illumination Conditions
     advisor: Christoffer Heckman
-    now: with Amazon Robotics.
+    now: with Amazon's Canvas Unit.
 
   - name: Ryan Slocum
     role: alumni
@@ -240,24 +241,29 @@
 
   - name: Boston Cleek
     role: alumni
+    now: at Boston Dynamics.
 
   - name: Soham Banerjee
     role: alumni
+    now: at Apple.
 
   - name: Ryan Leonard
     role: alumni
+    now: at Berkshire Grey.
 
   - name: Nikhil Mahendra
     role: alumni
 
   - name: Corin Sandford
     role: alumni
+    now: at HERE Technologies
 
   - name: Akshay Singh
     role: alumni
 
   - name: Gage Froelich
     role: alumni
+    now: at Ball Aerospace.
 
   - name: Soroush Khadem
     role: alumni
