@@ -106,30 +106,24 @@
     pic: Bansal_Ayush.jpg
 
   - name: Greg Lund
-    role: undergrad
-    office: ECES 111
-    phone:
-    email:
+    role: alumni
     url: https://greg-lund.github.io
     pic: Greg_Lund.jpg
-    project: Since joining ARPG in Fall 2019, I have been helping support the DARPA challenge team MARBLE through building mechanical systems. I have mostly been working alongside the other Research Assistants, and Dr. McGuire. The first project that I have been helping with is to design and build a system to stow, deploy and extend a set of radio beacons from some of the ground vehicles. It has been awesome to work with ARPG so far and I'm looking forward to see what comes in the future!
+    now: a graduate student at Stanford University.
 
   - name: Earl Potters
-    role: undergrad
-    office: N/A
+    role: alumni
     phone: 
     email: 
     url: https://frosty-galileo-a16340.netlify.app/
     pic: Earl_Potters.jpg
-    project: My independent study 2020 Fall is to test a reinforcement learning approach to controls for the Wave Adaptive Modular-Vessel(WAM-V) surface vehicle (USV). The WAM-V is in a simulated environment with realistic weather disturbances e.g. wind and waves to best simulate real performance. 
 
   - name: Davis Landry
-    role: undergrad
+    role: alumni
     url: davislandry.com
-    office: ECES 111
-    phone: 
     email: davis.landry@colorado.edu
     pic: Davis_Landry.jpg
+    now: at SpaceX.
     
     name: Andrew (Drew) Beathard
     role: undergrad
@@ -158,10 +152,9 @@
     now: at Nuro.
 
   - name: Nikolaas Bender
-    role: undergrad
-    office: ECES 111
+    role: alumni
     url: https://nikolaasbender.github.io/
-    pic: Nikolaas_Bender.jpg
+    now: a graduate student at UC Santa Cruz.
 
   - name: Cesar Galan
     role: manager
@@ -172,12 +165,9 @@
     pic: Cesar_Galan.jpg
 
   - name: Rio McMahon
-    role: grad
+    role: alumni
     url: https://riomcmahon.me/
     office: ECES 111
-    phone:
-    email:
-    pic: McMahon_Rio.jpg
 
   - name: John Stechschulte
     doctor: true
@@ -220,10 +210,8 @@
     now: with Amazon Robotics.
 
   - name: Ryan Slocum
-    role: undergrad
-    office: ECES 111
+    role: alumni
     url: https://www.ryanslocum.com
-    pic: Ryan_Slocum.jpg
 
    #- name: Nima Keivan
    #role: alumni
@@ -252,7 +240,7 @@
     dates: 2017-2019
     thesis: An Instantaneous 3D Ego-Velocity Measurement Algorithm for Frequency Modulated Continuous Wave (FMCW) Doppler Radar Data
     advisor: Christoffer Heckman
-    now: with Ball Aerospace.
+    now: at Ball Aerospace.
 
   - name: Boston Cleek
     role: alumni
