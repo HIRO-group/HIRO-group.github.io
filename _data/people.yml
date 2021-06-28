@@ -17,30 +17,6 @@
     email: Christoffer.Heckman@colorado.edu
     pic: Heckman_Christoffer.jpg
 
-  - name: Steve McGuire
-    doctor: true
-    role: alumni
-    url:
-    phone:
-    email:
-    now: an Asst. Professor at UC Santa Cruz.
-
-  - name: Cecilia Mauceri
-    role: phd
-    url:
-    office: ECES 111
-    phone:
-    email: Cecilia.Mauceri@colorado.edu
-    pic: Cecilia_Mauceri.jpg
-
-  - name: Andrew Kramer
-    role: phd
-    url: http://www.andrewjkramer.net
-    office: ECES 111
-    phone:
-    email: andrew.kramer@colorado.edu
-    pic: Andrew_Kramer.jpg
-
   - name: Zhaozhong Chen
     role: phd
     url:
@@ -165,6 +141,27 @@
     url: https://riomcmahon.me/
     office: ECES 111
     now: at the University Corporation for Atmospheric Research (UCAR).
+    
+  - name: Steve McGuire
+    doctor: true
+    role: alumni
+    url:
+    phone:
+    email:
+    now: an Asst. Professor at UC Santa Cruz.
+
+  - name: Cecilia Mauceri
+    dates: 2016-2021
+    role: alumni
+    doctor: true
+    now: at the Jet Propulsion Laboratory.
+
+  - name: Andrew Kramer
+    dates: 2017-2021
+    role: alumni
+    doctor: true
+    url: http://www.andrewjkramer.net
+    now: with Amazon's Scout unit.
 
   - name: John Stechschulte
     doctor: true
