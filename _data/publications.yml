@@ -20,7 +20,6 @@
    venue: ACM International Conference on Human-Robot Interaction [HRI], Workshop on Robots for Learning
    where: Boulder, CO, U.S.A., March 12
    pdf: "2021_Bishop_HRI_R4L"
-   description: Proposed case study
  - title: "Cooperative Control of Mobile Robots with Stackelberg Learning"
    authors: Joewie J. Koh*, Guohui Ding*, Christoffer Heckman, Lijun Chen, Alessandro Roncone
    year: 2020
@@ -34,6 +33,11 @@
    where: Auckland, New Zealand, May 9-13
    pdf: "2020_Ding_AAMAS_cooperative_object_manipulation"
    description: Extended abstract
+ - title: "An Affordance-based Action Planner for On-line and Concurrent Human-Robot Collaborative Assembly"
+   authors: Francesca Stramandinoli, <b>Alessandro Roncone</b>, Olivier Mangin, Francesco Nori, and Brian Scassellati
+   year: 2019
+   venue: 2nd ICRA International Workshop on Computational Models of Affordance in Robotics
+   where: Montreal, Canada, May 20-24s
  - title: "Situated Human-Robot Collaboration: predicting intent from grounded natural language"
    authors: Jake Brawer, Olivier Mangin, Alessandro Roncone, and Brian Scassellati
    year: 2018
