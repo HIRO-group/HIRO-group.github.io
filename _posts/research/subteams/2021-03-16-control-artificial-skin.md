@@ -51,7 +51,7 @@ The next generation of sensors will include capacitive and force sensing to allo
 **Students:** [Caleb Escobedo]({% post_url people/2019-10-10-caleb %}), Matt Strong, Mary West, Nataliya Nechyporenko
 
 **_Publications:_**
- - C. Escobedo, M. Strong, M. West, A. Aramburu, and A. Roncone, _"Contact anticipation for physical human–robot interaction with robotic manipulators using onboard proximity sensors"_, 2021. Under review.
+ - C. Escobedo, M. Strong, M. West, A. Aramburu, and A. Roncone, _"Contact anticipation for physical human–robot interaction with robotic manipulators using onboard proximity sensors,"_ in _2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, 2021. [[PDF]]({{ site.url }}/papers/2021_Escobedo_IROS_contact_anticipation.pdf) [[BIB]]({{ site.url }}/papers/2021_Escobedo_IROS_contact_anticipation.bib)
 
 In order to facilitate ubiquitous human-robot interaction, human safety must be ensured while still allowing for meaningful contact between humans and robots.
 Humans can make contact with each other to share information about the environment or request attention for a particular interaction.
