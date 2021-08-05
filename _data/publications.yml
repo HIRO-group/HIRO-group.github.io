@@ -15,6 +15,12 @@
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Prague, The Czech Republic, September 27-October 1
    pdf: "2021_Watanabe_IROS_skin_calibration"
+ - title: "PROST: Physical Reasoning of Objects through Space and Time"
+   authors: Stéphane Aroca-Ouellette, Cory Paik, Alessandro Roncone, and Katharina Kann
+   year: 2021
+   venue: Findings of the Association for  Computational Linguistics
+   where: Online, August 1-6
+   pdf: "2021_Aroca-Ouellette_ACL_findings"
  - title: "Multi-agent Reinforcement Learning as Applied to Autonomous Systems"
    authors: Guohui Ding
    year: 2021

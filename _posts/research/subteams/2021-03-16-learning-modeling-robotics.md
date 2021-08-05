@@ -50,7 +50,7 @@ Moving forward, we are building hybrid models for manipulation in which physics-
 **Students:** Stéphane Aroca-Ouellette  
   
 **_Publications:_**  
- - S. Aroca-Ouellette, C. Paik, A. Roncone, and K. Kann, _"PROST: Physical Reasoning of Objects through Space and Time"_, 2021. In Findings of the Association for  Computational Linguistics: ACL-IJCNLP2021, [[PDF]]({{ site.url }}/papers/2021_Aroca-Ouellette_ACL_findings.pdf) [[BIB]]({{ site.url }}/papers/2021_Aroca-Ouellette_ACL_findings.bib)
+ - S. Aroca-Ouellette, C. Paik, A. Roncone, and K. Kann, _"PROST: Physical Reasoning of Objects through Space and Time"_, 2021. In Findings of the Association for Computational Linguistics: ACL-IJCNLP2021, [[PDF]]({{ site.url }}/papers/2021_Aroca-Ouellette_ACL_findings.pdf) [[BIB]]({{ site.url }}/papers/2021_Aroca-Ouellette_ACL_findings.bib)
 
 Natural language is the easiest and most generalizable way for humans to specify a task, provide new information, and convey intentions. Being able to leverage language for task specification and skill transfer would greatly increase the abilities of current robots.
 Concurrently, current language models fail to understand language as humans do, which we hypothesize is caused a lack of real-world experience.
