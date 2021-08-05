@@ -3,16 +3,18 @@
    year: 2021
    venue: Robotics and Computer-Integrated Manufacturing
    where: Elsevier
+   pdf: "2021_Merckaert_realtime_motion_control"
  - title: "Contact Anticipation for Physical Human-Robot Interaction with Robotic Manipulators using Onboard Proximity Sensors"
    authors: Caleb Escobedo, Matthew Strong, Mary West, Ander Aramburu, Alessandro Roncone
    year: 2021
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Prague, The Czech Republic, September 27-October 1
  - title: "Self-Contained Kinematic Calibration of a Novel Whole-Body Artificial Skin for Human-Robot Collaboration"
-   authors: Kandai Watanabe, Matthew Strong, Mary West, Caleb Escobedo, Ander Aramburu, Krishna Chaitanya, Alessandro Roncone
+   authors: Kandai Watanabe, Matthew Strong, Mary West, Caleb Escobedo, Ander Aramburu, Krishna Chaitanya Kodur, Alessandro Roncone
    year: 2021
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Prague, The Czech Republic, September 27-October 1
+   pdf: "2021_Watanabe_IROS_skin_calibration"
  - title: "Multi-agent Reinforcement Learning as Applied to Autonomous Systems"
    authors: Guohui Ding
    year: 2021
