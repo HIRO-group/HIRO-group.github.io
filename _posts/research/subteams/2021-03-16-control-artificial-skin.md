@@ -33,7 +33,7 @@ These additional data streams and others to be included in future sensor units w
 **Students:** Mary West, Matt Strong, [Caleb Escobedo]({% post_url people/2019-10-10-caleb %})
 
 **_Publications:_**
- - K. Watanabe, M. Strong, M. West, C. Escobedo, A. Aramburu, K. Chaitanya and A. Roncone, _"Self-contained kinematic calibration of a novel whole-body artificial skin for human-robot collaboration"_, 2021. Under review.
+ - K. Watanabe, M. Strong, M. West, C. Escobedo, A. Aramburu, K. Chaitanya and A. Roncone, _"Self-contained kinematic calibration of a novel whole-body artificial skin for human-robot collaboration,"_ in _2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, 2021. [[PDF]]({{ site.url }}/papers/2021_Watanabe_IROS_skin_calibration.pdf) [[BIB]]({{ site.url }}/papers/2021_Watanabe_IROS_skin_calibration.bib)
 
 The HIRO Group has begun the development of small, self-contained sensor units that can be placed on the surface of a robot manipulator to gather information about the robot’s environment.
 One of the initial projects in the HIRO Group focused on improving accuracy and reducing the time required to automatically locate sensors on the robot's surface.
