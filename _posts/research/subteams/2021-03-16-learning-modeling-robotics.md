@@ -47,13 +47,19 @@ Moving forward, we are building hybrid models for manipulation in which physics-
 
 ## 1.2. Natural Language Grounding and Skill Transfer
 
-**Students:** Stéphane Aroca-Ouellette
+**Students:** Stéphane Aroca-Ouellette  
+  
+**_Publications:_**  
+ - S. Aroca-Ouellette, C. Paik, A. Roncone, and K. Kann, _"PROST: Physical Reasoning of Objects through Space and Time"_, 2021. In Findings of the Association for Computational Linguistics: ACL-IJCNLP2021, [[PDF]]({{ site.url }}/papers/2021_Aroca-Ouellette_ACL_findings.pdf) [[BIB]]({{ site.url }}/papers/2021_Aroca-Ouellette_ACL_findings.bib)
 
-Natural language is the easiest and most generalizable way for humans to specify a task, provide new information, and convey intentions.
-Achieving this communication with robots requires grounding language to the world that they exist in.
-More concretely, this requires enabling robots to map words and phrases to objects, actions, and concepts.
-To this end, we are investigating how to condition robotic motion on natural language with the aim of developing a more flexible and generalizable task specification framework.
-Further, we are interested in how real-world experience changes a model’s interpretation of language.
+Natural language is the easiest and most generalizable way for humans to specify a task, provide new information, and convey intentions. Being able to leverage language for task specification and skill transfer would greatly increase the abilities of current robots.
+Concurrently, current language models fail to understand language as humans do, which we hypothesize is caused a lack of real-world experience.
+To this end, we aim at bridging the gap between the field of robotics and NLP to produce robots that can act and learn through language, and who in turn will generate experiences for it develop a richer understanding of language.
+
+<div class="row">
+    {% include post-sorter.html subtype="grounding_language_through_experience" %}
+</div>
+
 
 ## 1.3. Multi-Agent Reinforcement Learning
 
