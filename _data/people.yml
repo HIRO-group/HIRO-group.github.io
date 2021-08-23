@@ -76,6 +76,12 @@
    email: gilberto.briscoe-martinez@colorado.edu
    pic: gilberto.png
 
+ - name: Nataliya Nechyporenko
+   role: phd
+   url: https://nataliya.dev
+   email: nataliya.nechyporenko@colorado.edu
+   pic: nataliya.jpg
+
 # Graduate Students
 # [in order of first appearance in the lab]
 
@@ -138,11 +144,6 @@
    role: collaborator
    email: mary.west@colorado.edu
    pic: mary.png
-
- - name: Nataliya Nechyporenko
-   role: collaborator
-   email: nataliya.nechyporenko@colorado.edu
-   pic: nataliya.jpg
 
  - name: Mithilesh R
    role: collaborator
