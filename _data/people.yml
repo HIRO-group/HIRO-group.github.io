@@ -65,11 +65,6 @@
    email: clare.lohrmann@colorado.edu
    pic: clare.jpg
 
- - name: Guohui Ding
-   role: phd
-   email: guohui.ding@colorado.edu
-   pic: guohui.jpg
-
  - name: Gilberto Briscoe-Martinez
    role: phd
    url: https://www.gbmartinez.com
@@ -156,7 +151,12 @@
    pic: joseph.jpg
 
 # Alumni
-# [in order of when they left the lab]
+# [in inverse order of when they left the lab]
+
+ - name: Guohui Ding
+   role: alumni
+   graduated: Spring 2021 [Ph.D.]
+   nowat: Facebook
 
  - name: Andrew Chen
    role: alumni
