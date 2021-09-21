@@ -1,3 +1,9 @@
+ - title: "Volumetric Data Fusion of External Depth and Onboard Proximity Data For Occluded Space Reduction"
+   authors: Matthew Strong, Caleb Escobedo, Alessandro Roncone
+   year: 2021
+   venue: "4th Workshop on Proximity Perception in Robotics at IROS 2021"
+   where: Prague, The Czech Republic, September 27
+   pdf: "2021_Strong_IROS_volumetric_data_fusion"
  - title: "Real-Time Motion Control of Robotic Manipulators for Safe Human-Robot Coexistence"
    authors: Kelly Merckaert, Bryan Convens, Chi-ju Wu, Alessandro Roncone, Marco M Nicotra, and Bram Vanderborght
    year: 2021
@@ -51,7 +57,7 @@
    authors: Francesca Stramandinoli, <b>Alessandro Roncone</b>, Olivier Mangin, Francesco Nori, and Brian Scassellati
    year: 2019
    venue: 2nd ICRA International Workshop on Computational Models of Affordance in Robotics
-   where: Montreal, Canada, May 20-24s
+   where: Montreal, Canada, May 20-24
  - title: "Situated Human-Robot Collaboration: predicting intent from grounded natural language"
    authors: Jake Brawer, Olivier Mangin, Alessandro Roncone, and Brian Scassellati
    year: 2018
