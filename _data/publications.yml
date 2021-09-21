@@ -1,7 +1,7 @@
  - title: "Volumetric Data Fusion of External Depth and Onboard Proximity Data For Occluded Space Reduction"
-   authors: Matthew Strong*, Caleb Escobedo*, Alessandro Roncone
+   authors: Matthew Strong, Caleb Escobedo, Alessandro Roncone
    year: 2021
-   venue: "4th Workshop on Proximity Perception in Robotics at IROS 2021: Increasing Safety for Human-Robot Interaction using Tactile and Proximity Perception"
+   venue: "4th Workshop on Proximity Perception in Robotics at IROS 2021"
    where: Prague, The Czech Republic, September 27
    pdf: "2021_Strong_IROS_volumetric_data_fusion"
  - title: "Real-Time Motion Control of Robotic Manipulators for Safe Human-Robot Coexistence"
