@@ -97,7 +97,7 @@
     pic: Davis_Landry.jpg
     now: at SpaceX.
     
-    name: Andrew (Drew) Beathard
+  - name: Andrew (Drew) Beathard
     role: undergrad
     url: https://drewbeathard.wixsite.com/my-site
     office: ECES 111
@@ -113,7 +113,7 @@
     url: 
     pic: Xuefei_Sun.jpg
 
-    name: Alec Reed
+  - name: Alec Reed
     role: phd
     office: ECES 111
     phone: 
