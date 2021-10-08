@@ -1,6 +1,5 @@
 ---
-title: Group picture!!
-description: For the Fall 2019 semester
+title: "📷 Group picture! Fall 2019 semester"
 tags: [news,group_picture]
 author: Alessandro Roncone
 ---

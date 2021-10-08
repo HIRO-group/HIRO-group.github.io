@@ -1,5 +1,5 @@
 ---
-title: Intersectional and Accessible AI technologies for racially minoritized students
+title: "📑 Intersectional and Accessible AI technologies for racially minoritized students at HRI 2021!"
 description: Interdisciplinary research team funded by CU's EER-AIL IRT
 tags: [news]
 author: Kaleb Bishop

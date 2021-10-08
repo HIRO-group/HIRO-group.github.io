@@ -1,6 +1,5 @@
 ---
-title: First grant awarded
-description: Pretty excited about it!!
+title: "💰 HIRO Group awarded a RIO Seed Grant!"
 tags: [news,grants]
 author: Alessandro Roncone
 ---

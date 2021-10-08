@@ -1,5 +1,5 @@
 ---
-title: Congratulations to Nataliya for selection to the 2021 NSF GRFP!!
+title: "💰 Nataliya Nechyporenko selected for prestigious NSF Graduate Research Fellowship!!"
 description:
 tags: [news]
 author: Alessandro Roncone
