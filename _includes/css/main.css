@@ -292,7 +292,7 @@ header .intro-text .owner {
     }
 
     header .intro-text .name {
-        font-size: 3.8em;
+        font-size: 3.6em;
     }
 
     header .intro-text .owner {
@@ -527,6 +527,15 @@ header .intro-text .owner {
         -o-transform: rotate(-135deg);
         transform: rotate(-135deg);
     }
+
+    #wiki .post-date,
+    #research .post-date,
+    #news .post-date,
+    #wiki .post-description,
+    #research .post-description,
+    #news .post-description {
+        display: none;
+    }
 }
 
 .navbar-shrink .navbar-brand img {
@@ -682,9 +691,9 @@ section {
 #wiki a h3,
 #research a h3,
 #news a h3 {
-    font-size: 1.60em;
+    font-size: 1.4em;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 #article em,
@@ -740,7 +749,7 @@ section {
 #article h4 {
     margin-top: 14px;
     margin-bottom: 6px;
-    font-size: 1.1em;
+    font-size: 1em;
     padding-left: 4px;
     border-left-width: 10px;
 }
@@ -1226,6 +1235,13 @@ span.label:hover e.ok {
     opacity: 1;
 }
 
+@media (max-width:991px) {
+    #portfolio .portfolio-item {
+        right: 0;
+        margin-bottom: 12px;
+    }
+}
+
 #article .card .card-img-overlay a {
     font-weight: 400;
 }
@@ -1568,11 +1584,11 @@ pre code span:hover {
 @media(max-width:450px) {
     section h2 {
         margin: 0;
-        font-size: 2.2em;
+        font-size: 1.6em;
     }
 
     section h3 {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 
     footer .footer-below {
