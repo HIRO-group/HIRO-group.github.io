@@ -77,6 +77,11 @@
    email: nataliya.nechyporenko@colorado.edu
    pic: nataliya.jpg
 
+ - name: Mary West
+   role: phd
+   email: mary.west@colorado.edu
+   pic: mary.png
+
 # Graduate Students
 # [in order of first appearance in the lab]
 
@@ -140,11 +145,6 @@
    url: https://github.com/aran159
    email: ander.aranfdz@gmail.com
    pic: ander.jpg
-
- - name: Mary West
-   role: collaborator
-   email: mary.west@colorado.edu
-   pic: mary.png
 
  - name: Mithilesh R
    role: collaborator
