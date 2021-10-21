@@ -85,3 +85,15 @@ As a part of this institute, we conduct foundational research on dialog manageme
 Specifically, we are studying how reinforcement learning might be applied to autonomously generate and fine-tune discourse policies.
 
 {% include image.html url="research/isat.jpg" description="iSAT's vision for student-AI teaming and classroom orchestration." %}
+
+# 2. Publications
+
+<section id="post-cv" style="padding-top: 0;">
+    <div class="container">
+        <div id="article">
+
+            {% include pubs-subteam.html subteam=page.subtype publications=site.data.publications %}
+
+        </div>
+    </div>
+</section>

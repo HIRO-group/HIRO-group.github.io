@@ -69,3 +69,15 @@ While much work has gone into creating robot signals and modes of communication,
 Research is conducted in a controlled environment, so the applicability of these systems to environments constrained by space or time is unknown.
 We are currently examining the effectiveness of a projection-based trajectory system in a cluttered and fast paced environment.
 Through this work we hope to determine when this method of communication is most effective, and if/when the environment becomes too crowded or too fast moving for the communication to be effective.
+
+# 2. Publications
+
+<section id="post-cv" style="padding-top: 0;">
+    <div class="container">
+        <div id="article">
+
+            {% include pubs-subteam.html subteam=page.subtype publications=site.data.publications %}
+
+        </div>
+    </div>
+</section>

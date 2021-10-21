@@ -1,0 +1,25 @@
+
+        {% for item in include.publications %}
+            {% assign tobedisplayed = false %}
+            {% for subteam in item.subteams %}
+                {% if include.subteam == subteam %}
+                    {% assign tobedisplayed = true %}
+                    {{ item.subteam }}
+                {% endif %}
+            {% endfor %}
+                {% if tobedisplayed == true %}
+                    <div class="row cv-item pub">
+                        <div class="col-md-3">
+                            <h4 class="inlineifprinted">{{item.year}} {{item.venue}}</h4>
+                            {% if item.where %}<p  class="no-print d-none d-md-block">{{item.where}}</p>{% endif %}
+                        </div>
+
+                        <div class="col-md-9">
+                            <h2>{{item.title}}{% if item.pdf %}<a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.pdf" target="_blank"> [PDF]</a><a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.bib" target="_blank"> [BIB]</a>{% endif %}</h2>
+                            <p><i>{{item.authors}}</i><br>
+                            {% if item.description %}{{item.description}}{% endif %}
+                            </p>
+                        </div>
+                    </div>
+                {% endif %}
+        {% endfor %}

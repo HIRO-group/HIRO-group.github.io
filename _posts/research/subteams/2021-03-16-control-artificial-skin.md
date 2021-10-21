@@ -7,6 +7,15 @@ image:
     feature: research/roboskin/sensor_units.jpg
     size: 60%
 excerpt_separator: <!-- More -->
+years:
+ - 2021
+ - 2020
+ - 2019
+ - 2018
+ - 2017
+ - 2016
+ - 2015
+ - 2014
 ---
 
 In this subteam, we focus on ensuring that humans and robots can interact safely in collaborative and cramped situations by simultaneously developing novel sensing hardware and motion control frameworks.
@@ -64,3 +73,15 @@ The control framework is constantly being improved to include information from m
 Future work in this area will focus on gentle continuous contact interactions, low-level control measures that guarantee human safety, and integration with complex human-robot collaboration.
 
 {% include image.html url="research/roboskin/sensor_units.jpg" max-width="40%" description="Anticipating contact with whole-body sensing." %}
+
+# 2. Publications
+
+<section id="post-cv" style="padding-top: 0;">
+    <div class="container">
+        <div id="article">
+
+            {% include pubs-subteam.html subteam=page.subtype publications=site.data.publications %}
+
+        </div>
+    </div>
+</section>
