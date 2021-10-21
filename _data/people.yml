@@ -79,35 +79,17 @@
 
  - name: Mary West
    role: phd
-   url: https://www.ettawest.com/
+   url: https://www.ettawest.com
    email: mary.west@colorado.edu
    pic: mary.png
 
 # Graduate Students
 # [in order of first appearance in the lab]
 
- - name: Abhilash Jahagirdar
-   role: grad
-   email: abhilash.jahagirdar@colorado.edu
-   linkedin: abhilashjahagirdar
-   pic: abhilash.jpg
+
 
 # Undergraduate Students
 # [in order of first appearance in the lab]
-
- - name: Matthew Strong
-   role: undergrad
-   linkedin: matthewhstrong
-   phone: +1 (720) 626 4057
-   email: mast4878@colorado.edu
-   pic: mstrong.jpg
-
- - name: Byungjin (BJ) Kim
-   role: undergrad
-   linkedin: bjkim00
-   phone: +1 (217) 778 5159
-   email: byungjin.kim@colorado.edu
-   pic: bj.jpg
 
  - name: Shreyas Kadekodi
    role: undergrad
@@ -115,12 +97,6 @@
    phone: +1 (949) 396 9909
    email: shreyas.kadekodi@colorado.edu
    pic: shreyas.jpg
-
- - name: Mitchell D Scott
-   role: undergrad
-   linkedin: mitchelldysescott
-   email: misc4432@colorado.edu
-   pic: mitchellscott.jpg
 
  - name: Yuri Han
    role: undergrad
@@ -160,10 +136,38 @@
 # Alumni
 # [in inverse order of when they left the lab]
 
+ - name: Matthew Strong
+   role: alumni
+   linkedin: matthewhstrong
+   phone: +1 (720) 626 4057
+   email: mast4878@colorado.edu
+   pic: mstrong.jpg
+   nowat: Microsoft
+
+ - name: Byungjin (BJ) Kim
+   role: alumni
+   linkedin: bjkim00
+   phone: +1 (217) 778 5159
+   email: byungjin.kim@colorado.edu
+   graduated: Spring 2021 [BS.]
+   nowat: Univeristy of Michigan [grad]
+
+ - name: Mitchell D Scott
+   role: alumni
+   linkedin: mitchelldysescott
+   email: misc4432@colorado.edu
+   pic: mitchellscott.jpg
+
  - name: Guohui Ding
    role: alumni
    graduated: Spring 2021 [Ph.D.]
    nowat: Facebook
+
+ - name: Abhilash Jahagirdar
+   role: alumni
+   email: abhilash.jahagirdar@colorado.edu
+   linkedin: abhilashjahagirdar
+   pic: abhilash.jpg
 
  - name: Andrew Chen
    role: alumni
@@ -220,7 +224,7 @@
  - name: Krishna Chaitanya Kodur
    role: alumni
    graduated: Summer 2020 [M.S.]
-   nowat: UT Arlington
+   nowat: UT Arlington [Ph.D.]
    linkedin: kodur-krishna-chaitanya
    pic: krishna.jpg
 
