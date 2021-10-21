@@ -79,6 +79,7 @@
 
  - name: Mary West
    role: phd
+   url: https://www.ettawest.com/
    email: mary.west@colorado.edu
    pic: mary.png
 
@@ -120,7 +121,7 @@
    linkedin: mitchelldysescott
    email: misc4432@colorado.edu
    pic: mitchellscott.jpg
-   
+
  - name: Yuri Han
    role: undergrad
    linkedin: yurihan903
