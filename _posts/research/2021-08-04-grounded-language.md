@@ -3,7 +3,7 @@ title: Grounding Language through Experiences
 description: Using experiences to approach a human-like understanding of language
 author: Stéphane Aroca-Ouellette
 permalink: research/grounding_language_through_experience.html
-category: [research, learning and modeling, grounding_language_through_experience]
+category: [research, learning and modeling, grounding_language_through_experience, research highlight]
 image:
     feature: research/gl/prost_example.png
     size: 50%
