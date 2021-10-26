@@ -4,7 +4,7 @@
    venue: "4th Workshop on Proximity Perception in Robotics at IROS 2021"
    where: Prague, Czech Republic, September 27
    pdf: "2021_Strong_IROS_volumetric_data_fusion"
-   subteams: [control and artificial skin]
+   subteams: [control and artificial skin, caleb]
  - title: "Real-Time Motion Control of Robotic Manipulators for Safe Human-Robot Coexistence"
    authors: Kelly Merckaert, Bryan Convens, Chi-ju Wu, Alessandro Roncone, Marco M Nicotra, and Bram Vanderborght
    year: 2021
@@ -18,14 +18,14 @@
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Prague, Czech Republic, September 27-October 1
    pdf: "2021_Escobedo_IROS_contact_anticipation"
-   subteams: [control and artificial skin]
+   subteams: [control and artificial skin, caleb]
  - title: "Self-Contained Kinematic Calibration of a Novel Whole-Body Artificial Skin for Human-Robot Collaboration"
    authors: Kandai Watanabe, Matthew Strong, Mary West, Caleb Escobedo, Ander Aramburu, Krishna Chaitanya Kodur, Alessandro Roncone
    year: 2021
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Prague, Czech Republic, September 27-October 1
    pdf: "2021_Watanabe_IROS_skin_calibration"
-   subteams: [control and artificial skin]
+   subteams: [control and artificial skin, caleb]
  - title: "PROST: Physical Reasoning of Objects through Space and Time"
    authors: Stéphane Aroca-Ouellette, Cory Paik, Alessandro Roncone, and Katharina Kann
    year: 2021

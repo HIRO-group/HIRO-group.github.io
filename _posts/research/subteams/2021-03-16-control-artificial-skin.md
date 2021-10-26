@@ -7,15 +7,6 @@ image:
     feature: research/roboskin/sensor_units.jpg
     size: 60%
 excerpt_separator: <!-- More -->
-years:
- - 2021
- - 2020
- - 2019
- - 2018
- - 2017
- - 2016
- - 2015
- - 2014
 ---
 
 In this subteam, we focus on ensuring that humans and robots can interact safely in collaborative and cramped situations by simultaneously developing novel sensing hardware and motion control frameworks.
