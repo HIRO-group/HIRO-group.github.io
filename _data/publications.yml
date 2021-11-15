@@ -1,3 +1,10 @@
+ - title: "The World of an Octopus: How Reporting Bias Influences a Language Model’s Perception of Color"
+   authors: Cory Paik, Stéphane Aroca-Ouellette, Alessandro Roncone, Katharina Kann
+   year: 2021
+   venue: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing"
+   where: Online and Punta Cana, Dominican Republic, November 2021
+   pdf: "2021_Paik_EMNLP"
+   subteams: [learning and modeling]
  - title: "Volumetric Data Fusion of External Depth and Onboard Proximity Data For Occluded Space Reduction"
    authors: Matthew Strong, Caleb Escobedo, Alessandro Roncone
    year: 2021
