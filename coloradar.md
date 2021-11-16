@@ -74,7 +74,7 @@ full-resolution and separated into its own zip file. **Vicon data for ASPEN Lab 
 | 2\_22\_2021\_longboard\_run5        | 239              | [link](https://docs.google.com/uc?export=download&id=1lEQqcZSdMPoxsKPAtvLxjyJD8np4hpg5)                                    |             | High-speed multi-use paths and roads |
 | 2\_22\_2021\_longboard\_run6        | 228              | [link](https://docs.google.com/uc?export=download&id=1QHBW7Hasy8dJSFlfSXjLxbzAAeFQ0TVk)                                    |             | High-speed multi-use paths and roads |
 | 2\_22\_2021\_longboard\_run7        | 262              | [link](https://docs.google.com/uc?export=download&id=1nWbjgha8T7-YXbQRlIqD1jYh3GfNgr14)                                    |             | High-speed multi-use paths and roads |
-| calib                               |                  | [link](https://docs.google.com/uc?export=download&id=1B4VUk-VAp3OnaA9S-nofisibupmra6H5)                                    |             | Calibration and onfig parameters    |
+| calib                               |                  | [link](https://docs.google.com/uc?export=download&id=1B4VUk-VAp3OnaA9S-nofisibupmra6H5)                                    |             | Calibration and config parameters    |
 | development tools                   |		               | [link](https://docs.google.com/uc?export=download&id=11bB59T5hQAr16PgZbhMPy3c1r5p_qybi)                                                        |             |		Example Python and MATLAB scripts |
 
 ### Sensor Rig
