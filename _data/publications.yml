@@ -1,3 +1,10 @@
+ - title: "PokeRRT: A Kinodynamic Planning Approach for Poking Manipulation"
+   authors: Anuj Pasricha, Yi-Shiuan Tung, Bradley Hayes, Alessandro Roncone
+   year: 2021
+   venue: "IROS 2021 Workshop on Impact-Aware Robotics"
+   where: Prague, Czech Republic, October 1
+   pdf: "2021_Pasricha_IROS_PokeRRT"
+   subteams: [learning and modeling, anuj]
  - title: "The World of an Octopus: How Reporting Bias Influences a Language Model’s Perception of Color"
    authors: Cory Paik, Stéphane Aroca-Ouellette, Alessandro Roncone, Katharina Kann
    year: 2021
