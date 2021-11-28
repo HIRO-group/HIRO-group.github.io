@@ -107,7 +107,7 @@ models may be inferred.
 
 ### CITATION
 
-This paper has been accepted to the Interational Journal of Robotics Research. While it's awaiting publication, please cite:
+This paper has been accepted to the International Journal of Robotics Research (IJRR) as of October 2021. While it's awaiting publication, please cite:
 * Kramer A, Harlow K, Williams C, Heckman C. ColoRadar: The Direct 3D Millimeter Wave Radar Dataset. arXiv preprint arXiv:2103.04510. 2021 Mar 8.
 
 <!--
