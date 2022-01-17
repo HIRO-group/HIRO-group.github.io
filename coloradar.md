@@ -76,6 +76,7 @@ full-resolution and separated into its own zip file. **Vicon data for ASPEN Lab 
 | 2\_22\_2021\_longboard\_run7        | 262 | [link](https://docs.google.com/uc?export=download&id=1nWbjgha8T7-YXbQRlIqD1jYh3GfNgr14)  | [link](https://docs.google.com/uc?export=download&id=1bv_uQUPRyqY_bWdMoYX6NtooPCHQkXI9) | High-speed multi-use paths and roads |
 | calib                               |     | [link](https://docs.google.com/uc?export=download&id=1sYtrBu0luDLmSr-cjOrIYhy3AWB1wZu6)  |             | Calibration and config parameters    |
 | development tools                   |		| [link](https://docs.google.com/uc?export=download&id=11bB59T5hQAr16PgZbhMPy3c1r5p_qybi)  |             |		Example Python and MATLAB scripts |
+| ros msg definitions                 |     | [link](https://github.com/arpg/dca1000_device_msgs)                                      |             | ROS message definitions for bag files |
 
 ### Sensor Rig
 
