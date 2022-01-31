@@ -6,6 +6,7 @@ permalink: research/non_prehensile_manipulation.html
 category: [research, learning and modeling, non-prehensile manipulation, research highlight]
 image:
     feature: research/npm/npm_capability.png
+    size: 72%
 excerpt_separator: <!-- More -->
 ---
 
