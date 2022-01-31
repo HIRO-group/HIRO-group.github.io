@@ -10,7 +10,7 @@ image:
 excerpt_separator: <!-- More -->
 ---
 
-The code base for this research is available [here](https://github.com/HIRO-group/npm-base).
+The code base for this research is available at https://github.com/HIRO-group/npm-base.
 
 <!-- More -->
 

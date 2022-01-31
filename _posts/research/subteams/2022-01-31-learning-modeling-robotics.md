@@ -32,7 +32,7 @@ We accomplish this from two perspectives:
 **Students:** [Anuj Pasricha]({% post_url people/2019-10-13-anuj %}), Yi-Shiuan Tung
 
 **_Publications:_**
- - A. Pasricha, Y. Tung, B. Hayes, and A. Roncone, _"PokeRRT: Poking as a skill and failure recovery tactic for planar non-prehensile manipulation"_, 2021. Under review.
+- A. Pasricha, Y. Tung, B. Hayes, and A. Roncone, _"PokeRRT: Poking as a skill and failure recovery tactic for planar non-prehensile manipulation"_ in _Robotics and Automation Letters and 2022 IEEE International Conference on Robotics and Automation (ICRA)_, 2022. [[PDF]]({{ site.url }}/papers/2022_Pasricha_RAL_PokeRRT.pdf) [[BIB]]({{ site.url }}/papers/2022_Pasricha_RAL_PokeRRT.bib)
 
 Non-prehensile manipulation (i.e., manipulation that does not involve grasping) can significantly expand the operational space of a robot.
 We posit that robots need to leverage non-prehensile manipulation as part of their skill set if they are to achieve human-level dexterity.
