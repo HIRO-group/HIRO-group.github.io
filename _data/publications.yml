@@ -1,3 +1,9 @@
+ - title: "PokeRRT: Poking as a Skill and Failure Recovery Tactic for Planar Non-Prehensile Manipulation"
+   authors: Anuj Pasricha, Yi-Shiuan Tung, Bradley Hayes, Alessandro Roncone
+   year: 2022
+   venue: "IEEE Robotics Automation and Letters [RA-L]"
+   pdf: "2022_Pasricha_RAL_PokeRRT"
+   subteams: [learning and modeling, anuj]
  - title: "PokeRRT: A Kinodynamic Planning Approach for Poking Manipulation"
    authors: Anuj Pasricha, Yi-Shiuan Tung, Bradley Hayes, Alessandro Roncone
    year: 2021
