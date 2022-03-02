@@ -9,6 +9,20 @@
    authors: Nikolaus Correll, Bradley Hayes, Christoffer Heckman and Alessandro Roncone
    year: 2022
    venue: "MIT Press"
+ - title: "How to be Helpful? Supportive Behaviors and Personalization for Human-Robot Collaboration"
+   authors: Olivier Mangin, Alessandro Roncone, and Brian Scassellati
+   year: 2022
+   venue: Frontiers in Robotics and AI
+   pdf: "2022_Mangin_supportive_behaviors"
+   subteams: [algorithmic and social hri]
+   host: https://alessandro.ronc.one
+ - title: "Real-Time Motion Control of Robotic Manipulators for Safe Human-Robot Coexistence"
+   authors: Kelly Merckaert, Bryan Convens, Chi-ju Wu, Alessandro Roncone, Marco M Nicotra, and Bram Vanderborght
+   year: 2022
+   venue: Robotics and Computer-Integrated Manufacturing
+   where: Elsevier
+   pdf: "2022_Merckaert_realtime_motion_control"
+   subteams: [control and artificial skin]
  - title: "PokeRRT: A Kinodynamic Planning Approach for Poking Manipulation"
    authors: Anuj Pasricha, Yi-Shiuan Tung, Bradley Hayes, Alessandro Roncone
    year: 2021
@@ -30,13 +44,6 @@
    where: Prague, Czech Republic, September 27
    pdf: "2021_Strong_IROS_volumetric_data_fusion"
    subteams: [control and artificial skin, caleb]
- - title: "Real-Time Motion Control of Robotic Manipulators for Safe Human-Robot Coexistence"
-   authors: Kelly Merckaert, Bryan Convens, Chi-ju Wu, Alessandro Roncone, Marco M Nicotra, and Bram Vanderborght
-   year: 2022
-   venue: Robotics and Computer-Integrated Manufacturing
-   where: Elsevier
-   pdf: "2021_Merckaert_realtime_motion_control"
-   subteams: [control and artificial skin]
  - title: "Contact Anticipation for Physical Human-Robot Interaction with Robotic Manipulators using Onboard Proximity Sensors"
    authors: Caleb Escobedo, Matthew Strong, Mary West, Ander Aramburu, Alessandro Roncone
    year: 2021
@@ -131,13 +138,6 @@
    where: Chicago, IL, U.S.A., March 5-8
    pdf: "2018_Nguyen_HRI_physical_hri_controller"
    subteams: [control and artificial skin]
-   host: https://alessandro.ronc.one
- - title: "How to be Helpful? Implementing Supportive Behaviors for Human-Robot Collaboration"
-   authors: Olivier Mangin, Alessandro Roncone, and Brian Scassellati
-   year: 2017
-   venue: ArXiv e-prints
-   pdf: "2017_Mangin_supportive_behaviors"
-   subteams: [algorithmic and social hri]
    host: https://alessandro.ronc.one
  - title: "Transparent Role Assignment and Task Allocation in Human Robot Collaboration"
    authors: Alessandro Roncone, Olivier Mangin, and Brian Scassellati
