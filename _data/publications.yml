@@ -1,3 +1,9 @@
+ - title: "Open-Domain Dialogue Generation: What We Can Do, Cannot Do, And Should Do Next"
+   authors: Katharina Kann, Abteen Ebrahimi, Joewie J. Koh, Shiran Dudy, Alessandro Roncone
+   year: 2022
+   venue: "Workshop on Natural Language Processing for Conversational AI @ ACL 2022"
+   where: Dublin, Ireland, May 27
+   subteams: [learning and modeling]
  - title: "PokeRRT: Poking as a Skill and Failure Recovery Tactic for Planar Non-Prehensile Manipulation"
    authors: Anuj Pasricha, Yi-Shiuan Tung, Bradley Hayes, Alessandro Roncone
    year: 2022
