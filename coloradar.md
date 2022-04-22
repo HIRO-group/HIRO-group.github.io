@@ -105,14 +105,12 @@ benchmark tools](https://vision.in.tum.de/data/datasets/rgbd-dataset/tools).
 We additionally include a decluttering calibration dataset, so that radar calibration
 models may be inferred.
 
+### License
+
+This dataset is released under the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0). 
+
 ### CITATION
 
 This paper has been accepted to the International Journal of Robotics Research (IJRR) as of October 2021. While it's awaiting publication, please cite:
 * Kramer A, Harlow K, Williams C, Heckman C. ColoRadar: The Direct 3D Millimeter Wave Radar Dataset. arXiv preprint arXiv:2103.04510. 2021 Mar 8.
 
-<!--
-If you use this benchmark in your research, please cite the following paper:
-> **M. Kasper, S. McGuire, C. Heckman, "A Benchmark for Visual-Inertial Odometry
-> Systems Employing Onboard Illumination", _Intelligent Robots and Systems
-> (IROS)_, 2019**. [[Bibtex]](oivio-ref.bib)
--->
