@@ -6,12 +6,6 @@
    email: alessandro.roncone@colorado.edu
    pic: alecive.jpg
 
-# Lab Manager
- - name: Cesar Galan
-   role: labmanager
-   email: cesar.galan@colorado.edu
-   pic: cesar.jpg
-
 # Postdocs
 
  - name: Shiran Dudy
@@ -117,21 +111,10 @@
    email: abhidip.bhattacharyya@colorado.edu
    pic: abhidip.jpg
 
- - name: Ander Aramburu Fernandez
-   role: collaborator
-   url: https://github.com/aran159
-   email: ander.aranfdz@gmail.com
-   pic: ander.jpg
-
  - name: Mithilesh R
    role: collaborator
    email: mithilesh-cs071@dsce.edu.in
    pic: mithilesh.jpg
-
- - name: Joseph David Galloway II
-   role: collaborator
-   email: josephgalloway520@gmail.com
-   pic: joseph.jpg
 
 # Alumni
 # [in inverse order of when they left the lab]
@@ -142,7 +125,14 @@
    phone: +1 (720) 626 4057
    email: mast4878@colorado.edu
    pic: mstrong.jpg
-   nowat: Microsoft
+   graduated: Spring 2020 [BS.]
+   nowat: Stanford University (Ph.D. program)
+   url: https://www.colorado.edu/cs/matthew-strong-research-award
+
+ - name: Joseph David Galloway II
+   role: alumni
+   email: josephgalloway520@gmail.com
+   pic: joseph.jpg
 
  - name: Byungjin (BJ) Kim
    role: alumni
@@ -151,6 +141,10 @@
    email: byungjin.kim@colorado.edu
    graduated: Spring 2021 [BS.]
    nowat: Univeristy of Michigan [grad]
+
+ - name: Ander Aramburu Fernandez
+   role: alumni
+   email: ander.aranfdz@gmail.com
 
  - name: Mitchell D Scott
    role: alumni
