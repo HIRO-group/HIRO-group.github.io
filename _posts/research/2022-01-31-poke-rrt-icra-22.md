@@ -14,7 +14,7 @@ _Abstract_: In this work, we introduce _PokeRRT_, a novel motion planning algori
 
 <!-- More -->
 
-If you have any questions about this work or would like to collaborate, please contact [Anuj](anuj.pasricha@colorado.edu).
+If you have any questions about this work or would like to collaborate, please contact [Anuj](mailto:anuj.pasricha@colorado.edu).
 
 The paper is available [here](https://hiro-group.ronc.one/papers/2022_Pasricha_RAL_PokeRRT.pdf).
 
