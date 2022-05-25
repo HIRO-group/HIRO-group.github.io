@@ -88,7 +88,6 @@
  - name: Shreyas Kadekodi
    role: undergrad
    linkedin: shreyas-kadekodi
-   phone: +1 (949) 396 9909
    email: shreyas.kadekodi@colorado.edu
    pic: shreyas.jpg
 
@@ -103,6 +102,11 @@
   email: maec4462@coloardo.edu
   pic: eccles.jpg
 
+ - name: Justin Brand
+   role: undergrad
+   linkedin: justin-brand
+   email: jubr6114@colorado.edu
+   pic: justin.jpg
 
 # Collaborators
 # [in order of first appearance in the lab]
