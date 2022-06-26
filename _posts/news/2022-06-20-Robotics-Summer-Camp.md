@@ -1,7 +1,7 @@
 ---
-title: "🎉 How we brought robotics to children in the community!"
-description: Take a look at the photo collage from the Robotics Summer Camp Outreach Program.
-tags: [news]
+title: "🎉 Robotics Summer Camp Outreach Program!"
+description: Or, how we brought robotics to children in the community.
+tags: [news,outreach]
 author: Nataliya Nechyporenko
 ---
 
