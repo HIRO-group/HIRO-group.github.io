@@ -14,4 +14,4 @@ Check back here for links to new articles on the Robotics Summer Camp as we spre
 
 
 ### Contact
-We are interested in growing this outreach event and expanding it to more students. If you'd like to participate, learn more, or have any questions then feel free to reach out. Contact Nataliya 👉 nataliya.nechyporenko@colorado.edu
+We are interested in growing this outreach event and expanding it to more students. If you'd like to participate, learn more, or have any questions then feel free to reach out. Contact Nataliya 👉 [nataliya.nechyporenko@colorado.edu](mailto:nataliya.nechyporenko@colorado.edu)
