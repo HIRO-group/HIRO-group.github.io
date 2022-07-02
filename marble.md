@@ -4,9 +4,9 @@ title: "MARBLE SubT Finals Dataset"
 ---
 
 We present the **MARBLE SubT Finals**
-dataset.  <!-- It consists of xx sequences, recorded in the DARPA SubT Finals competition course, setup in the Kentucky Megacavern. The data includes xx minutes of 3D lidar, IMU, and camera
+dataset. It consists of sensor data, recorded in the DARPA SubT Finals competition course, setup in the Kentucky Megacavern. The data specificallyincldues 3D lidar from an Ouster OS1-64 beam lidar, IMU, and RGB camera
 data. The full dataset, including sensor data, calibration sequences,
-and evaluation scripts can be downloaded here. -->
+and evaluation scripts can be downloaded here.
 
 ### Downloads
 
@@ -27,10 +27,24 @@ and evaluation scripts can be downloaded here. -->
 | H01 Output Data ([Rosbag](https://drive.google.com/file/d/1guamP0_i_a0pdYtKafg4PKlV6li2IxM2/view?usp=sharing)) &nbsp; &nbsp; &nbsp; &nbsp;  | H01 | 10.2 | 01:17:45 |
 | H01 FPV Data ([Rosbag](https://drive.google.com/file/d/1eFMp24-2cpqdcNmwmY13Ee-4Y092NQDM/view?usp=sharing)) &nbsp;  | H01 | 3.8  | 01:17:27 |
 
+
 ### Platforms
 
 ![Photo of Spot Platform](/img/marble/spot.jpg)
 ![Photo of Husky Platform](/img/marble/husky.jpg)
+
+The Spot Platform contains the following components:
+
+* Lidar Sensor: Ouster OS1; 10Hz; 64 beams; 1-degree angular accuracy; angular resolution 0.35-degree horizontal, 0.7-degree vertical; 3cm range accuracy; field of view 360-degree horizontal, 45-degree vertical; max range 120m; 65,536 points per scan
+* IMU: Lord Microstrain 3DM-GX5-25; 300Hz
+* Cameras:
+
+The Husky Platform contains the following componenets:
+
+* Lidar Sensor: Ouster OS1; 10Hz; 64 beams; 1-degree angular accuracy; angular resolution 0.35-degree horizontal, 0.7-degree vertical; 3cm range accuracy; field of view 360-degree horizontal, 45-degree vertical; max range 120m; 65,536 points per scan
+* IMU: Lord Microstrain 3DM-GX5-25; 300Hz
+* Cameras: 
+
 
 ### License
 
@@ -40,5 +54,3 @@ This dataset is released under the [Apache 2.0 license](https://www.apache.org/l
 
 Team MARBLE has submitted a special issues paper to the Field Robotics Journal titled "Flexible Supervised Autonomy for Exploration in
 Subterranean Environments," which is current in review.
-
-*xxxx

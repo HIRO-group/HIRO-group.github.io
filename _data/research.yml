@@ -18,23 +18,29 @@
     funding:
       - "DARPA TTO Subterranean Challenge"
      
-  - project: "MARBLE - Radar Perception"
-    blurb: "This project addresses creating accurate odometry and maps in visually degraded environments using radar and ineratial sensors. The DARPA SubT competition sections off portions of the environment with artificial fog."
-    publications:
-      - title: "Radar-Inertial State Estimation and Mapping for Micro-Aerial Vehicles In Dense Fog"
-        authors: Andrew Kramer, Christoffer Heckman
-        date: 2020
-        venue: International Symposium on Experimental Robotics
-      - title: Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments
-        authors: Andrew Kramer, Angel Santamaria-Navarro, Aliakbar Aghamohammadi, and Christoffer Heckman
-        date: 2020
-        venue: International Conference on Robotics and Automation
-    funding:
-      - "DARPA TTO Subterranean Challenge"
+#  - project: "MARBLE - Radar Perception"
+#    blurb: "This project addresses creating accurate odometry and maps in visually degraded environments using radar and ineratial sensors. The DARPA SubT competition sections off portions of the environment with artificial fog."
+#    publications:
+#      - title: "Radar-Inertial State Estimation and Mapping for Micro-Aerial Vehicles In Dense Fog"
+#        authors: Andrew Kramer, Christoffer Heckman
+#        date: 2020
+#        venue: International Symposium on Experimental Robotics
+#      - title: Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments
+#        authors: Andrew Kramer, Angel Santamaria-Navarro, Aliakbar Aghamohammadi, and Christoffer Heckman
+#        date: 2020
+#        venue: International Conference on Robotics and Automation
+#    funding:
+#      - "DARPA TTO Subterranean Challenge"
 
   - project: "Robotic Perception With Millimeter Wave RADAR"
-    blurb: "Investigating methods for millimeter wave RADAR based state estimation, mapping, and more."
+    blurb: "Millimeter wave radar has become an increasingly valuable sensor in real-world robotics applications given the long wavelengths ability to bypass particulate matter like fog, smoke, and dust. Through various projects and datasets we hope to demonstrate how to leverage the unique characteristics and datatypes available with radar to solve problems for robotic perception in less than ideal conditions through a mixture of traditional and learned techniques."
+    img: /img/coloradar_example.jpg
     publications:
+      - title:  "ColoRadar: The Direct 3D Millimeter Wave Radar Dataset"
+        authors: Andrew Kramer, Kyle Harlow, Christopher Williams, Christoffer Heckman
+        date: 2021
+        venue: International JJournal of Robotics Research
+        url: "https://arpg.github.io/coloradar/"
       - title: Radar-Inertial State Estimation and Mapping for Micro-Aerial Vehicles In Dense Fog
         authors: Andrew Kramer, Christoffer Heckman
         date: 2020
@@ -44,7 +50,8 @@
         date: 2020
         venue: International Conference on Robotics and Automation
     funding:
-      - "NASA NSTRF 80NSSC18K1195"
+      - "NSF-NRI #1830686: 'Life-Long Learning for Motion Planning by Robots in
+Human Populated Environments', DARPA TT0 Subterranean Challenge, NASA NSTRF 80NSSC18K1195"
 
   - project: Multi Robot Communication Schemes
     img: /img/dep_mech_1.jpg
