@@ -20,8 +20,8 @@ full-resolution and separated into its own zip file. **Vicon data for ASPEN Lab 
 
 ### Platforms
 
-![Photo of Spot Platform](/img/marble/spot.jpg)
-![Photo of Husky Platform](/img/marble/husky.jpg)
+![Photo of Spot Platform](/img/marble/spot.jpg){:width="100%"}
+![Photo of Husky Platform](/img/marble/husky.jpg){:width="100%"}
 
 The Spot Platform contains the following components:
 
