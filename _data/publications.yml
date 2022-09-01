@@ -1,3 +1,10 @@
+ - title: "A Framework for the Systematic Evaluation of Obstacle Avoidance and Object-Aware Controllers"
+   authors: Caleb Escobedo, Nataliya Nechyporenko, Shreyas Kadekodi, Alessandro Roncone
+   year: 2022
+   venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
+   where: Kyoto, Japan, October 23-27
+   pdf: "2022_Escobedo_IROS_object_aware_controllers"
+   subteams: [control and artificial skin, caleb, nataliya]
  - title: "Bilevel Optimization for Just-in-Time Robotic Kitting and Delivery via Adapative Task Segmentation and Scheduling"
    authors: Yi-Shiuan Tung, Kayleigh Bishop, Bradley Hayes, Alessandro Roncone
    year: 2022
