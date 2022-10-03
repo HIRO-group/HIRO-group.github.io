@@ -130,7 +130,11 @@
    role: collaborator
    email: mithilesh-cs071@dsce.edu.in
    pic: mithilesh.jpg
-
+   
+ - name: Srikrishna Bangalore Raghu
+   role: collaborator
+   email: srba2850@colorado.edu
+   pic: srikrishna.jpg
 # Alumni
 # [in inverse order of when they left the lab]
 
