@@ -4,6 +4,11 @@
 #   venue: 
 #   pdf: 
 
+ - title: "Verified Path Following Using Neural Control Lyapunov Functions"
+   authors: "A Reed, GO Berger, S Sankaranarayanan, C Heckman"
+   year: 2022
+   venue: "Conference on Robot Learning" 
+   
  - title: "Radar-Inertial State Estimation and Mapping for Micro-Aerial Vehicles In Dense Fog"
    authors: "A. Kramer, S. Ahmad, C. Heckman"
    year: 2020
