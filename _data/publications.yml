@@ -9,6 +9,60 @@
    year: 2022
    venue: "Conference on Robot Learning" 
    
+ - title: "Aligning Images and Text with Semantic Role Labels for Fine-Grained Cross-Modal Understanding"
+   authors: "A. Bhattacharyya, C. Mauceri, M. Palmer, C. Heckman"
+   year: 2022
+   venue: "Proceedings of the Thirteenth Language Resources and Evaluation Conference (LREC)"
+ 
+ - title: "ColoRadar: The direct 3D millimeter wave radar dataset"
+   authors: "A. Kramer, K. Harlow, C. Williams, C. Heckman"
+   year: 2022
+   venue: "The International Journal of Robotics Research"
+  
+ - title: "Time dependence in kalman filter tuning"
+   authors: "Z. Chen, C. Heckman, S. Julier, N. Ahmed"
+   year: 2021
+   venue: "IEEE International Conference on Information Fusion (FUSION)"
+  
+ - title: "Multi-agent autonomy: Advancements and challenges in subterranean exploration"
+   authors: "M. Ohradzansky, E. Rush, D. Riley, A. Mills, S. Ahmad, S. McGuire, H. Biggie, K. Harlow, M. Miles, E. Frew, C. Heckman, J. S. Humbert"
+   year: 2021
+   venue: "Field Robotics Journal"
+  
+ - title: "Deformable Bayesian Convolutional Networks for Disease-Robust Cardiac MRI Segmentation"
+   authors: "M. Fulton, C. Heckman, M. Rentschler"
+   year: 2021
+   venue: "International Workshop on Statistical Atlases and Computational Models of"
+  
+ - title: "Robust Pose Estimation Based on Normalized Information Distance"
+   authors: "Z. Chen, C. Heckman"
+   year: 2021
+   venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+   
+ - title: "A mixed reality supervision and telepresence interface for outdoor field robotics"
+   authors: "M. Walker, Z. Chen, M. Whitlock, D. Blair, D. A. Szafir, C. Heckman, D. Szafir"
+   year: 2021
+   venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+
+ - title: "Formalizing and guaranteeing human-robot interaction"
+   authors: "H. Kress-Gazit, K. Eder, G. Hoffman, H. Admoni, B. Argall, R. Ehlers, C. Heckman, N. Jansen, R. Knepper, J. Křetínský, S. Levy-Tzedek, J. Li, T. Murphey, L. Riek, D. Sadigh"
+   year: 2021
+   venue: "Communications of the ACM"
+
+ - title: "Human-Aware Reinforcement Learning for Fault Recovery Using Contextual Gaussian Processes"
+   authors: "S. McGuire, P. Michael Furlong, C. Heckman, S. Julier, N Ahmed"
+   year: 2021
+   venue: "Journal of Aerospace Information Systems"
+
+ - title: "Embedded Neural Networks for Robot Autonomy"
+   authors: "R. Patel, C. Heckman, N. Correll"
+   year: 2020
+   venue: "Iternational Symposium on Robotics Research"
+
+ - title: "Radar-Inertial State Estimation and Mapping for Micro-Aerial Vehicles In Dense Fog"
+   authors: "A. Kramer, S. Ahmad, C. Heckman"
+   year: 2020
+   
  - title: "Radar-Inertial State Estimation and Mapping for Micro-Aerial Vehicles In Dense Fog"
    authors: "A. Kramer, S. Ahmad, C. Heckman"
    year: 2020
@@ -17,7 +71,7 @@
  - title: "Radar-Inertial Ego-Velocity Estimation for Visually Degraded Environments"
    authors: "A. Kramer, A. Santamaria-Navarro, A. Aghamohammadi, C. Heckman"
    year: 2020
-   venue: "International Conference on Robotics and Automation"
+   venue: "International Conference on Robotics and Automation (ICRA)"
    pdf: "/papers/Kramer_ICRA_2020.pdf"
 
  - title: "Better Together: Online Probabilistic Clique Change Detection in 3D Landmark-Based Maps"
