@@ -5,7 +5,7 @@
 #   pdf: 
 
  - title: "Verified Path Following Using Neural Control Lyapunov Functions"
-   authors: "A Reed, GO Berger, S Sankaranarayanan, C Heckman"
+   authors: "A. Reed, G. Berger, S. Sankaranarayanan, C. Heckman"
    year: 2022
    venue: "Conference on Robot Learning" 
    
@@ -32,7 +32,7 @@
  - title: "Deformable Bayesian Convolutional Networks for Disease-Robust Cardiac MRI Segmentation"
    authors: "M. Fulton, C. Heckman, M. Rentschler"
    year: 2021
-   venue: "International Workshop on Statistical Atlases and Computational Models of"
+   venue: "International Workshop on Statistical Atlases and Computational Models of the Heart"
   
  - title: "Robust Pose Estimation Based on Normalized Information Distance"
    authors: "Z. Chen, C. Heckman"
@@ -45,7 +45,7 @@
    venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
 
  - title: "Formalizing and guaranteeing human-robot interaction"
-   authors: "H. Kress-Gazit, K. Eder, G. Hoffman, H. Admoni, B. Argall, R. Ehlers, C. Heckman, N. Jansen, R. Knepper, J. Křetínský, S. Levy-Tzedek, J. Li, T. Murphey, L. Riek, D. Sadigh"
+   authors: "H. Kress-Gazit, K. Eder, G. Hoffman, H. Admoni, B. Argall, R. Ehlers, C. Heckman, N. Jansen, R. Knepper, J. Kretinsky, S. Levy-Tzedek, J. Li, T. Murphey, L. Riek, D. Sadigh"
    year: 2021
    venue: "Communications of the ACM"
 
