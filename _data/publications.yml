@@ -4,6 +4,11 @@
 #   venue: 
 #   pdf: 
 
+ - title: "Flexible Supervised Autonomy for Exploration in Subterranean Environments"
+   authors: "H. Bigge, E. Rush, D. Riley, S. Ahmad, M. Ohradzansky, K. Harlow, M. Miles, D. Torres, S. McGuire, E. Frew, C. Heckman, J. S. Humbert"
+   year: 2023
+   venue: "Field Robotics Journal"
+
  - title: "Verified Path Following Using Neural Control Lyapunov Functions"
    authors: "A. Reed, G. Berger, S. Sankaranarayanan, C. Heckman"
    year: 2022
