@@ -4,6 +4,8 @@
    venue: ACM/IEEE International Conference on Human-Robot Interaction [HRI]
    where: Stockholm, Sweden, March 13-16
    pdf: "2023_Brawer_HRI_Chefbot"
+   subteams: [algorithmic and social hri]
+   host: https://alessandro.ronc.one
  - title: "A Framework for the Systematic Evaluation of Obstacle Avoidance and Object-Aware Controllers"
    authors: Caleb Escobedo, Nataliya Nechyporenko, Shreyas Kadekodi, Alessandro Roncone
    year: 2022
@@ -24,7 +26,7 @@
    venue: "Workshop on Natural Language Processing for Conversational AI @ ACL 2022"
    where: Dublin, Ireland, May 27
    pdf: "2022_Kann_NLP4ConvAI_dialogue_generation"
-   subteams: [learning and modeling]
+   subteams: [learning and modeling, joewie]
  - title: "PokeRRT: Poking as a Skill and Failure Recovery Tactic for Planar Non-Prehensile Manipulation"
    authors: Anuj Pasricha, Yi-Shiuan Tung, Bradley Hayes, Alessandro Roncone
    year: 2022
