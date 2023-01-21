@@ -1,3 +1,9 @@
+ - title: "Interactive Policy Shaping for Human-Robot Collaboration with Transparent Matrix Overlays"
+   authors: Jake Brawer, Debasmita Ghose, Kate Candon, Meiying Qin, Alessandro Roncone, Marynel Vázquez, and Brian Scassellati
+   year: 2023
+   venue: ACM/IEEE International Conference on Human-Robot Interaction [HRI]
+   where: Stockholm, Sweden, March 13-16
+   pdf: "2023_Brawer_HRI_Chefbot"
  - title: "A Framework for the Systematic Evaluation of Obstacle Avoidance and Object-Aware Controllers"
    authors: Caleb Escobedo, Nataliya Nechyporenko, Shreyas Kadekodi, Alessandro Roncone
    year: 2022
