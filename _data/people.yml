@@ -6,6 +6,14 @@
    email: alessandro.roncone@colorado.edu
    pic: alecive.jpg
 
+#lab Manager
+ - name: Dusty Woods
+   role: labmanager
+   office: ECES 111
+   phone: +1 (303) 735-5953
+   email: dewo3276@colorado.edu
+   pic: dusty.jpg
+
 # Postdocs
 
  - name: Shiran Dudy
