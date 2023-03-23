@@ -19,6 +19,7 @@
                             <p><i>{{item.authors}}</i><br>
                             {% if item.description %}{{item.description}}{% endif %}
                             </p>
+                            {% if item.award %}<p class="award"><i class="fa fa-fw fa-xl fa-trophy"></i> {{item.award}} <i class="fa fa-fw fa-xl fa-trophy"></i></p> {% endif %}
                         </div>
                     </div>
                 {% endif %}

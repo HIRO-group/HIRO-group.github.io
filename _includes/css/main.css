@@ -130,6 +130,11 @@ header img:hover,
     transition: all ease 1s;
 }
 
+#article .cv-item:hover div h2 {
+    color: #{{ site.color.accent }};
+    transition: all ease 1s;
+}
+
 header > div.bottom-border {
     border-bottom: 1px solid #{{ site.color.articletext }};
 }
@@ -1184,6 +1189,16 @@ span.label:hover e.ok {
 #article .pub h2:first-child,
 #article .pub h4:first-child {
     margin-top: 0.4rem;
+}
+
+.award {
+    color: #{{ site.color.banner }};
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.award i {
+    color: #f06363ff;
 }
 
 #portfolio {
