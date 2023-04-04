@@ -1,3 +1,10 @@
+ - title: "Improving Human Legibility in Collaborative Robot Tasks through Augmented Reality and Workspace Preparation"
+   authors: Yi-Shiuan Tung, Matthew B. Luebbers, Alessandro Roncone, Bradley Hayes
+   year: 2023
+   venue: "6th International Workshop on Virtual, Augmented, and Mixed-Reality for Human-Robot Interactions (VAM-HRI)"
+   where: Stockholm, Sweden, March 13
+   pdf: "2023_Tung_VAMHRI_legibility"
+   subteams: [algorithmic and social hri,yi-shiuan]
  - title: "Interactive Policy Shaping for Human-Robot Collaboration with Transparent Matrix Overlays"
    authors: Jake Brawer, Debasmita Ghose, Kate Candon, Meiying Qin, Alessandro Roncone, Marynel Vázquez, and Brian Scassellati
    year: 2023
