@@ -86,24 +86,6 @@ Specifically, we are studying how reinforcement learning might be applied to aut
 
 {% include image.html url="research/isat.jpg" description="iSAT's vision for student-AI teaming and classroom orchestration." %}
 
-## 1.5. Hierarchical Structures for Human-Agent Interaction
-
-**Students:** Stéphane Aroca-Ouellette  
-  
-**_Publications:_**  
- - TBD
-
-When performing collaborative tasks with new unknown teammates, humans are particularly adept at adapting to their collaborator 
-and converging toward an aligned strategy. However, state of the art autonomous agents still do not have this capability. 
-We propose that a critical reason for this disconnect is that there is an inherent hierarchical structure to human behavior 
-that current agents lack. In this research, we explore the use of hierarchical reinforcement learning to train an agent that can 
-navigate the complexities of ad hoc teaming at the same level of abstraction as humans. Our results demonstrate that when paired with humans, 
-our Hierarchical Ad Hoc Agent (HAHA) outperforms all baselines on both the team's objective performance and the human’s perception of the agent.  
-
-<div class="row">
-    {% include post-sorter.html subtype="haha" %}
-</div>
-
 # 2. Publications
 
 <section id="post-cv" style="padding-top: 0;">

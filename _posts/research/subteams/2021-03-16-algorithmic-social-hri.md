@@ -40,7 +40,25 @@ With knowledge of how applicable these concepts are to HRI, along with informati
 
 {% include image.html url="research/algo-social-hri/prospect-theory.png" max-width="50%" description="Humans have a tendency to underestimate the value of outcomes." %}
 
-## 1.2 Student-Robot Teaming and Robots in the Classroom
+## 1.2 Technical Fluency in Human-Agent Interaction
+
+**Students:** Stéphane Aroca-Ouellette  
+  
+**_Publications:_**  
+ - TBD
+
+Drastic variance in human knowledge, ability, and preference result in rich diversity of human behavior. For successful integration of autonomous agents
+in human endeavours, these agents must be able to efficiently adapt to a wide range previously unseen collaborators.
+For example, when working with a less experienced teammate, an agent should likely prioritize understandable behavior over complicated behaviors in order to build trust and
+allow the teammate to adjust to the task. In contrast, when working with a more experience teammate, the agent can instead focus on more optimal behaviors. 
+To accomplish this, an agent must be able to not have a range of behaviors, but also identify the necessary
+traits of their partner.  In this stream of research, we explore how to imbue autonomous agents with these abilities.
+
+<div class="row">
+    {% include post-sorter.html subtype="haha" %}
+</div>
+
+## 1.3 Student-Robot Teaming and Robots in the Classroom
 
 **Students:** [Kaleb Bishop](https://kalebishop.github.io/)
 
@@ -50,7 +68,7 @@ Current projects, conducted in conjunction with the [NSF AI Institute for Studen
 
 {% include image.html url="research/isat.jpg" description="iSAT's vision for student-AI teaming and classroom orchestration." %}
 
-## 1.3 Task and Role Assignment for Human Robot Collaboration
+## 1.4 Task and Role Assignment for Human Robot Collaboration
 
 To incorporate robots into human teams, robots need explainable task representations and better understanding of the social dynamics of the human team to be an effective member.
 Our goal is to equip the robot with the ability to insert itself into an existing human team to promote collaboration and improve efficiency.
@@ -60,7 +78,7 @@ How does the robot know what roles to take?
 
 **Students:** Yi-Shiuan Tung
 
-## 1.4 Robotic Intent Signaling System
+## 1.5 Robotic Intent Signaling System
 
 **Students:** Mitchell Scott, Shreyas Kadekodi, [Caleb Escobedo]({% post_url people/2019-10-10-caleb %}), Clare Lohrmann
 
