@@ -26,7 +26,23 @@ We use an interdisciplinary approach, leveraging work from cognitive learning th
 
 # 1. Projects
 
-## 1.1 Reference Dependent Risk Attitudes in HRI
+## 1.1 Technical Fluency in Human-Agent Interaction
+
+**Students:** [Stéphane Aroca-Ouellette](https://stephao.github.io/)
+
+Drastic variance in human knowledge, ability, and preference result in rich diversity of human behavior. For successful integration of autonomous agents
+in human endeavours, these agents must be able to efficiently adapt to a wide range previously unseen collaborators.
+For example, when working with a less experienced teammate, an agent should likely prioritize understandable behavior over complicated behaviors in order to build trust and
+allow the teammate to adjust to the task. In contrast, when working with a more experience teammate, the agent can instead focus on more optimal behaviors. 
+To accomplish this, an agent must be able to not have a range of behaviors, but also identify the necessary
+traits of their partner.  In this stream of research, we explore how to imbue autonomous agents with these abilities.
+
+<div class="row">
+    {% include post-sorter.html subtype="haha" %}
+</div>
+
+
+## 1.2 Reference Dependent Risk Attitudes in HRI
 
 **Students:** Clare Lohrmann
 
@@ -39,24 +55,6 @@ In this project, we are testing the applicability of these experimental economic
 With knowledge of how applicable these concepts are to HRI, along with information about the effects of risk awareness on human behavior with robots, we hope to be able to create new models of robot behavior that guide humans to more accurate perceptions of robot ability, without eroding trust.
 
 {% include image.html url="research/algo-social-hri/prospect-theory.png" max-width="50%" description="Humans have a tendency to underestimate the value of outcomes." %}
-
-## 1.2 Technical Fluency in Human-Agent Interaction
-
-**Students:** Stéphane Aroca-Ouellette  
-  
-**_Publications:_**  
- - TBD
-
-Drastic variance in human knowledge, ability, and preference result in rich diversity of human behavior. For successful integration of autonomous agents
-in human endeavours, these agents must be able to efficiently adapt to a wide range previously unseen collaborators.
-For example, when working with a less experienced teammate, an agent should likely prioritize understandable behavior over complicated behaviors in order to build trust and
-allow the teammate to adjust to the task. In contrast, when working with a more experience teammate, the agent can instead focus on more optimal behaviors. 
-To accomplish this, an agent must be able to not have a range of behaviors, but also identify the necessary
-traits of their partner.  In this stream of research, we explore how to imbue autonomous agents with these abilities.
-
-<div class="row">
-    {% include post-sorter.html subtype="haha" %}
-</div>
 
 ## 1.3 Student-Robot Teaming and Robots in the Classroom
 
