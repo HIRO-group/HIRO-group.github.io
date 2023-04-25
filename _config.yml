@@ -73,6 +73,15 @@ defaults:
     values:
       category: "research"
       subcategory: "research"
+  -
+    scope:
+      path: "_slides" 
+    values:
+      layout: "iframe"
+
+collections:
+  slides:
+    output: true
 
 # Default colors (hex-codes without the leading hash-tag):
 color:
@@ -83,3 +92,5 @@ color:
   secondary-alpha: rgba(40,40,40,.7)        # This is the same as the secondary color but with an alpha value
   # accent: 4982a7
   accent: 00a0a0                            # This is an electric blue accent
+
+
