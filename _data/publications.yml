@@ -4,6 +4,11 @@
 #   venue: 
 #   pdf: 
 
+ - title: "BO-ICP: Initialization of Iterative Closest Point Based on Bayesian Optimization"
+   authors: "H. Biggie, A. Beathard, C. Heckman"
+   year: 2023
+   venue: "International Conference on Robotics and Automation (ICRA)"
+
  - title: "Flexible Supervised Autonomy for Exploration in Subterranean Environments"
    authors: "H. Bigge, E. Rush, D. Riley, S. Ahmad, M. Ohradzansky, K. Harlow, M. Miles, D. Torres, S. McGuire, E. Frew, C. Heckman, J. S. Humbert"
    year: 2023
