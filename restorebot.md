@@ -32,5 +32,4 @@ Currently, we are working on terrain identification that enables the robot to av
 
 We are diligently planning for our November 2023 deployment in which we will focus on making autonomous intervention for the first time. In addition to refining our seeding mechanism, we are also planning to deploy a U5 robotic arm for installing custom ConMods. The ConMods used by ecologists are currently made of chicken wire, but to make them more friendly for robotic deployment, we have attempted to make similar structures with rigid wooden frames.  
 
-<iframe class="slideshow-iframe" src="https://youtu.be/Crwsb59fMps"
-style="height:600px; width:800px" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+<iframe width="800" height="600" src="https://www.youtube.com/embed/9teAIFddnRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
