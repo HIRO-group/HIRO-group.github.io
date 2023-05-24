@@ -6,14 +6,13 @@
 
     <!-- JavaScript Plugins -->
     <script src="{{ "/js/jquery.easing.min.js" }}"></script>
-    <script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
 
     <script>
       // cbpAnimatedHeader.js v1.0.0
       var cbpAnimatedHeader = (function() {
 
         var docElem = document.documentElement,
-          header = document.querySelector( '.navbar' ),
+          navbar = document.querySelector( '.navbar' ),
           collapse = document.querySelector( '.navbar-collapse' ),
           didScroll = false,
           changeHeaderOn = 300;
@@ -33,7 +32,7 @@
           var sy = scrollY();
 
           if ( sy > lsy ) {
-            classie.add( header, 'navbar-shrink' );
+            navbar.classList.add( 'navbar-shrink' );
 
             // Disable the toggler while moving down or up
             if (collapse.classList.contains('show')) {
@@ -41,7 +40,7 @@
             }
           }
           else {
-            classie.remove( header, 'navbar-shrink' );
+            navbar.classList.remove( 'navbar-shrink' );
           }
           didScroll = false;
           lsy = scrollY();
