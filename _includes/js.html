@@ -4,9 +4,6 @@
     <!-- Bootstrap Core JavaScript + Popper -->
     <script src="{{ "/js/bootstrap.bundle.min.js" }}"></script>
 
-    <!-- JavaScript Plugins -->
-    <script src="{{ "/js/jquery.easing.min.js" }}"></script>
-
     <script>
       // cbpAnimatedHeader.js v1.0.0
       var cbpAnimatedHeader = (function() {
@@ -56,14 +53,13 @@
     </script>
 
     <script>
-      // jQuery for page scrolling feature - requires jQuery Easing plugin
-      $(function() {
-          $('.page-scroll a').bind('click', function(event) {
-              var $anchor = $(this);
-              $('html, body').stop().animate({
-                  scrollTop: $($anchor.attr('href')).offset().top
-              }, 1500, 'easeInOutExpo');
-              event.preventDefault();
+      // Page scrolling feature
+      document.addEventListener('DOMContentLoaded', function() {
+          const scrollToTopButton = document.querySelector('.page-scroll-up');
+
+          scrollToTopButton.addEventListener('click', function(event) {
+              event.preventDefault();  // Prevent the default action
+              window.scrollTo({ top: 0, behavior: 'smooth' });
           });
       });
 

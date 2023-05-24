@@ -45,7 +45,7 @@
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes, plus on pages with more than 5 minutes reading time (900 words)) -->
     {% assign words = content | number_of_words %}
     <div class="scroll-top page-scroll d-block d-md-none no-print" {% if words > 900 or page.type == "cv" %}style="display: block !important;"{% endif %}>
-        <a class="btn btn-primary" href="#page-top">
+        <a class="btn btn-primary page-scroll-up" href="#page-top">
             <i class="fa fa-chevron-up"></i>
         </a>
     </div>
