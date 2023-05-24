@@ -16,11 +16,11 @@
 
 # Postdocs
 
- - name: Shiran Dudy
-   role: postdoc
-   url: http://www.shirandudy.com
-   email: shiran.dudy@colorado.edu
-   pic: shiran.jpg
+ # - name: Shiran Dudy
+ #   role: postdoc
+ #   url: http://www.shirandudy.com
+ #   email: shiran.dudy@colorado.edu
+ #   pic: shiran.jpg
 
 # PhD Students
 # [in order of first appearance in the lab]
@@ -79,12 +79,6 @@
    email: nataliya.nechyporenko@colorado.edu
    pic: nataliya.jpg
 
- - name: Mary West
-   role: phd
-   url: https://www.ettawest.com
-   email: mary.west@colorado.edu
-   pic: mary.png
-
  - name: Chihui Lin
    role: phd
    email: chli4608@colorado.edu
@@ -92,12 +86,6 @@
 
 # Graduate Students
 # [in order of first appearance in the lab]
- - name: Tanmay Desai
-   role: grad
-   url: https://tanmaydesai.godaddysites.com
-   email: tanmay.desai@colorado.edu
-   pic: tanmayd.jpg
-
  - name: Joe Miceli
    role: grad
    linkedin: joseph-miceli
@@ -113,28 +101,10 @@
 # Undergraduate Students
 # [in order of first appearance in the lab]
 
- - name: Shreyas Kadekodi
-   role: undergrad
-   linkedin: shreyas-kadekodi
-   email: shreyas.kadekodi@colorado.edu
-   pic: shreyas.jpg
-
- - name: Yuri Han
-   role: undergrad
-   linkedin: yurihan903
-   email: yuha2716@coloardo.edu
-   pic: yuri.jpg
-
  - name: Matthew Eccles
    role: undergrad
    email: maec4462@coloardo.edu
    pic: eccles.jpg
-
- - name: Justin Brand
-   role: undergrad
-   linkedin: justin-brand
-   email: jubr6114@colorado.edu
-   pic: justin.jpg
 
  - name: Conor Simmons
    role: undergrad
@@ -156,27 +126,62 @@
    email: kelly.merckaert@vub.be
    pic: kelly.jpg
 
- - name: Abhidip Bhattacharyya
-   role: collaborator
-   email: abhidip.bhattacharyya@colorado.edu
-   pic: abhidip.jpg
-
- - name: Mithilesh R
-   role: collaborator
-   email: mithilesh-cs071@dsce.edu.in
-   pic: mithilesh.jpg
-
  - name: Srikrishna Bangalore Raghu
    role: collaborator
    email: srba2850@colorado.edu
    pic: srikrishna.jpg
 
- - name: Liam Merz Hoffmeister
-   role: collaborator
-   email: lime4992@colorado.edu
-   pic: liamMH.jpg
 # Alumni
 # [in inverse order of when they left the lab]
+
+ - name: Tanmay Desai
+   role: alumni
+   url: https://tanmaydesai.godaddysites.com
+   email: tanmay.desai@colorado.edu
+   pic: tanmayd.jpg
+   nowat: Colorado School of Mines [Ph.D.]
+   graduated: Spring 2023 [MS.]
+
+ - name: Liam Merz Hoffmeister
+   role: alumni
+   email: lime4992@colorado.edu
+   pic: liamMH.jpg
+   nowat: Yale University [Ph.D.]
+   graduated: Spring 2022 [BS.]
+
+ - name: Shreyas Kadekodi
+   role: alumni
+   linkedin: shreyas-kadekodi
+   email: shreyas.kadekodi@colorado.edu
+   pic: shreyas.jpg
+   nowat: University of California San Diego [Ph.D.]
+   graduated: Spring 2022 [MS.]
+
+ - name: Mary West
+   role: alumni
+   url: https://www.ettawest.com
+   email: mary.west@colorado.edu
+   pic: mary.png
+
+ - name: Shiran Dudy
+   role: alumni
+   url: http://www.shirandudy.com
+   email: shiran.dudy@colorado.edu
+   pic: shiran.jpg
+
+ - name: Justin Brand
+   role: alumni
+   linkedin: justin-brand
+   graduated: Spring 2023 [BS.]
+   email: jubr6114@colorado.edu
+   pic: justin.jpg
+
+ - name: Yuri Han
+   role: alumni
+   linkedin: yurihan903
+   graduated: Spring 2022 [BS.]
+   email: yuha2716@coloardo.edu
+   pic: yuri.jpg
 
  - name: Matthew Strong
    role: alumni
@@ -187,6 +192,16 @@
    graduated: Spring 2021 [BS.]
    nowat: Microsoft
    url: https://www.colorado.edu/cs/matthew-strong-research-award
+
+ - name: Abhidip Bhattacharyya
+   role: alumni
+   email: abhidip.bhattacharyya@colorado.edu
+   pic: abhidip.jpg
+
+ - name: Mithilesh R
+   role: alumni
+   email: mithilesh-cs071@dsce.edu.in
+   pic: mithilesh.jpg
 
  - name: Joseph David Galloway II
    role: alumni
