@@ -84,6 +84,11 @@
    email: chli4608@colorado.edu
    pic: chihui.jpg
 
+ - name: Srikrishna Bangalore Raghu
+   role: phd
+   email: srba2850@colorado.edu
+   pic: srikrishna.jpg
+
 # Graduate Students
 # [in order of first appearance in the lab]
  - name: Joe Miceli
@@ -125,11 +130,6 @@
    role: collaborator
    email: kelly.merckaert@vub.be
    pic: kelly.jpg
-
- - name: Srikrishna Bangalore Raghu
-   role: collaborator
-   email: srba2850@colorado.edu
-   pic: srikrishna.jpg
 
 # Alumni
 # [in inverse order of when they left the lab]
