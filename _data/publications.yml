@@ -1,17 +1,11 @@
  - title: "Hierarchical Reinforcement Learning for Ad Hoc Teaming"
    authors: Stéphane Aroca-Ouellette, Miguel Aroca-Ouellette, Upasana Biswas, Katharina Kann, Alessandro Roncone
    year: 2023
-   venue: "2023 International Conference on Autonomous Agents and Multiagent Systems [AAMAS]"
+   venue: "International Conference on Autonomous Agents and Multiagent Systems [AAMAS]"
    where: London, Uk, May 28-June 02
    pdf: "2023_Aroca-Ouellette_AAMAS_HAHA"
+   description: Extended abstract
    subteams: [algorithmic and social hri, learning and modeling, stephane]
- - title: "Improving Human Legibility in Collaborative Robot Tasks through Augmented Reality and Workspace Preparation"
-   authors: Yi-Shiuan Tung, Matthew B. Luebbers, Alessandro Roncone, Bradley Hayes
-   year: 2023
-   venue: "6th International Workshop on Virtual, Augmented, and Mixed-Reality for Human-Robot Interactions (VAM-HRI)"
-   where: Stockholm, Sweden, March 13
-   pdf: "2023_Tung_VAMHRI_legibility"
-   subteams: [algorithmic and social hri,yi-shiuan]
  - title: "Interactive Policy Shaping for Human-Robot Collaboration with Transparent Matrix Overlays"
    authors: Jake Brawer, Debasmita Ghose, Kate Candon, Meiying Qin, Alessandro Roncone, Marynel Vázquez, and Brian Scassellati
    year: 2023
@@ -21,6 +15,13 @@
    subteams: [algorithmic and social hri]
    host: https://alessandro.ronc.one
    award: Best Technical Paper Award!!
+ - title: "Improving Human Legibility in Collaborative Robot Tasks through Augmented Reality and Workspace Preparation"
+   authors: Yi-Shiuan Tung, Matthew B. Luebbers, Alessandro Roncone, Bradley Hayes
+   year: 2023
+   venue: "6th International Workshop on Virtual, Augmented, and Mixed-Reality for Human-Robot Interactions (VAM-HRI)"
+   where: Stockholm, Sweden, March 13
+   pdf: "2023_Tung_VAMHRI_legibility"
+   subteams: [algorithmic and social hri,yi-shiuan]
  - title: "Designing an AI Partner for Jigsaw classrooms"
    authors: Jie Cao, Rachel Dickler, Marie Grace, Jeffrey B. Bush, Alessandro Roncone, Leanne M. Hirshfield, Marilyn A. Walker, Martha S. Palmer
    year: 2023
