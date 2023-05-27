@@ -3,8 +3,8 @@
    year: 2023
    venue: "2023 International Conference on Autonomous Agents and Multiagent Systems [AAMAS]"
    where: London, Uk, May 28-June 02
-   pdf: "2023_Aroca-Ouellette_AAMAS_HAHA_extended_abstract"
-   subteams: [algorithmic and social hri, stephane]
+   pdf: "2023_Aroca-Ouellette_AAMAS_HAHA"
+   subteams: [algorithmic and social hri, learning and modeling, stephane]
  - title: "Improving Human Legibility in Collaborative Robot Tasks through Augmented Reality and Workspace Preparation"
    authors: Yi-Shiuan Tung, Matthew B. Luebbers, Alessandro Roncone, Bradley Hayes
    year: 2023
@@ -21,6 +21,13 @@
    subteams: [algorithmic and social hri]
    host: https://alessandro.ronc.one
    award: Best Technical Paper Award!!
+ - title: "Designing an AI Partner for Jigsaw classrooms"
+   authors: Jie Cao, Rachel Dickler, Marie Grace, Jeffrey B. Bush, Alessandro Roncone, Leanne M. Hirshfield, Marilyn A. Walker, Martha S. Palmer
+   year: 2023
+   venue: Workshop on Language-Based AI Agent Interaction with Children [AIAIC]
+   where: Los Angeles, USA, February 21
+   pdf: "2023_Cao_AI_Partner"
+   subteams: [algorithmic and social hri]
  - title: "A Framework for the Systematic Evaluation of Obstacle Avoidance and Object-Aware Controllers"
    authors: Caleb Escobedo, Nataliya Nechyporenko, Shreyas Kadekodi, Alessandro Roncone
    year: 2022
