@@ -1,10 +1,10 @@
  - title: "Hierarchical Reinforcement Learning for Ad Hoc Teaming"
    authors: Stéphane Aroca-Ouellette, Miguel Aroca-Ouellette, Upasana Biswas, Katharina Kann, Alessandro Roncone
    year: 2023
-   venue: "Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems"
+   venue: "2023 International Conference on Autonomous Agents and Multiagent Systems [AAMAS]"
    where: London, Uk, May 28-June 02
    pdf: "2023_Aroca-Ouellette_AAMAS_HAHA_extended_abstract"
-   subteams: [algorithmic and social hri,yi-shiuan]
+   subteams: [algorithmic and social hri, stephane]
  - title: "Improving Human Legibility in Collaborative Robot Tasks through Augmented Reality and Workspace Preparation"
    authors: Yi-Shiuan Tung, Matthew B. Luebbers, Alessandro Roncone, Bradley Hayes
    year: 2023
