@@ -4,6 +4,11 @@
 #   venue: 
 #   pdf: 
 
+ - title: "Looking Around Corners: Generative Methods in Terrain Extension"
+   authors: "A. Reed, C Heckman"
+   year: 2023
+   venue: "Robotics Science and System (RSS) Workshop on Inference and Decision Making for Autonomous Vehicles"
+   
  - title: "BO-ICP: Initialization of Iterative Closest Point Based on Bayesian Optimization"
    authors: "H. Biggie, A. Beathard, C. Heckman"
    year: 2023
