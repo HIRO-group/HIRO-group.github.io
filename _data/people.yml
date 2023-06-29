@@ -129,6 +129,21 @@
    email: frli5468@colorado.edu
    pic: freddy.png
 
+ - name: Carson Kohlbrenner
+   role: undergrad
+   email: carson.kohlbrenner@colorado.edu
+   pic: carson.jpg
+
+ - name: Caleb Kumar
+   role: undergrad
+   email: caleb.kumar@colorado.edu
+   pic: calebk.jpg
+
+  - name: Noah Liska 
+    role: undergrad
+    email: noah.liska@colorado.edu
+    pic: noah.png
+    
 # Collaborators
 # [in order of first appearance in the lab]
 
@@ -324,3 +339,4 @@
    role: alumni
    linkedin: william-wang-a445b4193
    pic: wwang.jpg
+>>>>>>> 2e45997d69a8389896705e633dc7f498d439376c
