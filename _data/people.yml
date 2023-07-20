@@ -22,11 +22,13 @@
  #   email: shiran.dudy@colorado.edu
  #   pic: shiran.jpg
 
-  - name: Jake Brawer
-    role: postdoc
-    url: http://www.jakebrawer.com
-    email: jake.brawer@colorado.edu
-    pic: jake.jpg
+
+ - name: Jake Brawer
+   role: postdoc
+   url: https://jakebrawer.com
+   email: jake.brawer@colorado.edu
+   pic: jake.jpg
+
 
 # PhD Students
 # [in order of first appearance in the lab]
