@@ -17,14 +17,6 @@
     email: Christoffer.Heckman@colorado.edu
     pic: Heckman_Christoffer.jpg
 
-  - name: Mike Miles
-    role: phd
-    url: http://www.mjmiles.com
-    office: ECES 111
-    phone:
-    email: mike.miles@colorado.edu
-    pic: Mike_Miles.jpg
-
   - name: Kyle Harlow
     role: phd
     url: https://alphakyl.github.io/
@@ -32,15 +24,7 @@
     phone:
     email: kyle.harlow@colorado.edu
     pic: Harlow_Kyle.jpg
-
-  - name: Mary Martin
-    role: phd
-    url:
-    office: ECES 111
-    phone:
-    email:
-    pic: Martin_Mary.jpg
-
+    
   - name: Harel Biggie
     role: phd
     url: https://harelbiggie.com
@@ -99,6 +83,16 @@
     doctor: true
     role: alumni
     now: an Asst. Professor at UC Santa Cruz.
+
+    #name: Mike Miles
+    #role: alumni
+    #doctor: true?
+    #dates: ??-??
+    #url: http://www.mjmiles.com
+    #office: ECES 111
+    #phone:
+    #email: mike.miles@colorado.edu
+    #now: ?????
 
   - name: Cecilia Mauceri
     dates: 2016-2021
