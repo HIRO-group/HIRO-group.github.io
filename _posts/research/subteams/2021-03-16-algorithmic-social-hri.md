@@ -31,7 +31,7 @@ We use an interdisciplinary approach, leveraging work from cognitive learning th
 **Students:** [Stéphane Aroca-Ouellette](https://stephao.github.io/)
 
 **_Publications:_**
-- S. Aroca-Ouellette, M. Aroca-Ouellette, U. Biswas, K. Kann, and A. Roncone, _"Hierarchical Reinforcement Learning for Ad Hoc Teaming"_ in _Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems (AAMAS)_, 2023. [[PDF]]({{ site.url }}/papers/2023_Aroca-Ouellette_AAMAS_HAHA_extended_abstract.pdf) [[BIB]]({{ site.url }}/papers/2023_Aroca-Ouellette_AAMAS_HAHA_extended_abstract.bib)
+- S. Aroca-Ouellette, M. Aroca-Ouellette, U. Biswas, K. Kann, and A. Roncone, _"Hierarchical Reinforcement Learning for Ad Hoc Teaming"_ in _Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems (AAMAS)_, 2023. [[PDF]]({{ site.url }}/papers/2023_Aroca-Ouellette_AAMAS_HAHA.pdf) [[BIB]]({{ site.url }}/papers/2023_Aroca-Ouellette_AAMAS_HAHA.bib)
 
 
 Drastic variance in human knowledge, ability, and preference result in rich diversity of human behavior. For successful integration of autonomous agents
