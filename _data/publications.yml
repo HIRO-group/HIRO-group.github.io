@@ -1,3 +1,10 @@
+ - title: "Towards A Natural Language Interface For Flexible Multi-Agent Task Assignment"
+   authors: Jake Brawer, Kayleigh Bishop, Bradley Hayes, Alessandro Roncone
+   year: 2023
+   venue: "AAAI Fall Symposium on Artificial Intelligence for Human-Robot Interaction [AI-HRI]"
+   where: Arlington, VA, USA, Oct 25-27
+   pdf: "2023_Brawer_AI-HRI_task_assignment"
+   subteams: [algorithmic and social hri, jake, kaleb]
  - title: "CAT-RRT: Motion Planning that Admits Contact One Linke at a Time"
    authors: Nataliya Nechyporenko, Caleb Escobedo, Shreyas Kadekodi, Alessandro Roncone
    year: 2023
