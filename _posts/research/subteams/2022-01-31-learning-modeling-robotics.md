@@ -34,16 +34,18 @@ We accomplish this from two perspectives:
 **_Publications:_**
 - A. Pasricha, Y. Tung, B. Hayes, and A. Roncone, _"PokeRRT: Poking as a skill and failure recovery tactic for planar non-prehensile manipulation"_ in _Robotics and Automation Letters and 2022 IEEE International Conference on Robotics and Automation (ICRA)_, 2022. [[PDF]]({{ site.url }}/papers/2022_Pasricha_RAL_PokeRRT.pdf) [[BIB]]({{ site.url }}/papers/2022_Pasricha_RAL_PokeRRT.bib)
 
+{% include image.html url="research/npm/poking.jpg" max-width="40%" description="Expanding operational space by leveraging non-prehensile manipulation." %}
+
 Non-prehensile manipulation (i.e., manipulation that does not involve grasping) can significantly expand the operational space of a robot.
 We posit that robots need to leverage non-prehensile manipulation as part of their skill set if they are to achieve human-level dexterity.
 Our past work introduced a novel planner that uses poking as a skill _and_ failure recovery tactic synergistically with grasping.
 Moving forward, we are building hybrid models for manipulation in which physics-based and learning-based approaches complement each other, toward generating a repository of skills that robots can then use to engage in more complex, affordance-informed task planning and manipulation.
 
-<!-- {% include image.html url="research/npm/poking.jpg" max-width="40%" description="Expanding operational space by leveraging non-prehensile manipulation." %} -->
+[//]: # (<!-- {% include image.html url="research/npm/poking.jpg" max-width="40%" description="Expanding operational space by leveraging non-prehensile manipulation." %} -->)
 
-<div class="row">
-    {% include post-sorter.html subtype="non-prehensile manipulation" %}
-</div>
+[//]: # (<div class="row">)
+[//]: # (    {% include post-sorter.html subtype="non-prehensile manipulation" %})
+[//]: # (</div>)
 
 ## 1.2. Natural Language Grounding and Skill Transfer
 
@@ -85,6 +87,27 @@ As a part of this institute, we conduct foundational research on dialog manageme
 Specifically, we are studying how reinforcement learning might be applied to autonomously generate and fine-tune discourse policies.
 
 {% include image.html url="research/isat.jpg" description="iSAT's vision for student-AI teaming and classroom orchestration." %}
+
+## 1.5. Planning with Dynamics Constraints
+
+**Students:** [Anuj Pasricha]({% post_url people/2019-10-13-anuj %}), Ava Abderezaei, Srikrishna Bangalore Raghu
+
+{% include image.html url="research/dynamics/liquid.png" max-width="40%" description="Transporting open-top containers while avoiding spillage." %}
+
+Robotic manipulation in complex operational environments necessitates the integration of constraints at various levels of abstraction (i.e., kinematics, statics, quasi-statics, and dynamics) in order to effectively govern the interaction between the robot and its surrounding environment.
+Importantly, dynamics extends the foundational principles of kinematics, statics, and quasi-statics by incorporating the analysis of forces and torques in robot and object motion in real-world tasks such as liquid transport, deformable object manipulation, and nonprehensile maneuvers.
+The complexities (and opportunities) introduced by dynamic-based analysis of motion planning set the stage for kinodynamic planning, a class of methods that incorporate these dynamic constraints into planning, consequently extending classical kinematic or geometric planning methods beyond the robot's state space to its control space.
+
+## 1.6. Multimodal Motion Planning
+
+**Students:** [Anuj Pasricha]({% post_url people/2019-10-13-anuj %})
+
+{% include image.html url="research/multimodal/multimodal.png" max-width="40%" description="Leverage prehensile and non-prehensile skills for object manipulation." %}
+
+In industrial settings, robots may function in coordination with humans and other robots, each with their own set of core capabilities, to accomplish a task.
+Consequently, operating at the intersection of these skills and taking maximal advantage of each is a key landmark in enabling real--world use of robots.
+For instance, a manipulator may need to throw a packaged box into a bin located outside its reachable workspace, at which point it can be picked up by another arm and placed in a delivery truck.
+This multimodal nature of manipulation is grounded in robot capability, object characteristics, and environment configuration, and it demonstrates the need for a diverse portfolio of motion primitives that can be combined to exhibit dexterous manipulation behavior.
 
 # 2. Publications
 
