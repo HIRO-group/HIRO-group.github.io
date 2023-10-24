@@ -41,12 +41,6 @@ We posit that robots need to leverage non-prehensile manipulation as part of the
 Our past work introduced a novel planner that uses poking as a skill _and_ failure recovery tactic synergistically with grasping.
 Moving forward, we are building hybrid models for manipulation in which physics-based and learning-based approaches complement each other, toward generating a repository of skills that robots can then use to engage in more complex, affordance-informed task planning and manipulation.
 
-[//]: # (<!-- {% include image.html url="research/npm/poking.jpg" max-width="40%" description="Expanding operational space by leveraging non-prehensile manipulation." %} -->)
-
-[//]: # (<div class="row">)
-[//]: # (    {% include post-sorter.html subtype="non-prehensile manipulation" %})
-[//]: # (</div>)
-
 ## 1.2. Natural Language Grounding and Skill Transfer
 
 **Students:** Stéphane Aroca-Ouellette  
