@@ -65,6 +65,21 @@ Future work in this area will focus on gentle continuous contact interactions, l
 
 {% include image.html url="research/roboskin/sensor_units.jpg" max-width="40%" description="Anticipating contact with whole-body sensing." %}
 
+
+
+## 1.3 Motion planning and trajectory optimization for contact-rich manipulation
+
+**Students:** [Nataliya Nechyporenko]({% post_url people/2023-10-24-nataliya %}), Caleb Escobedo, Conor Simmons, Yaashia Gautam 
+
+**_Publications:_**
+ - N. Nechyporenko, C. Escobedo, S. Kadekodi, and A. Roncone, _"CAT-RRT: Motion Planning that Admits Contact One Link at a Time,"_ in _2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, 2023. [[PDF]]({{ site.url }}/papers/2023_Nechyporenko_IROS_CAT-RRT.pdf) [[BIB]]({{ site.url }}/papers/2023_Nechyporenko_IROS_CAT-RRT.bib)
+
+Imagine walking to your room with a plate of food in one hand and a bottle of water in the other. Then you see that the door is closed, what do you do? People tend to get creative and use their elbows or even feet to move the handle and push the door open. However, a robot would typically get stuck because its restricted to using fingertips for manipulating objects in the environment. In this reserach thread, we aim to equip robots with dexterous whole-body manipulation skills allowing them to tackle complex real-world tasks such as handling large objects to assist the elderly, navigating tight spaces for search-and-rescue, and manipulating in clutter for warehouse operations. More specifically, we focus on motion planning and trajectory optimization algorithms that can reason about physical contact. We work with tools such as Drake, MoveIt!, and OMPL using Python and C++. 
+
+Planning for contact can benefit from strong perception algorithms since we can anticipate certain interactions with soft, lightweight objects (e.g. tennis balls and water bottles) rather than hard static objects (e.g. tables and walls). To this end, we have also made progress in the areas of computer vision and machine learning and looking to supplement this research with more students. 
+
+Likewise, we are looking to integrate our motion planning, controls, and perception work into a unified pipeline to demonstrate real-world robot capabilities such as picking fruit from a tree, cleaning up a cluttered space, or playing ball games. We are looking for passionate students that develop these demonstrations to showcase all of our work!
+
 # 2. Publications
 
 <section id="post-cv" style="padding-top: 0;">
