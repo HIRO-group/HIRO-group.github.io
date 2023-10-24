@@ -46,19 +46,15 @@ traits of their partner.  In this stream of research, we explore how to imbue au
 </div>
 
 
-## 1.2 Reference Dependent Risk Attitudes in HRI
+## 1.2 Predictability in HRI
 
-**Students:** Clare Lohrmann
+**Students:** [Clare Lohrmann](https://cmlohrmann.github.io/)
 
-Prior research has shown that humans struggle to accurately judge the ability of robots.
-This gap in expectations creates misplaced trust, which can result in disappointment and erosion of trust.
-We hypothesize that this decrease in trust is caused by the human tendency towards loss aversion.
-Loss aversion, a part of Prospect Theory, states that people prioritize avoiding losses (or the feeling of loss) over accumulating gains when making decisions.
-Further work in experimental economics has indicated that “a prior expectation to take on risk decreases aversion to both the anticipated and additional risk”, meaning that when individuals are made aware that they are taking on risk, they experience less loss, and are less risk averse in the future. [Kȍszegi and Rabin, 2007].
-In this project, we are testing the applicability of these experimental economics concepts in the context of human-robot interaction, in an effort to limit the expectations gap and promote more positive outcomes.
-With knowledge of how applicable these concepts are to HRI, along with information about the effects of risk awareness on human behavior with robots, we hope to be able to create new models of robot behavior that guide humans to more accurate perceptions of robot ability, without eroding trust.
+For humans to effectively work with robots, they must be able to predict the actions and behaviors of their robot teammates rather than merely react to them. While there are existing techniques enabling robots to adapt to human behavior, there is a demonstrated need for methods that explicitly improve humans' ability to understand and predict robot behavior. 
 
-{% include image.html url="research/algo-social-hri/prospect-theory.png" max-width="50%" description="Humans have a tendency to underestimate the value of outcomes." %}
+Our methods leverage the innate human propensity for pattern recognition and abstraction in order to improve team dynamics in human-robot teams and to make robots more predictable to the humans that work with them. Patterns are a cognitive tool that humans use and rely on often, and the human brain is in many ways primed for pattern recognition and usage. In this research stream we lean into human cognitive tendencies to improve human-robot teaming and human perceptions of their robot teammates.
+
+{% include image.html url="research/algo-social-hri/maria_setup_img_blur.png" max-width="50%" description="The setup for a work currently under review, where participants played a coordination game with a Sawyer robot." %}
 
 ## 1.3 Student-Robot Teaming and Robots in the Classroom
 
