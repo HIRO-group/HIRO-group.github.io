@@ -1,9 +1,9 @@
    <!-- Navigation -->
     <nav id="navbar-scrollspy" class="navbar fixed-top navbar-expand-xl no-print">
         <div class="container">
-        <a class="navbar-brand" href="{% if page.type == "home" %}#page-top{% else %}/{% endif %}">
+        <a class="navbar-brand" href="{% if page.type == "home" %}#{% else %}/{% endif %}">
         </a>
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span> </span>
             <span> </span>
             <span> </span>
@@ -11,9 +11,9 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ml-auto w-100 justify-content-end">
+            <ul class="navbar-nav me-auto w-100 justify-content-end">
                 <li class="d-none">
-                    <a class="nav-link" href="#page-top"></a>
+                    <a class="nav-link" href="#"></a>
                 </li>
 
                 {% if page.type == "news" %}
