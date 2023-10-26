@@ -45,20 +45,27 @@ Moving forward, we are building hybrid models for manipulation in which physics-
     {% include post-sorter.html subtype="non-prehensile manipulation" %}
 </div>
 
-## 1.2. Natural Language Grounding and Skill Transfer
+## 1.2. Natural Language Grounding
 
 **Students:** Stéphane Aroca-Ouellette  
   
 **_Publications:_**  
  - S. Aroca-Ouellette, C. Paik, A. Roncone, and K. Kann, _"PROST: Physical Reasoning of Objects through Space and Time"_, 2021. In Findings of the Association for Computational Linguistics: ACL-IJCNLP2021, [[PDF]]({{ site.url }}/papers/2021_Aroca-Ouellette_ACL_findings.pdf) [[BIB]]({{ site.url }}/papers/2021_Aroca-Ouellette_ACL_findings.bib)
+ - C. Paik, S. Aroca-Ouellette, A. Roncone, and K. Kann, _"The World of an Octopus: How Reporting Bias Influences a Language Model’s Perception of Color"_, 2021, In Empirical Methods in Natural Language Processing: EMNLP2021, [[PDF]]({{ site.url }}/papers/2021_Paik_EMNLP.pdf) [[BIB]]({{ site.url }}/papers/2021_Paik_EMNLP.bib)
 
-Natural language is the easiest and most generalizable way for humans to specify a task, provide new information, and convey intentions. Being able to leverage language for task specification and skill transfer would greatly increase the abilities of current robots.
-Concurrently, current language models fail to understand language as humans do, which we hypothesize is caused a lack of real-world experience.
-To this end, we aim at bridging the gap between the field of robotics and NLP to produce robots that can act and learn through language, and who in turn will generate experiences for it develop a richer understanding of language.
+Natural language serves as the fundamental medium through which humans collaborate, providing a versatile framework for articulating tasks, exchanging information, and conveying intentions. 
+While modern language models have shown impressive results, it is essential to recognize a key distinction between how humans and language models acquire language.
+Humans learn language by experiencing it in the real world, in contrast language models predominantly rely on text data alone for their learning.
+To this end, we posit that the pursuit of text-only training is at a minimum inefficient, and possibly insufficient to achieve a human-like understanding of language.
+Our initial work PROST highlighted one area where text-only models fall short---understanding questions related to physical reasoning---and demonstrated that scale alone would be unlikely to solve this shortcoming.
+Upon delving deeper into this issue, our next paper identified a potential underlying factor: reporting bias. 
+Due to human's experience in the world, self-evident information is often omitted from text.
+For example, if someone says "I knocked my glass off the table", most do not elaborate further with information such as "the effects of gravity pulled the glass to the ground, breaking on impact, and the making the ground wet with its content."
+Rather, we rely on our own experiences of similar events to fill in these important details.
+Having identified these limitations, we are currently investigating methods to ground language in embodiment inorder to improve the understanding of language models.
+Ultimately, we hope that these improved language models will help improve natural language task specification systems.
 
-<div class="row">
-    {% include post-sorter.html subtype="grounding_language_through_experience" %}
-</div>
+{% include image.html url="research/gl/prost_example.png" max-width="50%" description="An example question from PROST." %}
 
 
 ## 1.3. Multi-Agent Reinforcement Learning
