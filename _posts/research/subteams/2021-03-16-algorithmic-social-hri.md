@@ -40,9 +40,9 @@ To address this, we introduce HAHA: Hierarchical Ad Hoc Agents, a novel framewor
 HAHA consists of a Worker and a Manager, which respectively focus on optimizing efficient sub-task completion and high-level team strategies.
 We evaluate HAHA in the Overcooked environment, demonstrating that it outperforms existing baselines in both quantitative and qualitative metrics, offering improved teamwork, better resilience to environmental shifts, and heightened agent intelligibility. 
 Furthermore, we show that the generalization ability of HAHA extends to changes in the environment and that our structure allows for the induction of new strategies not encountered during training.
-We posit that the advancements proposed in this paper form a crucial building block toward the realization of more secure and efficient human–AI teams.
+We posit that the advancements proposed in this paper form a crucial building block toward the realization of safer and more efficient human–AI teams.
 
-{% include image.html url="research/haha/haha_architecture.png" max-width="60%" description="Architecture of the Hierarchical Ad Hoc Agents (HAHA). Similar to a human, the manager first selects which high-level task to accomplish next. The low-level worker then takes over to carry out the task." %}
+{% include image.html url="research/haha/haha_architecture.png" max-width="40%" description="Architecture of the Hierarchical Ad Hoc Agents (HAHA). Similar to a human, the manager first selects which high-level task to accomplish next. The low-level worker then takes over to carry out the task." %}
 
 ## 1.2 Reference Dependent Risk Attitudes in HRI
 

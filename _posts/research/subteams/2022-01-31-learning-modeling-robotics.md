@@ -55,9 +55,9 @@ Moving forward, we are building hybrid models for manipulation in which physics-
 
 Natural language serves as the fundamental medium through which humans collaborate, providing a versatile framework for articulating tasks, exchanging information, and conveying intentions. 
 While modern language models have shown impressive results, it is essential to recognize a key distinction between how humans and language models acquire language.
-While humans learn language by experiencing it in the real world, present language models predominantly rely on text data alone for their learning.
+Humans learn language by experiencing it in the real world, in contrast language models predominantly rely on text data alone for their learning.
 To this end, we posit that the pursuit of text-only training is at a minimum inefficient, and possibly insufficient to achieve a human-like understanding of language.
-Our initial work PROST highlighted one area where text-only models fall short --- understanding questions related to physical reasoning --- and demonstrated that scale alone would be unlikely to solve this shortcoming.
+Our initial work PROST highlighted one area where text-only models fall short---understanding questions related to physical reasoning---and demonstrated that scale alone would be unlikely to solve this shortcoming.
 Upon delving deeper into this issue, our next paper identified a potential underlying factor: reporting bias. 
 Due to human's experience in the world, self-evident information is often omitted from text.
 For example, if someone says "I knocked my glass off the table", most do not elaborate further with information such as "the effects of gravity pulled the glass to the ground, breaking on impact, and the making the ground wet with its content."
