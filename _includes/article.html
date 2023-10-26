@@ -7,7 +7,7 @@
                     {% if page.description %}<h3>{{ page.description }}</h3>{% endif %}
                     {% if page.author %}
                         <hr class="separating-line">
-                        <p class="text-right" style="margin-bottom: 40px;">by <em>{{ page.author }}</em> on {{ page.date | date: '%B %d, %Y' }}</p>
+                        <p class="text-end" style="margin-bottom: 40px;">by <em>{{ page.author }}</em> on {{ page.date | date: '%B %d, %Y' }}</p>
                     {% else %}
                         <hr class="separating-line"{% if page.category != "research" and page.category != "design" %} style="margin-bottom: 40px;"{% endif %}>
                     {% endif %}
