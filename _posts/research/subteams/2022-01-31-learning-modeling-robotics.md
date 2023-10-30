@@ -59,7 +59,7 @@ To this end, we aim at bridging the gap between the field of robotics and NLP to
 
 ## 1.3. Multi-Agent Reinforcement Learning
 
-**Students:** Guohui Ding, [Joewie J. Koh](https://joewiekoh.com), Chihui Lin
+**Students:** [Joewie J. Koh](https://joewiekoh.com), Chihui Lin
 
 **_Publications:_**
  - J. J. Koh*, G. Ding*, C. Heckman, L. Chen, A. Roncone, "Cooperative control of mobile robots with Stackelberg learning," in _2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, 2020. [[PDF]]({{ site.url }}/papers/2020_Koh_IROS_SLiCC.pdf) [[BIB]]({{ site.url }}/papers/2020_Koh_IROS_SLiCC.bib)
