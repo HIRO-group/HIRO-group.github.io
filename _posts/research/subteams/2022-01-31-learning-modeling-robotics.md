@@ -89,8 +89,10 @@ Specifically, we are studying how reinforcement learning might be applied to aut
 {% include image.html url="research/dynamics/liquid.png" max-width="40%" description="Transporting open-top containers while avoiding spillage." %}
 
 Robotic manipulation in complex operational environments necessitates the integration of constraints at various levels of abstraction (i.e., kinematics, statics, quasi-statics, and dynamics) in order to effectively govern the interaction between the robot and its surrounding environment.
-Importantly, dynamics extends the foundational principles of kinematics, statics, and quasi-statics by incorporating the analysis of forces and torques in robot and object motion in real-world tasks such as liquid transport, deformable object manipulation, and nonprehensile maneuvers.
-The complexities (and opportunities) introduced by dynamic-based analysis of motion planning set the stage for kinodynamic planning, a class of methods that incorporate these dynamic constraints into planning, consequently extending classical kinematic or geometric planning methods beyond the robot's state space to its control space.
+These considerations show up in tasks involving liquid transport, deformable object manipulation, and nonprehensile manipulation, among many others.
+For instance, robotic fluid manipulation is challenging due to the intricate, nonlinear equations inherent to fluid dynamics.
+Solving these equations often demands significant computational time, making real-time precise control even more difficult, especially when aiming to avoid spills.
+Specifically, we work on incorporating analytical and learned dynamics constraints into a variety of sampling-based kinodynamic motion planners.
 
 ## 1.6. Multimodal Motion Planning
 
@@ -98,10 +100,13 @@ The complexities (and opportunities) introduced by dynamic-based analysis of mot
 
 {% include image.html url="research/multimodal/multimodal.png" max-width="40%" description="Leverage prehensile and non-prehensile skills for object manipulation." %}
 
-In industrial settings, robots may function in coordination with humans and other robots, each with their own set of core capabilities, to accomplish a task.
-Consequently, operating at the intersection of these skills and taking maximal advantage of each is a key landmark in enabling real--world use of robots.
+The utility of autonomous robots in the real-world is primarily dictated by their ability to act in and reconfigure the operational environment.
+This requires robots to operate in coordination with humans and other robots, each with their own set of core skills (eg: throwing, pushing, catching, grasping, poking), to accomplish a task.
+Consequently, operating at the intersection of these skills and taking maximal advantage of each is a key landmark in enabling real-world use of robots.
 For instance, a manipulator may need to throw a packaged box into a bin located outside its reachable workspace, at which point it can be picked up by another arm and placed in a delivery truck.
 This multimodal nature of manipulation is grounded in robot capability, object characteristics, and environment configuration, and it demonstrates the need for a diverse portfolio of motion primitives that can be combined to exhibit dexterous manipulation behavior.
+In our research, we address the challenge of multimodal motion planning by employing sampling-based techniques. These techniques tap into dynamic models and control methods tailored for each skill, enabling the execution of complex manipulation tasks.
+We also incorporate recent innovations from artificial intelligence, specifically diffusion models, to make our approach more adaptable and applicable in diverse real-world scenarios.
 
 # 2. Publications
 
