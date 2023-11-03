@@ -1,9 +1,9 @@
 ---
-title: "Hierarchical structures for human-agent interaction"
+title: "🚀 Hierarchical structures for human-agent interaction"
 description: Aligning humans and agents at a cognitive and behavioral level 
 author: Stéphane Aroca-Ouellette
 permalink: research/haha.html
-category: [research, learning and modeling, haha, research highlight]
+category: [research, learning and modeling, haha, research highlight, news]
 image:
     feature: research/haha/haha_architecture.png
     size: 50%
