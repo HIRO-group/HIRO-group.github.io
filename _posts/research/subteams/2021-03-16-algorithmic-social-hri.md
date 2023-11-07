@@ -26,25 +26,23 @@ We use an interdisciplinary approach, leveraging work from cognitive learning th
 
 # 1. Projects
 
-## 1.1 Technical Fluency in Human-Agent Interaction
+## 1.1 Hierarchical Human-Agent Interaction
 
 **Students:** [Stéphane Aroca-Ouellette](https://stephao.github.io/)
 
 **_Publications:_**
 - S. Aroca-Ouellette, M. Aroca-Ouellette, U. Biswas, K. Kann, and A. Roncone, _"Hierarchical Reinforcement Learning for Ad Hoc Teaming"_ in _Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems (AAMAS)_, 2023. [[PDF]]({{ site.url }}/papers/2023_Aroca-Ouellette_AAMAS_HAHA.pdf) [[BIB]]({{ site.url }}/papers/2023_Aroca-Ouellette_AAMAS_HAHA.bib)
 
+In collaborative tasks, humans excel at adapting to their partners and converging toward an aligned strategy to maximize team success.
+This is an inherently human skill that current state-of-the-art machine learning models largely lack.
+We contend that this gap stems from the traditional focus on learning human-agent interaction from low-level primitive actions, whereas human collaboration centers around high-level strategies.
+To address this, we introduce HAHA: Hierarchical Ad Hoc Agents, a novel framework using hierarchical reinforcement learning to train an agent capable of navigating the intricacies of ad hoc teaming at a level of abstraction more akin to human collaboration.
+HAHA consists of a Worker and a Manager, which respectively focus on optimizing efficient sub-task completion and high-level team strategies.
+We evaluate HAHA in the Overcooked environment, demonstrating that it outperforms existing baselines in both quantitative and qualitative metrics, offering improved teamwork, better resilience to environmental shifts, and heightened agent intelligibility. 
+Furthermore, we show that the generalization ability of HAHA extends to changes in the environment and that our structure allows for the induction of new strategies not encountered during training.
+We posit that the advancements proposed in this paper form a crucial building block toward the realization of safer and more efficient human–AI teams.
 
-Drastic variance in human knowledge, ability, and preference result in rich diversity of human behavior. For successful integration of autonomous agents
-in human endeavours, these agents must be able to efficiently adapt to a wide range previously unseen collaborators.
-For example, when working with a less experienced teammate, an agent should likely prioritize understandable behavior over complicated behaviors in order to build trust and
-allow the teammate to adjust to the task. In contrast, when working with a more experience teammate, the agent can instead focus on more optimal behaviors. 
-To accomplish this, an agent must be able to not have a range of behaviors, but also identify the necessary
-traits of their partner.  In this stream of research, we explore how to imbue autonomous agents with these abilities.
-
-<div class="row">
-    {% include post-sorter.html subtype="haha" %}
-</div>
-
+{% include image.html url="research/haha/haha_architecture.png" max-width="40%" description="Architecture of the Hierarchical Ad Hoc Agents (HAHA). Similar to a human, the manager first selects which high-level task to accomplish next. The low-level worker then takes over to carry out the task." %}
 
 ## 1.2 Reference Dependent Risk Attitudes in HRI
 

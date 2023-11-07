@@ -84,7 +84,7 @@
  - name: Nataliya Nechyporenko
    role: phd
    url: https://nataliya.dev
-   email: nataliya.nechyporenko@colorado.edu
+   email: nataliya@colorado.edu
    pic: nataliya.jpg
 
  - name: Chihui Lin
@@ -131,12 +131,6 @@
    email: maec4462@coloardo.edu
    pic: eccles.jpg
 
- - name: Conor Simmons
-   role: undergrad
-   linkedin: conor-simmons
-   email: cosi4983@colorado.edu
-   pic: conor.jpg
-
  - name: Freddy Linn
    role: undergrad
    linkedin: frederick-linn
@@ -166,8 +160,21 @@
    email: kelly.merckaert@vub.be
    pic: kelly.jpg
 
+ - name: Yaashia Gautam
+   role: collaborator
+   email: yaashia.gautam@colorado.edu
+   pic: yaashia.jpg
+
 # Alumni
 # [in inverse order of when they left the lab]
+
+ - name: Conor Simmons
+   role: alumni
+   linkedin: conor-simmons
+   email: cosi4983@colorado.edu
+   pic: conor.jpg
+   graduated: Spring 2023 [BS.]
+   nowat: Luxonis
 
  - name: Tanmay Desai
    role: alumni
