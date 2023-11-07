@@ -27,6 +27,32 @@ We accomplish this from two perspectives:
 
 # 1. Projects
 
+## 1.6. Multimodal Motion Planning
+
+**Students:** [Anuj Pasricha]({% post_url people/2019-10-13-anuj %})
+
+{% include image.html url="research/multimodal/multimodal.png" max-width="40%" description="Leverage prehensile and non-prehensile skills for object manipulation." %}
+
+The utility of autonomous robots in the real-world is primarily dictated by their ability to act in and reconfigure the operational environment.
+This requires robots to operate in coordination with humans and other robots, each with their own set of core skills (eg: throwing, pushing, catching, grasping, poking), to accomplish a task.
+Consequently, operating at the intersection of these skills and taking maximal advantage of each is a key landmark in enabling real-world use of robots.
+For instance, a manipulator may need to throw a packaged box into a bin located outside its reachable workspace, at which point it can be picked up by another arm and placed in a delivery truck.
+This multimodal nature of manipulation is grounded in robot capability, object characteristics, and environment configuration, and it demonstrates the need for a diverse portfolio of motion primitives that can be combined to exhibit dexterous manipulation behavior.
+In our research, we address the challenge of multimodal motion planning by employing sampling-based techniques. These techniques tap into dynamic models and control methods tailored for each skill, enabling the execution of complex manipulation tasks.
+We also incorporate recent innovations from artificial intelligence, specifically diffusion models, to make our approach more adaptable and applicable in diverse real-world scenarios.
+
+## 1.5. Planning with Dynamics Constraints
+
+**Students:** [Anuj Pasricha]({% post_url people/2019-10-13-anuj %}), Ava Abderezaei, Srikrishna Bangalore Raghu
+
+{% include image.html url="research/dynamics/liquid.png" max-width="40%" description="Transporting open-top containers while avoiding spillage." %}
+
+Robotic manipulation in complex operational environments necessitates the integration of constraints at various levels of abstraction (i.e., kinematics, statics, quasi-statics, and dynamics) in order to effectively govern the interaction between the robot and its surrounding environment.
+These considerations show up in tasks involving liquid transport, deformable object manipulation, and nonprehensile manipulation, among many others.
+For instance, robotic fluid manipulation is challenging due to the intricate, nonlinear equations inherent to fluid dynamics.
+Solving these equations often demands significant computational time, making real-time precise control even more difficult, especially when aiming to avoid spills.
+Specifically, we work on incorporating analytical and learned dynamics constraints into a variety of sampling-based kinodynamic motion planners.
+
 ## 1.1. Non-Prehensile Manipulation
 
 **Students:** [Anuj Pasricha]({% post_url people/2019-10-13-anuj %}), Yi-Shiuan Tung
@@ -34,16 +60,12 @@ We accomplish this from two perspectives:
 **_Publications:_**
 - A. Pasricha, Y. Tung, B. Hayes, and A. Roncone, _"PokeRRT: Poking as a skill and failure recovery tactic for planar non-prehensile manipulation"_ in _Robotics and Automation Letters and 2022 IEEE International Conference on Robotics and Automation (ICRA)_, 2022. [[PDF]]({{ site.url }}/papers/2022_Pasricha_RAL_PokeRRT.pdf) [[BIB]]({{ site.url }}/papers/2022_Pasricha_RAL_PokeRRT.bib)
 
+{% include image.html url="research/npm/poking.jpg" max-width="40%" description="Expanding operational space by leveraging non-prehensile manipulation." %}
+
 Non-prehensile manipulation (i.e., manipulation that does not involve grasping) can significantly expand the operational space of a robot.
 We posit that robots need to leverage non-prehensile manipulation as part of their skill set if they are to achieve human-level dexterity.
 Our past work introduced a novel planner that uses poking as a skill _and_ failure recovery tactic synergistically with grasping.
 Moving forward, we are building hybrid models for manipulation in which physics-based and learning-based approaches complement each other, toward generating a repository of skills that robots can then use to engage in more complex, affordance-informed task planning and manipulation.
-
-<!-- {% include image.html url="research/npm/poking.jpg" max-width="40%" description="Expanding operational space by leveraging non-prehensile manipulation." %} -->
-
-<div class="row">
-    {% include post-sorter.html subtype="non-prehensile manipulation" %}
-</div>
 
 ## 1.2. Natural Language Grounding
 
@@ -67,10 +89,9 @@ Ultimately, we hope that these improved language models will help improve natura
 
 {% include image.html url="research/gl/prost_example.png" max-width="50%" description="An example question from PROST." %}
 
-
 ## 1.3. Multi-Agent Reinforcement Learning
 
-**Students:** Guohui Ding, [Joewie J. Koh](https://joewiekoh.com)
+**Students:** [Joewie J. Koh](https://joewiekoh.com), Chihui Lin
 
 **_Publications:_**
  - J. J. Koh*, G. Ding*, C. Heckman, L. Chen, A. Roncone, "Cooperative control of mobile robots with Stackelberg learning," in _2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, 2020. [[PDF]]({{ site.url }}/papers/2020_Koh_IROS_SLiCC.pdf) [[BIB]]({{ site.url }}/papers/2020_Koh_IROS_SLiCC.bib)
