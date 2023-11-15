@@ -27,7 +27,7 @@ We accomplish this from two perspectives:
 
 # 1. Projects
 
-## 1.6. Multimodal Motion Planning
+## 1.1. Multimodal Motion Planning
 
 **Students:** [Anuj Pasricha]({% post_url people/2019-10-13-anuj %})
 
@@ -39,9 +39,17 @@ Consequently, operating at the intersection of these skills and taking maximal a
 For instance, a manipulator may need to throw a packaged box into a bin located outside its reachable workspace, at which point it can be picked up by another arm and placed in a delivery truck.
 This multimodal nature of manipulation is grounded in robot capability, object characteristics, and environment configuration, and it demonstrates the need for a diverse portfolio of motion primitives that can be combined to exhibit dexterous manipulation behavior.
 In our research, we address the challenge of multimodal motion planning by employing sampling-based techniques. These techniques tap into dynamic models and control methods tailored for each skill, enabling the execution of complex manipulation tasks.
-We also incorporate recent innovations from artificial intelligence, specifically diffusion models, to make our approach more adaptable and applicable in diverse real-world scenarios.
+We also incorporate recent innovations from artificial intelligence, specifically diffusion models, to make our approach more adaptable and applicable in diverse real-world scenarios.  
 
-## 1.5. Planning with Dynamics Constraints
+## 1.2. Enabling Long-term Robot Autonomy through Adaptable Fault Resilience  
+
+**Students:** [Gilberto Briscoe-Martinez]({% post_url people/2023-11-15-gilberto %})
+
+{% include image.html url="research/failure-resilience/new_figure_1.png" max-width="40%" description="A Franka Emika Panda Arm completing manipulation tasks while experiencing locked, multi-joint failure." %}
+
+This research project focuses on enhancing the resilience of robots in the face of system failures. The primary aim is to develop strategies that bolster their autonomy even in the aftermath of faults. To date, we have devised a system that evaluates the reachability of the robot post-failure, utilizes simulations to map available non-prehensile manipulation actions. Through searching and applying these actions, the framework enables effective planning and execution of manipulation tasks following a failure. Looking forward, the research will delve into understanding the impact of a robot's system failure on its task completion probability. Additionally, future efforts will explore effective means of communicating the post-failure capabilities of the robot to human operators, fostering a more seamless collaboration between man and machine.
+
+## 1.3. Planning with Dynamics Constraints
 
 **Students:** [Anuj Pasricha]({% post_url people/2019-10-13-anuj %}), Ava Abderezaei, Srikrishna Bangalore Raghu
 
@@ -53,7 +61,7 @@ For instance, robotic fluid manipulation is challenging due to the intricate, no
 Solving these equations often demands significant computational time, making real-time precise control even more difficult, especially when aiming to avoid spills.
 Specifically, we work on incorporating analytical and learned dynamics constraints into a variety of sampling-based kinodynamic motion planners.
 
-## 1.1. Non-Prehensile Manipulation
+## 1.4. Non-Prehensile Manipulation
 
 **Students:** [Anuj Pasricha]({% post_url people/2019-10-13-anuj %}), Yi-Shiuan Tung
 
@@ -67,7 +75,7 @@ We posit that robots need to leverage non-prehensile manipulation as part of the
 Our past work introduced a novel planner that uses poking as a skill _and_ failure recovery tactic synergistically with grasping.
 Moving forward, we are building hybrid models for manipulation in which physics-based and learning-based approaches complement each other, toward generating a repository of skills that robots can then use to engage in more complex, affordance-informed task planning and manipulation.
 
-## 1.2. Natural Language Grounding
+## 1.5. Natural Language Grounding
 
 **Students:** Stéphane Aroca-Ouellette  
   
@@ -89,7 +97,7 @@ Ultimately, we hope that these improved language models will help improve natura
 
 {% include image.html url="research/gl/prost_example.png" max-width="50%" description="An example question from PROST." %}
 
-## 1.3. Multi-Agent Reinforcement Learning
+## 1.6. Multi-Agent Reinforcement Learning
 
 **Students:** [Joewie J. Koh](https://joewiekoh.com), Chihui Lin
 
@@ -104,7 +112,7 @@ Moreover, we envision multi-agent systems serving as the setting for the next wa
 
 {% include image.html url="research/marl/SLiCC.png" max-width="40%" description="Learning to cooperate with asymmetric perceptual capabilities." %}
 
-## 1.4. Learning Discourse Policies for Dialog Management
+## 1.7. Learning Discourse Policies for Dialog Management
 
 **Students:** [Joewie J. Koh](https://joewiekoh.com), [Kaleb Bishop](https://kalebishop.github.io/)
 
