@@ -77,7 +77,8 @@
 
  - name: Gilberto Briscoe-Martinez
    role: phd
-   url: https://www.gbmartinez.com
+   linkedin: gbmartinez
+   url: https://gilberto.martinez.phd
    email: gilberto.briscoe-martinez@colorado.edu
    pic: gilberto.png
 
@@ -108,7 +109,7 @@
  - name: Joe Miceli
    role: grad
    linkedin: joseph-miceli
-   email: joe.miceli@colorad.edu
+   email: joe.miceli@colorado.edu
    pic: jmiceli.jpg
 
  - name: Nikhil Barhate
