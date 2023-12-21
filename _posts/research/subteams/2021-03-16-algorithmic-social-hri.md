@@ -47,13 +47,16 @@ We posit that the advancements proposed in this paper form a crucial building bl
 ## 1.2 Interactive Task and Role Assignment for Human Robot Collaboration
 
 **Postdoc:** [Jake Brawer](https://jakebrawer.com/)
-**Students:** [Kaleb Bishop](https://kalebishop.github.io/)
+**Students:** [Kaleb Bishop](https://kalebishop.github.io/**
+
+**_Publications_***
+- J. Brawer, K. Bishop, B. Hayes, and A. Roncone, _"Towards A Natural Language Interface for Flexible Multi-Agent Task Assignment,"_ in _2023 AAAI Fall Symposium on Artificial Intelligence for Human-Robot Interaction (AI-HRI)_, 2023. [[PDF]]({{ site.url }}/papers/2023_Brawer_AI-HRI_task_assignment.pdf) [[BIB]]({{ site.url }}/papers/2023_Brawer_AI-HRI_task_assignment.bib)
 
 Task assignment and scheduling (TAS) algorithms are powerful tools for coordinating large teams of robots, AIs, or humans with optimality and safety guarantees.
 However, standard optiization-based techniques for TAS require deep technical knowledge to design, and are far too rigid to handle the complexities of many real-world, high-stakes tasks.
 Large language models (LLMs) like ChatGPT, in contrast, are extraordinarily flexible and capbale of wide-ranging feats of generalized reasoning, though lack these desired gaurantees.
-Our ongoing work seeks to narrow the gap between human ingenuity and algorithmic efficiency by enabling users to shape, update, and modify TAS systems entirely via LLm-mediated, interactive dialogue.
-We hope this work  This approach not only enhances the efficiency and flexibility of task management, but also democratizes the use of advanced TAS algorithms.
+Our ongoing work seeks to narrow the gap between human ingenuity and algorithmic efficiency by enabling users to shape, update, and modify TAS systems entirely via LLM-mediated, interactive dialogue.
+We believwe this approach will not only enhance the efficiency and flexibility of task management, but also democratizes the use of advanced TAS algorithms.
 
 ## 1.3 Reference Dependent Risk Attitudes in HRI
 
