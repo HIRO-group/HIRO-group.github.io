@@ -45,6 +45,7 @@ We posit that the advancements proposed in this paper form a crucial building bl
 {% include image.html url="research/haha/haha_architecture.png" max-width="40%" description="Architecture of the Hierarchical Ad Hoc Agents (HAHA). Similar to a human, the manager first selects which high-level task to accomplish next. The low-level worker then takes over to carry out the task." %}
 
 ## 1.2 Interactive Task and Role Assignment for Human Robot Collaboration
+
 **Postdoc:** [Jake Brawer](https://jakebrawer.com/)
 **Students:** [Kaleb Bishop](https://kalebishop.github.io/)
 
