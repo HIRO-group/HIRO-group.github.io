@@ -68,15 +68,16 @@ Current projects, conducted in conjunction with the [NSF AI Institute for Studen
 
 {% include image.html url="research/isat.jpg" description="iSAT's vision for student-AI teaming and classroom orchestration." %}
 
-## 1.4 Task and Role Assignment for Human Robot Collaboration
+## 1.4 Interactive Task and Role Assignment for Human Robot Collaboration
+**Postdoc:** [Jake Brawer](https://jakebrawer.com/)
+**Students:** [Kaleb Bishop](https://kalebishop.github.io/)
 
-To incorporate robots into human teams, robots need explainable task representations and better understanding of the social dynamics of the human team to be an effective member.
-Our goal is to equip the robot with the ability to insert itself into an existing human team to promote collaboration and improve efficiency.
-How can the robot decompose complex tasks and find the optimal role assignments for the team?
-How does the robot balance the preferences of the human and the optimality of the task assignment?
-How does the robot know what roles to take?
+Task assignment and scheduling (TAS) algorithms are powerful tools for coordinating large teams of robots, AIs, or humans with optimality and safety guarantees.
+However, standard optiization-based techniques for TAS require deep technical knowledge to design, and are far too rigid to handle the complexities of many real-world, high-stakes tasks.
+Large language models (LLMs) like ChatGPT, in contrast, are extraordinarily flexible and capbale of wide-ranging feats of generalized reasoning, though lack these desired gaurantees.
+Our ongoing work seeks to narrow the gap between human ingenuity and algorithmic efficiency by enabling users to shape, update, and modify TAS systems entirely via LLm-mediated, interactive dialogue.
+We hope this work  This approach not only enhances the efficiency and flexibility of task management, but also democratizes the use of advanced TAS algorithms.
 
-**Students:** Yi-Shiuan Tung
 
 ## 1.5 Robotic Intent Signaling System
 
