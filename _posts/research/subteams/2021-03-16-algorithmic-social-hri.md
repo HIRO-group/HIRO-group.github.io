@@ -56,7 +56,7 @@ Task assignment and scheduling (TAS) algorithms are powerful tools for coordinat
 However, standard optiization-based techniques for TAS require deep technical knowledge to design, and are far too rigid to handle the complexities of many real-world, high-stakes tasks.
 Large language models (LLMs) like ChatGPT, in contrast, are extraordinarily flexible and capbale of wide-ranging feats of generalized reasoning, though lack these desired gaurantees.
 Our ongoing work seeks to narrow the gap between human ingenuity and algorithmic efficiency by enabling users to shape, update, and modify TAS systems entirely via LLM-mediated, interactive dialogue.
-We believwe this approach will not only enhance the efficiency and flexibility of task management, but also democratizes the use of advanced TAS algorithms.
+We are confident that this approach will not only enhance the efficiency and flexibility of task management, but also democratizes the use of advanced TAS algorithms.
 
 ## 1.3 Reference Dependent Risk Attitudes in HRI
 
