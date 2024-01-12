@@ -44,7 +44,21 @@ We posit that the advancements proposed in this paper form a crucial building bl
 
 {% include image.html url="research/haha/haha_architecture.png" max-width="40%" description="Architecture of the Hierarchical Ad Hoc Agents (HAHA). Similar to a human, the manager first selects which high-level task to accomplish next. The low-level worker then takes over to carry out the task." %}
 
-## 1.2 Reference Dependent Risk Attitudes in HRI
+## 1.2 Interactive Task and Role Assignment for Human Robot Collaboration
+
+**Postdoc:** [Jake Brawer](https://jakebrawer.com/)
+**Students:** [Kaleb Bishop](https://kalebishop.github.io/**
+
+**_Publications_***
+- J. Brawer, K. Bishop, B. Hayes, and A. Roncone, _"Towards A Natural Language Interface for Flexible Multi-Agent Task Assignment,"_ in _2023 AAAI Fall Symposium on Artificial Intelligence for Human-Robot Interaction (AI-HRI)_, 2023. [[PDF]]({{ site.url }}/papers/2023_Brawer_AI-HRI_task_assignment.pdf) [[BIB]]({{ site.url }}/papers/2023_Brawer_AI-HRI_task_assignment.bib)
+
+Task assignment and scheduling (TAS) algorithms are powerful tools for coordinating large teams of robots, AIs, or humans with optimality and safety guarantees.
+However, standard optiization-based techniques for TAS require deep technical knowledge to design, and are far too rigid to handle the complexities of many real-world, high-stakes tasks.
+Large language models (LLMs) like ChatGPT, in contrast, are extraordinarily flexible and capbale of wide-ranging feats of generalized reasoning, though lack these desired gaurantees.
+Our ongoing work seeks to narrow the gap between human ingenuity and algorithmic efficiency by enabling users to shape, update, and modify TAS systems entirely via LLM-mediated, interactive dialogue.
+We are confident that this approach will not only enhance the efficiency and flexibility of task management, but also democratizes the use of advanced TAS algorithms.
+
+## 1.3 Reference Dependent Risk Attitudes in HRI
 
 **Students:** Clare Lohrmann
 
@@ -58,7 +72,7 @@ With knowledge of how applicable these concepts are to HRI, along with informati
 
 {% include image.html url="research/algo-social-hri/prospect-theory.png" max-width="50%" description="Humans have a tendency to underestimate the value of outcomes." %}
 
-## 1.3 Student-Robot Teaming and Robots in the Classroom
+## 1.4 Student-Robot Teaming and Robots in the Classroom
 
 **Students:** [Kaleb Bishop](https://kalebishop.github.io/)
 
@@ -67,16 +81,6 @@ Why are robots such powerful agents of tutoring, and how can we use their unique
 Current projects, conducted in conjunction with the [NSF AI Institute for Student-AI Teaming (iSAT)](https://www.colorado.edu/research/ai-institute/) and the [Engineering Education and AI-Augmented Learning IRT](https://www.colorado.edu/irt/engineering-education-ai/), include study into HRI design considerations for students of color and developing a robot tutoring system to address grounded reading skills.
 
 {% include image.html url="research/isat.jpg" description="iSAT's vision for student-AI teaming and classroom orchestration." %}
-
-## 1.4 Task and Role Assignment for Human Robot Collaboration
-
-To incorporate robots into human teams, robots need explainable task representations and better understanding of the social dynamics of the human team to be an effective member.
-Our goal is to equip the robot with the ability to insert itself into an existing human team to promote collaboration and improve efficiency.
-How can the robot decompose complex tasks and find the optimal role assignments for the team?
-How does the robot balance the preferences of the human and the optimality of the task assignment?
-How does the robot know what roles to take?
-
-**Students:** Yi-Shiuan Tung
 
 ## 1.5 Robotic Intent Signaling System
 
