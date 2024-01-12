@@ -47,7 +47,7 @@ We posit that the advancements proposed in this paper form a crucial building bl
 ## 1.2 Interactive Task and Role Assignment for Human Robot Collaboration
 
 **Postdoc:** [Jake Brawer](https://jakebrawer.com/)
-**Students:** [Kaleb Bishop](https://kalebishop.github.io/**
+**Students:** [Kaleb Bishop](https://kalebishop.github.io/)
 
 **_Publications_***
 - J. Brawer, K. Bishop, B. Hayes, and A. Roncone, _"Towards A Natural Language Interface for Flexible Multi-Agent Task Assignment,"_ in _2023 AAAI Fall Symposium on Artificial Intelligence for Human-Robot Interaction (AI-HRI)_, 2023. [[PDF]]({{ site.url }}/papers/2023_Brawer_AI-HRI_task_assignment.pdf) [[BIB]]({{ site.url }}/papers/2023_Brawer_AI-HRI_task_assignment.bib)
