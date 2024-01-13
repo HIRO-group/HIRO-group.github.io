@@ -1,3 +1,10 @@
+ - title: "Workspace Optimization Techniques to Improve Prediction of Human Motion During Human-Robot Collaboration"
+   authors: Yi-Shiuan Tung, Matthew B. Luebbers, Alessandro Roncone, Bradley Hayes
+   year: 2024
+   venue: ACM/IEEE International Conference on Human-Robot Interaction [HRI]
+   where: Boulder, CO, USA, March 11-14
+   pdf: "2024_Tung_HRI_workspace_opt"
+   subteams: [algorithmic and social hri]
  - title: "Towards A Natural Language Interface For Flexible Multi-Agent Task Assignment"
    authors: Jake Brawer, Kayleigh Bishop, Bradley Hayes, Alessandro Roncone
    year: 2023
