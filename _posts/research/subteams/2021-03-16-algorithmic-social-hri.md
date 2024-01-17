@@ -46,15 +46,15 @@ traits of their partner.  In this stream of research, we explore how to imbue au
 </div>
 
 
-## 1.2 Predictability in HRI
+## 1.2 Predictability for Human-Robot Teaming
 
 **Students:** [Clare Lohrmann](https://cmlohrmann.github.io/)
+In this research stream we lean into human cognitive tendencies to improve human-robot teaming and human perceptions of their robot teammates. Robots and humans reason in different, and often contradicting ways, making human-robot interactions challenging, unpredictable, and even dangerous. For humans to effectively work with robots, they must be able to predict the actions and behaviors of their robot teammates rather than merely react to them. While there are existing techniques enabling robots to adapt to human behavior, there is a demonstrated need for methods that explicitly improve humans' ability to understand and predict robot behavior.
 
-For humans to effectively work with robots, they must be able to predict the actions and behaviors of their robot teammates rather than merely react to them. While there are existing techniques enabling robots to adapt to human behavior, there is a demonstrated need for methods that explicitly improve humans' ability to understand and predict robot behavior. 
-
-Our methods leverage the innate human propensity for pattern recognition and abstraction in order to improve team dynamics in human-robot teams and to make robots more predictable to the humans that work with them. Patterns are a cognitive tool that humans use and rely on often, and the human brain is in many ways primed for pattern recognition and usage. In this research stream we lean into human cognitive tendencies to improve human-robot teaming and human perceptions of their robot teammates.
+In our work, we create robot behavior that is more in line with human expectations (predictable) by incorporating aspects of the human cognitive toolkit that humans often rely on, such as patterns, symmetry, etc. Thus, we make collaboration smoother and more intuitive for those who work with or around robots - without sacrificing team performance or speed.
 
 {% include image.html url="research/algo-social-hri/maria_setup_img_blur.png" max-width="50%" description="The setup for a work currently under review, where participants played a coordination game with a Sawyer robot." %}
+{% include image.html url="research/algo-social-hri/spot_in_enviro.png" max-width="50%" description="Here's a snapshot from our work in development - leveraging VR via Meta's Quest 3 to conduct robot predictability work." %}
 
 ## 1.3 Student-Robot Teaming and Robots in the Classroom
 
