@@ -4,6 +4,16 @@
 #   venue: 
 #   pdf: 
 
+ - title: "Kalman Filter Auto-Tuning With Consistent and Robust Bayesian Optimization"
+   authors: "Z. Chen, H. Biggie, N. Ahmed, S. Julier, C. Heckman"
+   year: 2024
+   venue: "IEEE Transactions on Aerospace and Electronic Systems"
+
+ - title: "Restorebot: Towards an Autonomous Robotics Platform for Degraded Rangeland Restoration"
+   authors: "K. Such, H. Biggie, C. Heckman"
+   year: 2023
+   venue: "Experimental Robotics: The 18th International Symposium"
+
  - title: "Looking Around Corners: Generative Methods in Terrain Extension"
    authors: "A. Reed, C Heckman"
    year: 2023
@@ -15,7 +25,7 @@
    venue: "International Conference on Robotics and Automation (ICRA)"
 
  - title: "Flexible Supervised Autonomy for Exploration in Subterranean Environments"
-   authors: "H. Bigge, E. Rush, D. Riley, S. Ahmad, M. Ohradzansky, K. Harlow, M. Miles, D. Torres, S. McGuire, E. Frew, C. Heckman, J. S. Humbert"
+   authors: "H. Biggie, E. Rush, D. Riley, S. Ahmad, M. Ohradzansky, K. Harlow, M. Miles, D. Torres, S. McGuire, E. Frew, C. Heckman, J. S. Humbert"
    year: 2023
    venue: "Field Robotics Journal"
    pdf: "/papers/biggie_field_robotics_2023.pdf"
