@@ -1,35 +1,46 @@
 ---
-type: article
-# title: "SceneSense:"
-# description: "Diffusion models for 3D Occupancy Synthesis from Partial Observation"
-# author_clean: Alec Reed, Brendan Crowe, Doncey Albin, Bradley Hayes, and Chris Heckman
+# Doncey Albibn
+# Alter as desired. The type references article_v2.html in includes if there are things you want to change.
+type: article_v2
+title_main: "SceneSense:"
+title_follow: "Diffusion models for 3D Occupancy Synthesis from Partial Observation"
+university: "University of Colorado - Boulder"
+
+author1: "Alec Reed"
+author2: "Brendan Crowe"
+author3: "Doncey Albin"
+author4: "Bradley Hayes"
+author5: "Christoffer J. Heckman"
+author6: "Alec Reed"
+author7: "Alec Reed"
+
+# Links at bottom. Removing '<linkname>_link' below will remove from page.
+github_link: "https://google.com"
+github_link_color: "yellowgreen"
+github_link_text: "GitHub"
+
+arxiv_link: "https://google.com"
+arxiv_link_color: "blue"
+arxiv_link_text: "ArXiv"
+
+# summary_video_link:
+# summary_video_link_color:
+# summary_video_link_text: "Summary Video Link"
+
+talk_link: "https://google.com"
+talk_link_color: "red"
+talk_link_text: "IROS Talk"
+
+# media_coverage_link:
+# media_coverage_link_color:
+# media_coverage_link_text: "Media Coverage"
+
+bibtex_link: "https://google.com"
+bibtex_link_color: "purple"
+bibtex_link_text: "BiTex"
 ---
 
-<div style="text-align:center; font-size: 36px;">
-    <strong>SceneSense:</strong> Diffusion models for 3D Occupancy Synthesis from Partial Observation
-</div>
-
-<br>
-
-<div style="text-align: center; background-color: white; color: black; padding: 10px; width: 50wv;">
-    <div style="display: inline-block; width: 18%;"><strong>Alec Reed</strong></div>
-    <div style="display: inline-block; width: 18%;"><strong>Brendan Crowe</strong></div>
-    <div style="display: inline-block; width: 18%;"><strong>Doncey Albin</strong></div>
-    <div style="display: inline-block; width: 18%;"><strong>Bradley Hayes</strong></div>
-    <div style="display: inline-block; width: 18%;"><strong>Chris Heckman</strong></div>
-</div>
-
---- 
-
-<br>
-
 <script>
-    /*
-     * Doncey A. 
-     * Draw random circles along paper frame borders, kind of like adding noise during diffusion.
-     * 
-    */
-
     // Gen a rand int bw min and max (inclusive)
     function getRandomInt(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
