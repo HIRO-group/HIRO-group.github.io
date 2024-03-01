@@ -1,19 +1,60 @@
+<!-- Doncey Albin | Made on: 03/01/2024 -->
 
 <section id="post">
     <div class="container" id="portfolio">
-        <!-- <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>{{ page.title }}</h2>
-                {% if page.description %}<h3>{{ page.description }}</h3>{% endif %}
-                {% if page.author %}
-                    <hr class="separating-line">
-                    <p class="text-right" style="margin-bottom: 40px;">by <em>{{ page.author }}</em> on {{ page.date | date: '%B %d, %Y' }}</p>
-                {% else %}
-                    <hr class="separating-line"{% if page.category != "research" and page.category != "design" %} style="margin-bottom: 40px;"{% endif %}>
+        <div id="article" itemprop="articleBody">
+            <!-- Paper Title -->
+            <div style="text-align:center; font-size: 36px;">
+                <strong>{{ page.title_main }}</strong> {{ page.title_follow }}
+            </div> 
+            
+            <br> <!-- A line space -->
+
+            <!-- Author names (this was annoying to figure out) -->
+            <div style="text-align: center; background-color: white; color: black; margin-bottom: 20px;">
+                {% for i in (1..50) %}
+                    {% assign author_index = 'author' | append: i %}
+                    {% if page[author_index] %}
+                        <div style="display: inline-block; width: 18%; margin-bottom: 10pt;"><strong>{{ page[author_index] }}</strong></div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            
+            <div style="text-align: center; background-color: white; color: black; padding: 10px; width: 50wv; margin-bottom: 20px;">
+                <div style="display: inline-block; width: 100%;"><strong style="font-style: italic;">{{ page.university }}</strong></div>
+            </div>
+            
+            <!-- links to github and other on bottom -->
+            <div style="text-align: center; background-color: white; width: 10w; margin-bottom: 20px;">
+                {% if page.github_link %}
+                    <div style="display: inline-block;"><a href="{{ page.github_link }}" style="color: {{ page.github_link_color }};">{{ page.github_link_text }}</a></div>
+                    <div style="display: inline-block;"><strong>|</strong></div>
+                {% endif %}
+                {% if page.arxiv_link %}
+                    <div style="display: inline-block;"><a href="{{ page.arxiv_video_link }}" style="color: {{ page.arxiv_link_color }};">{{ page.arxiv_link_text }}</a></div>
+                    <div style="display: inline-block;"><strong>|</strong></div>
+                {% endif %}
+                {% if page.summary_video_link %}
+                    <div style="display: inline-block;"><a href="{{ page.summary_video_link }}" style="color: {{ page.summary_video_link_color }};">{{ page.summary_video_link_text }}</a></div>
+                    <div style="display: inline-block;"><strong>|</strong></div>
+                {% endif %}
+                {% if page.talk_link %}
+                    <div style="display: inline-block;"><a href="{{ page.talk_link }}" style="color: {{ page.talk_link_color }};">{{ page.talk_link_text }}</a></div>
+                    <div style="display: inline-block;"><strong>|</strong></div>
+                {% endif %}
+                {% if page.media_coverage_link %}
+                    <div style="display: inline-block;"><a href="{{ page.media_coverage_link }}" style="color: {{ page.media_coverage_link_color }};">{{ page.media_coverage_link_text }}</a></div>
+                    <div style="display: inline-block;"><strong>|</strong></div>
+                {% endif %}
+                {% if page.bibtex_link %}
+                    <div style="display: inline-block;"><a href="{{ page.bibtex_link }}" style="color: {{ page.bibtex_link_color }};">{{ page.bibtex_link_text }}</a></div>
                 {% endif %}
             </div>
-        </div> -->
-        <div id="article" itemprop="articleBody">
+
+            <!-- Line -->
+            <hr class="separating-line"{% if page.category != "research" and page.category != "design" %} style="margin-bottom: 40px;"{% endif %}>
+            <br>
+
             {% if page.img %}
                 <div id="article-img" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
                     <img src="/img/portfolio/{{ page.img }}" class="img-fluid img-centered img-container" style="margin-bottom: 60px;" alt="{{ page.alt }}" itemprop="url contentUrl">
