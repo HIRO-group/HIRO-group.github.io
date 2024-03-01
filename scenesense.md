@@ -1,9 +1,27 @@
 ---
 type: article
-title: "SceneSense:"
-description: "Diffusion models for 3D Occupancy Synthesis from Partial Observation"
-author_clean: Alec Reed, Brendan Crowe, Doncey Albin, Bradley Hayes, and Chris Heckman
+# title: "SceneSense:"
+# description: "Diffusion models for 3D Occupancy Synthesis from Partial Observation"
+# author_clean: Alec Reed, Brendan Crowe, Doncey Albin, Bradley Hayes, and Chris Heckman
 ---
+
+<div style="text-align:center; font-size: 36px;">
+    <strong>SceneSense:</strong> Diffusion models for 3D Occupancy Synthesis from Partial Observation
+</div>
+
+<br>
+
+<div style="text-align: center; background-color: white; color: black; padding: 10px; width: 50wv;">
+    <div style="display: inline-block; width: 18%;"><strong>Alec Reed</strong></div>
+    <div style="display: inline-block; width: 18%;"><strong>Brendan Crowe</strong></div>
+    <div style="display: inline-block; width: 18%;"><strong>Doncey Albin</strong></div>
+    <div style="display: inline-block; width: 18%;"><strong>Bradley Hayes</strong></div>
+    <div style="display: inline-block; width: 18%;"><strong>Chris Heckman</strong></div>
+</div>
+
+--- 
+
+<br>
 
 <script>
     /*
@@ -64,9 +82,4 @@ author_clean: Alec Reed, Brendan Crowe, Doncey Albin, Bradley Hayes, and Chris H
         We present <strong>SceneSense</strong>, a novel generative 3D diffusion model for synthesizing 3D occupancy information from observations. SceneSense uses a running occupancy map and a single RGB-D camera to generate predicted geometry around the platform, even when the geometry is occluded or out of view. The architecture of our framework ensures that the generative model never overwrites observed free or occupied space, making SceneSense a low risk addition to any robotic planning stack.
     </p>
 </div>
-
-<div style="text-align:center;">
-    <img src="/img/scenesense/example_results_h2.png" alt="Photo example results" height="600">
-</div>
-
 
