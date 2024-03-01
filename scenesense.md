@@ -11,6 +11,7 @@ author_clean: Alec Reed, Brendan Crowe, Doncey Albin, Bradley Hayes, and Chris H
      * Draw random circles along paper frame borders, kind of like adding noise during diffusion.
      * 
     */
+
     // Gen a rand int bw min and max (inclusive)
     function getRandomInt(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -26,16 +27,16 @@ author_clean: Alec Reed, Brendan Crowe, Doncey Albin, Bradley Hayes, and Chris H
         var circle = document.createElement('div');
         circle.style.position = 'fixed';
         circle.style.width = 20 * Math.random() + 'px';
-        circle.style.height = circle.style.width; //20 * Math.random() + 'px';
+        circle.style.height = circle.style.width;
         circle.style.borderRadius = '100%';
         circle.style.backgroundColor = getRandomColor();
 
         if (Math.random() < 0.5) {
-            var x = getRandomInt(0.9*window.innerWidth, window.innerWidth)// + 0.9*window.innerWidth);
-            var y = getRandomInt(0, window.innerHeight)// + 0.9*window.innerHeight);
+            var x = getRandomInt(0.9*window.innerWidth, window.innerWidth)
+            var y = getRandomInt(0, window.innerHeight)
         } else {
-            var x = getRandomInt(0, 0.1*window.innerWidth)// + 0.9*window.innerWidth);
-            var y = getRandomInt(0, window.innerHeight)// + 0.9*window.innerHeight);
+            var x = getRandomInt(0, 0.1*window.innerWidth)
+            var y = getRandomInt(0, window.innerHeight)
         }
 
         circle.style.left = x + 'px';
@@ -44,11 +45,12 @@ author_clean: Alec Reed, Brendan Crowe, Doncey Albin, Bradley Hayes, and Chris H
         document.body.appendChild(circle);
     }
 
-    // Draw multiple random circles along the border
+    // Draw 25 random circles along left or right border of page
     for (var i = 0; i < 25; i++) {
         drawRandomCircle();
     }
 </script>
+
 
 <div style="text-align:center;">
     We present ***SceneSense***, a novel generative 3D diffusion model for synthesizing 3D occupancy information from observations. SceneSense uses a running occupancy map and a single RGB-D camera to generate predicted geometry around the platform, even when the geometry is occluded or out of view. The architecture of our framework ensures that the generative model never overwrites observed free or occupied space, making SceneSense a low risk addition to any robotic planning stack.
