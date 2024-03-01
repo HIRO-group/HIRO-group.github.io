@@ -8,6 +8,9 @@
                     {% if page.author %}
                         <hr class="separating-line">
                         <p class="text-right" style="margin-bottom: 40px;">by <em>{{ page.author }}</em> on {{ page.date | date: '%B %d, %Y' }}</p>
+                    {% elsif page.author_clean %}
+                        <hr class="separating-line">
+                        <p class="text-left" style="margin-bottom: 40px;"> <em>{{ page.author_clean }}</em> </p>
                     {% else %}
                         <hr class="separating-line"{% if page.category != "research" and page.category != "design" %} style="margin-bottom: 40px;"{% endif %}>
                     {% endif %}
