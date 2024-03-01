@@ -11,6 +11,8 @@
         {% include portfolio.html %}
       {% elsif page.type == "top" %}
         {% include top.html %}
+      {% elsif page.type == "article_v2" %}
+        {% include article_v2.html %}
       {% else %}
         {% include article.html %}
       {% endif %}
