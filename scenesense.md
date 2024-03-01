@@ -4,7 +4,7 @@
 type: article_v2
 title_main: "SceneSense:"
 title_follow: "Diffusion models for 3D Occupancy Synthesis from Partial Observation"
-university: "University of Colorado - Boulder"
+university_name: "University of Colorado - Boulder" # You can comment this out if you dont like it.
 
 author1: "Alec Reed"
 author2: "Brendan Crowe"
@@ -15,7 +15,7 @@ author5: "Chris Heckman"
 # Links at bottom. Removing '<linkname>_link' below will remove from page.
 github_link: "https://google.com"
 github_link_color: "yellowgreen"
-github_link_text: "GitHub"
+github_link_text: "GitHub (Coming Soon)"
 
 arxiv_link: "https://google.com"
 arxiv_link_color: "blue"
@@ -38,6 +38,7 @@ bibtex_link_color: "purple"
 bibtex_link_text: "BiTex"
 ---
 
+<!-- This is the js script that generates random points on page borders -->
 <script>
     // Gen a rand int bw min and max (inclusive)
     function getRandomInt(min, max) {
@@ -72,7 +73,7 @@ bibtex_link_text: "BiTex"
         document.body.appendChild(circle);
     }
 
-    // Draw 25 random circles along left or right border of page
+    // Using the function above, draw 25 random circles along borders of page
     for (var i = 0; i < 25; i++) {
         drawRandomCircle();
     }
