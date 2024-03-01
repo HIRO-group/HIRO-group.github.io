@@ -10,9 +10,7 @@ author1: "Alec Reed"
 author2: "Brendan Crowe"
 author3: "Doncey Albin"
 author4: "Bradley Hayes"
-author5: "Christoffer J. Heckman"
-author6: "Alec Reed"
-author7: "Alec Reed"
+author5: "Chris Heckman"
 
 # Links at bottom. Removing '<linkname>_link' below will remove from page.
 github_link: "https://google.com"
