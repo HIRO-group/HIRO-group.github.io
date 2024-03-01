@@ -19,11 +19,14 @@
                     {% endif %}
                 {% endfor %}
             </div>
-            
-            <div style="text-align: center; background-color: white; color: black; padding: 10px; width: 50wv; margin-bottom: 20px;">
-                <div style="display: inline-block; width: 100%;"><strong style="font-style: italic;">{{ page.university }}</strong></div>
-            </div>
-            
+
+            <!-- University Name -->
+            {% if page.university_name %}
+                <div style="text-align: center; background-color: white; color: black; padding: 10px; width: 50wv; margin-bottom: 0px;">
+                    <div style="display: inline-block; width: 100%;"><h5 style="font-style: italic;">{{ page.university_name }}</h5></div>
+                </div>
+            {% endif %}
+
             <!-- links to github and other on bottom -->
             <div style="text-align: center; background-color: white; width: 10w; margin-bottom: 20px;">
                 {% if page.github_link %}
