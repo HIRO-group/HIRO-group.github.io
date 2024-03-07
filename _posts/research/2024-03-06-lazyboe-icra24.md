@@ -1,9 +1,9 @@
 ---
 title: "🚀 The Virtues of Laziness: Multi-Query Kinodynamic Motion Planning with Lazy Methods"
-description: Kinodynamic motion planning
+description: Leverage lazy propagation and collision checking methods for kinodynamic motion planning
 author: Anuj Pasricha
 permalink: research/lazyboe-icra24.html
-category: [research, learning and modeling, research highlight, news]
+category: [research, learning and modeling, research highlight]
 image:
     feature: research/planning/lazyboe.png
     size: 64%
