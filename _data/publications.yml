@@ -1,3 +1,10 @@
+ - title: "The Virtues of Laziness: Multi-Query Kinodynamic Motion Planning with Lazy Methods"
+   authors: Anuj Pasricha, Alessandro Roncone
+   year: 2024
+   venue: IEEE International Conference on Robotics and Automation [ICRA]
+   where: Yokohama, Japan, May 13-17
+   pdf: "2024_Pasricha_ICRA_LazyBoE"
+   subteams: [learning and modeling, anuj]
  - title: "Workspace Optimization Techniques to Improve Prediction of Human Motion During Human-Robot Collaboration"
    authors: Yi-Shiuan Tung, Matthew B. Luebbers, Alessandro Roncone, Bradley Hayes
    year: 2024
