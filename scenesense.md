@@ -25,9 +25,9 @@ arxiv_link_text: "ArXiv"
 # summary_video_link_color:
 # summary_video_link_text: "Summary Video Link"
 
-talk_link: "https://google.com"
-talk_link_color: "red"
-talk_link_text: "IROS Talk"
+# talk_link: "https://google.com"
+# talk_link_color: "red"
+# talk_link_text: "IROS Talk"
 
 # media_coverage_link:
 # media_coverage_link_color:
