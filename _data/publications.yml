@@ -11,7 +11,8 @@
    venue: ACM/IEEE International Conference on Human-Robot Interaction [HRI]
    where: Boulder, CO, USA, March 11-14
    pdf: "2024_Tung_HRI_workspace_opt"
-   subteams: [algorithmic and social hri]
+   subteams: [algorithmic and social hri,yi-shiuan]
+   award: Best Technical Paper Nominee!!
  - title: "Towards A Natural Language Interface For Flexible Multi-Agent Task Assignment"
    authors: Jake Brawer, Kayleigh Bishop, Bradley Hayes, Alessandro Roncone
    year: 2023
@@ -40,7 +41,7 @@
    venue: ACM/IEEE International Conference on Human-Robot Interaction [HRI]
    where: Stockholm, Sweden, March 13-16
    pdf: "2023_Brawer_HRI_Chefbot"
-   subteams: [algorithmic and social hri]
+   subteams: [algorithmic and social hri, jake]
    host: https://alessandro.ronc.one
    award: Best Technical Paper Award!!
  - title: "Improving Human Legibility in Collaborative Robot Tasks through Augmented Reality and Workspace Preparation"
