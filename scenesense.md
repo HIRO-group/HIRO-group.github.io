@@ -9,15 +9,16 @@ university_name: "University of Colorado - Boulder" # You can comment this out i
 author1: "Alec Reed"
 author2: "Brendan Crowe"
 author3: "Doncey Albin"
-author4: "Bradley Hayes"
-author5: "Chris Heckman"
+author4: "Lorin Achey"
+author5: "Bradley Hayes"
+author6: "Chris Heckman"
 
 # Links at bottom. Removing '<linkname>_link' below will remove from page.
-github_link: "https://google.com"
+github_link: "https://github.com/arpg/SceneSense"
 github_link_color: "yellowgreen"
-github_link_text: "GitHub (Coming Soon)"
+github_link_text: "Code"
 
-arxiv_link: "https://google.com"
+arxiv_link: "https://arxiv.org/abs/2403.11985"
 arxiv_link_color: "blue"
 arxiv_link_text: "ArXiv"
 
@@ -33,9 +34,9 @@ arxiv_link_text: "ArXiv"
 # media_coverage_link_color:
 # media_coverage_link_text: "Media Coverage"
 
-bibtex_link: "https://google.com"
-bibtex_link_color: "purple"
-bibtex_link_text: "BiTex"
+# bibtex_link: "https://google.com"
+# bibtex_link_color: "purple"
+# bibtex_link_text: "BiTex"
 ---
 
 <!-- This is the js script that generates random points on page borders -->
