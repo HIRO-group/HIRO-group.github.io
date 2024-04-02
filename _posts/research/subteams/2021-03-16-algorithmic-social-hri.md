@@ -44,7 +44,17 @@ We posit that the advancements proposed in this paper form a crucial building bl
 
 {% include image.html url="research/haha/haha_architecture.png" max-width="40%" description="Architecture of the Hierarchical Ad Hoc Agents (HAHA). Similar to a human, the manager first selects which high-level task to accomplish next. The low-level worker then takes over to carry out the task." %}
 
-## 1.2 Interactive Task and Role Assignment for Human Robot Collaboration
+## 1.2 Predictability in HRI
+
+**Students:** [Clare Lohrmann](https://cmlohrmann.github.io/)
+
+For humans to effectively work with robots, they must be able to predict the actions and behaviors of their robot teammates rather than merely react to them. While there are existing techniques enabling robots to adapt to human behavior, there is a demonstrated need for methods that explicitly improve humans' ability to understand and predict robot behavior. 
+
+Our methods leverage the innate human propensity for pattern recognition and abstraction in order to improve team dynamics in human-robot teams and to make robots more predictable to the humans that work with them. Patterns are a cognitive tool that humans use and rely on often, and the human brain is in many ways primed for pattern recognition and usage. In this research stream we lean into human cognitive tendencies to improve human-robot teaming and human perceptions of their robot teammates.
+
+{% include image.html url="research/algo-social-hri/maria_setup_img_blur.png" max-width="50%" description="The setup for experiments conducted for our THRI journal article, where participants played a coordination game with a Sawyer robot." %}
+
+## 1.3 Interactive Task and Role Assignment for Human Robot Collaboration
 
 **Postdoc:** [Jake Brawer](https://jakebrawer.com/)
 **Students:** [Kaleb Bishop](https://kalebishop.github.io/)
@@ -57,16 +67,6 @@ However, standard optiization-based techniques for TAS require deep technical kn
 Large language models (LLMs) like ChatGPT, in contrast, are extraordinarily flexible and capbale of wide-ranging feats of generalized reasoning, though lack these desired gaurantees.
 Our ongoing work seeks to narrow the gap between human ingenuity and algorithmic efficiency by enabling users to shape, update, and modify TAS systems entirely via LLM-mediated, interactive dialogue.
 We are confident that this approach will not only enhance the efficiency and flexibility of task management, but also democratizes the use of advanced TAS algorithms.
-
-## 1.3 Predictability in HRI
-
-**Students:** [Clare Lohrmann](https://cmlohrmann.github.io/)
-
-For humans to effectively work with robots, they must be able to predict the actions and behaviors of their robot teammates rather than merely react to them. While there are existing techniques enabling robots to adapt to human behavior, there is a demonstrated need for methods that explicitly improve humans' ability to understand and predict robot behavior. 
-
-Our methods leverage the innate human propensity for pattern recognition and abstraction in order to improve team dynamics in human-robot teams and to make robots more predictable to the humans that work with them. Patterns are a cognitive tool that humans use and rely on often, and the human brain is in many ways primed for pattern recognition and usage. In this research stream we lean into human cognitive tendencies to improve human-robot teaming and human perceptions of their robot teammates.
-
-{% include image.html url="research/algo-social-hri/maria_setup_img_blur.png" max-width="50%" description="The setup for a work currently under review, where participants played a coordination game with a Sawyer robot." %}
 
 ## 1.4 Student-Robot Teaming and Robots in the Classroom
 
