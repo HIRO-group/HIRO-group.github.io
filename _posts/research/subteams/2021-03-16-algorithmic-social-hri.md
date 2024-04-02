@@ -54,6 +54,8 @@ Our methods leverage the innate human propensity for pattern recognition and abs
 
 {% include image.html url="research/algo-social-hri/maria_setup_img_blur.png" max-width="50%" description="The setup for experiments conducted for our THRI journal article, where participants played a coordination game with a Sawyer robot." %}
 
+In our most recent work, we introduce PACT, a method for setting conventions for a human-robot team using patterns that humans can recognize. Our method emphasizes using human-visible features of the game setting, such as color, shape, and location to form these patterns. PACT selects a pattern-based convention that is both a deterministic and unique as possible. In this way, if the human knows the pattern, they will know what comes next (determinism), and the robot's behavior cannot be explained by another pattern (unique). Our experiment shows that by emphasizing predictability via pattern-based conventions, we can not only improve human-robot performance on a coordination task, but PACT also increases positive perceptions of the robot and its contributions to the team. 
+
 ## 1.3 Interactive Task and Role Assignment for Human Robot Collaboration
 
 **Postdoc:** [Jake Brawer](https://jakebrawer.com/)
