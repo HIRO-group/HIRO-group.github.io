@@ -1,3 +1,10 @@
+ - title: "Improving Robot Predictability via Trajectory Optimization Using a Virtual Reality Testbed"
+   authors: Lohrmann, Clare and Berg, Ethan and Hayes, Bradley and Roncone, Alessandro
+   year: 2024
+   venue: 7th International Workshop on Virtual, Augmented, and Mixed-Reality for Human-Robot Interactions (VAM-HRI)
+   where: Boulder, CO, USA, March 11-14
+   pdf: "2024_Lohrmann_VAMHRI_predictability"
+   subteams: [algorithmic and social hri, clare]
  - title: "Causal Influence Detection for Human Robot Interaction"
    authors: Yi-Shiuan Tung, Himanshu Gupta, Wei Jiang, Bradley Hayes, Alessandro Roncone
    year: 2024

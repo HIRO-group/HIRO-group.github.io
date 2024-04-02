@@ -44,7 +44,19 @@ We posit that the advancements proposed in this paper form a crucial building bl
 
 {% include image.html url="research/haha/haha_architecture.png" max-width="40%" description="Architecture of the Hierarchical Ad Hoc Agents (HAHA). Similar to a human, the manager first selects which high-level task to accomplish next. The low-level worker then takes over to carry out the task." %}
 
-## 1.2 Interactive Task and Role Assignment for Human Robot Collaboration
+## 1.2 Predictability in HRI
+
+**Students:** [Clare Lohrmann](https://cmlohrmann.github.io/)
+
+For humans to effectively work with robots, they must be able to predict the actions and behaviors of their robot teammates rather than merely react to them. While there are existing techniques enabling robots to adapt to human behavior, there is a demonstrated need for methods that explicitly improve humans' ability to understand and predict robot behavior. 
+
+Our methods leverage the innate human propensity for pattern recognition and abstraction in order to improve team dynamics in human-robot teams and to make robots more predictable to the humans that work with them. Patterns are a cognitive tool that humans use and rely on often, and the human brain is in many ways primed for pattern recognition and usage. In this research stream we lean into human cognitive tendencies to improve human-robot teaming and human perceptions of their robot teammates.
+
+{% include image.html url="research/algo-social-hri/maria_setup_img_blur.png" max-width="50%" description="The setup for experiments conducted for our THRI journal article, where participants played a coordination game with a Sawyer robot." %}
+
+In our most recent work, we introduce PACT, a method for setting conventions for a human-robot team using patterns that humans can recognize. Our method emphasizes using human-visible features of the game setting, such as color, shape, and location to form these patterns. PACT selects a pattern-based convention that is both a deterministic and unique as possible. In this way, if the human knows the pattern, they will know what comes next (determinism), and the robot's behavior cannot be explained by another pattern (unique). Our experiment shows that by emphasizing predictability via pattern-based conventions, we can not only improve human-robot performance on a coordination task, but PACT also increases positive perceptions of the robot and its contributions to the team. 
+
+## 1.3 Interactive Task and Role Assignment for Human Robot Collaboration
 
 **Postdoc:** [Jake Brawer](https://jakebrawer.com/)
 **Students:** [Kaleb Bishop](https://kalebishop.github.io/)
@@ -57,20 +69,6 @@ However, standard optiization-based techniques for TAS require deep technical kn
 Large language models (LLMs) like ChatGPT, in contrast, are extraordinarily flexible and capbale of wide-ranging feats of generalized reasoning, though lack these desired gaurantees.
 Our ongoing work seeks to narrow the gap between human ingenuity and algorithmic efficiency by enabling users to shape, update, and modify TAS systems entirely via LLM-mediated, interactive dialogue.
 We are confident that this approach will not only enhance the efficiency and flexibility of task management, but also democratizes the use of advanced TAS algorithms.
-
-## 1.3 Reference Dependent Risk Attitudes in HRI
-
-**Students:** Clare Lohrmann
-
-Prior research has shown that humans struggle to accurately judge the ability of robots.
-This gap in expectations creates misplaced trust, which can result in disappointment and erosion of trust.
-We hypothesize that this decrease in trust is caused by the human tendency towards loss aversion.
-Loss aversion, a part of Prospect Theory, states that people prioritize avoiding losses (or the feeling of loss) over accumulating gains when making decisions.
-Further work in experimental economics has indicated that “a prior expectation to take on risk decreases aversion to both the anticipated and additional risk”, meaning that when individuals are made aware that they are taking on risk, they experience less loss, and are less risk averse in the future. [Kȍszegi and Rabin, 2007].
-In this project, we are testing the applicability of these experimental economics concepts in the context of human-robot interaction, in an effort to limit the expectations gap and promote more positive outcomes.
-With knowledge of how applicable these concepts are to HRI, along with information about the effects of risk awareness on human behavior with robots, we hope to be able to create new models of robot behavior that guide humans to more accurate perceptions of robot ability, without eroding trust.
-
-{% include image.html url="research/algo-social-hri/prospect-theory.png" max-width="50%" description="Humans have a tendency to underestimate the value of outcomes." %}
 
 ## 1.4 Student-Robot Teaming and Robots in the Classroom
 
