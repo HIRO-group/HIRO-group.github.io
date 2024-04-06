@@ -99,9 +99,10 @@ Ultimately, we hope that these improved language models will help improve natura
 
 ## 1.6. Multi-Agent Reinforcement Learning
 
-**Students:** [Joewie J. Koh](https://joewiekoh.com), Chihui Lin
+**Students:** [Joewie J. Koh](https://joewiekoh.com), Chi-Hui Lin
 
 **_Publications:_**
+ - C. Lin, J. J. Koh, A. Roncone, L. Chen, "ROMA-iQSS: An Objective Alignment Approach via State-Based Value Learning and ROund-Robin Multi-Agent Scheduling," in _2024 American Control Conference (ACC)_, 2024. [[PDF]]({{ site.url }}/papers/2024_Lin_ACC_ROMAiQSS.pdf) [[BIB]]({{ site.url }}/papers/2024_Lin_ACC_ROMAiQSS.bib)
  - J. J. Koh*, G. Ding*, C. Heckman, L. Chen, A. Roncone, "Cooperative control of mobile robots with Stackelberg learning," in _2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, 2020. [[PDF]]({{ site.url }}/papers/2020_Koh_IROS_SLiCC.pdf) [[BIB]]({{ site.url }}/papers/2020_Koh_IROS_SLiCC.bib)
  - G. Ding*, J. J. Koh*, K. Merckaert, B. Vanderborght, M. M. Nicotra, C. Heckman, A. Roncone, L. Chen, "Distributed reinforcement learning for cooperative multi-robot object manipulation," in _19th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)_, 2020. [[PDF]]({{ site.url }}/papers/2020_Ding_AAMAS_cooperative_object_manipulation.pdf) [[BIB]]({{ site.url }}/papers/2020_Ding_AAMAS_cooperative_object_manipulation.bib)
 
