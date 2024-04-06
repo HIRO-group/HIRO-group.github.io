@@ -1,3 +1,10 @@
+ - title: "ROMA-iQSS: An Objective Alignment Approach via State-Based Value Learning and ROund-Robin Multi-Agent Scheduling"
+   authors: Chi-Hui Lin, Joewie J. Koh, Alessandro Roncone, Lijun Chen
+   year: 2024
+   venue: American Control Conference [ACC]
+   where: Toronta, Canada, July 10-12
+   pdf: "2024_Lin_ACC_ROMAiQSS"
+   subteams: [learning and modeling, chi-hui]
  - title: "The Virtues of Laziness: Multi-Query Kinodynamic Motion Planning with Lazy Methods"
    authors: Anuj Pasricha, Alessandro Roncone
    year: 2024
