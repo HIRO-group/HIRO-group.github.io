@@ -39,9 +39,9 @@ Consequently, operating at the intersection of these skills and taking maximal a
 For instance, a manipulator may need to throw a packaged box into a bin located outside its reachable workspace, at which point it can be picked up by another arm and placed in a delivery truck.
 This multimodal nature of manipulation is grounded in robot capability, object characteristics, and environment configuration, and it demonstrates the need for a diverse portfolio of motion primitives that can be combined to exhibit dexterous manipulation behavior.
 In our research, we address the challenge of multimodal motion planning by employing sampling-based techniques. These techniques tap into dynamic models and control methods tailored for each skill, enabling the execution of complex manipulation tasks.
-We also incorporate recent innovations from artificial intelligence, specifically diffusion models, to make our approach more adaptable and applicable in diverse real-world scenarios.  
+We also incorporate recent innovations from artificial intelligence, specifically diffusion models, to make our approach more adaptable and applicable in diverse real-world scenarios.
 
-## 1.2. Enabling Long-term Robot Autonomy through Adaptable Fault Resilience  
+## 1.2. Enabling Long-term Robot Autonomy through Adaptable Fault Resilience
 
 **Students:** [Gilberto Briscoe-Martinez]({% post_url people/2023-11-15-gilberto %})
 
@@ -77,18 +77,18 @@ Moving forward, we are building hybrid models for manipulation in which physics-
 
 ## 1.5. Natural Language Grounding
 
-**Students:** Stéphane Aroca-Ouellette  
-  
-**_Publications:_**  
+**Students:** Stéphane Aroca-Ouellette
+
+**_Publications:_**
  - S. Aroca-Ouellette, C. Paik, A. Roncone, and K. Kann, _"PROST: Physical Reasoning of Objects through Space and Time"_, 2021. In Findings of the Association for Computational Linguistics: ACL-IJCNLP2021, [[PDF]]({{ site.url }}/papers/2021_Aroca-Ouellette_ACL_findings.pdf) [[BIB]]({{ site.url }}/papers/2021_Aroca-Ouellette_ACL_findings.bib)
  - C. Paik, S. Aroca-Ouellette, A. Roncone, and K. Kann, _"The World of an Octopus: How Reporting Bias Influences a Language Model’s Perception of Color"_, 2021, In Empirical Methods in Natural Language Processing: EMNLP2021, [[PDF]]({{ site.url }}/papers/2021_Paik_EMNLP.pdf) [[BIB]]({{ site.url }}/papers/2021_Paik_EMNLP.bib)
 
-Natural language serves as the fundamental medium through which humans collaborate, providing a versatile framework for articulating tasks, exchanging information, and conveying intentions. 
+Natural language serves as the fundamental medium through which humans collaborate, providing a versatile framework for articulating tasks, exchanging information, and conveying intentions.
 While modern language models have shown impressive results, it is essential to recognize a key distinction between how humans and language models acquire language.
 Humans learn language by experiencing it in the real world, in contrast language models predominantly rely on text data alone for their learning.
 To this end, we posit that the pursuit of text-only training is at a minimum inefficient, and possibly insufficient to achieve a human-like understanding of language.
 Our initial work PROST highlighted one area where text-only models fall short---understanding questions related to physical reasoning---and demonstrated that scale alone would be unlikely to solve this shortcoming.
-Upon delving deeper into this issue, our next paper identified a potential underlying factor: reporting bias. 
+Upon delving deeper into this issue, our next paper identified a potential underlying factor: reporting bias.
 Due to human's experience in the world, self-evident information is often omitted from text.
 For example, if someone says "I knocked my glass off the table", most do not elaborate further with information such as "the effects of gravity pulled the glass to the ground, breaking on impact, and the making the ground wet with its content."
 Rather, we rely on our own experiences of similar events to fill in these important details.
@@ -99,9 +99,10 @@ Ultimately, we hope that these improved language models will help improve natura
 
 ## 1.6. Multi-Agent Reinforcement Learning
 
-**Students:** [Joewie J. Koh](https://joewiekoh.com), Chihui Lin
+**Students:** [Joewie J. Koh](https://joewiekoh.com), Chi-hui Lin
 
 **_Publications:_**
+ - C. Lin, J. J. Koh, A. Roncone, L. Chen, "ROMA-iQSS: An Objective Alignment Approach via State-Based Value Learning and ROund-Robin Multi-Agent Scheduling," in _2024 American Control Conference (ACC)_, 2024. [[PDF]]({{ site.url }}/papers/2024_Lin_ACC_ROMAiQSS.pdf) [[BIB]]({{ site.url }}/papers/2024_Lin_ACC_ROMAiQSS.bib)
  - J. J. Koh*, G. Ding*, C. Heckman, L. Chen, A. Roncone, "Cooperative control of mobile robots with Stackelberg learning," in _2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, 2020. [[PDF]]({{ site.url }}/papers/2020_Koh_IROS_SLiCC.pdf) [[BIB]]({{ site.url }}/papers/2020_Koh_IROS_SLiCC.bib)
  - G. Ding*, J. J. Koh*, K. Merckaert, B. Vanderborght, M. M. Nicotra, C. Heckman, A. Roncone, L. Chen, "Distributed reinforcement learning for cooperative multi-robot object manipulation," in _19th International Conference on Autonomous Agents and Multiagent Systems (AAMAS)_, 2020. [[PDF]]({{ site.url }}/papers/2020_Ding_AAMAS_cooperative_object_manipulation.pdf) [[BIB]]({{ site.url }}/papers/2020_Ding_AAMAS_cooperative_object_manipulation.bib)
 
