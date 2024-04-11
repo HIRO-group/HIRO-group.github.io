@@ -1,7 +1,7 @@
  - title: "Generating Pattern-Based Conventions for Predictable Planning in Human-Robot Collaboration"
    authors: Clare Lohrmann, Maria Stull, Alessandro Roncone, Bradley Hayes
    year: 2024
-   venue: Association for Computing Machinery Transactions on Human-Robot Interaction
+   venue: ACM Transactions on Human-Robot Interaction [THRI]
    pdf: "2024_Lohrmann_THRI_patterns"
    subteams: [algorithmic and social hri, clare]
  - title: "ROMA-iQSS: An Objective Alignment Approach via State-Based Value Learning and ROund-Robin Multi-Agent Scheduling"
