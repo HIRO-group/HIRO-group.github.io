@@ -47,6 +47,9 @@ We posit that the advancements proposed in this paper form a crucial building bl
 ## 1.2 Predictability in HRI
 
 **Students:** [Clare Lohrmann](https://cmlohrmann.github.io/)
+**_Publications_**
+- C. Lohrmann, E. Berg, B. Hayes, and A. Roncone, _"Improving Robot Predictability via Trajectory Optimization Using a Virtual Reality Testbed,"_ in _7th International Workshop on Virtual, Augmented, and Mixed-Reality for Human-Robot Interactions (VAM-HRI)_, 2024. [[PDF]]({{ site.url }}/papers/2024_Lohrmann_VAMHRI_predictability.pdf) [[BIB]]({{ site.url }}/papers/2024_Lohrmann_VAMHRI_predictability.bib)
+- C. Lohrmann, M. Stull, A. Roncone, and B. Hayes _"Generating Pattern-Based Conventions for Predictable Planning in Human-Robot Collaboration,"_ in _ACM Transactions on Human-Robot Interaction_, 2024. [[PDF]]({{ site.url }}/papers/2024_Lohrmann_THRI_patterns.pdf) [[BIB]]({{ site.url }}/papers/2024_Lohrmann_THRI_pattern.bib)
 
 For humans to effectively work with robots, they must be able to predict the actions and behaviors of their robot teammates rather than merely react to them. While there are existing techniques enabling robots to adapt to human behavior, there is a demonstrated need for methods that explicitly improve humans' ability to understand and predict robot behavior. 
 

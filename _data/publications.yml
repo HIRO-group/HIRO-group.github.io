@@ -1,3 +1,9 @@
+ - title: "Generating Pattern-Based Conventions for Predictable Planning in Human-Robot Collaboration"
+   authors: Clare Lohrmann, Maria Stull, Alessandro Roncone, Bradley Hayes
+   year: 2024
+   venue: Association for Computing Machinery Transactions on Human-Robot Interaction
+   pdf: "2024_Lohrmann_THRI_patterns"
+   subteams: [algorithmic and social hri, clare]
  - title: "The Virtues of Laziness: Multi-Query Kinodynamic Motion Planning with Lazy Methods"
    authors: Anuj Pasricha, Alessandro Roncone
    year: 2024
@@ -14,7 +20,7 @@
    subteams: [algorithmic and social hri,yi-shiuan]
    award: Best Technical Paper Nominee!!
  - title: "Improving Robot Predictability via Trajectory Optimization Using a Virtual Reality Testbed"
-   authors: Clare Lohrmann, Ethan Berg, and Bradley Hayes, Alessandro Roncone
+   authors: Clare Lohrmann, Ethan Berg, Bradley Hayes, Alessandro Roncone
    year: 2024
    venue: 7th International Workshop on Virtual, Augmented, and Mixed-Reality at HRI '24 [VAM-HRI]
    where: Boulder, CO, USA, March 11-14
