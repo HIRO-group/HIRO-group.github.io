@@ -1,5 +1,5 @@
 ---
-title: Algorithmic and Social HRI
+title: Algorithmic HRI
 description: Creating robot behaviors that promote safer, more reliable, and more effective interactions with humans
 subtype: algorithmic and social hri
 permalink: subteam/algorithmic-social-hri.html
