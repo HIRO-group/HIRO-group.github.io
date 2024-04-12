@@ -10,7 +10,7 @@
    venue: American Control Conference [ACC]
    where: Toronto, Canada, July 10-12
    pdf: "2024_Lin_ACC_ROMAiQSS"
-   subteams: [learning and modeling, chi-hui]
+   subteams: [learning and modeling, chi-hui, joewie]
  - title: "The Virtues of Laziness: Multi-Query Kinodynamic Motion Planning with Lazy Methods"
    authors: Anuj Pasricha, Alessandro Roncone
    year: 2024
@@ -119,7 +119,7 @@
    venue: "IEEE Robotics Automation and Letters [RA-L] + ICRA"
    where: Philadelphia, PA, U.S.A., May 23-27
    pdf: "2022_Pasricha_RAL_PokeRRT"
-   subteams: [learning and modeling, anuj]
+   subteams: [learning and modeling, anuj,yi-shiuan]
  - title: "Introduction to Autonomous Robots: Mechanisms, Sensors, Actuators, and Algorithms"
    authors: Nikolaus Correll, Bradley Hayes, Christoffer Heckman and Alessandro Roncone
    year: 2022
@@ -144,14 +144,14 @@
    venue: "IROS 2021 Workshop on Impact-Aware Robotics"
    where: Prague, Czech Republic, October 1
    pdf: "2021_Pasricha_IROS_PokeRRT"
-   subteams: [learning and modeling, anuj]
+   subteams: [learning and modeling,anuj,yi-shiuan]
  - title: "The World of an Octopus: How Reporting Bias Influences a Language Model’s Perception of Color"
    authors: Cory Paik, Stéphane Aroca-Ouellette, Alessandro Roncone, Katharina Kann
    year: 2021
    venue: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing"
    where: Online and Punta Cana, Dominican Republic, November 2021
    pdf: "2021_Paik_EMNLP"
-   subteams: [learning and modeling]
+   subteams: [learning and modeling,stephane]
  - title: "Volumetric Data Fusion of External Depth and Onboard Proximity Data For Occluded Space Reduction"
    authors: Matthew Strong, Caleb Escobedo, Alessandro Roncone
    year: 2021
@@ -179,34 +179,35 @@
    venue: Findings of the Association for  Computational Linguistics
    where: Online, August 1-6
    pdf: "2021_Aroca-Ouellette_ACL_findings"
-   subteams: [learning and modeling]
+   subteams: [learning and modeling,stephane]
  - title: "Multi-agent Reinforcement Learning as Applied to Autonomous Systems"
    authors: Guohui Ding
    year: 2021
    venue: University of Colorado Boulder
    where: Boulder, CO, U.S.A.
    description: PhD dissertation
+   subteams: [learning and modeling,guohui]
  - title: "Teaching Grounded Reading Skills via an Interactive Robot Tutor"
    authors: Kayleigh "Kaleb" Bishop, Bradley Hayes, Alessandro Roncone
    year: 2021
    venue: ACM International Conference on Human-Robot Interaction [HRI], Workshop on Robots for Learning
    where: Boulder, CO, U.S.A., March 12
    pdf: "2021_Bishop_HRI_R4L"
-   subteams: [algorithmic hri]
+   subteams: [algorithmic hri,kaleb]
  - title: "Cooperative Control of Mobile Robots with Stackelberg Learning"
    authors: Joewie J. Koh*, Guohui Ding*, Christoffer Heckman, Lijun Chen, Alessandro Roncone
    year: 2020
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Las Vegas, NV, U.S.A., October 25-29
    pdf: "2020_Koh_IROS_SLiCC"
-   subteams: [learning and modeling]
+   subteams: [learning and modeling,joewie,guohui]
  - title: "Distributed Reinforcement Learning for Cooperative Multi-Robot Object Manipulation"
    authors: Guohui Ding*, Joewie J. Koh*, Kelly Merckaert, Bram Vanderborght, Marco M. Nicotra, Christoffer Heckman, Alessandro Roncone, Lijun Chen
    year: 2020
    venue: International Conference on Autonomous Agents and Multiagent Systems [AAMAS]
    where: Auckland, New Zealand, May 9-13
    pdf: "2020_Ding_AAMAS_cooperative_object_manipulation"
-   subteams: [learning and modeling]
+   subteams: [learning and modeling,guohui,joewie]
    description: Extended abstract
  - title: "An Affordance-based Action Planner for On-line and Concurrent Human-Robot Collaborative Assembly"
    authors: Francesca Stramandinoli, <b>Alessandro Roncone</b>, Olivier Mangin, Francesco Nori, and Brian Scassellati
@@ -219,7 +220,7 @@
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Madrid, Spain, October 1-5
    pdf: "2018_Brawer_IROS_situated_hrc"
-   subteams: [algorithmic hri]
+   subteams: [algorithmic hri,jake]
    host: https://alessandro.ronc.one
  - title: "Preference-Based Assistance Prediction for Human-Robot Collaboration Tasks"
    authors: Elena Corina Grigore, Alessandro Roncone, Olivier Mangin, and Brian Scassellati
