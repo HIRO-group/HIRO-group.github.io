@@ -1,7 +1,7 @@
 ---
 title: Algorithmic HRI and Human-AI Teaming
 description: Creating robot behaviors that promote safer, more reliable, and more effective interactions with humans
-subtype: algorithmic hri
+subtype: algorithmic hri and human-ai teaming
 permalink: subteam/algorithmic-social-hri.html
 image:
     feature: research/isat.jpg
