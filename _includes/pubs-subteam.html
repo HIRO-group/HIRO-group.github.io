@@ -8,7 +8,7 @@
                 {% endif %}
             {% endfor %}
                 {% if tobedisplayed == true %}
-                    <div class="row cv-item pub">
+                    <div class="row cv-item pub {% if item.award %}award{% endif %}">
                         <div class="col-md-3">
                             <h4 class="inlineifprinted">{{item.year}} {{item.venue}}</h4>
                             {% if item.where %}<p  class="no-print d-none d-md-block">{{item.where}}</p>{% endif %}
