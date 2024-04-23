@@ -13,8 +13,7 @@ Substantial effort has been invested in expanding the role of robots into a mult
 But as robots are increasingly expected to work in close quarters or even interact with humans, the challenges in human-robot interaction have become more pronounced.
 Behaviors that allow robots to engage with humans safely, efficiently, and smoothly are difficult to create, which is exacerbated by human perceptions of and responses to robots, which is itself still an open problem.
 
-The goal of this subteam is to create robot behaviors that promote safer, more reliable, and more effective interactions with humans.
-We use an interdisciplinary approach, leveraging work from cognitive learning theory, cumulative prospect theory, social psychology, and experimental economics to conduct foundational research in human-robot interaction and collaboration.
+The goal of this subteam is to create robot behaviors that make robots more effective teammates and collaborators with humans. We use an interdisciplinary approach, leveraging machine learning, cognitive science, and social psychology to make robots more predictable, legible, and safe around humans. This subteam works with a variety of collaborators to conduct foundational research and run human-subjects studies to validate these approaches.
 
 <!-- More -->
 
