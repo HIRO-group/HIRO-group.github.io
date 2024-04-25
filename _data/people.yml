@@ -4,7 +4,7 @@
    office: ECES 124
    phone: +1 (303) 735-6233
    email: alessandro.roncone@colorado.edu
-   pic: alecive.jpg 
+   pic: alecive.jpg
 
 #lab Manager
  - name: Dusty Woods
@@ -184,7 +184,7 @@
    pic: noah.png
 
  - name: Weston Brach
-   role: undergrad (Post-Bacc)
+   role: undergrad
    email: weston.brach@colorado.edu
    pic: weston.jpg
 
