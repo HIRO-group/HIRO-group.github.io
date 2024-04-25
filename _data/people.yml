@@ -182,6 +182,13 @@
    role: undergrad
    email: noah.liska@colorado.edu
    pic: noah.png
+
+ - name: Weston Brach
+   role: undergrad
+   email: weston.brach@colorado.edu
+   pic: weston.jpg
+
+   
     
 # Collaborators
 # [in order of first appearance in the lab]
