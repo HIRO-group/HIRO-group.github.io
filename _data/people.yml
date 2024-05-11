@@ -32,6 +32,14 @@
     phone:
     email: harel.biggie@colorado.edu
     pic: Biggie_Harel.jpg
+    
+  - name: Patrick Cooper
+    role: phd
+    url: https://github.com/PatrickAllenCooper
+    office: ECES 111
+    phone: 850-307-8427
+    email: patrick.cooper@colorado.edu
+    pic: Patrick_Cooper.jpg
 
   - name: Kristen Such
     role: phd
