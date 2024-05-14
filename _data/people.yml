@@ -74,12 +74,7 @@
     pic: Doncey_Albin.jpeg
   
   - name: Ajay Narasimha Mopidevi
-    role: grad
-    office: ECES 111
-    phone: 
-    email: ajmo2266@colorado.edu
-    url: 
-    pic: Ajay_Mopidevi.jpg
+    role: alumni
 
   - name: Lorin Achey
     role: phd
@@ -100,15 +95,11 @@
     role: alumni
     now: an Asst. Professor at UC Santa Cruz.
 
-    #name: Mike Miles
-    #role: alumni
-    #doctor: true?
-    #dates: ??-??
-    #url: http://www.mjmiles.com
-    #office: ECES 111
-    #phone:
-    #email: mike.miles@colorado.edu
-    #now: ?????
+  - name: Mike Miles
+    role: alumni
+    doctor: true
+    dates: 2019-2023
+    now: an Autonomy Engineer at Wisk.
 
   - name: Cecilia Mauceri
     dates: 2016-2021
@@ -134,7 +125,7 @@
     role: alumni
     dates: 2012-2018
     thesis: Model Identification and Control of Autonomous Ground Vehicles
-    now: a Controls Scientist with PickNik Robotics.
+    now: a roboticst at JPL.
 
   - name: Fernando Nobre
     doctor: true
@@ -156,10 +147,8 @@
     dates: 2016-2021
     now: a Research Scientist at InnoPeak Technology.
 
-
   - name: Daniel Torres
     role: alumni
-    now: at Verdant Robotics.
     
   - name: Wyatt Raich
     role: alumni
