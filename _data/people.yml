@@ -83,6 +83,14 @@
     email: lorin.achey@colorado.edu
     url: https://lorinachey.github.io/
     pic: Lorin_Achey.jpg
+
+  - name: Miles Mena
+    role: phd
+    office: ECES 111
+    phone:
+    email: miles.mena@colorado.edu
+    url: milesmena.com
+    pic: Miles_Mena.jpg
     
   - name: Dusty Woods
     role: manager
