@@ -80,6 +80,14 @@
     email: ajmo2266@colorado.edu
     url: 
     pic: Ajay_Mopidevi.jpg
+
+  - name: Lorin Achey
+    role: phd
+    office: ECES 111
+    phone:
+    email: lorin.achey@colorado.edu
+    url: https://lorinachey.github.io/
+    pic: Lorin_Achey.jpg
     
   - name: Dusty Woods
     role: manager
