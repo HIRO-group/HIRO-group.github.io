@@ -10,6 +10,7 @@
    venue: American Control Conference [ACC]
    where: Toronto, Canada, July 10-12
    pdf: "2024_Lin_ACC_ROMAiQSS"
+   award: "Oral presentation"
    subteams: [learning and modeling, chi-hui, joewie]
  - title: "The Virtues of Laziness: Multi-Query Kinodynamic Motion Planning with Lazy Methods"
    authors: Anuj Pasricha, Alessandro Roncone
