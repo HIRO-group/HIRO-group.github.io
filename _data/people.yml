@@ -129,7 +129,7 @@
    url: https://idrissdjio.github.io
    email: idriss.djiofackteledjieu@colorado.edu
    pic: idriss.jpg
-  
+
  - name: Rithik Kumar Athiganur Senthil
    role: grad
    url: https://www.linkedin.com/in/rithik-kumar-19a389238/
@@ -147,7 +147,7 @@
    url: https://saikrishnasriram.netlify.app/
    email: saikrishna.sriram@colorado.edu
    pic: KrishnaS.jpg
-   
+
  - name: Sai Pratheek KVDSNK
    role: grad
    url: https://www.linkedin.com/in/pratheekkv/
@@ -178,7 +178,7 @@
    email: caleb.kumar@colorado.edu
    pic: calebk.jpg
 
- - name: Noah Liska 
+ - name: Noah Liska
    role: undergrad
    email: noah.liska@colorado.edu
    pic: noah.png
@@ -188,8 +188,14 @@
    email: weston.brach@colorado.edu
    pic: weston.jpg
 
-   
-    
+# High School Students
+# [in order of first appearance in the lab]
+
+ - name: Alex Dickhans
+   role: highschool
+   email: adickhans@gmail.com
+   pic: alex.jpg
+
 # Collaborators
 # [in order of first appearance in the lab]
 
