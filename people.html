@@ -10,6 +10,7 @@ roles:
  - phd
  - grad
  - undergrad
+ - highschool
  - collaborator
  - alumni
 ---
@@ -51,6 +52,13 @@ roles:
 
         {% include ppl.html role="undergrad" %}
 
+        {% assign highschool = site.data.people | where:"role","highschool" %}
+        {% if highschool != blank %}
+        <h1>High School Research Assistants</h1>
+
+        {% include ppl.html role="highschool" %}
+        {% endif %}
+
         {% assign collaborator = site.data.people | where:"role","collaborator" %}
         {% if collaborator != blank %}
         <h1>External Collaborators</h1>
@@ -70,6 +78,3 @@ roles:
         </div>
     </div>
 </section>
-
-
-
