@@ -16,19 +16,11 @@
 
 # Postdocs
 
- # - name: Shiran Dudy
- #   role: postdoc
- #   url: http://www.shirandudy.com
- #   email: shiran.dudy@colorado.edu
- #   pic: shiran.jpg
-
-
  - name: Jake Brawer
    role: postdoc
    url: https://jakebrawer.com
    email: jake.brawer@colorado.edu
    pic: jake.jpg
-
 
 # PhD Students
 # [in order of first appearance in the lab]
@@ -106,6 +98,7 @@
 
 # Graduate Students
 # [in order of first appearance in the lab]
+
  - name: Joe Miceli
    role: grad
    linkedin: joseph-miceli
@@ -393,7 +386,7 @@
 
  - name: Kandai Watanabe
    role: alumni
-   nowat: ARIA Systems Group
+   nowat: ARIA Systems Group [Ph.D.]
 
  - name: Kyle Yamek
    role: alumni
