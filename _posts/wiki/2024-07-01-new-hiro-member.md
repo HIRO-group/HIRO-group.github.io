@@ -25,7 +25,7 @@ For _{{ site.meetings.semester }}_, we will be holding group meetings **{{ site.
    * Read about our main research threads [here]({{ site.url }}/research). The page is still under development, but it could be a good start to quickly gain high-level knowledge.
    * Take a look at our previous published work available [here]({{ site.url }}/publications). Identify some papers that you are interested in, read them, and try to come up with ways to potentially improve them.
    * Reach out to our PhD students and ask them what they are up to---see [here]({{ site.url }}/people). Feel free to do so via email or by joining our lab meetings. This is also a great way to find a mentor!
- 2. Find a supervisor. Every junior student primarily works under the supervision of a senior student; this allows the lab to gracefully scale in size, but most importantly it allows you to gain necessary exposure to research with close supervision from somebody who is already experienced with it. It is a fundamental step on the path to research independence!!
+ 2. Find a supervisor. Every junior student works under the supervision of a senior student; this allows the lab to gracefully scale in size, but most importantly it allows you to gain necessary exposure to research with close supervision from somebody who is already experienced with it. It is a fundamental step on the path to research independence!!
  3. Once you and your supervisor have agreed on a project, communicate with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) with details of it. This is your first opportunity to practice talking about your research---an important skill!
  4. Lastly, you should consider attending one of the robotics classes that we regularly offer in the academic year. This will dramatically accelerate the process of picking up the necessary robotics/AI skills needed to perform research in the HIRO Group! Courses frequently offered include:
     - CSCI 3302: Introduction to Robotics
@@ -40,23 +40,18 @@ For _{{ site.meetings.semester }}_, we will be holding group meetings **{{ site.
 
 Once you are **done with the preliminary steps**{:.color-banner} above, follow the instructions here to finalize your membership. You are expected to complete these tasks **within 2 days**{:.color-banner} of joining the group---these should not take you more than half an hour of work!
 
-## 2.1 Slack
-
- 1. Your supervisor will send you an invitation to our [Slack workspace](https://cu-hiro.slack.com).
- 2. Accept it, and say hi in `#general`! Do mention who you're working with, and a brief description of what you'll be working on.
- 3. Ideally, [install Slack on your machine](https://slack.com/download) as well as on your phone. This helps you to easily keep up with what happens in the group, and you'll also be less likely to miss important messages!
-
-## 2.2 GitHub, Google Calendar, Google Drive, and Mailing List
+## 2.1 Slack, GitHub, Shared Calendar, and Mailing List
 
  1. If you don't already have a [GitHub](https://github.com) account, create one.
- 2. Send an email to **[Joewie Koh](mailto:joewie.koh@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) in Cc**{:.color-banner}. Include your:
+ 2. Send an email to **[Anuj Pasricha](mailto:anuj.pasricha@colorado.edu) and [Ava Abderezaei](ava.abderezaei@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) in Cc**{:.color-banner}. Include your:
     - GitHub username
-    - Preferred email address for Google Calendar
-    - Your **firstname.lastname@colorado.edu**{:.color-banner} email alias for Google Drive and our mailing list
- 3. Joewie will add you to our [GitHub organization](https://github.com/HIRO-group), Google Calendar, Google Drive, and [mailing list](https://lists.colorado.edu/sympa/info/hiro-group).
- 4. Make your membership to the GitHub organization public.
+    - Your **firstname.lastname@colorado.edu**{:.color-banner} email alias for our Slack and mailing list
+ 3. Anuj and/or Ava will add you to our [Slack workspace](https://cu-hiro.slack.com), [GitHub organization](https://github.com/HIRO-group), shared Calendar, and [mailing list](https://lists.colorado.edu/sympa/info/hiro-group).
+    - Make your membership to the GitHub organization public.
+    - Say hi in `#general` on Slack! Do mention who you're working with, and a brief description of what you'll be working on.
+    - Please [install Slack on your machine and phone](https://slack.com/download) as well as on your phone. This helps you to easily keep up with what happens in the group, and you'll also be less likely to miss important messages.
 
-## 2.3 Lab Agreements
+## 2.2 Lab Agreements
 
  1. Carefully read the lab agreements. There are currently three documents available:
     - [Lab etiquette](/docs/HIRO-Group-Lab-Etiquette.pdf), shared among all students and people working in the lab, with the rules of working in the lab
@@ -65,9 +60,9 @@ Once you are **done with the preliminary steps**{:.color-banner} above, follow t
  2. Following your previous email, Joewie will also send you a DocuSign link.
  3. Follow the link to sign the agreements. Prof. Roncone will be automatically notified to sign it after you have signed.
 
-## 2.4 Lab Access
+## 2.3 Lab Access
 
- 1. Write an email to the **[CS Front Office](mailto:csfrontoffice@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) and [Joewie Koh](mailto:joewie.koh@colorado.edu) in Cc**{:.color-banner}.
+ 1. Write an email to the **[CS Front Office](mailto:csfrontoffice@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu), [Anuj Pasricha](mailto:anuj.pasricha@colorado.edu), and [Ava Abderezaei](ava.abderezaei@colorado.edu) in Cc**{:.color-banner}.
  2. Ask to be granted access to ECST 322, ECES 116 and ECES 111. Please include the following information:
     - Name
     - Student ID
@@ -75,11 +70,10 @@ Once you are **done with the preliminary steps**{:.color-banner} above, follow t
     - CU login name
     - Email
 
-## 2.5 Group Website
+## 2.4 Group Website
 
  1. Do a Pull Request [PR] on [this repository](https://github.com/HIRO-group/HIRO-group.github.io) to add your data to [this file](https://github.com/HIRO-group/HIRO-group.github.io/blob/master/_data/people.yml) and a picture of you to [this folder](https://github.com/HIRO-group/HIRO-group.github.io/tree/master/img/people). **The picture needs to be square, and not bigger than 400x400 px.**{:.color-banner}
  2. If you're not familiar with the PR workflow, you can refer to [this guide](https://github.com/HIRO-group/HIRO-group.github.io/blob/master/CONTRIBUTING.md).
-
 
 # 3 Optional Steps
 
