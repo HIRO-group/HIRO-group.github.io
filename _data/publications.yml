@@ -4,6 +4,16 @@
 #   venue: 
 #   pdf: 
 
+ - title: "SceneSense: Diffusion Models for 3D Occupancy Synthesis from Partial Observation"
+   authors: "A. Reed, B. Crowe, D. Albin, L. Achey, B. Hayes, C. Heckman"
+   year: 2024
+   venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+
+ - title: "RMap: Millimeter-Wave Radar Mapping Through Volumetric Upsampling"
+   authors: "A. N. Mopidevi, K. Harlow, C. Heckman"
+   year: 2024
+   venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+
  - title: "Kalman Filter Auto-Tuning With Consistent and Robust Bayesian Optimization"
    authors: "Z. Chen, H. Biggie, N. Ahmed, S. Julier, C. Heckman"
    year: 2024
