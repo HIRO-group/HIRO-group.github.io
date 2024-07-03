@@ -1,10 +1,10 @@
 ---
-# Doncey Albibn
+# Made by Doncey Albin
 # Alter as desired. The type references article_v2.html in includes if there are things you want to change.
 type: article_v2
 title_main: "SceneSense:"
 title_follow: "Diffusion models for 3D Occupancy Synthesis from Partial Observation"
-university_name: "University of Colorado - Boulder" # You can comment this out if you dont like it.
+# university_name: "University of Colorado - Boulder" # You can comment this out if you dont like it.
 
 author1: "Alec Reed"
 author2: "Brendan Crowe"
@@ -16,7 +16,7 @@ author6: "Chris Heckman"
 # Links at bottom. Removing '<linkname>_link' below will remove from page.
 github_link: "https://github.com/arpg/SceneSense"
 github_link_color: "yellowgreen"
-github_link_text: "Code"
+github_link_text: "GitHub"
 
 arxiv_link: "https://arxiv.org/abs/2403.11985"
 arxiv_link_color: "blue"
@@ -39,7 +39,38 @@ arxiv_link_text: "ArXiv"
 # bibtex_link_text: "BiTex"
 ---
 
-<!-- This is the js script that generates random points on page borders (trying to make a visual nod to diffusion) -->
+<!-- CSS for the cube (voxel) container below -->
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        overflow: auto;
+    }
+    #cube-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        perspective: 1000px;
+        pointer-events: none; /* Ensure the container doesn't block interaction */
+    }
+    .cube {
+        position: absolute;
+        transform-style: preserve-3d;
+    }
+    .cube-face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0.8;
+        border: 1px solid black; /* Add black border to each face */
+    }
+</style>
+
+<!-- This is the js script that generates random 3D cubes (voxels) in the background -->
 <script>
     // Gen a rand int bw min and max (inclusive)
     function getRandomInt(min, max) {
@@ -48,35 +79,73 @@ arxiv_link_text: "ArXiv"
 
     // Gen rand color
     function getRandomColor() {
-        return '#' + Math.floor(Math.random()*16777215).toString(16);
+        var colors = ['#FF0000', '#00FF00', '#FFFFFF']; // Red, Green, White, for different occupancies
+        return colors[Math.floor(Math.random() * colors.length)];
     }
 
-    // Draw circle at a random pos with rand diam within border
-    function drawRandomCircle() {
-        var circle = document.createElement('div');
-        circle.style.position = 'fixed';
-        circle.style.width = 20 * Math.random() + 'px';
-        circle.style.height = circle.style.width;
-        circle.style.borderRadius = '100%';
-        circle.style.backgroundColor = getRandomColor();
+    // Draw cube at a random position on the sides of the page
+    function drawRandomCube() {
+        var cube = document.createElement('div');
+        cube.classList.add('cube');
+        var cubeSize = 20 + 30 * Math.random(); // Random size between 20 and 50px
 
-        if (Math.random() < 0.5) {
-            var x = getRandomInt(0.9*window.innerWidth, window.innerWidth)
-            var y = getRandomInt(0, window.innerHeight)
-        } else {
-            var x = getRandomInt(0, 0.1*window.innerWidth)
-            var y = getRandomInt(0, window.innerHeight)
-        }
+        // Set cube size and random rotation
+        cube.style.width = cubeSize + 'px';
+        cube.style.height = cubeSize + 'px';
+        cube.style.transform = 'rotateX(' + getRandomInt(-180, 180) + 'deg) rotateY(' + getRandomInt(-180, 180) + 'deg)';
 
-        circle.style.left = x + 'px';
-        circle.style.top = y + 'px';
+        var cubeColor = getRandomColor();
 
-        document.body.appendChild(circle);
+        // Create cube faces
+        var faces = ['front', 'back', 'left', 'right', 'top', 'bottom'];
+        faces.forEach(function (face) {
+            var faceElement = document.createElement('div');
+            faceElement.classList.add('cube-face');
+            faceElement.style.backgroundColor = cubeColor;
+
+            switch (face) {
+                case 'front':
+                    faceElement.style.transform = 'translateZ(' + (cubeSize / 2) + 'px)';
+                    break;
+                case 'back':
+                    faceElement.style.transform = 'rotateY(180deg) translateZ(' + (cubeSize / 2) + 'px)';
+                    break;
+                case 'left':
+                    faceElement.style.transform = 'rotateY(-90deg) translateZ(' + (cubeSize / 2) + 'px)';
+                    break;
+                case 'right':
+                    faceElement.style.transform = 'rotateY(90deg) translateZ(' + (cubeSize / 2) + 'px)';
+                    break;
+                case 'top':
+                    faceElement.style.transform = 'rotateX(90deg) translateZ(' + (cubeSize / 2) + 'px)';
+                    break;
+                case 'bottom':
+                    faceElement.style.transform = 'rotateX(-90deg) translateZ(' + (cubeSize / 2) + 'px)';
+                    break;
+            }
+
+            cube.appendChild(faceElement);
+        });
+
+        // Randomly place the cube on the sides of the window borders
+        var side = Math.random() < 0.5 ? 'left' : 'right';
+        var x = side === 'left' ? getRandomInt(0, 0.1 * window.innerWidth - cubeSize) : getRandomInt(0.9 * window.innerWidth, window.innerWidth - cubeSize);
+        var y = getRandomInt(0, window.innerHeight - cubeSize);
+
+        cube.style.left = x + 'px';
+        cube.style.top = y + 'px';
+
+        document.getElementById('cube-container').appendChild(cube);
     }
 
-    // Using the function above, draw 25 random circles along borders of page
-    for (var i = 0; i < 25; i++) {
-        drawRandomCircle();
+    // Create cube container
+    var cubeContainer = document.createElement('div');
+    cubeContainer.id = 'cube-container';
+    document.body.appendChild(cubeContainer);
+
+    // Using the function above, draw 10 random 3D cubes on the page
+    for (var i = 0; i < 10; i++) {
+        drawRandomCube();
     }
 </script>
 
@@ -86,9 +155,9 @@ arxiv_link_text: "ArXiv"
 
 <br>
 
-<div style="overflow: auto; text-align: center; width: 80%; margin: 0 auto;">
-    <img src="/img/scenesense/example_results_h1.png" alt="Photo example results" style="display: inline-block; margin-right: 10px; width: 40%;" height="600">
-    <img src="/img/scenesense/example_results_h2.png" alt="Photo example results" style="display: inline-block; margin-left: 10px; width: 40%;" height="600">
+<div style="overflow: auto; text-align: center;">
+    <img src="/img/scenesense/example_results_h1.png" alt="Photo example results" style="display: inline-block; margin-right: 20px;" height="450">
+    <img src="/img/scenesense/example_results_h2.png" alt="Photo example results" style="display: inline-block; margin-left: 20px;" height="445">
 </div>
 
 <br>
