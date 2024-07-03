@@ -15,7 +15,7 @@ github_link: "https://github.com/arpg/RMap"
 github_link_color: "yellowgreen"
 github_link_text: "GitHub"
 
-arxiv_link: "https://arxiv.org/abs/2403.11985"
+arxiv_link: "https://arxiv.org/abs/2310.13188"
 arxiv_link_color: "blue"
 arxiv_link_text: "ArXiv"
 
