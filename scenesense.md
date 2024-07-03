@@ -156,8 +156,8 @@ arxiv_link_text: "ArXiv"
 <br>
 
 <div style="overflow: auto; text-align: center;">
-    <img src="/img/scenesense/example_results_h1.png" alt="Photo example results" style="display: inline-block; margin-right: 50;" height="450">
-    <img src="/img/scenesense/example_results_h2.png" alt="Photo example results" style="display: inline-block; margin-left: auto;" height="445">
+    <img src="/img/scenesense/example_results_h1.png" alt="Photo example results" style="display: inline-block; margin-right: 20px;" height="450">
+    <img src="/img/scenesense/example_results_h2.png" alt="Photo example results" style="display: inline-block; margin-left: 20px;" height="445">
 </div>
 
 <br>
