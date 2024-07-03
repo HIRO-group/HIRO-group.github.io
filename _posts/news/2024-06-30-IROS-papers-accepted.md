@@ -7,4 +7,4 @@ We are thrilled to announce that two of our submissions have been accepted for p
 
 1. <a href="https://arpg.github.io/scenesense/" style="font-weight: bold; color: #008000;">**"SceneSense: Diffusion Models for 3D Occupancy Synthesis from Partial Observation"**</a> 
 
-1. <a href="https://github.com/arpg/RMap" style="font-weight: bold; color: #008000;">**"RMap: Millimeter-Wave Radar Mapping Through Volumetric Upsampling"**</a> 
+1. <a href="https://arpg.github.io/rmap/" style="font-weight: bold; color: #008000;">**"RMap: Millimeter-Wave Radar Mapping Through Volumetric Upsampling"**</a> 
