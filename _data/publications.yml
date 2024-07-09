@@ -1,3 +1,10 @@
+ - title: "Eyes on the Game: Deciphering Implicit Human Signals to Infer Human Proficiency, Trust, and Intent"
+   authors: Nikhil Hulle, Stéphane Aroca-Ouellette, Anthony J. Ries, Jake Brawer, Katharina von der Wense, Alessandro Roncone
+   year: 2024
+   venue: IEEE International Conference on Robot and Human Interactive Communication [RO-MAN]
+   where: Pasadena, CA, USA, August 26-30
+   pdf: "2024_Nikhil-Stephane_RO-MAN_eyes_on_the_game"
+   subteams: [algorithmic hri and human-ai teaming, stephane]
  - title: "Generating Pattern-Based Conventions for Predictable Planning in Human-Robot Collaboration"
    authors: Clare Lohrmann, Maria Stull, Alessandro Roncone, Bradley Hayes
    year: 2024
@@ -103,7 +110,7 @@
  - title: "Bilevel Optimization for Just-in-Time Robotic Kitting and Delivery via Adaptive Task Segmentation and Scheduling"
    authors: Yi-Shiuan Tung, Kayleigh Bishop, Bradley Hayes, Alessandro Roncone
    year: 2022
-   venue: "IEEE International Conference on Robot & Human Interactive Communication"
+   venue: "IEEE International Conference on Robot & Human Interactive Communication [RO-MAN]"
    where: Naples, Italy, August 29
    pdf: "2022_Tung_ROMAN_kitting"
    subteams: [algorithmic hri and human-ai teaming,yi-shiuan,kaleb]
