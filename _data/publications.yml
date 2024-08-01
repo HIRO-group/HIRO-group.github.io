@@ -1,4 +1,11 @@
- - title: "Eyes on the Game: Deciphering Implicit Human Signals to Infer Human Proficiency, Trust, and Intent"
+ - title: "Towards Super-Nominal Payload Handling: Inverse Dynamics Analysis for Multi-Skill Robotic Manipulation"
+   authors: Anuj Pasricha, Alessandro Roncone
+   year: 2024
+   venue: 40th Anniversary of the IEEE Conference on Robotics and Automation [ICRA@40]
+   where: Rotterdam, Netherlands, September 23-26
+   pdf: "2024_Pasricha_ICRA40_Payload"
+   subteams: [learning and modeling, anuj]
+- title: "Eyes on the Game: Deciphering Implicit Human Signals to Infer Human Proficiency, Trust, and Intent"
    authors: Nikhil Hulle, Stéphane Aroca-Ouellette, Anthony J. Ries, Jake Brawer, Katharina von der Wense, Alessandro Roncone
    year: 2024
    venue: IEEE International Conference on Robot and Human Interactive Communication [RO-MAN]
