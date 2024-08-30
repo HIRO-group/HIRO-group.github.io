@@ -1,3 +1,10 @@
+ - title: "Clutter-Aware Spill-Free Liquid Transport via Learned Dynamics"
+   authors: Ava Abderezaei, Anuj Pasricha, Alex Klausenstock, Alessandro Roncone
+   year: 2024
+   venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
+   where: Abu Dhabi, UAE, October 14-18
+   pdf: "2024_Abderezaei_IROS_SFRRT"
+   subteams: [learning and modeling, ava, anuj]
  - title: "Eyes on the Game: Deciphering Implicit Human Signals to Infer Human Proficiency, Trust, and Intent"
    authors: Nikhil Hulle, Stéphane Aroca-Ouellette, Anthony J. Ries, Jake Brawer, Katharina von der Wense, Alessandro Roncone
    year: 2024
