@@ -43,7 +43,7 @@ Once you are **done with the preliminary steps**{:.color-banner} above, follow t
 ## 2.1 Slack, GitHub, Shared Calendar, and Mailing List
 
  1. If you don't already have a [GitHub](https://github.com) account, create one.
- 2. Send an email to **[Anuj Pasricha](mailto:anuj.pasricha@colorado.edu) and [Ava Abderezaei](ava.abderezaei@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) in Cc**{:.color-banner}. Include your:
+ 2. Send an email to **[Anuj Pasricha](mailto:anuj.pasricha@colorado.edu) and [Ava Abderezaei](mailto:ava.abderezaei@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) in Cc**{:.color-banner}. Include your:
     - GitHub username
     - Your **firstname.lastname@colorado.edu**{:.color-banner} email alias for our Slack and mailing list
  3. Anuj and/or Ava will add you to our [Slack workspace](https://cu-hiro.slack.com), [GitHub organization](https://github.com/HIRO-group), shared Calendar, and [mailing list](https://lists.colorado.edu/sympa/info/hiro-group).
@@ -57,12 +57,12 @@ Once you are **done with the preliminary steps**{:.color-banner} above, follow t
     - [Lab etiquette](/docs/HIRO-Group-Lab-Etiquette.pdf), shared among all students and people working in the lab, with the rules of working in the lab
     - [Graduate student agreement](/docs/HIRO-Group-Grad-Agreement.pdf), slightly biased toward PhD students but to be used for all graduate students
     - [Undergraduate student agreement](/docs/HIRO-Group-UGrad-Agreement.pdf), for undergraduates
- 2. Following your previous email, Joewie will also send you a DocuSign link.
+ 2. Following your previous email, Ava will also send you a DocuSign link.
  3. Follow the link to sign the agreements. Prof. Roncone will be automatically notified to sign it after you have signed.
 
 ## 2.3 Lab Access
 
- 1. Write an email to the **[CS Front Office](mailto:csfrontoffice@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu), [Anuj Pasricha](mailto:anuj.pasricha@colorado.edu), and [Ava Abderezaei](ava.abderezaei@colorado.edu) in Cc**{:.color-banner}.
+ 1. Write an email to the **[CS Front Office](mailto:csfrontoffice@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu), [Anuj Pasricha](mailto:anuj.pasricha@colorado.edu), and [Ava Abderezaei](mailto:ava.abderezaei@colorado.edu) in Cc**{:.color-banner}.
  2. Ask to be granted access to ECST 322, ECES 116 and ECES 111. Please include the following information:
     - Name
     - Student ID
