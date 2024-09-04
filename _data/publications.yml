@@ -1,3 +1,10 @@
+ - title: "Exploring How Non-Prehensile Manipulation Expands Capability in Robots Experiencing Multi-Joint Failure"
+   authors: Gilberto Briscoe-Martinez, Anuj Pasricha, Ava Abderezaei, Santosh Chaganti, Sarath Chandra Vajrala, Sri Kanth Popuri, and Alessandro Roncone
+   year: 2024
+   venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
+   where: Abu Dhabi, UAE, October 14-18
+   pdf: "2024_Martinez_IROS_failure_recovery"
+   subteams: [learning and modeling, gilberto, anuj, ava]
  - title: "Clutter-Aware Spill-Free Liquid Transport via Learned Dynamics"
    authors: Ava Abderezaei, Anuj Pasricha, Alex Klausenstock, Alessandro Roncone
    year: 2024
