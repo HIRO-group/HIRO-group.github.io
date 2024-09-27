@@ -96,6 +96,18 @@
    email: ava.abderezaei@colorado.edu
    pic: ava.jpg
 
+ - name: Naren Sivagnanadasan
+   role: phd
+   url: https://narendasan.com
+   email: naren.sivagnanadasan@colorado.edu
+   pic: naren.jpg
+
+ - name: Jay Vakil
+   role: phd
+   url: https://jdvakil.github.io
+   email: jay.vakil@colorado.edu
+   pic: jay.jpg
+
 # Graduate Students
 # [in order of first appearance in the lab]
 
@@ -116,6 +128,12 @@
    url: https://vatsalverma.netlify.app/
    email: vatsal.verma@colorado.edu
    pic: vatsal.jpg
+
+ - name: Shamal Shaikh
+   role: grad
+   url: shamal-shaikh
+   email: shamal.shaikh@colorado.edu
+   pic: shamal.jpg
 
  - name: Idriss Djiofack Teledjieu
    role: grad
