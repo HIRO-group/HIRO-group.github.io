@@ -1,3 +1,10 @@
+ - title: "Towards Super-Nominal Payload Handling: Inverse Dynamics Analysis for Multi-Skill Robotic Manipulation"
+   authors: Anuj Pasricha, Alessandro Roncone
+   year: 2024
+   venue: 40th Anniversary of the IEEE Conference on Robotics and Automation [ICRA@40]
+   where: Rotterdam, Netherlands, September 23-26
+   pdf: "2024_Pasricha_ICRA40_Payload"
+   subteams: [learning and modeling, anuj]
  - title: "Exploring How Non-Prehensile Manipulation Expands Capability in Robots Experiencing Multi-Joint Failure"
    authors: Gilberto Briscoe-Martinez, Anuj Pasricha, Ava Abderezaei, Santosh Chaganti, Sarath Chandra Vajrala, Sri Kanth Popuri, and Alessandro Roncone
    year: 2024
