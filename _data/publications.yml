@@ -1,3 +1,31 @@
+ - title: "Towards Super-Nominal Payload Handling: Inverse Dynamics Analysis for Multi-Skill Robotic Manipulation"
+   authors: Anuj Pasricha, Alessandro Roncone
+   year: 2024
+   venue: 40th Anniversary of the IEEE Conference on Robotics and Automation [ICRA@40]
+   where: Rotterdam, Netherlands, September 23-26
+   pdf: "2024_Pasricha_ICRA40_Payload"
+   subteams: [learning and modeling, anuj]
+ - title: "Exploring How Non-Prehensile Manipulation Expands Capability in Robots Experiencing Multi-Joint Failure"
+   authors: Gilberto Briscoe-Martinez, Anuj Pasricha, Ava Abderezaei, Santosh Chaganti, Sarath Chandra Vajrala, Sri Kanth Popuri, and Alessandro Roncone
+   year: 2024
+   venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
+   where: Abu Dhabi, UAE, October 14-18
+   pdf: "2024_Martinez_IROS_failure_recovery"
+   subteams: [learning and modeling, gilberto, anuj, ava]
+ - title: "Clutter-Aware Spill-Free Liquid Transport via Learned Dynamics"
+   authors: Ava Abderezaei, Anuj Pasricha, Alex Klausenstock, Alessandro Roncone
+   year: 2024
+   venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
+   where: Abu Dhabi, UAE, October 14-18
+   pdf: "2024_Abderezaei_IROS_SFRRT"
+   subteams: [learning and modeling, ava, anuj]
+ - title: "Eyes on the Game: Deciphering Implicit Human Signals to Infer Human Proficiency, Trust, and Intent"
+   authors: Nikhil Hulle, Stéphane Aroca-Ouellette, Anthony J. Ries, Jake Brawer, Katharina von der Wense, Alessandro Roncone
+   year: 2024
+   venue: IEEE International Conference on Robot and Human Interactive Communication [RO-MAN]
+   where: Pasadena, CA, USA, August 26-30
+   pdf: "2024_Nikhil-Stephane_RO-MAN_eyes_on_the_game"
+   subteams: [algorithmic hri and human-ai teaming, stephane]
  - title: "Generating Pattern-Based Conventions for Predictable Planning in Human-Robot Collaboration"
    authors: Clare Lohrmann, Maria Stull, Alessandro Roncone, Bradley Hayes
    year: 2024
@@ -103,7 +131,7 @@
  - title: "Bilevel Optimization for Just-in-Time Robotic Kitting and Delivery via Adaptive Task Segmentation and Scheduling"
    authors: Yi-Shiuan Tung, Kayleigh Bishop, Bradley Hayes, Alessandro Roncone
    year: 2022
-   venue: "IEEE International Conference on Robot & Human Interactive Communication"
+   venue: "IEEE International Conference on Robot & Human Interactive Communication [RO-MAN]"
    where: Naples, Italy, August 29
    pdf: "2022_Tung_ROMAN_kitting"
    subteams: [algorithmic hri and human-ai teaming,yi-shiuan,kaleb]
