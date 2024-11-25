@@ -1,5 +1,11 @@
+ - title: "HARMONIOUS – Human-Like Reactive Motion Control and Multimodal Perception for Humanoid Robots"
+   authors: Jakub Rozlivek, Alessandro Roncone, Ugo Pattacini, and Matej Hoffmann
+   year: 2024
+   venue: IEEE Transactions on Robotics
+   pdf: "2024_Rozlivek_TRO_harmonious"
+   subteams: [learning and modeling, anuj]
  - title: "Towards Super-Nominal Payload Handling: Inverse Dynamics Analysis for Multi-Skill Robotic Manipulation"
-   authors: Anuj Pasricha, Alessandro Roncone
+   authors: Anuj Pasricha and Alessandro Roncone
    year: 2024
    venue: 40th Anniversary of the IEEE Conference on Robotics and Automation [ICRA@40]
    where: Rotterdam, Netherlands, September 23-26
