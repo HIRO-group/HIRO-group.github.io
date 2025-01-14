@@ -125,7 +125,8 @@ header img:hover,
     transition: all ease 1s;
 }
 
-#article .cv-item:hover {
+#article .cv-item:hover,
+#article .cv-item.award:hover {
     border-left-color: #{{ site.color.accent }};
     transition: all ease 1s;
 }
@@ -1190,6 +1191,13 @@ span.label:hover e.ok {
     margin-bottom: 10px;
 }
 
+#article .cv-item.award,
+#article .cv-item.award p
+ {
+    color: #{{ site.color.banner }};
+    border-left-color: #{{ site.color.banner }};
+}
+
 #article .pub p:last-child {
     margin-bottom: 0.4rem;
 }
@@ -1199,13 +1207,13 @@ span.label:hover e.ok {
     margin-top: 0.4rem;
 }
 
-.award {
+p.award {
     color: #{{ site.color.banner }};
-    font-weight: bold;
-    font-size: 1.2em;
+    /*font-weight: bold;*/
+    font-size: 1.12em;
 }
 
-.award i {
+p.award i {
     color: #f06363ff;
 }
 

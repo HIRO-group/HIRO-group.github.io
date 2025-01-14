@@ -5,37 +5,135 @@
    where: Vancouver, Canada, December 15
    pdf: "2024_Kohlbrenner_NeurIPS_contact_localization"
    subteams: [control and artificial skin, carson] 
+ - title: "HARMONIOUS – Human-Like Reactive Motion Control and Multimodal Perception for Humanoid Robots"
+   authors: Jakub Rozlivek, Alessandro Roncone, Ugo Pattacini, and Matej Hoffmann
+   year: 2024
+   venue: IEEE Transactions on Robotics
+   pdf: "2024_Rozlivek_TRO_harmonious"
+   subteams: [physical hri]
+ - title: "Towards Super-Nominal Payload Handling: Inverse Dynamics Analysis for Multi-Skill Robotic Manipulation"
+   authors: Anuj Pasricha and Alessandro Roncone
+   year: 2024
+   venue: 40th Anniversary of the IEEE Conference on Robotics and Automation [ICRA@40]
+   where: Rotterdam, Netherlands, September 23-26
+   pdf: "2024_Pasricha_ICRA40_Payload"
+   subteams: [learning and modeling, anuj]
+ - title: "Exploring How Non-Prehensile Manipulation Expands Capability in Robots Experiencing Multi-Joint Failure"
+   authors: Gilberto Briscoe-Martinez, Anuj Pasricha, Ava Abderezaei, Santosh Chaganti, Sarath Chandra Vajrala, Sri Kanth Popuri, and Alessandro Roncone
+   year: 2024
+   venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
+   where: Abu Dhabi, UAE, October 14-18
+   pdf: "2024_Martinez_IROS_failure_recovery"
+   subteams: [learning and modeling, gilberto, anuj, ava]
+ - title: "Clutter-Aware Spill-Free Liquid Transport via Learned Dynamics"
+   authors: Ava Abderezaei, Anuj Pasricha, Alex Klausenstock, Alessandro Roncone
+   year: 2024
+   venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
+   where: Abu Dhabi, UAE, October 14-18
+   pdf: "2024_Abderezaei_IROS_SFRRT"
+   subteams: [learning and modeling, ava, anuj]
+ - title: "Eyes on the Game: Deciphering Implicit Human Signals to Infer Human Proficiency, Trust, and Intent"
+   authors: Nikhil Hulle, Stéphane Aroca-Ouellette, Anthony J. Ries, Jake Brawer, Katharina von der Wense, Alessandro Roncone
+   year: 2024
+   venue: IEEE International Conference on Robot and Human Interactive Communication [RO-MAN]
+   where: Pasadena, CA, USA, August 26-30
+   pdf: "2024_Nikhil-Stephane_RO-MAN_eyes_on_the_game"
+   subteams: [algorithmic hri and human-ai teaming, stephane]
+ - title: "Generating Pattern-Based Conventions for Predictable Planning in Human-Robot Collaboration"
+   authors: Clare Lohrmann, Maria Stull, Alessandro Roncone, Bradley Hayes
+   year: 2024
+   venue: ACM Transactions on Human-Robot Interaction [THRI]
+   pdf: "2024_Lohrmann_THRI_patterns"
+   subteams: [algorithmic hri and human-ai teaming, clare]
+ - title: "ROMA-iQSS: An Objective Alignment Approach via State-Based Value Learning and ROund-Robin Multi-Agent Scheduling"
+   authors: Chi-Hui Lin, Joewie J. Koh, Alessandro Roncone, Lijun Chen
+   year: 2024
+   venue: American Control Conference [ACC]
+   where: Toronto, Canada, July 10-12
+   pdf: "2024_Lin_ACC_ROMAiQSS"
+   award: "Oral presentation"
+   subteams: [learning and modeling, chi-hui, joewie]
+ - title: "The Virtues of Laziness: Multi-Query Kinodynamic Motion Planning with Lazy Methods"
+   authors: Anuj Pasricha, Alessandro Roncone
+   year: 2024
+   venue: IEEE International Conference on Robotics and Automation [ICRA]
+   where: Yokohama, Japan, May 13-17
+   pdf: "2024_Pasricha_ICRA_LazyBoE"
+   subteams: [learning and modeling, anuj]
+ - title: "Workspace Optimization Techniques to Improve Prediction of Human Motion During Human-Robot Collaboration"
+   authors: Yi-Shiuan Tung, Matthew B. Luebbers, Alessandro Roncone, Bradley Hayes
+   year: 2024
+   venue: ACM/IEEE International Conference on Human-Robot Interaction [HRI]
+   where: Boulder, CO, USA, March 11-14
+   pdf: "2024_Tung_HRI_workspace_opt"
+   subteams: [algorithmic hri and human-ai teaming,yi-shiuan]
+   award: Best Technical Paper Nominee!!
+ - title: "Improving Robot Predictability via Trajectory Optimization Using a Virtual Reality Testbed"
+   authors: Clare Lohrmann, Ethan Berg, Bradley Hayes, Alessandro Roncone
+   year: 2024
+   venue: 7th International Workshop on Virtual, Augmented, and Mixed-Reality at HRI '24 [VAM-HRI]
+   where: Boulder, CO, USA, March 11-14
+   pdf: "2024_Lohrmann_VAMHRI_predictability"
+   subteams: [algorithmic hri and human-ai teaming, clare]
+ - title: "Causal Influence Detection for Human Robot Interaction"
+   authors: Yi-Shiuan Tung, Himanshu Gupta, Wei Jiang, Bradley Hayes, Alessandro Roncone
+   year: 2024
+   venue: HRI'24 Workshop on Causal Learning for Human-Robot Interaction
+   where: Boulder, CO, USA, March 11-14
+   pdf: "2024_Tung_HRI_causal"
+   subteams: [algorithmic hri and human-ai teaming,yi-shiuan]
+ - title: "Stereoscopic Virtual Reality Teleoperation for Human Robot Collaborative Dataset Collection"
+   authors: Yi-Shiuan Tung, Matthew B. Luebbers, Alessandro Roncone, Bradley Hayes
+   year: 2024
+   venue: 7th International Workshop on Virtual, Augmented, and Mixed-Reality at HRI '24 [VAM-HRI]
+   where: Boulder, CO, USA, March 11-14
+   pdf: "2024_Tung_HRI_teleop"
+   subteams: [algorithmic hri and human-ai teaming,yi-shiuan]
+ - title: "Towards A Natural Language Interface For Flexible Multi-Agent Task Assignment"
+   authors: Jake Brawer, Kayleigh Bishop, Bradley Hayes, Alessandro Roncone
+   year: 2023
+   venue: "AAAI Fall Symposium on Artificial Intelligence for Human-Robot Interaction [AI-HRI]"
+   where: Arlington, VA, USA, Oct 25-27
+   pdf: "2023_Brawer_AI-HRI_task_assignment"
+   subteams: [algorithmic hri and human-ai teaming, jake, kaleb]
+ - title: "CAT-RRT: Motion Planning that Admits Contact One Linke at a Time"
+   authors: Nataliya Nechyporenko, Caleb Escobedo, Shreyas Kadekodi, Alessandro Roncone
+   year: 2023
+   venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]"
+   where: Detroit, MI, USA, Oct 1-5
+   pdf: "2023_Nechyporenko_IROS_CAT-RRT"
+   subteams: [control and artificial skin, nataliya, caleb]
  - title: "Hierarchical Reinforcement Learning for Ad Hoc Teaming"
    authors: Stéphane Aroca-Ouellette, Miguel Aroca-Ouellette, Upasana Biswas, Katharina Kann, Alessandro Roncone
    year: 2023
    venue: "International Conference on Autonomous Agents and Multiagent Systems [AAMAS]"
-   where: London, Uk, May 28-June 02
+   where: London, UK, May 28-June 02
    pdf: "2023_Aroca-Ouellette_AAMAS_HAHA"
    description: Extended abstract
-   subteams: [algorithmic and social hri, learning and modeling, stephane]
+   subteams: [algorithmic hri and human-ai teaming, learning and modeling, stephane]
  - title: "Interactive Policy Shaping for Human-Robot Collaboration with Transparent Matrix Overlays"
    authors: Jake Brawer, Debasmita Ghose, Kate Candon, Meiying Qin, Alessandro Roncone, Marynel Vázquez, and Brian Scassellati
    year: 2023
    venue: ACM/IEEE International Conference on Human-Robot Interaction [HRI]
    where: Stockholm, Sweden, March 13-16
    pdf: "2023_Brawer_HRI_Chefbot"
-   subteams: [algorithmic and social hri]
+   subteams: [algorithmic hri and human-ai teaming, jake]
    host: https://alessandro.ronc.one
    award: Best Technical Paper Award!!
  - title: "Improving Human Legibility in Collaborative Robot Tasks through Augmented Reality and Workspace Preparation"
    authors: Yi-Shiuan Tung, Matthew B. Luebbers, Alessandro Roncone, Bradley Hayes
    year: 2023
-   venue: "6th International Workshop on Virtual, Augmented, and Mixed-Reality for Human-Robot Interactions (VAM-HRI)"
+   venue: "6th International Workshop on Virtual, Augmented, and Mixed-Reality at HRI '23 [VAM-HRI]"
    where: Stockholm, Sweden, March 13
    pdf: "2023_Tung_VAMHRI_legibility"
-   subteams: [algorithmic and social hri,yi-shiuan]
+   subteams: [algorithmic hri and human-ai teaming,yi-shiuan]
  - title: "Designing an AI Partner for Jigsaw classrooms"
    authors: Jie Cao, Rachel Dickler, Marie Grace, Jeffrey B. Bush, Alessandro Roncone, Leanne M. Hirshfield, Marilyn A. Walker, Martha S. Palmer
    year: 2023
    venue: Workshop on Language-Based AI Agent Interaction with Children [AIAIC]
    where: Los Angeles, USA, February 21
    pdf: "2023_Cao_AI_Partner"
-   subteams: [algorithmic and social hri]
+   subteams: [algorithmic hri and human-ai teaming]
  - title: "A Framework for the Systematic Evaluation of Obstacle Avoidance and Object-Aware Controllers"
    authors: Caleb Escobedo, Nataliya Nechyporenko, Shreyas Kadekodi, Alessandro Roncone
    year: 2022
@@ -46,10 +144,10 @@
  - title: "Bilevel Optimization for Just-in-Time Robotic Kitting and Delivery via Adaptive Task Segmentation and Scheduling"
    authors: Yi-Shiuan Tung, Kayleigh Bishop, Bradley Hayes, Alessandro Roncone
    year: 2022
-   venue: "IEEE International Conference on Robot & Human Interactive Communication"
+   venue: "IEEE International Conference on Robot & Human Interactive Communication [RO-MAN]"
    where: Naples, Italy, August 29
    pdf: "2022_Tung_ROMAN_kitting"
-   subteams: [algorithmic and social hri,yi-shiuan,kaleb]
+   subteams: [algorithmic hri and human-ai teaming,yi-shiuan,kaleb]
  - title: "Open-Domain Dialogue Generation: What We Can Do, Cannot Do, And Should Do Next"
    authors: Katharina Kann, Abteen Ebrahimi, Joewie J. Koh, Shiran Dudy, Alessandro Roncone
    year: 2022
@@ -63,7 +161,7 @@
    venue: "IEEE Robotics Automation and Letters [RA-L] + ICRA"
    where: Philadelphia, PA, U.S.A., May 23-27
    pdf: "2022_Pasricha_RAL_PokeRRT"
-   subteams: [learning and modeling, anuj]
+   subteams: [learning and modeling, anuj,yi-shiuan]
  - title: "Introduction to Autonomous Robots: Mechanisms, Sensors, Actuators, and Algorithms"
    authors: Nikolaus Correll, Bradley Hayes, Christoffer Heckman and Alessandro Roncone
    year: 2022
@@ -73,7 +171,7 @@
    year: 2022
    venue: Frontiers in Robotics and AI
    pdf: "2022_Mangin_supportive_behaviors"
-   subteams: [algorithmic and social hri]
+   subteams: [algorithmic hri and human-ai teaming]
    host: https://alessandro.ronc.one
  - title: "Real-Time Motion Control of Robotic Manipulators for Safe Human-Robot Coexistence"
    authors: Kelly Merckaert, Bryan Convens, Chi-ju Wu, Alessandro Roncone, Marco M Nicotra, and Bram Vanderborght
@@ -88,14 +186,14 @@
    venue: "IROS 2021 Workshop on Impact-Aware Robotics"
    where: Prague, Czech Republic, October 1
    pdf: "2021_Pasricha_IROS_PokeRRT"
-   subteams: [learning and modeling, anuj]
+   subteams: [learning and modeling,anuj,yi-shiuan]
  - title: "The World of an Octopus: How Reporting Bias Influences a Language Model’s Perception of Color"
    authors: Cory Paik, Stéphane Aroca-Ouellette, Alessandro Roncone, Katharina Kann
    year: 2021
    venue: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing"
    where: Online and Punta Cana, Dominican Republic, November 2021
    pdf: "2021_Paik_EMNLP"
-   subteams: [learning and modeling]
+   subteams: [learning and modeling,stephane]
  - title: "Volumetric Data Fusion of External Depth and Onboard Proximity Data For Occluded Space Reduction"
    authors: Matthew Strong, Caleb Escobedo, Alessandro Roncone
    year: 2021
@@ -123,34 +221,35 @@
    venue: Findings of the Association for  Computational Linguistics
    where: Online, August 1-6
    pdf: "2021_Aroca-Ouellette_ACL_findings"
-   subteams: [learning and modeling]
+   subteams: [learning and modeling,stephane]
  - title: "Multi-agent Reinforcement Learning as Applied to Autonomous Systems"
    authors: Guohui Ding
    year: 2021
    venue: University of Colorado Boulder
    where: Boulder, CO, U.S.A.
    description: PhD dissertation
+   subteams: [learning and modeling,guohui]
  - title: "Teaching Grounded Reading Skills via an Interactive Robot Tutor"
    authors: Kayleigh "Kaleb" Bishop, Bradley Hayes, Alessandro Roncone
    year: 2021
    venue: ACM International Conference on Human-Robot Interaction [HRI], Workshop on Robots for Learning
    where: Boulder, CO, U.S.A., March 12
    pdf: "2021_Bishop_HRI_R4L"
-   subteams: [algorithmic and social hri]
+   subteams: [algorithmic hri and human-ai teaming,kaleb]
  - title: "Cooperative Control of Mobile Robots with Stackelberg Learning"
    authors: Joewie J. Koh*, Guohui Ding*, Christoffer Heckman, Lijun Chen, Alessandro Roncone
    year: 2020
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Las Vegas, NV, U.S.A., October 25-29
    pdf: "2020_Koh_IROS_SLiCC"
-   subteams: [learning and modeling]
+   subteams: [learning and modeling,joewie,guohui]
  - title: "Distributed Reinforcement Learning for Cooperative Multi-Robot Object Manipulation"
    authors: Guohui Ding*, Joewie J. Koh*, Kelly Merckaert, Bram Vanderborght, Marco M. Nicotra, Christoffer Heckman, Alessandro Roncone, Lijun Chen
    year: 2020
    venue: International Conference on Autonomous Agents and Multiagent Systems [AAMAS]
    where: Auckland, New Zealand, May 9-13
    pdf: "2020_Ding_AAMAS_cooperative_object_manipulation"
-   subteams: [learning and modeling]
+   subteams: [learning and modeling,guohui,joewie]
    description: Extended abstract
  - title: "An Affordance-based Action Planner for On-line and Concurrent Human-Robot Collaborative Assembly"
    authors: Francesca Stramandinoli, <b>Alessandro Roncone</b>, Olivier Mangin, Francesco Nori, and Brian Scassellati
@@ -163,7 +262,7 @@
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Madrid, Spain, October 1-5
    pdf: "2018_Brawer_IROS_situated_hrc"
-   subteams: [algorithmic and social hri]
+   subteams: [algorithmic hri and human-ai teaming,jake]
    host: https://alessandro.ronc.one
  - title: "Preference-Based Assistance Prediction for Human-Robot Collaboration Tasks"
    authors: Elena Corina Grigore, Alessandro Roncone, Olivier Mangin, and Brian Scassellati
@@ -171,7 +270,7 @@
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Madrid, Spain, October 1-5
    pdf: "2018_Grigore_IROS_assistance_prediction"
-   subteams: [algorithmic and social hri]
+   subteams: [algorithmic hri and human-ai teaming]
    host: https://alessandro.ronc.one
  - title: "The HRC Model set for Human-Robot Collaboration Research"
    authors: Sofya Zeylikman, Sarah Widder, Alessandro Roncone, Olivier Mangin, and Brian Scassellati
@@ -179,7 +278,7 @@
    venue: IEEE/RSJ International Conference on Intelligent Robots and Systems [IROS]
    where: Madrid, Spain, October 1-5
    pdf: "2018_Zeylikman_IROS_hrc_model_set"
-   subteams: [algorithmic and social hri]
+   subteams: [algorithmic hri and human-ai teaming]
    host: https://alessandro.ronc.one
  - title: "Predicting Supportive Behaviors for Human-Robot Collaboration"
    authors: Elena Corina Grigore, Olivier Mangin, Alessandro Roncone, and Brian Scassellati
@@ -187,7 +286,7 @@
    venue: International Conference on Autonomous Agents and Multiagent Systems [AAMAS]
    where: Stockholm, Sweden, July 11-13
    pdf: "2018_Grigore_AAMAS_predicting_supportive_behaviors_hrc"
-   subteams: [algorithmic and social hri]
+   subteams: [algorithmic hri and human-ai teaming]
    host: https://alessandro.ronc.one
    description: Extended abstract
  - title: "Compact Real-time avoidance on a Humanoid Robot for Human-Robot interaction"
@@ -204,7 +303,7 @@
    venue: IEEE International Conference on Robotics and Automation [ICRA]
    where: Singapore, Singapore May 29-June 3
    pdf: "2017_Roncone_ICRA_role_assignment"
-   subteams: [algorithmic and social hri]
+   subteams: [algorithmic hri and human-ai teaming]
    host: https://alessandro.ronc.one
  - title: "Learning Peripersonal Space Representation in a Humanoid Robot with Artificial Skin"
    authors: Alessandro Roncone

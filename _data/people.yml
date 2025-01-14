@@ -16,11 +16,11 @@
 
 # Postdocs
 
- # - name: Shiran Dudy
- #   role: postdoc
- #   url: http://www.shirandudy.com
- #   email: shiran.dudy@colorado.edu
- #   pic: shiran.jpg
+ - name: Jake Brawer
+   role: postdoc
+   url: https://jakebrawer.com
+   email: jake.brawer@colorado.edu
+   pic: jake.jpg
 
 # PhD Students
 # [in order of first appearance in the lab]
@@ -69,17 +69,18 @@
 
  - name: Gilberto Briscoe-Martinez
    role: phd
-   url: https://www.gbmartinez.com
+   linkedin: gbmartinez
+   url: https://gilberto.martinez.phd
    email: gilberto.briscoe-martinez@colorado.edu
    pic: gilberto.png
 
  - name: Nataliya Nechyporenko
    role: phd
    url: https://nataliya.dev
-   email: nataliya.nechyporenko@colorado.edu
+   email: nataliya@colorado.edu
    pic: nataliya.jpg
 
- - name: Chihui Lin
+ - name: Chi-Hui Lin
    role: phd
    email: chli4608@colorado.edu
    pic: chihui.jpg
@@ -95,12 +96,30 @@
    email: ava.abderezaei@colorado.edu
    pic: ava.jpg
 
+ - name: Naren Sivagnanadasan
+   role: phd
+   url: https://narendasan.com
+   email: naren.sivagnanadasan@colorado.edu
+   pic: naren.jpg
+
+ - name: Jay Vakil
+   role: phd
+   url: https://jdvakil.github.io
+   email: jay.vakil@colorado.edu
+   pic: jay.jpg
+
+ - name: Yutong Zhang
+   role: phd
+   email: yutong.zhang.2000@colorado.edu
+   pic: yutong.png
+
 # Graduate Students
 # [in order of first appearance in the lab]
+
  - name: Joe Miceli
    role: grad
    linkedin: joseph-miceli
-   email: joe.miceli@colorad.edu
+   email: joe.miceli@colorado.edu
    pic: jmiceli.jpg
 
  - name: Nikhil Barhate
@@ -109,6 +128,48 @@
    email: nikhil.barhate@colorado.edu
    pic: nikhilb.jpeg
 
+ - name: Vatsal Verma
+   role: grad
+   url: https://vatsalverma.netlify.app/
+   email: vatsal.verma@colorado.edu
+   pic: vatsal.jpg
+
+ - name: Shamal Shaikh
+   role: grad
+   url: shamal-shaikh
+   email: shamal.shaikh@colorado.edu
+   pic: shamal.jpg
+
+ - name: Idriss Djiofack Teledjieu
+   role: grad
+   url: https://idrissdjio.github.io
+   email: idriss.djiofackteledjieu@colorado.edu
+   pic: idriss.jpg
+
+ - name: Rithik Kumar Athiganur Senthil
+   role: grad
+   url: https://www.linkedin.com/in/rithik-kumar-19a389238/
+   email: rithik.athiganursenthil@colorado.edu
+   pic: rithik.jpg
+
+ - name: Niharika Sathyanarayana
+   role: grad
+   url: https://www.linkedin.com/in/niharika-sathyanarayana-3219101ba/
+   email: niharika.sathyanarayana@colorado.edu
+   pic: niharika.jpg
+
+ - name: Sai Krishna Sriram
+   role: grad
+   url: https://saikrishnasriram.netlify.app/
+   email: saikrishna.sriram@colorado.edu
+   pic: KrishnaS.jpg
+
+ - name: Sai Pratheek KVDSNK
+   role: grad
+   url: https://www.linkedin.com/in/pratheekkv/
+   email: saipratheek.kerthivenkata@colorado.edu
+   pic: Pratheek.jpg
+
 # Undergraduate Students
 # [in order of first appearance in the lab]
 
@@ -116,12 +177,6 @@
    role: undergrad
    email: maec4462@coloardo.edu
    pic: eccles.jpg
-
- - name: Conor Simmons
-   role: undergrad
-   linkedin: conor-simmons
-   email: cosi4983@colorado.edu
-   pic: conor.jpg
 
  - name: Freddy Linn
    role: undergrad
@@ -134,6 +189,34 @@
    email: carson.kohlbrenner@colorado.edu
    pic: carson.jpg
 
+ - name: Caleb Kumar
+   role: undergrad
+   email: caleb.kumar@colorado.edu
+   pic: calebk.jpg
+
+ - name: Noah Liska
+   role: undergrad
+   email: noah.liska@colorado.edu
+   pic: noah.png
+
+ - name: Weston Brach
+   role: undergrad
+   email: weston.brach@colorado.edu
+   pic: weston.jpg
+
+ - name: Jennifer Kim
+   role: undergrad
+   email: jeki5853@colorado.edu
+   pic: jennifer.jpg
+
+# High School Students
+# [in order of first appearance in the lab]
+
+ - name: Alex Dickhans
+   role: highschool
+   email: adickhans@gmail.com
+   pic: alex.jpg
+
 # Collaborators
 # [in order of first appearance in the lab]
 
@@ -142,8 +225,31 @@
    email: kelly.merckaert@vub.be
    pic: kelly.jpg
 
+ - name: Yaashia Gautam
+   role: collaborator
+   email: yaashia.gautam@colorado.edu
+   pic: yaashia.jpg
+
+ - name: Anujay Sharma
+   role: collaborator
+   email: asharma6@wpi.edu
+   pic: anujay.jpg
+
+ - name: Sandra Bae
+   role: collaborator
+   email: sandra.bae@colorado.edu
+   pic: sandra.png
+
 # Alumni
 # [in inverse order of when they left the lab]
+
+ - name: Conor Simmons
+   role: alumni
+   linkedin: conor-simmons
+   email: cosi4983@colorado.edu
+   pic: conor.jpg
+   graduated: Spring 2023 [BS.]
+   nowat: Luxonis
 
  - name: Tanmay Desai
    role: alumni
@@ -318,7 +424,7 @@
 
  - name: Kandai Watanabe
    role: alumni
-   nowat: ARIA Systems Group
+   nowat: ARIA Systems Group [Ph.D.]
 
  - name: Kyle Yamek
    role: alumni
