@@ -1,3 +1,10 @@
+ - title: "A Machine Learning Approach to Contact Localization in Variable Density Three-Dimensional Tactile Artificial Skin"
+   authors: Carson Kohlbrenner, Mitchell Murray, Yutong Zhang, Caleb Escobedo, Thomas Dunnington, Nolan Stevenson, Nikolaus Correll, Alessandro Roncone
+   year: 2024
+   venue: "2nd NeurIPS Workshop on Touch Processing: From Data to Knowledge"
+   where: Vancouver, Canada, December 15
+   pdf: "2024_Kohlbrenner_NeurIPS_contact_localization"
+   subteams: [control and artificial skin, carson] 
  - title: "HARMONIOUS – Human-Like Reactive Motion Control and Multimodal Perception for Humanoid Robots"
    authors: Jakub Rozlivek, Alessandro Roncone, Ugo Pattacini, and Matej Hoffmann
    year: 2024
