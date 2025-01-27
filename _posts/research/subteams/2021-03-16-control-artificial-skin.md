@@ -33,7 +33,7 @@ These additional data streams and others to be included in future sensor units w
 **Students:** [Nataliya Nechyporenko]({% post_url people/2023-10-24-nataliya %}), Caleb Escobedo, Yaashia Gautam
 
 **_Publications:_**
- - N. Nechyporenko, C. Escobedo, S. Kadekodi, and A. Roncone, _"CAT-RRT: Motion Planning that Admits Contact One Link at a Time,"_ in _2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, 2023. [[PDF]]({{ site.url }}/papers/2023_Nechyporenko_IROS_CAT-RRT.pdf) [[BIB]]({{ site.url }}/papers/2023_Nechyporenko_IROS_CAT-RRT.bib)
+ - N. Nechyporenko, C. Escobedo, S. Kadekodi, and A. Roncone, _"CAT-RRT: Motion Planning that Admits Contact One Link at a Time,"_ in _2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, 2023. [[PDF]]({{ site.url }}/papers/2023_Nechyporenko_IROS_CAT-RRT.pdf) [[BIB]]({{ site.url }}/papers/2023_Nechyporenko_IROS_CAT-RRT.bib) [[Website]](https://nataliya.dev/cat-rrt)
 
 <div class="row">
 {% include image.html url="research/planning/human-reach.gif" max-width="20em" description="People often make physical contact with their environment when manipulating objects. Here a person gently brushes some objects away while reaching for a target object." %}
