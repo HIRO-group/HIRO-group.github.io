@@ -208,6 +208,12 @@
    role: undergrad
    email: jeki5853@colorado.edu
    pic: jennifer.jpg
+  
+ - name: Wei Jiang
+   role: undergrad
+   url: https://mr2wei.github.io
+   email: wei.jiang@colorado.edu
+   pic: wei.jpg
 
 # High School Students
 # [in order of first appearance in the lab]
