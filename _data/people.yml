@@ -116,12 +116,6 @@
 # Graduate Students
 # [in order of first appearance in the lab]
 
- - name: Nikhil Barhate
-   role: grad
-   url: https://nikhilbarhate99.github.io
-   email: nikhil.barhate@colorado.edu
-   pic: nikhilb.jpeg
-
  - name: Vatsal Verma
    role: grad
    url: https://vatsalverma.netlify.app/
@@ -251,6 +245,14 @@
    role: alumni
    graduated: Spring 2024 [MS.]
    nowat: NetApp
+
+ - name: Nikhil Barhate
+   role: alumni
+   url: https://nikhilbarhate99.github.io
+   email: nikhil.barhate@colorado.edu
+   pic: nikhilb.jpeg
+   nowat: ScaleAI
+   graduated: Spring 2024 [MS.]
 
  - name: Conor Simmons
    role: alumni
