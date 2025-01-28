@@ -108,6 +108,11 @@
    email: jay.vakil@colorado.edu
    pic: jay.jpg
 
+ - name: Yutong Zhang
+   role: phd
+   email: yutong.zhang.2000@colorado.edu
+   pic: yutong.png
+
 # Graduate Students
 # [in order of first appearance in the lab]
 
@@ -135,18 +140,6 @@
    email: idriss.djiofackteledjieu@colorado.edu
    pic: idriss.jpg
 
- - name: Rithik Kumar Athiganur Senthil
-   role: grad
-   url: https://www.linkedin.com/in/rithik-kumar-19a389238/
-   email: rithik.athiganursenthil@colorado.edu
-   pic: rithik.jpg
-
- - name: Niharika Sathyanarayana
-   role: grad
-   url: https://www.linkedin.com/in/niharika-sathyanarayana-3219101ba/
-   email: niharika.sathyanarayana@colorado.edu
-   pic: niharika.jpg
-
  - name: Sai Krishna Sriram
    role: grad
    url: https://saikrishnasriram.netlify.app/
@@ -158,6 +151,18 @@
    url: https://www.linkedin.com/in/pratheekkv/
    email: saipratheek.kerthivenkata@colorado.edu
    pic: Pratheek.jpg
+
+ - name: Akshay Bakshi
+   role: grad
+   url: https://www.linkedin.com/in/akshayb8/
+   email: akshay.bakshi@colorado.edu
+   pic: AkshayBakshi.jpg
+
+ - name: Yashwant (Yash) Gandham
+   role: grad
+   url: www.linkedin.com/in/g-yashwant
+   email: yashwant.gandham@colorado.edu
+   pic: Yashwant.png
 
 # Undergraduate Students
 # [in order of first appearance in the lab]
@@ -193,6 +198,11 @@
    email: weston.brach@colorado.edu
    pic: weston.jpg
 
+ - name: Jennifer Kim
+   role: undergrad
+   email: jeki5853@colorado.edu
+   pic: jennifer.jpg
+
 # High School Students
 # [in order of first appearance in the lab]
 
@@ -203,11 +213,6 @@
 
 # Collaborators
 # [in order of first appearance in the lab]
-
- - name: Kelly Merckaert
-   role: collaborator
-   email: kelly.merckaert@vub.be
-   pic: kelly.jpg
 
  - name: Yaashia Gautam
    role: collaborator
@@ -227,12 +232,26 @@
 # Alumni
 # [in inverse order of when they left the lab]
 
+ - name: Rithik Kumar Athiganur Senthil
+   role: alumni
+   graduated: Spring 2024 [MS.]
+   nowat: United Airlines
+
+ - name: Niharika Sathyanarayana
+   role: alumni
+   graduated: Fall 2024 [MS.]
+
+ - name: Siva Gangadhar Pabbineedi
+   role: alumni
+   graduated: Spring 2024 [MS.]
+   nowat: NetApp
+
  - name: Nikhil Barhate
    role: alumni AI
    url: https://nikhilbarhate99.github.io
    email: nikhil.barhate@colorado.edu
    pic: nikhilb.jpeg
-   nowat: Scale
+   nowat: ScaleAI
    graduated: Spring 2024 [MS.]
 
  - name: Conor Simmons

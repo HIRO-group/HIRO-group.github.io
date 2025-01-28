@@ -1,5 +1,18 @@
+ - title: "A Machine Learning Approach to Contact Localization in Variable Density Three-Dimensional Tactile Artificial Skin"
+   authors: Carson Kohlbrenner, Mitchell Murray, Yutong Zhang, Caleb Escobedo, Thomas Dunnington, Nolan Stevenson, Nikolaus Correll, Alessandro Roncone
+   year: 2024
+   venue: "2nd NeurIPS Workshop on Touch Processing: From Data to Knowledge"
+   where: Vancouver, Canada, December 15
+   pdf: "2024_Kohlbrenner_NeurIPS_contact_localization"
+   subteams: [control and artificial skin, carson] 
+ - title: "HARMONIOUS – Human-Like Reactive Motion Control and Multimodal Perception for Humanoid Robots"
+   authors: Jakub Rozlivek, Alessandro Roncone, Ugo Pattacini, and Matej Hoffmann
+   year: 2024
+   venue: IEEE Transactions on Robotics
+   pdf: "2024_Rozlivek_TRO_harmonious"
+   subteams: [physical hri]
  - title: "Towards Super-Nominal Payload Handling: Inverse Dynamics Analysis for Multi-Skill Robotic Manipulation"
-   authors: Anuj Pasricha, Alessandro Roncone
+   authors: Anuj Pasricha and Alessandro Roncone
    year: 2024
    venue: 40th Anniversary of the IEEE Conference on Robotics and Automation [ICRA@40]
    where: Rotterdam, Netherlands, September 23-26
