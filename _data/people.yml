@@ -116,12 +116,6 @@
 # Graduate Students
 # [in order of first appearance in the lab]
 
- - name: Joe Miceli
-   role: grad
-   linkedin: joseph-miceli
-   email: joe.miceli@colorado.edu
-   pic: jmiceli.jpg
-
  - name: Vatsal Verma
    role: grad
    url: https://vatsalverma.netlify.app/
@@ -228,6 +222,12 @@
    role: collaborator
    email: sandra.bae@colorado.edu
    pic: sandra.png
+
+ - name: Joe Miceli
+   role: collaborator
+   linkedin: joseph-miceli
+   email: joe.miceli@colorado.edu
+   pic: jmiceli.jpg
 
 # Alumni
 # [in inverse order of when they left the lab]
