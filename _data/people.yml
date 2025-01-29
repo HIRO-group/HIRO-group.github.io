@@ -115,7 +115,6 @@
 
 # Graduate Students
 # [in order of first appearance in the lab]
-
  - name: Joe Miceli
    role: grad
    linkedin: joseph-miceli
@@ -190,6 +189,17 @@
    role: undergrad
    email: jeki5853@colorado.edu
    pic: jennifer.jpg
+  
+ - name: Wei Jiang
+   role: undergrad
+   url: https://mr2wei.github.io
+   email: wei.jiang@colorado.edu
+   pic: wei.jpg
+
+   name: Jose Caraveo
+   role: undergrad
+   email: jose.caraveoherrera@colorado.edu
+   pic: josecaraveo.jpg
 
 # High School Students
 # [in order of first appearance in the lab]
@@ -216,6 +226,12 @@
    role: collaborator
    email: sandra.bae@colorado.edu
    pic: sandra.png
+
+ - name: Joe Miceli
+   role: collaborator
+   linkedin: joseph-miceli
+   email: joe.miceli@colorado.edu
+   pic: jmiceli.jpg
 
 # Alumni
 # [in inverse order of when they left the lab]
