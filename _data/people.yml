@@ -196,6 +196,12 @@
    role: undergrad
    email: jeki5853@colorado.edu
    pic: jennifer.jpg
+  
+ - name: Wei Jiang
+   role: undergrad
+   url: https://mr2wei.github.io
+   email: wei.jiang@colorado.edu
+   pic: wei.jpg
 
    name: Jose Caraveo
    role: undergrad
