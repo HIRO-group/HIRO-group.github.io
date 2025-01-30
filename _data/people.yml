@@ -115,12 +115,11 @@
 
 # Graduate Students
 # [in order of first appearance in the lab]
-
- - name: Vatsal Verma
+ - name: Joe Miceli
    role: grad
-   url: https://vatsalverma.netlify.app/
-   email: vatsal.verma@colorado.edu
-   pic: vatsal.jpg
+   linkedin: joseph-miceli
+   email: joe.miceli@colorado.edu
+   pic: jmiceli.jpg
 
  - name: Shamal Shaikh
    role: grad
@@ -171,12 +170,6 @@
    role: undergrad
    email: maec4462@coloardo.edu
    pic: eccles.jpg
-
- - name: Freddy Linn
-   role: undergrad
-   linkedin: frederick-linn
-   email: frli5468@colorado.edu
-   pic: freddy.png
 
  - name: Carson Kohlbrenner
    role: undergrad
@@ -248,7 +241,11 @@
 
 # Alumni
 # [in inverse order of when they left the lab]
-
+ - name: Vatsal Verma
+   role: alumni
+   graduated: Summer 2024 [MS.]
+   nowat: ServiceNow
+ 
  - name: Rithik Kumar Athiganur Senthil
    role: alumni
    graduated: Spring 2024 [MS.]
