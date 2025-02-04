@@ -115,12 +115,6 @@
 
 # Graduate Students
 # [in order of first appearance in the lab]
- - name: Joe Miceli
-   role: grad
-   linkedin: joseph-miceli
-   email: joe.miceli@colorado.edu
-   pic: jmiceli.jpg
-
  - name: Shamal Shaikh
    role: grad
    url: shamal-shaikh
@@ -132,18 +126,6 @@
    url: https://idrissdjio.github.io
    email: idriss.djiofackteledjieu@colorado.edu
    pic: idriss.jpg
-
- - name: Sai Krishna Sriram
-   role: grad
-   url: https://saikrishnasriram.netlify.app/
-   email: saikrishna.sriram@colorado.edu
-   pic: KrishnaS.jpg
-
- - name: Sai Pratheek KVDSNK
-   role: grad
-   url: https://www.linkedin.com/in/pratheekkv/
-   email: saipratheek.kerthivenkata@colorado.edu
-   pic: Pratheek.jpg
 
  - name: Akshay Bakshi
    role: grad
@@ -166,20 +148,10 @@
 # Undergraduate Students
 # [in order of first appearance in the lab]
 
- - name: Matthew Eccles
-   role: undergrad
-   email: maec4462@coloardo.edu
-   pic: eccles.jpg
-
  - name: Carson Kohlbrenner
    role: undergrad
    email: carson.kohlbrenner@colorado.edu
    pic: carson.jpg
-
- - name: Caleb Kumar
-   role: undergrad
-   email: caleb.kumar@colorado.edu
-   pic: calebk.jpg
 
  - name: Noah Liska
    role: undergrad
@@ -241,6 +213,18 @@
 
 # Alumni
 # [in inverse order of when they left the lab]
+ - name: Sai Krishna Sriram
+   role: alumni
+
+ - name: Sai Pratheek KVDSNK
+   role: alumni
+
+ - name: Caleb Kumar
+   role: undergrad
+
+ - name: Matthew Eccles
+   role: alumni
+
  - name: Vatsal Verma
    role: alumni
    graduated: Summer 2024 [MS.]
