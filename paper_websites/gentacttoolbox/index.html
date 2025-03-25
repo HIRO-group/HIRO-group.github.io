@@ -1,0 +1,532 @@
+---
+title: Gentact Toolbox
+layout: null
+permalink: /gentacttoolbox/
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="GenTact Toolbox has the tools to create procedural tactile sensors!">
+  <meta name="keywords" content="GenTact, Toolbox, Procedural, Tactile, Sensors">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GenTact Toolbox</title>
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script> -->
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="/paper_websites/gentacttoolbox/static/css/bulma.min.css">
+  <link rel="stylesheet" href="/paper_websites/gentacttoolbox/static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="/paper_websites/gentacttoolbox/static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="/paper_websites/gentacttoolbox/static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="/paper_websites/gentacttoolbox/static/css/index.css">
+  <link rel="icon" href="/paper_websites/gentacttoolbox/static/images/hiro_icon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="/paper_websites/gentacttoolbox/static/js/fontawesome.all.min.js"></script>
+  <script src="/paper_websites/gentacttoolbox/static/js/bulma-carousel.min.js"></script>
+  <script src="/paper_websites/gentacttoolbox/static/js/bulma-slider.min.js"></script>
+  <script src="/paper_websites/gentacttoolbox/static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://hiro-group.ronc.one/">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <!-- <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://hypernerf.github.io">
+            HyperNeRF
+          </a>
+          <a class="navbar-item" href="https://nerfies.github.io">
+            Nerfies
+          </a>
+          <a class="navbar-item" href="https://latentfusion.github.io">
+            LatentFusion
+          </a>
+          <a class="navbar-item" href="https://photoshape.github.io">
+            PhotoShape
+          </a>
+        </div>
+      </div> -->
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title"><b style="color: #2853aa">GenTact Toolbox</b>: A Procedural Whole-Body Sensor Design Pipeline</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+
+              <a href="https://ckohl10.github.io/">Carson Kohlbrenner</a><sup></sup>,</span>
+            <span class="author-block">
+              <a href="https://hiro-group.ronc.one/caleb.html">Caleb Escobedo</a><sup></sup>,</span>
+            <span class="author-block">
+              <a href="https://sandrabae.github.io/">S. Sandra Bae</a><sup></sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://alex.dickhans.net/">Alexander Dickhans</a><sup></sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://alessandro.ronc.one/">Alessandro Roncone</a><sup></sup>,
+            </span>
+          </div>
+
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup></sup>University of Colorado Boulder</span>
+            <div style="margin: 2rem 0;"></div>
+          </div>
+          
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <img src="/paper_websites/gentacttoolbox/static/images/hiro_logo.png" style="height: 2em; margin-left: 2em; vertical-align: middle;">
+              <img src="/paper_websites/gentacttoolbox/static/images/atlas_logo.png" style="height: 2em; margin-left: 2em; vertical-align: middle;">
+            </span>
+          </div>
+
+
+          <div class="column has-text-centered">
+            <div style="margin: 1rem 0;"></div>
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2412.00711"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2412.00711"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. --> 
+              <span class="link-block">
+                <a href="https://youtu.be/jV-vWe4PPsM"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/cKohl10/GenTact"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. ADD LATER! -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+            </div> -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div style="max-width: 768px; margin: 0 auto;">
+        <video id="teaser" autoplay muted loop playsinline height="100%" style="width: 100%;" poster="/paper_websites/gentacttoolbox/static/images/cover_saver.png">
+          <source src="/paper_websites/gentacttoolbox/static/videos/gentact_teaser.mp4"
+                  type="video/mp4">
+        </video>
+        <h2 class="subtitle has-text-centered">
+          The GenTact addon generates skins with embedded sensors for any 3D mesh.
+        </h2>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- <section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/steve.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/chair-tp.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/shiba.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/fullbody.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-blueshirt">
+          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/blueshirt.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-mask">
+          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/mask.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-coffee">
+          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/coffee.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-toby">
+          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/toby2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+<section class="section" style="background-color: #f5f5f5;">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-2">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Developing whole-body tactile skins for robots
+            remains a challenging task, as existing solutions often prioritize
+            modular, one-size-fits-all designs, which, while versatile, fail to
+            account for the robot's specific shape and the unique demands
+            of its operational context. In this work, we introduce the
+            <b style="color: #2853aa">GenTact Toolbox</b>, a computational pipeline for creating versatile
+            whole-body tactile skins tailored to both robot shape and
+            application domain. Our pipeline includes procedural mesh
+            generation for conforming to a robot's topology, task-driven
+            simulation to refine sensor distribution, and multi-material
+            3D printing for shape-agnostic fabrication. We validate our
+            approach by creating and deploying six capacitive sensing skins
+            on a Franka Research 3 robot arm in a human-robot interaction
+            scenario. This work represents a shift from "one-size-fits-all"
+            tactile sensors toward context-driven, highly adaptable designs
+            that can be customized for a wide range of robotic systems and
+            applications.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Method. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-2">Pipeline</h2>
+        <div class="content has-text-centered">
+          <img src="/paper_websites/gentacttoolbox/static/images/simple_flowchart.png" alt="GenTact Pipeline Overview" width="100%">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            The GenTact Toolbox provides a comprehensive pipeline for designing and fabricating custom tactile skins:
+          </p>
+          <ol>
+            <li><b>Procedural Mesh Generation:</b> Automatically generate sensor layouts that conform to the robot's unique geometry.</li>
+            <li><b>Simulation and Task-Driven Optimization:</b> The sensors can be imported 1:1 to a simulation environment and the sensor placement can be optimized for a given task.</li>
+            <li><b>Multi-Material Fabrication:</b> The sensors and mold are fully 3D printable with output terminals that can be connected to external electronics.</li>
+
+          </ol>
+
+
+          <p>
+            This approach allows for rapid prototyping and iteration of tactile sensor designs that are specifically tailored to both the robot's physical form and its intended use case.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="content has-text-centered">
+          <video id="pipeline_steps" disableremoteplayback="" autoplay="" muted="" loop="" playsinline="" fetchpriority="high" poster="/paper_websites/gentacttoolbox/static/images/pipeline_steps.jpg">
+            <source src="/paper_websites/gentacttoolbox/static/videos/pipeline_steps.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+    <!--/ Method. -->
+    
+    <!-- How it works. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column">
+        <h2 class="title is-2">How it works</h2>
+        <div class="content has-text-justified">
+          <p>
+            GenTact comes with an addon for <b style="color: #ff7021">Blender</b> and <b style="color: #76b900">Isaac Sim</b> for generating and simulating the sensors respectively. The final output is a seperable mesh file containing the mold of the skin and the embedded sensors. This multi-layered mesh can then be printed on a 3D printer with multiple filament heads to create the final skin.
+          </p>
+        </div>
+      </div>
+
+    </div>
+    <!--/ How it works. -->
+
+    <!-- Blender Addon -->
+    <div class="columns is-centered has-text-centered" style="margin-top: 2rem;">
+      <div class="column">
+        <h2 class="title is-4">Procedural Generation (Blender Addon)</h2>
+        <section class="hero is-small" style="border: 2px solid #ff7021; border-radius: 4px;">
+          <div class="hero-body">
+            <div class="container">
+              <div class="content has-text-centered">
+                <a href="https://www.blender.org/"><img src="/paper_websites/gentacttoolbox/static/images/Blender-Logo-PNG-Photo.png" alt="Blender Addon" width="7%"></a>
+              </div>
+              <div class="content has-text-justified">
+                <p>
+                  Our <a href="https://github.com/cKohl10/GenTact/tree/main/blender_scripts/sensor_bay_addon">Blender addon</a> provides an intuitive interface for designing tactile skins. It allows users to generate sensor layouts that conform to any 3D mesh, with controls for sensor density, distribution patterns, and connection routing. The primary constraints that make creating tactile skins, such as surface coverage, goemetry conformaty, wiring, and reproducability are effectively removed by procedurally generating the skin design.
+                </p>
+              </div>
+              <div class="content has-text-centered">
+                <video disableremoteplayback="" autoplay="" muted="" loop="" playsinline="" width="100%" poster="/paper_websites/gentacttoolbox/static/images/gen_saver.png">
+                  <source src="/paper_websites/gentacttoolbox/static/videos/blender_addon.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="content has-text-justified">
+                <p>
+                  The skin is procedurally generated using Blender's geometry nodes architecture. Data from the mesh, user-defined parameters, and a painted heat map are used to algorithmically define and instantiate a tactile skin mesh.
+                </p>
+              </div>
+              <!-- <div class="content has-text-centered">
+                <img src="./static/images/geo_nodes.png" alt="Geometry Nodes" width="100%">
+              </div> -->
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!--/ Blender Addon. -->
+
+    <!-- Isaac Sim Extension -->
+    <div class="columns is-centered has-text-centered" style="margin-top: 2rem;">
+      <div class="column">
+        <h2 class="title is-4">Simulation (Isaac Sim Extension)</h2>
+        <section class="hero is-small" style="border: 2px solid #76b900; border-radius: 4px;">
+          <div class="hero-body">
+            <div class="container">
+              <div class="content has-text-centered">
+                <a href="https://developer.nvidia.com/isaac-sim"><img src="/paper_websites/gentacttoolbox/static/images/isaac_logo.png" alt="Isaac Sim Extension" width="7%"></a>
+              </div>
+              <div class="content has-text-justified">
+                <p>
+                  Our <a href="https://github.com/cKohl10/GenTact/tree/main/exts">Isaac Sim extension</a> enables 1:1 simulation of the procedurally generated tactile skins. The extension supports importing the procedurally generated sensors, simulating contact data, connecting to real frabricated sensors via ROS2, and optimizing the sensor placement for a given task.
+                </p>
+              </div>
+              <div class="content has-text-centered">
+                <video disableremoteplayback="" autoplay="" muted="" loop="" playsinline="" width="100%" poster="/paper_websites/gentacttoolbox/static/images/sim_saver.png">
+                  <source src="/paper_websites/gentacttoolbox/static/videos/tact_sim.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="content has-text-justified">
+                <p>
+                  Simulated contact data can be used to recreate a new sensor layouts that are optimized for a given task. Below is an example simulation of a Unitree H1 robot performing a box moving task. In this example, contact is consistently observed on the bottom right of the H1's chest plate. If we would like to capture higher fidelity data in this concentrated region as opposed to spending compute resources on the full chest plate area, we can use a Butterworth filter to quickly iterate a new sensor layout map that is algorithmically defined. 
+                </p>
+              </div>
+              <div class="content has-text-centered">
+                <video id="pipeline_steps" disableremoteplayback="" autoplay="" muted="" loop="" playsinline="" fetchpriority="high" poster="/paper_websites/gentacttoolbox/static/images/optimize_h1.png">
+                  <source src="/paper_websites/gentacttoolbox/static/videos/h1_demo.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+
+        </section>
+      </div>
+    </div>
+    <!--/ Isaac Sim Extension. -->
+
+    <!-- Fabrication -->
+    <!-- <div class="columns is-centered has-text-centered" style="margin-top: 2rem;">
+      <div class="column">
+        <h2 class="title is-4">Fabrication</h2>
+        <section class="hero is-small">
+          <div class="hero-body">
+            <div class="container">
+              <div class="content has-text-justified">
+                <p>
+                  Our <a href="https://github.com/cKohl10/GenTact/tree/main/blender_scripts/sensor_bay_addon">Blender addon</a> provides an intuitive interface for designing tactile skins. It allows users to generate sensor layouts that conform to any 3D mesh, with controls for sensor density, distribution patterns, and connection routing. The primary constraints that make creating tactile skins, such as surface coverage, goemetry conformaty, wiring, and reproducability are effectively removed by procedurally generating the skin design.
+                </p>
+              </div>
+              <div class="content has-text-centered">
+                <video disableremoteplayback="" autoplay="" muted="" loop="" playsinline="" width="100%">
+                  <source src="./static/videos/blender_addon.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="content has-text-justified">
+                <p>
+                  The skin is procedurally generated using Blender's geometry nodes architecture. Data from the mesh, user-defined parameters, and a painted heat map are used to algorithmically define and instantiate a tactile skin mesh.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div> -->
+    <!--/Fabrication. -->
+
+    <!-- Results -->
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column">
+            <h2 class="title is-2">In-the-Loop Demo</h2>
+            <div class="content has-text-justified">
+              <p>
+                The Franka Research 3 robot arm was fully covered in procedural tactile skin units. The sensors were designed for a human-robot interaction scenario and inform the robot's motion planner about spatial regions were contact was observed to avoid collisions.
+              </p>
+            </div>
+            <div class="columns is-centered">
+              <div class="column">
+                <div class="content has-text-centered">
+                  <video id="live_demo" disableremoteplayback="" autoplay="" muted="" loop="" playsinline="" fetchpriority="high" poster="/paper_websites/gentacttoolbox/static/images/demo_saver.png">
+                    <source src="/paper_websites/gentacttoolbox/static/videos/live_demo.mp4" type="video/mp4">
+                  </video>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+
+
+        <!-- Paper video. -->
+        <!-- <div class="container is-max-desktop content" style="margin-top: 3rem;" id="video">
+          <h2 class="title is-3 has-text-centered">Video</h2>
+          <div class="publication-video">
+            <video poster="" id="demo" autoplay controls muted loop playsinline width="100%">
+              <source src="/paper_websites/gentacttoolbox/static/videos/supplement_video.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div> -->
+        <!--/ Paper video. -->
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{kohlbrenner2024gentact,
+      title={GenTact Toolbox: A Computational Design Pipeline to Procedurally Generate Context-Driven 3D Printed Whole-Body Tactile Skins},
+      author={Kohlbrenner, Carson and Escobedo, Caleb and Bae, S Sandra and Dickhans, Alexander and Roncone, Alessandro},
+      journal={arXiv preprint arXiv:2412.00711},
+      year={2024}
+    }</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <!-- <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div> -->
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            Thank you <a
+              href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> for providing the template for this website!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

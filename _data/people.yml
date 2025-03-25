@@ -152,6 +152,12 @@
    email: akshay.bakshi@colorado.edu
    pic: AkshayBakshi.jpg
 
+ - name: Carson Kohlbrenner
+   role: grad
+   url: https://ckohl10.github.io/
+   email: carson.kohlbrenner@colorado.edu
+   pic: carson2.jpg
+
  - name: Yashwant (Yash) Gandham
    role: grad
    url: www.linkedin.com/in/g-yashwant
@@ -171,11 +177,6 @@
    role: undergrad
    email: maec4462@coloardo.edu
    pic: eccles.jpg
-
- - name: Carson Kohlbrenner
-   role: undergrad
-   email: carson.kohlbrenner@colorado.edu
-   pic: carson.jpg
 
  - name: Caleb Kumar
    role: undergrad

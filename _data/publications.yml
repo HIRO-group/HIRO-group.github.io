@@ -1,3 +1,11 @@
+ - title: "GenTact Toolbox: A Computational Design Pipeline to Procedurally Generate Context-Driven 3D Printed Whole-Body Artificial Skins"
+   authors: Carson Kohlbrenner, Caleb Escobedo, S. Sandra Bae, Alexander Dickhans, Alessandro Roncone
+   year: 2025
+   venue: "IEEE International Conference on Robotics and Automation (ICRA)"
+   where: Altanta, Georgia, USA, May 19-23
+   pdf: "2025_Kohlbrenner_ICRA_GenTact"
+   site: "gentacttoolbox"
+   subteams: [control and artificial skin, carson] 
  - title: "A Machine Learning Approach to Contact Localization in Variable Density Three-Dimensional Tactile Artificial Skin"
    authors: Carson Kohlbrenner, Mitchell Murray, Yutong Zhang, Caleb Escobedo, Thomas Dunnington, Nolan Stevenson, Nikolaus Correll, Alessandro Roncone
    year: 2024

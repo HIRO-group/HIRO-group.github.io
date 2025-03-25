@@ -13,7 +13,10 @@
                         </div>
 
                         <div class="col-md-9">
-                            <h2>{{item.title}}{% if item.pdf %}<a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.pdf" target="_blank"> [PDF]</a><a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.bib" target="_blank"> [BIB]</a>{% endif %}</h2>
+                            <h2>{{item.title}}
+                                {% if item.pdf %}<a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.pdf" target="_blank"> [PDF]</a>
+                                <a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.bib" target="_blank"> [BIB]</a>
+                                {% if item.site %}<a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/{{ item.site }}{% endif %}" target="_blank"> [Website]</a>{% endif %}</h2>
                             <p><i>{{item.authors}}</i><br>
                             {% if item.description %}{{item.description}}{% endif %}
                             </p>
