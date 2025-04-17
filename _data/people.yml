@@ -114,6 +114,12 @@
    email: yutong.zhang.2000@colorado.edu
    pic: yutong.png
 
+ - name: Carson Kohlbrenner
+   role: phd
+   url: https://ckohl10.github.io
+   email: carson.kohlbrenner@colorado.edu
+   pic: carson.jpg
+
 # Graduate Students
 # [in order of first appearance in the lab]
  - name: Joe Miceli
@@ -171,11 +177,6 @@
    role: undergrad
    email: maec4462@coloardo.edu
    pic: eccles.jpg
-
- - name: Carson Kohlbrenner
-   role: undergrad
-   email: carson.kohlbrenner@colorado.edu
-   pic: carson.jpg
 
  - name: Caleb Kumar
    role: undergrad
