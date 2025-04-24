@@ -19,7 +19,7 @@ Are you an undergraduate or graduate student eager to dive into research this su
 - Strong writing skills.
 
 **How to Apply:**
-Please submit your application by emailing caleb.escobedo@colorado.edu with your CV by April 25th.
+Please submit your application by emailing caleb.escobedo@colorado.edu with your CV by May 2nd.
 
 **Compensation:**
 $20 per hour for 30 hours per week.
