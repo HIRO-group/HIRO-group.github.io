@@ -114,6 +114,12 @@
    email: yutong.zhang.2000@colorado.edu
    pic: yutong.png
 
+ - name: Carson Kohlbrenner
+   role: phd
+   url: https://ckohl10.github.io
+   email: carson.kohlbrenner@colorado.edu
+   pic: carson.png
+
 # Graduate Students
 # [in order of first appearance in the lab]
  - name: Shamal Shaikh
@@ -154,11 +160,6 @@
 
 # Undergraduate Students
 # [in order of first appearance in the lab]
-
- - name: Carson Kohlbrenner
-   role: undergrad
-   email: carson.kohlbrenner@colorado.edu
-   pic: carson.jpg
 
  - name: Noah Liska
    role: undergrad
