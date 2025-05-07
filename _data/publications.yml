@@ -1,3 +1,10 @@
+ - title: "Implicitly Aligning Humans and Autonomous Agents through Shared Task Abstractions"
+   authors: Stéphane Aroca-Ouellette, Miguel Aroca-Ouellette, Katharina von der Wense, Alessandro Roncone
+   year: 2025
+   venue: "International Joint Conference on Artificial Intelligence (IJCAI)"
+   where: Montreal, Canada, August 16-22
+   pdf: "2025_Aroca-Ouellette_IJCAI_HA2"
+   subteams: [algorithmic hri and human-ai teaming, stephane] 
  - title: "GenTact Toolbox: A Computational Design Pipeline to Procedurally Generate Context-Driven 3D Printed Whole-Body Artificial Skins"
    authors: Carson Kohlbrenner, Caleb Escobedo, S. Sandra Bae, Alexander Dickhans, Alessandro Roncone
    year: 2025
