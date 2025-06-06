@@ -61,9 +61,9 @@ With precise knowledge of the sensor unit’s position and orientation, we can l
 The sensor units are currently embedded with IMU and proximity sensors for calibration and collision anticipation algorithms.
 The next generation of sensors will include capacitive and force sensing to allow high-resolution tactile feedback from touch events. In particular, we can use this data for tactile-visual sensor fusion and tactile feature extraction when interacting with physical objects.
 
-<div class="row">
+{% comment %}<div class="row">
     {% include post-sorter.html subtype="roboskin" %}
-</div>
+</div>{% endcomment %}
 
 ## 1.3 Control Framework for Force Reduction and Human Anticipation
 
