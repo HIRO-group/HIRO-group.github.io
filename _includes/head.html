@@ -3,18 +3,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-    <meta name="viewport" content="width=device-width">
-    <meta name="description"        content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="viewport" content="width=device-width">{% if page.description %}
+    <meta name="description"        content="{{ page.description }}">{% endif %}{% if page.description %}
+    <meta property="og:description" content="{{ page.description }}">{% endif %}
     <meta name="google-site-verification" content="FmJO1IL7vp9BDzG5P2e4etTydX3u0BvAUmsaN1_jrXg" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-
-    {% for network in site.social %}
-    {% if network.title == "google-plus" %}
-    <link href="{{ network.url }}" rel="publisher" />
-    {% endif %}
-    {% endfor %}
 
     {% if page.type == "article" && page.img %}
     <meta name="thumbnail"    content="/img/portfolio/{{ page.img }}" />
