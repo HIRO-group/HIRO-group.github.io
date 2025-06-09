@@ -25,7 +25,7 @@
                                     {% endunless %}
                                         <div class="row">
                                         <div {% if subtype == "subteams" %}class="col-12"{% else %}class="col-xl-10"{% endif %}>
-                                        <h4 class="post-title">{{ post.title }}</h4>
+                                        <h4 class="post-title">{{ post.title }}{% unless post.nolink %} <i class="fa fa-fw fa-link"></i>{% endunless %}</h4>
                                         {% if page.type == "research" or subtype == "subteams" or page.type == "subteams" %}
                                             {% if post.description %}
                                                 <p class="post-description">{{ post.description }}</p>
