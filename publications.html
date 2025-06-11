@@ -21,9 +21,21 @@ years:
     <div class="container">
         <div id="article">
 
+        <div style="text-align:center">
+            <div class="pub-thesis" style="padding: 10px; display:inline-block">Thesis/Book</div>
+            <div class="pub-journal" style="padding: 10px; display:inline-block">Journal Article</div>
+            <div class="pub-conference" style="padding: 10px; display:inline-block">Conference Paper</div>
+            <div class="pub-workshop" style="padding: 10px; display:inline-block">Workshop Paper</div>
+        </div>
+
         {% for y in page.years %}
             <h1>{{ y }}</h1>
-            {% include pubs.html year=y publications=site.data.publications %}
+            {% include pubs-subteam.html year=y subteam="book" publications=site.data.publications %}
+            {% include pubs-subteam.html year=y subteam="thesis" publications=site.data.publications %}
+            {% include pubs-subteam.html year=y subteam="journal" publications=site.data.publications %}
+            {% include pubs-subteam.html year=y subteam="conference" publications=site.data.publications %}
+            {% include pubs-subteam.html year=y subteam="workshop" publications=site.data.publications %}
+            {% include pubs-subteam.html year=y subteam="other" publications=site.data.publications %}
         {% endfor %}
 
         </div>

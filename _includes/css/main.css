@@ -1193,9 +1193,38 @@ span.label:hover e.ok {
 
 #article .cv-item.award,
 #article .cv-item.award p
- {
+{
     color: #{{ site.color.banner }};
-    border-left-color: #{{ site.color.banner }};
+}
+
+#article .pub-thesis,
+#article .pub-book,
+#article .pub-journal,
+#article .pub-conference,
+#article .pub-workshop {
+    border-left: 6px solid;
+}
+
+#article .cv-item.pub-thesis,
+#article .pub-thesis            { 
+    border-left-color: #9467bd; 
+}
+
+#article .cv-item.pub-book,
+#article .pub-book {
+    border-left-color: #9467bd;
+}
+#article .cv-item.pub-journal,
+#article .pub-journal {
+    border-left-color: #1f77b4;
+}
+#article .cv-item.pub-conference,
+#article .pub-conference {
+    border-left-color: #ff7f0e;
+}
+#article .cv-item.pub-workshop,
+#article .pub-workshop {
+    border-left-color: #7f7f7f;
 }
 
 #article .pub p:last-child {

@@ -1,16 +1,33 @@
+        {% comment %}
+        This file allows you to display publications for a specific subteam. 
+        They are not ordered by year, but rather by keywords found in the `subteam` tag in the yml file.
+        To use this, include it in your page with the following parameters:
+        {% endcomment %}
+        {% comment %}
+        {% include pubs-subteam.html subteam=page.subtype publications=site.data.publications %}
+        {% endcomment %}
 
         {% for item in include.publications %}
-            {% assign tobedisplayed = false %}
-            {% for subteam in item.subteams %}
-                {% if include.subteam == subteam %}
-                    {% assign tobedisplayed = true %}
-                    {{ item.subteam }}
-                {% endif %}
-            {% endfor %}
+
+            {% if    include.year %}
+                {% if    include.year != item.year %}   {% continue %}  {% endif %}
+            {% endif %}
+
+            {% if include.subteam %}
+                {% assign tobedisplayed = false %}
+                {% for subteam in item.subteams %}
+                    {% if include.subteam == subteam %}
+                        {% assign tobedisplayed = true %}
+                    {% endif %}
+                {% endfor %}
+            {% else %}
+                {% assign tobedisplayed =  true %}
+            {% endif %}
+
                 {% if tobedisplayed == true %}
-                    <div class="row cv-item pub {% if item.award %}award{% endif %}">
+                    <div class="row cv-item pub {% if item.award %}award{% endif %} {% if include.subteam %}pub-{{include.subteam}}{% endif %}">
                         <div class="col-md-3">
-                            <h4 class="inlineifprinted">{{item.year}} {{item.venue}}</h4>
+                            <h4 class="inlineifprinted">{% unless include.year %}{{item.year}} {% endunless %}{{item.venue}}</h4>
                             {% if item.where %}<p  class="no-print d-none d-md-block">{{item.where}}</p>{% endif %}
                         </div>
 
