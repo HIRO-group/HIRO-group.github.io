@@ -10,11 +10,13 @@
                 <h1>{{ cvitem.name }}</h1>
 
                 {% if cvitem.name == "publications" %}
-                    {% include pubs-subteam.html subteam=page.subtype publications=site.data.publications %}
+                    {% include pubs.html subteam=page.subtype publications=site.data.publications %}
+                    {% comment %} AR: I don't understand what this does so I'll remove it
                     {% for y in page.pubyears %}
                         {% if y != "all" %}<h2>{{ y }}</h2>{% endif %}
                         {% include pubs.html year=y publications=cvitem.elems %}
                     {% endfor %}
+                    {% endcomment %}
                 {% elsif cvitem.name == "service" %}
                     {% for item in cvitem.elems %}
                         <div class="row cv-item">

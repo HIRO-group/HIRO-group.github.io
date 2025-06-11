@@ -98,7 +98,7 @@ Through this work we hope to determine when this method of communication is most
     <div class="container">
         <div id="article">
 
-            {% include pubs-subteam.html subteam=page.subtype publications=site.data.publications %}
+            {% include pubs.html subteam=page.subtype publications=site.data.publications %}
 
         </div>
     </div>

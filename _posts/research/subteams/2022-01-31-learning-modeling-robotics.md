@@ -129,7 +129,7 @@ Specifically, we are studying how reinforcement learning might be applied to aut
     <div class="container">
         <div id="article">
 
-            {% include pubs-subteam.html subteam=page.subtype publications=site.data.publications %}
+            {% include pubs.html subteam=page.subtype publications=site.data.publications %}
 
         </div>
     </div>

@@ -1,14 +1,33 @@
+        {% comment %}
+        This file allows you to display publications for a specific subteam. 
+        They are not ordered by year, but rather by keywords found in the `subteam` tag in the yml file.
+        To use this, include it in your page with the following parameters:
+        {% endcomment %}
+        {% comment %}
+        {% include pubs.html subteam=page.subtype publications=site.data.publications %}
+        {% endcomment %}
 
-            {% for item in include.publications %}
+        {% for item in include.publications %}
 
-                {% if include.year == "all" %} {% assign year =    item.year %}
-                {% else %}                     {% assign year = include.year %}
-                {% endif %}
+            {% if    include.year %}
+                {% if    include.year != item.year %}   {% continue %}  {% endif %}
+            {% endif %}
 
-                {% if year == item.year %}
-                    <div class="row cv-item pub {% if item.award %}award{% endif %}">
+            {% if include.subteam %}
+                {% assign tobedisplayed = false %}
+                {% for subteam in item.subteams %}
+                    {% if include.subteam == subteam %}
+                        {% assign tobedisplayed = true %}
+                    {% endif %}
+                {% endfor %}
+            {% else %}
+                {% assign tobedisplayed =  true %}
+            {% endif %}
+
+                {% if tobedisplayed == true %}
+                    <div class="row cv-item pub {% if item.award %}award{% endif %} {% if include.subteam %}pub-{{include.subteam}}{% endif %}">
                         <div class="col-md-3">
-                            <h4 class="inlineifprinted">{{item.venue}}</h4>
+                            <h4 class="inlineifprinted">{% unless include.year %}{{item.year}} {% endunless %}{{item.venue}}</h4>
                             {% if item.where %}<p  class="no-print d-none d-md-block">{{item.where}}</p>{% endif %}
                         </div>
 
@@ -17,8 +36,8 @@
                             <p><i>{{item.authors}}</i><br>
                             {% if item.description %}{{item.description}}{% endif %}
                             </p>
-                            {% if item.award %}<p class="award"><i class="fa fa-fw fa-trophy"></i> {{item.award}} <i class="fa fa-fw fa-trophy"></i></p> {% endif %}
+                            {% if item.award %}<p class="award"><i class="fa fa-fw fa-xl fa-trophy"></i> {{item.award}} <i class="fa fa-fw fa-xl fa-trophy"></i></p> {% endif %}
                         </div>
                     </div>
                 {% endif %}
-            {% endfor %}
+        {% endfor %}

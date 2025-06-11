@@ -91,7 +91,7 @@ Future work in this area will focus on gentle continuous contact interactions, l
     <div class="container">
         <div id="article">
 
-            {% include pubs-subteam.html subteam=page.subtype publications=site.data.publications %}
+            {% include pubs.html subteam=page.subtype publications=site.data.publications %}
 
         </div>
     </div>
