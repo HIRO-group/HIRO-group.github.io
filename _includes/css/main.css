@@ -1659,7 +1659,7 @@ pre code span:hover {
     }
 
     #article .cv-item {
-        border-left: 0px;
+        /* border-left-width: 4px; */
     }
 
     #article .cv-item div {
