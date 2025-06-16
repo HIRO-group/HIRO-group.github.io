@@ -19,9 +19,13 @@
                             {% for post in category[1] limit: pagelimit %}
                                 <div class="col-md-11 mx-auto portfolio-item" {% if subtype == "news" %}id="news"{% elsif subtype == "research" or subtype == "subteams" or page.type == "subteams" %}id="research"{% endif %}>
                                     {% unless post.nolink %}
-                                    <a href="{{ post.url }}" class="no-border portfolio-link" style="max-width:100%">
+                                        {% if post.extlink %}
+                                            <a href="{{ post.extlink }}" target="_blank" class="no-border portfolio-link" style="max-width:100%">
+                                        {% else %}
+                                            <a href="{{ post.url }}" class="no-border portfolio-link" style="max-width:100%">
+                                        {% endif %}
                                     {% else %}
-                                    <a class="no-border portfolio-link" style="max-width:100%">
+                                        <a class="no-border portfolio-link" style="max-width:100%">
                                     {% endunless %}
                                         <div class="row">
                                         <div {% if subtype == "subteams" %}class="col-12"{% else %}class="col-xl-10"{% endif %}>
