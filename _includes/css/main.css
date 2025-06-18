@@ -603,6 +603,10 @@ section h2 {
     margin-top: 40px;
 }
 
+section h3 {
+    font-size: 1.8em;
+}
+
 section h2,
 section h3 {
     text-align: left;
@@ -616,6 +620,20 @@ section.success {
 
 section.success p {
     /*color: #fff;*/
+}
+
+.funder-logos {
+  display: flex;
+  justify-content: space-evenly; /* distributes logos evenly */
+  align-items: center;
+  flex-wrap: wrap;              /* optional: wraps to new line if needed */
+  gap: 2rem;                    /* spacing between logos */
+  padding: 1rem 0;
+}
+
+.funder-logos img {
+  height: 80px;                 /* same height for all */
+  object-fit: contain;          /* maintains aspect ratio */
 }
 
 @media(max-width:575px) {
@@ -755,7 +773,7 @@ section {
 #article h3 {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-size: 1.17em;
+    font-size: 1.36em;
     padding-left: 6px;
     border-left-width: 15px;
 }
@@ -763,7 +781,7 @@ section {
 #article h4 {
     margin-top: 14px;
     margin-bottom: 6px;
-    font-size: 1em;
+    font-size: 1.2em;
     padding-left: 4px;
     border-left-width: 10px;
 }
