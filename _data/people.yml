@@ -124,7 +124,6 @@
 # [in order of first appearance in the lab]
  - name: Shamal Shaikh
    role: grad
-   url: shamal-shaikh
    email: shamal.shaikh@colorado.edu
    pic: shamal.jpg
 
@@ -142,7 +141,7 @@
 
  - name: Yashwant (Yash) Gandham
    role: grad
-   url: www.linkedin.com/in/g-yashwant
+   url: https://www.linkedin.com/in/g-yashwant
    email: yashwant.gandham@colorado.edu
    pic: Yashwant.png
    
@@ -262,6 +261,10 @@
  - name: Niharika Sathyanarayana
    role: alumni
    graduated: Fall 2024 [MS.]
+
+ - name: Upasana Biswas
+   role: alumni
+   noat: Arizona State University [Ph.D.]
 
  - name: Siva Gangadhar Pabbineedi
    role: alumni
