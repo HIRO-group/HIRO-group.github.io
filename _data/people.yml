@@ -133,12 +133,6 @@
    email: idriss.djiofackteledjieu@colorado.edu
    pic: idriss.jpg
 
- - name: Akshay Bakshi
-   role: grad
-   url: https://www.linkedin.com/in/akshayb8/
-   email: akshay.bakshi@colorado.edu
-   pic: AkshayBakshi.jpg
-
  - name: Yashwant (Yash) Gandham
    role: grad
    url: https://www.linkedin.com/in/g-yashwant
@@ -176,21 +170,11 @@
    email: weston.brach@colorado.edu
    pic: weston.jpg
 
- - name: Jennifer Kim
-   role: undergrad
-   email: jeki5853@colorado.edu
-   pic: jennifer.jpg
-  
  - name: Wei Jiang
    role: undergrad
    url: https://mr2wei.github.io
    email: wei.jiang@colorado.edu
    pic: wei.jpg
-
- - name: Jose Caraveo
-   role: undergrad
-   email: jose.caraveoherrera@colorado.edu
-   pic: josecaraveo.jpg
 
  - name: Nandini Nema
    role: undergrad
@@ -236,6 +220,20 @@
 
 # Alumni
 # [in inverse order of when they left the lab]
+
+ - name: Jennifer Kim
+   role: alumni
+   graduated: Spring 2025 [BS.]
+   nowat: EY
+
+ - name: Akshay Bakshi
+   role: alumni
+   graduated: Spring 2025 [MS.]
+   nowat: Dassault Systèmes
+
+ - name: Jose Caraveo Herrera
+   role: alumni
+
  - name: Sai Krishna Sriram
    role: alumni
 
