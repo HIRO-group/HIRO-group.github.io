@@ -13,6 +13,13 @@
    pdf: "2025_Kohlbrenner_ICRA_GenTact"
    site: "gentacttoolbox"
    subteams: [control and artificial skin, carson, conference, embodied intelligence]
+ - title: "CRED: Counterfactual Reasoning and Environment Design for Active Preference Learning"
+   authors: Yi-Shiuan Tung, Bradley Hayes, Alessandro Roncone
+   year: 2025
+   venue: "RSS Human-in-the-Loop Robot Learning: Teaching, Correcting, and Adapting Workshop"
+   where: Los Angeles, California, USA, June 25
+   pdf: "2025_Tung_RSS_workshop_CRED"
+   subteams: [algorithmic hri and human-ai teaming, yi-shiuan, workshop]
  - title: "A Machine Learning Approach to Contact Localization in Variable Density Three-Dimensional Tactile Artificial Skin"
    authors: Carson Kohlbrenner, Mitchell Murray, Yutong Zhang, Caleb Escobedo, Thomas Dunnington, Nolan Stevenson, Nikolaus Correll, Alessandro Roncone
    year: 2024
