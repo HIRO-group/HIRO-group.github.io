@@ -1,14 +1,14 @@
  - title: "Implicitly Aligning Humans and Autonomous Agents through Shared Task Abstractions"
    authors: Stéphane Aroca-Ouellette, Miguel Aroca-Ouellette, Katharina von der Wense, Alessandro Roncone
    year: 2025
-   venue: "International Joint Conference on Artificial Intelligence (IJCAI)"
+   venue: "International Joint Conference on Artificial Intelligence [IJCAI]"
    where: Montreal, Canada, August 16-22
    pdf: "2025_Aroca-Ouellette_IJCAI_HA2"
    subteams: [algorithmic hri and human-ai teaming, stephane, conference, social intelligence]
  - title: "GenTact Toolbox: A Computational Design Pipeline to Procedurally Generate Context-Driven 3D Printed Whole-Body Artificial Skins"
    authors: Carson Kohlbrenner, Caleb Escobedo, S. Sandra Bae, Alexander Dickhans, Alessandro Roncone
    year: 2025
-   venue: "IEEE International Conference on Robotics and Automation (ICRA)"
+   venue: "IEEE International Conference on Robotics and Automation [ICRA]"
    where: Atlanta, Georgia, USA, May 19-23
    pdf: "2025_Kohlbrenner_ICRA_GenTact"
    site: "gentacttoolbox"
@@ -23,7 +23,7 @@
  - title: "HARMONIOUS – Human-Like Reactive Motion Control and Multimodal Perception for Humanoid Robots"
    authors: Jakub Rozlivek, Alessandro Roncone, Ugo Pattacini, and Matej Hoffmann
    year: 2024
-   venue: IEEE Transactions on Robotics
+   venue: IEEE Transactions on Robotics [T-RO]
    pdf: "2024_Rozlivek_TRO_harmonious"
    subteams: [physical hri, journal, embodied intelligence]
  - title: "Towards Super-Nominal Payload Handling: Inverse Dynamics Analysis for Multi-Skill Robotic Manipulation"
