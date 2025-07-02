@@ -10,7 +10,7 @@
    year: 2025
    venue: "IEEE International Conference on Robotics and Automation [ICRA]"
    where: Atlanta, Georgia, USA, May 19-23
-   pdf: "2025_Kohlbrenner_ICRA_GenTact"
+   pdf: "2025_Kohlbrenner_ICRA_GenTactSkin"
    site: "gentacttoolbox"
    subteams: [control and artificial skin, carson, conference, embodied intelligence]
  - title: "A Machine Learning Approach to Contact Localization in Variable Density Three-Dimensional Tactile Artificial Skin"
