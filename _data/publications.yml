@@ -32,8 +32,8 @@
    year: 2025
    venue: "RSS Workshop on Scalable and Resilient Multi-Robot Systems: Decision-Making, Coordination, and Learning"
    where: Los Angeles, California, USA, June 25
-   pdf: "2025_Abdrezaei_RSS_workshop_NXPLAY"
-   subteams: [multi-team systems and human-ai teaming, ava, chi-hui, workshop, social intelligence]
+   pdf: "2025_Abderezaei_RSS_workshop_NXPLAY"
+   subteams: [algorithmic hri and human-ai teaming, ava, chi-hui, naren, stephane, workshop, social intelligence]
  - title: "A Machine Learning Approach to Contact Localization in Variable Density Three-Dimensional Tactile Artificial Skin"
    authors: Carson Kohlbrenner, Mitchell Murray, Yutong Zhang, Caleb Escobedo, Thomas Dunnington, Nolan Stevenson, Nikolaus Correll, Alessandro Roncone
    year: 2024
