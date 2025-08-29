@@ -1,3 +1,10 @@
+ - title: "Dynamics-Compliant Trajectory Diffusion for Super-Nominal Payload Manipulation"
+   authors: Anuj Pasricha, Joewie Koh, Jay Vakil, Alessandro Roncone
+   year: 2025
+   venue: "Conference on Robot Learning [CoRL]"
+   where: Seoul, Korea, September 27-30
+   pdf: "2025_Pasricha_CoRL"
+   subteams: [learning and modeling, anuj, conference, embodied intelligence]
  - title: "Employing Laban Shape for Generating Emotionally and Functionally Expressive Trajectories in Robotic Manipulators"
    authors: Srikrishna Bangalore Raghu, Clare Lohrmann, Akshay Bakshi, Jennifer Kim, Jose Caraveo Herrera, Bradley Hayes, Alessandro Roncone
    year: 2025
