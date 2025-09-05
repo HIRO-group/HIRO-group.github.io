@@ -40,16 +40,17 @@ For _{{ site.meetings.semester }}_, we will be holding group meetings **{{ site.
 
 Once you are **done with the preliminary steps**{:.color-banner} above, follow the instructions here to finalize your membership. You are expected to complete these tasks **within 2 days**{:.color-banner} of joining the group---these should not take you more than half an hour of work!
 
-## 2.1 Slack, GitHub, Shared Calendar, and Mailing List
+## 2.1 Teams, GitHub, Shared Calendar, and Mailing List
 
  1. If you don't already have a [GitHub](https://github.com) account, create one.
- 2. Send an email to **[Anuj Pasricha](mailto:anuj.pasricha@colorado.edu) and [Ava Abderezaei](mailto:ava.abderezaei@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) in Cc**{:.color-banner}. Include your:
+ 2. Send an email to **[Anuj Pasricha](mailto:anuj.pasricha@colorado.edu) and [Ava Abderezaei](mailto:ava.abderezaei@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) and the student who you will be working with in Cc**{:.color-banner}. Include your:
     - GitHub username
-    - Your **firstname.lastname@colorado.edu**{:.color-banner} email alias for our Slack and mailing list
- 3. Anuj and/or Ava will add you to our [Slack workspace](https://cu-hiro.slack.com), [GitHub organization](https://github.com/HIRO-group), shared Calendar, and [mailing list](https://lists.colorado.edu/sympa/info/hiro-group).
+    - Your **firstname.lastname@colorado.edu**{:.color-banner} email alias for our Teams and mailing list
+    - Who you will be working with
+ 3. Anuj and/or Ava will add you to Teams, [GitHub organization](https://github.com/HIRO-group), shared Calendar, and [mailing list](https://lists.colorado.edu/sympa/info/hiro-group).
     - Make your membership to the GitHub organization public.
-    - Say hi in `#general` on Slack! Do mention who you're working with, and a brief description of what you'll be working on.
-    - Please [install Slack on your machine and phone](https://slack.com/download) as well as on your phone. This helps you to easily keep up with what happens in the group, and you'll also be less likely to miss important messages.
+    - Say hi in `#general` on Teams! Do mention who you're working with, and a brief description of what you'll be working on.
+    - Please install Teams on your phone and machine. This helps you to easily keep up with what happens in the group, and you'll also be less likely to miss important messages.
 
 ## 2.2 Lab Agreements
 
