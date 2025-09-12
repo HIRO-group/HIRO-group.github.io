@@ -46,7 +46,8 @@ Once you are **done with the preliminary steps**{:.color-banner} above, follow t
  2. Send an email to **[Anuj Pasricha](mailto:anuj.pasricha@colorado.edu) and [Ava Abderezaei](mailto:ava.abderezaei@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) and the student who you will be working with in Cc**{:.color-banner}. Include your:
     - GitHub username
     - Your **firstname.lastname@colorado.edu**{:.color-banner} email alias for our Teams and mailing list
-    - Who you will be working with
+    - Who you will be working with 
+    - Short description of what you will be working on (one sentence or less)
  3. Anuj and/or Ava will add you to Teams, [GitHub organization](https://github.com/HIRO-group), shared Calendar, and [mailing list](https://lists.colorado.edu/sympa/info/hiro-group).
     - Make your membership to the GitHub organization public.
     - Say hi in `#general` on Teams! Do mention who you're working with, and a brief description of what you'll be working on.
