@@ -196,14 +196,14 @@
    role: undergrad
    email: anna.soukhovei@colorado.edu
    pic: anna_souk.png
-
-# High School Students
-# [in order of first appearance in the lab]
-
+  
  - name: Alex Dickhans
-   role: highschool
-   email: adickhans@gmail.com
+   role: undergrad
+   email: alex.dickhans@colorado.edu
    pic: alex.jpg
+
+# High School Students, use role: highschool
+# [in order of first appearance in the lab]
 
 # Collaborators
 # [in order of first appearance in the lab]
