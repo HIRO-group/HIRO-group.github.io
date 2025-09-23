@@ -5,13 +5,12 @@
    where: Seoul, Korea, September 27-30
    pdf: "2025_Pasricha_CoRL"
    subteams: [learning and modeling, anuj, conference, embodied intelligence]
- - title: "Employing Laban Shape for Generating Emotionally and Functionally Expressive Trajectories in Robotic Manipulators"
-   authors: Srikrishna Bangalore Raghu, Clare Lohrmann, Akshay Bakshi, Jennifer Kim, Jose Caraveo Herrera, Bradley Hayes, Alessandro Roncone
+ - title: "Gaze-informed signatures of trust and collaboration in human-autonomy teams"
+   authors: Anthony J. Ries, Stéphane Aroca-Ouellette, Alessandro Roncone, Ewart J. de Visser
    year: 2025
-   venue: "International Conference on Robot and Human Interactive Communication (RO-MAN)"
-   where: Eindhoven, Netherlands, August 25-29
-   pdf: "2025_BangaloreRaghu_ROMAN_LabanShape"
-   subteams: [algorithmic hri and human-ai teaming, srikrishna, conference, social intelligence] 
+   venue: "Computers in Human Behavior: Artificial Humans"
+   subteams: [algorithmic hri and human-ai teaming, stephane, journal, social intelligence]
+   pdf: "2025_Ries_gaze_informed"
  - title: "Implicitly Aligning Humans and Autonomous Agents through Shared Task Abstractions"
    authors: Stéphane Aroca-Ouellette, Miguel Aroca-Ouellette, Katharina von der Wense, Alessandro Roncone
    year: 2025
@@ -27,6 +26,13 @@
    pdf: "2025_Kohlbrenner_ICRA_GenTactSkin"
    site: "gentacttoolbox"
    subteams: [control and artificial skin, carson, conference, embodied intelligence]
+ - title: "Employing Laban Shape for Generating Emotionally and Functionally Expressive Trajectories in Robotic Manipulators"
+   authors: Srikrishna Bangalore Raghu, Clare Lohrmann, Akshay Bakshi, Jennifer Kim, Jose Caraveo Herrera, Bradley Hayes, Alessandro Roncone
+   year: 2025
+   venue: "International Conference on Robot and Human Interactive Communication (RO-MAN)"
+   where: Eindhoven, Netherlands, August 25-29
+   pdf: "2025_BangaloreRaghu_ROMAN_LabanShape"
+   subteams: [algorithmic hri and human-ai teaming, srikrishna, conference, social intelligence] 
  - title: "CRED: Counterfactual Reasoning and Environment Design for Active Preference Learning"
    authors: Yi-Shiuan Tung, Bradley Hayes, Alessandro Roncone
    year: 2025
