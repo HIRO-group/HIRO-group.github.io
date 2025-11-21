@@ -211,7 +211,7 @@
  - name: Stéphane Aroca-Ouellette
    role: alumni-spotlight
    url: https://stephao.github.io/
-   graduated: Graduated in Summer 2025 [Ph.D.]
+   graduated: Ph.D. student [2020-2025]
    nowat: Senior ML Research Scientist at Skyfall AI
    pic: stephane.png
 
@@ -235,6 +235,18 @@
    graduated: Post-doc [2020-2021]
    nowat: Research Scientist at Northeastern University
    pic: shiran.jpg
+
+ - name: Guohui Ding
+   role: alumni-spotlight
+   graduated: Ph.D. student [2018-2021]
+   nowat: Research Scientist at Meta [Facebook]
+   pic: guohui.jpg
+
+ - name: Chi-Ju Wu
+   role: alumni-spotlight
+   graduated: M.S. student [2019-2020]
+   nowat: at Waymo [previously Zoox]. First hire of the HIRO Group ❤️
+   pic: sayter.jpg
 
 # Alumni
 # [in inverse order of when they left the lab]
@@ -402,11 +414,6 @@
    email: misc4432@colorado.edu
    pic: mitchellscott.jpg
 
- - name: Guohui Ding
-   role: alumni
-   graduated: Spring 2021 [Ph.D.]
-   nowat: Facebook
-
  - name: Abhilash Jahagirdar
    role: alumni
    email: abhilash.jahagirdar@colorado.edu
@@ -433,12 +440,6 @@
    graduated: Spring 2019 [M.S.]
    nowat: Lumen
    pic: sayali.jpg
-
- - name: Chi-Ju Wu
-   role: alumni
-   graduated: Spring 2020 [M.S.]
-   nowat: Zoox
-   pic: sayter.jpg
 
  - name: Jacob Fiola
    role: alumni
