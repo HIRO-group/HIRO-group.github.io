@@ -57,12 +57,6 @@
    email: yi-shiuan.tung@colorado.edu
    pic: yishiuan.jpg
 
- - name: Stéphane Aroca-Ouellette
-   role: phd
-   url: https://stephao.github.io/
-   email: star7023@colorado.edu
-   pic: stephane.png
-
  - name: Clare Lohrmann
    role: phd
    email: clare.lohrmann@colorado.edu
@@ -128,12 +122,6 @@
    email: shamal.shaikh@colorado.edu
    pic: shamal.jpg
 
- - name: Idriss Djiofack Teledjieu
-   role: grad
-   url: https://idrissdjio.github.io
-   email: idriss.djiofackteledjieu@colorado.edu
-   pic: idriss.jpg
-
  - name: Yashwant (Yash) Gandham
    role: grad
    url: https://www.linkedin.com/in/g-yashwant
@@ -184,26 +172,11 @@
 # Undergraduate Students
 # [in order of first appearance in the lab]
 
- - name: Noah Liska
-   role: undergrad
-   email: noah.liska@colorado.edu
-   pic: noah.png
-
- - name: Weston Brach
-   role: undergrad
-   email: weston.brach@colorado.edu
-   pic: weston.jpg
-
  - name: Wei Jiang
    role: undergrad
    url: https://mr2wei.github.io
    email: wei.jiang@colorado.edu
    pic: wei.jpg
-
- - name: Nandini Nema
-   role: undergrad
-   email: nandini.nema@colorado.edu
-   pic: nandininema.jpg
 
  - name: Anna Soukhovei
    role: undergrad
@@ -226,24 +199,68 @@
    email: yaashia.gautam@colorado.edu
    pic: yaashia.jpg
 
- - name: Anujay Sharma
-   role: collaborator
-   email: asharma6@wpi.edu
-   pic: anujay.jpg
-
- - name: Sandra Bae
-   role: collaborator
-   email: sandra.bae@colorado.edu
-   pic: sandra.png
-
  - name: Joe Miceli
    role: collaborator
    linkedin: joseph-miceli
    email: joe.miceli@colorado.edu
    pic: jmiceli.jpg
 
+# Alumni Spotlight
+# [in inverse order of when they left the lab]
+
+ - name: Stéphane Aroca-Ouellette
+   role: alumni-spotlight
+   url: https://stephao.github.io/
+   graduated: Graduated in Summer 2025 [Ph.D.]
+   nowat: Senior ML Research Scientist at Skyfall AI
+   pic: stephane.png
+
+ - name: Sandra Bae
+   role: alumni-spotlight
+   url: https://sandrabae.github.io/
+   graduated: Graduated in Spring 2025 [Ph.D.]
+   nowat: Assistant Professor at Arizona State University
+   pic: sandra.png
+
+ - name: Matthew Strong
+   role: alumni-spotlight
+   url: https://peasant98.github.io/
+   graduated: Graduated in Spring 2021 [BS.]
+   nowat: Ph.D. student at Stanford University
+   pic: mstrong.jpg
+
+ - name: Shiran Dudy
+   role: alumni-spotlight
+   url: http://www.shirandudy.com
+   graduated: Post-doc [2020-2021]
+   nowat: Research Scientist at Northeastern University
+   pic: shiran.jpg
+
 # Alumni
 # [in inverse order of when they left the lab]
+
+ - name: Idriss Djiofack Teledjieu
+   role: alumni
+   url: https://idrissdjio.github.io
+   email: idriss.djiofackteledjieu@colorado.edu
+   graduated: Spring 2025 [MS.]
+   nowat: Matlab
+   pic: idriss.jpg
+
+ - name: Weston Brach
+   role: alumni
+   email: weston.brach@colorado.edu
+   pic: weston.jpg
+
+ - name: Noah Liska
+   role: alumni
+   email: noah.liska@colorado.edu
+   pic: noah.png
+
+ - name: Nandini Nema
+   role: alumni
+   email: nandini.nema@colorado.edu
+   pic: nandininema.jpg
 
  - name: Jennifer Kim
    role: alumni
@@ -338,13 +355,6 @@
    email: mary.west@colorado.edu
    pic: mary.png
 
- - name: Shiran Dudy
-   role: alumni
-   url: http://www.shirandudy.com
-   email: shiran.dudy@colorado.edu
-   pic: shiran.jpg
-   nowat: Northeastern University [Research Scientist]
-
  - name: Justin Brand
    role: alumni
    linkedin: justin-brand
@@ -358,16 +368,6 @@
    graduated: Spring 2022 [BS.]
    email: yuha2716@coloardo.edu
    pic: yuri.jpg
-
- - name: Matthew Strong
-   role: alumni
-   linkedin: matthewhstrong
-   phone: +1 (720) 626 4057
-   email: mast4878@colorado.edu
-   pic: mstrong.jpg
-   graduated: Spring 2021 [BS.]
-   nowat: Stanford University [Ph.D.]
-   url: https://www.colorado.edu/cs/matthew-strong-research-award
 
  - name: Abhidip Bhattacharyya
    role: alumni

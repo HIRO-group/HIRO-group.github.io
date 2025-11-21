@@ -16,11 +16,11 @@
                     <img src="{% if person.pic %}/img/people/{{ person.pic }}{% else %}{{ site.logopng }}{% endif %}" class="img-fluid big-card-img" style="width: 100%;" align="middle">
                 </div>
                 <div class="col-sm-9">
-                  <div class="card-body">
-                    <h3 class="card-title">{{ person.name }} {% if person.email  %}<a href="mailto:{{ person.email }}"        class="card-link"><i class="fa fa-fw fa-envelope"></i></a>{% endif %}
-                      {% if person.url    %}<a href="{{ person.url }}" target="_blank" class="card-link"><i class="fa fa-fw fa-home"    ></i></a>{% endif %}</h3>
+                  <div class="card-body" style="padding-left: 0;">
+                    <h4 class="card-title">{{ person.name }} {% if person.email  %}<a href="mailto:{{ person.email }}"        class="card-link"><i class="fa fa-fw fa-envelope"></i></a>{% endif %}
+                      {% if person.url    %}<a href="{{ person.url }}" target="_blank" class="card-link"><i class="fa fa-fw fa-home"    ></i></a>{% endif %}</h4>
                     <p class="card-text">
-                      {% if person.graduated %}Graduated in {{ person.graduated }}{% endif %}{% if person.nowat %}, now at {{ person.nowat }}{% endif %}.
+                      {% if person.graduated %}{{ person.graduated }}{% endif %}{% if person.nowat %}, now {{ person.nowat }}{% endif %}.
                     </p>
                   </div>
                 </div>
