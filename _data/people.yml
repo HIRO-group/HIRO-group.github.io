@@ -157,11 +157,15 @@
    email: Steve.Gillet@colorado.edu
    pic: steveGillet.jpg
 
- - name: Nick Jackoski
+ - name: Ekshan Raj Verma
    role: grad
-   url: https://www.linkedin.com/in/nickolaus-jackoski/
-   email: Nick.Jackoski@colorado.edu
-   pic: nickjackoski.jpg
+   url: https://www.linkedin.com/in/ekshan-raj-verma/
+   email: EkshanRaj.Verma@colorado.edu
+   pic: ekshan.jpg
+
+
+# Undergraduate Students
+# [in order of first appearance in the lab]
 
  - name: Vincent Pietropaolo
    role: grad
