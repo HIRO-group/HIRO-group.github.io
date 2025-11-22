@@ -4,76 +4,84 @@ permalink: people.html
 type: people
 description: "List of members of the Human Interaction and RObotics group"
 roles:
- - faculty
- - labmanager
- - postdoc
- - phd
- - grad
- - undergrad
- - highschool
- - collaborator
- - alumni
+- faculty
+- labmanager
+- postdoc
+- phd
+- grad
+- undergrad
+- highschool
+- collaborator
+- alumni-spotlight
+- alumni
 ---
 
 <section id="post-cv">
     <div class="container">
         <div id="article">
 
-        {% include image.html url="group_pics/2025_09.gif" max-width="100%" description="It turns out, when your lab is big enough, you can make a rainbow!" %}
+            {% include image.html url="group_pics/2025_09.gif" max-width="100%" description="It turns out, when your lab is big enough, you can make a rainbow. Or, the Italian flag!" %}
 
-        {% include ppl.html role="faculty" size="big" %}
+            {% include ppl.html role="faculty" size="big" %}
 
-        {% assign labmanager = site.data.people | where:"role","labmanager" %}
-        {% if labmanager != blank %}
-        <h1>Lab Manager</h1>
+            {% assign labmanager = site.data.people | where:"role","labmanager" %}
+            {% if labmanager != blank %}
+            <h1>Lab Manager</h1>
 
-        {% include ppl.html role="labmanager" %}
-        {% endif %}
+            {% include ppl.html role="labmanager" size="big" %}
+            {% endif %}
 
-        {% assign postdoc = site.data.people | where:"role","postdoc" %}
-        {% if postdoc != blank %}
-        <h1>Postdocs</h1>
+            {% assign postdoc = site.data.people | where:"role","postdoc" %}
+            {% if postdoc != blank %}
+            <h1>Postdocs</h1>
 
-        {% include ppl.html role="postdoc" %}
-        {% endif %}
+            {% include ppl.html role="postdoc" size="big" %}
+            {% endif %}
 
-        {% assign phd = site.data.people | where:"role","phd" %}
-        {% if phd != blank %}
-        <h1>PhD Students</h1>
+            {% assign phd = site.data.people | where:"role","phd" %}
+            {% if phd != blank %}
+            <h1>PhD Students</h1>
 
-        {% include ppl.html role="phd" %}
-        {% endif %}
+            {% include ppl.html role="phd" %}
+            {% endif %}
 
-        <h1>Graduate Students</h1>
+            <h1>Graduate Students</h1>
 
-        {% include ppl.html role="grad" %}
+            {% include ppl.html role="grad" %}
 
-        <h1>Undergraduate Research Assistants</h1>
+            <h1>Undergraduate Research Assistants</h1>
 
-        {% include ppl.html role="undergrad" %}
+            {% include ppl.html role="undergrad" %}
 
-        {% assign highschool = site.data.people | where:"role","highschool" %}
-        {% if highschool != blank %}
-        <h1>High School Research Assistants</h1>
+            {% assign highschool = site.data.people | where:"role","highschool" %}
+            {% if highschool != blank %}
+            <h1>High School Research Assistants</h1>
 
-        {% include ppl.html role="highschool" %}
-        {% endif %}
+            {% include ppl.html role="highschool" %}
+            {% endif %}
 
-        {% assign collaborator = site.data.people | where:"role","collaborator" %}
-        {% if collaborator != blank %}
-        <h1>External Collaborators</h1>
+            {% assign collaborator = site.data.people | where:"role","collaborator" %}
+            {% if collaborator != blank %}
+            <h1>External Collaborators</h1>
 
-        {% include ppl.html role="collaborator" %}
-        {% endif %}
+            {% include ppl.html role="collaborator" %}
+            {% endif %}
 
-        {% assign alumni = site.data.people | where:"role","alumni" %}
-        {% if alumni != blank %}
-        <h1>Alumni</h1>
+            {% assign alumni-spotlight = site.data.people | where:"role","alumni-spotlight" %}
+            {% if alumni-spotlight != blank %}
+            <h1>Alumni Spotlight</h1>
 
-        <ul>
-        {% include ppl.html role="alumni" %}
-        </ul>
-        {% endif %}
+            {% include ppl.html role="alumni-spotlight" size="medium" %}
+            {% endif %}
+
+            {% assign alumni = site.data.people | where:"role","alumni" %}
+            {% if alumni != blank %}
+            <h1>Alumni</h1>
+
+            <ul>
+                {% include ppl.html role="alumni" %}
+            </ul>
+            {% endif %}
 
         </div>
     </div>
