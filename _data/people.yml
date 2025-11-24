@@ -7,12 +7,13 @@
    pic: alecive.jpg
 
 #lab Manager
- - name: Dusty Woods
+ - name: Lyle Antieau
    role: labmanager
+   url: https://www.linkedin.com/in/lyle-iii
    office: ECES 111
-   phone: +1 (303) 735-5953
-   email: dewo3276@colorado.edu
-   pic: dusty.jpg
+   phone: +1 (734) 624-1204
+   email: lyle.antieau@colorado.edu
+   pic: lyle.jpg
 
 # Postdocs
 
@@ -55,12 +56,6 @@
    url: https://yi-shiuan-tung.github.io
    email: yi-shiuan.tung@colorado.edu
    pic: yishiuan.jpg
-
- - name: Stéphane Aroca-Ouellette
-   role: phd
-   url: https://stephao.github.io/
-   email: star7023@colorado.edu
-   pic: stephane.png
 
  - name: Clare Lohrmann
    role: phd
@@ -121,30 +116,7 @@
    pic: carson.png
 
 # Graduate Students
-# [in order of first appearance in the lab]
- - name: Shamal Shaikh
-   role: grad
-   email: shamal.shaikh@colorado.edu
-   pic: shamal.jpg
-
- - name: Idriss Djiofack Teledjieu
-   role: grad
-   url: https://idrissdjio.github.io
-   email: idriss.djiofackteledjieu@colorado.edu
-   pic: idriss.jpg
-
- - name: Akshay Bakshi
-   role: grad
-   url: https://www.linkedin.com/in/akshayb8/
-   email: akshay.bakshi@colorado.edu
-   pic: AkshayBakshi.jpg
-
- - name: Yashwant (Yash) Gandham
-   role: grad
-   url: https://www.linkedin.com/in/g-yashwant
-   email: yashwant.gandham@colorado.edu
-   pic: Yashwant.png
-   
+# [in order of first appearance in the lab]   
  - name: Rahul Shetty
    role: grad
    url: https://www.linkedin.com/in/rahul-shetty-8b417a179
@@ -163,52 +135,56 @@
    email: samiksha.patil-1@colorado.edu
    pic: SamikshaPatil.jpg
 
+ - name: Klara Nitsche
+   role: grad
+   linkedin: klara-nitsche
+   email: Klara.Nitsche@colorado.edu
+   pic: klara.jpeg
+
+ - name: Patrick Liu
+   role: grad
+   url: https://www.linkedin.com/in/patrickpliu1460/
+   email: patrick.liu-1@colorado.edu
+   pic: patrickliu.png
+
+ - name: Steve Gillet
+   role: grad
+   email: Steve.Gillet@colorado.edu
+   pic: steveGillet.jpg
+
+ - name: Nick Jackoski
+   role: grad
+   url: https://www.linkedin.com/in/nickolaus-jackoski/
+   email: Nick.Jackoski@colorado.edu
+   pic: nickjackoski.jpg
+
+ - name: Vincent Pietropaolo
+   role: grad
+   url: https://www.linkedin.com/in/vincent-pietropaolo/
+   email: vincent.pietropaolo@colorado.edu
+   pic: vincentPietropaolo.jpg
+
 # Undergraduate Students
 # [in order of first appearance in the lab]
 
- - name: Noah Liska
-   role: undergrad
-   email: noah.liska@colorado.edu
-   pic: noah.png
-
- - name: Weston Brach
-   role: undergrad
-   email: weston.brach@colorado.edu
-   pic: weston.jpg
-
- - name: Jennifer Kim
-   role: undergrad
-   email: jeki5853@colorado.edu
-   pic: jennifer.jpg
-  
  - name: Wei Jiang
    role: undergrad
    url: https://mr2wei.github.io
    email: wei.jiang@colorado.edu
    pic: wei.jpg
 
- - name: Jose Caraveo
-   role: undergrad
-   email: jose.caraveoherrera@colorado.edu
-   pic: josecaraveo.jpg
-
- - name: Nandini Nema
-   role: undergrad
-   email: nandini.nema@colorado.edu
-   pic: nandininema.jpg
-
  - name: Anna Soukhovei
    role: undergrad
    email: anna.soukhovei@colorado.edu
    pic: anna_souk.png
-
-# High School Students
-# [in order of first appearance in the lab]
-
+  
  - name: Alex Dickhans
-   role: highschool
-   email: adickhans@gmail.com
+   role: undergrad
+   email: alex.dickhans@colorado.edu
    pic: alex.jpg
+
+# High School Students, use role: highschool
+# [in order of first appearance in the lab]
 
 # Collaborators
 # [in order of first appearance in the lab]
@@ -218,30 +194,109 @@
    email: yaashia.gautam@colorado.edu
    pic: yaashia.jpg
 
- - name: Anujay Sharma
-   role: collaborator
-   email: asharma6@wpi.edu
-   pic: anujay.jpg
-
- - name: Sandra Bae
-   role: collaborator
-   email: sandra.bae@colorado.edu
-   pic: sandra.png
-
  - name: Joe Miceli
    role: collaborator
    linkedin: joseph-miceli
    email: joe.miceli@colorado.edu
    pic: jmiceli.jpg
 
- - name: Klara Nitsche
-   role: collaborator
-   linkedin: klara-nitsche
-   email: Klara.Nitsche@colorado.edu
-   pic: klara.jpeg
+# Alumni Spotlight
+# [in inverse order of when they left the lab]
+
+ - name: Stéphane Aroca-Ouellette
+   role: alumni-spotlight
+   url: https://stephao.github.io/
+   graduated: HIRO Ph.D. [2020-2025]
+   nowat: Senior ML Research Scientist at Skyfall AI
+   pic: stephane.png
+
+ - name: Sandra Bae
+   role: alumni-spotlight
+   url: https://sandrabae.github.io/
+   graduated: Ph.D., 2025. 
+   nowat: Assistant Professor at Arizona State University
+   pic: sandra.png
+
+ - name: Matthew Strong
+   role: alumni-spotlight
+   url: https://peasant98.github.io/
+   graduated: BS. Student [2019-2021]
+   nowat: Ph.D. student at Stanford University
+   pic: mstrong.jpg
+
+ - name: Shiran Dudy
+   role: alumni-spotlight
+   url: http://www.shirandudy.com
+   graduated: Post-doc [2020-2021]
+   nowat: Research Scientist at Northeastern University
+   pic: shiran.jpg
+
+ - name: Guohui Ding
+   role: alumni-spotlight
+   graduated: HIRO Ph.D. [2018-2021]
+   nowat: Research Scientist at Meta [Facebook]
+   pic: guohui.jpg
+
+ - name: Chi-Ju Wu
+   role: alumni-spotlight
+   graduated: M.S. student [2019-2020]
+   nowat: at Waymo [previously Zoox]. First hire of the HIRO Group ❤️
+   pic: sayter.jpg
 
 # Alumni
 # [in inverse order of when they left the lab]
+
+ - name: Idriss Djiofack Teledjieu
+   role: alumni
+   url: https://idrissdjio.github.io
+   email: idriss.djiofackteledjieu@colorado.edu
+   graduated: Spring 2025 [MS.]
+   nowat: Matlab
+   pic: idriss.jpg
+
+ - name: Shamal Shaikh
+   role: alumni
+   email: shamal.shaikh@colorado.edu
+   graduated: Spring 2025 [MS.]
+   nowat: Goldman Sachs
+   pic: shamal.jpg
+
+ - name: Yashwant (Yash) Gandham
+   role: alumni
+   url: https://www.linkedin.com/in/g-yashwant
+   email: yashwant.gandham@colorado.edu
+   graduated: Spring 2025 [MS.]
+   nowat: Boulder AI & Systems Infrastructure Lab / NovaChat AI
+   pic: Yashwant.png
+
+ - name: Weston Brach
+   role: alumni
+   email: weston.brach@colorado.edu
+   pic: weston.jpg
+
+ - name: Noah Liska
+   role: alumni
+   email: noah.liska@colorado.edu
+   pic: noah.png
+
+ - name: Nandini Nema
+   role: alumni
+   email: nandini.nema@colorado.edu
+   pic: nandininema.jpg
+
+ - name: Jennifer Kim
+   role: alumni
+   graduated: Spring 2025 [BS.]
+   nowat: EY
+
+ - name: Akshay Bakshi
+   role: alumni
+   graduated: Spring 2025 [MS.]
+   nowat: Dassault Systèmes
+
+ - name: Jose Caraveo Herrera
+   role: alumni
+
  - name: Sai Krishna Sriram
    role: alumni
 
@@ -250,6 +305,7 @@
 
  - name: Caleb Kumar
    role: alumni
+   nowat: Laboratory for for Atmospheric and Space Physics (LASP)
 
  - name: Matthew Eccles
    role: alumni
@@ -270,7 +326,7 @@
 
  - name: Upasana Biswas
    role: alumni
-   noat: Arizona State University [Ph.D.]
+   nowat: Arizona State University [Ph.D.]
 
  - name: Siva Gangadhar Pabbineedi
    role: alumni
@@ -322,13 +378,6 @@
    email: mary.west@colorado.edu
    pic: mary.png
 
- - name: Shiran Dudy
-   role: alumni
-   url: http://www.shirandudy.com
-   email: shiran.dudy@colorado.edu
-   pic: shiran.jpg
-   nowat: Northeastern University [Research Scientist]
-
  - name: Justin Brand
    role: alumni
    linkedin: justin-brand
@@ -342,16 +391,6 @@
    graduated: Spring 2022 [BS.]
    email: yuha2716@coloardo.edu
    pic: yuri.jpg
-
- - name: Matthew Strong
-   role: alumni
-   linkedin: matthewhstrong
-   phone: +1 (720) 626 4057
-   email: mast4878@colorado.edu
-   pic: mstrong.jpg
-   graduated: Spring 2021 [BS.]
-   nowat: Stanford University [Ph.D.]
-   url: https://www.colorado.edu/cs/matthew-strong-research-award
 
  - name: Abhidip Bhattacharyya
    role: alumni
@@ -386,11 +425,6 @@
    email: misc4432@colorado.edu
    pic: mitchellscott.jpg
 
- - name: Guohui Ding
-   role: alumni
-   graduated: Spring 2021 [Ph.D.]
-   nowat: Facebook
-
  - name: Abhilash Jahagirdar
    role: alumni
    email: abhilash.jahagirdar@colorado.edu
@@ -417,12 +451,6 @@
    graduated: Spring 2019 [M.S.]
    nowat: Lumen
    pic: sayali.jpg
-
- - name: Chi-Ju Wu
-   role: alumni
-   graduated: Spring 2020 [M.S.]
-   nowat: Zoox
-   pic: sayter.jpg
 
  - name: Jacob Fiola
    role: alumni
