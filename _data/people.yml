@@ -116,18 +116,7 @@
    pic: carson.png
 
 # Graduate Students
-# [in order of first appearance in the lab]
- - name: Shamal Shaikh
-   role: grad
-   email: shamal.shaikh@colorado.edu
-   pic: shamal.jpg
-
- - name: Yashwant (Yash) Gandham
-   role: grad
-   url: https://www.linkedin.com/in/g-yashwant
-   email: yashwant.gandham@colorado.edu
-   pic: Yashwant.png
-   
+# [in order of first appearance in the lab]   
  - name: Rahul Shetty
    role: grad
    url: https://www.linkedin.com/in/rahul-shetty-8b417a179
@@ -211,21 +200,21 @@
  - name: Stéphane Aroca-Ouellette
    role: alumni-spotlight
    url: https://stephao.github.io/
-   graduated: Ph.D. student [2020-2025]
+   graduated: HIRO Ph.D. [2020-2025]
    nowat: Senior ML Research Scientist at Skyfall AI
    pic: stephane.png
 
  - name: Sandra Bae
    role: alumni-spotlight
    url: https://sandrabae.github.io/
-   graduated: Graduated in Spring 2025 [Ph.D.]
+   graduated: Ph.D., 2025. 
    nowat: Assistant Professor at Arizona State University
    pic: sandra.png
 
  - name: Matthew Strong
    role: alumni-spotlight
    url: https://peasant98.github.io/
-   graduated: Graduated in Spring 2021 [BS.]
+   graduated: BS. Student [2019-2021]
    nowat: Ph.D. student at Stanford University
    pic: mstrong.jpg
 
@@ -238,7 +227,7 @@
 
  - name: Guohui Ding
    role: alumni-spotlight
-   graduated: Ph.D. student [2018-2021]
+   graduated: HIRO Ph.D. [2018-2021]
    nowat: Research Scientist at Meta [Facebook]
    pic: guohui.jpg
 
@@ -258,6 +247,21 @@
    graduated: Spring 2025 [MS.]
    nowat: Matlab
    pic: idriss.jpg
+
+ - name: Shamal Shaikh
+   role: alumni
+   email: shamal.shaikh@colorado.edu
+   graduated: Spring 2025 [MS.]
+   nowat: Goldman Sachs
+   pic: shamal.jpg
+
+ - name: Yashwant (Yash) Gandham
+   role: alumni
+   url: https://www.linkedin.com/in/g-yashwant
+   email: yashwant.gandham@colorado.edu
+   graduated: Spring 2025 [MS.]
+   nowat: Boulder AI & Systems Infrastructure Lab / NovaChat AI
+   pic: Yashwant.png
 
  - name: Weston Brach
    role: alumni
@@ -295,6 +299,7 @@
 
  - name: Caleb Kumar
    role: alumni
+   nowat: Laboratory for for Atmospheric and Space Physics (LASP)
 
  - name: Matthew Eccles
    role: alumni
@@ -315,7 +320,7 @@
 
  - name: Upasana Biswas
    role: alumni
-   noat: Arizona State University [Ph.D.]
+   nowat: Arizona State University [Ph.D.]
 
  - name: Siva Gangadhar Pabbineedi
    role: alumni
