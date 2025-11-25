@@ -83,10 +83,10 @@ defaults:
 
 # Default colors (hex-codes without the leading hash-tag):
 color:
-  banner: 66a329                            # This is a green banner color (for red, use bf4040)
-  articletext: 3c3c3c                       # This is the text color
-  primary:  ffffff                          # This is the background of the logo, light gray
-  secondary: 282828                         # This is dark gray
-  secondary-alpha: rgba(40,40,40,.7)        # This is the same as the secondary color but with an alpha value
+  banner: "66a329"                            # This is a green banner color (for red, use bf4040)
+  articletext: "000000"                       # This is the text color
+  primary: "ffffff"                          # This is the background of the logo, light gray
+  secondary: "000000"                         # This is dark gray
+  secondary-alpha: rgba(0,0,0,.7)        # This is the same as the secondary color but with an alpha value
   # accent: 4982a7
-  accent: 00a0a0                            # This is an electric blue accent
+  accent: "00a0a0"                            # This is an electric blue accent
