@@ -66,17 +66,17 @@ a {
 
 .navbar-nav .nav-link,
 footer a {
-    color: #fff;
+    color: #{{ site.color.primary }};
 }
 
 *::selection {
   background:  #{{ site.color.accent }};
-  color: white;
+  color: #{{ site.color.primary }};
 }
 
 *::-moz-selection {
   background:  #{{ site.color.accent }};
-  color: white;
+  color: #{{ site.color.primary }};
 }
 
 button:focus {
@@ -116,7 +116,7 @@ header img:hover,
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.active:hover,
 .navbar-nav .nav-link.active:focus {
-    color: #fff;
+    color: #{{ site.color.primary }};
 }
 
 .cv-img:hover,
@@ -233,7 +233,7 @@ ul {
 
 header {
     text-align: center;
-    /*color: #fff;*/
+    /*color: #{{ site.color.primary }};*/
     background: #{{ site.color.primary }};
 }
 
@@ -327,7 +327,7 @@ header .intro-text .owner {
 }
 
 .navbar-nav .nav-link {
-    color: white;
+    color: #{{ site.color.primary }};
     margin-top: 6px;
     padding-top:    20px;
     padding-bottom: 20px;
@@ -418,7 +418,7 @@ header .intro-text .owner {
 
     header .intro-text .name,
     header .intro-text .owner {
-        color: #fff;
+        color: #{{ site.color.primary }};
     }
 
     .logo-img {
@@ -482,8 +482,8 @@ header .intro-text .owner {
 
     .navbar-toggler span {
         display: block;
-        color: #fff !important;
-        background-color: #fff !important;
+        color: #{{ site.color.primary }} !important;
+        background-color: #{{ site.color.primary }} !important;
         height: 2px;
         width: 28px;
         margin-top: 6px;
@@ -572,7 +572,7 @@ header .intro-text .owner {
     font-weight: bold;
     margin-bottom: 0px;
     background-color: #{{ site.color.banner }};
-    color: #fff;
+    color: #{{ site.color.primary }};
 }
 
 .about-banner,
@@ -613,13 +613,13 @@ section h3 {
 }
 
 section.success {
-    /*color: #fff;*/
+    /*color: #{{ site.color.primary }};*/
     background-color: #{{ site.color.primary }};
     /*background-image: url('/img/bg.png');*/
 }
 
 section.success p {
-    /*color: #fff;*/
+    /*color: #{{ site.color.primary }};*/
 }
 
 .funder-logos {
@@ -1062,12 +1062,12 @@ pre code {
 }
 
 #article table.table thead tr th {
-    color: #fff;
+    color: #{{ site.color.primary }};
     background-color: #{{ site.color.secondary }};
 }
 
 #article table.table thead tr th strong {
-    color: #fff;
+    color: #{{ site.color.primary }};
 }
 
 #article table.table tbody tr:nth-child(odd) td,
@@ -1115,7 +1115,7 @@ pre code {
 }
 
 span {
-    /*color: #fff;*/
+    /*color: #{{ site.color.primary }};*/
     border: none;
     border-radius: 0;
     text-transform: uppercase;
@@ -1127,7 +1127,7 @@ span {
 span:hover,
 span:focus,
 span:active {
-    /*color: #fff;*/
+    /*color: #{{ site.color.primary }};*/
     background-color: #{{ site.color.secondary }};
 }
 
@@ -1179,7 +1179,7 @@ span.label:hover e.ok {
     height: 100%;
     /*font-size: 0.82em;*/
     line-height: 22px;
-    /*color: #FFF;*/
+    /*color: #{{ site.color.primary }};*/
     text-align: center;
     margin-right: 20px;
     background-color: #{{ site.color.secondary }};
@@ -1192,7 +1192,7 @@ span.label:hover e.ok {
     /*font-size: 0.82em;*/
     padding: 0px 30px 0px 10px;
     line-height: 22px;
-    color: #FFF;
+    color: #{{ site.color.primary }};
     background-color: #{{ site.color.secondary }};
 }
 
@@ -1376,7 +1376,7 @@ p.award i {
     height: 20px;
     margin-top: -12px;
     text-align: center;
-    color: #fff;
+    color: #{{ site.color.primary }};
     padding-left:  10px;
     padding-right: 10px;
 }
@@ -1385,7 +1385,7 @@ p.award i {
     margin-top: -50px;
     margin-bottom: 10px;
     text-align: center;
-    color: #fff;
+    color: #{{ site.color.primary }};
     font-size: 4em;
     line-height: 1.1em;
     font-weight: 600;
@@ -1401,7 +1401,7 @@ p.award i {
     margin-top: 4px;
     border: solid 2px #fff;
     font-size: 20px;
-    color: #fff;
+    color: #{{ site.color.primary }};
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -1427,13 +1427,13 @@ p.award i {
 }
 
 .btn-other:hover {
-    color: #fff;
+    color: #{{ site.color.primary }};
 }
 
 .btn-default,
 #article a .btn-danger,
 .btn-danger {
-    color: #fff;
+    color: #{{ site.color.primary }};
     border: none;
     background-color: #{{ site.color.secondary }};
     border-radius: 0;
@@ -1444,13 +1444,13 @@ p.award i {
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active {
-    color: #fff;
+    color: #{{ site.color.primary }};
     background-color: #{{ site.color.secondary }};
 }
 
 #article a .btn-danger,
 .btn-danger {
-    color: #fff !important;
+    color: #{{ site.color.primary }} !important;
     background-color: #{{ site.color.banner }};
 }
 
@@ -1464,7 +1464,7 @@ p.award i {
 }
 
 footer {
-    color: #fff;
+    color: #{{ site.color.primary }};
 }
 
 footer h3 {
@@ -1512,7 +1512,7 @@ footer .footer-below {
 }
 
 .scroll-top .btn:focus {
-    color: #fff;
+    color: #{{ site.color.primary }};
     background-color: #{{ site.color.secondary }};
 }
 
