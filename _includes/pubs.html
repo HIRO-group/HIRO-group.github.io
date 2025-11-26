@@ -32,7 +32,7 @@
                         </div>
 
                         <div class="col-md-9">
-                            <h2>{{item.title}}{% if item.pdf %}<a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.pdf" target="_blank"> [PDF]</a><a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.bib" target="_blank"> [BIB]</a>{% endif %}</h2>
+                            <h2>{{item.title}}{% if item.pdf %}<a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.pdf" target="_blank"> [PDF]<i class="fa fa-fw fa-file-pdf"></i></a><a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.bib" target="_blank"> [BIB]<i class="fa fa-fw fa-book"></i></a>{% endif %}{% if item.url %}<a class="no-print" href="{{ item.url }}" target="_blank"> [URL]<i class="fa fa-fw fa-link"></i></a>{% endif %}</h2>
                             <p><i>{{item.authors}}</i><br>
                             {% if item.description %}{{item.description}}{% endif %}
                             </p>
