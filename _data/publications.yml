@@ -1,3 +1,10 @@
+ - title: "ReSeeding Latent States for Sequential Language Understanding"
+   authors: Stéphane Aroca-Ouellette, Katharina von der Wense, Alessandro Roncone
+   year: 2025
+   venue: "Conference on Empirical Methods in Natural Language Processing [EMNLP]"
+   where: Suzhou, China, November 1-5
+   pdf: "2025_Aroca-Ouellette_EMNLP"
+   subteams: [learning and modeling, stephane, conference]
  - title: "Dynamics-Compliant Trajectory Diffusion for Super-Nominal Payload Manipulation"
    authors: Anuj Pasricha, Joewie Koh, Jay Vakil, Alessandro Roncone
    year: 2025
