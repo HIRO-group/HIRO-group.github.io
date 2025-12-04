@@ -4,7 +4,7 @@ email: alessandro.roncone@colorado.edu
 url: https://hiro-group.ronc.one
 phone: +1 (303) 735-6233
 google-analytics-id:  G-76827T07Y0
-description: "The HIRO Group, led by Alessandro Roncone at CU Boulder, works on robot technologies that enable close, natural, and extended cooperation with humans."
+description: "We Build the Future of Robotics and AI by looking at <ins>Humans as Models of Intelligence</ins>."
 owner: Human Interaction and Robotics Group
 owner-short: HIRO-group
 owner-url: https://alessandro.ronc.one
@@ -22,7 +22,7 @@ meetings:
 logo: /img/logo-square.svg
 logopng: /img/logo-square.png
 logo2: /img/logo-rect.svg
-logo3: /img/logo-long-white-text.svg
+logo3: /img/new_logo-long-white-text.svg
 
 # Postal address (add as many lines as necessary)
 address:
@@ -81,10 +81,9 @@ defaults:
 
 # Default colors (hex-codes without the leading hash-tag):
 color:
-  banner: "66a329"                            # This is a green banner color (for red, use bf4040)
-  articletext: "000000"                       # This is the text color
-  primary: "ffffff"                          # This is the background of the logo, light gray
-  secondary: "000000"                         # This is dark gray
-  secondary-alpha: rgba(0,0,0,.7)        # This is the same as the secondary color but with an alpha value
-  # accent: 4982a7
-  accent: "00a0a0"                            # This is an electric blue accent
+  backdrop: "000000"                # This is the background, black
+  embodied: "32FFB8"                # This is an electric green color (old green was 66a329)
+  social: "F32B92"                  # This is an electric pink color (for red, use bf4040)
+  accent: "00a0a0"                  # This is the old hiro blue accent color
+  articletext: "ffffff"             # This is the text color, white
+  secondarytext: "aeaeae"           # This is the secondary text color, light gray (to give some depth)
