@@ -31,8 +31,8 @@
    venue: University of Colorado Boulder
    where: Boulder, CO, U.S.A.
    description: PhD dissertation
-   subteams: [learning and modeling, stephane, thesis]
-   pdf: "2025_Aroca-Ouellette_Defense"
+   subteams: [learning and modeling, stephane, thesis, social intelligence]
+   pdf: "2025_Aroca-Ouellette_Thesis"
  - title: "GenTact Toolbox: A Computational Design Pipeline to Procedurally Generate Context-Driven 3D Printed Whole-Body Artificial Skins"
    authors: Carson Kohlbrenner, Caleb Escobedo, S. Sandra Bae, Alexander Dickhans, Alessandro Roncone
    year: 2025
