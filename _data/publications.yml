@@ -1,3 +1,10 @@
+ - title: "ReSeeding Latent States for Sequential Language Understanding"
+   authors: Stéphane Aroca-Ouellette, Katharina von der Wense, Alessandro Roncone
+   year: 2025
+   venue: "Conference on Empirical Methods in Natural Language Processing [EMNLP]"
+   where: Suzhou, China, November 1-5
+   pdf: "2025_Aroca-Ouellette_EMNLP"
+   subteams: [learning and modeling, stephane, conference]
  - title: "Dynamics-Compliant Trajectory Diffusion for Super-Nominal Payload Manipulation"
    authors: Anuj Pasricha, Joewie Koh, Jay Vakil, Alessandro Roncone
    year: 2025
@@ -18,6 +25,14 @@
    where: Montreal, Canada, August 16-22
    pdf: "2025_Aroca-Ouellette_IJCAI_HA2"
    subteams: [algorithmic hri and human-ai teaming, stephane, conference, social intelligence]
+ - title: "Toward Human-Inspired AI: Identifying Data, Building Structures, and Hypothesis-Driven Learning"
+   authors: Stéphane Aroca-Ouellette
+   year: 2025
+   venue: University of Colorado Boulder
+   where: Boulder, CO, U.S.A.
+   description: PhD dissertation
+   subteams: [learning and modeling, stephane, thesis, social intelligence]
+   pdf: "2025_Aroca-Ouellette_Thesis"
  - title: "GenTact Toolbox: A Computational Design Pipeline to Procedurally Generate Context-Driven 3D Printed Whole-Body Artificial Skins"
    authors: Carson Kohlbrenner, Caleb Escobedo, S. Sandra Bae, Alexander Dickhans, Alessandro Roncone
    year: 2025
