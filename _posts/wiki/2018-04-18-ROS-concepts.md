@@ -169,7 +169,7 @@ rosrun rospy_tutorials talker _param:=1.0
  * `rossrv = ros+srv` : provides information related to ROS service definitions
  * `catkin_make` : makes (compiles) a ROS package
 
-# Using `rospack`
+# Using rospack
 
 `rospack` allows you to get information about packages. In this tutorial, we are only going to cover the find option, which returns the path to package.
 
@@ -178,7 +178,7 @@ rosrun rospy_tutorials talker _param:=1.0
 /home/alecive/code/ros_catkin_ws/install_isolated/share/roscpp
 ~~~
 
-# Using `roscd`
+# Using roscd
 
 `roscd` is part of the `rosbash` suite. It allows you to change directory to a package or a stack. Like other ROS tools, it will **only** find ROS packages that are within the directories listed in your `ROS_PACKAGE_PATH`.
 
@@ -190,7 +190,7 @@ rosrun rospy_tutorials talker _param:=1.0
 [alecive@malakim]$
 ~~~
 
-## What to do if your package is not listed in `roscd`
+## What to do if your package is not listed in roscd
 
 You need to update the database:
 
@@ -198,7 +198,7 @@ You need to update the database:
 rospack profile
 ~~~
 
-# Using `rosmsg`
+# Using rosmsg
 
 Example Usage:
 
@@ -230,7 +230,7 @@ You will see:
 int64 num
 ~~~
 
-# Using `rossrv`
+# Using rossrv
 
 Example Usage:
 
@@ -264,7 +264,7 @@ int64 b
 int64 sum
 ~~~
 
-# `msg` and `srv`
+# msg and srv
 
 `msg` files are stored in the `msg` directory of a package, and `srv` files are stored in the `srv` directory.
 
@@ -299,7 +299,7 @@ int64 Sum
 The full specification for the message format is available at the [Message Description Language](http://wiki.ros.org/ROS/Message_Description_Language) page.
 If you are building C++ nodes which use your new messages, you will also need to declare a dependency between your node and your message, as described in the [catkin msg/srv build documentation](http://docs.ros.org/hydro/api/catkin/html/howto/format2/building_msgs.html).
 
-## Using `msg` in your package
+## Using msg in your package
 
 We need to make sure that the `msg` files are turned into source code for C++, Python, and other languages. To this end, follow these steps:
 
@@ -349,7 +349,7 @@ We need to make sure that the `msg` files are turned into source code for C++, P
     )
     ~~~
 
-## Using `srv` in your package
+## Using srv in your package
 
 We need to make sure that the `srv` files are turned into source code for C++, Python, and other languages. Do step #1, #2, #3, #5 from previous section, and then uncomment the following lines, and replace the placeholder `Service*.srv` files for your service files:
 
