@@ -18,46 +18,46 @@
 
                 {% if page.type == "news" %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="#news">news</a>
+                    <a class="nav-link" href="#news">News</a>
                 </li>
                 {% else %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/news.html">news</a>
+                    <a class="nav-link" href="/news.html">News</a>
                 </li>
                 {% endif %}
 
                 {% if page.type == "people" %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="#post-cv">people</a>
+                    <a class="nav-link" href="#post-cv">People</a>
                 </li>
                 {% else %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/people.html">people</a>
+                    <a class="nav-link" href="/people.html">People</a>
                 </li>
                 {% endif %}
 
                 {% if page.type == "publications" %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="#post-cv">publications</a>
+                    <a class="nav-link" href="#post-cv">Publications</a>
                 </li>
                 {% else %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/publications.html">publications</a>
+                    <a class="nav-link" href="/publications.html">Publications</a>
                 </li>
                 {% endif %}
 
                 {% if page.type == "wiki" %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="#wiki">wiki</a>
+                    <a class="nav-link" href="#wiki">Wiki</a>
                 </li>
                 {% else %}
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/wiki.html">wiki</a>
+                    <a class="nav-link" href="/wiki.html">Wiki</a>
                 </li>
                 {% endif %}
 
                 <li class="nav-item page-scroll">
-                    <a class="nav-link" href="/join_us.html">join us!</a>
+                    <a class="nav-link" href="/join_us.html">Join us!</a>
                 </li>
 
             </ul>
@@ -68,7 +68,7 @@
     <!-- Header -->
     {% if page.type != "article" and page.type != "fourofour" and page.type != "subteams" %}
     <header>
-        <div class="container {% if page.type != "cv" %}bottom-border{% endif %}">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     {% if page.type == "cv" %}
@@ -81,7 +81,7 @@
                     {% else %}
                         {% if page.type == "home" %}<img class="img-fluid logo-img" src="{{ site.logo3 }}" alt="{{ site.owner-short }}-logo">{% endif %}
                         <div class="intro-text">
-                            {% if page.type == "home" %}<span class="name logo-alt">{{ site.owner }}</span>
+                            {% if page.type == "home" %}<span class="name logo-alt">{{ site.description }}</span>
                             {% else %}<span class="name">{% if page.title %}{{ page.title }}{% else %}{{ page.type }}{% endif %}</span>
                             {% endif %}
 
