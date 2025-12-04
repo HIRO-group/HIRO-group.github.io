@@ -29,7 +29,7 @@
                                     {% endunless %}
                                         <div class="row">
                                         <div {% if subtype == "subteams" %}class="col-12"{% else %}class="col-xl-10"{% endif %}>
-                                        <h4 class="post-title">{{ post.title }}{% unless post.nolink %} <i class="fa fa-fw fa-link"></i>{% endunless %}</h4>
+                                        <h4 class="post-title hiro-gradient-hover">{{ post.title }}{% unless post.nolink %} <i class="fa fa-fw fa-link" style="font-size: 0.8em;"></i>{% endunless %}</h4>
                                         {% if page.type == "research" or subtype == "subteams" or page.type == "subteams" %}
                                             {% if post.description %}
                                                 <p class="post-description">{{ post.description }}</p>

@@ -27,13 +27,13 @@
                 {% if tobedisplayed == true %}
                     <div class="row cv-item pub {% if item.award %}award{% endif %} {% if include.subteam %}pub-{{include.subteam}}{% endif %}">
                         <div class="col-md-3">
-                            <h4 class="inlineifprinted">{% unless include.year %}{{item.year}} {% endunless %}{{item.venue}}</h4>
-                            {% if item.where %}<p  class="no-print d-none d-md-block">{{item.where}}</p>{% endif %}
+                            <h4 class="pub-venue">{% unless include.year %}{{item.year}} {% endunless %}{{item.venue}}</h4>
+                            {% if item.where %}<p class="no-print d-none d-md-block pub-location">{{item.where}}</p>{% endif %}
                         </div>
 
                         <div class="col-md-9">
                             <h2>{{item.title}}{% if item.pdf %}<a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.pdf" target="_blank"> [PDF]<i class="fa fa-fw fa-file-pdf"></i></a><a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.bib" target="_blank"> [BIB]<i class="fa fa-fw fa-book"></i></a>{% endif %}{% if item.url %}<a class="no-print" href="{{ item.url }}" target="_blank"> [URL]<i class="fa fa-fw fa-link"></i></a>{% endif %}</h2>
-                            <p><i>{{item.authors}}</i><br>
+                            <p class="pub-authors"><i>{{item.authors}}</i><br>
                             {% if item.description %}{{item.description}}{% endif %}
                             </p>
                             {% if item.award %}<p class="award"><i class="fa fa-fw fa-xl fa-trophy"></i> {{item.award}} <i class="fa fa-fw fa-xl fa-trophy"></i></p> {% endif %}

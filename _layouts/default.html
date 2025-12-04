@@ -41,7 +41,7 @@
         </div>
         {% endif %}
     </section>
-    {% elsif page.type == "publications" or page.type == "people" %}
+    {% elsif page.type == "Publications" or page.type == "people" %}
       {{ content }}                 {% comment %} These pages sort through some data structures {% endcomment %}
     {% elsif page.type == "cv" %}
       {% include cv.html %}         {% comment %} This is reserved to personal pages, e.g. /joewie.html{% endcomment %}
