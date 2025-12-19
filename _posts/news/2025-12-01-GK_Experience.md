@@ -1,122 +1,90 @@
 ---
-title: ✍️ Seeing is Understanding: Gaze as a Cognitive Signal for Shared Autonomy
-description: Why I believe the future of collaborative robotics begins with understanding the human mind
-extlink: https://gyanigk.github.io
-tags: [research, robotics, shared-autonomy, HRI]
+title: "✍️ Seeing Is Understanding: Gaze as a Cognitive Signal for Shared Autonomy"
+description: Modeling intent, uncertainty, and timing through gaze to enable robust human robot collaboration
 author: Gyanig Kumar
+permalink: research/gaze_shared_autonomy.html
+category: [research, robotics, human robot interaction, shared autonomy, research highlight]
+excerpt_separator: <!-- More -->
 ---
 
-# Seeing is Understanding: Gaze as a Cognitive Signal for Shared Autonomy
+When people collaborate with a robot, they rarely communicate intent through a single channel. Intent emerges through how a person looks, hesitates, verifies, commits, and corrects. Humans coordinate smoothly with new teammates because they can infer these cognitive signals quickly and adjust their behavior before misalignment becomes costly. Many autonomous systems still lack this capability. They respond primarily to overt action, such as joystick commands or end-effector motion, and they often discover misalignment only after the human intervenes.
 
-Over the past year at the Collaborative AI and RObotics (CAIRO) Lab and the Human Interaction and RObotics (HIRO) Group at the University of Colorado Boulder, I have been fortunate to work at the intersection of robotics, cognition, and human-centered autonomy. The deeper I go into this space, the clearer one idea becomes:
+This post argues for a simple principle. **If we want shared autonomy that feels collaborative, robots must infer cognitive state, not just control state.** Gaze is a uniquely valuable signal for this because it is continuous, low latency, and tied to decision dynamics. When fused with perception and robot state, gaze supports belief over intent and uncertainty that can drive timing-sensitive autonomy.
 
-> Robots fail at collaboration not because they lack perception or motion-planning, but because they do not understand *how humans think*.
+<!-- More -->
 
-The frontier of shared autonomy is moving beyond recognizing objects or generating trajectories. Real collaboration requires robots that anticipate human intent, detect uncertainty, and adapt when things go wrong. And among all human signals, **gaze is one of the most powerful and under-utilized cognitive cues.**
+## Why Gaze Matters for Shared Autonomy ?
 
----
+Most shared autonomy pipelines infer intent from observable behavior. That can work in structured settings, but it breaks down when goals are ambiguous, when users reconsider mid-action, or when task context evolves. Gaze provides information earlier than control alone because it often changes before a decision becomes an action.
 
-## Why Gaze Matters
+In cognitive terms, gaze reflects search, comparison, verification, hesitation, and goal revision. In robotics terms, this suggests a partially observable interaction model in which gaze acts as an observation of latent human state, such as intent and uncertainty.
 
-When a person interacts with the world, their eyes reveal far more than their actions. Gaze encodes search, attention, verification, hesitation, confidence, uncertainty, and decision-making. It precedes motion and exposes intention sometimes *before the user even realizes their own plan*.
+{% include image.html
+   url="research/gaze-hri/eyegaze.jpg"
+   max-width="60%"
+   description="Human gaze trajectories overlaid on task-relevant objects during a collaborative manipulation task. Fixation patterns and gaze shifts often precede physical action, revealing intent formation and hesitation before control input."
+%}
 
-Eye movements are not random; they are predictive of:
+### From Intent Prediction to Belief Over Goals
 
-- where the human wants the robot to go,
-- whom they are signaling to,
-- how they are reasoning about a task,
-- and whether the task is succeeding or failing.
+A useful way to formalize collaboration is to maintain a belief over possible goals rather than committing to a single predicted intent. In practice, the robot can represent a set of candidate goals and update a belief distribution conditioned on multimodal observations. Gaze contributes evidence about which hypotheses are plausible and how stable the human plan is over time.
 
-Yet most collaborative robots today still rely on speech, buttons, interfaces, or joystick teleoperation to infer user state. This creates a layer of friction — a mismatch between how humans communicate and how robots interpret commands.  
+This shifts the problem from classification to inference under uncertainty. Instead of asking what the goal is, the robot asks how confident it should be, how quickly confidence is changing, and whether the human is reconsidering.
 
-To build robots that work with us instead of waiting for us, we need autonomy that interprets human cognition directly.
+<!-- --- -->
 
----
+### Dual-Task Interaction and Cognitive Load
 
-## Building Multimodal Shared Autonomy
+In many realistic settings, humans distribute attention across multiple modalities. A person may visually inspect objects while simultaneously speaking, issuing partial commands, or verbally clarifying intent. These dual-task scenarios introduce additional cognitive load and often amplify hesitation or instability in intent.
 
-At HIRO, I have been working on an end-to-end platform that integrates gaze, multimodal perception, and shared control with the Sawyer robot. This involved:
+For shared autonomy, this means that gaze should not be interpreted in isolation. Instead, gaze and verbal behavior together provide complementary signals about how intent is forming, how confident the user is, and whether clarification or delay is appropriate.
 
-- joystick and Relaxed-IK teleoperation,
-- RealSense RGB-D vision for scene understanding,
-- GraspNet and segmentation for grasp proposals,
-- prompting and inference through Vision-Language Models, and
-- real-time integration with Tobii Glasses 3 for streaming gaze.
+{% include image.html
+   url="research/gaze-hri/verbal_system_dualtask.png"
+   max-width="65%"
+   description="Dual-task interaction scenario combining teleoperation and verbal input. Concurrent modalities provide complementary evidence about intent formation, uncertainty, and cognitive load, informing when autonomy should assist, wait, or request clarification."
+%}
 
-Together with collaborators in the lab, we built the first combined pipeline that synchronizes:
+<!-- --- -->
 
-**Gaze + Sawyer + VLMs + shared autonomy.**
+### Timing-Sensitive Autonomy
 
-It allows the robot to “see through the user’s eyes” and infer their goal from visual fixation and attention shift rather than explicit commands.
+In collaboration, many failures are not wrong actions. They are poorly timed actions. Assistance that triggers during hesitation can feel like interruption. Assistance that triggers too late becomes unhelpful. Timing is therefore a core part of shared autonomy.
 
-The more we experimented, the more a pattern emerged:
+Gaze is useful here because it can signal hesitation, goal instability, and divergence between what the human expects and what the robot is doing. These signals can drive an arbitration policy that decides whether to assist, wait, request clarification, or switch strategy.
 
-> **Most shared autonomy failures are predictable — and gaze reveals them first.**
+<!-- --- -->
 
-Incorrect intent inference, delayed autonomy, misaligned grasps, and unexpected user intervention often show up in gaze before in control signals or motion.
+## Gaze-Conditioned Adaptive Autonomy
 
-This led us to a new idea:
-gaze is not only a signal for intent recognition, but also for *failure-aware autonomy*.
+A practical architecture for gaze-conditioned shared autonomy typically contains four layers.
 
----
+First, sensing and synchronization align gaze, perception, and robot state in time. Second, perception builds a task-relevant scene representation, such as objects, poses, and affordances. Third, inference estimates belief over goals and uncertainty, using gaze features such as fixations, transitions, and dispersion. Fourth, arbitration modulates autonomy as a function of uncertainty and context, producing behavior that can assist, pause, or clarify.
 
-## When Autonomy Should Transfer—And When It Should Not
+{% include image.html
+   url="research/gaze-hri/gaze_system.png"
+   max-width="75%"
+   description="System diagram for gaze-conditioned adaptive autonomy. Gaze, perception, and robot state are fused into an interaction belief state that modulates autonomy allocation and recovery behaviors."
+%}
 
-Human-robot collaboration breaks not when a robot does the wrong thing, but when the robot does the right thing at the wrong moment.
+<!-- --- -->
 
-Gaze offers the earliest signal that:
-- the user is uncertain,
-- the task is diverging,
-- or autonomy activation is misplaced.
+### Interaction-Aware Design: Environment, Task, and Policy Co-Design
 
-We are now studying how gaze can:
-- detect and recover from failures,
-- dynamically adjust level of autonomy,
-- guide shared-control decisions,
-- and detect user confusion or distraction.
+Human cognition is shaped by environment structure. Layout, object spacing, and affordance overlap influence how ambiguous a task appears and how gaze behaves. This suggests that robust collaboration is not only about better models, but also about better task and environment design. An interaction-aware view asks how the workspace can be organized to reduce ambiguity, how the robot can present options to support human intent, and how recovery behaviors can be triggered when belief diverges.
 
-Instead of waiting for explicit commands or overrides, the robot learns to interpret the user’s cognitive state.
+<!-- --- -->
 
-This is not about building a better user interface — it is about building robots that reason about what humans are thinking.
+### Why This Matter ?
 
----
+Shared autonomy for homes, rehabilitation, manufacturing, and public spaces requires more than accurate control. It requires the robot to understand when a person is committed, uncertain, or revising their plan. Gaze provides a principled bridge between perception and cognition that can support safer timing, smoother assistance, and earlier recovery when collaboration begins to break down.
 
-## From Workspace Optimization to Cognitive Modelling
+<!-- --- -->
 
-This direction complements two major projects in the lab:
+### Future Work
 
-- **SAWO (Shared Autonomy Workspace Optimization)** — using workspace geometry to reduce ambiguity and improve intent recognition.
-- **CRED (Counterfactual Reasoning and Environment Design)** — leveraging simulations to evaluate preference-learning and uncertainty.
+There are several directions that naturally follow from this view.
 
-The physical space, the task, and the interaction dynamics all shape cognition. Our research shows that autonomy works best when *the robot and the environment adapt to the human’s mental model*, not the other way around.
+One direction is better calibration of uncertainty so that arbitration decisions are reliable across users, tasks, and sensing conditions. A second direction is learning interaction-repair policies that use gaze and belief dynamics to decide when to pause, when to clarify, and when to adapt autonomy allocation. A third direction is studying how environment and interface choices shape gaze behavior and intent ambiguity, enabling system-level co-design for robust collaboration.
 
----
-
-## Why This Matters
-
-If robots are going to assist at home, support rehabilitation, help in manufacturing, or collaborate in shared spaces, they will need to do more than track trajectories. They will need to:
-
-- read human intent,
-- understand uncertainty,
-- predict failures,
-- and adapt to diverse users.
-
-This is why I believe gaze is a foundational signal for cognitive-aware robotics. It helps bridge the gap between perception and understanding — between seeing and interpreting.
-
-> The future of shared autonomy is not simply more autonomy.  
-> It is autonomy that knows when to act, when to wait, and when to help.
-
----
-
-## What’s Next
-
-I am currently working on experiments that log gaze heatmaps, robot state, multimodal perception, joystick commands, and VLM predictions during failure situations. The goal is simple but ambitious:
-
-**robots that recover when collaboration breaks down.**
-
-The more we explore this space, the closer we get to robots that collaborate like teammates, not tools.
-
-If you are excited about working at the intersection of cognition, autonomy, and robotics, HIRO is a remarkable place to grow as a researcher. I am incredibly grateful to have had the opportunity to contribute to this direction — and I look forward to what comes next.
-
-
-
+<!-- *If anything on this page piques your interest, feel free to email Gyanig at gyanig.kumar@colorado.edu. If you are reaching out about a question, include [Q] in the subject line. If you want to discuss collaboration, include [C] in the subject line.* -->
