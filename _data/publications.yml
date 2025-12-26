@@ -12,6 +12,13 @@
    where: Seoul, Korea, September 27-30
    pdf: "2025_Pasricha_CoRL"
    subteams: [learning and modeling, anuj, conference, embodied intelligence]
+ - title: "Form-Fitting, Large-Area Sensor Mounting for Obstacle Detection"
+   authors: Anna Soukhovei, Carson Kohlbrenner, Caleb Escobedo, Alexander Gholmieh, Alexander Dickhans, and Alessandro Roncone
+   year: 2025
+   venue: "Advances in Contact-Rich Robotics: Rich Tactile-Based Physical Interaction Workshop at Humanoids 2025 [IEEE-RAS]"
+   where: Seoul, Korea, September 30-October 2
+   pdf: "2025_Soukhovei_CR_workshop"
+   subteams: [embodied intelligence, anna, workshop]   
  - title: "Gaze-informed signatures of trust and collaboration in human-autonomy teams"
    authors: Anthony J. Ries, Stéphane Aroca-Ouellette, Alessandro Roncone, Ewart J. de Visser
    year: 2025
