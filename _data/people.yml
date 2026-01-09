@@ -119,7 +119,7 @@
 # [in order of first appearance in the lab]   
  - name: Gyanig Kumar
    role: grad
-   url: httpsS://gyanigk.github.io
+   url: https://gyanigk.github.io
    pic: gyanigkumar.png
 
  - name: Rahul Shetty
