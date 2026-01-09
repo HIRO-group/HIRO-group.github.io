@@ -2,8 +2,7 @@
 title: "✍️ Seeing Is Understanding: Gaze as a Cognitive Signal for Shared Autonomy"
 description: Modeling intent, uncertainty, and timing through gaze to enable robust human robot collaboration
 author: Gyanig Kumar
-permalink: research/gaze_shared_autonomy.html
-category: [research, robotics, human robot interaction, shared autonomy, research highlight]
+category: [research, robotics, human robot interaction, shared autonomy, research highlight, social intelligence]
 excerpt_separator: <!-- More -->
 ---
 
