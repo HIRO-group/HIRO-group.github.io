@@ -117,6 +117,11 @@
 
 # Graduate Students
 # [in order of first appearance in the lab]   
+ - name: Gyanig Kumar
+   role: grad
+   url: https://gyanigk.github.io
+   pic: gyanigkumar.png
+
  - name: Rahul Shetty
    role: grad
    url: https://www.linkedin.com/in/rahul-shetty-8b417a179
