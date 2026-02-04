@@ -21,6 +21,6 @@ We are looking for a dedicated engineer to handle the system integration of a so
   - **Languages:** Advanced C++ and Python.
   - **Hardware:** Experience with real-time control, sensor integration, and debugging physical hardware.
 
-**To Apply:** Please email your CV and a brief summary of your relevant deployment experience to [Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) with the subject **[Bartender Robot Application]**.
+**To Apply:** Please email your CV and a brief summary of your relevant deployment experience to [Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) with the subject **[Bartender Robot Application]** before **Friday, February 6th 2026 EOB**.
 
 **Compensation:** $20 per hour for 10 hours per week.
