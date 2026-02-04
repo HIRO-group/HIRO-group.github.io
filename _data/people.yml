@@ -193,6 +193,11 @@
    role: undergrad
    email: alex.dickhans@colorado.edu
    pic: alex.jpg
+     
+ - name: Liam Olczak
+   role: undergrad
+   email: liam.olczak@colorado.edu
+   pic: liamO.jpg
 
 # High School Students, use role: highschool
 # [in order of first appearance in the lab]
