@@ -1,30 +1,26 @@
 ---
-title: 💰 Paid Spring Research Opportunities for Students
-description: Join us for a paid Spring position to conduct cutting-edge research.
+title: 💰 Bartender Robot System Integrator Opportunity
+description: Join us for a paid Spring position to conduct a fun social robotics project.
 tags: [news]
 author: Alessandro Roncone
 ---
-Are you an undergraduate or graduate student eager to dive into research this spring? We're offering exciting opportunities for motivated individuals to join our team.
 
-**Project Focus:**
+We are looking for a dedicated engineer to handle the system integration of a social bartender robot. This is a hands-on development role focused on deploying a robust system in the real world.
 
-- Socially-Aware Robotics : Develop manipulation systems with anticipatory motion planning, gaze-based engagement filtering, and personalized LLM-driven interaction to facilitate seamless human-robot handovers tasks.
+### Core Responsibilities
+- **System Integration:** Combine existing perception, manipulation, and social interaction modules into a cohesive, robust platform.
+- **Social Interaction:** Implement and tune social behaviors (greeting, small talk, gaze aversion) to work reliably during beverage preparation. This includes using LLMs as conversational interfaces.
+- **Robustness:** The system must run autonomously for extended periods. We are building a product-grade prototype, not a one-off research demo.
 
-**Qualification:**
-- High proficiency in Python.
-- Experience using or developing LLMs or NLP.
-- Experience with ROS (Robot Operating System) is required for the robotic project.
-- Experience with Motion Planning.
-- Experience with Eye-tracking systems.
-- Previous research experience is highly valued, especially if you have publications to showcase your work.
-- Strong writing skills.
+### Requirements
+- **Engineering Focus:** This is a development-focused role where the priority is building a dependable, real-world system. We are looking for someone who enjoys the process of making complex robotics software work seamlessly and reliably.
+- **Deployment Experience:** Proven experience deploying robots in public spaces or unstructured environments.
+- **Technical Stack:**
+  - **Middleware:** Expert-level ROS 2 (Humble/Jazzy).
+  - **AI/ML:** Experience with Large Language Models (LLMs) for social interaction.
+  - **Languages:** Advanced C++ and Python.
+  - **Hardware:** Experience with real-time control, sensor integration, and debugging physical hardware.
 
-**How to Apply:**
-Please submit your application by emailing alessandro.roncone@colorado.edu with your CV by 6th February.
+**To Apply:** Please email your CV and a brief summary of your relevant deployment experience to [Alessandro Roncone](mailto:alessandro.roncone@colorado.edu) with the subject **[Bartender Robot Application]**.
 
-**Compensation:**
-$20 per hour for 10 hours per week.
-
-
-Join us for an enriching spring of research and discovery! Apply now to be part of our dynamic team.
-
+**Compensation:** $20 per hour for 10 hours per week.
