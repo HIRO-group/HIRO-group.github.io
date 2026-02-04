@@ -20,7 +20,7 @@ Are you an undergraduate or graduate student eager to dive into research this sp
 - Strong writing skills.
 
 **How to Apply:**
-Please submit your application by emailing alessandro.roncone@colorado.edu with your CV by 6th Febuary.
+Please submit your application by emailing alessandro.roncone@colorado.edu with your CV by 6th February.
 
 **Compensation:**
 $20 per hour for 10 hours per week.
