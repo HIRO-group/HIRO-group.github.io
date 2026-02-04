@@ -197,6 +197,11 @@
 # High School Students, use role: highschool
 # [in order of first appearance in the lab]
 
+ - name: Coen Shields
+   role: highschool
+   email: shieldscoen@gmail.com
+   pic: coen.png
+
 # Collaborators
 # [in order of first appearance in the lab]
 
