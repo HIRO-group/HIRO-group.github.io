@@ -1,4 +1,5 @@
 ---
+emoji: "🤖"
 title: Openface ROS
 description: Details about openface_ros package
 author: Andrew Chen and Chi-Ju Wu

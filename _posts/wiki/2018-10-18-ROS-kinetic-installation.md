@@ -1,4 +1,5 @@
 ---
+emoji: "🤖"
 title: How to install ROS kinetic
 description: and live happily ever after
 tags: [wiki,how to,tutorial,ros,installation,kinetic,ubuntu,16.04,robotics,Sawyer,simulator]

@@ -1,4 +1,5 @@
 ---
+emoji: "🧭"
 title: New member to-do list
 description: Things to do when you join the HIRO group
 permalink: new_member.html

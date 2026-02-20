@@ -1,4 +1,5 @@
 ---
+emoji: "🛠️"
 title: Jekyll Installation Tutorial
 description: Using Jekyll to help create and edit existing pages for the HIRO Group website
 tags: [wiki,how to,tutorial,ubuntu,16.04,jekyll,ruby]

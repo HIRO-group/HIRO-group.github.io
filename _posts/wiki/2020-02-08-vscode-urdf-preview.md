@@ -1,4 +1,5 @@
 ---
+emoji: "🛠️"
 title: Visual Studio Code URDF Previewer
 description: Preview urdf files in VS Code!
 author: Matt Strong

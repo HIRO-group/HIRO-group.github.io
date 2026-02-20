@@ -1,4 +1,5 @@
 ---
+emoji: "🛠️"
 title: Franka Installation Tutorial
 description: How to set up the workstation to control the Franka Panda robot
 tags: [wiki,how to,tutorial,Franka,ros,kernel]

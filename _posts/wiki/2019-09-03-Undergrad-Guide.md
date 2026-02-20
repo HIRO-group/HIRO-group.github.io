@@ -1,4 +1,5 @@
 ---
+emoji: "🧭"
 title: Getting Started as a new member
 description: Answering the questions you didn't know to ask
 tags: [wiki,how to,tutorial,ros,installation,kinetic,ubuntu,16.04,robotics,Sawyer,simulator]

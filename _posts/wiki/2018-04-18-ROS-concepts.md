@@ -1,4 +1,5 @@
 ---
+emoji: "🤖"
 title: ROS Concepts
 description: Summary about some ROS concepts and tools
 tags: [wiki,how to,tutorial,ros,concepts,tools,command-line,indigo,ubuntu,14.04,robotics,baxter,simulator]
