@@ -18,6 +18,7 @@
 
                             {% for post in category[1] limit: pagelimit %}
                                 <div class="col-md-11 mx-auto portfolio-item" {% if subtype == "news" %}id="news"{% elsif subtype == "research" or subtype == "subteams" or page.type == "subteams" %}id="research"{% endif %}>
+                                    <div class="card-hiro">
                                     {% unless post.nolink %}
                                         {% if post.extlink %}
                                             <a href="{{ post.extlink }}" target="_blank" class="no-border portfolio-link" style="max-width:100%">
@@ -53,6 +54,7 @@
                                         </div>
                                         <!-- <strong>[Read More]</strong> -->
                                     </a>
+                                    </div>
                                 </div>
                             {% endfor %}
                         {% endif %}

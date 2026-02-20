@@ -152,6 +152,31 @@ button:focus {
     color: initial !important;
 }
 
+/* --- Glassmorphism Cards --- */
+.card-hiro {
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    overflow: hidden;
+    position: relative;
+    /* Make text readable by default */
+    color: var(--hiro-text-main);
+}
+
+.card-hiro:hover {
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 25px rgba(50, 255, 184, 0.15);
+    /* Greenish Glow */
+    border-color: rgba(255, 255, 255, 0.8);
+    transform: translateY(-5px);
+}
+
 a:hover,
 a:focus,
 a:active,
@@ -1129,14 +1154,26 @@ section {
     }
 }
 
+#wiki .post-title,
+#research .post-title,
+#news .post-title {
+    font-size: 1.4rem;
+    margin-bottom: 0.6rem;
+}
+
 #wiki .post-description,
 #research .post-description,
-#news .post-description,
+#news .post-description {
+    color: #{{ site.color.secondarytext }};
+    font-size: 0.88em;
+    margin-bottom: 0.4rem;
+}
+
 #wiki .post-date,
 #research .post-date,
 #news .post-date {
     color: #{{ site.color.secondarytext }};
-    font-size: 0.92em;
+    font-size: 0.8em;
 }
 
 #wiki .post-date,
@@ -1144,6 +1181,7 @@ section {
 #news .post-date {
     text-align: right;
     margin-bottom: -12px;
+    text-transform: uppercase;
 }
 
 #wiki .post-date,
@@ -1456,10 +1494,6 @@ p.award i {
 
 .portfolio-item a {
     text-decoration: none;
-}
-
-.portfolio-item h4 {
-    /* text-transform: uppercase; */
 }
 
 #portfolio .portfolio-item {
@@ -1890,11 +1924,6 @@ li code,
 #portfolio .portfolio-item .no-border
 {
     padding: 8px;
-}
-
-#portfolio .portfolio-item .no-border:hover
-{
-    background-color: #{{ site.color.backdrop }};
 }
 
 @media print
