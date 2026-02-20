@@ -1,5 +1,6 @@
 ---
-title: "💰 Nataliya Nechyporenko selected for prestigious NSF Graduate Research Fellowship!!"
+emoji: "💰"
+title: "Nataliya Nechyporenko selected for prestigious NSF Graduate Research Fellowship!!"
 description:
 tags: [news]
 author: Alessandro Roncone

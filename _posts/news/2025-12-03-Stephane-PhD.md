@@ -1,5 +1,6 @@
 ---
-title: "📢 Stéphane's successful PhD dissertation defense!!"
+emoji: "📢"
+title: "Stéphane's successful PhD dissertation defense!!"
 description:
 tags: [news]
 author: Alessandro Roncone

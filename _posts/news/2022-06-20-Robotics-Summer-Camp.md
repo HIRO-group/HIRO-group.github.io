@@ -1,5 +1,6 @@
 ---
-title: "🎉 Robotics Summer Camp Outreach Program!"
+emoji: "🎉"
+title: "Robotics Summer Camp Outreach Program!"
 description: Or, how we brought robotics to children in the community.
 tags: [news,outreach]
 author: Nataliya Nechyporenko

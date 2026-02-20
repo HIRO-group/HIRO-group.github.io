@@ -1,5 +1,6 @@
 ---
-title: "📢 Congratulations to Guohui for his successful PhD dissertation defense!!"
+emoji: "📢"
+title: "Congratulations to Guohui for his successful PhD dissertation defense!!"
 description:
 tags: [news]
 author: Alessandro Roncone

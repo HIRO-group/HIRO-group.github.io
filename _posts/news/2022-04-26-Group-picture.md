@@ -1,5 +1,6 @@
 ---
-title: "📷 Group picture! Spring 2022 semester"
+emoji: "📷"
+title: "Group picture! Spring 2022 semester"
 tags: [news,group_picture]
 author: Gilberto Briscoe-Martinez
 ---

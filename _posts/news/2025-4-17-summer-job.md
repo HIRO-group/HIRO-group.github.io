@@ -1,5 +1,6 @@
 ---
-title: 💰 Paid Summer Research Opportunities for Students
+emoji: "💰"
+title: "Paid Summer Research Opportunities for Students"
 description: Join us for a paid summer position to conduct cutting-edge research.
 tags: [news]
 author: Caleb Escobedo

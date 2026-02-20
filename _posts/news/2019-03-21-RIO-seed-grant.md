@@ -1,5 +1,6 @@
 ---
-title: "💰 HIRO Group awarded a RIO Seed Grant!"
+emoji: "💰"
+title: "HIRO Group awarded a RIO Seed Grant!"
 tags: [news,grants]
 author: Alessandro Roncone
 ---

@@ -1,5 +1,6 @@
 ---
-title: "💰 $1.8M award to investigate use of robots in organic chemistry laboratories!!"
+emoji: "💰"
+title: "$1.8M award to investigate use of robots in organic chemistry laboratories!!"
 tags: [news]
 ---
 

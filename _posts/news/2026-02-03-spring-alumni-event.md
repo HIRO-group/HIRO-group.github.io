@@ -1,5 +1,6 @@
 ---
-title: 💰 Bartender Robot System Integrator Opportunity
+emoji: "💰"
+title: "Bartender Robot System Integrator Opportunity"
 description: Join us for a paid Spring position to conduct a fun social robotics project.
 tags: [news]
 author: Alessandro Roncone

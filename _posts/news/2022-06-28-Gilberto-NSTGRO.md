@@ -1,5 +1,6 @@
 ---
-title: "💰 Gilberto Briscoe-Martinez awarded NASA NSTGRO Fellowship!!"
+emoji: "💰"
+title: "Gilberto Briscoe-Martinez awarded NASA NSTGRO Fellowship!!"
 description:
 tags: [news]
 author: Alessandro Roncone

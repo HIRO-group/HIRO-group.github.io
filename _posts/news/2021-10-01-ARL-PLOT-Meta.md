@@ -1,5 +1,6 @@
 ---
-title: "💰 HIRO Group awarded $2M to research robot behavior conditioned by second order mental models!"
+emoji: "💰"
+title: "HIRO Group awarded $2M to research robot behavior conditioned by second order mental models!"
 tags: [news]
 author: Alessandro Roncone
 ---

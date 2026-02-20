@@ -1,5 +1,6 @@
 ---
-title: "📷 Group picture! Spring 2019 semester"
+emoji: "📷"
+title: "Group picture! Spring 2019 semester"
 tags: [news,group_picture]
 author: Alessandro Roncone
 ---

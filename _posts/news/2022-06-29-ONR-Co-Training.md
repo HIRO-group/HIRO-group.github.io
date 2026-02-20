@@ -1,5 +1,6 @@
 ---
-title: "💰 Office of Naval Research awards $500k to research human-robot co-training!!"
+emoji: "💰"
+title: "Office of Naval Research awards $500k to research human-robot co-training!!"
 description:
 tags: [news]
 author: Alessandro Roncone

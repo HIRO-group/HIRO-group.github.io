@@ -1,5 +1,6 @@
 ---
-title: 📑 Paper on pattern-aware conventions to improve human-robot teaming accepted to ACM's Transactions on Human-Robot Interaction!
+emoji: "📑"
+title: "Paper on pattern-aware conventions to improve human-robot teaming accepted to ACM's Transactions on Human-Robot Interaction!"
 description: Utilize patterns to improve robot predictability for human-robot teaming
 tags: [news]
 author: Clare Lohrmann

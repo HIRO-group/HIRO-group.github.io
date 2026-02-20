@@ -1,5 +1,6 @@
 ---
-title: "🦾 Robotic skin research collaboration"
+emoji: "🦾"
+title: "Robotic skin research collaboration"
 description: Towards more collaborative and naturally interactive robots
 tags: [news]
 author: Joewie J. Koh

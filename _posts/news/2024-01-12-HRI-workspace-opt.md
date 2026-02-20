@@ -1,5 +1,6 @@
 ---
-title: 📑 Paper on workspace optimization to improve human motion prediction accepted to HRI 2024!
+emoji: "📑"
+title: "Paper on workspace optimization to improve human motion prediction accepted to HRI 2024!"
 description: Configure workspace to improve human legibility
 tags: [news]
 author: Yi-Shiuan Tung

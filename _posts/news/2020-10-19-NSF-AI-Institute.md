@@ -1,5 +1,6 @@
 ---
-title: "💰 HIRO Group part of the $20M NSF AI Institute on Student-AI Teaming!"
+emoji: "💰"
+title: "HIRO Group part of the $20M NSF AI Institute on Student-AI Teaming!"
 description: CU to lead innovative research at the intersection of Artificial Intelligence and Education
 tags: [news]
 author: Alessandro Roncone
