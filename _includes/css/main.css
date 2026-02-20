@@ -109,7 +109,8 @@ body {
     font-weight: 200;
     line-height: 1.429;
     color: #{{ site.color.articletext }};
-    background-color: #{{ site.color.backdrop }};
+    background: linear-gradient(135deg, #050505 40%, #15002b 100%);
+    background-attachment: fixed;
 }
 
 p,
@@ -407,8 +408,7 @@ ul {
 
 header {
     text-align: center;
-    /*color: #{{ site.color.backdrop }};*/
-    background: #{{ site.color.backdrop }};
+    background: transparent !important;
 }
 
 header .container {
@@ -520,10 +520,14 @@ header .intro-text .owner {
     outline: 0;
 }
 
-.navbar {
-    background-color: #{{ site.color.backdrop }};
-    border: 0;
-    transition: all ease .4s;
+nav.navbar,
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all ease .4s; /* Kept original transition */
 }
 
 .navbar-brand {
@@ -1656,23 +1660,28 @@ p.award i {
 }
 
 footer {
-    color: #{{ site.color.articletext }};
+    color: #{{ site.color.secondarytext }} !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 footer h3 {
     margin-bottom: 20px;
+    color: #{{ site.color.articletext }} !important;
 }
 
 footer .footer-above {
     padding-top: 24px;
     padding-bottom: 24px;
-    background-color: #{{ site.color.backdrop }};
+    background: transparent !important;
 }
 
 footer .footer-below {
     font-size: 0.85em;
     padding: 14px 0;
-    background-color: #{{ site.color.backdrop }};
+    background: transparent !important;
 }
 
 .btn:focus,
