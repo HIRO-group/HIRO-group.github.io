@@ -3,7 +3,7 @@
         <div class="container" id="portfolio">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>{{ page.title }}</h2>
+                    <h2>{% if page.emoji %}<span class="emoji">{{ page.emoji }} </span>{% endif %}{{ page.title }}</h2>
                     {% if page.description %}<h3>{{ page.description }}</h3>{% endif %}
                     {% if page.author %}
                         <hr class="separating-line">
