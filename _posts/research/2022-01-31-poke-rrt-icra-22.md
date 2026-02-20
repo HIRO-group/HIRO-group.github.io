@@ -1,5 +1,6 @@
 ---
-title: "🚀 PokeRRT: Poking as a Skill and Failure Recovery Tactic for Planar Non-Prehensile Manipulation"
+emoji: "🚀"
+title: "PokeRRT: Poking as a Skill and Failure Recovery Tactic for Planar Non-Prehensile Manipulation"
 description: Non-prehensile manipulation modeling and planning
 author: Anuj Pasricha
 permalink: research/poke-rrt-icra-22.html

@@ -1,5 +1,6 @@
 ---
-title: "🚀 Dexterous Robotic Manipulation and Skill Acquisition"
+emoji: "🚀"
+title: "Dexterous Robotic Manipulation and Skill Acquisition"
 description: Non-prehensile manipulation modeling and planning
 author: Anuj Pasricha
 permalink: research/non_prehensile_manipulation.html

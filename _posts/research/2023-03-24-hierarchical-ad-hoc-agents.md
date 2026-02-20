@@ -1,5 +1,6 @@
 ---
-title: "🚀 Hierarchical structures for human-agent interaction"
+emoji: "🚀"
+title: "Hierarchical structures for human-agent interaction"
 description: Aligning humans and agents at a cognitive and behavioral level 
 author: Stéphane Aroca-Ouellette
 permalink: research/haha.html

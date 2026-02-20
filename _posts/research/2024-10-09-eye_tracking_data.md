@@ -1,5 +1,6 @@
 ---
-title: "👁️ Eye Gaze Data"
+emoji: "👁️"
+title: "Eye Gaze Dataset"
 description: "Data for \"Eyes on the Game: Deciphering Implicit Human Signals to Infer Human Proficiency, Trust, and Intent\""
 author: Stéphane Aroca-Ouellette
 permalink: overcooked-eye-gaze-dataset.html

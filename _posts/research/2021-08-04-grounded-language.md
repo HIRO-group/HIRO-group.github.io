@@ -1,5 +1,6 @@
 ---
-title: "🚀 Grounding Language through Experiences"
+emoji: "🚀"
+title: "Grounding Language through Experiences"
 description: Using experiences to approach a human-like understanding of language
 author: Stéphane Aroca-Ouellette
 permalink: research/grounding_language_through_experience.html
