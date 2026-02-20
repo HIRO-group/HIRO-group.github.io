@@ -87,3 +87,7 @@ color:
   accent: "00a0a0"                  # This is the old hiro blue accent color
   articletext: "ffffff"             # This is the text color, white
   secondarytext: "aeaeae"           # This is the secondary text color, light gray (to give some depth)
+  bg_dark: "111111"                 # Sandbox dark background
+  card_bg: "1a1a1a"                 # Sandbox card background
+  text_main: "eeeeee"               # Sandbox main text
+  text_muted: "aaaaaa"              # Sandbox muted text

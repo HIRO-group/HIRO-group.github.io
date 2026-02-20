@@ -8,6 +8,15 @@ Container width     None (auto)     576px       720px       940px       1140px
 Class prefix        .col-xs-        .col-sm-    .col-md-    .col-lg-    .col-xl-
 */
 
+:root {
+    --hiro-primary: #{{ site.color.embodied }}; /* Embodied Green */
+    --hiro-secondary: #{{ site.color.social }}; /* Social Pink/Red */
+    --hiro-bg-dark: #{{ site.color.bg_dark }};
+    --hiro-card-bg: #{{ site.color.card_bg }};
+    --hiro-text-main: #{{ site.color.text_main }};
+    --hiro-text-muted: #{{ site.color.text_muted }};
+}
+
 @font-face {
     font-family: 'Geom';
     src: url("{{ site.baseurl }}/fonts/Geom-Light.ttf") format("opentype");
@@ -136,6 +145,11 @@ footer a {
 
 button:focus {
     outline: none;
+}
+
+.emoji {
+    -webkit-text-fill-color: initial !important;
+    color: initial !important;
 }
 
 a:hover,
