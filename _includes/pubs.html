@@ -25,18 +25,59 @@
             {% endif %}
 
                 {% if tobedisplayed == true %}
-                    <div class="row cv-item pub {% if item.award %}award{% endif %} {% if include.subteam %}pub-{{include.subteam}}{% endif %}">
-                        <div class="col-md-3">
-                            <h4 class="pub-venue">{% unless include.year %}{{item.year}} {% endunless %}{{item.venue}}</h4>
-                            {% if item.where %}<p class="no-print d-none d-md-block pub-location">{{item.where}}</p>{% endif %}
-                        </div>
-
-                        <div class="col-md-9">
-                            <h2>{{item.title}}{% if item.pdf %}<a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.pdf" target="_blank"> [PDF]<i class="fa fa-fw fa-file-pdf"></i></a><a class="no-print" href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.bib" target="_blank"> [BIB]<i class="fa fa-fw fa-book"></i></a>{% endif %}{% if item.url %}<a class="no-print" href="{{ item.url }}" target="_blank"> [URL]<i class="fa fa-fw fa-link"></i></a>{% endif %}</h2>
+                    <div class="row cv-item pub {% if item.award %}award{% endif %} {% if include.subteam %}pub-{{include.subteam | replace: ' ', '-'}}{% endif %}">
+                        <div class="col-md-12">
+                            <h2>{{item.title}}</h2>
                             <p class="pub-authors"><i>{{item.authors}}</i><br>
                             {% if item.description %}{{item.description}}{% endif %}
                             </p>
-                            {% if item.award %}<p class="award"><i class="fa fa-fw fa-xl fa-trophy"></i> {{item.award}} <i class="fa fa-fw fa-xl fa-trophy"></i></p> {% endif %}
+                            {% if item.award %}<p class="pub-award"><i class="fa fa-fw fa-trophy"></i> {{item.award}} <i class="fa fa-fw fa-trophy"></i></p> {% endif %}
+                            
+                            <!-- Badges and Links row -->
+                            <div class="pub-actions mt-2 no-print">
+                                {% assign pub_type = "other" %}
+                                {% for team in item.subteams %}
+                                    {% if team == "thesis" or team == "book" %}
+                                        {% assign pub_type = "thesis" %}
+                                    {% elsif team == "journal" %}
+                                        {% assign pub_type = "journal" %}
+                                    {% elsif team == "conference" %}
+                                        {% assign pub_type = "conference" %}
+                                    {% elsif team == "workshop" %}
+                                        {% assign pub_type = "workshop" %}
+                                    {% endif %}
+                                {% endfor %}
+                                
+                                {% assign type_badge_name = "Other" %}
+                                {% if pub_type == "thesis" %}{% assign type_badge_name = "Thesis/Book" %}{% endif %}
+                                {% if pub_type == "journal" %}{% assign type_badge_name = "Journal Article" %}{% endif %}
+                                {% if pub_type == "conference" %}{% assign type_badge_name = "Conference Paper" %}{% endif %}
+                                {% if pub_type == "workshop" %}{% assign type_badge_name = "Workshop Paper" %}{% endif %}
+                                <span class="pub-badge pub-badge-{{pub_type}}">{{type_badge_name}}</span>
+
+                                {% assign pub_field = "" %}
+                                {% for team in item.subteams %}
+                                    {% if team == "embodied intelligence" %}
+                                        {% assign pub_field = "embodied-intelligence" %}
+                                    {% elsif team == "social intelligence" %}
+                                        {% assign pub_field = "social-intelligence" %}
+                                    {% endif %}
+                                {% endfor %}
+                                
+                                {% if pub_field != "" %}
+                                    {% assign field_badge_name = pub_field | replace: "-", " " | upcase %}
+                                    <span class="pub-badge pub-badge-{{pub_field}}">{{field_badge_name}}</span>
+                                {% endif %}
+
+                                <span class="pub-badge pub-badge-venue">
+                                    {{item.year}} {{item.venue}}
+                                </span>
+                                
+                                {% if item.pdf %}<a href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.pdf" target="_blank" class="btn-hiro-outline"><i class="fa fa-fw fa-file-pdf"></i> PDF</a> 
+                                <a href="{% if item.host %}{{ item.host }}{% else %}{{ site.url }}{% endif %}/papers/{{ item.pdf }}.bib" target="_blank" class="btn-hiro-outline"><i class="fa fa-fw fa-book"></i> BIB</a>{% endif %}
+                                {% if item.code %} <a href="{{ item.code }}" target="_blank" class="btn-hiro-outline"><i class="fa fa-fw fa-laptop-code"></i> Code</a>{% endif %}
+                                {% if item.url %} <a href="{{ item.url }}" target="_blank" class="btn-hiro-outline"><i class="fa fa-fw fa-link"></i> URL</a>{% endif %}
+                            </div>
                         </div>
                     </div>
                 {% endif %}

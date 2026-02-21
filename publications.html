@@ -21,11 +21,11 @@ years:
     <div class="container">
         <div id="article">
 
-        <div style="text-align:center">
-            <div class="pub-thesis" style="padding: 10px; display:inline-block">Thesis/Book</div>
-            <div class="pub-journal" style="padding: 10px; display:inline-block">Journal Article</div>
-            <div class="pub-conference" style="padding: 10px; display:inline-block">Conference Paper</div>
-            <div class="pub-workshop" style="padding: 10px; display:inline-block">Workshop Paper</div>
+        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; padding-bottom: 20px;">
+            <div class="pub-thesis pub-badge pub-badge-thesis" style="cursor: pointer; font-size: 0.85rem; padding: 0.5rem 1rem;">Thesis/Book</div>
+            <div class="pub-journal pub-badge pub-badge-journal" style="cursor: pointer; font-size: 0.85rem; padding: 0.5rem 1rem;">Journal Article</div>
+            <div class="pub-conference pub-badge pub-badge-conference" style="cursor: pointer; font-size: 0.85rem; padding: 0.5rem 1rem;">Conference Paper</div>
+            <div class="pub-workshop pub-badge pub-badge-workshop" style="cursor: pointer; font-size: 0.85rem; padding: 0.5rem 1rem;">Workshop Paper</div>
         </div>
 
         {% for y in page.years %}

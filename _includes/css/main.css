@@ -1473,45 +1473,227 @@ span.label:hover e.ok {
     margin-bottom: 10px;
 }
 
-#article .cv-item.award,
-#article .cv-item.award p
-{
-    color: #{{ site.color.embodied }};
-}
-
 .pub-authors,
 .pub-location {
     opacity: 0.68;
 }
 
-#article .pub-thesis,
-#article .pub-book,
-#article .pub-journal,
-#article .pub-conference,
-#article .pub-workshop {
-    border-left: 6px solid;
+/* --- Publications Glassmorphism Styling --- */
+
+#article .cv-item.pub {
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    padding: 20px;
+    padding-left: 20px;
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: #32FFB8; /* default fallback */
+    color: var(--hiro-text-main);
 }
 
-#article .cv-item.pub-thesis,
-#article .pub-thesis            { 
-    border-left-color: #9467bd; 
+#article .cv-item.pub:hover {
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 25px rgba(50, 255, 184, 0.15);
+    border-top-color: rgba(255, 255, 255, 0.8);
+    border-right-color: rgba(255, 255, 255, 0.8);
+    border-bottom-color: rgba(255, 255, 255, 0.8);
+    transform: translateY(-5px);
 }
 
-#article .cv-item.pub-book,
-#article .pub-book {
-    border-left-color: #9467bd;
+/* Base Badge */
+.pub-badge {
+    display: inline-flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+    white-space: normal; /* allow wrap on small screens */
+    vertical-align: middle;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
 }
-#article .cv-item.pub-journal,
-#article .pub-journal {
-    border-left-color: #1f77b4;
+
+.pub-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: stretch;
 }
-#article .cv-item.pub-conference,
-#article .pub-conference {
-    border-left-color: #ff7f0e;
+
+/* Journal - Vibrant Blue/Cyan */
+#article .cv-item.pub-journal {
+    border-left-color: #00d2ff !important;
 }
-#article .cv-item.pub-workshop,
-#article .pub-workshop {
-    border-left-color: #7f7f7f;
+.pub-badge-journal {
+    background-color: rgba(0, 210, 255, 0.15);
+    border: 1px solid rgba(0, 210, 255, 0.4);
+    color: #00d2ff;
+}
+
+/* Conference - Vibrant Orange */
+#article .cv-item.pub-conference {
+    border-left-color: #FF9F1C !important; 
+}
+.pub-badge-conference {
+    background-color: rgba(255, 159, 28, 0.15);
+    border: 1px solid rgba(255, 159, 28, 0.4);
+    color: #FF9F1C;
+}
+
+/* Thesis/Book - Vibrant Purple */
+#article .cv-item.pub-thesis, #article .cv-item.pub-book {
+    border-left-color: #9d4edd !important;
+}
+.pub-badge-thesis, .pub-badge-book {
+    background-color: rgba(157, 78, 221, 0.15);
+    border: 1px solid rgba(157, 78, 221, 0.4);
+    color: #c77dff;
+}
+
+/* Workshop - Vibrant Silver */
+#article .cv-item.pub-workshop {
+    border-left-color: #a1a1aa !important;
+}
+.pub-badge-workshop {
+    background-color: rgba(161, 161, 170, 0.15);
+    border: 1px solid rgba(161, 161, 170, 0.4);
+    color: #e4e4e7;
+}
+
+/* Field Badges and Borders */
+#article .cv-item.pub-embodied-intelligence { border-left-color: #32FFB8 !important; }
+#article .cv-item.pub-social-intelligence { border-left-color: #F32B92 !important; }
+
+.pub-badge-embodied-intelligence {
+    background-color: rgba(50, 255, 184, 0.15);
+    border: 1px solid rgba(50, 255, 184, 0.4);
+    color: #32FFB8;
+}
+
+.pub-badge-social-intelligence {
+    background-color: rgba(243, 43, 146, 0.15);
+    border: 1px solid rgba(243, 43, 146, 0.4);
+    color: #F32B92;
+}
+
+/* Other / Fallback */
+.pub-badge-other {
+    background-color: rgba(50, 255, 184, 0.15);
+    border: 1px solid rgba(50, 255, 184, 0.4);
+    color: #32FFB8;
+}
+
+/* Venue */
+.pub-badge-venue {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #aeaeae;
+    text-transform: uppercase;
+}
+
+/* Button styles for PDF/BIB/URL links */
+.btn-hiro-outline {
+    display: inline-flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4rem 0.75rem;
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+}
+
+.btn-hiro-outline:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Button styles for PDF/BIB/URL links OVERRIDE (to ensure title link styles dont break it) */
+#article .cv-item.pub h2 a.no-print {
+    display: inline-flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4rem 0.75rem;
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+}
+
+#article .cv-item.pub h2 a.no-print:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #32FFB8;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(50, 255, 184, 0.3);
+}
+
+/* Typography Overrides */
+#article .cv-item.pub h2,
+#article .cv-item.pub h2 a {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    color: #ffffff !important;
+    text-decoration: none;
+    transition: none;
+}
+
+#article .cv-item.pub h2 a:hover {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+/* Award Styling */
+.pub-award {
+    color: #FFD700;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
+    margin-bottom: 0.5rem;
+}
+
+#article .cv-item.pub .pub-venue {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 0.2rem;
+}
+
+#article .cv-item.pub .pub-authors {
+    margin-bottom: 0.5rem;
+    font-size: 0.92em;
 }
 
 #article .pub p:last-child {
