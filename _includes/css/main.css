@@ -1575,8 +1575,8 @@ span.label:hover e.ok {
 }
 
 /* Field Badges and Borders */
-#article .cv-item.pub-embodied-intelligence { border-left-color: #32FFB8 !important; }
-#article .cv-item.pub-social-intelligence { border-left-color: #F32B92 !important; }
+#article .cv-item.border-override-embodied-intelligence { border-left-color: #32FFB8 !important; }
+#article .cv-item.border-override-social-intelligence { border-left-color: #F32B92 !important; }
 
 .pub-badge-embodied-intelligence {
     background-color: rgba(50, 255, 184, 0.15);
