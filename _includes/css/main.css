@@ -530,13 +530,21 @@ header .intro-text .owner {
 }
 
 .navbar-nav .nav-link {
-    color: #{{ site.color.articletext }};
-    margin-top: 6px;
-    padding-top:    20px;
-    padding-bottom: 20px;
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-    transition: all .4s;
+    font-weight: 300 !important;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem !important;
+    margin: 0 0.5rem;
+    position: relative;
+    transition: all 0.3s ease;
+    
+    /* OVERRIDING FIREFOX TEXT GRADIENT BUGS */
+    color: rgba(255, 255, 255, 0.7) !important;
+    background: none !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.7) !important;
+    -webkit-background-clip: unset !important;
+    background-clip: unset !important;
 }
 
 .navbar-nav .nav-link:hover,
@@ -544,7 +552,36 @@ header .intro-text .owner {
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.active:hover,
 .navbar-nav .nav-link.active:focus  {
-    transition: all ease .4s;
+    color: #fff !important;
+    background: none !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    -webkit-text-fill-color: #fff !important;
+    -webkit-background-clip: unset !important;
+    background-clip: unset !important;
+}
+
+/* The Glowing Underline */
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    bottom: 5px;
+    height: 3px;
+    border-radius: 3px;
+    background: linear-gradient(90deg, var(--hiro-primary), var(--hiro-secondary));
+    box-shadow: 0 0 12px rgba(50, 255, 184, 0.6);
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active::after {
+    transform: scaleX(1);
+    opacity: 1;
 }
 
 .fixed-top.navbar-shrink .navbar-nav .nav-link {
@@ -559,12 +596,18 @@ header .intro-text .owner {
 
 nav.navbar,
 .navbar-default {
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    /* Glassmorphism Background */
+    background: rgba(10, 10, 10, 0.65) !important;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     border-color: transparent;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    transition: all ease .4s; /* Kept original transition */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    
+    /* Consistent Height */
+    min-height: 80px;
+    padding: 0.5rem 1rem;
+    transition: all ease .4s;
+    z-index: 99999 !important; /* Ensure it floats above everything */
 }
 
 .navbar-brand {
@@ -637,9 +680,38 @@ nav.navbar,
 
 @media(max-width:1200px) {
 
+    #navbarCollapse {
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+    
+    #navbarCollapse ul.navbar-nav {
+        background: rgba(15, 15, 15, 0.65) !important;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(25px);
+        -webkit-backdrop-filter: blur(25px);
+        margin-top: 15px;
+        padding: 15px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+    
     .navbar-nav .nav-link {
+        margin: 5px 0;
+        text-align: center;
+        border-radius: 8px;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+    
+    .navbar-nav .nav-link:hover {
+        background: rgba(255, 255, 255, 0.05) !important;
+    }
+    
+    /* Disable underline animation on mobile dropdown, rely on bg color instead */
+    .navbar-nav .nav-link::after {
+        display: none !important;
     }
 
     .navbar-shrink {
@@ -649,92 +721,48 @@ nav.navbar,
 
     .navbar-toggler {
         border: none;
-        border-radius: 0;
-        margin-top: 16px;
-        margin-bottom: 16px;
-        padding-right: 4px;
-        padding-left: 10px;
-        margin-right: 10px;
-        transition: all ease 1s;
-        background-color: #{{ site.color.backdrop }};
-    }
-
-    .navbar-toggler:hover {
-        background-color: #{{ site.color.accent }};
-    }
-
-    .navbar-toggler:focus,
-    .navbar-toggler:active,
-    .navbar-toggler-icon:focus {
-        outline: none;
-        box-shadow: none;
-    }
-
-    .navbar.navbar-shrink .navbar-toggler {
+        background-color: transparent !important;
+        padding: 5px;
+        cursor: pointer;
         margin-top: 12px;
         margin-bottom: 12px;
     }
-
+    
+    .navbar-toggler:hover,
+    .navbar-toggler:focus,
+    .navbar-toggler:active {
+        background-color: transparent !important;
+        outline: none;
+        box-shadow: none;
+    }
+    
     .navbar-toggler span {
         display: block;
-        color: #{{ site.color.articletext }} !important;
-        background-color: #{{ site.color.articletext }} !important;
+        width: 25px;
         height: 2px;
-        width: 28px;
-        margin-top: 6px;
-        margin-bottom: 6px;
-        margin-right: 6px;
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-        position: relative;
-        left: 0;
+        margin: 6px auto;
+        border-radius: 2px;
+        background-color: #fff !important;
+        transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        transform-origin: center !important;
+        transform: rotate(0) translateY(0) !important;
     }
-
-    .navbar-toggler span:nth-child(1),
-    .navbar-toggler span:nth-child(3) {
-        -webkit-transition: transform .35s ease-in-out;
-        -moz-transition: transform .35s ease-in-out;
-        -o-transition: transform .35s ease-in-out;
-        transition: transform .35s ease-in-out;
+    
+    /* Hover glow on hamburger */
+    .navbar-toggler:hover span {
+        background-color: #fff !important;
+        box-shadow: 0 0 8px rgba(255,255,255,0.5);
     }
-
-    /*.navbar-toggler span:nth-child(2) {
-        -o-transition: opacity .35s ease-in-out;
-        transition: opacity .35s ease-in-out;
-    }*/
-
+    
+    /* Transform hamburger into 'X' when open */
     .navbar-toggler:not(.collapsed) span:nth-child(1) {
-        /*position: absolute;*/
-        left: 0px;
-        top: 13px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        -webkit-transform: rotate(135deg);
-        -moz-transform: rotate(135deg);
-        -o-transform: rotate(135deg);
-        transform: rotate(135deg);
+        transform: translateY(8px) rotate(45deg) !important;
     }
-
     .navbar-toggler:not(.collapsed) span:nth-child(2) {
-        height: 12px;
-        margin-top: 7px;
-        margin-bottom: 7px;
-        opacity: 0;
-        background-color: transparent;
+        opacity: 0 !important; /* Fade out middle bar */
     }
-
     .navbar-toggler:not(.collapsed) span:nth-child(3) {
-        /*position: absolute;*/
-        left: 0px;
-        top: -15px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        -webkit-transform: rotate(-135deg);
-        -moz-transform: rotate(-135deg);
-        -o-transform: rotate(-135deg);
-        transform: rotate(-135deg);
+        transform: translateY(-8px) rotate(-45deg) !important;
     }
 
     /* #wiki .post-description,
