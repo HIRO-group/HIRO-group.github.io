@@ -205,6 +205,11 @@ button:focus {
     box-shadow: 0 0 15px rgba(50, 255, 184, 0.5);
 }
 
+.card-hiro.card-subteam-social-intelligence:hover .person-img {
+    border-color: #FF107A;
+    box-shadow: 0 0 15px rgba(255, 16, 122, 0.5);
+}
+
 .person-links a.card-link {
     color: #fff !important;
     margin: 0 5px;

@@ -10,8 +10,8 @@
             {% if role == "alumni" %}{% comment %}This is for alumni, postdoc, and labmanager{% endcomment %}
             <li>{% if person.url %}<a href="{{ person.url }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}{% if person.graduated %}, graduated in {{ person.graduated }}{% endif %}{% if person.nowat %}, now at {{ person.nowat }}{% endif %}.</li>
             {% elsif role == "alumni-spotlight" %}{% comment %}This is for alumni spotlight{% endcomment %}
-            <div class="card-hiro mb-3 mx-1">
-              <div class="row no-gutters align-items-center py-3">
+            <div class="card-hiro mb-2 mx-1 {% if person.subteam %}card-subteam-{{person.subteam}}{% endif %}">
+              <div class="row no-gutters align-items-center py-2">
                 <div class="col-lg-4 text-center">
                     <div class="person-img-container mx-auto" style="width: 140px; height: 140px; margin-bottom: 0;">
                         <img src="{% if person.pic %}/img/people/{{ person.pic }}{% else %}{{ site.logopng }}{% endif %}" class="person-img" alt="{{ person.name }}">
@@ -19,10 +19,16 @@
                 </div>
                 <div class="col-lg-8 pr-3">
                   <div style="text-align: left;">
-                    <h3 class="card-title mt-0 mb-1" style="border-left: none; padding-left: 0; display: inline-block; margin-right: 10px;">{{ person.name }}</h3>
-                    <div class="person-links d-inline-block mb-2">
-                        {% if person.email  %}<a href="mailto:{{ person.email }}" class="card-link"><i class="fa fa-fw fa-envelope"></i></a>{% endif %}
-                        {% if person.url    %}<a href="{{ person.url }}" target="_blank" class="card-link"><i class="fa fa-fw fa-home"></i></a>{% endif %}
+                    <h3 class="card-title mt-0 mb-1" style="border-left: none; padding-left: 0;">{{ person.name }}</h3>
+                    <div class="d-flex align-items-center mt-1 mb-2">
+                        {% if person.subteam %}
+                            {% assign field_badge_name = person.subteam | replace: "-", " " | upcase %}
+                            <span class="pub-badge pub-badge-{{person.subteam}} mr-2" style="font-size: 0.6rem;">{{field_badge_name}}</span>
+                        {% endif %}
+                        <div class="person-links d-inline-block m-0 p-0">
+                            {% if person.email  %}<a href="mailto:{{ person.email }}" class="card-link"><i class="fa fa-fw fa-envelope"></i></a>{% endif %}
+                            {% if person.url    %}<a href="{{ person.url }}" target="_blank" class="card-link"><i class="fa fa-fw fa-home"></i></a>{% endif %}
+                        </div>
                     </div>
                     <p class="card-text small text-muted mb-0">
                         {% if person.graduated %}{{ person.graduated }}{% endif %}{% if person.nowat %}, now {{ person.nowat }}{% endif %}.
@@ -32,8 +38,8 @@
               </div>
             </div>
             {% elsif include.size == "big"%}{% comment %}This is for faculty, postdoc, and labmanager{% endcomment %}
-            <div class="card-hiro mb-3 mx-1">
-              <div class="row no-gutters align-items-center py-3">
+            <div class="card-hiro mb-2 mx-1 {% if person.subteam %}card-subteam-{{person.subteam}}{% endif %}">
+              <div class="row no-gutters align-items-center py-2">
                 <div class="col-sm-4 text-center">
                     <div class="person-img-container mx-auto" style="width: 180px; height: 180px; margin-bottom: 0;">
                         <img src="{% if person.pic %}/img/people/{{ person.pic }}{% else %}{{ site.logopng }}{% endif %}" class="person-img" alt="{{ person.name }}">
@@ -41,10 +47,16 @@
                 </div>
                 <div class="col-sm-8 pr-3">
                   <div style="text-align: left;">
-                    <h3 class="card-title mt-0 mb-2" style="border-left: none; padding-left: 0;">{{ person.name }}</h3>
-                    <div class="person-links mb-3 mt-0 text-left">
-                        {% if person.email  %}<a href="mailto:{{ person.email }}" class="card-link"><i class="fa fa-fw fa-envelope"></i></a>{% endif %}
-                        {% if person.url    %}<a href="{{ person.url }}" target="_blank" class="card-link"><i class="fa fa-fw fa-home"></i></a>{% endif %}
+                    <h3 class="card-title mt-0 mb-1" style="border-left: none; padding-left: 0;">{{ person.name }}</h3>
+                    <div class="d-flex align-items-center mt-1 mb-2">
+                        {% if person.subteam %}
+                            {% assign field_badge_name = person.subteam | replace: "-", " " | upcase %}
+                            <span class="pub-badge pub-badge-{{person.subteam}} mr-2" style="font-size: 0.65rem;">{{field_badge_name}}</span>
+                        {% endif %}
+                        <div class="person-links d-inline-block m-0 p-0 text-left">
+                            {% if person.email  %}<a href="mailto:{{ person.email }}" class="card-link"><i class="fa fa-fw fa-envelope"></i></a>{% endif %}
+                            {% if person.url    %}<a href="{{ person.url }}" target="_blank" class="card-link"><i class="fa fa-fw fa-home"></i></a>{% endif %}
+                        </div>
                     </div>
                     <div class="small">
                         {% if person.office %}<p class="mb-1"><i class="fa fa-fw fa-briefcase"></i> {{ person.office }}</p>{% endif %}
@@ -55,13 +67,19 @@
               </div>
             </div>
             {% else %}{% comment %}This is for the default student section{% endcomment %}
-            <div class="card-hiro person-card-hiro mb-3 mx-1 pt-3">
+            <div class="card-hiro person-card-hiro mb-3 mx-1 pt-3 {% if person.subteam %}card-subteam-{{person.subteam}}{% endif %}">
                 <div class="person-img-container mx-auto">
                     <img src="{% if person.pic %}/img/people/{{ person.pic }}{% else %}{{ site.logopng }}{% endif %}" class="person-img" alt="{{ person.name }}">
                 </div>
                 <h3 class="card-title mt-3 mb-1 text-center d-flex align-items-center justify-content-center" style="font-size: 1.15rem; min-height: 3.2rem; line-height: 1.2;">
                     {% if person.page %}<a href="/{{ person.page }}.html" style="color: inherit;">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}
                 </h3>
+                {% if person.subteam %}
+                <div class="text-center mb-2">
+                    {% assign field_badge_name = person.subteam | replace: "-", " " | upcase %}
+                    <span class="pub-badge pub-badge-{{person.subteam}}" style="font-size: 0.55rem; padding: 0.2rem 0.5rem; letter-spacing: 0.5px;">{{field_badge_name}}</span>
+                </div>
+                {% endif %}
                 <div class="person-links text-center mb-0 pb-3">
                     {% if person.email  %}<a href="mailto:{{ person.email }}" class="card-link"><i class="fa fa-fw fa-envelope"></i></a>{% endif %}
                     {% if person.page or person.url %}
