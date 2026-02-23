@@ -151,6 +151,7 @@ button:focus {
 .emoji {
     -webkit-text-fill-color: initial !important;
     color: initial !important;
+    background-color: transparent !important;
 }
 
 /* --- Glassmorphism Cards --- */
