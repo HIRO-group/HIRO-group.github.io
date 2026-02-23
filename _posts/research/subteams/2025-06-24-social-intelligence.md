@@ -28,7 +28,8 @@ Among all aspects of intelligence, **social intelligence remains the most elusiv
 <section id="post-cv" style="padding-top: 0;">
         <div id="article">
 
-            {% include pubs.html subteam=page.subtype publications=site.data.publications %}
+            {% include pub_filters.html hide_field_filters=true %}
+            {% include pubs.html subteam=page.subtype publications=site.data.publications hide_subteam_badges=true %}
 
         </div>
 </section>

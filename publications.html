@@ -21,14 +21,7 @@ years:
     <div class="container">
         <div id="article">
 
-        <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; padding-bottom: 20px;">
-            <div id="filter-embodied" class="pub-embodied-intelligence pub-badge pub-badge-embodied-intelligence filter-badge" style="cursor: pointer; font-size: 0.85rem; padding: 0.5rem 1rem; transition: opacity 0.2s;">Embodied Intelligence</div>
-            <div id="filter-social" class="pub-social-intelligence pub-badge pub-badge-social-intelligence filter-badge" style="cursor: pointer; font-size: 0.85rem; padding: 0.5rem 1rem; transition: opacity 0.2s;">Social Intelligence</div>
-            <div id="filter-thesis" class="pub-thesis pub-badge pub-badge-thesis filter-badge" style="cursor: pointer; font-size: 0.85rem; padding: 0.5rem 1rem; transition: opacity 0.2s;">Thesis/Book</div>
-            <div id="filter-journal" class="pub-journal pub-badge pub-badge-journal filter-badge" style="cursor: pointer; font-size: 0.85rem; padding: 0.5rem 1rem; transition: opacity 0.2s;">Journal Article</div>
-            <div id="filter-conference" class="pub-conference pub-badge pub-badge-conference filter-badge" style="cursor: pointer; font-size: 0.85rem; padding: 0.5rem 1rem; transition: opacity 0.2s;">Conference Paper</div>
-            <div id="filter-workshop" class="pub-workshop pub-badge pub-badge-workshop filter-badge" style="cursor: pointer; font-size: 0.85rem; padding: 0.5rem 1rem; transition: opacity 0.2s;">Workshop Paper</div>
-        </div>
+        {% include pub_filters.html %}
 
         {% for y in page.years %}
             <!-- Year Container -->
@@ -47,110 +40,4 @@ years:
     </div>
 </section>
 
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    let currentTypeFilter = null;
-    let currentFieldFilter = null;
-    
-    const allBadges = document.querySelectorAll('.filter-badge');
-    const typeFilters = ['filter-thesis', 'filter-journal', 'filter-conference', 'filter-workshop'];
-    const fieldFilters = ['filter-embodied', 'filter-social'];
-    
-    // Map of the filter ID to the corresponding class on the publication items.
-    const filterMap = {
-        'filter-embodied': 'pub-embodied-intelligence',
-        'filter-social': 'pub-social-intelligence',
-        'filter-thesis': 'pub-thesis',
-        'filter-journal': 'pub-journal',
-        'filter-conference': 'pub-conference',
-        'filter-workshop': 'pub-workshop'
-    };
 
-    allBadges.forEach(badge => {
-        badge.addEventListener('click', function() {
-            const filterKey = this.id;
-            
-            // Determine which category this badge belongs to and toggle it
-            if (typeFilters.includes(filterKey)) {
-                if (currentTypeFilter === filterKey) {
-                    currentTypeFilter = null; // Toggle OFF
-                } else {
-                    currentTypeFilter = filterKey; // Toggle ON
-                }
-            } else if (fieldFilters.includes(filterKey)) {
-                if (currentFieldFilter === filterKey) {
-                    currentFieldFilter = null; // Toggle OFF
-                } else {
-                    currentFieldFilter = filterKey; // Toggle ON
-                }
-            }
-
-            applyFilters();
-            updateBadgeOpacities();
-        });
-    });
-
-    function applyFilters() {
-        // Resolve target classes
-        let targetTypeClass = currentTypeFilter ? filterMap[currentTypeFilter] : null;
-        let targetFieldClass = currentFieldFilter ? filterMap[currentFieldFilter] : null;
-
-        document.querySelectorAll('.cv-item.pub').forEach(item => {
-            let matchesType = true;
-            let matchesField = true;
-
-            // Check Type match
-            if (targetTypeClass) {
-                const isThesisBook = (targetTypeClass === 'pub-thesis');
-                matchesType = item.classList.contains(targetTypeClass) || (isThesisBook && item.classList.contains('pub-book'));
-            }
-
-            // Check Field match
-            if (targetFieldClass) {
-                matchesField = item.classList.contains(targetFieldClass);
-            }
-
-            // Must match BOTH conditions to be visible (logical AND)
-            if (matchesType && matchesField) {
-                item.style.display = 'flex';
-            } else {
-                item.style.display = 'none';
-            }
-        });
-
-        // Hide empty years
-        document.querySelectorAll('.year-group').forEach(group => {
-            const visibleItems = group.querySelectorAll('.cv-item.pub[style="display: flex;"]');
-            if (visibleItems.length === 0) {
-                group.style.display = 'none';
-            } else {
-                group.style.display = 'block';
-            }
-        });
-    }
-
-    function updateBadgeOpacities() {
-        allBadges.forEach(b => {
-            const isTypeBadge = typeFilters.includes(b.id);
-            const isFieldBadge = fieldFilters.includes(b.id);
-
-            if (isTypeBadge) {
-                // If NO type filter is active, all type badges are fully visible.
-                // If a type filter IS active, ONLY the active one is fully visible.
-                if (!currentTypeFilter) {
-                    b.style.opacity = '1';
-                } else {
-                    b.style.opacity = (b.id === currentTypeFilter) ? '1' : '0.4';
-                }
-            } else if (isFieldBadge) {
-                // Same logic for fields
-                if (!currentFieldFilter) {
-                    b.style.opacity = '1';
-                } else {
-                    b.style.opacity = (b.id === currentFieldFilter) ? '1' : '0.4';
-                }
-            }
-        });
-    }
-});
-</script>

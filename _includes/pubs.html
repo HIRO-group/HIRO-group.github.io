@@ -25,7 +25,7 @@
             {% endif %}
 
                 {% if tobedisplayed == true %}
-                    <div class="row cv-item pub {% if item.award %}award{% endif %} {% if include.subteam %}border-override-{{include.subteam | replace: ' ', '-'}}{% endif %} {% for team in item.subteams %}pub-{{team | replace: ' ', '-'}} {% endfor %}">
+                    <div class="row cv-item pub {% if item.award %}award{% endif %} {% for team in item.subteams %}pub-{{team | replace: ' ', '-'}} {% endfor %}">
                         <div class="col-md-12">
                             <h2>{{item.title}}</h2>
                             <p class="pub-authors"><i>{{item.authors}}</i><br>
@@ -64,7 +64,7 @@
                                     {% endif %}
                                 {% endfor %}
                                 
-                                {% if pub_field != "" %}
+                                {% if pub_field != "" and include.hide_subteam_badges != true %}
                                     {% assign field_badge_name = pub_field | replace: "-", " " | upcase %}
                                     <span class="pub-badge pub-badge-{{pub_field}}">{{field_badge_name}}</span>
                                 {% endif %}
