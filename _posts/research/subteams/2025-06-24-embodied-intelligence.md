@@ -24,7 +24,11 @@ Our research is inspired by how **humans build intelligence through physical int
 Despite incredible advancements in vision-language-action systems, robots today still lack the ability to truly generalize to complex environments. 
 **We believe that true generalization requires grounding in sensorimotor experience**, where contact is treated not as failure but as a structured source of information, and where body morphology guides the selection of robust, adaptable strategies for interacting with the environment.
 
-# 2. Publications
+# 2. People
+
+{% include subteam_people.html subteam=page.subtype %}
+
+# 3. Publications
 
 <section id="post-cv" style="padding-top: 0;">
         <div id="article">

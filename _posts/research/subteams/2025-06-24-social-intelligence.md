@@ -23,7 +23,11 @@ Our research is grounded in the insight that **human intelligence is deeply soci
 
 Among all aspects of intelligence, **social intelligence remains the most elusive aspect of machine intelligence**. While robots have made strides in perception and manipulation, they still struggle to collaborate effectively with humans in dynamic, mixed-initiative settings. We believe that effective collaboration requires reasoning over shared abstractions, embedding human expectations into robot behavior, and generating predictable, legible interaction dynamics.
 
-# 2. Publications
+# 2. People
+
+{% include subteam_people.html subteam=page.subtype %}
+
+# 3. Publications
 
 <section id="post-cv" style="padding-top: 0;">
         <div id="article">

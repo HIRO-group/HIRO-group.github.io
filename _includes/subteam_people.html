@@ -1,0 +1,29 @@
+<div class="card-columns mt-4 mb-5">
+{% assign subteam_dash = include.subteam | replace: " ", "-" %}
+{% assign postdocs  = site.data.people | where: "role", "postdoc" | where: "subteam", subteam_dash %}
+{% assign phds      = site.data.people | where: "role", "phd"     | where: "subteam", subteam_dash %}
+{% assign members   = postdocs | concat: phds %}
+{% for person in members %}
+    {% assign role_label = "PhD Student" %}
+    {% if person.role == "postdoc" %}{% assign role_label = "Postdoc" %}{% endif %}
+    <div class="card-hiro person-card-hiro mb-3 mx-1 pt-3 card-subteam-{{subteam_dash}}">
+        <div class="person-img-container mx-auto">
+            <img src="{% if person.pic %}/img/people/{{ person.pic }}{% else %}{{ site.logopng }}{% endif %}" class="person-img" alt="{{ person.name }}">
+        </div>
+        <h3 class="card-title mt-3 mb-1 text-center d-flex align-items-center justify-content-center" style="font-size: 1.15rem; min-height: 3.2rem; line-height: 1.2;">
+            {% if person.page %}<a href="/{{ person.page }}.html" style="color: inherit;">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}
+        </h3>
+        <div class="text-center mb-2">
+            <span class="text-muted bg-transparent" style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">{{ role_label }}</span>
+        </div>
+        <div class="person-links text-center mb-0 pb-3">
+            {% if person.email  %}<a href="mailto:{{ person.email }}" class="card-link"><i class="fa fa-fw fa-envelope"></i></a>{% endif %}
+            {% if person.page or person.url %}
+            <a href="{% if person.page %}/{{ person.page }}.html{% elsif person.url %}{{ person.url }}{% endif %}" target="_blank" class="card-link"><i class="fa fa-fw fa-home"></i></a>
+            {% elsif person.linkedin %}
+            <a href="https://www.linkedin.com/in/{{ person.linkedin }}" target="_blank" class="card-link"><i class="fa fa-fw fa-linkedin"></i></a>
+            {% endif %}
+        </div>
+    </div>
+{% endfor %}
+</div>
