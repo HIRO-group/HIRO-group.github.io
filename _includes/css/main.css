@@ -600,6 +600,57 @@ header .intro-text .owner {
     outline: 0;
 }
 
+/* ── Research dropdown ──────────────────────────────────────────── */
+
+/* Suppress Bootstrap's caret arrow by zeroing its borders/margins,
+   WITHOUT using display:none which would also kill our underline ::after */
+.navbar-nav .dropdown-toggle::after {
+    border: 0 !important;
+    margin: 0 !important;
+    vertical-align: unset;
+}
+
+/* Keep the underline pinned while the dropdown is open (.show class from Bootstrap) */
+.navbar-nav .nav-item.dropdown.show .nav-link::after {
+    transform: scaleX(1);
+    opacity: 1;
+}
+
+/* Glassmorphism dropdown panel — mirrors the navbar glass look */
+.navbar-nav .dropdown-menu {
+    background: rgba(10, 10, 10, 0.65) !important;
+    background-color: rgba(10, 10, 10, 0.65) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 8px;
+    padding: 0.5rem 0;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    margin-top: 0.5rem;
+    min-width: 220px;
+}
+
+/* Dropdown items */
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 0.6rem 1.4rem;
+    transition: color 0.2s ease, background 0.2s ease;
+    background: transparent;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar-nav .dropdown-menu .dropdown-item:focus {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+/* Divider between dropdown items */
+.navbar-nav .dropdown-menu .dropdown-divider {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
 nav.navbar,
 .navbar-default {
     /* Glassmorphism Background */
@@ -610,7 +661,7 @@ nav.navbar,
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     
     /* Consistent Height */
-    min-height: 80px;
+    min-height: 70px;
     padding: 0.5rem 1rem;
     transition: all ease .4s;
     z-index: 99999 !important; /* Ensure it floats above everything */
@@ -623,9 +674,9 @@ nav.navbar,
 }
 
 .navbar-brand {
-    min-width: 364px;
-    width: 364px;
-    height: 100px;
+    min-width: 300px;
+    width: 300px;
+    height: 82px;
     transition: all ease .4s;
     background: url("{{ site.logo3 }}") no-repeat;
     background-size: contain;
@@ -633,7 +684,10 @@ nav.navbar,
 
 .navbar-brand:hover,
 .navbar-brand:focus {
-    background-color: #{{ site.color.accent }};
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12), 0 4px 16px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
 }
 
 .navbar-shrink .navbar-brand {
@@ -646,9 +700,9 @@ nav.navbar,
 
 @media(max-width: 1430px) {
     .navbar-brand {
-        min-width: 366px;
-        width: 366px;
-        height: 96px;
+        min-width: 300px;
+        width: 300px;
+        height: 82px;
     }
 
     header .container,
