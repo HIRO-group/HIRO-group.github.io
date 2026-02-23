@@ -1428,6 +1428,8 @@ span.label:hover e.ok {
     overflow: hidden;
     height: 22px;
     margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 0px;
 }
 
 /* Article Container Backdrop (Transparent blur) */
@@ -1482,11 +1484,6 @@ span.label:hover e.ok {
     background: #{{ site.color.social }}; /* Using social pink as the primary accent */
     z-index: 999999; /* ensure it is above everything, including fixed navbars */
     transition: width 0.1s ease-out;
-}
-
-#article pre {
-    background-color: #f9f9f9;
-    border-radius: 0px;
 }
 
 #article .progress-bar {
@@ -2104,17 +2101,20 @@ pre code span:hover {
     margin: .5em 0em;
     line-height: 1.8;
     color: #d0d0d0;
-    background-color: #272822;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    background-color: rgba(39, 40, 34, 0.32); /* #272822 at 75% opacity */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 a code,
 p code,
 li code,
 .highlight pre {
-    background-color: #34362e;
+    background-color: transparent; /* Rely on container background for block code, transparent for inline */
     border: none;
 }
 .highlight pre {
