@@ -19,6 +19,7 @@
 
  - name: Jake Brawer
    role: postdoc
+   subteam: social-intelligence
    url: https://jakebrawer.com
    email: jake.brawer@colorado.edu
    pic: jake.jpg
@@ -28,12 +29,14 @@
 
  - name: Joewie J. Koh
    role: phd
+   subteam: embodied-intelligence
    url: https://joewiekoh.com
    email: joewie.koh@colorado.edu
    pic: joewie.jpg
 
  - name: Anuj Pasricha
    role: phd
+   subteam: embodied-intelligence
    page: anuj
    url: https://anuj.carrd.co
    email: anuj.pasricha@colorado.edu
@@ -41,29 +44,34 @@
 
  - name: Caleb Escobedo
    role: phd
+   subteam: embodied-intelligence
    page: caleb
    email: caleb.escobedo@colorado.edu
    pic: caleb.jpg
 
  - name: Kayleigh (Kaleb) Bishop
    role: phd
+   subteam: social-intelligence
    url: https://kalebishop.github.io
    email: kabi2483@colorado.edu
    pic: kaleb.jpg
 
  - name: Yi-Shiuan Tung
    role: phd
+   subteam: social-intelligence
    url: https://yi-shiuan-tung.github.io
    email: yi-shiuan.tung@colorado.edu
    pic: yishiuan.jpg
 
  - name: Clare Lohrmann
    role: phd
+   subteam: social-intelligence
    email: clare.lohrmann@colorado.edu
    pic: clare.jpg
 
  - name: Gilberto Briscoe-Martinez
    role: phd
+   subteam: embodied-intelligence
    linkedin: gbmartinez
    url: https://gilberto.martinez.phd
    email: gilberto.briscoe-martinez@colorado.edu
@@ -71,46 +79,54 @@
 
  - name: Nataliya Nechyporenko
    role: phd
+   subteam: embodied-intelligence
    url: https://nataliya.dev
    email: nataliya@colorado.edu
    pic: nataliya.jpg
 
  - name: Chi-Hui Lin
    role: phd
+   subteam: embodied-intelligence
    email: chli4608@colorado.edu
    pic: chihui.jpg
 
  - name: Srikrishna Bangalore Raghu
    role: phd
+   subteam: social-intelligence
    url: https://brsrikrishna.wixsite.com/srikrishna-bangalore
    email: srba2850@colorado.edu
    pic: srikrishna.png
 
  - name: Ava Abderezaei
    role: phd
+   subteam: embodied-intelligence
    url: https://avv-va.github.io/
    email: ava.abderezaei@colorado.edu
    pic: ava.jpg
 
  - name: Naren Sivagnanadasan
    role: phd
+   subteam: social-intelligence
    url: https://narendasan.com
    email: naren.sivagnanadasan@colorado.edu
    pic: naren.jpg
 
  - name: Jay Vakil
    role: phd
+   subteam: embodied-intelligence
    url: https://jdvakil.github.io
    email: jay.vakil@colorado.edu
    pic: jay.jpg
 
  - name: Yutong Zhang
    role: phd
+   subteam: embodied-intelligence
    email: yutong.zhang.2000@colorado.edu
    pic: yutong.png
 
  - name: Carson Kohlbrenner
    role: phd
+   subteam: embodied-intelligence
    url: https://ckohl10.github.io
    email: carson.kohlbrenner@colorado.edu
    pic: carson.png
@@ -226,6 +242,7 @@
 
  - name: Stéphane Aroca-Ouellette
    role: alumni-spotlight
+   subteam: social-intelligence
    url: https://stephao.github.io/
    graduated: HIRO Ph.D. [2020-2025]
    nowat: Research Scientist at Skyfall AI
@@ -233,6 +250,7 @@
 
  - name: Sandra Bae
    role: alumni-spotlight
+   subteam: embodied-intelligence
    url: https://sandrabae.github.io/
    graduated: Ph.D., 2025. 
    nowat: Assistant Professor at Arizona State University
@@ -240,6 +258,7 @@
 
  - name: Matthew Strong
    role: alumni-spotlight
+   subteam: embodied-intelligence
    url: https://peasant98.github.io/
    graduated: BS. Student [2019-2021]
    nowat: Ph.D. student at Stanford University
@@ -247,6 +266,7 @@
 
  - name: Shiran Dudy
    role: alumni-spotlight
+   subteam: social-intelligence
    url: http://www.shirandudy.com
    graduated: Post-doc [2020-2021]
    nowat: Research Scientist at Northeastern University
@@ -254,12 +274,14 @@
 
  - name: Guohui Ding
    role: alumni-spotlight
+   subteam: embodied-intelligence
    graduated: HIRO Ph.D. [2018-2021]
    nowat: Research Scientist at Meta [Facebook]
    pic: guohui.jpg
 
  - name: Chi-Ju Wu
    role: alumni-spotlight
+   subteam: embodied-intelligence
    graduated: M.S. student [2019-2020]
    nowat: at Waymo [previously Zoox]. First hire of the HIRO Group ❤️
    pic: sayter.jpg
