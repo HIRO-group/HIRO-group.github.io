@@ -64,6 +64,18 @@
               });
           }
 
+          // Time to Read Calculation
+          const articleContent = document.getElementById("article");
+          const readTimeSpan = document.getElementById("article-read-time");
+          
+          if (articleContent && readTimeSpan) {
+              const text = articleContent.innerText;
+              const wordCount = text.split(/\s+/).filter(word => word.length > 0).length;
+              const wordsPerMinute = 225;
+              const readingTime = Math.ceil(wordCount / wordsPerMinute);
+              readTimeSpan.innerHTML = `<i class="fa fa-clock"></i> ${readingTime} min read`;
+          }
+
           // Dynamic Reading Progress Bar
           const progressBar = document.getElementById("reading-progress");
           if (progressBar && document.getElementById("article")) {

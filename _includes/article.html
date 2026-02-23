@@ -1,15 +1,19 @@
-
+<div id="reading-progress"></div>
     <section id="post">
-        <div class="container" id="portfolio">
+        <div class="container article-container-backdrop" id="portfolio">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>{% if page.emoji %}<span class="emoji">{{ page.emoji }} </span>{% endif %}{{ page.title }}</h2>
                     {% if page.description %}<h3>{{ page.description }}</h3>{% endif %}
+                    
+                    <hr class="separating-line" style="margin-bottom: 30px;">
+                    
                     {% if page.author %}
-                        <hr class="separating-line">
-                        <p class="text-end" style="margin-bottom: 40px;">by <em>{{ page.author }}</em> on {{ page.date | date: '%B %d, %Y' }}</p>
-                    {% else %}
-                        <hr class="separating-line"{% if page.category != "research" and page.category != "design" %} style="margin-bottom: 40px;"{% endif %}>
+                        <div class="article-meta text-center">
+                            <span class="author"><i class="fa fa-user"></i> {{ page.author }}</span>
+                            <span class="date"><i class="fa fa-calendar-alt"></i> {{ page.date | date: '%B %d, %Y' }}</span>
+                            <span id="article-read-time" class="read-time"><i class="fa fa-clock"></i> Calculating...</span>
+                        </div>
                     {% endif %}
                 </div>
             </div>

@@ -1430,6 +1430,48 @@ span.label:hover e.ok {
     margin-bottom: 20px;
 }
 
+/* Article Container Backdrop (Transparent blur) */
+.article-container-backdrop {
+    background: transparent;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 10px 30px 30px 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Article Metadata Pill */
+.article-meta {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 8px 24px;
+    border-radius: 30px;
+    font-size: 0.95rem;
+    color: #eee;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+}
+.article-meta span {
+    background-color: transparent !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.article-meta i {
+    color: #{{ site.color.embodied }};
+}
+
 /* Reading Progress Bar (Fixed Top) */
 #reading-progress {
     position: fixed;
