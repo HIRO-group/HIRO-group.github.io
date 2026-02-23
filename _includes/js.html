@@ -57,10 +57,23 @@
       document.addEventListener('DOMContentLoaded', function() {
           const scrollToTopButton = document.querySelector('.page-scroll-up');
 
-          scrollToTopButton.addEventListener('click', function(event) {
-              event.preventDefault();  // Prevent the default action
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-          });
+          if (scrollToTopButton) {
+              scrollToTopButton.addEventListener('click', function(event) {
+                  event.preventDefault();  // Prevent the default action
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+              });
+          }
+
+          // Dynamic Reading Progress Bar
+          const progressBar = document.getElementById("reading-progress");
+          if (progressBar && document.getElementById("article")) {
+              window.addEventListener("scroll", () => {
+                  const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                  const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                  const scrolled = (winScroll / height) * 100;
+                  progressBar.style.width = scrolled + "%";
+              }, { passive: true });
+          }
       });
 
       // Highlight the top nav as scrolling occurs

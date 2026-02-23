@@ -1428,6 +1428,21 @@ span.label:hover e.ok {
     overflow: hidden;
     height: 22px;
     margin-bottom: 20px;
+}
+
+/* Reading Progress Bar (Fixed Top) */
+#reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background: #{{ site.color.social }}; /* Using social pink as the primary accent */
+    z-index: 999999; /* ensure it is above everything, including fixed navbars */
+    transition: width 0.1s ease-out;
+}
+
+#article pre {
     background-color: #f9f9f9;
     border-radius: 0px;
 }
