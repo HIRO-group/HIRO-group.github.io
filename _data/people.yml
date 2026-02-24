@@ -1,3 +1,70 @@
+# =============================================================================
+# people.yml — Field Reference
+# =============================================================================
+#
+# Each entry is a list item (-) with the following fields:
+#
+# REQUIRED
+#   name: Full display name, e.g. "Dr. Alice Smith"
+#   role: Controls which section the person appears in on the People page.
+#         Valid values (in display order):
+#           faculty        – Principal Investigator(s)
+#           labmanager     – Lab Manager
+#           postdoc        – Post-doctoral Researchers
+#           phd            – PhD Students
+#           grad           – MS / Graduate Students
+#           undergrad      – Undergraduate Students
+#           highschool     – High School Students
+#           collaborator   – Visiting / External Collaborators
+#           alumni-spotlight – Featured alumni shown in a spotlight card (requires extra fields)
+#           alumni         – All other alumni (minimal card)
+#
+# OPTIONAL — Contact & Profile
+#   pic:      Filename of the photo in /img/people/, e.g. "alice.jpg"
+#   url:      Personal / lab website URL
+#   email:    CU Boulder email address
+#   phone:    Phone number string, e.g. "+1 (303) 555-1234"
+#   office:   Office room, e.g. "ECES 124"
+#   linkedin: LinkedIn username (slug only, NOT the full URL), e.g. "alice-smith"
+#   page:     Slug for an internal lab page / CV, e.g. "anuj"
+#             → used to generate a link to /people/anuj (or similar)
+#
+# OPTIONAL — Subteam assignment (phd / postdoc / alumni-spotlight)
+#   subteam: Which research group the person belongs to.
+#            Valid values: embodied-intelligence | social-intelligence
+#
+# OPTIONAL — Alumni fields (used by both alumni and alumni-spotlight)
+#   graduated: Degree + year string, e.g. "HIRO Ph.D. [2020-2025]"
+#   nowat:     Current position / institution after leaving the lab
+#
+# EXAMPLE ENTRIES
+#
+#  # Active PhD student
+#  - name: Alice Smith
+#    role: phd
+#    subteam: embodied-intelligence
+#    url: https://alicesmith.github.io
+#    email: alice.smith@colorado.edu
+#    pic: alice.jpg
+#    page: alice        # enables an internal CV/profile page at /people/alice
+#
+#  # Featured alumnus
+#  - name: Bob Jones
+#    role: alumni-spotlight
+#    subteam: social-intelligence
+#    url: https://bobjones.com
+#    graduated: HIRO Ph.D. [2018-2023]
+#    nowat: Assistant Professor at MIT
+#    pic: bob.jpg
+#
+#  # Regular alumnus (minimal)
+#  - name: Carol White
+#    role: alumni
+#    graduated: Spring 2022 [M.S.]
+#    nowat: Google
+#
+# =============================================================================
+
  - name: Prof. Alessandro Roncone
    role: faculty
    url: https://alessandro.ronc.one

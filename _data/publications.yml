@@ -1,3 +1,67 @@
+# =============================================================================
+# publications.yml — Field Reference
+# =============================================================================
+#
+# Each entry is a list item (-) with the following fields:
+#
+# REQUIRED
+#   title:    Full title of the publication (use quotes if it contains colons).
+#   authors:  Author list as a string. Bold an author with <b>Name</b> if needed.
+#   year:     Publication year (integer).
+#   venue:    Full venue name, e.g. "IEEE International Conference on Robotics…"
+#   subteams: List of tags used for filtering, badges, and rendering. See below.
+#
+# OPTIONAL — Content
+#   where:       Location / dates of the venue, e.g. "Boulder, CO, USA, March 11-14"
+#   description: Free-text note shown below the authors, e.g. "PhD dissertation",
+#                "Extended abstract", or HTML like <a href="…">Featured in IEEE!</a>
+#   award:       Award text shown with a trophy icon, e.g. "Best Technical Paper Award!!"
+#
+# OPTIONAL — Buttons (each renders a button in the pub-actions row)
+#   pdf:  Filename (no extension) of the PDF/BIB in /papers/, e.g. "2025_Smith_ICRA"
+#         → renders both a PDF button and a BIB button automatically.
+#   code: Full URL to a code repository, e.g. "https://github.com/…"
+#         → renders a "Code" button.
+#   url:  Full URL to an external page (project page, DOI, etc.)
+#         → renders a "URL" button.
+#   site: Slug of an internal Jekyll page under /subteam/, e.g. "gentacttoolbox"
+#         (currently unused in the pub card but reserved for future use)
+#
+# OPTIONAL — Hosting
+#   host: Base URL override for the pdf/bib links, e.g. "https://alessandro.ronc.one"
+#         Defaults to site.url (https://hiro-group.ronc.one) when omitted.
+#
+# SUBTEAMS TAG REFERENCE
+#   Publication type (determines the badge color):
+#     conference, journal, workshop, thesis, book
+#
+#   Research area (determines the field badge):
+#     embodied intelligence, social intelligence
+#
+#   Person tags (for per-person filtering on CVs):
+#     anuj, ava, caleb, carson, chi-hui, clare, gilberto, guohui,
+#     jake, joewie, kaleb, nataliya, naren, srikrishna, stephane, yi-shiuan, …
+#
+#   Topic tags (for subteam pages) [THIS IS CURRENTLY NOT USED]:
+#     algorithmic hri and human-ai teaming, control and artificial skin,
+#     learning and modeling, physical hri, …
+#
+# EXAMPLE ENTRY
+#  - title: "My Awesome Paper"
+#    authors: Alice Smith, Bob Jones, Alessandro Roncone
+#    year: 2025
+#    venue: "IEEE International Conference on Robotics and Automation [ICRA]"
+#    where: Atlanta, Georgia, USA, May 19-23
+#    award: Best Paper Award!!
+#    description: Extended abstract
+#    pdf: "2025_Smith_ICRA_awesome"
+#    code: "https://github.com/hiro-group/awesome"
+#    url: "https://hiro-group.ronc.one/awesome/"
+#    host: "https://alessandro.ronc.one"   # omit to default to hiro-group.ronc.one
+#    subteams: [learning and modeling, alice, conference, embodied intelligence]
+#
+# =============================================================================
+
  - title: "ReSeeding Latent States for Sequential Language Understanding"
    authors: Stéphane Aroca-Ouellette, Katharina von der Wense, Alessandro Roncone
    year: 2025
@@ -45,6 +109,7 @@
    year: 2025
    venue: "IEEE International Conference on Robotics and Automation [ICRA]"
    where: Atlanta, Georgia, USA, May 19-23
+   url: "https://hiro-group.ronc.one/gentacttoolbox/"
    pdf: "2025_Kohlbrenner_ICRA_GenTactSkin"
    site: "gentacttoolbox"
    subteams: [control and artificial skin, carson, conference, embodied intelligence]
@@ -237,7 +302,8 @@
    authors: Nikolaus Correll, Bradley Hayes, Christoffer Heckman and Alessandro Roncone
    year: 2022
    venue: "MIT Press"
-   subteams: [learning and modeling, anuj,yi-shiuan, book, social intelligence, embodied intelligence]
+   code: "https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots"
+   subteams: [learning and modeling, book, social intelligence, embodied intelligence]
  - title: "How to be Helpful? Supportive Behaviors and Personalization for Human-Robot Collaboration"
    authors: Olivier Mangin, Alessandro Roncone, and Brian Scassellati
    year: 2022
