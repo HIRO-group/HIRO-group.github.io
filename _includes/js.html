@@ -96,6 +96,12 @@
       // Closes the Responsive Menu on Menu Item Click
       document.querySelectorAll('.navbar-collapse ul li a').forEach(item => {
         item.addEventListener('click', event => {
+          // Don't collapse the navbar if the user clicked a dropdown-toggle
+          // (e.g. the "Research" item) — let Bootstrap handle the dropdown instead.
+          if (item.classList.contains('dropdown-toggle')) {
+            return;
+          }
+
           let navbarToggler = document.querySelector('.navbar-toggler');
           if(window.getComputedStyle(navbarToggler).display !== 'none'){
             navbarToggler.click();

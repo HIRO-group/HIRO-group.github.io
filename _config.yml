@@ -32,6 +32,8 @@ address:
   - line: Boulder, 80309, CO, U.S.A.
 
 # Build settings
+exclude:
+  - docs
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
