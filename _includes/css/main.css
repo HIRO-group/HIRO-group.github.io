@@ -691,10 +691,21 @@ nav.navbar,
 }
 
 .navbar-shrink .navbar-brand {
-    min-width: 90px;
-    width: 90px;
+    width: auto;
     height: 60px;
-    background-image: url("{{ site.logo2 }}");
+}
+
+@media(min-width: 461px) {
+    .navbar-shrink .navbar-brand {
+        min-width: 220px;
+    }
+}
+
+@media(max-width: 460px) {
+    .navbar-shrink .navbar-brand {
+        min-width: 90px;
+        width: 90px;
+    }
 }
 
 
@@ -803,7 +814,7 @@ nav.navbar,
     }
 
     .navbar-shrink {
-        margin-top: -49px;
+        margin-top: -68px;
         transition: all ease .4s;
     }
 
