@@ -61,6 +61,15 @@
 #    subteams: [learning and modeling, alice, conference, embodied intelligence]
 #
 # =============================================================================
+ - title: "Design, Mapping, and Contact Anticipation with 3D-printed Whole-Body Tactile and Proximity Sensors"
+   authors: Carson Kohlbrenner, Anna Soukhovei, Caleb Escobedo, Nataliya Nechyporenko, Alessandro Roncone
+   year: 2026
+   venue: "IEEE International Conference on Robotics and Automation [ICRA]"
+   where: Vienna, Austria, June 1-5
+   url: "https://hiro-group.ronc.one/gentacttoolbox/"
+   site: "gentacttoolbox"
+   pdf: "2026_Kohlbrenner_ICRA"
+   subteams: [control and artificial skin, embodied intelligence, carson, caleb, nataliya, conference]
  - title: "CRED: Counterfactual Reasoning and Environment Design for Active Preference Learning"
    authors: Yi-Shiuan Tung, Gyanig Kumar, Wei Jiang, Bradley Hayes, Alessandro Roncone
    year: 2026
