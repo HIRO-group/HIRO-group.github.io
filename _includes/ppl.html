@@ -38,7 +38,7 @@
               </div>
             </div>
             {% elsif include.size == "big"%}{% comment %}This is for faculty, postdoc, and labmanager{% endcomment %}
-            <div class="card-hiro mb-2 mx-1 {% if person.subteam %}card-subteam-{{person.subteam}}{% endif %}">
+            <div class="card-hiro mb-2 mx-1 {% if person.subteam %}card-subteam-{{person.subteam}}{% endif %} {% if person.role == "faculty" or person.role == "labmanager" %}card-subteam-both{% endif %}">
               <div class="row no-gutters align-items-center py-2">
                 <div class="col-sm-4 text-center">
                     <div class="person-img-container mx-auto" style="width: 180px; height: 180px; margin-bottom: 0;">

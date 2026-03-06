@@ -1,11 +1,19 @@
 <div class="card-columns mt-4 mb-5">
 {% assign subteam_dash = include.subteam | replace: " ", "-" %}
-{% assign postdocs  = site.data.people | where: "role", "postdoc" | where: "subteam", subteam_dash %}
-{% assign phds      = site.data.people | where: "role", "phd"     | where: "subteam", subteam_dash %}
-{% assign members   = postdocs | concat: phds %}
+{% assign postdocs      = site.data.people | where: "role", "postdoc"     | where: "subteam", subteam_dash %}
+{% assign phds          = site.data.people | where: "role", "phd"         | where: "subteam", subteam_dash %}
+{% assign grads         = site.data.people | where: "role", "grad"        | where: "subteam", subteam_dash %}
+{% assign undergrads    = site.data.people | where: "role", "undergrad"   | where: "subteam", subteam_dash %}
+{% assign highschool    = site.data.people | where: "role", "highschool"  | where: "subteam", subteam_dash %}
+{% assign collaborators = site.data.people | where: "role", "collaborator" | where: "subteam", subteam_dash %}
+{% assign members       = postdocs | concat: phds | concat: grads | concat: undergrads | concat: highschool | concat: collaborators %}
 {% for person in members %}
-    {% assign role_label = "PhD Student" %}
-    {% if person.role == "postdoc" %}{% assign role_label = "Postdoc" %}{% endif %}
+    {% assign role_label = person.role | capitalize %}
+    {% if person.role == "phd" %}{% assign role_label = "PhD Student" %}{% endif %}
+    {% if person.role == "grad" %}{% assign role_label = "Graduate Student" %}{% endif %}
+    {% if person.role == "undergrad" %}{% assign role_label = "Undergraduate Student" %}{% endif %}
+    {% if person.role == "collaborator" %}{% assign role_label = "Collaborator" %}{% endif %}
+    {% if person.role == "highschool" %}{% assign role_label = "High School Student" %}{% endif %}
     <div class="card-hiro person-card-hiro mb-3 mx-1 pt-3 card-subteam-{{subteam_dash}}">
         <div class="person-img-container mx-auto">
             <img src="{% if person.pic %}/img/people/{{ person.pic }}{% else %}{{ site.logopng }}{% endif %}" class="person-img" alt="{{ person.name }}">

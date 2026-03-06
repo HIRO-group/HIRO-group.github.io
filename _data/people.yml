@@ -196,64 +196,75 @@
 # [in order of first appearance in the lab]   
  - name: Gyanig Kumar
    role: grad
+   subteam: social-intelligence
    url: https://gyanigk.github.io
    pic: gyanigkumar.png
 
  - name: Rahul Shetty
    role: grad
+   subteam: embodied-intelligence
    url: https://www.linkedin.com/in/rahul-shetty-8b417a179
    email: rahul.shetty-1@colorado.edu
    pic: Rahul.jpg
 
  - name: Divya SS Vankineni
    role: grad
+   subteam: social-intelligence
    url: https://www.linkedin.com/in/divya-sai-sindhuja-vankineni/
    email: sindhuja.vankineni@colorado.edu
    pic: DivyaVankineni.jpg
 
  - name: Klara Nitsche
    role: grad
+   subteam: embodied-intelligence
    url: https://www.linkedin.com/in/klara-nitsche-16088623a/
    email: Klara.Nitsche@colorado.edu
    pic: klara.jpeg
 
  - name: Patrick Liu
    role: grad
+   subteam: embodied-intelligence
    url: https://www.linkedin.com/in/patrickpliu1460/
    email: patrick.liu-1@colorado.edu
    pic: patrickliu.png
 
  - name: Steve Gillet
    role: grad
+   subteam: embodied-intelligence
    email: Steve.Gillet@colorado.edu
    pic: steveGillet.jpg
 
  - name: Ekshan Raj Verma
    role: grad
+   subteam: embodied-intelligence
    url: https://www.linkedin.com/in/ekshan-raj-verma/
    email: EkshanRaj.Verma@colorado.edu
    pic: ekshan.jpg
 
  - name: Nick Jackoski
    role: grad
+   subteam: embodied-intelligence
    url: https://www.linkedin.com/in/nickolaus-jackoski/
    email: Nick.Jackoski@colorado.edu
    pic: nickjackoski.jpg
 
  - name: Vincent Pietropaolo
    role: grad
+   subteam: social-intelligence
    url: https://www.linkedin.com/in/vincent-pietropaolo/
    email: vincent.pietropaolo@colorado.edu
    pic: vincentPietropaolo.jpg
 
  - name: Sean Campbell
    role: grad
+   subteam: embodied-intelligence
    url: https://www.linkedin.com/in/sean-campbell-8a535a117/
    email: Sean.Campbell-1@colorado.edu
    pic: sean_campbell.jpg
 
  - name: Sayak Ray
    role: grad
+   subteam: embodied-intelligence
    url: https://www.linkedin.com/in/sayak-ray-98b08028a/
    email: sayak.ray@colorado.edu
    pic: sayak_ray.jpg
@@ -263,22 +274,26 @@
 
  - name: Wei Jiang
    role: undergrad
+   subteam: social-intelligence
    url: https://mr2wei.github.io
    email: wei.jiang@colorado.edu
    pic: wei.jpg
 
  - name: Anna Soukhovei
    role: undergrad
+   subteam: embodied-intelligence
    email: anna.soukhovei@colorado.edu
    pic: anna_souk.png
   
  - name: Alex Dickhans
    role: undergrad
+   subteam: embodied-intelligence
    email: alex.dickhans@colorado.edu
    pic: alex.jpg
      
  - name: Liam Olczak
    role: undergrad
+   subteam: embodied-intelligence
    email: liam.olczak@colorado.edu
    pic: liamO.jpg
 
@@ -287,6 +302,7 @@
 
  - name: Coen Shields
    role: highschool
+   subteam: embodied-intelligence
    email: shieldscoen@gmail.com
    pic: coen.png
 
@@ -295,11 +311,13 @@
 
  - name: Yaashia Gautam
    role: collaborator
+   subteam: embodied-intelligence
    email: yaashia.gautam@colorado.edu
    pic: yaashia.jpg
 
  - name: Joe Miceli
    role: collaborator
+   subteam: social-intelligence
    linkedin: joseph-miceli
    email: joe.miceli@colorado.edu
    pic: jmiceli.jpg
