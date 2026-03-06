@@ -84,8 +84,6 @@
 
 # Postdocs
 
-# Postdocs
-
 
 # PhD Students
 # [in order of first appearance in the lab]
@@ -314,6 +312,7 @@
    subteam: social-intelligence
    url: https://jakebrawer.com
    pic: jake.jpg
+   graduated: HIRO Post-doc [2023-2025]
    nowat: Founding AI Engineer at stealth AI startup
 
  - name: Stéphane Aroca-Ouellette
