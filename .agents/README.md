@@ -4,11 +4,13 @@ This directory contains resources specifically designed to help AI agents unders
 
 ## Table of Contents
 - [Repository Structure](structure.md) - Overview of the project architecture.
-- [Recent Changes](recent_changes.md) - Summary of the latest updates and development focus.
 - [Verification Guide](#verifying-changes) - How to test changes locally.
 
 ## Core Purpose
 The HIRO Group website is a Jekyll-based static site that serves as the official portal for the Human Interaction and Robotics Group. It manages people, publications, and research subteams via structured YAML data and Markdown posts.
+
+> [!IMPORTANT]
+> These documentation files should be reviewed and updated every time a major change or a site release occurs to ensure they remain accurate for future agents.
 
 ## Verifying Changes
 To verify changes locally:
