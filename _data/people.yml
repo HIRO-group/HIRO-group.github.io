@@ -84,12 +84,8 @@
 
 # Postdocs
 
- - name: Jake Brawer
-   role: postdoc
-   subteam: social-intelligence
-   url: https://jakebrawer.com
-   email: jake.brawer@colorado.edu
-   pic: jake.jpg
+# Postdocs
+
 
 # PhD Students
 # [in order of first appearance in the lab]
@@ -312,6 +308,13 @@
 
 # Alumni Spotlight
 # [in inverse order of when they left the lab]
+
+ - name: Jake Brawer
+   role: alumni-spotlight
+   subteam: social-intelligence
+   url: https://jakebrawer.com
+   pic: jake.jpg
+   nowat: Founding AI Engineer at stealth AI startup
 
  - name: Stéphane Aroca-Ouellette
    role: alumni-spotlight
