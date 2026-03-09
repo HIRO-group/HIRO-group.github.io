@@ -9,7 +9,7 @@
             {% if role == person.role %}
             {% if role == "alumni" %}{% comment %}This is for alumni, postdoc, and labmanager{% endcomment %}
             <li>{% if person.url %}<a href="{{ person.url }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}{% if person.graduated %}, graduated in {{ person.graduated }}{% endif %}{% if person.nowat %}, now at {{ person.nowat }}{% endif %}.</li>
-            {% elsif role == "alumni-spotlight" %}{% comment %}This is for alumni spotlight{% endcomment %}
+            {% elsif role == "alumni-spotlight" or role == "alumni-phd" or role == "alumni-postdoc" %}{% comment %}This is for alumni spotlight{% endcomment %}
             <div class="card-hiro mb-2 mx-1 {% if person.subteam %}card-subteam-{{person.subteam}}{% endif %}">
               <div class="row no-gutters align-items-center py-2">
                 <div class="col-lg-4 text-center">
@@ -31,7 +31,7 @@
                         </div>
                     </div>
                     <p class="card-text small text-muted mb-0">
-                        {% if person.graduated %}{{ person.graduated }}{% endif %}{% if person.nowat %}, now {{ person.nowat }}{% endif %}.
+                        {% if person.graduated %}{{ person.graduated }}{% endif %}{% if person.nowat %}, {{ person.nowat }}{% endif %}.
                     </p>
                   </div>
                 </div>

@@ -12,6 +12,8 @@ roles:
 - undergrad
 - highschool
 - collaborator
+- alumni-phd
+- alumni-postdoc
 - alumni-spotlight
 - alumni
 ---
@@ -67,10 +69,14 @@ roles:
             {% include ppl.html role="collaborator" %}
             {% endif %}
 
-            {% assign alumni-spotlight = site.data.people | where:"role","alumni-spotlight" %}
-            {% if alumni-spotlight != blank %}
+            {% assign alumni_phd      = site.data.people | where:"role","alumni-phd" %}
+            {% assign alumni_postdoc  = site.data.people | where:"role","alumni-postdoc" %}
+            {% assign alumni_spot     = site.data.people | where:"role","alumni-spotlight" %}
+            {% if alumni_phd != blank or alumni_postdoc != blank or alumni_spot != blank %}
             <h1>Alumni Spotlight</h1>
 
+            {% include ppl.html role="alumni-phd"      size="medium" %}
+            {% include ppl.html role="alumni-postdoc"  size="medium" %}
             {% include ppl.html role="alumni-spotlight" size="medium" %}
             {% endif %}
 
