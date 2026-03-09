@@ -28,6 +28,7 @@
                         <div class="person-links d-inline-block m-0 p-0">
                             {% if person.email  %}<a href="mailto:{{ person.email }}" class="card-link"><i class="fa fa-fw fa-envelope"></i></a>{% endif %}
                             {% if person.url    %}<a href="{{ person.url }}" target="_blank" class="card-link"><i class="fa fa-fw fa-home"></i></a>{% endif %}
+                            {% if person.scholar %}<a href="https://scholar.google.com/citations?user={{ person.scholar }}" target="_blank" class="card-link"><i class="fa fa-fw fa-graduation-cap"></i></a>{% endif %}
                         </div>
                     </div>
                     <p class="card-text small text-muted mb-0">
@@ -56,6 +57,7 @@
                         <div class="person-links d-inline-block m-0 p-0 text-left">
                             {% if person.email  %}<a href="mailto:{{ person.email }}" class="card-link"><i class="fa fa-fw fa-envelope"></i></a>{% endif %}
                             {% if person.url    %}<a href="{{ person.url }}" target="_blank" class="card-link"><i class="fa fa-fw fa-home"></i></a>{% endif %}
+                            {% if person.scholar %}<a href="https://scholar.google.com/citations?user={{ person.scholar }}" target="_blank" class="card-link"><i class="fa fa-fw fa-graduation-cap"></i></a>{% endif %}
                         </div>
                     </div>
                     <div class="small">
@@ -87,6 +89,7 @@
                     {% elsif person.linkedin %}
                     <a href="https://www.linkedin.com/in/{{ person.linkedin }}" target="_blank" class="card-link"><i class="fa fa-fw fa-linkedin"></i></a>
                     {% endif %}
+                    {% if person.scholar %}<a href="https://scholar.google.com/citations?user={{ person.scholar }}" target="_blank" class="card-link"><i class="fa fa-fw fa-graduation-cap"></i></a>{% endif %}
                 </div>
             </div>
             {% endif %}

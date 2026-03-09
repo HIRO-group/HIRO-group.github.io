@@ -27,6 +27,7 @@
 #   phone:    Phone number string, e.g. "+1 (303) 555-1234"
 #   office:   Office room, e.g. "ECES 124"
 #   linkedin: LinkedIn username (slug only, NOT the full URL), e.g. "alice-smith"
+#   scholar:  Google Scholar user ID (the ?user=XXXX part), e.g. "abc123XXXXXX"
 #   page:     Slug for an internal lab page / CV, e.g. "anuj"
 #             → used to generate a link to /people/anuj (or similar)
 #
@@ -73,6 +74,7 @@
    phone: +1 (303) 735-6233
    email: alessandro.roncone@colorado.edu
    pic: alecive.jpg
+   scholar: nV-XGVIAAAAJ
 
 #lab Manager
  - name: Lyle Antieau
@@ -95,6 +97,7 @@
    url: https://joewiekoh.com
    email: joewie.koh@colorado.edu
    pic: joewie.jpg
+   scholar: AFvBNGUAAAAJ
 
  - name: Anuj Pasricha
    role: phd
@@ -103,6 +106,7 @@
    url: https://anuj.carrd.co
    email: anuj.pasricha@colorado.edu
    pic: anuj.jpg
+   scholar: zu18jdAAAAAJ
 
  - name: Caleb Escobedo
    role: phd
@@ -110,6 +114,7 @@
    page: caleb
    email: caleb.escobedo@colorado.edu
    pic: caleb.jpg
+   scholar: enFLPhgAAAAJ
 
  - name: Kayleigh (Kaleb) Bishop
    role: phd
@@ -117,6 +122,7 @@
    url: https://kalebishop.github.io
    email: kabi2483@colorado.edu
    pic: kaleb.jpg
+   scholar: IcMtTPYAAAAJ
 
  - name: Yi-Shiuan Tung
    role: phd
@@ -124,12 +130,14 @@
    url: https://yi-shiuan-tung.github.io
    email: yi-shiuan.tung@colorado.edu
    pic: yishiuan.jpg
+   scholar: en5bcx0AAAAJ
 
  - name: Clare Lohrmann
    role: phd
    subteam: social-intelligence
    email: clare.lohrmann@colorado.edu
    pic: clare.jpg
+   scholar: NlZvq3wAAAAJ
 
  - name: Gilberto Briscoe-Martinez
    role: phd
@@ -138,6 +146,7 @@
    url: https://gilberto.martinez.phd
    email: gilberto.briscoe-martinez@colorado.edu
    pic: gilberto.png
+   scholar: 6MNXSfsAAAAJ
 
  - name: Nataliya Nechyporenko
    role: phd
@@ -145,12 +154,14 @@
    url: https://nataliya.dev
    email: nataliya@colorado.edu
    pic: nataliya.jpg
+   scholar: Uw-9YsQAAAAJ
 
  - name: Chi-Hui Lin
    role: phd
    subteam: embodied-intelligence
    email: chli4608@colorado.edu
    pic: chihui.jpg
+   scholar: 2WpKo2sAAAAJ
 
  - name: Srikrishna Bangalore Raghu
    role: phd
@@ -158,6 +169,7 @@
    url: https://brsrikrishna.wixsite.com/srikrishna-bangalore
    email: srba2850@colorado.edu
    pic: srikrishna.png
+   scholar: IsVXLJMAAAAJ
 
  - name: Ava Abderezaei
    role: phd
@@ -165,6 +177,7 @@
    url: https://avv-va.github.io/
    email: ava.abderezaei@colorado.edu
    pic: ava.jpg
+   scholar: MXWPTOoAAAAJ
 
  - name: Naren Sivagnanadasan
    role: phd
@@ -172,6 +185,7 @@
    url: https://narendasan.com
    email: naren.sivagnanadasan@colorado.edu
    pic: naren.jpg
+   scholar: CDQ_1PQAAAAJ
 
  - name: Jay Vakil
    role: phd
@@ -179,12 +193,14 @@
    url: https://jdvakil.github.io
    email: jay.vakil@colorado.edu
    pic: jay.jpg
+   scholar: CuCLJkUAAAAJ
 
  - name: Yutong Zhang
    role: phd
    subteam: embodied-intelligence
    email: yutong.zhang.2000@colorado.edu
    pic: yutong.png
+   scholar: EEob-vIAAAAJ
 
  - name: Carson Kohlbrenner
    role: phd
@@ -192,6 +208,7 @@
    url: https://ckohl10.github.io
    email: carson.kohlbrenner@colorado.edu
    pic: carson.png
+   scholar: kroi6Q4AAAAJ
 
 # Graduate Students
 # [in order of first appearance in the lab]   
@@ -335,6 +352,7 @@
    graduated: "Ph.D. #2 [2020-2025]"
    nowat: Research Scientist at Skyfall AI
    pic: stephane.png
+   scholar: QCuUjccAAAAJ
 
  - name: Guohui Ding
    role: alumni-phd
@@ -352,6 +370,7 @@
    pic: jake.jpg
    graduated: "Post-doc #2 [2023-2025]"
    nowat: Founding AI Engineer at stealth AI startup
+   scholar: 1WIr3ZsAAAAJ
 
  - name: Shiran Dudy
    role: alumni-postdoc
@@ -360,6 +379,7 @@
    graduated: "Post-Doc #1 [2020-2021]"
    nowat: Research Scientist at Northeastern University
    pic: shiran.jpg
+   scholar: gK6PYrYAAAAJ
 
 # Everybody else Alumni
 
@@ -376,7 +396,7 @@
    subteam: embodied-intelligence
    url: https://peasant98.github.io/
    graduated: BS. Student [2019-2021]
-   nowat: Ph.D. student at Stanford University
+   nowat: Ph.D. student at Stanford University w/ Monroe Kennedy and Jeannette Bohg
    pic: mstrong.jpg
 
  - name: Chi-Ju Wu
