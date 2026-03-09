@@ -61,6 +61,14 @@
 #    subteams: [learning and modeling, alice, conference, embodied intelligence]
 #
 # =============================================================================
+ - title: "Dance2Hesitate: A Multi-Modal Dataset of Dancer-Taught Hesitancy for Understandable Robot Motion"
+   authors: "Srikrishna Bangalore Raghu, Anna Soukhovei, Divya Sai Sindhuja Vankineni, Alexandra Bacula, Alessandro Roncone"
+   year: 2026
+   venue: "Workshop on Designing Transparent and Understandable Robots (D-TUR) @ HRI"
+   where: Edinburgh, Scotland, UK, March 16-19
+   url: "https://brsrikrishna.github.io/Dance2Hesitate/"
+   pdf: "2026_BangaloreRaghu_DTUR_Dance2Hesitate"
+   subteams: [workshop, social intelligence]
  - title: "Moving On, Even When You're Broken: Fail-Active Trajectory Generation via Diffusion Policies Conditioned on Embodiment and Task"
    authors: "Gilberto G Briscoe-Martinez, Yaashia Gautam, Rahul Shetty, Anuj Pasricha, Marco M Nicotra, Alessandro Roncone"
    year: 2026
@@ -140,6 +148,7 @@
    year: 2025
    venue: "International Conference on Robot and Human Interactive Communication [RO-MAN]"
    where: Eindhoven, Netherlands, August 25-29
+   url: "https://brsrikrishna.github.io/ROMAN_25/"
    pdf: "2025_BangaloreRaghu_ROMAN_LabanShape"
    subteams: [algorithmic hri and human-ai teaming, srikrishna, conference, social intelligence] 
  - title: "CRED: Counterfactual Reasoning and Environment Design for Active Preference Learning"
