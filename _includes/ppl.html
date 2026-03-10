@@ -7,10 +7,21 @@
             {% endif %}
 
             {% if role == person.role %}
-            {% if role == "alumni" %}{% comment %}This is for alumni, postdoc, and labmanager{% endcomment %}
-            <li>{% if person.url %}<a href="{{ person.url }}" target="_blank">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}{% if person.graduated %}, graduated in {{ person.graduated }}{% endif %}{% if person.nowat %}, now at {{ person.nowat }}{% endif %}.</li>
+            {% if role == "alumni" %}{% comment %}This is for alumni{% endcomment %}
+            <div class="card-hiro alumni-mini-card mb-2 mx-1 px-3 py-2">
+                <h3 class="card-title alumni-name mt-1 mb-1" style="border-left: none; padding-left: 0; font-size: 1rem;">
+                    {% if person.url %}<a href="{{ person.url }}" target="_blank" style="color: inherit;">{{ person.name }}</a>
+                    {% elsif person.linkedin %}<a href="https://www.linkedin.com/in/{{ person.linkedin }}" target="_blank" style="color: inherit;">{{ person.name }}</a>
+                    {% else %}{{ person.name }}{% endif %}
+                </h3>
+                {% if person.graduated or person.nowat %}
+                <p class="card-text small text-muted mb-1" style="font-size: 0.82rem; line-height: 1.4;">
+                    {% if person.graduated %}{{ person.graduated }}{% endif %}{% if person.nowat %}{% if person.graduated %}, now at {% else %}Now at {% endif %}{{ person.nowat }}{% endif %}
+                </p>
+                {% endif %}
+            </div>
             {% elsif role == "alumni-spotlight" or role == "alumni-phd" or role == "alumni-postdoc" %}{% comment %}This is for alumni spotlight{% endcomment %}
-            <div class="card-hiro mb-2 mx-1 {% if person.subteam %}card-subteam-{{person.subteam}}{% endif %}">
+            <div class="card-hiro mb-4 mx-1 {% if person.subteam %}card-subteam-{{person.subteam}}{% endif %}">
               <div class="row no-gutters align-items-center py-2">
                 <div class="col-lg-4 text-center">
                     <div class="person-img-container mx-auto" style="width: 140px; height: 140px; margin-bottom: 0;">
@@ -32,7 +43,7 @@
                         </div>
                     </div>
                     <p class="card-text small text-muted mb-0">
-                        {% if person.graduated %}{{ person.graduated }}{% endif %}{% if person.nowat %}, {{ person.nowat }}{% endif %}.
+                        {% if person.graduated %}{{ person.graduated }}, {% endif %}{% if person.nowat %}{{ person.nowat }}{% endif %}.
                     </p>
                   </div>
                 </div>

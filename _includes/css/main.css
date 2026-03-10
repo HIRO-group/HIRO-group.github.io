@@ -161,8 +161,8 @@ button:focus {
     -webkit-backdrop-filter: blur(8px);
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 16px;
-    padding: 20px;
-    margin-bottom: 16px;
+    padding: 1rem;
+    margin-bottom: 0px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
     overflow: hidden;
@@ -1174,8 +1174,31 @@ section {
     padding: 0px;
 }
 
-#article .card-columns.alumni li {
-    padding-right: 8px;
+/* Alumni mini-cards: compact two-column glassmorphism list */
+#article .alumni-mini-card {
+    border-left: 4px solid rgba(50, 255, 184, 0.35);
+    padding: 10px 16px !important;
+    margin-bottom: 10px !important;
+    background: rgba(255, 255, 255, 0.03);
+    transition: all 0.25s ease;
+}
+
+#article .alumni-mini-card:hover {
+    transform: translateY(-2px);
+    background: rgba(50, 255, 184, 0.06);
+    border-left-color: #32FFB8;
+    box-shadow: 0 4px 20px rgba(50, 255, 184, 0.18);
+}
+
+#article .alumni-mini-card:hover .alumni-name,
+#article .alumni-mini-card:hover .alumni-name a {
+    color: #32FFB8 !important;
+}
+
+@media (max-width: 768px) {
+    #article .card-columns.alumni {
+        column-count: 1;
+    }
 }
 
 #article .card-img-overlay * {

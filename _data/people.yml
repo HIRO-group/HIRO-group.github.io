@@ -395,15 +395,15 @@
    role: alumni-spotlight
    subteam: embodied-intelligence
    url: https://peasant98.github.io/
-   graduated: BS. Student [2019-2021]
+   graduated: BS. [2019-2021]
    nowat: Ph.D. student at Stanford University w/ Monroe Kennedy and Jeannette Bohg
    pic: mstrong.jpg
 
  - name: Chi-Ju Wu
    role: alumni-spotlight
    subteam: embodied-intelligence
-   graduated: M.S. student [2019-2020]
-   nowat: at Waymo [previously Zoox]. First hire of the HIRO Group ❤️
+   graduated: M.S. [2019-2020]
+   nowat: Waymo [previously Zoox]. First hire of the HIRO Group ❤️
    pic: sayter.jpg
 
 # Alumni
@@ -468,7 +468,7 @@
 
  - name: Caleb Kumar
    role: alumni
-   nowat: Laboratory for for Atmospheric and Space Physics (LASP)
+   nowat: Laboratory for Atmospheric and Space Physics (LASP)
 
  - name: Matthew Eccles
    role: alumni
