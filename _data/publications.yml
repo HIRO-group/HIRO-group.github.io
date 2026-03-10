@@ -61,6 +61,13 @@
 #    subteams: [learning and modeling, alice, conference, embodied intelligence]
 #
 # =============================================================================
+ - title: "Design of a Robot-Assisted Chemical Dialysis System"
+   authors: Diane N. Jung, Caleb Escobedo, Noah Liska, Maitrey Gramopadhye, Daniel Szafir, Alessandro Roncone, Carson J. Bruns
+   year: 2026
+   venue: "ACM/IEEE International Conference on Human-Robot Interaction (HRI'26), Late Breaking Reports"
+   where: Edinburgh, Scotland, UK, March 16-19
+   pdf: "2026_Jung_HRI_LBR"
+   subteams: [conference, embodied intelligence, caleb, noah]
  - title: "Dance2Hesitate: A Multi-Modal Dataset of Dancer-Taught Hesitancy for Understandable Robot Motion"
    authors: "Srikrishna Bangalore Raghu, Anna Soukhovei, Divya Sai Sindhuja Vankineni, Alexandra Bacula, Alessandro Roncone"
    year: 2026
