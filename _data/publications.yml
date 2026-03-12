@@ -138,7 +138,7 @@
    year: 2025
    venue: University of Colorado Boulder
    where: Boulder, CO, U.S.A.
-   description: PhD dissertation
+   description: "PhD dissertation #2"
    subteams: [learning and modeling, stephane, thesis, social intelligence]
    pdf: "2025_Aroca-Ouellette_Thesis"
  - title: "GenTact Toolbox: A Computational Design Pipeline to Procedurally Generate Context-Driven 3D Printed Whole-Body Artificial Skins"
@@ -403,7 +403,7 @@
    year: 2021
    venue: University of Colorado Boulder
    where: Boulder, CO, U.S.A.
-   description: PhD dissertation
+   description: "PhD dissertation #1"
    subteams: [learning and modeling,guohui, thesis, embodied intelligence]
  - title: "Teaching Grounded Reading Skills via an Interactive Robot Tutor"
    authors: Kayleigh "Kaleb" Bishop, Bradley Hayes, Alessandro Roncone
