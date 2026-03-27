@@ -4,6 +4,9 @@ This directory contains resources specifically designed to help AI agents unders
 
 ## Table of Contents
 - [Repository Structure](structure.md) - Overview of the project architecture.
+- [Context Handoff](context-handoff.md) - Current state and progress tracking.
+- [Start Session Workflow](workflows/start-session.md) - Workflow for new agents to get oriented.
+- [Close Session Workflow](workflows/close-session.md) - Workflow for agents to wrap up and hand off.
 - [Verification Guide](#verifying-changes) - How to test changes locally.
 
 ## Core Purpose
