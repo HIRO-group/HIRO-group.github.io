@@ -48,7 +48,7 @@ Once you are **done with the preliminary steps**{:.color-banner} above, follow t
     - GitHub username
     - Your **firstname.lastname@colorado.edu**{:.color-banner} email alias for our Teams and mailing list
     - Who you will be working with 
-    - Short description of what you will be working on (one sentence or less)
+    - Brief description of who you are working with and your contributions to the project.
  3. Anuj and/or Ava will add you to Teams, [GitHub organization](https://github.com/HIRO-group), shared Calendar, and [mailing list](https://lists.colorado.edu/sympa/info/hiro-group).
     - Make your membership to the GitHub organization public.
     - Say hi in `#general` on Teams! Do mention who you're working with, and a brief description of what you'll be working on.
@@ -66,7 +66,7 @@ Once you are **done with the preliminary steps**{:.color-banner} above, follow t
 ## 2.3 Lab Access
 
  1. Write an email to the **[CS Front Office](mailto:csfrontoffice@colorado.edu) with [Prof. Alessandro Roncone](mailto:alessandro.roncone@colorado.edu), [Anuj Pasricha](mailto:anuj.pasricha@colorado.edu), and [Ava Abderezaei](mailto:ava.abderezaei@colorado.edu) in Cc**{:.color-banner}.
- 2. Ask to be granted access to ECST 322, ECES 116 and ECES 111. Please include the following information:
+ 2. Ask to be granted access to ECST 322. Please include the following information:
     - Name
     - Student ID
     - Buff OneCard number
