@@ -327,6 +327,12 @@
    email: qili7230@colorado.edu
    pic: QZFL.jpg
 
+ - name: Michael Bolar
+   role: undergrad
+   subteam: embodied-intelligence
+   email: michael.bolarJr@colorado.edu
+   pic: michaelb.jpg
+
 # High School Students, use role: highschool
 # [in order of first appearance in the lab]
 
@@ -361,7 +367,7 @@
    role: alumni-phd
    subteam: social-intelligence
    url: https://stephao.github.io/
-   graduated: "Ph.D. #2 [2020-2025]"
+   graduated: "Ph.D. #2 [2025]"
    nowat: Research Scientist at Skyfall AI
    pic: stephane.png
    scholar: QCuUjccAAAAJ
@@ -369,7 +375,7 @@
  - name: Guohui Ding
    role: alumni-phd
    subteam: embodied-intelligence
-   graduated: "Ph.D. #1 [2018-2021]"
+   graduated: "Ph.D. #1 [2021]"
    nowat: Research Scientist at Meta [Facebook]
    pic: guohui.jpg
 
@@ -399,7 +405,7 @@
    role: alumni-spotlight
    subteam: embodied-intelligence
    url: https://sandrabae.github.io/
-   graduated: Ph.D. [2024-2025]
+   graduated: Ph.D. [2025]
    nowat: Assistant Professor at Arizona State University
    pic: sandra.png
 
