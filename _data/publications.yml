@@ -61,6 +61,33 @@
 #    subteams: [learning and modeling, alice, conference, embodied intelligence]
 #
 # =============================================================================
+ - title: "Egocentric Tactile and Proximity Sensors as Observation Priors for Humanoid Collision Avoidance"
+   authors: Carson Kohlbrenner, Niraj Pudasaini, William Xie, Naren Sivagnanadasan, Nikolaus Correll, Alessandro Roncone
+   year: 2026
+   venue: "RoboTact Workshop @ ICRA"
+   where: Vienna, Austria, June 5
+   url: "https://hiro-group.ronc.one/gentacttoolbox/"
+   site: "gentacttoolbox"
+   pdf: "2026_Kohlbrenner_ICRA_bullet_time_workshop"
+   subteams: [control and artificial skin, embodied intelligence, carson, workshop]
+ - title: "A 3D-Printed Electrical Impedance Tomography Tactile Sensor for Scalable Coverage"
+   authors: Haofeng Chen, Carson Kohlbrenner, Jiri Kubik, Lukas Rustler, Alexander Dickhans, Alessandro Roncone, Hyosang Lee, and Matej Hoffmann
+   year: 2026
+   venue: "Towards Large-Area Tactile Sensing Skins: From Scalable Materials to Embodied Robotic Perception @ ICRA"
+   where: Vienna, Austria, June 1
+   url: "https://hiro-group.ronc.one/gentacttoolbox/"
+   site: "gentacttoolbox"
+   pdf: "2026_Chen_ICRA_EIT_workshop"
+   subteams: [control and artificial skin, embodied intelligence, carson, workshop]
+ - title: "Improving Sensing Coverage and Compliance of 3D-Printed Artificial Skins Through Multi-Modal Sensing and Soft Materials"
+   authors: Carson Kohlbrenner, Caleb Escobedo, Sayak Ray, Alexander Dickhans, Anna Soukhovei, Nickolaus Jackoski, Lyle Antieau, Alessandro Roncone
+   year: 2026
+   venue: "Towards Large-Area Tactile Sensing Skins: From Scalable Materials to Embodied Robotic Perception @ ICRA"
+   where: Vienna, Austria, June 1
+   url: "https://hiro-group.ronc.one/gentacttoolbox/"
+   site: "gentacttoolbox"
+   pdf: "2026_Kohlbrenner_ICRA_hybrid_workshop"
+   subteams: [control and artificial skin, embodied intelligence, carson, caleb, workshop]
  - title: "Design of a Robot-Assisted Chemical Dialysis System"
    authors: Diane N. Jung, Caleb Escobedo, Noah Liska, Maitrey Gramopadhye, Daniel Szafir, Alessandro Roncone, Carson J. Bruns
    year: 2026
