@@ -419,6 +419,13 @@
 # Alumni
 # [in inverse order of when they left the lab]
 
+ - name: Kayleigh Bishop
+   role: alumni
+   url: https://kalebishop.github.io
+   email: kayleighbishop345@gmail.com
+   graduated: Spring 2026 [MS.]
+   pic: kaleb.jpg
+
  - name: Idriss Djiofack Teledjieu
    role: alumni
    url: https://idrissdjio.github.io
