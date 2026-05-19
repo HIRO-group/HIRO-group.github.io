@@ -91,14 +91,6 @@
 # PhD Students
 # [in order of first appearance in the lab]
 
- - name: Joewie J. Koh
-   role: phd
-   subteam: embodied-intelligence
-   url: https://joewiekoh.com
-   email: joewie.koh@colorado.edu
-   pic: joewie.jpg
-   scholar: AFvBNGUAAAAJ
-
  - name: Anuj Pasricha
    role: phd
    subteam: embodied-intelligence
@@ -418,6 +410,15 @@
 
 # Alumni
 # [in inverse order of when they left the lab]
+
+ - name: Joewie J. Koh
+   role: alumni
+   url: https://joewiekoh.com
+   email: joewie.koh@colorado.edu
+   graduated: Spring 2024 [MS.]
+   nowat: Senior ML Engineer at Mitre Corporation
+   pic: joewie.jpg
+   scholar: AFvBNGUAAAAJ
 
  - name: Kayleigh Bishop
    role: alumni
