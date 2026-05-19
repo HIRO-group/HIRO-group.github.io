@@ -116,14 +116,6 @@
    pic: caleb.jpg
    scholar: enFLPhgAAAAJ
 
- - name: Kayleigh (Kaleb) Bishop
-   role: phd
-   subteam: social-intelligence
-   url: https://kalebishop.github.io
-   email: kabi2483@colorado.edu
-   pic: kaleb.jpg
-   scholar: IcMtTPYAAAAJ
-
  - name: Yi-Shiuan Tung
    role: phd
    subteam: social-intelligence
@@ -426,6 +418,13 @@
 
 # Alumni
 # [in inverse order of when they left the lab]
+
+ - name: Kayleigh Bishop
+   role: alumni
+   url: https://kalebishop.github.io
+   email: kayleighbishop345@gmail.com
+   graduated: Spring 2026 [MS.]
+   pic: kaleb.jpg
 
  - name: Idriss Djiofack Teledjieu
    role: alumni

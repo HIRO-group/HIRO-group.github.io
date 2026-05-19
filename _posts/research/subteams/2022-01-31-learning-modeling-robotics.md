@@ -115,7 +115,7 @@ Moreover, we envision multi-agent systems serving as the setting for the next wa
 
 ## 1.7. Learning Discourse Policies for Dialog Management
 
-**Students:** [Joewie J. Koh](https://joewiekoh.com), [Kaleb Bishop](https://kalebishop.github.io/)
+**Students:** [Joewie J. Koh](https://joewiekoh.com), [Kayleigh Bishop](https://kalebishop.github.io/)
 
 The [NSF National AI Institute for Student-AI Teaming (iSAT)](https://www.colorado.edu/research/ai-institute/) is a multi-site interdisciplinary institute with the vision of developing artificial intelligence as a social, collaborative partner that helps both students and teachers make learning more effective, engaging, and equitable.
 As a part of this institute, we conduct foundational research on dialog management for AI-based conversation participation and facilitation.

@@ -121,7 +121,7 @@ all per-person / per-subteam publication lists.
 **Person tags** (for per-person CV filtering):
 
 `anuj` · `ava` · `caleb` · `carson` · `chi-hui` · `clare` · `gilberto` ·
-`guohui` · `jake` · `joewie` · `kaleb` · `nataliya` · `naren` ·
+`guohui` · `jake` · `joewie` · `kayleigh` · `nataliya` · `naren` ·
 `srikrishna` · `stephane` · `yi-shiuan` · *(add new ones as needed)*
 
 **Topic tags** *(currently not used for rendering, kept for legacy filtering)*:

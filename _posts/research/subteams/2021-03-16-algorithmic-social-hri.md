@@ -61,7 +61,7 @@ In our most recent work, we introduce PACT, a method for setting conventions for
 ## 1.3 Interactive Task and Role Assignment for Human Robot Collaboration
 
 **Postdoc:** [Jake Brawer](https://jakebrawer.com/)
-**Students:** [Kaleb Bishop](https://kalebishop.github.io/)
+**Students:** [Kayleigh Bishop](https://kalebishop.github.io/)
 
 **_Publications_***
 - J. Brawer, K. Bishop, B. Hayes, and A. Roncone, _"Towards A Natural Language Interface for Flexible Multi-Agent Task Assignment,"_ in _2023 AAAI Fall Symposium on Artificial Intelligence for Human-Robot Interaction (AI-HRI)_, 2023. [[PDF]]({{ site.url }}/papers/2023_Brawer_AI-HRI_task_assignment.pdf) [[BIB]]({{ site.url }}/papers/2023_Brawer_AI-HRI_task_assignment.bib)
@@ -72,17 +72,7 @@ Large language models (LLMs) like ChatGPT, in contrast, are extraordinarily flex
 Our ongoing work seeks to narrow the gap between human ingenuity and algorithmic efficiency by enabling users to shape, update, and modify TAS systems entirely via LLM-mediated, interactive dialogue.
 We are confident that this approach will not only enhance the efficiency and flexibility of task management, but also democratizes the use of advanced TAS algorithms.
 
-## 1.4 Student-Robot Teaming and Robots in the Classroom
-
-**Students:** [Kaleb Bishop](https://kalebishop.github.io/)
-
-Recent work in cognitive learning theory and social psychology present new opportunities to improve and rethink the application of robots in the classroom.
-Why are robots such powerful agents of tutoring, and how can we use their unique social roles to develop student skills in reading, STEM, and beyond, and address educational inequality across lines of race, gender, and ability?
-Current projects, conducted in conjunction with the [NSF AI Institute for Student-AI Teaming (iSAT)](https://www.colorado.edu/research/ai-institute/) and the [Engineering Education and AI-Augmented Learning IRT](https://www.colorado.edu/irt/engineering-education-ai/), include study into HRI design considerations for students of color and developing a robot tutoring system to address grounded reading skills.
-
-{% include image.html url="research/isat.jpg" description="iSAT's vision for student-AI teaming and classroom orchestration." %}
-
-## 1.5 Robotic Intent Signaling System
+## 1.4 Robotic Intent Signaling System
 
 **Students:** Mitchell Scott, Shreyas Kadekodi, [Caleb Escobedo]({% post_url people/2019-10-10-caleb %}), Clare Lohrmann
 

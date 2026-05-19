@@ -40,7 +40,7 @@
 #
 #   Person tags (for per-person filtering on CVs):
 #     anuj, ava, caleb, carson, chi-hui, clare, gilberto, guohui,
-#     jake, joewie, kaleb, nataliya, naren, srikrishna, stephane, yi-shiuan, …
+#     jake, joewie, kayleigh, nataliya, naren, srikrishna, stephane, yi-shiuan, …
 #
 #   Topic tags (for subteam pages) [THIS IS CURRENTLY NOT USED]:
 #     algorithmic hri and human-ai teaming, control and artificial skin,
@@ -269,7 +269,7 @@
    venue: "AAAI Fall Symposium on Artificial Intelligence for Human-Robot Interaction [AI-HRI]"
    where: Arlington, VA, USA, Oct 25-27
    pdf: "2023_Brawer_AI-HRI_task_assignment"
-   subteams: [algorithmic hri and human-ai teaming, jake, kaleb, workshop, social intelligence]
+   subteams: [algorithmic hri and human-ai teaming, jake, kayleigh, workshop, social intelligence]
  - title: "CAT-RRT: Motion Planning that Admits Contact One Linke at a Time"
    authors: Nataliya Nechyporenko, Caleb Escobedo, Shreyas Kadekodi, Alessandro Roncone
    year: 2023
@@ -321,7 +321,7 @@
    venue: "IEEE International Conference on Robot & Human Interactive Communication [RO-MAN]"
    where: Naples, Italy, August 29
    pdf: "2022_Tung_ROMAN_kitting"
-   subteams: [algorithmic hri and human-ai teaming,yi-shiuan,kaleb, conference, social intelligence]
+   subteams: [algorithmic hri and human-ai teaming,yi-shiuan,kayleigh, conference, social intelligence]
  - title: "Open-Domain Dialogue Generation: What We Can Do, Cannot Do, And Should Do Next"
    authors: Katharina Kann, Abteen Ebrahimi, Joewie J. Koh, Shiran Dudy, Alessandro Roncone
    year: 2022
@@ -406,12 +406,12 @@
    description: "PhD dissertation #1"
    subteams: [learning and modeling,guohui, thesis, embodied intelligence]
  - title: "Teaching Grounded Reading Skills via an Interactive Robot Tutor"
-   authors: Kayleigh "Kaleb" Bishop, Bradley Hayes, Alessandro Roncone
+   authors: Kayleigh Bishop, Bradley Hayes, Alessandro Roncone
    year: 2021
    venue: ACM International Conference on Human-Robot Interaction [HRI], Workshop on Robots for Learning
    where: Boulder, CO, U.S.A., March 12
    pdf: "2021_Bishop_HRI_R4L"
-   subteams: [algorithmic hri and human-ai teaming,kaleb, workshop, social intelligence]
+   subteams: [algorithmic hri and human-ai teaming,kayleigh, workshop, social intelligence]
  - title: "Cooperative Control of Mobile Robots with Stackelberg Learning"
    authors: Joewie J. Koh*, Guohui Ding*, Christoffer Heckman, Lijun Chen, Alessandro Roncone
    year: 2020
