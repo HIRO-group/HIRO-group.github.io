@@ -276,6 +276,12 @@
    subteam: social-intelligence
    email: heyang.huang@colorado.edu
    pic: huang.jpg 
+
+ - name: Jesse Ruder-Hook
+   role: grad
+   subteam: embodied-intelligence
+   email: Jesse.Ruder-Hook@colorado.edu
+   pic: jesserh.jpeg
    
 # Undergraduate Students
 # [in order of first appearance in the lab]
