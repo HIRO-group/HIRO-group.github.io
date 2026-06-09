@@ -276,6 +276,12 @@
    subteam: social-intelligence
    email: heyang.huang@colorado.edu
    pic: huang.jpg 
+
+ - name: Jesse Ruder-Hook
+   role: grad
+   subteam: embodied-intelligence
+   email: Jesse.Ruder-Hook@colorado.edu
+   pic: jesserh.jpeg
    
 # Undergraduate Students
 # [in order of first appearance in the lab]
@@ -347,6 +353,12 @@
    email: fial5746@colorado.edu
    pic: filippo.png
    
+ - name: Arnav hazari
+   role: collaborator
+   subteam: embodied-intelligence
+   email: arnav.hazari@colorado.edu
+   pic: Arnav_Hazari_PFP.jpg
+
 # Alumni Spotlight
 # [in inverse order of when they left the lab]
 
