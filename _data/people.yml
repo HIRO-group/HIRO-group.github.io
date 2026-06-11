@@ -349,7 +349,8 @@
    pic: jmiceli.jpg
 
  - name: Filippo Alba
-   role: collaborator 
+   role: collaborator
+   subteam: embodied-intelligence 
    email: fial5746@colorado.edu
    pic: filippo.png
    
