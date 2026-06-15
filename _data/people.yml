@@ -348,6 +348,12 @@
    email: joe.miceli@colorado.edu
    pic: jmiceli.jpg
 
+ - name: Filippo Alba
+   role: collaborator
+   subteam: embodied-intelligence 
+   email: fial5746@colorado.edu
+   pic: filippo.png
+   
  - name: Arnav hazari
    role: collaborator
    subteam: embodied-intelligence
