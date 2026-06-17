@@ -61,6 +61,13 @@
 #    subteams: [learning and modeling, alice, conference, embodied intelligence]
 #
 # =============================================================================
+ - title: "Compliant Sphere Lattice Contact: Distributed Contact Modeling for Sphere-Based Robot Representations"
+   authors: Nataliya Nechyporenko, Ava Abderezaei, Alessandro Roncone
+   year: 2026
+   venue: "Workshop on the Path Towards Generalizable Contact-Rich Robotics: Control and Representation @ ICRA"
+   where: Vienna, Austria, June 5
+   pdf: "2026_Nechyporenko_ICRA_contact_workshop"
+   subteams: [embodied intelligence, nataliya, ava, workshop]
  - title: "Egocentric Tactile and Proximity Sensors as Observation Priors for Humanoid Collision Avoidance"
    authors: Carson Kohlbrenner, Niraj Pudasaini, William Xie, Naren Sivagnanadasan, Nikolaus Correll, Alessandro Roncone
    year: 2026
