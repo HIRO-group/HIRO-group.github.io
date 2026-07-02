@@ -61,6 +61,15 @@
 #    subteams: [learning and modeling, alice, conference, embodied intelligence]
 #
 # =============================================================================
+ - title: "Integrating Human Patterning Behaviors for the Improvement of Human-Robot Teams"
+   authors: Clare Lohrmann
+   year: 2026
+   venue: University of Colorado Boulder
+   where: Boulder, CO, U.S.A.
+   description: "PhD dissertation"
+   subteams: [clare, thesis, social intelligence]
+   pdf: "2026_Lohrmann_Thesis"
+
  - title: "Compliant Sphere Lattice Contact: Distributed Contact Modeling for Sphere-Based Robot Representations"
    authors: Nataliya Nechyporenko, Ava Abderezaei, Alessandro Roncone
    year: 2026
