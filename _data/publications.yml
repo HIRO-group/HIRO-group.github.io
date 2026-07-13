@@ -61,6 +61,15 @@
 #    subteams: [learning and modeling, alice, conference, embodied intelligence]
 #
 # =============================================================================
+ - title: "Compliant Explicit Reference Governor for Contact Friendly Robotic Manipulators"
+   authors: "Yaashia Gautam*, Gilberto G Briscoe-Martinez*, Adhitya Mohan, Nataliya Nechyporenko, Alessandro Roncone, Marco M Nicotra"
+   year: 2026
+   venue: "IFAC World Congress"
+   where: Busan, Republic of Korea, August 23-28
+   description: "*Equal contribution"
+   pdf: "2026_Gautam_IFAC_CERG"
+   subteams: [gilberto, yaashia, nataliya, conference, embodied intelligence]
+
  - title: "Integrating Human Patterning Behaviors for the Improvement of Human-Robot Teams"
    authors: Clare Lohrmann
    year: 2026
