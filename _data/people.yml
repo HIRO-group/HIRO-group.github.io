@@ -116,13 +116,6 @@
    pic: yishiuan.jpg
    scholar: en5bcx0AAAAJ
 
- - name: Clare Lohrmann
-   role: phd
-   subteam: social-intelligence
-   email: clare.lohrmann@colorado.edu
-   pic: clare.jpg
-   scholar: NlZvq3wAAAAJ
-
  - name: Gilberto Briscoe-Martinez
    role: phd
    subteam: embodied-intelligence
@@ -357,6 +350,15 @@
 # [in inverse order of when they left the lab]
 
 # PhD Alumni
+
+ - name: Clare Lohrmann
+   role: alumni-phd
+   subteam: social-intelligence
+   email: clare.lohrmann@colorado.edu
+   graduated: "Ph.D. #3 [2026]"
+   nowat: Assistant Professor at Western Washington University
+   pic: clare.jpg
+   scholar: NlZvq3wAAAAJ
 
  - name: Stéphane Aroca-Ouellette
    role: alumni-phd
