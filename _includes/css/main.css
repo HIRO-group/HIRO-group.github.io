@@ -1165,9 +1165,21 @@ section {
     column-count: 1;
 }
 
-#article .card-columns.alumni,
-#article .card-columns.medium {
+#article .card-columns.alumni {
     column-count: 2;
+}
+
+/* .medium (Alumni Spotlight) uses a real grid instead of CSS columns so
+   cards align in rows regardless of varying text height. */
+#article .card-columns.medium {
+    column-count: unset;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+#article .card-columns.medium .card-hiro {
+    margin: 0 !important;
 }
 
 #article .card-columns.medium .card-body {
@@ -1238,26 +1250,27 @@ section {
 }
 
 @media(max-width: 992px) {
-    #article .card-columns,
-    #article .card-columns.medium {
+    #article .card-columns {
         column-count: 3;
     }
 }
 
 @media(max-width: 768px) {
-    #article .card-columns,
-    #article .card-columns.medium {
+    #article .card-columns {
         column-count: 2;
     }
 
     #article .card-columns.alumni {
         column-count: 1;
     }
+
+    #article .card-columns.medium {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media(max-width: 450px) {
-    #article .card-columns,
-    #article .card-columns.medium {
+    #article .card-columns {
         column-count: 1;
     }
 }

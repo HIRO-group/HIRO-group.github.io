@@ -75,9 +75,11 @@ roles:
             {% if alumni_phd != blank or alumni_postdoc != blank or alumni_spot != blank %}
             <h1>Alumni Spotlight</h1>
 
-            {% include ppl.html role="alumni-phd"      size="medium" %}
-            {% include ppl.html role="alumni-postdoc"  size="medium" %}
-            {% include ppl.html role="alumni-spotlight" size="medium" %}
+            <div class="card-columns medium">
+            {% include ppl.html role="alumni-phd"      size="medium" nowrap=true %}
+            {% include ppl.html role="alumni-postdoc"  size="medium" nowrap=true %}
+            {% include ppl.html role="alumni-spotlight" size="medium" nowrap=true %}
+            </div>
             {% endif %}
 
             {% assign alumni = site.data.people | where:"role","alumni" %}

@@ -1,5 +1,5 @@
 
-        <div class="card-columns {% if include.size == "big" %}big{% elsif include.size == "medium" %}medium{% elsif include.role == "alumni" %}alumni{% endif %}">
+        {% unless include.nowrap %}<div class="card-columns {% if include.size == "big" %}big{% elsif include.size == "medium" %}medium{% elsif include.role == "alumni" %}alumni{% endif %}">{% endunless %}
         {% for person in site.data.people %}
 
             {% if include.role == "all" %} {% assign role =  person.role %}
@@ -106,4 +106,4 @@
             {% endif %}
             {% endif %}
         {% endfor %}
-        </div>
+        {% unless include.nowrap %}</div>{% endunless %}
