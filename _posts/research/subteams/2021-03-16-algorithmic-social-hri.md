@@ -74,7 +74,7 @@ We are confident that this approach will not only enhance the efficiency and fle
 
 ## 1.4 Robotic Intent Signaling System
 
-**Students:** Mitchell Scott, Shreyas Kadekodi, [Caleb Escobedo]({% post_url people/2019-10-10-caleb %}), Clare Lohrmann
+**Students:** Mitchell Scott, Shreyas Kadekodi, [Caleb Escobedo](https://caleb.phd), Clare Lohrmann
 
 The creation of information channels between robots and humans is complicated and fraught with potential pitfalls; the goal being a simplistic system that effectively carries information from one party to another consistently and clearly.
 While much work has gone into creating robot signals and modes of communication, most research seeks to answer the question “Does this system communicate what it was intended to?”, be it the robot's path, intent, or status.
