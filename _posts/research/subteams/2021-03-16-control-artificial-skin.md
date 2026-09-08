@@ -49,7 +49,7 @@ Likewise, we are looking to integrate our motion planning, controls, and percept
 
 ## 1.2 Plug-and-Play Sensor Units for Environmental Robotic Perception
 
-**Students:** Mary West, Matt Strong, [Caleb Escobedo]({% post_url people/2019-10-10-caleb %})
+**Students:** Mary West, Matt Strong, [Caleb Escobedo](https://caleb.phd)
 
 **_Publications:_**
  - K. Watanabe, M. Strong, M. West, C. Escobedo, A. Aramburu, K. Chaitanya and A. Roncone, _"Self-contained kinematic calibration of a novel whole-body artificial skin for human-robot collaboration,"_ in _2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, 2021. [[PDF]]({{ site.url }}/papers/2021_Watanabe_IROS_skin_calibration.pdf) [[BIB]]({{ site.url }}/papers/2021_Watanabe_IROS_skin_calibration.bib)
@@ -67,7 +67,7 @@ The next generation of sensors will include capacitive and force sensing to allo
 
 ## 1.3 Control Framework for Force Reduction and Human Anticipation
 
-**Students:** [Caleb Escobedo]({% post_url people/2019-10-10-caleb %}), Matt Strong, Mary West, Nataliya Nechyporenko
+**Students:** [Caleb Escobedo](https://caleb.phd), Matt Strong, Mary West, Nataliya Nechyporenko
 
 **_Publications:_**
  - C. Escobedo, M. Strong, M. West, A. Aramburu, and A. Roncone, _"Contact anticipation for physical human–robot interaction with robotic manipulators using onboard proximity sensors,"_ in _2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)_, 2021. [[PDF]]({{ site.url }}/papers/2021_Escobedo_IROS_contact_anticipation.pdf) [[BIB]]({{ site.url }}/papers/2021_Escobedo_IROS_contact_anticipation.bib)

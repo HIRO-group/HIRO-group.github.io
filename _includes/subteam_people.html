@@ -9,6 +9,7 @@
 {% assign members       = postdocs | concat: phds | concat: grads | concat: undergrads | concat: highschool | concat: collaborators %}
 {% for person in members %}
     {% assign role_label = person.role | capitalize %}
+    {% if person.role == "postdoc" %}{% assign role_label = "Postdoctoral Researcher" %}{% endif %}
     {% if person.role == "phd" %}{% assign role_label = "PhD Student" %}{% endif %}
     {% if person.role == "grad" %}{% assign role_label = "Graduate Student" %}{% endif %}
     {% if person.role == "undergrad" %}{% assign role_label = "Undergraduate Student" %}{% endif %}

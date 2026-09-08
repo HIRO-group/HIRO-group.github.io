@@ -87,6 +87,13 @@
 
 # Postdocs
 
+ - name: Caleb Escobedo
+   role: postdoc
+   subteam: embodied-intelligence
+   url: https://caleb.phd
+   email: caleb.escobedo@colorado.edu
+   pic: caleb.jpg
+   scholar: enFLPhgAAAAJ
 
 # PhD Students
 # [in order of first appearance in the lab]
@@ -99,14 +106,6 @@
    email: anuj.pasricha@colorado.edu
    pic: anuj.jpg
    scholar: zu18jdAAAAAJ
-
- - name: Caleb Escobedo
-   role: phd
-   subteam: embodied-intelligence
-   page: caleb
-   email: caleb.escobedo@colorado.edu
-   pic: caleb.jpg
-   scholar: enFLPhgAAAAJ
 
  - name: Yi-Shiuan Tung
    role: phd
