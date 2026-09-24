@@ -332,25 +332,6 @@
    email: yaashia.gautam@colorado.edu
    pic: yaashia.jpg
 
- - name: Joe Miceli
-   role: collaborator
-   subteam: social-intelligence
-   linkedin: joseph-miceli
-   email: joe.miceli@colorado.edu
-   pic: jmiceli.jpg
-
- - name: Filippo Alba
-   role: collaborator
-   subteam: embodied-intelligence 
-   email: fial5746@colorado.edu
-   pic: filippo.png
-   
- - name: Arnav hazari
-   role: collaborator
-   subteam: embodied-intelligence
-   email: arnav.hazari@colorado.edu
-   pic: Arnav_Hazari_PFP.jpg
-
 # Alumni Spotlight
 # [in inverse order of when they left the lab]
 
@@ -428,7 +409,21 @@
 
 # Alumni
 # [in inverse order of when they left the lab]
- 
+ - name: Joe Miceli
+   role: alumni
+   nowat: Apex Space
+   linkedin: joseph-miceli
+   email: joe.miceli8@gmail.com
+   pic: jmiceli.jpg
+
+ - name: Filippo Alba
+   role: alumni
+   pic: filippo.png
+   
+ - name: Arnav hazari
+   role: alumni
+   pic: Arnav_Hazari_PFP.jpg
+
  - name: Divya SS Vankineni
    role: alumni
    graduated: Spring 2026 [MS.]
