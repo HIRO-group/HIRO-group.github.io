@@ -98,15 +98,6 @@
 # PhD Students
 # [in order of first appearance in the lab]
 
- - name: Anuj Pasricha
-   role: phd
-   subteam: embodied-intelligence
-   page: anuj
-   url: https://anuj.carrd.co
-   email: anuj.pasricha@colorado.edu
-   pic: anuj.jpg
-   scholar: zu18jdAAAAAJ
-
  - name: Yi-Shiuan Tung
    role: phd
    subteam: social-intelligence
@@ -355,6 +346,17 @@
 # [in inverse order of when they left the lab]
 
 # PhD Alumni
+
+ - name: Anuj Pasricha
+   role: alumni-phd
+   subteam: embodied-intelligence
+   page: anuj
+   url: https://linkedin.com/in/anujpasricha
+   email: anujpasricha01@gmail.com
+   graduated: "Ph.D. #4 [2026]"
+   nowat: Senior Software Engineer, Robotics R&D at Berkshire Grey
+   pic: anuj.jpg
+   scholar: zu18jdAAAAAJ
 
  - name: Clare Lohrmann
    role: alumni-phd

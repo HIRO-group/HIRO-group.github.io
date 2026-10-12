@@ -61,6 +61,15 @@
 #    subteams: [learning and modeling, alice, conference, embodied intelligence]
 #
 # =============================================================================
+ - title: "Expanding Robot Manipulation Capability Through Dynamics-Constrained Motion Generation"
+   authors: Anuj Pasricha
+   year: 2026
+   venue: University of Colorado Boulder
+   where: Boulder, CO, U.S.A.
+   description: "PhD dissertation"
+   subteams: [anuj, thesis, embodied intelligence]
+   pdf: "2026_Pasricha_Thesis"
+
  - title: "Whole-Body Robot Skins for Near-Body Perception and Safe Interaction"
    authors: Caleb Escobedo
    year: 2026
