@@ -98,14 +98,6 @@
 # PhD Students
 # [in order of first appearance in the lab]
 
- - name: Yi-Shiuan Tung
-   role: phd
-   subteam: social-intelligence
-   url: https://yi-shiuan-tung.github.io
-   email: yi-shiuan.tung@colorado.edu
-   pic: yishiuan.jpg
-   scholar: en5bcx0AAAAJ
-
  - name: Gilberto Briscoe-Martinez
    role: phd
    subteam: embodied-intelligence
@@ -335,6 +327,16 @@
 # [in inverse order of when they left the lab]
 
 # PhD Alumni
+
+ - name: Yi-Shiuan Tung
+   role: alumni-phd
+   subteam: social-intelligence
+   url: https://yi-shiuan-tung.github.io
+   email: yi-shiuan.tung@gatech.edu
+   graduated: "Ph.D. #5 [2026]"
+   nowat: Post-doc at Georgia Tech and Emory School of Medicine
+   pic: yishiuan.jpg
+   scholar: WN8nASQAAAAJ
 
  - name: Anuj Pasricha
    role: alumni-phd

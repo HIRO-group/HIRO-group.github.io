@@ -79,6 +79,15 @@
    subteams: [caleb, thesis, embodied intelligence]
    pdf: "2026_Escobedo_Thesis"
 
+ - title: "Optimizing Interaction Through Environment Design: Reward Alignment and Intent Prediction in Human–Robot Systems"
+   authors: Yi-Shiuan Tung
+   year: 2026
+   venue: University of Colorado Boulder
+   where: Boulder, CO, U.S.A.
+   description: "PhD dissertation"
+   subteams: [yi-shiuan, thesis, social intelligence]
+   pdf: "2026_Tung_Thesis"
+
  - title: "Compliant Explicit Reference Governor for Contact Friendly Robotic Manipulators"
    authors: "Yaashia Gautam*, Gilberto G Briscoe-Martinez*, Adhitya Mohan, Nataliya Nechyporenko, Alessandro Roncone, Marco M Nicotra"
    year: 2026
