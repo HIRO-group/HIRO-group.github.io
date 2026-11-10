@@ -61,6 +61,16 @@
 #    subteams: [learning and modeling, alice, conference, embodied intelligence]
 #
 # =============================================================================
+
+ - title: "BBoE: Leveraging Bundle of Edges for
+Kinodynamic Bidirectional Motion Planning"
+   authors: Srikrishna Bangalore Raghu
+   year: 2026
+   url: https://brsrikrishna.github.io/BBoE_RAL/
+   venue: Robotics and Automation Letters (RA-L)
+   subteams: [embodied intelligence, srikrishna, journal]
+   pdf: "2026_BangaloreRaghu_RAL"
+   
  - title: "Expanding Robot Manipulation Capability Through Dynamics-Constrained Motion Generation"
    authors: Anuj Pasricha
    year: 2026
